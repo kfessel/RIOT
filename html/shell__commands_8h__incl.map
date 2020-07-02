@@ -1,0 +1,7 @@
+<map id="sys/include/shell_commands.h" name="sys/include/shell_commands.h">
+<area shape="rect" id="node2" href="$shell_8h.html" title="Shell interface definition. " alt="" coords="117,80,177,107"/>
+<area shape="rect" id="node4" href="$pm_8h.html" title="Power management interface. " alt="" coords="101,155,192,181"/>
+<area shape="rect" id="node7" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="77,379,195,405"/>
+<area shape="rect" id="node5" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="5,229,75,256"/>
+<area shape="rect" id="node6" href="$panic_8h.html" title="Crash handling header. " alt="" coords="69,304,133,331"/>
+</map>

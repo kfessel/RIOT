@@ -1,0 +1,4 @@
+<map id="boards/common/remote/include/board_common.h" name="boards/common/remote/include/board_common.h">
+<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="357,169,453,196"/>
+<area shape="rect" id="node7" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="223,95,312,121"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="drivers/include/mtd_sdcard.h" name="drivers/include/mtd_sdcard.h">
+<area shape="rect" id="node3" href="$sdcard__spi_8h.html" title="Public interface for the sdcard_spi driver. " alt="" coords="165,95,261,121"/>
+<area shape="rect" id="node11" href="$mtd_8h.html" title="mtd.h" alt="" coords="11,169,65,196"/>
+<area shape="rect" id="node4" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="208,169,297,196"/>
+<area shape="rect" id="node10" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="389,244,485,271"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="drivers/ds18/include/ds18_params.h" name="drivers/ds18/include/ds18_params.h">
+<area shape="rect" id="node2" href="$ds18_8h.html" title="Driver for Maxim Integrated DS1822 and DS18B20 temperature sensors. " alt="" coords="237,95,299,121"/>
+<area shape="rect" id="node7" href="$saul__reg_8h.html" title="SAUL registry interface definition. " alt="" coords="337,95,420,121"/>
+<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="191,169,287,196"/>
+<area shape="rect" id="node9" href="$saul_8h.html" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer. " alt="" coords="417,169,474,196"/>
+<area shape="rect" id="node11" href="$phydat_8h.html" title="Generic data container for physical data interface. " alt="" coords="528,244,600,271"/>
+<area shape="rect" id="node10" href="$errno_8h.html" title="errno.h" alt="" coords="441,244,503,271"/>
+<area shape="rect" id="node13" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="556,319,673,345"/>
+</map>

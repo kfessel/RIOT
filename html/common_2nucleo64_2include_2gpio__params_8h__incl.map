@@ -1,0 +1,10 @@
+<map id="boards/common/nucleo64/include/gpio_params.h" name="boards/common/nucleo64/include/gpio_params.h">
+<area shape="rect" id="node2" href="$common_2nucleo64_2include_2board_8h.html" title="Common pin definitions and board configuration options. " alt="" coords="225,95,291,121"/>
+<area shape="rect" id="node14" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="6,169,102,196"/>
+<area shape="rect" id="node3" href="$board__nucleo_8h.html" title="Global common Nucleo board configuration. " alt="" coords="404,169,515,196"/>
+<area shape="rect" id="node6" href="$common_2nucleo64_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins. " alt="" coords="127,169,251,196"/>
+<area shape="rect" id="node12" href="$motor__driver_8h.html" title="High&#45;level driver for DC motors. " alt="" coords="275,169,380,196"/>
+<area shape="rect" id="node7" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="270,244,366,271"/>
+<area shape="rect" id="node10" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="27,244,121,271"/>
+<area shape="rect" id="node13" href="$pwm_8h.html" title="Low&#45;level PWM peripheral driver interface definitions. " alt="" coords="145,244,245,271"/>
+</map>

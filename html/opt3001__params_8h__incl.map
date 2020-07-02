@@ -1,0 +1,10 @@
+<map id="drivers/opt3001/include/opt3001_params.h" name="drivers/opt3001/include/opt3001_params.h">
+<area shape="rect" id="node3" href="$opt3001_8h.html" title="Interface definition for the OPT3001 sensor driver. " alt="" coords="303,169,382,196"/>
+<area shape="rect" id="node12" href="$saul__reg_8h.html" title="SAUL registry interface definition. " alt="" coords="140,95,223,121"/>
+<area shape="rect" id="node5" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition. " alt="" coords="393,244,482,271"/>
+<area shape="rect" id="node11" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="79,319,196,345"/>
+<area shape="rect" id="node10" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="619,319,757,345"/>
+<area shape="rect" id="node13" href="$saul_8h.html" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer. " alt="" coords="121,169,178,196"/>
+<area shape="rect" id="node15" href="$phydat_8h.html" title="Generic data container for physical data interface. " alt="" coords="5,244,77,271"/>
+<area shape="rect" id="node14" href="$errno_8h.html" title="errno.h" alt="" coords="102,244,165,271"/>
+</map>

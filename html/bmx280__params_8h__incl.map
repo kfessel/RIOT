@@ -1,0 +1,10 @@
+<map id="drivers/bmx280/include/bmx280_params.h" name="drivers/bmx280/include/bmx280_params.h">
+<area shape="rect" id="node3" href="$bmx280_8h.html" title="Device driver interface for the BMP280 and BME280 sensors. " alt="" coords="246,95,325,121"/>
+<area shape="rect" id="node15" href="$saul__reg_8h.html" title="SAUL registry interface definition. " alt="" coords="97,95,180,121"/>
+<area shape="rect" id="node5" href="$saul_8h.html" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer. " alt="" coords="158,169,215,196"/>
+<area shape="rect" id="node10" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition. " alt="" coords="345,244,434,271"/>
+<area shape="rect" id="node6" href="$errno_8h.html" title="errno.h" alt="" coords="155,244,218,271"/>
+<area shape="rect" id="node7" href="$phydat_8h.html" title="Generic data container for physical data interface. " alt="" coords="8,244,80,271"/>
+<area shape="rect" id="node9" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="21,319,139,345"/>
+<area shape="rect" id="node14" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="391,319,529,345"/>
+</map>

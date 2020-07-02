@@ -1,0 +1,6 @@
+<map id="drivers/include/soft_spi.h" name="drivers/include/soft_spi.h">
+<area shape="rect" id="node2" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="79,169,175,196"/>
+<area shape="rect" id="node6" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="218,95,307,121"/>
+<area shape="rect" id="node10" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="443,95,512,121"/>
+<area shape="rect" id="node11" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="583,169,633,196"/>
+</map>

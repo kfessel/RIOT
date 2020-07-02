@@ -1,0 +1,4 @@
+<map id="boards/remote&#45;pa/include/periph_conf.h" name="boards/remote&#45;pa/include/periph_conf.h">
+<area shape="rect" id="node3" href="$cfg__clk__default_8h.html" title="Default clock configuration for cc2538 based boards. " alt="" coords="365,95,487,121"/>
+<area shape="rect" id="node7" href="$cfg__uart__default_8h.html" title="Common default UART configuration for the RE&#45;Mote board revision A. " alt="" coords="5,95,132,121"/>
+</map>

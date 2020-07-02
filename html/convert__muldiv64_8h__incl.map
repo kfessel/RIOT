@@ -1,0 +1,7 @@
+<map id="sys/include/ztimer/convert_muldiv64.h" name="sys/include/ztimer/convert_muldiv64.h">
+<area shape="rect" id="node2" href="$ztimer_8h.html" title="ztimer API " alt="" coords="81,169,150,196"/>
+<area shape="rect" id="node11" href="$convert_8h.html" title="ztimer frequency conversion base module " alt="" coords="105,95,221,121"/>
+<area shape="rect" id="node4" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="177,319,283,345"/>
+<area shape="rect" id="node9" href="$msg_8h.html" title="Messaging API for inter process communication. " alt="" coords="86,244,145,271"/>
+<area shape="rect" id="node5" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="95,393,173,420"/>
+</map>

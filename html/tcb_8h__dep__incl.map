@@ -1,0 +1,8 @@
+<map id="sys/include/net/gnrc/tcp/tcb.h" name="sys/include/net/gnrc/tcp/tcb.h">
+<area shape="rect" id="node2" href="$gnrc_2tcp_8h.html" title="GNRC TCP API. " alt="" coords="5,95,144,136"/>
+<area shape="rect" id="node3" href="$net_2gnrc_2transport__layer_2tcp_2internal_2common_8h.html" title="Internally used defines, macros and variable declarations. " alt="" coords="169,95,359,136"/>
+<area shape="rect" id="node4" href="$fsm_8h.html" title="TCP finite state maschine declarations. " alt="" coords="384,95,547,136"/>
+<area shape="rect" id="node5" href="$option_8h.html" title="TCP option handling declarations. " alt="" coords="571,95,746,136"/>
+<area shape="rect" id="node6" href="$net_2gnrc_2transport__layer_2tcp_2internal_2pkt_8h.html" title="TCP packet handling declarations. " alt="" coords="770,95,929,136"/>
+<area shape="rect" id="node7" href="$rcvbuf_8h.html" title="Functions for allocating and freeing the receive buffer. " alt="" coords="953,95,1129,136"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="boards/stm32f769i&#45;disco/include/periph_conf.h" name="boards/stm32f769i&#45;disco/include/periph_conf.h">
+<area shape="rect" id="node4" href="$cfg__timer__tim2_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM2. " alt="" coords="165,95,284,121"/>
+<area shape="rect" id="node5" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="309,95,431,121"/>
+</map>

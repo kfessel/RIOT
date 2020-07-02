@@ -1,0 +1,6 @@
+<map id="boards/cc2650stk/include/gpio_params.h" name="boards/cc2650stk/include/gpio_params.h">
+<area shape="rect" id="node2" href="$cc2650stk_2include_2board_8h.html" title="Board configuration for the CC2650STK. " alt="" coords="109,95,174,121"/>
+<area shape="rect" id="node7" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="199,95,295,121"/>
+<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,169,189,196"/>
+<area shape="rect" id="node8" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="213,169,307,196"/>
+</map>

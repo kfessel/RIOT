@@ -1,0 +1,5 @@
+<map id="boards/p&#45;nucleo&#45;wb55/include/arduino_board.h" name="boards/p&#45;nucleo&#45;wb55/include/arduino_board.h">
+<area shape="rect" id="node2" href="$p-nucleo-wb55_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins. " alt="" coords="138,95,262,121"/>
+<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,169,189,196"/>
+<area shape="rect" id="node7" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="213,169,307,196"/>
+</map>

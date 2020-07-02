@@ -1,0 +1,7 @@
+<map id="boards/nucleo&#45;f446ze/include/periph_conf.h" name="boards/nucleo&#45;f446ze/include/periph_conf.h">
+<area shape="rect" id="node3" href="$cfg__clock__180__8__1_8h.html" title="Configure STM32F4 clock to 180MHz using PLL. " alt="" coords="23,95,183,121"/>
+<area shape="rect" id="node4" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C. " alt="" coords="207,95,346,121"/>
+<area shape="rect" id="node5" href="$cfg__spi__divtable_8h.html" title="Collection of pre&#45;computed bus pre&#45;scalers for SPI configuration. " alt="" coords="370,95,497,121"/>
+<area shape="rect" id="node6" href="$cfg__timer__tim5_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM5. " alt="" coords="521,95,640,121"/>
+<area shape="rect" id="node7" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="664,95,787,121"/>
+</map>

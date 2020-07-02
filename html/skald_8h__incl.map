@@ -1,0 +1,24 @@
+<map id="sys/include/net/skald.h" name="sys/include/net/skald.h">
+<area shape="rect" id="node3" href="$xtimer_8h.html" title="xtimer interface definitions " alt="" coords="524,80,593,107"/>
+<area shape="rect" id="node28" href="$sys_2include_2net_2ble_8h.html" title="General BLE values as defined by the BT standard. " alt="" coords="617,80,689,107"/>
+<area shape="rect" id="node29" href="$drivers_2include_2net_2netdev_2ble_8h.html" title="BLE specific adaption for the Netdev API. " alt="" coords="957,80,1072,107"/>
+<area shape="rect" id="node5" href="$timex_8h.html" title="Utility library for comparing and computing timestamps. " alt="" coords="195,229,261,256"/>
+<area shape="rect" id="node7" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="51,229,120,256"/>
+<area shape="rect" id="node10" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="285,229,392,256"/>
+<area shape="rect" id="node13" href="$rmutex_8h.html" title="Recursive Mutex for thread synchronization. " alt="" coords="394,155,467,181"/>
+<area shape="rect" id="node17" href="$tick__conversion_8h.html" title="xtimer tick &lt;&#45;&gt; seconds conversions for different values of XTIMER_HZ " alt="" coords="633,155,797,181"/>
+<area shape="rect" id="node22" href="$implementation_8h.html" title="xtimer implementation " alt="" coords="933,155,1094,181"/>
+<area shape="rect" id="node6" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="131,304,210,331"/>
+<area shape="rect" id="node9" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="5,304,56,331"/>
+<area shape="rect" id="node18" href="$div_8h.html" title="div.h" alt="" coords="683,229,733,256"/>
+<area shape="rect" id="node19" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="579,304,648,331"/>
+<area shape="rect" id="node20" href="$panic_8h.html" title="Crash handling header. " alt="" coords="513,379,577,405"/>
+<area shape="rect" id="node21" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="420,453,537,480"/>
+<area shape="rect" id="node23" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions. " alt="" coords="757,229,859,256"/>
+<area shape="rect" id="node26" href="$irq_8h.html" title="IRQ driver interface. " alt="" coords="1026,229,1073,256"/>
+<area shape="rect" id="node25" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="672,304,811,331"/>
+<area shape="rect" id="node30" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="1170,155,1265,181"/>
+<area shape="rect" id="node31" href="$errno_8h.html" title="errno.h" alt="" coords="1170,229,1233,256"/>
+<area shape="rect" id="node32" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="1257,229,1317,256"/>
+<area shape="rect" id="node34" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="1341,229,1432,256"/>
+</map>

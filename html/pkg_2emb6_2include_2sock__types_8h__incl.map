@@ -1,0 +1,15 @@
+<map id="pkg/emb6/include/sock_types.h" name="pkg/emb6/include/sock_types.h">
+<area shape="rect" id="node3" href="$mbox_8h.html" title="Mailbox API. " alt="" coords="407,95,473,121"/>
+<area shape="rect" id="node17" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="497,95,567,121"/>
+<area shape="rect" id="node18" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses. " alt="" coords="591,95,699,121"/>
+<area shape="rect" id="node4" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="429,169,480,196"/>
+<area shape="rect" id="node5" href="$cib_8h.html" title="Circular integer buffer interface. " alt="" coords="235,169,285,196"/>
+<area shape="rect" id="node10" href="$msg_8h.html" title="Messaging API for inter process communication. " alt="" coords="347,169,405,196"/>
+<area shape="rect" id="node6" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="132,244,201,271"/>
+<area shape="rect" id="node7" href="$panic_8h.html" title="Crash handling header. " alt="" coords="45,319,109,345"/>
+<area shape="rect" id="node8" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="5,393,123,420"/>
+<area shape="rect" id="node13" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="291,244,397,271"/>
+<area shape="rect" id="node14" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="198,319,277,345"/>
+<area shape="rect" id="node20" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="755,244,842,271"/>
+<area shape="rect" id="node21" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions. " alt="" coords="657,169,765,196"/>
+</map>

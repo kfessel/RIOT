@@ -1,0 +1,14 @@
+<map id="pkg/lwip/include/arch/sys_arch.h" name="pkg/lwip/include/arch/sys_arch.h">
+<area shape="rect" id="node4" href="$cib_8h.html" title="Circular integer buffer interface. " alt="" coords="455,169,506,196"/>
+<area shape="rect" id="node9" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="389,244,495,271"/>
+<area shape="rect" id="node13" href="$mbox_8h.html" title="Mailbox API. " alt="" coords="293,95,359,121"/>
+<area shape="rect" id="node16" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="21,169,90,196"/>
+<area shape="rect" id="node17" href="$random_8h.html" title="Common interface to the software PRNG. " alt="" coords="613,244,689,271"/>
+<area shape="rect" id="node18" href="$sema_8h.html" title="Semaphore definitions. " alt="" coords="95,95,160,121"/>
+<area shape="rect" id="node5" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="519,244,589,271"/>
+<area shape="rect" id="node6" href="$panic_8h.html" title="Crash handling header. " alt="" coords="510,319,574,345"/>
+<area shape="rect" id="node7" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="453,393,570,420"/>
+<area shape="rect" id="node10" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="599,319,677,345"/>
+<area shape="rect" id="node14" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="165,244,215,271"/>
+<area shape="rect" id="node15" href="$msg_8h.html" title="Messaging API for inter process communication. " alt="" coords="322,169,381,196"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="boards/nucleo&#45;f207zg/include/periph_conf.h" name="boards/nucleo&#45;f207zg/include/periph_conf.h">
+<area shape="rect" id="node3" href="$cfg__clock__120__8__1_8h.html" title="Configure STM32F2 clock to 120MHz using PLL. " alt="" coords="26,95,186,121"/>
+<area shape="rect" id="node4" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C. " alt="" coords="210,95,349,121"/>
+<area shape="rect" id="node5" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="373,95,496,121"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="core/include/priority_queue.h" name="core/include/priority_queue.h">
+<area shape="rect" id="node2" href="$condition__variable_8hpp.html" title="C++11 condition variable drop in replacement. " alt="" coords="5,95,183,136"/>
+<area shape="rect" id="node4" href="$priority__pktqueue_8h.html" title="gnrc priority packet queue API " alt="" coords="207,95,346,136"/>
+<area shape="rect" id="node9" href="$pthread__rwlock_8h.html" title="Implementation of a fair, POSIX conforming reader/writer lock. " alt="" coords="370,95,541,136"/>
+<area shape="rect" id="node11" href="$pthread__cond_8h.html" title="RIOT POSIX condition variable API. " alt="" coords="565,95,735,136"/>
+<area shape="rect" id="node3" href="$thread_8hpp.html" title="C++11 thread drop in replacement. " alt="" coords="7,184,181,225"/>
+<area shape="rect" id="node5" href="$sys_2include_2net_2gnrc_2mac_2types_8h.html" title="Internal data types used by GNRC_MAC. " alt="" coords="207,184,346,225"/>
+<area shape="rect" id="node6" href="$netif_2mac_8h.html" title="Common MAC module definitions for Network interface API " alt="" coords="9,281,147,322"/>
+<area shape="rect" id="node7" href="$lwmac__internal_8h.html" title="Interface definition for internal functions of LWMAC protocol. " alt="" coords="171,281,382,322"/>
+<area shape="rect" id="node8" href="$tx__state__machine_8h.html" title="Implementation of TX state machine. " alt="" coords="406,273,566,329"/>
+<area shape="rect" id="node10" href="$pthread_8h.html" title="POSIX conforming multi&#45;threading features. " alt="" coords="467,184,638,225"/>
+</map>

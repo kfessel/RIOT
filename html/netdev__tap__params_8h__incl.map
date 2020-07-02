@@ -1,0 +1,10 @@
+<map id="cpu/native/include/netdev_tap_params.h" name="cpu/native/include/netdev_tap_params.h">
+<area shape="rect" id="node2" href="$netdev__tap_8h.html" title="Low&#45;level ethernet driver for native tap interfaces. " alt="" coords="361,95,459,121"/>
+<area shape="rect" id="node4" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="193,169,288,196"/>
+<area shape="rect" id="node9" href="$net_2ethernet_2hdr_8h.html" title="Ethernet header definitions. " alt="" coords="399,169,523,196"/>
+<area shape="rect" id="node5" href="$errno_8h.html" title="errno.h" alt="" coords="209,244,272,271"/>
+<area shape="rect" id="node6" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="9,244,69,271"/>
+<area shape="rect" id="node8" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="94,244,185,271"/>
+<area shape="rect" id="node10" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="509,244,588,271"/>
+<area shape="rect" id="node11" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="399,244,485,271"/>
+</map>

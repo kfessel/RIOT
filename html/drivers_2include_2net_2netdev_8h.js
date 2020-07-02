@@ -1,0 +1,37 @@
+var drivers_2include_2net_2netdev_8h =
+[
+    [ "netdev_driver_t", "group__drivers__netdev__api.html#ga4cb47b21edc35315143091dfa97652e4", null ],
+    [ "netdev_event_cb_t", "group__drivers__netdev__api.html#gad323355be0487ba68c16dea102740275", null ],
+    [ "netdev_t", "group__drivers__netdev__api.html#ga14012f723b7591ad2fa42ace34601ac4", null ],
+    [ "NETDEV_TYPE_UNKNOWN", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a4c7c2262c8252cb0205af0f0b55fd586", null ],
+    [ "NETDEV_TYPE_TEST", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a96f7114151111c1ae9679f943acfc6f9", null ],
+    [ "NETDEV_TYPE_RAW", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a36202d93368d81c8db64926184164c6d", null ],
+    [ "NETDEV_TYPE_ETHERNET", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a5dc237a875e06ba3507e5b2b01ee158e", null ],
+    [ "NETDEV_TYPE_IEEE802154", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a24ac796c22d8fcca704a28ee5d35a04f", null ],
+    [ "NETDEV_TYPE_BLE", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a9bc57ab3f3c9bf5552a0181438314c96", null ],
+    [ "NETDEV_TYPE_CC110X", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a9031cac6a6e989d586cc8df64f2ad2e3", null ],
+    [ "NETDEV_TYPE_LORA", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942aba72b68c6c4731e08c1c3aa37462a6e2", null ],
+    [ "NETDEV_TYPE_NRFMIN", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a5c952b459da1609247ce1830fbdf5fe6", null ],
+    [ "NETDEV_TYPE_SLIP", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a5ac8ac3629921f1f152e0f4a822f3370", null ],
+    [ "NETDEV_TYPE_ESP_NOW", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a2249d513c8426c14cf44598e8473cd0d", null ],
+    [ "netdev_event_t", "group__drivers__netdev__api.html#gaef91a5201cb4a25d1c3ef41b783a395b", [
+      [ "NETDEV_EVENT_ISR", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395ba168994cf166acb43cd2a84d3d6ffb3b2", null ],
+      [ "NETDEV_EVENT_RX_STARTED", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395ba89aecdc8f6cad116c5cc960d000f9674", null ],
+      [ "NETDEV_EVENT_RX_COMPLETE", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395ba4cd3a85ba967f4d91beccf6afc76af00", null ],
+      [ "NETDEV_EVENT_TX_STARTED", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395ba0eb0b2e773afcfd02dd27e862df2d9dc", null ],
+      [ "NETDEV_EVENT_TX_COMPLETE", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395babc159414d6cb9e811df35258dc2d7262", null ],
+      [ "NETDEV_EVENT_TX_COMPLETE_DATA_PENDING", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395ba8fe79b16b45d236cbcf0e601c1ce61fd", null ],
+      [ "NETDEV_EVENT_TX_NOACK", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395ba3f0c14b10f18a82b0a57dbcfe98466a4", null ],
+      [ "NETDEV_EVENT_TX_MEDIUM_BUSY", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395ba668af8115ed5d90be0f30edc21b30f8a", null ],
+      [ "NETDEV_EVENT_LINK_UP", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395ba1770509acec86cdb1b65d04646c7f2b6", null ],
+      [ "NETDEV_EVENT_LINK_DOWN", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395bae146cd5423f6be146373fe286e8b1466", null ],
+      [ "NETDEV_EVENT_TX_TIMEOUT", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395ba775056d3ef94f184a2757fd31871c422", null ],
+      [ "NETDEV_EVENT_RX_TIMEOUT", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395bac2f0fa7a22b3cb312da6b7f0c773367b", null ],
+      [ "NETDEV_EVENT_CRC_ERROR", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395ba59ef2a7f5c5d6da023953b43a1b8c4a6", null ],
+      [ "NETDEV_EVENT_FHSS_CHANGE_CHANNEL", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395ba78ad65eb223df7bc239fa7b8802611c3", null ],
+      [ "NETDEV_EVENT_CAD_DONE", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395bafc1fd5cc76d7fb9a42eb45042dbdeca0", null ]
+    ] ],
+    [ "netdev_get_notsup", "group__drivers__netdev__api.html#ga33bcec35f10a62c91e7371018f438e2f", null ],
+    [ "netdev_set_notsup", "group__drivers__netdev__api.html#gae883bf801aea28c6a11b59929cb8d419", null ],
+    [ "netdev_trigger_event_isr", "group__drivers__netdev__api.html#ga0404e4d821b66ea54cb09e16dd93379c", null ]
+];

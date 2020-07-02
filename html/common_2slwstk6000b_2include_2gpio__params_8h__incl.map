@@ -1,0 +1,8 @@
+<map id="boards/common/slwstk6000b/include/gpio_params.h" name="boards/common/slwstk6000b/include/gpio_params.h">
+<area shape="rect" id="node2" href="$common_2slwstk6000b_2include_2board_8h.html" title="Board specific definitions for the SLWSTK6000B starter kit. " alt="" coords="492,95,557,121"/>
+<area shape="rect" id="node15" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="391,169,487,196"/>
+<area shape="rect" id="node4" href="$boards_2common_2slwstk6000b_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SLWSTK6000B starter kit. " alt="" coords="692,169,792,196"/>
+<area shape="rect" id="node8" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="434,244,530,271"/>
+<area shape="rect" id="node11" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="197,169,287,196"/>
+<area shape="rect" id="node16" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="317,244,410,271"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="boards/esp32&#45;wemos&#45;lolin&#45;d32&#45;pro/include/arduino_board.h" name="boards/esp32&#45;wemos&#45;lolin&#45;d32&#45;pro/include/arduino_board.h">
+<area shape="rect" id="node2" href="$arduino__board__common_8h.html" title="Common board for the Arduino API. " alt="" coords="14,109,185,136"/>
+<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="225,109,321,136"/>
+<area shape="rect" id="node8" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="345,109,438,136"/>
+</map>

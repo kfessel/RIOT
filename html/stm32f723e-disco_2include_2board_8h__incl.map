@@ -1,0 +1,4 @@
+<map id="boards/stm32f723e&#45;disco/include/board.h" name="boards/stm32f723e&#45;disco/include/board.h">
+<area shape="rect" id="node3" href="$boards_2stm32f723e-disco_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the STM32F723E&#45;DISCO board. " alt="" coords="90,95,190,121"/>
+<area shape="rect" id="node6" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="223,169,345,196"/>
+</map>

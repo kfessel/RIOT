@@ -1,0 +1,13 @@
+<map id="pkg/lwip/include/arch/cc.h" name="pkg/lwip/include/arch/cc.h">
+<area shape="rect" id="node2" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="5,80,75,107"/>
+<area shape="rect" id="node6" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="99,80,178,107"/>
+<area shape="rect" id="node7" href="$stdio_8h.html" title="stdio.h wrapper for MSP430 " alt="" coords="203,80,264,107"/>
+<area shape="rect" id="node8" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="288,80,352,107"/>
+<area shape="rect" id="node10" href="$irq_8h.html" title="IRQ driver interface. " alt="" coords="377,80,423,107"/>
+<area shape="rect" id="node13" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="447,80,534,107"/>
+<area shape="rect" id="node15" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="559,80,628,107"/>
+<area shape="rect" id="node3" href="$panic_8h.html" title="Crash handling header. " alt="" coords="52,155,116,181"/>
+<area shape="rect" id="node4" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="232,229,349,256"/>
+<area shape="rect" id="node9" href="$malloc_8h.html" title="malloc.h" alt="" coords="185,155,255,181"/>
+<area shape="rect" id="node16" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="631,155,681,181"/>
+</map>

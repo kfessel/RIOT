@@ -1,0 +1,14 @@
+<map id="sys/include/net/sock/async/event.h" name="sys/include/net/sock/async/event.h">
+<area shape="rect" id="node2" href="$ip_8h.html" title="Raw IPv4/IPv6 sock definitions. " alt="" coords="170,95,267,121"/>
+<area shape="rect" id="node13" href="$sock_2tcp_8h.html" title="TCP sock definitions. " alt="" coords="423,95,529,121"/>
+<area shape="rect" id="node14" href="$sock_2udp_8h.html" title="UDP sock definitions. " alt="" coords="291,95,399,121"/>
+<area shape="rect" id="node15" href="$async_8h.html" title="Definitions for sock extension for asynchronous access. " alt="" coords="705,95,828,121"/>
+<area shape="rect" id="node3" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="31,169,100,196"/>
+<area shape="rect" id="node8" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="124,169,188,196"/>
+<area shape="rect" id="node11" href="$sock_8h.html" title="Common sock API definitions. " alt="" coords="428,169,511,196"/>
+<area shape="rect" id="node4" href="$panic_8h.html" title="Crash handling header. " alt="" coords="32,244,96,271"/>
+<area shape="rect" id="node5" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="5,319,123,345"/>
+<area shape="rect" id="node9" href="$malloc_8h.html" title="malloc.h" alt="" coords="121,244,191,271"/>
+<area shape="rect" id="node16" href="$sys_2include_2net_2sock_2async_2types_8h.html" title="Definitions for sock extension for asynchronous access. " alt="" coords="687,169,846,196"/>
+<area shape="rect" id="node17" href="$sock__async__ctx_8h.html" title="Type definitions for asynchronous socks with Event Queue. " alt="" coords="871,169,999,196"/>
+</map>

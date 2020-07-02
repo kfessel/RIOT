@@ -1,0 +1,11 @@
+<map id="boards/sensebox_samd21/include/gpio_params.h" name="boards/sensebox_samd21/include/gpio_params.h">
+<area shape="rect" id="node2" href="$sensebox__samd21_2include_2board_8h.html" title="Support for the SenseBox MCU with SAMD21 board. " alt="" coords="522,95,587,121"/>
+<area shape="rect" id="node16" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="672,244,768,271"/>
+<area shape="rect" id="node4" href="$boards_2sensebox__samd21_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for SenseBox MCU with SAMD21. " alt="" coords="505,169,605,196"/>
+<area shape="rect" id="node7" href="$mtd__sdcard_8h.html" title="Interface definition for mtd_sdcard driver. " alt="" coords="379,169,480,196"/>
+<area shape="rect" id="node8" href="$sdcard__spi_8h.html" title="Public interface for the sdcard_spi driver. " alt="" coords="271,244,367,271"/>
+<area shape="rect" id="node15" href="$mtd_8h.html" title="mtd.h" alt="" coords="411,319,466,345"/>
+<area shape="rect" id="node9" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="246,319,335,345"/>
+<area shape="rect" id="node14" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="437,393,533,420"/>
+<area shape="rect" id="node17" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="665,319,759,345"/>
+</map>

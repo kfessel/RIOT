@@ -1,0 +1,8 @@
+<map id="sys/include/isrpipe.h" name="sys/include/isrpipe.h">
+<area shape="rect" id="node3" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="59,80,128,107"/>
+<area shape="rect" id="node6" href="$tsrb_8h.html" title="Thread&#45;safe ringbuffer interface definition. " alt="" coords="215,80,270,107"/>
+<area shape="rect" id="node5" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="5,155,56,181"/>
+<area shape="rect" id="node7" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="221,155,291,181"/>
+<area shape="rect" id="node8" href="$panic_8h.html" title="Crash handling header. " alt="" coords="212,229,276,256"/>
+<area shape="rect" id="node9" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="173,304,291,331"/>
+</map>

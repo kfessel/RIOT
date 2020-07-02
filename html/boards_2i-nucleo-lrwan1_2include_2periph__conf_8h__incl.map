@@ -1,0 +1,4 @@
+<map id="boards/i&#45;nucleo&#45;lrwan1/include/periph_conf.h" name="boards/i&#45;nucleo&#45;lrwan1/include/periph_conf.h">
+<area shape="rect" id="node3" href="$cfg__clock__32__16__1_8h.html" title="Configure STM32L0 clock using 32MHz core clock and LSE (32.768kHz) " alt="" coords="23,95,182,121"/>
+<area shape="rect" id="node5" href="$cfg__timer__tim2_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM2. " alt="" coords="346,95,465,121"/>
+</map>

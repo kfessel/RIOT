@@ -1,0 +1,11 @@
+<map id="boards/stm32f4discovery/include/gpio_params.h" name="boards/stm32f4discovery/include/gpio_params.h">
+<area shape="rect" id="node2" href="$stm32f4discovery_2include_2board_8h.html" title="Board specific definitions for the STM32F4Discovery evaluation board. " alt="" coords="437,95,502,121"/>
+<area shape="rect" id="node10" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="539,169,635,196"/>
+<area shape="rect" id="node4" href="$boards_2stm32f4discovery_2include_2periph__conf_8h.html" title="periph_conf.h" alt="" coords="299,169,399,196"/>
+<area shape="rect" id="node6" href="$cfg__clock__168__8__0_8h.html" title="Configure STM32F4 clock to 168MHz using PLL and without LSE. " alt="" coords="5,244,165,271"/>
+<area shape="rect" id="node8" href="$cfg__spi__divtable_8h.html" title="Collection of pre&#45;computed bus pre&#45;scalers for SPI configuration. " alt="" coords="387,244,514,271"/>
+<area shape="rect" id="node9" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="189,244,312,271"/>
+<area shape="rect" id="node7" href="$cfg__clock__168__8__common_8h.html" title="Configure STM32F4 clock to 168MHz using PLL. " alt="" coords="18,319,153,360"/>
+<area shape="rect" id="node11" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="539,244,635,271"/>
+<area shape="rect" id="node14" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="659,244,752,271"/>
+</map>

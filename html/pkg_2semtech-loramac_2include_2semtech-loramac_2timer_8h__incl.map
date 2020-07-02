@@ -1,0 +1,30 @@
+<map id="pkg/semtech&#45;loramac/include/semtech&#45;loramac/timer.h" name="pkg/semtech&#45;loramac/include/semtech&#45;loramac/timer.h">
+<area shape="rect" id="node2" href="$xtimer_8h.html" title="xtimer interface definitions " alt="" coords="454,259,523,285"/>
+<area shape="rect" id="node28" href="$msg_8h.html" title="Messaging API for inter process communication. " alt="" coords="330,333,389,360"/>
+<area shape="rect" id="node29" href="$semtech__loramac_8h.html" title="Public API and definitions of the Semtech LoRaMAC. " alt="" coords="481,109,617,136"/>
+<area shape="rect" id="node5" href="$timex_8h.html" title="Utility library for comparing and computing timestamps. " alt="" coords="116,408,181,435"/>
+<area shape="rect" id="node7" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="22,408,91,435"/>
+<area shape="rect" id="node10" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="371,408,478,435"/>
+<area shape="rect" id="node13" href="$rmutex_8h.html" title="Recursive Mutex for thread synchronization. " alt="" coords="181,333,255,360"/>
+<area shape="rect" id="node17" href="$tick__conversion_8h.html" title="xtimer tick &lt;&#45;&gt; seconds conversions for different values of XTIMER_HZ " alt="" coords="656,333,820,360"/>
+<area shape="rect" id="node22" href="$implementation_8h.html" title="xtimer implementation " alt="" coords="1075,333,1236,360"/>
+<area shape="rect" id="node6" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="140,483,219,509"/>
+<area shape="rect" id="node9" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="65,483,115,509"/>
+<area shape="rect" id="node18" href="$div_8h.html" title="div.h" alt="" coords="705,408,755,435"/>
+<area shape="rect" id="node19" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="659,483,729,509"/>
+<area shape="rect" id="node20" href="$panic_8h.html" title="Crash handling header. " alt="" coords="622,557,686,584"/>
+<area shape="rect" id="node21" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="578,632,695,659"/>
+<area shape="rect" id="node23" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions. " alt="" coords="1147,408,1249,435"/>
+<area shape="rect" id="node26" href="$irq_8h.html" title="IRQ driver interface. " alt="" coords="1076,408,1123,435"/>
+<area shape="rect" id="node25" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="1030,483,1169,509"/>
+<area shape="rect" id="node30" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="973,259,1068,285"/>
+<area shape="rect" id="node35" href="$loramac_8h.html" title="LoRaMAC header definitions. " alt="" coords="567,184,669,211"/>
+<area shape="rect" id="node38" href="$sx127x_8h.html" title="Public interface for SX127X driver. " alt="" coords="983,184,1058,211"/>
+<area shape="rect" id="node31" href="$errno_8h.html" title="errno.h" alt="" coords="1427,333,1489,360"/>
+<area shape="rect" id="node32" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="991,333,1051,360"/>
+<area shape="rect" id="node34" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="1311,333,1402,360"/>
+<area shape="rect" id="node36" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="847,259,911,285"/>
+<area shape="rect" id="node37" href="$malloc_8h.html" title="malloc.h" alt="" coords="844,333,915,360"/>
+<area shape="rect" id="node39" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="1425,408,1521,435"/>
+<area shape="rect" id="node40" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="1513,333,1603,360"/>
+</map>

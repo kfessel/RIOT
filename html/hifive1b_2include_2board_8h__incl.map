@@ -1,0 +1,4 @@
+<map id="boards/hifive1b/include/board.h" name="boards/hifive1b/include/board.h">
+<area shape="rect" id="node3" href="$hifive1b_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins for the SiFive HiFive1b board. " alt="" coords="84,95,208,121"/>
+<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="98,169,194,196"/>
+</map>

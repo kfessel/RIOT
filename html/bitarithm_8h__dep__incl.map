@@ -1,0 +1,13 @@
+<map id="core/include/bitarithm.h" name="core/include/bitarithm.h">
+<area shape="rect" id="node2" href="$arm7__common_8h.html" title="ARM7 CPU common declarations. " alt="" coords="173,80,352,121"/>
+<area shape="rect" id="node6" href="$lpc2387_8h_source.html" title="cpu/lpc2387/include\l/lpc2387.h" alt="" coords="246,169,383,211"/>
+<area shape="rect" id="node7" href="$avsextrem_2include_2board_8h.html" title="Boards specific drivers and configuration for the Avsextrem board. " alt="" coords="355,259,525,300"/>
+<area shape="rect" id="node11" href="$msba2_2include_2board_8h.html" title="Basic definitions for the MSB&#45;A2 board. " alt="" coords="549,259,699,300"/>
+<area shape="rect" id="node12" href="$dose_8h.html" title="Driver for the Differentially Operated Serial Ethernet module. " alt="" coords="528,87,677,114"/>
+<area shape="rect" id="node3" href="$arm__cpu_8h_source.html" title="cpu/arm7_common/include\l/arm_cpu.h" alt="" coords="5,169,184,211"/>
+<area shape="rect" id="node4" href="$lpc2387_2include_2cpu_8h_source.html" title="cpu/lpc2387/include\l/cpu.h" alt="" coords="6,259,143,300"/>
+<area shape="rect" id="node5" href="$lpc2387_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling. " alt="" coords="6,348,143,389"/>
+<area shape="rect" id="node8" href="$mcb2388_2include_2board_8h.html" title="Basic definitions for the MCB2388 board. " alt="" coords="168,259,331,300"/>
+<area shape="rect" id="node9" href="$mcb2388_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="355,348,517,389"/>
+<area shape="rect" id="node10" href="$mcb2388_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="168,348,331,389"/>
+</map>

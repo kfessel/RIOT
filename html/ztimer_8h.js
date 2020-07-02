@@ -1,0 +1,26 @@
+var ztimer_8h =
+[
+    [ "MSG_ZTIMER", "group__sys__ztimer.html#ga85289624f0c958bc0174f61bd728b582", null ],
+    [ "ZTIMER_CLOCK_NO_REQUIRED_PM_MODE", "group__sys__ztimer.html#ga31826ee80148499098015ed01ce503d6", null ],
+    [ "ztimer_base_t", "group__sys__ztimer.html#ga0f3984c505b85ddf76049771c0bd6222", null ],
+    [ "ztimer_clock_t", "group__sys__ztimer.html#ga3639ce794c3bd80a6e9bbe88a7db4a88", null ],
+    [ "ztimer_now_t", "group__sys__ztimer.html#gab10130a9b13fd88ea06a2889e63342f6", null ],
+    [ "_ztimer_now_extend", "group__sys__ztimer.html#gae2f7c7499bb59b188ad910063ee881fe", null ],
+    [ "ztimer_handler", "group__sys__ztimer.html#gae2432e9f2e227fce4a4730afdbe59cb6", null ],
+    [ "ztimer_init", "group__sys__ztimer.html#ga0774ba6e5613bad33dc855c0f73565cc", null ],
+    [ "ztimer_init_extend", "group__sys__ztimer.html#gacdd4826cb78f398402a587718254b141", null ],
+    [ "ztimer_msg_receive_timeout", "group__sys__ztimer.html#gabe88b7f7076d2b48bb17912b78bdc336", null ],
+    [ "ztimer_now", "group__sys__ztimer.html#gabcd8174ea28626e102b40143075ed9c8", null ],
+    [ "ztimer_periodic_wakeup", "group__sys__ztimer.html#ga40107ed3e27898606f8bfc69d01fb39e", null ],
+    [ "ztimer_remove", "group__sys__ztimer.html#gaa1a5c0e4f8ffd3b87ae189420f4c3cad", null ],
+    [ "ztimer_set", "group__sys__ztimer.html#gaa2b547ebf6f464b317c07e53f6a5933a", null ],
+    [ "ztimer_set_msg", "group__sys__ztimer.html#ga595ba6d03ea9052dd3e67d55b0b0dcf7", null ],
+    [ "ztimer_set_timeout_flag", "group__sys__ztimer.html#gaf3b87b65d13b41cdaacde7385afd4a60", null ],
+    [ "ztimer_set_wakeup", "group__sys__ztimer.html#ga50b1929e8ff4a920020e3111bbd8050e", null ],
+    [ "ztimer_sleep", "group__sys__ztimer.html#gade98636e198f2d571c8acd861d29d360", null ],
+    [ "ztimer_update_head_offset", "group__sys__ztimer.html#ga1a0d5d3e93aae8f37e46b357a52c74fa", null ],
+    [ "ZTIMER_MSEC", "group__sys__ztimer.html#gaf89aa36047e5e6859e5b08c9bacd1c3e", null ],
+    [ "ZTIMER_MSEC_BASE", "group__sys__ztimer.html#ga5adbd6f8c80cee6a72e346e176e8ead7", null ],
+    [ "ZTIMER_USEC", "group__sys__ztimer.html#ga9da8117fed13070316af0e816403a986", null ],
+    [ "ZTIMER_USEC_BASE", "group__sys__ztimer.html#gae93f084aed0c7c9ebcaedf5ed0e9971d", null ]
+];

@@ -1,0 +1,6 @@
+<map id="boards/esp8266&#45;olimex&#45;mod/include/gpio_params.h" name="boards/esp8266&#45;olimex&#45;mod/include/gpio_params.h">
+<area shape="rect" id="node2" href="$esp8266-olimex-mod_2include_2board_8h.html" title="Board specific definitions for Olimex MOD&#45;WIFI&#45;ESP8266&#45;DEV boards. " alt="" coords="50,95,115,121"/>
+<area shape="rect" id="node5" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="166,95,262,121"/>
+<area shape="rect" id="node6" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="285,169,381,196"/>
+<area shape="rect" id="node10" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="168,169,261,196"/>
+</map>

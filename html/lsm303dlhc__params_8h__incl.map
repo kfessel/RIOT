@@ -1,0 +1,11 @@
+<map id="drivers/lsm303dlhc/include/lsm303dlhc_params.h" name="drivers/lsm303dlhc/include/lsm303dlhc_params.h">
+<area shape="rect" id="node3" href="$lsm303dlhc_8h.html" title="Device driver interface for the LSM303DLHC 3D accelerometer/magnetometer. " alt="" coords="320,184,418,211"/>
+<area shape="rect" id="node12" href="$saul__reg_8h.html" title="SAUL registry interface definition. " alt="" coords="484,109,566,136"/>
+<area shape="rect" id="node5" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition. " alt="" coords="300,259,390,285"/>
+<area shape="rect" id="node11" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="60,259,156,285"/>
+<area shape="rect" id="node10" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="282,333,421,360"/>
+<area shape="rect" id="node13" href="$saul_8h.html" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer. " alt="" coords="543,184,600,211"/>
+<area shape="rect" id="node15" href="$phydat_8h.html" title="Generic data container for physical data interface. " alt="" coords="654,259,726,285"/>
+<area shape="rect" id="node14" href="$errno_8h.html" title="errno.h" alt="" coords="567,259,630,285"/>
+<area shape="rect" id="node16" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="637,333,754,360"/>
+</map>

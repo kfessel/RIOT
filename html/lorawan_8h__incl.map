@@ -1,0 +1,39 @@
+<map id="sys/include/net/gnrc/lorawan.h" name="sys/include/net/gnrc/lorawan.h">
+<area shape="rect" id="node2" href="$gnrc__lorawan__internal_8h.html" title="GNRC LoRaWAN internal header. " alt="" coords="1300,95,1459,121"/>
+<area shape="rect" id="node3" href="$stdio_8h.html" title="stdio.h wrapper for MSP430 " alt="" coords="201,319,262,345"/>
+<area shape="rect" id="node5" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="2295,319,2355,345"/>
+<area shape="rect" id="node7" href="$sys_2include_2net_2lora_8h.html" title="LoRa modulation header definitions. " alt="" coords="1341,319,1417,345"/>
+<area shape="rect" id="node11" href="$net_2lorawan_2hdr_8h.html" title="LoRaWAN header type and helper function definitions. " alt="" coords="506,244,629,271"/>
+<area shape="rect" id="node14" href="$loramac_8h.html" title="LoRaMAC header definitions. " alt="" coords="1082,319,1183,345"/>
+<area shape="rect" id="node15" href="$pktbuf_8h.html" title="Interface definition for the global network buffer. " alt="" coords="1703,169,1823,196"/>
+<area shape="rect" id="node29" href="$msg_8h.html" title="Messaging API for inter process communication. " alt="" coords="1207,319,1266,345"/>
+<area shape="rect" id="node34" href="$xtimer_8h.html" title="xtimer interface definitions " alt="" coords="753,169,822,196"/>
+<area shape="rect" id="node49" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="2124,244,2219,271"/>
+<area shape="rect" id="node51" href="$layer_8h.html" title="Netdev layer helper functions. " alt="" coords="2108,169,2235,196"/>
+<area shape="rect" id="node9" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="1722,393,1786,420"/>
+<area shape="rect" id="node10" href="$malloc_8h.html" title="malloc.h" alt="" coords="1719,468,1789,495"/>
+<area shape="rect" id="node13" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="517,393,604,420"/>
+<area shape="rect" id="node17" href="$include_2net_2gnrc_2pkt_8h.html" title="General definitions for network packets and their helper functions. " alt="" coords="1712,319,1815,345"/>
+<area shape="rect" id="node23" href="$nettype_8h.html" title="Protocol type definitions. " alt="" coords="1927,393,2053,420"/>
+<area shape="rect" id="node27" href="$neterr_8h.html" title="Error reporting definitions. " alt="" coords="1519,244,1637,271"/>
+<area shape="rect" id="node31" href="$utlist_8h.html" title="Macros for basic linked list operations. " alt="" coords="1949,244,2010,271"/>
+<area shape="rect" id="node18" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="1596,468,1675,495"/>
+<area shape="rect" id="node19" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="1442,393,1549,420"/>
+<area shape="rect" id="node24" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="1769,543,1886,569"/>
+<area shape="rect" id="node25" href="$ethertype_8h.html" title="Ether type definitions. " alt="" coords="1865,468,1974,495"/>
+<area shape="rect" id="node26" href="$protnum_8h.html" title="Protocol number definitions. " alt="" coords="1999,468,2101,495"/>
+<area shape="rect" id="node28" href="$errno_8h.html" title="errno.h" alt="" coords="1839,319,1901,345"/>
+<area shape="rect" id="node32" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="2101,393,2170,420"/>
+<area shape="rect" id="node33" href="$panic_8h.html" title="Crash handling header. " alt="" coords="2126,468,2190,495"/>
+<area shape="rect" id="node35" href="$timex_8h.html" title="Utility library for comparing and computing timestamps. " alt="" coords="1581,393,1647,420"/>
+<area shape="rect" id="node36" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="423,393,493,420"/>
+<area shape="rect" id="node38" href="$rmutex_8h.html" title="Recursive Mutex for thread synchronization. " alt="" coords="608,319,681,345"/>
+<area shape="rect" id="node42" href="$tick__conversion_8h.html" title="xtimer tick &lt;&#45;&gt; seconds conversions for different values of XTIMER_HZ " alt="" coords="997,244,1161,271"/>
+<area shape="rect" id="node44" href="$implementation_8h.html" title="xtimer implementation " alt="" coords="269,244,431,271"/>
+<area shape="rect" id="node37" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="495,468,546,495"/>
+<area shape="rect" id="node43" href="$div_8h.html" title="div.h" alt="" coords="1442,319,1493,345"/>
+<area shape="rect" id="node45" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions. " alt="" coords="286,319,387,345"/>
+<area shape="rect" id="node48" href="$irq_8h.html" title="IRQ driver interface. " alt="" coords="909,319,956,345"/>
+<area shape="rect" id="node47" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="39,393,178,420"/>
+<area shape="rect" id="node50" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="2129,319,2219,345"/>
+</map>

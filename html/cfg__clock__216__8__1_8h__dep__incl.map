@@ -1,0 +1,5 @@
+<map id="boards/common/stm32/include/f7/cfg_clock_216_8_1.h" name="boards/common/stm32/include/f7/cfg_clock_216_8_1.h">
+<area shape="rect" id="node2" href="$boards_2nucleo-f722ze_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f722ze board. " alt="" coords="5,109,155,151"/>
+<area shape="rect" id="node3" href="$boards_2nucleo-f746zg_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f746zg board. " alt="" coords="179,109,328,151"/>
+<area shape="rect" id="node4" href="$boards_2nucleo-f767zi_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f767zi board. " alt="" coords="352,109,501,151"/>
+</map>

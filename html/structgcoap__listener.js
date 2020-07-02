@@ -1,0 +1,7 @@
+var structgcoap__listener =
+[
+    [ "link_encoder", "structgcoap__listener.html#a421a44a3e85080e78ed5d0459a231f90", null ],
+    [ "next", "structgcoap__listener.html#a4b6a3de4bc60238b8e56bec6fcb845da", null ],
+    [ "resources", "structgcoap__listener.html#ae678911791d95c1ac8a2bba450fcc4e5", null ],
+    [ "resources_len", "structgcoap__listener.html#aa00120f72c63d89cf4f1617b5062a5fe", null ]
+];

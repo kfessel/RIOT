@@ -1,0 +1,17 @@
+<map id="sys/include/usb/usbus/control.h" name="sys/include/usb/usbus/control.h">
+<area shape="rect" id="node2" href="$usbus_8h.html" title="USBUS basic interface. " alt="" coords="685,95,778,121"/>
+<area shape="rect" id="node4" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="918,169,982,196"/>
+<area shape="rect" id="node6" href="$clist_8h.html" title="Circular linked list. " alt="" coords="836,169,894,196"/>
+<area shape="rect" id="node10" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="20,244,126,271"/>
+<area shape="rect" id="node14" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="625,393,742,420"/>
+<area shape="rect" id="node15" href="$msg_8h.html" title="Messaging API for inter process communication. " alt="" coords="132,169,190,196"/>
+<area shape="rect" id="node18" href="$usb_8h.html" title="Definition of global compile time configuration options. " alt="" coords="770,244,824,271"/>
+<area shape="rect" id="node20" href="$usbdev_8h.html" title="Definitions low&#45;level USB driver interface. " alt="" coords="556,169,670,196"/>
+<area shape="rect" id="node24" href="$descriptor_8h.html" title="Definitions for USB protocol messages. " alt="" coords="214,169,329,196"/>
+<area shape="rect" id="node5" href="$malloc_8h.html" title="malloc.h" alt="" coords="975,244,1046,271"/>
+<area shape="rect" id="node8" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="849,244,900,271"/>
+<area shape="rect" id="node11" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="24,319,103,345"/>
+<area shape="rect" id="node21" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="625,244,694,271"/>
+<area shape="rect" id="node23" href="$usbopt_8h.html" title="Definition of global USB peripheral and USB peripheral endpoint configuration options. " alt="" coords="402,244,499,271"/>
+<area shape="rect" id="node22" href="$panic_8h.html" title="Crash handling header. " alt="" coords="629,319,693,345"/>
+</map>

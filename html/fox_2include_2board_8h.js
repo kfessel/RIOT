@@ -1,0 +1,26 @@
+var fox_2include_2board_8h =
+[
+    [ "AT86RF2XX_PARAM_CS", "fox_2include_2board_8h.html#a555f5ce4ea27f15da0ed318fd79704ee", null ],
+    [ "AT86RF2XX_PARAM_INT", "fox_2include_2board_8h.html#ab47f3ac0a872633fbef6ebe83d52883a", null ],
+    [ "AT86RF2XX_PARAM_RESET", "fox_2include_2board_8h.html#ae1083f9546ac5eaf9cd81065ae0ac5c6", null ],
+    [ "AT86RF2XX_PARAM_SLEEP", "fox_2include_2board_8h.html#ae453db88a26d1b28125182e50159c693", null ],
+    [ "L3G4200D_PARAM_INT1", "fox_2include_2board_8h.html#a4369c98a646dc6b33c4705c226215775", null ],
+    [ "L3G4200D_PARAM_INT2", "fox_2include_2board_8h.html#a556c0db52a076976f5b977e3af5afaf8", null ],
+    [ "LED0_MASK", "fox_2include_2board_8h.html#abfabde35a3e8b7ab50146a5e223bfead", null ],
+    [ "LED0_OFF", "fox_2include_2board_8h.html#aef2e39b9fd343d0e437fac0463f3e02d", null ],
+    [ "LED0_ON", "fox_2include_2board_8h.html#a1e48dc02333bfc2e6ad3e5bd466eecd4", null ],
+    [ "LED0_PIN", "fox_2include_2board_8h.html#a3fc522fda449d6edde717d6a857429cf", null ],
+    [ "LED0_TOGGLE", "fox_2include_2board_8h.html#aebc6389533d9fc8dcbe4d2129a4d5a45", null ],
+    [ "LED1_MASK", "fox_2include_2board_8h.html#a669ed6e073140d069b30442bf4c08842", null ],
+    [ "LED1_OFF", "fox_2include_2board_8h.html#a343fd2d3ce61b84f88ddfaea32c67c58", null ],
+    [ "LED1_ON", "fox_2include_2board_8h.html#aadd4c7ae0cd4e9bbb17f7055dd51fe08", null ],
+    [ "LED1_PIN", "fox_2include_2board_8h.html#a318aa17e5d40e2132d2c7f6269ce7f51", null ],
+    [ "LED1_TOGGLE", "fox_2include_2board_8h.html#a267fdbba1d750146b73da35c1731fd17", null ],
+    [ "LPSXXX_PARAM_ADDR", "fox_2include_2board_8h.html#ad51344c4d189d77d1bdd68b9f8c288ee", null ],
+    [ "LSM303DLHC_PARAM_ACC_ADDR", "fox_2include_2board_8h.html#a2ad2ea904639b42675b963f891d81c19", null ],
+    [ "LSM303DLHC_PARAM_ACC_PIN", "fox_2include_2board_8h.html#a54667caad387e7efea60599960088d5c", null ],
+    [ "LSM303DLHC_PARAM_MAG_ADDR", "fox_2include_2board_8h.html#af0aadef02b3ab148ef9795c262e8b37c", null ],
+    [ "LSM303DLHC_PARAM_MAG_PIN", "fox_2include_2board_8h.html#a007cb9a37fae1243f8b064917a9e656f", null ],
+    [ "XTIMER_WIDTH", "fox_2include_2board_8h.html#afea1be2406d45b8fbb1dca1a318ac2dc", null ],
+    [ "board_init", "fox_2include_2board_8h.html#a916f2adc2080b4fe88034086d107a8dc", null ]
+];

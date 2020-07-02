@@ -1,0 +1,20 @@
+<map id="drivers/kw41zrf/include/kw41zrf_getset.h" name="drivers/kw41zrf/include/kw41zrf_getset.h">
+<area shape="rect" id="node2" href="$kw41zrf_8h.html" title="Interface definition for the kw41zrf driver. " alt="" coords="533,95,611,121"/>
+<area shape="rect" id="node4" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="43,319,112,345"/>
+<area shape="rect" id="node8" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="991,244,1086,271"/>
+<area shape="rect" id="node13" href="$drivers_2include_2net_2netdev_2ieee802154_8h.html" title="Definitions for netdev common IEEE 802.15.4 code. " alt="" coords="625,169,789,196"/>
+<area shape="rect" id="node19" href="$nettype_8h.html" title="Protocol type definitions. " alt="" coords="430,244,557,271"/>
+<area shape="rect" id="node6" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="115,393,165,420"/>
+<area shape="rect" id="node9" href="$errno_8h.html" title="errno.h" alt="" coords="1195,319,1258,345"/>
+<area shape="rect" id="node10" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="1059,319,1119,345"/>
+<area shape="rect" id="node12" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="944,319,1035,345"/>
+<area shape="rect" id="node14" href="$sys_2include_2net_2ieee802154_8h.html" title="IEEE 802.15.4 header definitions. " alt="" coords="665,244,786,271"/>
+<area shape="rect" id="node15" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="693,319,757,345"/>
+<area shape="rect" id="node17" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="786,393,873,420"/>
+<area shape="rect" id="node18" href="$eui64_8h.html" title="EUI&#45;64 data type definition. " alt="" coords="833,319,919,345"/>
+<area shape="rect" id="node16" href="$malloc_8h.html" title="malloc.h" alt="" coords="691,393,762,420"/>
+<area shape="rect" id="node20" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="539,319,618,345"/>
+<area shape="rect" id="node21" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="397,319,515,345"/>
+<area shape="rect" id="node22" href="$ethertype_8h.html" title="Ether type definitions. " alt="" coords="136,319,245,345"/>
+<area shape="rect" id="node23" href="$protnum_8h.html" title="Protocol number definitions. " alt="" coords="270,319,373,345"/>
+</map>

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Globals</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.powertip.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="doxy-jquery.js"></script>
+    <script src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <!-- Bootstrap -->
+    <link href="doxygen.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="riot.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div id="top">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" id="brand-logo" href="http://riot-os.org"><img height="40px" src="riot-logo.svg" /></a>
+              <p class="navbar-text text-center visible-xs">Documentation</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
+              <ul id="riot-navlist" class="nav navbar-nav"></ul>
+              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
+              <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
+                    onsubmit="try{
+                        var rhtml=document.getElementById('MSearchResults').contentWindow.document.body.innerHTML;
+                        document.getElementById('MSearchResultsWindow').style.display='none';
+                        document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
+                        document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
+                        document.getElementById('doc-content').innerHTML=rhtml;
+                        }finally{
+                            return false;
+                    }">
+                 <div class="form-group">
+                   <div id="MSearchBox" class="MSearchBoxActive">
+                     <div class="input-group">
+                       <div class="input-group-addon">
+                         <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
+                       </div>
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
+                              r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                       <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
+                         <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+<!-- Generated by Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('globals_func_e.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+&#160;
+
+<h3><a id="index_e"></a>- e -</h3><ul>
+<li>edbg_get_eui64()
+: <a class="el" href="group__drivers__edbg__eui.html#gaf7fdaf013b857000e35fe3c57a74bbfc">edbg_eui.h</a>
+</li>
+<li>eepreg_add()
+: <a class="el" href="group__sys__eepreg.html#ga8386f5e817d99fa79e0dda1eec21a2bc">eepreg.h</a>
+</li>
+<li>eepreg_check()
+: <a class="el" href="group__sys__eepreg.html#gabac1fc1aa39794180aa2c74a05542cb8">eepreg.h</a>
+</li>
+<li>eepreg_free()
+: <a class="el" href="group__sys__eepreg.html#gae245361c595f9a2e8ae3db594291abb3">eepreg.h</a>
+</li>
+<li>eepreg_iter()
+: <a class="el" href="group__sys__eepreg.html#gaea6f1cbfd9d0313460f95174a7211586">eepreg.h</a>
+</li>
+<li>eepreg_len()
+: <a class="el" href="group__sys__eepreg.html#ga620ef74b27d473d3de03e7628ae8b4ed">eepreg.h</a>
+</li>
+<li>eepreg_read()
+: <a class="el" href="group__sys__eepreg.html#ga2cc01fd112cc905284c7c042ffa960e5">eepreg.h</a>
+</li>
+<li>eepreg_reset()
+: <a class="el" href="group__sys__eepreg.html#ga824712fcd738078172386b1219fec5e7">eepreg.h</a>
+</li>
+<li>eepreg_rm()
+: <a class="el" href="group__sys__eepreg.html#ga03a4041c60ceeae39c1a0c1920829625">eepreg.h</a>
+</li>
+<li>eepreg_write()
+: <a class="el" href="group__sys__eepreg.html#gacdab9c188e7a2acab1e856bde50dada1">eepreg.h</a>
+</li>
+<li>eeprom_clear()
+: <a class="el" href="group__drivers__periph__eeprom.html#ga5ba7fae239152c01e9e0b3794e6d21b9">eeprom.h</a>
+</li>
+<li>eeprom_erase()
+: <a class="el" href="group__drivers__periph__eeprom.html#gabe01af4f8804885bbb461fe00a2b2e76">eeprom.h</a>
+</li>
+<li>eeprom_native_read()
+: <a class="el" href="group__drivers__eeprom__native.html#ga3a708bf0185cb83447dcd1d2b06e5cc9">eeprom_native.h</a>
+</li>
+<li>eeprom_read()
+: <a class="el" href="group__drivers__periph__eeprom.html#gab7dc966f5c6e0fddbedfce0347d61929">eeprom.h</a>
+</li>
+<li>eeprom_read_byte()
+: <a class="el" href="group__drivers__periph__eeprom.html#ga82f2d8ab868c0bbc4535d5551e8316cb">eeprom.h</a>
+</li>
+<li>eeprom_set()
+: <a class="el" href="group__drivers__periph__eeprom.html#gafe829024f237babdf67bfe6dd3a3f32c">eeprom.h</a>
+</li>
+<li>eeprom_write()
+: <a class="el" href="group__drivers__periph__eeprom.html#gacb2a167244a8edac8654eb8d36c91d07">eeprom.h</a>
+</li>
+<li>eeprom_write_byte()
+: <a class="el" href="group__drivers__periph__eeprom.html#gaa5bc1b54fe2d4f5da1ee15503a95644c">eeprom.h</a>
+</li>
+<li>eic_clear_flag()
+: <a class="el" href="eic_8h.html#a0b4d30bd3cd6e8ca61a87b0cb39b8d66">eic.h</a>
+</li>
+<li>eic_configure_priority()
+: <a class="el" href="eic_8h.html#a581973555bd19fd21ef4242e2fc9b7ed">eic.h</a>
+</li>
+<li>eic_disable()
+: <a class="el" href="eic_8h.html#abc2dfc868628e9fe95b797eee78fe9e5">eic.h</a>
+</li>
+<li>eic_enable()
+: <a class="el" href="eic_8h.html#aecf430a4e6f3d3f2bf30d8ea2f3509ef">eic.h</a>
+</li>
+<li>emb6_netdev_setup()
+: <a class="el" href="group__pkg__emb6__netdev.html#ga5d21eb16d6dbab504dd5b71c131c5eb7">netdev.h</a>
+</li>
+<li>emcute_con()
+: <a class="el" href="group__net__emcute.html#ga8ffc03d268fb7ae2af91ad748595cbe1">emcute.h</a>
+</li>
+<li>emcute_discon()
+: <a class="el" href="group__net__emcute.html#ga3d83536ba505000348a021666b19a89d">emcute.h</a>
+</li>
+<li>emcute_pub()
+: <a class="el" href="group__net__emcute.html#gaaa159985e36dc900e429624448dd9322">emcute.h</a>
+</li>
+<li>emcute_reg()
+: <a class="el" href="group__net__emcute.html#ga71cd8a206c51a495e6da204260fcc8df">emcute.h</a>
+</li>
+<li>emcute_run()
+: <a class="el" href="group__net__emcute.html#gade684fa9e16a1c16ed68c96d7a5c1e14">emcute.h</a>
+</li>
+<li>emcute_sub()
+: <a class="el" href="group__net__emcute.html#gabe2de429efc02c26aff44437dc9778d9">emcute.h</a>
+</li>
+<li>emcute_type_str()
+: <a class="el" href="group__net__emcute.html#ga7d47a49154b0b6977291e2444b4534e8">emcute.h</a>
+</li>
+<li>emcute_unsub()
+: <a class="el" href="group__net__emcute.html#ga6d79a8259cf39716746ea54973bc0f3e">emcute.h</a>
+</li>
+<li>emcute_willupd_msg()
+: <a class="el" href="group__net__emcute.html#ga51dbc5c588181799959e20d91e594791">emcute.h</a>
+</li>
+<li>emcute_willupd_topic()
+: <a class="el" href="group__net__emcute.html#ga185d561d61f9b0ba802a0d12830bcf92">emcute.h</a>
+</li>
+<li>enc28j60_setup()
+: <a class="el" href="group__drivers__enc28j60.html#ga03ed6ecdf365accb8036b5bbe723d21c">enc28j60.h</a>
+</li>
+<li>encx24j600_setup()
+: <a class="el" href="group__drivers__encx24j600.html#ga0e417d8a15f60c6b49ae03fcf9d7381e">encx24j600.h</a>
+</li>
+<li>esp_hexdump()
+: <a class="el" href="tools_8h.html#a71554e2f22f2d282573441eae022203b">tools.h</a>
+</li>
+<li>esp_now_set_channel()
+: <a class="el" href="esp__now__netdev_8h.html#a30701cb3d07bc03f1cd11f2b3e25fb1f">esp_now_netdev.h</a>
+</li>
+<li>ethos_send_frame()
+: <a class="el" href="group__drivers__ethos.html#gadb9bc46ab8a39cc605210402c12fa2b8">ethos.h</a>
+</li>
+<li>ethos_setup()
+: <a class="el" href="group__drivers__ethos.html#ga5e025d81f8e7863ca7e7d009f1a0eb07">ethos.h</a>
+</li>
+<li>eui48_clear_group()
+: <a class="el" href="group__net__eui48.html#gabb9e2441ba2450101c28eb0512a1d9b6">eui48.h</a>
+</li>
+<li>eui48_from_ipv6_iid()
+: <a class="el" href="group__net__eui48.html#gaaae25495e20f229efd6f02eb25fd2374">eui48.h</a>
+</li>
+<li>eui48_set_local()
+: <a class="el" href="group__net__eui48.html#ga9c5e8f188c74273ec4766ccf7cfebf82">eui48.h</a>
+</li>
+<li>eui48_to_eui64()
+: <a class="el" href="group__net__eui48.html#gaee65f64ca7802ef976ebb644b392bf66">eui48.h</a>
+</li>
+<li>eui48_to_ipv6_iid()
+: <a class="el" href="group__net__eui48.html#ga7b93662f8d4005a708d183dfa9af9f9a">eui48.h</a>
+</li>
+<li>eui64_clear_group()
+: <a class="el" href="group__net__eui64.html#gad389fb98161141f3ccdb34f711bc0454">eui64.h</a>
+</li>
+<li>eui64_set_local()
+: <a class="el" href="group__net__eui64.html#ga05b23dd59850aa7db56a3972f99e3082">eui64.h</a>
+</li>
+<li>event_callback_init()
+: <a class="el" href="callback_8h.html#ad45ef61557e22b5e455c5641ea41e7b0">callback.h</a>
+</li>
+<li>event_cancel()
+: <a class="el" href="group__sys__event.html#ga696280baa5719e3c5ef75fec41e81b3a">event.h</a>
+</li>
+<li>event_get()
+: <a class="el" href="group__sys__event.html#gae5b6336946a171046f7626f476fba292">event.h</a>
+</li>
+<li>event_loop()
+: <a class="el" href="group__sys__event.html#ga7142d0aa584d1174bf15e5dbf36372e9">event.h</a>
+</li>
+<li>event_post()
+: <a class="el" href="group__sys__event.html#ga2053ce1facf709fffd024bee9e2383ba">event.h</a>
+</li>
+<li>event_queue_claim()
+: <a class="el" href="group__sys__event.html#gad442134f1a7617708db908523145a45b">event.h</a>
+</li>
+<li>event_queue_init()
+: <a class="el" href="group__sys__event.html#ga51eb9a1c10b91fffe4cade8e521cec60">event.h</a>
+</li>
+<li>event_queue_init_detached()
+: <a class="el" href="group__sys__event.html#gaf593793b08910f3a87963f381b146a40">event.h</a>
+</li>
+<li>event_thread_init()
+: <a class="el" href="sys_2include_2event_2thread_8h.html#a2bcde364725038d6d1133efa0193438e">thread.h</a>
+</li>
+<li>event_timeout_clear()
+: <a class="el" href="event_2timeout_8h.html#ad6441a56ba068b6235c20e0526e4495a">timeout.h</a>
+</li>
+<li>event_timeout_init()
+: <a class="el" href="event_2timeout_8h.html#a83e695971314128d76384432a37bd0d5">timeout.h</a>
+</li>
+<li>event_timeout_set()
+: <a class="el" href="event_2timeout_8h.html#a1875a2e9c4bdc2a975d1e562e7341c26">timeout.h</a>
+</li>
+<li>event_wait()
+: <a class="el" href="group__sys__event.html#ga434b72eb98d39688bef9d0d485a5989c">event.h</a>
+</li>
+<li>event_wait_timeout()
+: <a class="el" href="group__sys__event.html#gaf979ad68f1d4ef379de1f0da0644ff72">event.h</a>
+</li>
+<li>event_wait_timeout64()
+: <a class="el" href="group__sys__event.html#ga22551716e8df163590e16bf2cc5ff590">event.h</a>
+</li>
+<li>evtimer_add()
+: <a class="el" href="group__sys__evtimer.html#gaf16ca55176cfdb80d90108ccf8ff52cc">evtimer.h</a>
+</li>
+<li>evtimer_add_msg()
+: <a class="el" href="group__sys__evtimer.html#ga573297285eefc2bcb8a0392d6f5dd659">evtimer_msg.h</a>
+</li>
+<li>evtimer_del()
+: <a class="el" href="group__sys__evtimer.html#gaaf06f795454454173e9fe86b9373855d">evtimer.h</a>
+</li>
+<li>evtimer_init()
+: <a class="el" href="group__sys__evtimer.html#ga4aa2974ffeb3b1081075f019f0d1b392">evtimer.h</a>
+</li>
+<li>evtimer_init_msg()
+: <a class="el" href="group__sys__evtimer.html#ga8483b901c7cbaa9604ae844e646d94ae">evtimer_msg.h</a>
+</li>
+<li>evtimer_now_min()
+: <a class="el" href="group__sys__evtimer.html#ga4c7608280201809e1ae821159d8e81e6">evtimer.h</a>
+</li>
+<li>evtimer_now_msec()
+: <a class="el" href="group__sys__evtimer.html#gac4b2b0be736bd73247fe43ce275c9e66">evtimer.h</a>
+</li>
+<li>evtimer_print()
+: <a class="el" href="group__sys__evtimer.html#ga076cf234a84e79edc2d82cb016a24531">evtimer.h</a>
+</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+    <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+        <ul>
+            <li class="footer">Generated on Wed Jul 1 2020 17:09:02 by <a href="http://www.doxygen.org/index.html">
+                       <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
+        </ul>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.smartmenus.min.js"></script>
+    <script src="jquery.smartmenus.bootstrap.min.js"></script>
+    <script src="riot-doxy.js"></script>
+  </body>
+</html>

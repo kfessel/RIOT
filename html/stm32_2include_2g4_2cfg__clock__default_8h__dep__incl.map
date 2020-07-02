@@ -1,0 +1,8 @@
+<map id="boards/common/stm32/include/g4/cfg_clock_default.h" name="boards/common/stm32/include/g4/cfg_clock_default.h">
+<area shape="rect" id="node2" href="$boards_2nucleo-g474re_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;g474re board. " alt="" coords="5,109,155,151"/>
+<area shape="rect" id="node3" href="$boards_2sodaq-autonomo_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ Autonomo board. " alt="" coords="179,109,341,151"/>
+<area shape="rect" id="node4" href="$boards_2sodaq-explorer_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Sodaq LoRaWAN Explorer board. " alt="" coords="365,109,515,151"/>
+<area shape="rect" id="node5" href="$boards_2sodaq-one_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ ONE board. " alt="" coords="540,109,711,151"/>
+<area shape="rect" id="node6" href="$boards_2sodaq-sara-aff_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ SARA AFF boards. " alt="" coords="735,109,884,151"/>
+<area shape="rect" id="node7" href="$boards_2sodaq-sara-sff_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ SARA SFF board. " alt="" coords="908,109,1057,151"/>
+</map>

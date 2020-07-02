@@ -1,0 +1,6 @@
+<map id="boards/weact&#45;f411ce/include/periph_conf.h" name="boards/weact&#45;f411ce/include/periph_conf.h">
+<area shape="rect" id="node3" href="$cfg__clock__96__25__1_8h.html" title="Configure STM32F4 clock to 96MHz using PLL. " alt="" coords="23,95,183,121"/>
+<area shape="rect" id="node4" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C. " alt="" coords="207,95,346,121"/>
+<area shape="rect" id="node5" href="$cfg__timer__tim5_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM5. " alt="" coords="370,95,489,121"/>
+<area shape="rect" id="node6" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="514,95,636,121"/>
+</map>

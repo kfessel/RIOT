@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Globals</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.powertip.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="doxy-jquery.js"></script>
+    <script src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <!-- Bootstrap -->
+    <link href="doxygen.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="riot.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div id="top">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" id="brand-logo" href="http://riot-os.org"><img height="40px" src="riot-logo.svg" /></a>
+              <p class="navbar-text text-center visible-xs">Documentation</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
+              <ul id="riot-navlist" class="nav navbar-nav"></ul>
+              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
+              <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
+                    onsubmit="try{
+                        var rhtml=document.getElementById('MSearchResults').contentWindow.document.body.innerHTML;
+                        document.getElementById('MSearchResultsWindow').style.display='none';
+                        document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
+                        document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
+                        document.getElementById('doc-content').innerHTML=rhtml;
+                        }finally{
+                            return false;
+                    }">
+                 <div class="form-group">
+                   <div id="MSearchBox" class="MSearchBoxActive">
+                     <div class="input-group">
+                       <div class="input-group-addon">
+                         <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
+                       </div>
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
+                              r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                       <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
+                         <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+<!-- Generated by Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('globals_eval_l.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+&#160;
+
+<h3><a id="index_l"></a>- l -</h3><ul>
+<li>L3G4200D_MODE_100_12
+: <a class="el" href="group__drivers__l3g4200d.html#ggab6f1fcd7c4f7dfd1db3c73323fc56492aa7f3e36ce3ab9ea4601d1d44cbc71601">l3g4200d.h</a>
+</li>
+<li>L3G4200D_MODE_100_25
+: <a class="el" href="group__drivers__l3g4200d.html#ggab6f1fcd7c4f7dfd1db3c73323fc56492affe72f2276e92c9b1d713331e7c9e55d">l3g4200d.h</a>
+</li>
+<li>L3G4200D_MODE_200_12
+: <a class="el" href="group__drivers__l3g4200d.html#ggab6f1fcd7c4f7dfd1db3c73323fc56492a3ebf138b6e08f45f65a008a7afaceba5">l3g4200d.h</a>
+</li>
+<li>L3G4200D_MODE_200_25
+: <a class="el" href="group__drivers__l3g4200d.html#ggab6f1fcd7c4f7dfd1db3c73323fc56492abbf0d6e4ae1e31e06c29d28f41499c05">l3g4200d.h</a>
+</li>
+<li>L3G4200D_MODE_200_50
+: <a class="el" href="group__drivers__l3g4200d.html#ggab6f1fcd7c4f7dfd1db3c73323fc56492ae71979e0a1f257925f23d0b919faefce">l3g4200d.h</a>
+</li>
+<li>L3G4200D_MODE_200_70
+: <a class="el" href="group__drivers__l3g4200d.html#ggab6f1fcd7c4f7dfd1db3c73323fc56492af294b54f95aee55bfcd0594023497337">l3g4200d.h</a>
+</li>
+<li>L3G4200D_MODE_400_110
+: <a class="el" href="group__drivers__l3g4200d.html#ggab6f1fcd7c4f7dfd1db3c73323fc56492a0664b5eb225555ab70aec45d701c6457">l3g4200d.h</a>
+</li>
+<li>L3G4200D_MODE_400_20
+: <a class="el" href="group__drivers__l3g4200d.html#ggab6f1fcd7c4f7dfd1db3c73323fc56492a80ee2885cd28378c3ce3b14a60244537">l3g4200d.h</a>
+</li>
+<li>L3G4200D_MODE_400_25
+: <a class="el" href="group__drivers__l3g4200d.html#ggab6f1fcd7c4f7dfd1db3c73323fc56492aa50ba60a4d71e48b0285c516f945b7a8">l3g4200d.h</a>
+</li>
+<li>L3G4200D_MODE_400_50
+: <a class="el" href="group__drivers__l3g4200d.html#ggab6f1fcd7c4f7dfd1db3c73323fc56492ab07844e90d5baf197692fcaf6a46f34f">l3g4200d.h</a>
+</li>
+<li>L3G4200D_MODE_800_110
+: <a class="el" href="group__drivers__l3g4200d.html#ggab6f1fcd7c4f7dfd1db3c73323fc56492a7b35df5bd35e00058a6229420de35e11">l3g4200d.h</a>
+</li>
+<li>L3G4200D_MODE_800_30
+: <a class="el" href="group__drivers__l3g4200d.html#ggab6f1fcd7c4f7dfd1db3c73323fc56492aa4251a32204f41337bb7da42ea9950d4">l3g4200d.h</a>
+</li>
+<li>L3G4200D_MODE_800_35
+: <a class="el" href="group__drivers__l3g4200d.html#ggab6f1fcd7c4f7dfd1db3c73323fc56492a9491885c966c8e2f6479ae2b707cbdfb">l3g4200d.h</a>
+</li>
+<li>L3G4200D_MODE_800_50
+: <a class="el" href="group__drivers__l3g4200d.html#ggab6f1fcd7c4f7dfd1db3c73323fc56492a937c81cd47c959c0aeba49b7096bdb70">l3g4200d.h</a>
+</li>
+<li>L3G4200D_SCALE_2000DPS
+: <a class="el" href="group__drivers__l3g4200d.html#gga4f1329b3f42ec2b1da8d933d8f965fe8aca306fc2c21bda235be9e4f104757ddd">l3g4200d.h</a>
+</li>
+<li>L3G4200D_SCALE_250DPS
+: <a class="el" href="group__drivers__l3g4200d.html#gga4f1329b3f42ec2b1da8d933d8f965fe8a9a5dd704f295aa9356ad5ffad1738ccf">l3g4200d.h</a>
+</li>
+<li>L3G4200D_SCALE_500DPS
+: <a class="el" href="group__drivers__l3g4200d.html#gga4f1329b3f42ec2b1da8d933d8f965fe8ab7ed668976c0e154c6aca853c2403ab2">l3g4200d.h</a>
+</li>
+<li>LABEL
+: <a class="el" href="group__cpu__cc2538__rfcore.html#ggaae05225933a42f81e7c4a9fb286596f9a0f90de4d94720fdd5156fd7e7c3b0c9b">cc2538_rfcore.h</a>
+</li>
+<li>LC709203F_CELL_TEMP_INVALID
+: <a class="el" href="group__drivers__lc709203f.html#gga5584fee7841d9376fb0394600e9ed81aa72597eb4b4084040ebc3eb4fad603a56">lc709203f.h</a>
+</li>
+<li>LC709203F_NOI2C
+: <a class="el" href="group__drivers__lc709203f.html#gga5584fee7841d9376fb0394600e9ed81aaf1a44d2d2b241559491d1b4a7825c8f0">lc709203f.h</a>
+</li>
+<li>LC709203F_OK
+: <a class="el" href="group__drivers__lc709203f.html#gga5584fee7841d9376fb0394600e9ed81aaefef1322364dc905295ebc7a6a34c9a3">lc709203f.h</a>
+</li>
+<li>LIS2DH12_INT1
+: <a class="el" href="group__drivers__lis2dh12.html#ggaf77d65ab56b38a820b1efc0bcafbd4fba70578482ebee159084aaaf914030fc5d">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT2
+: <a class="el" href="group__drivers__lis2dh12.html#ggaf77d65ab56b38a820b1efc0bcafbd4fbaadbaa85dd2d306f23c8078d5533c0523">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_CFG_6D
+: <a class="el" href="group__drivers__lis2dh12.html#gga0724528cce39d640312f4a7ad1a893f7a188f3976b5df9ea129870f423d46946e">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_CFG_AOI
+: <a class="el" href="group__drivers__lis2dh12.html#gga0724528cce39d640312f4a7ad1a893f7ab931d17d89a0ec0921e79261ad7c4eff">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_CFG_XHIE
+: <a class="el" href="group__drivers__lis2dh12.html#gga0724528cce39d640312f4a7ad1a893f7a464fddccb8077ee3287badfbd1435a77">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_CFG_XLIE
+: <a class="el" href="group__drivers__lis2dh12.html#gga0724528cce39d640312f4a7ad1a893f7a0b16ba4780c8289d590a5371e085d1db">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_CFG_YHIE
+: <a class="el" href="group__drivers__lis2dh12.html#gga0724528cce39d640312f4a7ad1a893f7a0511581bd018a14b633a6726dca22090">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_CFG_YLIE
+: <a class="el" href="group__drivers__lis2dh12.html#gga0724528cce39d640312f4a7ad1a893f7ab0cc458617d8f759a621b55dfe362ccd">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_CFG_ZHIE
+: <a class="el" href="group__drivers__lis2dh12.html#gga0724528cce39d640312f4a7ad1a893f7a0499f19c0b6724b558efc2f3b93ffce2">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_CFG_ZLIE
+: <a class="el" href="group__drivers__lis2dh12.html#gga0724528cce39d640312f4a7ad1a893f7a5be7700c09eea9a907aaedd30d5e5668">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_TYPE_I1_CLICK
+: <a class="el" href="group__drivers__lis2dh12.html#ggac72f7803394f05658258f8a2b76f53aaafea0441318139acab4095aee6d5e356c">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_TYPE_I1_IA1
+: <a class="el" href="group__drivers__lis2dh12.html#ggac72f7803394f05658258f8a2b76f53aaaf6b43e373b3b71102fb290ab1da6113d">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_TYPE_I1_IA2
+: <a class="el" href="group__drivers__lis2dh12.html#ggac72f7803394f05658258f8a2b76f53aaaae61bfc4148e394a126891d429ca0621">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_TYPE_I1_OVERRUN
+: <a class="el" href="group__drivers__lis2dh12.html#ggac72f7803394f05658258f8a2b76f53aaaf38e481507a3ad457491c203496c694d">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_TYPE_I1_WTM
+: <a class="el" href="group__drivers__lis2dh12.html#ggac72f7803394f05658258f8a2b76f53aaa07522a4b321df13feda7e5dc829f4434">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_TYPE_I1_ZYXDA
+: <a class="el" href="group__drivers__lis2dh12.html#ggac72f7803394f05658258f8a2b76f53aaa18f1200816dcce15e636f368cac01f0c">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_TYPE_I2_ACT
+: <a class="el" href="group__drivers__lis2dh12.html#ggac72f7803394f05658258f8a2b76f53aaa4ea53c131a6c9ff7a0ecd60906eeca3b">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_TYPE_I2_BOOT
+: <a class="el" href="group__drivers__lis2dh12.html#ggac72f7803394f05658258f8a2b76f53aaaf0faba80c2f1b0d9e9ccbef1c2f88e31">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_TYPE_I2_CLICK
+: <a class="el" href="group__drivers__lis2dh12.html#ggac72f7803394f05658258f8a2b76f53aaa55201c026d81dd282b05d9c3c53725a0">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_TYPE_I2_IA1
+: <a class="el" href="group__drivers__lis2dh12.html#ggac72f7803394f05658258f8a2b76f53aaaa0304120cc61f58f164d66b1c9b71e51">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_TYPE_I2_IA2
+: <a class="el" href="group__drivers__lis2dh12.html#ggac72f7803394f05658258f8a2b76f53aaa20d068598b1801381cee1ff9851d712b">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_INT_TYPE_INT_POLARITY
+: <a class="el" href="group__drivers__lis2dh12.html#ggac72f7803394f05658258f8a2b76f53aaafcd43b330702b011da8ac5470b9c0af3">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_NOBUS
+: <a class="el" href="group__drivers__lis2dh12.html#gga5e66f304417530ef056f13a6a6dc668aa85cee82a2fe71cee4a6226f364de0c3c">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_NODATA
+: <a class="el" href="group__drivers__lis2dh12.html#gga5e66f304417530ef056f13a6a6dc668aa83a3c12d11f723b03e16f22b5a89e1a5">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_NODEV
+: <a class="el" href="group__drivers__lis2dh12.html#gga5e66f304417530ef056f13a6a6dc668aa5734e496fe9d61c899ff01f12a0c38bb">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_NOINT
+: <a class="el" href="group__drivers__lis2dh12.html#gga5e66f304417530ef056f13a6a6dc668aae002bc23da43a76ea99920903bb440a7">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_OK
+: <a class="el" href="group__drivers__lis2dh12.html#gga5e66f304417530ef056f13a6a6dc668aad14af1cd22e260e7512b548ec67e8a10">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_RATE_100HZ
+: <a class="el" href="group__drivers__lis2dh12.html#ggaab3a9480859693923073b2465d8157f5ad356ca37e85b58982ce2fdbdb273b0ac">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_RATE_10HZ
+: <a class="el" href="group__drivers__lis2dh12.html#ggaab3a9480859693923073b2465d8157f5ac25ca3c055cea83035b5dc8448dd2a95">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_RATE_1HZ
+: <a class="el" href="group__drivers__lis2dh12.html#ggaab3a9480859693923073b2465d8157f5abbfa7f75d93d3311237f3d66066b2a8a">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_RATE_200HZ
+: <a class="el" href="group__drivers__lis2dh12.html#ggaab3a9480859693923073b2465d8157f5a18ce6813ebb75ecc44b125c7cfed5620">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_RATE_25HZ
+: <a class="el" href="group__drivers__lis2dh12.html#ggaab3a9480859693923073b2465d8157f5a8d0ab7f19bfac556c78efb8764c4429f">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_RATE_400HZ
+: <a class="el" href="group__drivers__lis2dh12.html#ggaab3a9480859693923073b2465d8157f5a179cfcbe10277e02e206174e001731b4">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_RATE_50HZ
+: <a class="el" href="group__drivers__lis2dh12.html#ggaab3a9480859693923073b2465d8157f5a87b57a0a50684364292301acfa742964">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_SCALE_16G
+: <a class="el" href="group__drivers__lis2dh12.html#gga06364327a9b994b352adeb91fccf3965abd4fc4de9132238a234fab7120904e6a">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_SCALE_2G
+: <a class="el" href="group__drivers__lis2dh12.html#gga06364327a9b994b352adeb91fccf3965a7c92d829c97c3a50cb4baf732a6208a3">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_SCALE_4G
+: <a class="el" href="group__drivers__lis2dh12.html#gga06364327a9b994b352adeb91fccf3965acb21fe06366d23dd29d52de69fba3a8d">lis2dh12.h</a>
+</li>
+<li>LIS2DH12_SCALE_8G
+: <a class="el" href="group__drivers__lis2dh12.html#gga06364327a9b994b352adeb91fccf3965a693d602d3d8ec0cb91a2b2f6b84248e7">lis2dh12.h</a>
+</li>
+<li>LIS3DML_ODR_20HZ
+: <a class="el" href="group__drivers__lis3mdl.html#gga12924e31f0a107e10bbc5aff7e3d277ba3d1dd942a8eae22ff54ed31d1c763241">lis3mdl.h</a>
+</li>
+<li>LIS3DML_ODR_40HZ
+: <a class="el" href="group__drivers__lis3mdl.html#gga12924e31f0a107e10bbc5aff7e3d277ba7b4193049a332a30e4adaff2497921d9">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_ODR_0_625Hz
+: <a class="el" href="group__drivers__lis3mdl.html#gga12924e31f0a107e10bbc5aff7e3d277bab5492f0c60b8622a6cade5f1d481140c">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_ODR_10Hz
+: <a class="el" href="group__drivers__lis3mdl.html#gga12924e31f0a107e10bbc5aff7e3d277ba135d8c85930a7974b616aa06e1ef8409">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_ODR_1_25Hz
+: <a class="el" href="group__drivers__lis3mdl.html#gga12924e31f0a107e10bbc5aff7e3d277bacf969dc7ac4702184c8dbd3e78829cef">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_ODR_2_5Hz
+: <a class="el" href="group__drivers__lis3mdl.html#gga12924e31f0a107e10bbc5aff7e3d277ba4393b06386537ce1012ba65031931a84">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_ODR_80HZ
+: <a class="el" href="group__drivers__lis3mdl.html#gga12924e31f0a107e10bbc5aff7e3d277ba8082a273b528eabdd0d09c29cc130d7e">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_OP_CONT_CONV
+: <a class="el" href="group__drivers__lis3mdl.html#gga7b7b204106fed91e9f18e26e5c2d37e1a21f5a068cbe25554f8dd1f418f40883e">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_OP_PDOWN
+: <a class="el" href="group__drivers__lis3mdl.html#gga7b7b204106fed91e9f18e26e5c2d37e1a28e355f595edc3ea6c7cf0b73e0fa16d">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_OP_SNGL_CONV
+: <a class="el" href="group__drivers__lis3mdl.html#gga7b7b204106fed91e9f18e26e5c2d37e1a28bc2bd331b99297e7095d56d660cbee">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_SCALE_12G
+: <a class="el" href="group__drivers__lis3mdl.html#ggaf30708ca82e18bc9e2e6ad31eb8a6227a76f5564fdecedc4d27464c3fe2af3f67">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_SCALE_16G
+: <a class="el" href="group__drivers__lis3mdl.html#ggaf30708ca82e18bc9e2e6ad31eb8a6227abea7fb9a72cc12ec9f58b1acda96c53b">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_SCALE_4G
+: <a class="el" href="group__drivers__lis3mdl.html#ggaf30708ca82e18bc9e2e6ad31eb8a6227a9b061ae1b295f395208eb77381eb2efe">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_SCALE_8G
+: <a class="el" href="group__drivers__lis3mdl.html#ggaf30708ca82e18bc9e2e6ad31eb8a6227a114556dfeadedceb833e41109ed0b5b3">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_XY_MODE_HIGH
+: <a class="el" href="group__drivers__lis3mdl.html#ggadf9568a25c1594bfa79e2c70a7a79645a55002615289345e7ce5175861ae11d4b">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_XY_MODE_LOW
+: <a class="el" href="group__drivers__lis3mdl.html#ggadf9568a25c1594bfa79e2c70a7a79645ac88e542e87edaf2c0d18bb96ad33fb54">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_XY_MODE_MEDIUM
+: <a class="el" href="group__drivers__lis3mdl.html#ggadf9568a25c1594bfa79e2c70a7a79645ad2b8d5056f57b22a7f33577d8b4dcfc6">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_XY_MODE_ULTRA
+: <a class="el" href="group__drivers__lis3mdl.html#ggadf9568a25c1594bfa79e2c70a7a79645a6d8067e93e116f1eef988e498288d919">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_Z_MODE_HIGH
+: <a class="el" href="group__drivers__lis3mdl.html#ggad6e3001863eed095679257bf41d59521a79db78284bb664d3943a74c3dac44de2">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_Z_MODE_LOW
+: <a class="el" href="group__drivers__lis3mdl.html#ggad6e3001863eed095679257bf41d59521acaebede08b091e6e1c73ec6d2a199726">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_Z_MODE_MEDIUM
+: <a class="el" href="group__drivers__lis3mdl.html#ggad6e3001863eed095679257bf41d59521a897adedc81c6859a2fac96fba45448b1">lis3mdl.h</a>
+</li>
+<li>LIS3MDL_Z_MODE_ULTRA
+: <a class="el" href="group__drivers__lis3mdl.html#ggad6e3001863eed095679257bf41d59521a5fa7697b609bd12dc973f59b9cd5c89c">lis3mdl.h</a>
+</li>
+<li>LOG_ALL
+: <a class="el" href="log_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba87cff070224b283d7aace436723245fc">log.h</a>
+</li>
+<li>LOG_DEBUG
+: <a class="el" href="log_8h.html#a06fc87d81c62e9abb8790b6e5713c55bab9f002c6ffbfd511da8090213227454e">log.h</a>
+</li>
+<li>LOG_ERROR
+: <a class="el" href="log_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba230506cce5c68c3bac5a821c42ed3473">log.h</a>
+</li>
+<li>LOG_INFO
+: <a class="el" href="log_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba6e98ff471e3ce6c4ef2d75c37ee51837">log.h</a>
+</li>
+<li>LOG_NONE
+: <a class="el" href="log_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba85639df34979de4e5ff6f7b05e4de8f1">log.h</a>
+</li>
+<li>LOG_WARNING
+: <a class="el" href="log_8h.html#a06fc87d81c62e9abb8790b6e5713c55ba8f6fe15bfe15104da6d1b360194a5400">log.h</a>
+</li>
+<li>LORA_BW_125_KHZ
+: <a class="el" href="group__net__lora.html#ggabd4fc2111b94dec34e056f8ef38c38e5a2cdfb456ab4912987e1200a536ec9f4c">lora.h</a>
+</li>
+<li>LORA_BW_250_KHZ
+: <a class="el" href="group__net__lora.html#ggabd4fc2111b94dec34e056f8ef38c38e5a88af2b2a3e533aa3b784d5609885bc97">lora.h</a>
+</li>
+<li>LORA_BW_500_KHZ
+: <a class="el" href="group__net__lora.html#ggabd4fc2111b94dec34e056f8ef38c38e5ac5fa325d439cbb43f72e43dcaf0a9132">lora.h</a>
+</li>
+<li>LORA_CR_4_5
+: <a class="el" href="group__net__lora.html#gga5fb54519fb8dc889cce6aeafd34ab647a916cb1c30262177cf11791adf3c6c976">lora.h</a>
+</li>
+<li>LORA_CR_4_6
+: <a class="el" href="group__net__lora.html#gga5fb54519fb8dc889cce6aeafd34ab647a3d26c19984df0202c58dbab57042fd76">lora.h</a>
+</li>
+<li>LORA_CR_4_7
+: <a class="el" href="group__net__lora.html#gga5fb54519fb8dc889cce6aeafd34ab647a900fdaffc679facfc7551607c7f9e1d2">lora.h</a>
+</li>
+<li>LORA_CR_4_8
+: <a class="el" href="group__net__lora.html#gga5fb54519fb8dc889cce6aeafd34ab647aca861f0c081d4b2e0fd1ae609ce593a8">lora.h</a>
+</li>
+<li>LORA_SF10
+: <a class="el" href="group__net__lora.html#ggad63d52f2a7873cd40a13c4ce18552e27a4fa2cb57b3c09a7ba48fae7fa764cfc8">lora.h</a>
+</li>
+<li>LORA_SF11
+: <a class="el" href="group__net__lora.html#ggad63d52f2a7873cd40a13c4ce18552e27a6a8704a080ddc948acd2f78038ac3c90">lora.h</a>
+</li>
+<li>LORA_SF12
+: <a class="el" href="group__net__lora.html#ggad63d52f2a7873cd40a13c4ce18552e27a5b2451cb3fae097662e1f72b2562c517">lora.h</a>
+</li>
+<li>LORA_SF6
+: <a class="el" href="group__net__lora.html#ggad63d52f2a7873cd40a13c4ce18552e27a3460e11edb4af3d15e2fb7d3823d1114">lora.h</a>
+</li>
+<li>LORA_SF7
+: <a class="el" href="group__net__lora.html#ggad63d52f2a7873cd40a13c4ce18552e27a252967b1109a2820337ae52698bd38bd">lora.h</a>
+</li>
+<li>LORA_SF8
+: <a class="el" href="group__net__lora.html#ggad63d52f2a7873cd40a13c4ce18552e27a70d0b72617d730a266e1fa69d2bb77d6">lora.h</a>
+</li>
+<li>LORA_SF9
+: <a class="el" href="group__net__lora.html#ggad63d52f2a7873cd40a13c4ce18552e27aa5e8e668ce8c14a85c99f04fd9c9c2b4">lora.h</a>
+</li>
+<li>LORAMAC_CLASS_A
+: <a class="el" href="group__net__loramac.html#ggaeb6b5d76f38ab39a36f4fe47ff85f651af8e60d6e1076c2d980f3093fd9a7674b">loramac.h</a>
+</li>
+<li>LORAMAC_CLASS_B
+: <a class="el" href="group__net__loramac.html#ggaeb6b5d76f38ab39a36f4fe47ff85f651af69ecfdd25ea5ac0b6d9280bf46ce3c6">loramac.h</a>
+</li>
+<li>LORAMAC_CLASS_C
+: <a class="el" href="group__net__loramac.html#ggaeb6b5d76f38ab39a36f4fe47ff85f651af1f47c9d737eacfed6a7473a88092868">loramac.h</a>
+</li>
+<li>LORAMAC_DR_0
+: <a class="el" href="group__net__loramac.html#gga979972ade63b4ee4ab64ac44d7b90261adb129d0f0e713c575af169b0b60bcdfc">loramac.h</a>
+</li>
+<li>LORAMAC_DR_1
+: <a class="el" href="group__net__loramac.html#gga979972ade63b4ee4ab64ac44d7b90261a41748441f05f134dbaec800f11aa82ea">loramac.h</a>
+</li>
+<li>LORAMAC_DR_10
+: <a class="el" href="group__net__loramac.html#gga979972ade63b4ee4ab64ac44d7b90261a9869e09a1bd00da24ea0e41b4b134422">loramac.h</a>
+</li>
+<li>LORAMAC_DR_11
+: <a class="el" href="group__net__loramac.html#gga979972ade63b4ee4ab64ac44d7b90261a4bc81a087ea513bfe857f54dbd916864">loramac.h</a>
+</li>
+<li>LORAMAC_DR_12
+: <a class="el" href="group__net__loramac.html#gga979972ade63b4ee4ab64ac44d7b90261a768d5d220f370fddd3e6e9acbbfc3c64">loramac.h</a>
+</li>
+<li>LORAMAC_DR_13
+: <a class="el" href="group__net__loramac.html#gga979972ade63b4ee4ab64ac44d7b90261a830528cbea3f59eda4fedcac1e1aba5e">loramac.h</a>
+</li>
+<li>LORAMAC_DR_14
+: <a class="el" href="group__net__loramac.html#gga979972ade63b4ee4ab64ac44d7b90261a0389358c57bd2e88268e88e4f9e32637">loramac.h</a>
+</li>
+<li>LORAMAC_DR_15
+: <a class="el" href="group__net__loramac.html#gga979972ade63b4ee4ab64ac44d7b90261a5bb0ebd44146ba1caa942ef34d58827d">loramac.h</a>
+</li>
+<li>LORAMAC_DR_2
+: <a class="el" href="group__net__loramac.html#gga979972ade63b4ee4ab64ac44d7b90261a320d1a55b54e1b8265f674bd0be94dcb">loramac.h</a>
+</li>
+<li>LORAMAC_DR_3
+: <a class="el" href="group__net__loramac.html#gga979972ade63b4ee4ab64ac44d7b90261a248310240b974ed32d4cd62851fce2ce">loramac.h</a>
+</li>
+<li>LORAMAC_DR_4
+: <a class="el" href="group__net__loramac.html#gga979972ade63b4ee4ab64ac44d7b90261a68c423d150a588a2b7ee3ce609562e12">loramac.h</a>
+</li>
+<li>LORAMAC_DR_5
+: <a class="el" href="group__net__loramac.html#gga979972ade63b4ee4ab64ac44d7b90261ab9197416deeae7045d05a56a01d95374">loramac.h</a>
+</li>
+<li>LORAMAC_DR_6
+: <a class="el" href="group__net__loramac.html#gga979972ade63b4ee4ab64ac44d7b90261a4d2fab5991b05ca65a26125ebeee683f">loramac.h</a>
+</li>
+<li>LORAMAC_DR_7
+: <a class="el" href="group__net__loramac.html#gga979972ade63b4ee4ab64ac44d7b90261a838b719ec26056befd9d8bcf94fb8ea7">loramac.h</a>
+</li>
+<li>LORAMAC_DR_8
+: <a class="el" href="group__net__loramac.html#gga979972ade63b4ee4ab64ac44d7b90261a29f2992dde0f960dc96fa71d3fa79f2e">loramac.h</a>
+</li>
+<li>LORAMAC_DR_9
+: <a class="el" href="group__net__loramac.html#gga979972ade63b4ee4ab64ac44d7b90261a4bc026a9635c1cb5a6408a66464730ed">loramac.h</a>
+</li>
+<li>LORAMAC_JOIN_ABP
+: <a class="el" href="group__net__loramac.html#gga0ec6851e0578ec1270e16e3faa54f4cda2ade969f4ceb9a4c9ac33210a1610da9">loramac.h</a>
+</li>
+<li>LORAMAC_JOIN_OTAA
+: <a class="el" href="group__net__loramac.html#gga0ec6851e0578ec1270e16e3faa54f4cda842a2cf228ae0d498a0c2425092aaeca">loramac.h</a>
+</li>
+<li>LORAMAC_TX_CNF
+: <a class="el" href="group__net__loramac.html#gga3c94d1636de66b1617aa3433ff9127eea06a3da85738a1305583e765b835c25f7">loramac.h</a>
+</li>
+<li>LORAMAC_TX_PWR_0
+: <a class="el" href="group__net__loramac.html#ggaefcaeb98180176fc844a5cd02689c400ac0db38d2dddf37bebf1c9b5dba121a36">loramac.h</a>
+</li>
+<li>LORAMAC_TX_PWR_1
+: <a class="el" href="group__net__loramac.html#ggaefcaeb98180176fc844a5cd02689c400a5003f74eece960c9adcbdb2f43b4bf91">loramac.h</a>
+</li>
+<li>LORAMAC_TX_PWR_10
+: <a class="el" href="group__net__loramac.html#ggaefcaeb98180176fc844a5cd02689c400ac7f5a7c1c2c395c5fda273c79139a729">loramac.h</a>
+</li>
+<li>LORAMAC_TX_PWR_11
+: <a class="el" href="group__net__loramac.html#ggaefcaeb98180176fc844a5cd02689c400a51519ea4c8b90aef1de00ea5c80b8377">loramac.h</a>
+</li>
+<li>LORAMAC_TX_PWR_12
+: <a class="el" href="group__net__loramac.html#ggaefcaeb98180176fc844a5cd02689c400afdf87b118e443dd63ea5966da1f212f0">loramac.h</a>
+</li>
+<li>LORAMAC_TX_PWR_13
+: <a class="el" href="group__net__loramac.html#ggaefcaeb98180176fc844a5cd02689c400a38877b87d2372050780093423275aa23">loramac.h</a>
+</li>
+<li>LORAMAC_TX_PWR_14
+: <a class="el" href="group__net__loramac.html#ggaefcaeb98180176fc844a5cd02689c400a553edbfbc504903aebddcf68600f06fa">loramac.h</a>
+</li>
+<li>LORAMAC_TX_PWR_15
+: <a class="el" href="group__net__loramac.html#ggaefcaeb98180176fc844a5cd02689c400a11da4323691c7c421c2632c70aa043e6">loramac.h</a>
+</li>
+<li>LORAMAC_TX_PWR_2
+: <a class="el" href="group__net__loramac.html#ggaefcaeb98180176fc844a5cd02689c400a4d346c6fe32223261b2376914ce5a80c">loramac.h</a>
+</li>
+<li>LORAMAC_TX_PWR_3
+: <a class="el" href="group__net__loramac.html#ggaefcaeb98180176fc844a5cd02689c400a5b6fae03aa871275a9e63a25c6beab87">loramac.h</a>
+</li>
+<li>LORAMAC_TX_PWR_4
+: <a class="el" href="group__net__loramac.html#ggaefcaeb98180176fc844a5cd02689c400afe2b3a81d212582f0bd6a47eba972002">loramac.h</a>
+</li>
+<li>LORAMAC_TX_PWR_5
+: <a class="el" href="group__net__loramac.html#ggaefcaeb98180176fc844a5cd02689c400ae3b650e7ce4ed2d977b5543e88171478">loramac.h</a>
+</li>
+<li>LORAMAC_TX_PWR_6
+: <a class="el" href="group__net__loramac.html#ggaefcaeb98180176fc844a5cd02689c400a11c18b5f1b5e85b08454541a0d4ac59d">loramac.h</a>
+</li>
+<li>LORAMAC_TX_PWR_7
+: <a class="el" href="group__net__loramac.html#ggaefcaeb98180176fc844a5cd02689c400a2e1921942a8a6dfd2e48ee7564b52611">loramac.h</a>
+</li>
+<li>LORAMAC_TX_PWR_8
+: <a class="el" href="group__net__loramac.html#ggaefcaeb98180176fc844a5cd02689c400ae469fcc930d40cd7d13b95442c538baf">loramac.h</a>
+</li>
+<li>LORAMAC_TX_PWR_9
+: <a class="el" href="group__net__loramac.html#ggaefcaeb98180176fc844a5cd02689c400a8febeea882a7edb0bc937bb3c68cb902">loramac.h</a>
+</li>
+<li>LORAMAC_TX_UNCNF
+: <a class="el" href="group__net__loramac.html#gga3c94d1636de66b1617aa3433ff9127eea1fe1d1498f101f18d7580c172f6d65da">loramac.h</a>
+</li>
+<li>LOW
+: <a class="el" href="group__sys__arduino__api.html#ggabe4eb8a7f480877e96248c1c2b2b96a4a6a226f4143ca3b18999551694cdb72a8">arduino.hpp</a>
+</li>
+<li>LPSXXX_ERR_I2C
+: <a class="el" href="group__drivers__lpsxxx.html#gga425be5f49e9c31d8d13d53190a3e7bc2afe323c8aac3253e13ccfa9278be10ac8">lpsxxx.h</a>
+</li>
+<li>LPSXXX_ERR_NODEV
+: <a class="el" href="group__drivers__lpsxxx.html#gga425be5f49e9c31d8d13d53190a3e7bc2a95b567165be9cb7b41fdfc4c65183233">lpsxxx.h</a>
+</li>
+<li>LPSXXX_OK
+: <a class="el" href="group__drivers__lpsxxx.html#gga425be5f49e9c31d8d13d53190a3e7bc2a4152a9a5ad29a8a5b1e7bc435385960c">lpsxxx.h</a>
+</li>
+<li>LPSXXX_RATE_1HZ
+: <a class="el" href="group__drivers__lpsxxx.html#ggada61d6587c295b1dc8ee8bafb5fe9b55a64f7b8da97293f0b31ec0d232f20a284">lpsxxx.h</a>
+</li>
+<li>LSM303DLHC_ACC_SAMPLE_RATE_100HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga8d8eb6d518659b92eaf3f559a7701f84ac8ebd5ecfdf9407baf42dc229500f87f">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_ACC_SAMPLE_RATE_10HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga8d8eb6d518659b92eaf3f559a7701f84a6a921b61a04fbc92b9bcfe2229dfeecf">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_ACC_SAMPLE_RATE_1620HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga8d8eb6d518659b92eaf3f559a7701f84a57c5c8505f081eaec311444143e5e7a4">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_ACC_SAMPLE_RATE_1HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga8d8eb6d518659b92eaf3f559a7701f84a68483d6f2a43907c7966a3962d6928c1">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_ACC_SAMPLE_RATE_200HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga8d8eb6d518659b92eaf3f559a7701f84af085e5b8ed3523d9800e2c30abc5adfb">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_ACC_SAMPLE_RATE_25HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga8d8eb6d518659b92eaf3f559a7701f84a94e19b106ba6cbdd19f01e9dcb484041">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_ACC_SAMPLE_RATE_400HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga8d8eb6d518659b92eaf3f559a7701f84aaaeb17a77f1beeba249828bc5bd4546a">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_ACC_SAMPLE_RATE_50HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga8d8eb6d518659b92eaf3f559a7701f84aaf850883841ea68326572730345074c2">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_ACC_SAMPLE_RATE_N1344HZ_L5376HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga8d8eb6d518659b92eaf3f559a7701f84a3667d73fdc28b762bb9e4f98b435a721">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_ACC_SCALE_16G
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga14717a90270e848d48adbd670021864ba516dd5c3ccedd31575b007c45373893b">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_ACC_SCALE_2G
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga14717a90270e848d48adbd670021864bae63a6bb8cf68b02329282358ee7bd8db">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_ACC_SCALE_4G
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga14717a90270e848d48adbd670021864ba42dfaef7550f60296ba5e2d24037f404">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_ACC_SCALE_8G
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga14717a90270e848d48adbd670021864ba4306a8a182536498a5045a1950cd126c">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_MAG_GAIN_1100_980_GAUSS
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga388a4733819b2541d067f4c60214d882a9ad189cd0ba5ca30c13d17cb742476d0">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_MAG_GAIN_230_205_GAUSS
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga388a4733819b2541d067f4c60214d882ac60d24560b90aa9742c57cbecad4452e">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_MAG_GAIN_330_295_GAUSS
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga388a4733819b2541d067f4c60214d882a05d9ff6a6547acd248a2cc769237a878">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_MAG_GAIN_400_355_GAUSS
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga388a4733819b2541d067f4c60214d882af9b82ed1ef10f82add0cc7cc7796d752">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_MAG_GAIN_450_400_GAUSS
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga388a4733819b2541d067f4c60214d882a573d5cf91b373a903ec4bc9d4e2c591c">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_MAG_GAIN_670_600_GAUSS
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga388a4733819b2541d067f4c60214d882ab2a8d3505e3cf7f9a30c0006d8929b89">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_MAG_GAIN_855_760_GAUSS
+: <a class="el" href="group__drivers__lsm303dlhc.html#gga388a4733819b2541d067f4c60214d882a2637b6963a9e2293138802d64e6418e6">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_MAG_SAMPLE_RATE_0_75HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#ggae0e4b5699378a68a1c622925dacec439aa638c87fcae60459f6f620370b536eeb">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_MAG_SAMPLE_RATE_15HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#ggae0e4b5699378a68a1c622925dacec439a0aedd74b00c75a83df08754e7a8d6816">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_MAG_SAMPLE_RATE_1_5HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#ggae0e4b5699378a68a1c622925dacec439ad996749a553c5617292a650b2e9e796b">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_MAG_SAMPLE_RATE_220HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#ggae0e4b5699378a68a1c622925dacec439aab8fcb748343d281973129f67aaad326">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_MAG_SAMPLE_RATE_30HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#ggae0e4b5699378a68a1c622925dacec439a8cfbc86ee07afcf1898fefedf89b366d">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_MAG_SAMPLE_RATE_3HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#ggae0e4b5699378a68a1c622925dacec439a729a6dc38cb6569515158c09f1f1acaf">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_MAG_SAMPLE_RATE_75HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#ggae0e4b5699378a68a1c622925dacec439a52b9cb7e5dfc7e7b6c9089c608aa2e36">lsm303dlhc.h</a>
+</li>
+<li>LSM303DLHC_MAG_SAMPLE_RATE_7_5HZ
+: <a class="el" href="group__drivers__lsm303dlhc.html#ggae0e4b5699378a68a1c622925dacec439a0edd5c7ef1649e325aba4837e85d270f">lsm303dlhc.h</a>
+</li>
+<li>LSM6DSL_ERROR_BUS
+: <a class="el" href="group__drivers__lsm6dsl.html#ggade4ace78b27f5ceccade6e2e29404c48ae126dac30a10cd3afde59e6e453e08f1">lsm6dsl.h</a>
+</li>
+<li>LSM6DSL_ERROR_CNF
+: <a class="el" href="group__drivers__lsm6dsl.html#ggade4ace78b27f5ceccade6e2e29404c48a8d078715dbcff4ad488bb70f88b1ff72">lsm6dsl.h</a>
+</li>
+<li>LSM6DSL_ERROR_DEV
+: <a class="el" href="group__drivers__lsm6dsl.html#ggade4ace78b27f5ceccade6e2e29404c48a50f4a911a9f48ccd9a1ea711db515e7a">lsm6dsl.h</a>
+</li>
+<li>LSM6DSL_OK
+: <a class="el" href="group__drivers__lsm6dsl.html#ggade4ace78b27f5ceccade6e2e29404c48ac8eebcb422d42a13c6291c97a4accd52">lsm6dsl.h</a>
+</li>
+<li>LTC4150_CHARGE
+: <a class="el" href="group__drivers__ltc4150.html#gga8838cbe7f55e7f6946f74c100a10a8afa1ec59ceb1167d2f42dc0c0b0ec188b64">ltc4150.h</a>
+</li>
+<li>LTC4150_DISCHARGE
+: <a class="el" href="group__drivers__ltc4150.html#gga8838cbe7f55e7f6946f74c100a10a8afa6bd7dd6cf179c3075989e7f6bf0e6078">ltc4150.h</a>
+</li>
+<li>LTC4150_EXT_PULL_UP
+: <a class="el" href="group__drivers__ltc4150.html#gga9d62e2a4d6edc3a479d15fdf213decd0a2cca2783809788c4b5254012d78a5e80">ltc4150.h</a>
+</li>
+<li>LTC4150_INT_EXT_PULL_UP
+: <a class="el" href="group__drivers__ltc4150.html#gga9d62e2a4d6edc3a479d15fdf213decd0ac5c149c6fcf7ca08031e4c94d1da9c30">ltc4150.h</a>
+</li>
+<li>LTC4150_POL_EXT_PULL_UP
+: <a class="el" href="group__drivers__ltc4150.html#gga9d62e2a4d6edc3a479d15fdf213decd0a3894eb1352bfe95e8d7df8a0dc6a2c35">ltc4150.h</a>
+</li>
+<li>LUAR_COMPILE_ERR
+: <a class="el" href="lua__run_8h.html#a296f7662878f19b263b7c26c21b68cf6a622ccae5ef45700f1a09f4065585b860">lua_run.h</a>
+</li>
+<li>LUAR_INTERNAL_ERR
+: <a class="el" href="lua__run_8h.html#a296f7662878f19b263b7c26c21b68cf6a348b79e46bae62b5d53cc4234ba63c96">lua_run.h</a>
+</li>
+<li>LUAR_LOAD_ERR
+: <a class="el" href="lua__run_8h.html#a296f7662878f19b263b7c26c21b68cf6ab30b688092dc15dfecb066df4c4b8ef2">lua_run.h</a>
+</li>
+<li>LUAR_MEMORY_ERR
+: <a class="el" href="lua__run_8h.html#a296f7662878f19b263b7c26c21b68cf6a0d9085038fd6e1a9d6d3d9cddab65bc4">lua_run.h</a>
+</li>
+<li>LUAR_NOMODULE
+: <a class="el" href="lua__run_8h.html#a296f7662878f19b263b7c26c21b68cf6a1926d9a8eedb7822ee1c6165e339691c">lua_run.h</a>
+</li>
+<li>LUAR_RUNTIME_ERR
+: <a class="el" href="lua__run_8h.html#a296f7662878f19b263b7c26c21b68cf6a4dee4500fdeb0b404e9e5bd606a62bc5">lua_run.h</a>
+</li>
+<li>LUAR_STARTUP_ERR
+: <a class="el" href="lua__run_8h.html#a296f7662878f19b263b7c26c21b68cf6af98f5e935ee92125588f58e6436260af">lua_run.h</a>
+</li>
+<li>LWM2M_DEVICE_ERR_EXT_OFF
+: <a class="el" href="group__lwm2m__objects__device.html#gga9c811a2d18974d6c0e48339bfa01392da61654fefd6b9a1c0c2be9cb09ad8504b">device.h</a>
+</li>
+<li>LWM2M_DEVICE_ERR_GPS_ERR
+: <a class="el" href="group__lwm2m__objects__device.html#gga9c811a2d18974d6c0e48339bfa01392da71b2628ce4be0c48e16f3ad665334497">device.h</a>
+</li>
+<li>LWM2M_DEVICE_ERR_IP_ERR
+: <a class="el" href="group__lwm2m__objects__device.html#gga9c811a2d18974d6c0e48339bfa01392daadc616495413f9b93840129239f616bd">device.h</a>
+</li>
+<li>LWM2M_DEVICE_ERR_LOW_BATT
+: <a class="el" href="group__lwm2m__objects__device.html#gga9c811a2d18974d6c0e48339bfa01392dabe400ab7b69516f89da2787b8de73843">device.h</a>
+</li>
+<li>LWM2M_DEVICE_ERR_LOW_SIGNAL
+: <a class="el" href="group__lwm2m__objects__device.html#gga9c811a2d18974d6c0e48339bfa01392da4737779c1a32adc8f4e317dca65cd0e0">device.h</a>
+</li>
+<li>LWM2M_DEVICE_ERR_NO_ERR
+: <a class="el" href="group__lwm2m__objects__device.html#gga9c811a2d18974d6c0e48339bfa01392da0b9314f8e865b3b562b6d55656d89308">device.h</a>
+</li>
+<li>LWM2M_DEVICE_ERR_NO_MEM
+: <a class="el" href="group__lwm2m__objects__device.html#gga9c811a2d18974d6c0e48339bfa01392da5e5698269c17cb61baf05a89c067060f">device.h</a>
+</li>
+<li>LWM2M_DEVICE_ERR_PERIPH_ERR
+: <a class="el" href="group__lwm2m__objects__device.html#gga9c811a2d18974d6c0e48339bfa01392daec43cd27a4d8d58b3ef0f59b656a72be">device.h</a>
+</li>
+<li>LWM2M_DEVICE_ERR_SMS_ERR
+: <a class="el" href="group__lwm2m__objects__device.html#gga9c811a2d18974d6c0e48339bfa01392da44350d394b597acd80fe55acd1b93dd8">device.h</a>
+</li>
+<li>LWM2M_DEVICE_RESOURCES
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aa27566fb322bb2d1f8264a64b9dbec38b">device.h</a>
+</li>
+<li>LWM2M_RES_BATTERY_LEVEL
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aafb5995b43639eec1d845e66f51f158ec">device.h</a>
+</li>
+<li>LWM2M_RES_BATTERY_STATUS
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aaa8adfb57a374067f335b0c390fb0d13b">device.h</a>
+</li>
+<li>LWM2M_RES_BINDINGS
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aa59486cabd30717f7f6c502050157df06">device.h</a>
+</li>
+<li>LWM2M_RES_ERROR_CODE
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aa4132ea4daee7207099ec7c87d7d175bf">device.h</a>
+</li>
+<li>LWM2M_RES_ERROR_CODE_RESET
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aaeb5b3df5a34cba6701d629d2e6882877">device.h</a>
+</li>
+<li>LWM2M_RES_EXT_DEV_INFO
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aa5a9211959cb923389f2690871c3f1ce8">device.h</a>
+</li>
+<li>LWM2M_RES_FRESET
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aab612aedc7bdaf525c0cde475434c81d6">device.h</a>
+</li>
+<li>LWM2M_RES_FW_VER
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aa666f5083062d76d979f2cb19114fbc2f">device.h</a>
+</li>
+<li>LWM2M_RES_HW_VERSION
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aa068039fc4d2db255d8f4422853841f9e">device.h</a>
+</li>
+<li>LWM2M_RES_MANUFACTURER
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aad50c5fb30ee6d037d75abd0403c24800">device.h</a>
+</li>
+<li>LWM2M_RES_MEM_FREE
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aacf8e19b47e1eddcc20a40e794843b94a">device.h</a>
+</li>
+<li>LWM2M_RES_MEM_TOTAL
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aa97bd13632787d5c7c5ba31c89957f474">device.h</a>
+</li>
+<li>LWM2M_RES_MODEL_NO
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aad8557af0db81e442128eb5581fcb78b0">device.h</a>
+</li>
+<li>LWM2M_RES_POWER_AMP
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aab830f4620341129ec9ce84135362d6b1">device.h</a>
+</li>
+<li>LWM2M_RES_POWER_SRC
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aa8a8b862b34bfc1e05c534f1519ce4e1b">device.h</a>
+</li>
+<li>LWM2M_RES_POWER_VOL
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aaa27793dc94f949de9bef878f4f40d943">device.h</a>
+</li>
+<li>LWM2M_RES_REBOOT
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aa411a77d70e7d0c56b2a728ed05c70450">device.h</a>
+</li>
+<li>LWM2M_RES_SERIAL
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aa6e91205eafe109b60780d17c26300d80">device.h</a>
+</li>
+<li>LWM2M_RES_SW_VERSION
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aa98a9f69c35fa1fbbf4806c5cc2719ac1">device.h</a>
+</li>
+<li>LWM2M_RES_TIME
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aae7ddb786514b41b8c17d9b433bdfb8f2">device.h</a>
+</li>
+<li>LWM2M_RES_TIME_OFFSET
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aaadc5ff1a7cd824f81dbfa3aec784dfc1">device.h</a>
+</li>
+<li>LWM2M_RES_TIME_ZONE
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aa8429a0d03e924702d729aaf6825a18f1">device.h</a>
+</li>
+<li>LWM2M_RES_TYPE
+: <a class="el" href="group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aa9b79f8cc28d2018e4a737e27bb27505c">device.h</a>
+</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+    <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+        <ul>
+            <li class="footer">Generated on Wed Jul 1 2020 17:09:02 by <a href="http://www.doxygen.org/index.html">
+                       <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
+        </ul>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.smartmenus.min.js"></script>
+    <script src="jquery.smartmenus.bootstrap.min.js"></script>
+    <script src="riot-doxy.js"></script>
+  </body>
+</html>

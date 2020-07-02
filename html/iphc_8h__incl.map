@@ -1,0 +1,13 @@
+<map id="sys/include/net/gnrc/sixlowpan/iphc.h" name="sys/include/net/gnrc/sixlowpan/iphc.h">
+<area shape="rect" id="node3" href="$include_2net_2gnrc_2pkt_8h.html" title="General definitions for network packets and their helper functions. " alt="" coords="487,95,590,121"/>
+<area shape="rect" id="node16" href="$sixlowpan_8h.html" title="6LoWPAN dispatch type and helper function definitions. " alt="" coords="97,95,210,121"/>
+<area shape="rect" id="node4" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="499,244,578,271"/>
+<area shape="rect" id="node5" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="1008,169,1072,196"/>
+<area shape="rect" id="node7" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="360,169,467,196"/>
+<area shape="rect" id="node12" href="$nettype_8h.html" title="Protocol type definitions. " alt="" coords="594,169,721,196"/>
+<area shape="rect" id="node6" href="$malloc_8h.html" title="malloc.h" alt="" coords="1005,244,1075,271"/>
+<area shape="rect" id="node13" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="864,244,981,271"/>
+<area shape="rect" id="node14" href="$ethertype_8h.html" title="Ether type definitions. " alt="" coords="603,244,712,271"/>
+<area shape="rect" id="node15" href="$protnum_8h.html" title="Protocol number definitions. " alt="" coords="737,244,839,271"/>
+<area shape="rect" id="node17" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="206,169,293,196"/>
+</map>

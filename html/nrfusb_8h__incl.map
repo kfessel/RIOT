@@ -1,0 +1,8 @@
+<map id="cpu/nrf52/include/nrfusb.h" name="cpu/nrf52/include/nrfusb.h">
+<area shape="rect" id="node4" href="$usbdev_8h.html" title="Definitions low&#45;level USB driver interface. " alt="" coords="189,80,304,107"/>
+<area shape="rect" id="node5" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="93,155,163,181"/>
+<area shape="rect" id="node8" href="$usb_8h.html" title="Definition of global compile time configuration options. " alt="" coords="187,155,242,181"/>
+<area shape="rect" id="node10" href="$usbopt_8h.html" title="Definition of global USB peripheral and USB peripheral endpoint configuration options. " alt="" coords="318,155,415,181"/>
+<area shape="rect" id="node6" href="$panic_8h.html" title="Crash handling header. " alt="" coords="96,229,160,256"/>
+<area shape="rect" id="node7" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="93,304,211,331"/>
+</map>

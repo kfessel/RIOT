@@ -1,0 +1,7 @@
+<map id="boards/common/arduino&#45;due/include/gpio_params.h" name="boards/common/arduino&#45;due/include/gpio_params.h">
+<area shape="rect" id="node2" href="$common_2arduino-due_2include_2board_8h.html" title="Board specific definitions for the Arduino Due based boards. " alt="" coords="175,95,241,121"/>
+<area shape="rect" id="node11" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="260,169,356,196"/>
+<area shape="rect" id="node4" href="$common_2arduino-due_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins. " alt="" coords="33,169,157,196"/>
+<area shape="rect" id="node5" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,244,189,271"/>
+<area shape="rect" id="node9" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="215,244,308,271"/>
+</map>

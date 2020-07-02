@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>LittlevGL - Open-Source Embedded GUI Library</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.powertip.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="doxy-jquery.js"></script>
+    <script src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <!-- Bootstrap -->
+    <link href="doxygen.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="riot.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div id="top">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" id="brand-logo" href="http://riot-os.org"><img height="40px" src="riot-logo.svg" /></a>
+              <p class="navbar-text text-center visible-xs">Documentation</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
+              <ul id="riot-navlist" class="nav navbar-nav"></ul>
+              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
+              <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
+                    onsubmit="try{
+                        var rhtml=document.getElementById('MSearchResults').contentWindow.document.body.innerHTML;
+                        document.getElementById('MSearchResultsWindow').style.display='none';
+                        document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
+                        document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
+                        document.getElementById('doc-content').innerHTML=rhtml;
+                        }finally{
+                            return false;
+                    }">
+                 <div class="form-group">
+                   <div id="MSearchBox" class="MSearchBoxActive">
+                     <div class="input-group">
+                       <div class="input-group-addon">
+                         <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
+                       </div>
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
+                              r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                       <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
+                         <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+<!-- Generated by Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('group__pkg__lvgl.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#files">Files</a>  </div>
+  <div class="headertitle">
+<div class="title">LittlevGL - Open-Source Embedded GUI Library<div class="ingroups"><a class="el" href="group__pkg.html">Packages</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>LittlevGL package for RIOT.  
+<a href="#details">More...</a></p>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>LittlevGL package for RIOT. </p>
+<dl class="section see"><dt>See also</dt><dd><a href="https://github.com/littlevgl/lvgl">https://github.com/littlevgl/lvgl</a></dd></dl>
+<h2>Configuration options</h2>
+<p>The package can be configured with using several variables. These variables can either be passed directly to build command line or set in the application Makefile.</p>
+<h3>Graphical settings</h3>
+<ul>
+<li><code>LVGL_COLOR_DEPTH</code>: configure the color depth in bit of the screen (default: 16)</li>
+<li><code>LVGL_COLOR_16_SWAP</code>: enable byte swap when communicating with the screen driver (default: 1, enabled)</li>
+</ul>
+<h3>Memory settings</h3>
+<p><code>LVGL_MEM_SIZE</code>: configure the maximum memory size used by lvgl. This depends on the number of lvgl widgets and objects used by the interface (default: 5U*1024U, 5KiB). Must be greater than 2KiB.</p>
+<h3>Engine settings</h3>
+<ul>
+<li><code>LVGL_INACTIVITY_PERIOD_MS</code>: maximum inactivity period before going to sleep in ms. (default: 1s)</li>
+<li><code>LVGL_TASK_HANDLER_DELAY_US</code>: delay between lvgl task handle call in ms. (default: 5ms)</li>
+<li><code>LVGL_TASK_THREAD_PRIO</code>: lvgl task handler thread priority. (default: THREAD_PRIORITY_MAIN - 1)</li>
+</ul>
+<p>Example of command line for changing the max activity period to 5s:</p>
+<div class="fragment"><div class="line">LVGL_ACTIVITY_PERIOD=5000 make -C tests/pkg_lvgl</div></div><!-- fragment --> <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
+Files</h2></td></tr>
+<tr class="memitem:lvgl__riot_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="lvgl__riot_8h.html">lvgl_riot.h</a></td></tr>
+<tr class="memdesc:lvgl__riot_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition for the LittlevGL engine initialization. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabbfac4b79524137bb1386b9fff5eb8ad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__pkg__lvgl.html#gabbfac4b79524137bb1386b9fff5eb8ad">LV_HOR_RES_MAX</a>&#160;&#160;&#160;(320)</td></tr>
+<tr class="memdesc:gabbfac4b79524137bb1386b9fff5eb8ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">LittlevGL configuration macros.  <a href="#gabbfac4b79524137bb1386b9fff5eb8ad">More...</a><br /></td></tr>
+<tr class="separator:gabbfac4b79524137bb1386b9fff5eb8ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2a2c2ff7418ceb92b608cab9825ef939"><td class="memItemLeft" align="right" valign="top"><a id="ga2a2c2ff7418ceb92b608cab9825ef939"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_VER_RES_MAX</b>&#160;&#160;&#160;(240)</td></tr>
+<tr class="separator:ga2a2c2ff7418ceb92b608cab9825ef939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8db46bcd21c9edad6759737cd1b034d7"><td class="memItemLeft" align="right" valign="top"><a id="ga8db46bcd21c9edad6759737cd1b034d7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_COLOR_DEPTH</b>&#160;&#160;&#160;16</td></tr>
+<tr class="separator:ga8db46bcd21c9edad6759737cd1b034d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga322a97e9b4376aa58b0158c50171b9f8"><td class="memItemLeft" align="right" valign="top"><a id="ga322a97e9b4376aa58b0158c50171b9f8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_COLOR_16_SWAP</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga322a97e9b4376aa58b0158c50171b9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6a01dc5b48fd8b6cc603d445db70e5be"><td class="memItemLeft" align="right" valign="top"><a id="ga6a01dc5b48fd8b6cc603d445db70e5be"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_COLOR_SCREEN_TRANSP</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga6a01dc5b48fd8b6cc603d445db70e5be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga038f307fddc6ec02fdd4adf2ad7f554f"><td class="memItemLeft" align="right" valign="top"><a id="ga038f307fddc6ec02fdd4adf2ad7f554f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_COLOR_TRANSP</b>&#160;&#160;&#160;LV_COLOR_LIME         /*LV_COLOR_LIME: pure green*/</td></tr>
+<tr class="separator:ga038f307fddc6ec02fdd4adf2ad7f554f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga22e13e7274f0f10483904b425f3ba756"><td class="memItemLeft" align="right" valign="top"><a id="ga22e13e7274f0f10483904b425f3ba756"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_INDEXED_CHROMA</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga22e13e7274f0f10483904b425f3ba756"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafa322e242448d2fd13e922fde7540cce"><td class="memItemLeft" align="right" valign="top"><a id="gafa322e242448d2fd13e922fde7540cce"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_ANTIALIAS</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gafa322e242448d2fd13e922fde7540cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabe9b8c041b46f280bade20b602168844"><td class="memItemLeft" align="right" valign="top"><a id="gabe9b8c041b46f280bade20b602168844"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_DISP_DEF_REFR_PERIOD</b>&#160;&#160;&#160;10      /*[ms]*/</td></tr>
+<tr class="separator:gabe9b8c041b46f280bade20b602168844"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9bada688cb9cd8f3e18b470368689b44"><td class="memItemLeft" align="right" valign="top"><a id="ga9bada688cb9cd8f3e18b470368689b44"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_DPI</b>&#160;&#160;&#160;100     /*[px]*/</td></tr>
+<tr class="separator:ga9bada688cb9cd8f3e18b470368689b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga77bde977fddc70ca0fd99775170e2294"><td class="memItemLeft" align="right" valign="top"><a id="ga77bde977fddc70ca0fd99775170e2294"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_MEM_CUSTOM</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga77bde977fddc70ca0fd99775170e2294"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeff108006de09a570aac88c106497ed6"><td class="memItemLeft" align="right" valign="top"><a id="gaeff108006de09a570aac88c106497ed6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_MEM_SIZE</b>&#160;&#160;&#160;(5U * 1024U)</td></tr>
+<tr class="separator:gaeff108006de09a570aac88c106497ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5e394cdeebbb7698b06d4646e2dd6bd7"><td class="memItemLeft" align="right" valign="top"><a id="ga5e394cdeebbb7698b06d4646e2dd6bd7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_MEM_ATTR</b></td></tr>
+<tr class="separator:ga5e394cdeebbb7698b06d4646e2dd6bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaec056337ffb77039252d2b7b68be14da"><td class="memItemLeft" align="right" valign="top"><a id="gaec056337ffb77039252d2b7b68be14da"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_MEM_ADR</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:gaec056337ffb77039252d2b7b68be14da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad2c1e2d54156db2a45f1415fddf85710"><td class="memItemLeft" align="right" valign="top"><a id="gad2c1e2d54156db2a45f1415fddf85710"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_MEM_AUTO_DEFRAG</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gad2c1e2d54156db2a45f1415fddf85710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8856846f46d7020d3d8092dbf569d274"><td class="memItemLeft" align="right" valign="top"><a id="ga8856846f46d7020d3d8092dbf569d274"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_ENABLE_GC</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga8856846f46d7020d3d8092dbf569d274"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga45d4adceb8fcf32eea0c68b91fd9e9ce"><td class="memItemLeft" align="right" valign="top"><a id="ga45d4adceb8fcf32eea0c68b91fd9e9ce"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_INDEV_DEF_READ_PERIOD</b>&#160;&#160;&#160;30</td></tr>
+<tr class="separator:ga45d4adceb8fcf32eea0c68b91fd9e9ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6ae311c7d0cfd3bdcf79b503368993aa"><td class="memItemLeft" align="right" valign="top"><a id="ga6ae311c7d0cfd3bdcf79b503368993aa"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_INDEV_DEF_DRAG_LIMIT</b>&#160;&#160;&#160;10</td></tr>
+<tr class="separator:ga6ae311c7d0cfd3bdcf79b503368993aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6255d43dfd57378a85920ec7ca86fea1"><td class="memItemLeft" align="right" valign="top"><a id="ga6255d43dfd57378a85920ec7ca86fea1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_INDEV_DEF_DRAG_THROW</b>&#160;&#160;&#160;20</td></tr>
+<tr class="separator:ga6255d43dfd57378a85920ec7ca86fea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad16957755a6385ad573904cfa708f34c"><td class="memItemLeft" align="right" valign="top"><a id="gad16957755a6385ad573904cfa708f34c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_INDEV_DEF_LONG_PRESS_TIME</b>&#160;&#160;&#160;400</td></tr>
+<tr class="separator:gad16957755a6385ad573904cfa708f34c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf8519184202d4cf5fe87f9e0a9a5780a"><td class="memItemLeft" align="right" valign="top"><a id="gaf8519184202d4cf5fe87f9e0a9a5780a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_INDEV_DEF_LONG_PRESS_REP_TIME</b>&#160;&#160;&#160;100</td></tr>
+<tr class="separator:gaf8519184202d4cf5fe87f9e0a9a5780a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6d2a84387e24e6fecc8c6a159cd17a9d"><td class="memItemLeft" align="right" valign="top"><a id="ga6d2a84387e24e6fecc8c6a159cd17a9d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_ANIMATION</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga6d2a84387e24e6fecc8c6a159cd17a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga38c4275a24940f22fa421c99ff843584"><td class="memItemLeft" align="right" valign="top"><a id="ga38c4275a24940f22fa421c99ff843584"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_SHADOW</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga38c4275a24940f22fa421c99ff843584"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7f93e1c880bf4a41f48745cd88ab5fda"><td class="memItemLeft" align="right" valign="top"><a id="ga7f93e1c880bf4a41f48745cd88ab5fda"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_GROUP</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga7f93e1c880bf4a41f48745cd88ab5fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga02711a37bee92f9b9803f24a1be054d0"><td class="memItemLeft" align="right" valign="top"><a id="ga02711a37bee92f9b9803f24a1be054d0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_GPU</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga02711a37bee92f9b9803f24a1be054d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad0d1a806ee753a9bdca5796ea85503e4"><td class="memItemLeft" align="right" valign="top"><a id="gad0d1a806ee753a9bdca5796ea85503e4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_FILESYSTEM</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:gad0d1a806ee753a9bdca5796ea85503e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad120fea2f0f56822803cc70d1731f84e"><td class="memItemLeft" align="right" valign="top"><a id="gad120fea2f0f56822803cc70d1731f84e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_USER_DATA</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:gad120fea2f0f56822803cc70d1731f84e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8e03cfe84dcb83972db126fc7c1246b0"><td class="memItemLeft" align="right" valign="top"><a id="ga8e03cfe84dcb83972db126fc7c1246b0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_IMG_CF_INDEXED</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga8e03cfe84dcb83972db126fc7c1246b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4410baf0a3ebf69417b7e8f6c7fb7164"><td class="memItemLeft" align="right" valign="top"><a id="ga4410baf0a3ebf69417b7e8f6c7fb7164"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_IMG_CF_ALPHA</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga4410baf0a3ebf69417b7e8f6c7fb7164"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae599fa8c2a484d7a27e64257af0307af"><td class="memItemLeft" align="right" valign="top"><a id="gae599fa8c2a484d7a27e64257af0307af"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_IMG_CACHE_DEF_SIZE</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gae599fa8c2a484d7a27e64257af0307af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga969183113f0383dfc9f6febfeb265559"><td class="memItemLeft" align="right" valign="top"><a id="ga969183113f0383dfc9f6febfeb265559"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_ATTRIBUTE_TICK_INC</b></td></tr>
+<tr class="separator:ga969183113f0383dfc9f6febfeb265559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0dfe5eb1776f2e16d001a4b8a667538e"><td class="memItemLeft" align="right" valign="top"><a id="ga0dfe5eb1776f2e16d001a4b8a667538e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_ATTRIBUTE_TASK_HANDLER</b></td></tr>
+<tr class="separator:ga0dfe5eb1776f2e16d001a4b8a667538e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6b77dcb22fcdc624952dc307331e5db6"><td class="memItemLeft" align="right" valign="top"><a id="ga6b77dcb22fcdc624952dc307331e5db6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_ATTRIBUTE_MEM_ALIGN</b></td></tr>
+<tr class="separator:ga6b77dcb22fcdc624952dc307331e5db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9aa1f88eb217d43ff6f619e58b866d52"><td class="memItemLeft" align="right" valign="top"><a id="ga9aa1f88eb217d43ff6f619e58b866d52"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_ATTRIBUTE_LARGE_CONST</b></td></tr>
+<tr class="separator:ga9aa1f88eb217d43ff6f619e58b866d52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad9dbfeb90679a5db213a80f3e8d61b28"><td class="memItemLeft" align="right" valign="top"><a id="gad9dbfeb90679a5db213a80f3e8d61b28"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_EXPORT_CONST_INT</b>(int_value)&#160;&#160;&#160;struct _silence_gcc_warning</td></tr>
+<tr class="separator:gad9dbfeb90679a5db213a80f3e8d61b28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga244b19e028c500d10572872fa00dd995"><td class="memItemLeft" align="right" valign="top"><a id="ga244b19e028c500d10572872fa00dd995"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_TICK_CUSTOM</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga244b19e028c500d10572872fa00dd995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac187cce8443f66c7c451794679354804"><td class="memItemLeft" align="right" valign="top"><a id="gac187cce8443f66c7c451794679354804"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_TICK_CUSTOM_INCLUDE</b>&#160;&#160;&#160;&quot;xtimer.h&quot;       /*Header for the sys time function*/</td></tr>
+<tr class="separator:gac187cce8443f66c7c451794679354804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa9c7c9bcaf7b3edf752664c8438ee3d6"><td class="memItemLeft" align="right" valign="top"><a id="gaa9c7c9bcaf7b3edf752664c8438ee3d6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_TICK_CUSTOM_SYS_TIME_EXPR</b>&#160;&#160;&#160;(<a class="el" href="group__sys__xtimer.html#ga149e11e56e687ffbdf60eb7a826e0607">xtimer_now_usec</a>() / <a class="el" href="group__sys__timex.html#ga31ae5fdfe8827f4d8def045948d3986e">US_PER_MS</a>)     /*Expression evaluating to current systime in ms*/</td></tr>
+<tr class="separator:gaa9c7c9bcaf7b3edf752664c8438ee3d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad17238861ec699b517a2fbe273d3013c"><td class="memItemLeft" align="right" valign="top"><a id="gad17238861ec699b517a2fbe273d3013c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_LOG</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:gad17238861ec699b517a2fbe273d3013c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad2b2cebe30b751a0ddfc8b8ce2321406"><td class="memItemLeft" align="right" valign="top"><a id="gad2b2cebe30b751a0ddfc8b8ce2321406"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_DEBUG</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:gad2b2cebe30b751a0ddfc8b8ce2321406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf9f32c42137112d0d93cf07c910009da"><td class="memItemLeft" align="right" valign="top"><a id="gaf9f32c42137112d0d93cf07c910009da"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_THEME_LIVE_UPDATE</b>&#160;&#160;&#160;0   /*1: Allow theme switching at run time. Uses 8..10 kB of RAM*/</td></tr>
+<tr class="separator:gaf9f32c42137112d0d93cf07c910009da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5d703fe2db54b937ff7cb308ca583311"><td class="memItemLeft" align="right" valign="top"><a id="ga5d703fe2db54b937ff7cb308ca583311"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_THEME_TEMPL</b>&#160;&#160;&#160;0   /*Just for test*/</td></tr>
+<tr class="separator:ga5d703fe2db54b937ff7cb308ca583311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1df57ee8809abc5d8c24bc95ea6293b7"><td class="memItemLeft" align="right" valign="top"><a id="ga1df57ee8809abc5d8c24bc95ea6293b7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_THEME_DEFAULT</b>&#160;&#160;&#160;0   /*Built mainly from the built-in styles. Consumes very few RAM*/</td></tr>
+<tr class="separator:ga1df57ee8809abc5d8c24bc95ea6293b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaca108ece75b9b27158b26c2c14882f53"><td class="memItemLeft" align="right" valign="top"><a id="gaca108ece75b9b27158b26c2c14882f53"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_THEME_ALIEN</b>&#160;&#160;&#160;0   /*Dark futuristic theme*/</td></tr>
+<tr class="separator:gaca108ece75b9b27158b26c2c14882f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga78594752e6078bdab1b920046d5534cc"><td class="memItemLeft" align="right" valign="top"><a id="ga78594752e6078bdab1b920046d5534cc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_THEME_NIGHT</b>&#160;&#160;&#160;0   /*Dark elegant theme*/</td></tr>
+<tr class="separator:ga78594752e6078bdab1b920046d5534cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga27648a176c28e6adbcf6225d8ef79e56"><td class="memItemLeft" align="right" valign="top"><a id="ga27648a176c28e6adbcf6225d8ef79e56"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_THEME_MONO</b>&#160;&#160;&#160;0   /*Mono color theme for monochrome displays*/</td></tr>
+<tr class="separator:ga27648a176c28e6adbcf6225d8ef79e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0e6ce534f85ff51732b3a69dce5cb158"><td class="memItemLeft" align="right" valign="top"><a id="ga0e6ce534f85ff51732b3a69dce5cb158"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_THEME_MATERIAL</b>&#160;&#160;&#160;0   /*Flat theme with bold colors and light shadows*/</td></tr>
+<tr class="separator:ga0e6ce534f85ff51732b3a69dce5cb158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7d8bd489c47f4e22601dc85f2d6691dc"><td class="memItemLeft" align="right" valign="top"><a id="ga7d8bd489c47f4e22601dc85f2d6691dc"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_THEME_ZEN</b>&#160;&#160;&#160;0   /*Peaceful, mainly light theme */</td></tr>
+<tr class="separator:ga7d8bd489c47f4e22601dc85f2d6691dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3973f40635b65a799a6cdbd316563c39"><td class="memItemLeft" align="right" valign="top"><a id="ga3973f40635b65a799a6cdbd316563c39"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_THEME_NEMO</b>&#160;&#160;&#160;0   /*Water-like theme based on the movie &quot;Finding Nemo&quot;*/</td></tr>
+<tr class="separator:ga3973f40635b65a799a6cdbd316563c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac515febb7e315e1bee34933e30742c3"><td class="memItemLeft" align="right" valign="top"><a id="gaac515febb7e315e1bee34933e30742c3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_FONT_ROBOTO_12</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:gaac515febb7e315e1bee34933e30742c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8133ad53673bb9751757ba4e6959f75d"><td class="memItemLeft" align="right" valign="top"><a id="ga8133ad53673bb9751757ba4e6959f75d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_FONT_ROBOTO_16</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga8133ad53673bb9751757ba4e6959f75d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac2cc428496c9c48bb2e903846cae2c02"><td class="memItemLeft" align="right" valign="top"><a id="gac2cc428496c9c48bb2e903846cae2c02"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_FONT_ROBOTO_22</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:gac2cc428496c9c48bb2e903846cae2c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaa5a838d7dc6aa136db4ca40936c3859"><td class="memItemLeft" align="right" valign="top"><a id="gaaa5a838d7dc6aa136db4ca40936c3859"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_FONT_ROBOTO_28</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:gaaa5a838d7dc6aa136db4ca40936c3859"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga311dca12c37f8713003f6f12b57f478c"><td class="memItemLeft" align="right" valign="top"><a id="ga311dca12c37f8713003f6f12b57f478c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_FONT_ROBOTO_12_SUBPX</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga311dca12c37f8713003f6f12b57f478c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga57694763dbf311a7ae91e9a01659a96a"><td class="memItemLeft" align="right" valign="top"><a id="ga57694763dbf311a7ae91e9a01659a96a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_FONT_ROBOTO_28_COMPRESSED</b>&#160;&#160;&#160;1  /*bpp = 3*/</td></tr>
+<tr class="separator:ga57694763dbf311a7ae91e9a01659a96a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabe7d25051479ced2e1da63ee2c62fc73"><td class="memItemLeft" align="right" valign="top"><a id="gabe7d25051479ced2e1da63ee2c62fc73"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_FONT_UNSCII_8</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:gabe7d25051479ced2e1da63ee2c62fc73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga01312bddc4d0daed11c944c11a107277"><td class="memItemLeft" align="right" valign="top"><a id="ga01312bddc4d0daed11c944c11a107277"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_FONT_CUSTOM_DECLARE</b></td></tr>
+<tr class="separator:ga01312bddc4d0daed11c944c11a107277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga09b9a62c2b0986bedd3e720286631dd5"><td class="memItemLeft" align="right" valign="top"><a id="ga09b9a62c2b0986bedd3e720286631dd5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_FONT_DEFAULT</b>&#160;&#160;&#160;&amp;lv_font_roboto_16</td></tr>
+<tr class="separator:ga09b9a62c2b0986bedd3e720286631dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7da5b8d6a59bc17c499efdd6dbba98a6"><td class="memItemLeft" align="right" valign="top"><a id="ga7da5b8d6a59bc17c499efdd6dbba98a6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_FONT_FMT_TXT_LARGE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga7da5b8d6a59bc17c499efdd6dbba98a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e7603315f3226c4e953995466005f96"><td class="memItemLeft" align="right" valign="top"><a id="ga6e7603315f3226c4e953995466005f96"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_FONT_SUBPX_BGR</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga6e7603315f3226c4e953995466005f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga20802408d2bb785991b9e3e88929010d"><td class="memItemLeft" align="right" valign="top"><a id="ga20802408d2bb785991b9e3e88929010d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_TXT_ENC</b>&#160;&#160;&#160;LV_TXT_ENC_UTF8</td></tr>
+<tr class="separator:ga20802408d2bb785991b9e3e88929010d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga39568ba761e0c4ce5af64132e036a7e4"><td class="memItemLeft" align="right" valign="top"><a id="ga39568ba761e0c4ce5af64132e036a7e4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_TXT_BREAK_CHARS</b>&#160;&#160;&#160;&quot; ,.;:-_&quot;</td></tr>
+<tr class="separator:ga39568ba761e0c4ce5af64132e036a7e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1729c565c0dbc3edf0dac9e235c4ff7b"><td class="memItemLeft" align="right" valign="top"><a id="ga1729c565c0dbc3edf0dac9e235c4ff7b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_TXT_LINE_BREAK_LONG_LEN</b>&#160;&#160;&#160;12</td></tr>
+<tr class="separator:ga1729c565c0dbc3edf0dac9e235c4ff7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadecf949b46a435275d65fb8757583896"><td class="memItemLeft" align="right" valign="top"><a id="gadecf949b46a435275d65fb8757583896"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_TXT_LINE_BREAK_LONG_PRE_MIN_LEN</b>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:gadecf949b46a435275d65fb8757583896"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2615f17521a9785307be8890b13c7ac7"><td class="memItemLeft" align="right" valign="top"><a id="ga2615f17521a9785307be8890b13c7ac7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_TXT_LINE_BREAK_LONG_POST_MIN_LEN</b>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:ga2615f17521a9785307be8890b13c7ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba8ec1367cc2659baa285f32979caa31"><td class="memItemLeft" align="right" valign="top"><a id="gaba8ec1367cc2659baa285f32979caa31"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_TXT_COLOR_CMD</b>&#160;&#160;&#160;&quot;#&quot;</td></tr>
+<tr class="separator:gaba8ec1367cc2659baa285f32979caa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9201ca34504ccc2d501f3cca6956988a"><td class="memItemLeft" align="right" valign="top"><a id="ga9201ca34504ccc2d501f3cca6956988a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_BIDI</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga9201ca34504ccc2d501f3cca6956988a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga387af6dfdb6458d8ae466356e08de1cd"><td class="memItemLeft" align="right" valign="top"><a id="ga387af6dfdb6458d8ae466356e08de1cd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_SPRINTF_CUSTOM</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga387af6dfdb6458d8ae466356e08de1cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6829ca37c74fe434fc6c4db5babca320"><td class="memItemLeft" align="right" valign="top"><a id="ga6829ca37c74fe434fc6c4db5babca320"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_OBJ_REALIGN</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga6829ca37c74fe434fc6c4db5babca320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa48cd7f1fb426062390ece0158746e7c"><td class="memItemLeft" align="right" valign="top"><a id="gaa48cd7f1fb426062390ece0158746e7c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_EXT_CLICK_AREA</b>&#160;&#160;&#160;LV_EXT_CLICK_AREA_OFF</td></tr>
+<tr class="separator:gaa48cd7f1fb426062390ece0158746e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga077a980d0a6c98343e9d0119e53ba3ec"><td class="memItemLeft" align="right" valign="top"><a id="ga077a980d0a6c98343e9d0119e53ba3ec"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_ARC</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga077a980d0a6c98343e9d0119e53ba3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa3cddebb0e6559c6eca86662e472a9e6"><td class="memItemLeft" align="right" valign="top"><a id="gaa3cddebb0e6559c6eca86662e472a9e6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_BAR</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gaa3cddebb0e6559c6eca86662e472a9e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga041a9669e14abc51174c7234417ea2d3"><td class="memItemLeft" align="right" valign="top"><a id="ga041a9669e14abc51174c7234417ea2d3"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_BTN</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga041a9669e14abc51174c7234417ea2d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga34d933fe305bc4d234fc1a8dde573622"><td class="memItemLeft" align="right" valign="top"><a id="ga34d933fe305bc4d234fc1a8dde573622"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_BTN_INK_EFFECT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga34d933fe305bc4d234fc1a8dde573622"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5e5e6d978a06b67a71f7f168f2dba57b"><td class="memItemLeft" align="right" valign="top"><a id="ga5e5e6d978a06b67a71f7f168f2dba57b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_BTNM</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga5e5e6d978a06b67a71f7f168f2dba57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf1c66cdbd8c681b4cd05d92d70573c12"><td class="memItemLeft" align="right" valign="top"><a id="gaf1c66cdbd8c681b4cd05d92d70573c12"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_CALENDAR</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gaf1c66cdbd8c681b4cd05d92d70573c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab02853b975e34a047f63ff88a3e31fea"><td class="memItemLeft" align="right" valign="top"><a id="gab02853b975e34a047f63ff88a3e31fea"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_CANVAS</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gab02853b975e34a047f63ff88a3e31fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3101ad3b370a26d712dcd6a203ae1aca"><td class="memItemLeft" align="right" valign="top"><a id="ga3101ad3b370a26d712dcd6a203ae1aca"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_CB</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga3101ad3b370a26d712dcd6a203ae1aca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1cc9dc77067d9105818faab203522300"><td class="memItemLeft" align="right" valign="top"><a id="ga1cc9dc77067d9105818faab203522300"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_CHART</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga1cc9dc77067d9105818faab203522300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf883a455ef3a1c10e03028508f25002d"><td class="memItemLeft" align="right" valign="top"><a id="gaf883a455ef3a1c10e03028508f25002d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_CHART_AXIS_TICK_LABEL_MAX_LEN</b>&#160;&#160;&#160;20</td></tr>
+<tr class="separator:gaf883a455ef3a1c10e03028508f25002d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga231ae5d2351c544f8a5571d3bb171478"><td class="memItemLeft" align="right" valign="top"><a id="ga231ae5d2351c544f8a5571d3bb171478"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_CONT</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga231ae5d2351c544f8a5571d3bb171478"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1e736f2431c0d55f7b8d5123a53c5144"><td class="memItemLeft" align="right" valign="top"><a id="ga1e736f2431c0d55f7b8d5123a53c5144"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_CPICKER</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga1e736f2431c0d55f7b8d5123a53c5144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf46242739a35278d0247592899d6e293"><td class="memItemLeft" align="right" valign="top"><a id="gaf46242739a35278d0247592899d6e293"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_DDLIST</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gaf46242739a35278d0247592899d6e293"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga411f1144a7a8aed20d58e5e1a97cf7fd"><td class="memItemLeft" align="right" valign="top"><a id="ga411f1144a7a8aed20d58e5e1a97cf7fd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_DDLIST_DEF_ANIM_TIME</b>&#160;&#160;&#160;200</td></tr>
+<tr class="separator:ga411f1144a7a8aed20d58e5e1a97cf7fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab6da33366f96940c4043a951300fd181"><td class="memItemLeft" align="right" valign="top"><a id="gab6da33366f96940c4043a951300fd181"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_GAUGE</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gab6da33366f96940c4043a951300fd181"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5de90ae1a1b0eeab5cb41e132eb188e5"><td class="memItemLeft" align="right" valign="top"><a id="ga5de90ae1a1b0eeab5cb41e132eb188e5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_IMG</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga5de90ae1a1b0eeab5cb41e132eb188e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga712d2807b13c1dc495d060ffa82114e1"><td class="memItemLeft" align="right" valign="top"><a id="ga712d2807b13c1dc495d060ffa82114e1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_IMGBTN</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga712d2807b13c1dc495d060ffa82114e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9160fab25dc1a6b79fd39867af3cfcd8"><td class="memItemLeft" align="right" valign="top"><a id="ga9160fab25dc1a6b79fd39867af3cfcd8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_IMGBTN_TILED</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga9160fab25dc1a6b79fd39867af3cfcd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8a52c04f16faff2b0aa13b4950c0fb29"><td class="memItemLeft" align="right" valign="top"><a id="ga8a52c04f16faff2b0aa13b4950c0fb29"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_KB</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga8a52c04f16faff2b0aa13b4950c0fb29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadc097de303b9ea9dabe8ff4e70c615a6"><td class="memItemLeft" align="right" valign="top"><a id="gadc097de303b9ea9dabe8ff4e70c615a6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_LABEL</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gadc097de303b9ea9dabe8ff4e70c615a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga88549912644cd256f67b6b6d53217d43"><td class="memItemLeft" align="right" valign="top"><a id="ga88549912644cd256f67b6b6d53217d43"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_LABEL_DEF_SCROLL_SPEED</b>&#160;&#160;&#160;25</td></tr>
+<tr class="separator:ga88549912644cd256f67b6b6d53217d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga305671d0332a778d464907e8dfdee380"><td class="memItemLeft" align="right" valign="top"><a id="ga305671d0332a778d464907e8dfdee380"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_LABEL_WAIT_CHAR_COUNT</b>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:ga305671d0332a778d464907e8dfdee380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab6cd2486c1128e4ad2c8b6ab9794fad7"><td class="memItemLeft" align="right" valign="top"><a id="gab6cd2486c1128e4ad2c8b6ab9794fad7"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_LABEL_TEXT_SEL</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:gab6cd2486c1128e4ad2c8b6ab9794fad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5c49073d980131304fa76635eee15f3a"><td class="memItemLeft" align="right" valign="top"><a id="ga5c49073d980131304fa76635eee15f3a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_LABEL_LONG_TXT_HINT</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:ga5c49073d980131304fa76635eee15f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f1b3daead5fdab89b96c6b53c1ec12e"><td class="memItemLeft" align="right" valign="top"><a id="ga8f1b3daead5fdab89b96c6b53c1ec12e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_LED</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga8f1b3daead5fdab89b96c6b53c1ec12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf4690072288635b42fbf0c8829943518"><td class="memItemLeft" align="right" valign="top"><a id="gaf4690072288635b42fbf0c8829943518"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_LINE</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gaf4690072288635b42fbf0c8829943518"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2d446163f0c6a19032a776e3d0c558da"><td class="memItemLeft" align="right" valign="top"><a id="ga2d446163f0c6a19032a776e3d0c558da"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_LIST</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga2d446163f0c6a19032a776e3d0c558da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4a2380e0e2a655504efa9db7777da186"><td class="memItemLeft" align="right" valign="top"><a id="ga4a2380e0e2a655504efa9db7777da186"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_LIST_DEF_ANIM_TIME</b>&#160;&#160;&#160;100</td></tr>
+<tr class="separator:ga4a2380e0e2a655504efa9db7777da186"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a182923ab80ae91a6bec04c8a8b2106"><td class="memItemLeft" align="right" valign="top"><a id="ga3a182923ab80ae91a6bec04c8a8b2106"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_LMETER</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga3a182923ab80ae91a6bec04c8a8b2106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga66a82218e31e9dfbd358cdb45cba3086"><td class="memItemLeft" align="right" valign="top"><a id="ga66a82218e31e9dfbd358cdb45cba3086"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_MBOX</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga66a82218e31e9dfbd358cdb45cba3086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadc162996bb383f4380861b39c156ed67"><td class="memItemLeft" align="right" valign="top"><a id="gadc162996bb383f4380861b39c156ed67"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_PAGE</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gadc162996bb383f4380861b39c156ed67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab7ae4cd8608bc861f1da9314da120cfa"><td class="memItemLeft" align="right" valign="top"><a id="gab7ae4cd8608bc861f1da9314da120cfa"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_PAGE_DEF_ANIM_TIME</b>&#160;&#160;&#160;400</td></tr>
+<tr class="separator:gab7ae4cd8608bc861f1da9314da120cfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf767a7db48cc63e7e82e51591ffc0ece"><td class="memItemLeft" align="right" valign="top"><a id="gaf767a7db48cc63e7e82e51591ffc0ece"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_PRELOAD</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gaf767a7db48cc63e7e82e51591ffc0ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1175b23cc1d41f2e708a1601f6190f2a"><td class="memItemLeft" align="right" valign="top"><a id="ga1175b23cc1d41f2e708a1601f6190f2a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_PRELOAD_DEF_ARC_LENGTH</b>&#160;&#160;&#160;60      /*[deg]*/</td></tr>
+<tr class="separator:ga1175b23cc1d41f2e708a1601f6190f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4ab6bea273c4e393037600785c0b62ae"><td class="memItemLeft" align="right" valign="top"><a id="ga4ab6bea273c4e393037600785c0b62ae"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_PRELOAD_DEF_SPIN_TIME</b>&#160;&#160;&#160;1000    /*[ms]*/</td></tr>
+<tr class="separator:ga4ab6bea273c4e393037600785c0b62ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab2340a65247f0a1f929fc59c73a4994d"><td class="memItemLeft" align="right" valign="top"><a id="gab2340a65247f0a1f929fc59c73a4994d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_PRELOAD_DEF_ANIM</b>&#160;&#160;&#160;LV_PRELOAD_TYPE_SPINNING_ARC</td></tr>
+<tr class="separator:gab2340a65247f0a1f929fc59c73a4994d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga612924ae19721e7d06c7a1640ce2097b"><td class="memItemLeft" align="right" valign="top"><a id="ga612924ae19721e7d06c7a1640ce2097b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_ROLLER</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga612924ae19721e7d06c7a1640ce2097b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab96299556e764521793798458886210c"><td class="memItemLeft" align="right" valign="top"><a id="gab96299556e764521793798458886210c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_ROLLER_DEF_ANIM_TIME</b>&#160;&#160;&#160;200</td></tr>
+<tr class="separator:gab96299556e764521793798458886210c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga62b8fa6dc4a862726f49e9fd67ac033a"><td class="memItemLeft" align="right" valign="top"><a id="ga62b8fa6dc4a862726f49e9fd67ac033a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_ROLLER_INF_PAGES</b>&#160;&#160;&#160;7</td></tr>
+<tr class="separator:ga62b8fa6dc4a862726f49e9fd67ac033a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab7c0f42cd62f7dd90c760143cee4fde4"><td class="memItemLeft" align="right" valign="top"><a id="gab7c0f42cd62f7dd90c760143cee4fde4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_SLIDER</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gab7c0f42cd62f7dd90c760143cee4fde4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafb7291443c61a1c56c1f8ee1fad58856"><td class="memItemLeft" align="right" valign="top"><a id="gafb7291443c61a1c56c1f8ee1fad58856"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_SPINBOX</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gafb7291443c61a1c56c1f8ee1fad58856"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga995b33347de1a58dab200722f12968d0"><td class="memItemLeft" align="right" valign="top"><a id="ga995b33347de1a58dab200722f12968d0"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_SW</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga995b33347de1a58dab200722f12968d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1a5a813dfd963283f3b37dd90ebceadd"><td class="memItemLeft" align="right" valign="top"><a id="ga1a5a813dfd963283f3b37dd90ebceadd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_TA</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga1a5a813dfd963283f3b37dd90ebceadd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab8d8e1abf4ee937e0cc3d3c1965f4a8a"><td class="memItemLeft" align="right" valign="top"><a id="gab8d8e1abf4ee937e0cc3d3c1965f4a8a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_TA_DEF_CURSOR_BLINK_TIME</b>&#160;&#160;&#160;400     /*ms*/</td></tr>
+<tr class="separator:gab8d8e1abf4ee937e0cc3d3c1965f4a8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gade1c050140c9e9c88fdf93346d58bfd4"><td class="memItemLeft" align="right" valign="top"><a id="gade1c050140c9e9c88fdf93346d58bfd4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_TA_DEF_PWD_SHOW_TIME</b>&#160;&#160;&#160;1500    /*ms*/</td></tr>
+<tr class="separator:gade1c050140c9e9c88fdf93346d58bfd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6100a01be7889f316d1bf5fb8935e05b"><td class="memItemLeft" align="right" valign="top"><a id="ga6100a01be7889f316d1bf5fb8935e05b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_TABLE</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga6100a01be7889f316d1bf5fb8935e05b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga30a382587c410020423caab90117e0a5"><td class="memItemLeft" align="right" valign="top"><a id="ga30a382587c410020423caab90117e0a5"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_TABLE_COL_MAX</b>&#160;&#160;&#160;12</td></tr>
+<tr class="separator:ga30a382587c410020423caab90117e0a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga93727577a2845780880149217a435bac"><td class="memItemLeft" align="right" valign="top"><a id="ga93727577a2845780880149217a435bac"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_TABVIEW</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ga93727577a2845780880149217a435bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab83d64247eb893d0414fe3bc315b5aac"><td class="memItemLeft" align="right" valign="top"><a id="gab83d64247eb893d0414fe3bc315b5aac"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_TABVIEW_DEF_ANIM_TIME</b>&#160;&#160;&#160;300</td></tr>
+<tr class="separator:gab83d64247eb893d0414fe3bc315b5aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae722bef533e6c7319fced268cfd6f712"><td class="memItemLeft" align="right" valign="top"><a id="gae722bef533e6c7319fced268cfd6f712"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_TILEVIEW</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gae722bef533e6c7319fced268cfd6f712"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaede4e0c9e267f447121ac98d8487c690"><td class="memItemLeft" align="right" valign="top"><a id="gaede4e0c9e267f447121ac98d8487c690"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_TILEVIEW_DEF_ANIM_TIME</b>&#160;&#160;&#160;300</td></tr>
+<tr class="separator:gaede4e0c9e267f447121ac98d8487c690"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab0b3e246f4129a4679c2f50749002ba1"><td class="memItemLeft" align="right" valign="top"><a id="gab0b3e246f4129a4679c2f50749002ba1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>LV_USE_WIN</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:gab0b3e246f4129a4679c2f50749002ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad98932f5017f20988532bb68b32a6d76"><td class="memItemLeft" align="right" valign="top"><a id="gad98932f5017f20988532bb68b32a6d76"></a>
+typedef int16_t&#160;</td><td class="memItemRight" valign="bottom"><b>lv_coord_t</b></td></tr>
+<tr class="separator:gad98932f5017f20988532bb68b32a6d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0421dfe0b3062519a2be9ac956aa2eeb"><td class="memItemLeft" align="right" valign="top"><a id="ga0421dfe0b3062519a2be9ac956aa2eeb"></a>
+typedef void *&#160;</td><td class="memItemRight" valign="bottom"><b>lv_anim_user_data_t</b></td></tr>
+<tr class="separator:ga0421dfe0b3062519a2be9ac956aa2eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga53952b44ebc2b56b7a49755e70d33c24"><td class="memItemLeft" align="right" valign="top"><a id="ga53952b44ebc2b56b7a49755e70d33c24"></a>
+typedef void *&#160;</td><td class="memItemRight" valign="bottom"><b>lv_group_user_data_t</b></td></tr>
+<tr class="separator:ga53952b44ebc2b56b7a49755e70d33c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3fc8050e79bdbc38d6060856facef3ff"><td class="memItemLeft" align="right" valign="top"><a id="ga3fc8050e79bdbc38d6060856facef3ff"></a>
+typedef void *&#160;</td><td class="memItemRight" valign="bottom"><b>lv_img_decoder_user_data_t</b></td></tr>
+<tr class="separator:ga3fc8050e79bdbc38d6060856facef3ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga662dd17069454cf6f14764c29019df15"><td class="memItemLeft" align="right" valign="top"><a id="ga662dd17069454cf6f14764c29019df15"></a>
+typedef void *&#160;</td><td class="memItemRight" valign="bottom"><b>lv_disp_drv_user_data_t</b></td></tr>
+<tr class="separator:ga662dd17069454cf6f14764c29019df15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a43628eb0282a3128c61fa1d0a2f6d9"><td class="memItemLeft" align="right" valign="top"><a id="ga3a43628eb0282a3128c61fa1d0a2f6d9"></a>
+typedef void *&#160;</td><td class="memItemRight" valign="bottom"><b>lv_indev_drv_user_data_t</b></td></tr>
+<tr class="separator:ga3a43628eb0282a3128c61fa1d0a2f6d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaaa5ff4d41e1f83bc67591638d444604"><td class="memItemLeft" align="right" valign="top"><a id="gaaaa5ff4d41e1f83bc67591638d444604"></a>
+typedef void *&#160;</td><td class="memItemRight" valign="bottom"><b>lv_font_user_data_t</b></td></tr>
+<tr class="separator:gaaaa5ff4d41e1f83bc67591638d444604"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6a0584fecb0212aeb2eded1ef143d4b6"><td class="memItemLeft" align="right" valign="top"><a id="ga6a0584fecb0212aeb2eded1ef143d4b6"></a>
+typedef void *&#160;</td><td class="memItemRight" valign="bottom"><b>lv_obj_user_data_t</b></td></tr>
+<tr class="separator:ga6a0584fecb0212aeb2eded1ef143d4b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="gabbfac4b79524137bb1386b9fff5eb8ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabbfac4b79524137bb1386b9fff5eb8ad">&#9670;&nbsp;</a></span>LV_HOR_RES_MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LV_HOR_RES_MAX&#160;&#160;&#160;(320)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>LittlevGL configuration macros. </p>
+<dl class="section author"><dt>Author</dt><dd>Alexandre Abadie <a href="#" onclick="location.href='mai'+'lto:'+'ale'+'xa'+'ndr'+'e.'+'aba'+'di'+'e@i'+'nr'+'ia.'+'fr'; return false;">alexa<span style="display: none;">.nosp@m.</span>ndre<span style="display: none;">.nosp@m.</span>.abad<span style="display: none;">.nosp@m.</span>ie@i<span style="display: none;">.nosp@m.</span>nria.<span style="display: none;">.nosp@m.</span>fr</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="lv__conf_8h_source.html#l00032">32</a> of file <a class="el" href="lv__conf_8h_source.html">lv_conf.h</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+    <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+        <ul>
+            <li class="footer">Generated on Wed Jul 1 2020 17:08:59 by <a href="http://www.doxygen.org/index.html">
+                       <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
+        </ul>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.smartmenus.min.js"></script>
+    <script src="jquery.smartmenus.bootstrap.min.js"></script>
+    <script src="riot-doxy.js"></script>
+  </body>
+</html>

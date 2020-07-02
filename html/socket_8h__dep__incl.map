@@ -1,0 +1,9 @@
+<map id="sys/posix/include/sys/socket.h" name="sys/posix/include/sys/socket.h">
+<area shape="rect" id="node2" href="$in_8h.html" title="Main socket header. " alt="" coords="275,95,466,121"/>
+<area shape="rect" id="node3" href="$inet_8h.html" title="Definitions for internet operations. " alt="" coords="295,169,447,211"/>
+<area shape="rect" id="node4" href="$nanocoap_8h.html" title="nanocoap API " alt="" coords="184,259,365,285"/>
+<area shape="rect" id="node8" href="$uhcp_8h.html" title="UHCP header. " alt="" coords="390,259,543,285"/>
+<area shape="rect" id="node5" href="$gcoap_8h.html" title="gcoap definition " alt="" coords="5,341,165,367"/>
+<area shape="rect" id="node6" href="$nanocoap__sock_8h.html" title="nanocoap high&#45;level API " alt="" coords="189,333,360,375"/>
+<area shape="rect" id="node7" href="$suit_2transport_2coap_8h_source.html" title="sys/include/suit/transport\l/coap.h" alt="" coords="384,333,552,375"/>
+</map>

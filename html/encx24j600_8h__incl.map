@@ -1,0 +1,12 @@
+<map id="drivers/include/encx24j600.h" name="drivers/include/encx24j600.h">
+<area shape="rect" id="node2" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="497,80,566,107"/>
+<area shape="rect" id="node6" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="611,80,718,107"/>
+<area shape="rect" id="node10" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="275,80,364,107"/>
+<area shape="rect" id="node14" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,155,189,181"/>
+<area shape="rect" id="node15" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="924,80,1019,107"/>
+<area shape="rect" id="node5" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="506,155,557,181"/>
+<area shape="rect" id="node7" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="723,155,801,181"/>
+<area shape="rect" id="node16" href="$errno_8h.html" title="errno.h" alt="" coords="1141,155,1204,181"/>
+<area shape="rect" id="node17" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="941,155,1001,181"/>
+<area shape="rect" id="node19" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="1026,155,1117,181"/>
+</map>

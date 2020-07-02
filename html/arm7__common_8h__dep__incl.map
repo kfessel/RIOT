@@ -1,0 +1,11 @@
+<map id="cpu/arm7_common/include/arm7_common.h" name="cpu/arm7_common/include/arm7_common.h">
+<area shape="rect" id="node2" href="$arm__cpu_8h_source.html" title="cpu/arm7_common/include\l/arm_cpu.h" alt="" coords="5,95,184,136"/>
+<area shape="rect" id="node5" href="$lpc2387_8h_source.html" title="cpu/lpc2387/include\l/lpc2387.h" alt="" coords="209,95,346,136"/>
+<area shape="rect" id="node3" href="$lpc2387_2include_2cpu_8h_source.html" title="cpu/lpc2387/include\l/cpu.h" alt="" coords="26,184,163,225"/>
+<area shape="rect" id="node4" href="$lpc2387_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling. " alt="" coords="26,273,163,315"/>
+<area shape="rect" id="node6" href="$avsextrem_2include_2board_8h.html" title="Boards specific drivers and configuration for the Avsextrem board. " alt="" coords="188,184,359,225"/>
+<area shape="rect" id="node7" href="$mcb2388_2include_2board_8h.html" title="Basic definitions for the MCB2388 board. " alt="" coords="383,184,545,225"/>
+<area shape="rect" id="node10" href="$msba2_2include_2board_8h.html" title="Basic definitions for the MSB&#45;A2 board. " alt="" coords="569,184,719,225"/>
+<area shape="rect" id="node8" href="$mcb2388_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="289,273,452,315"/>
+<area shape="rect" id="node9" href="$mcb2388_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="476,273,639,315"/>
+</map>

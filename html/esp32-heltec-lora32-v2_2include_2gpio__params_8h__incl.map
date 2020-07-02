@@ -1,0 +1,6 @@
+<map id="boards/esp32&#45;heltec&#45;lora32&#45;v2/include/gpio_params.h" name="boards/esp32&#45;heltec&#45;lora32&#45;v2/include/gpio_params.h">
+<area shape="rect" id="node2" href="$esp32-heltec-lora32-v2_2include_2board_8h.html" title="Board specific definitions for Heltec WiFi LoRa 32 V2 board. " alt="" coords="50,109,115,136"/>
+<area shape="rect" id="node5" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="166,109,262,136"/>
+<area shape="rect" id="node6" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="285,184,381,211"/>
+<area shape="rect" id="node10" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="168,184,261,211"/>
+</map>

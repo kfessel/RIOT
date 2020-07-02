@@ -1,0 +1,19 @@
+<map id="sys/net/gnrc/routing/rpl/gnrc_rpl_internal/globals.h" name="sys/net/gnrc/routing/rpl/gnrc_rpl_internal/globals.h">
+<area shape="rect" id="node2" href="$evtimer_8h.html" title="evtimer API definitions " alt="" coords="91,109,167,136"/>
+<area shape="rect" id="node4" href="$xtimer_8h.html" title="xtimer interface definitions " alt="" coords="470,184,539,211"/>
+<area shape="rect" id="node6" href="$timex_8h.html" title="Utility library for comparing and computing timestamps. " alt="" coords="25,259,91,285"/>
+<area shape="rect" id="node8" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="166,333,235,360"/>
+<area shape="rect" id="node11" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="475,333,582,360"/>
+<area shape="rect" id="node14" href="$rmutex_8h.html" title="Recursive Mutex for thread synchronization. " alt="" coords="319,259,392,285"/>
+<area shape="rect" id="node18" href="$tick__conversion_8h.html" title="xtimer tick &lt;&#45;&gt; seconds conversions for different values of XTIMER_HZ " alt="" coords="613,259,777,285"/>
+<area shape="rect" id="node23" href="$implementation_8h.html" title="xtimer implementation " alt="" coords="801,259,963,285"/>
+<area shape="rect" id="node7" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="5,408,84,435"/>
+<area shape="rect" id="node10" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="175,408,226,435"/>
+<area shape="rect" id="node19" href="$div_8h.html" title="div.h" alt="" coords="606,333,657,360"/>
+<area shape="rect" id="node20" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="506,408,575,435"/>
+<area shape="rect" id="node21" href="$panic_8h.html" title="Crash handling header. " alt="" coords="486,483,550,509"/>
+<area shape="rect" id="node22" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="437,557,554,584"/>
+<area shape="rect" id="node24" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions. " alt="" coords="706,333,807,360"/>
+<area shape="rect" id="node27" href="$irq_8h.html" title="IRQ driver interface. " alt="" coords="991,333,1037,360"/>
+<area shape="rect" id="node26" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="687,408,826,435"/>
+</map>

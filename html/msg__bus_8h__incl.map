@@ -1,0 +1,9 @@
+<map id="core/include/msg_bus.h" name="core/include/msg_bus.h">
+<area shape="rect" id="node2" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="25,80,95,107"/>
+<area shape="rect" id="node7" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="169,80,220,107"/>
+<area shape="rect" id="node8" href="$msg_8h.html" title="Messaging API for inter process communication. " alt="" coords="244,80,303,107"/>
+<area shape="rect" id="node3" href="$panic_8h.html" title="Crash handling header. " alt="" coords="29,155,93,181"/>
+<area shape="rect" id="node4" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="5,229,123,256"/>
+<area shape="rect" id="node10" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="319,155,425,181"/>
+<area shape="rect" id="node11" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="289,229,367,256"/>
+</map>

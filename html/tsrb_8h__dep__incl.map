@@ -1,0 +1,11 @@
+<map id="sys/include/tsrb.h" name="sys/include/tsrb.h">
+<area shape="rect" id="node2" href="$ethos_8h.html" title="Interface definition for the ethernet&#45;over&#45;serial module. " alt="" coords="5,87,159,114"/>
+<area shape="rect" id="node3" href="$slipdev_8h.html" title="SLIP device definitions. " alt="" coords="183,87,346,114"/>
+<area shape="rect" id="node5" href="$isrpipe_8h.html" title="isrpipe Interface " alt="" coords="370,87,511,114"/>
+<area shape="rect" id="node9" href="$acm_8h.html" title="Interface and definitions for USB CDC ACM type interfaces in USBUS. " alt="" coords="615,80,767,121"/>
+<area shape="rect" id="node4" href="$slipdev__params_8h.html" title="Default configuration for the SLIP device driver. " alt="" coords="35,169,185,211"/>
+<area shape="rect" id="node6" href="$at_8h.html" title="AT (Hayes) library interface. " alt="" coords="209,177,341,203"/>
+<area shape="rect" id="node7" href="$slipdev__internal_8h.html" title="drivers/slipdev/include\l/slipdev_internal.h" alt="" coords="365,169,516,211"/>
+<area shape="rect" id="node8" href="$read__timeout_8h.html" title="isrpipe read timeout Interface " alt="" coords="541,169,671,211"/>
+<area shape="rect" id="node10" href="$usb__board__reset_8h.html" title="sys/include/usb_board\l_reset.h" alt="" coords="695,169,847,211"/>
+</map>

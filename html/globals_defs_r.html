@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Globals</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.powertip.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="doxy-jquery.js"></script>
+    <script src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <!-- Bootstrap -->
+    <link href="doxygen.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="riot.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div id="top">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" id="brand-logo" href="http://riot-os.org"><img height="40px" src="riot-logo.svg" /></a>
+              <p class="navbar-text text-center visible-xs">Documentation</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
+              <ul id="riot-navlist" class="nav navbar-nav"></ul>
+              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
+              <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
+                    onsubmit="try{
+                        var rhtml=document.getElementById('MSearchResults').contentWindow.document.body.innerHTML;
+                        document.getElementById('MSearchResultsWindow').style.display='none';
+                        document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
+                        document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
+                        document.getElementById('doc-content').innerHTML=rhtml;
+                        }finally{
+                            return false;
+                    }">
+                 <div class="form-group">
+                   <div id="MSearchBox" class="MSearchBoxActive">
+                     <div class="input-group">
+                       <div class="input-group-addon">
+                         <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
+                       </div>
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
+                              r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                       <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
+                         <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+<!-- Generated by Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('globals_defs_r.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+&#160;
+
+<h3><a id="index_r"></a>- r -</h3><ul>
+<li>RANDOM_SEED_DEFAULT
+: <a class="el" href="group__sys__random.html#gad7d1f7aa06b6854cbf4ed3def1f5eabd">random.h</a>
+</li>
+<li>RAW_CAN_DEV_UNDEF
+: <a class="el" href="can_2raw_8h.html#a80db4a1d59e06b6faf2861f510bd6b4b">raw.h</a>
+</li>
+<li>RCOSC16M_FREQ
+: <a class="el" href="cc2538_8h.html#ab967751bbc50aacdfd19d927d0ed3811">cc2538.h</a>
+</li>
+<li>RCOSC24M_FREQ
+: <a class="el" href="group__CC13x2__cmsis.html#gafb8a7c5e6f5e059f730403628bf2a4b0">cc26xx_cc13xx.h</a>
+</li>
+<li>RCOSC32K_FREQ
+: <a class="el" href="cc2538_8h.html#a6b2eb97f48f72c1f26a2babe2ecba14a">cc2538.h</a>
+</li>
+<li>RCOSC48M_FREQ
+: <a class="el" href="group__CC13x2__cmsis.html#gab5a87b2541d5cccab07f0a3ec1658cd6">cc26xx_cc13xx.h</a>
+</li>
+<li>REG16
+: <a class="el" href="msp430__regs_8h.html#a7f2f605c029c5c96fb06ecca2933dc67">msp430_regs.h</a>
+, <a class="el" href="cc430__regs_8h.html#a7f2f605c029c5c96fb06ecca2933dc67">cc430_regs.h</a>
+</li>
+<li>REG8
+: <a class="el" href="atmega__regs__common_8h.html#aaa0d3e6a102c69ac36d1a145d01024c6">atmega_regs_common.h</a>
+, <a class="el" href="cc430__regs_8h.html#aaa0d3e6a102c69ac36d1a145d01024c6">cc430_regs.h</a>
+, <a class="el" href="msp430__regs_8h.html#aaa0d3e6a102c69ac36d1a145d01024c6">msp430_regs.h</a>
+</li>
+<li>REG_ECON1
+: <a class="el" href="enc28j60__regs_8h.html#a9157359f581ec13bd3da2a63fec9ab4b">enc28j60_regs.h</a>
+</li>
+<li>REG_ECON2
+: <a class="el" href="enc28j60__regs_8h.html#a82ac16551c4a86f719e81dba72293344">enc28j60_regs.h</a>
+</li>
+<li>REG_EIE
+: <a class="el" href="enc28j60__regs_8h.html#acf179a2960ebb344338f6af6dcfb5fd8">enc28j60_regs.h</a>
+</li>
+<li>REG_EIR
+: <a class="el" href="enc28j60__regs_8h.html#af7ca106fab00a3ee1298c750cb304722">enc28j60_regs.h</a>
+</li>
+<li>REG_ESTAT
+: <a class="el" href="enc28j60__regs_8h.html#a100629bb075fe9a3b3a644727206eb8d">enc28j60_regs.h</a>
+</li>
+<li>REG_GAR0
+: <a class="el" href="w5100__regs_8h.html#a9dc20ea48c00e4a8a09d0f8dcda0db78">w5100_regs.h</a>
+</li>
+<li>REG_GAR1
+: <a class="el" href="w5100__regs_8h.html#aadca85d6b90d925bc9cef365e8a39156">w5100_regs.h</a>
+</li>
+<li>REG_GAR2
+: <a class="el" href="w5100__regs_8h.html#a92c454af430bc8480aa0480ca267f022">w5100_regs.h</a>
+</li>
+<li>REG_GAR3
+: <a class="el" href="w5100__regs_8h.html#a74edcfd737ecb55107b0d6d948f669d6">w5100_regs.h</a>
+</li>
+<li>REG_IMR
+: <a class="el" href="w5100__regs_8h.html#a4d033a53b33a84a36c5c9bbf2aa1a682">w5100_regs.h</a>
+</li>
+<li>REG_IR
+: <a class="el" href="w5100__regs_8h.html#a2369310a3524572e88bcae3137988b68">w5100_regs.h</a>
+</li>
+<li>REG_MODE
+: <a class="el" href="w5100__regs_8h.html#ad300b1c3110ab0075461122bbe645ed9">w5100_regs.h</a>
+</li>
+<li>REG_PATR0
+: <a class="el" href="w5100__regs_8h.html#a4f6f05470d615eba7e7cfeee5febead0">w5100_regs.h</a>
+</li>
+<li>REG_PATR1
+: <a class="el" href="w5100__regs_8h.html#a59b3e9ca06222cd7d50360be6a58c53d">w5100_regs.h</a>
+</li>
+<li>REG_PMAGIC
+: <a class="el" href="w5100__regs_8h.html#a6e042f603099d06b46078f3ab7792e2f">w5100_regs.h</a>
+</li>
+<li>REG_PTIMER
+: <a class="el" href="w5100__regs_8h.html#ac79fcf557306411cb559c2b7331cdaaf">w5100_regs.h</a>
+</li>
+<li>REG_RCR
+: <a class="el" href="w5100__regs_8h.html#a75a2f762ab2fb5c18720698f19d1f25a">w5100_regs.h</a>
+</li>
+<li>REG_RMSR
+: <a class="el" href="w5100__regs_8h.html#aee56b8239cfbbc82d5f35df728837329">w5100_regs.h</a>
+</li>
+<li>REG_RTR0
+: <a class="el" href="w5100__regs_8h.html#a9837cbf918f7ff6aa4673c9683798679">w5100_regs.h</a>
+</li>
+<li>REG_RTR1
+: <a class="el" href="w5100__regs_8h.html#a178c5b743913089b139b1fc67f5a1103">w5100_regs.h</a>
+</li>
+<li>REG_SHAR0
+: <a class="el" href="w5100__regs_8h.html#a29a33a276a23691f97df1248856ef003">w5100_regs.h</a>
+</li>
+<li>REG_SHAR1
+: <a class="el" href="w5100__regs_8h.html#ac294f19a095dca9d76fd063b4799b065">w5100_regs.h</a>
+</li>
+<li>REG_SHAR2
+: <a class="el" href="w5100__regs_8h.html#a1a480e1b4d4c07f26312120338937807">w5100_regs.h</a>
+</li>
+<li>REG_SHAR3
+: <a class="el" href="w5100__regs_8h.html#afa13d996a9bccb56a65788c0e950a5c4">w5100_regs.h</a>
+</li>
+<li>REG_SHAR4
+: <a class="el" href="w5100__regs_8h.html#a97419819fee783ea36d70183f1cd3775">w5100_regs.h</a>
+</li>
+<li>REG_SHAR5
+: <a class="el" href="w5100__regs_8h.html#ace5e6b75622800b886a0a1a163acbdf3">w5100_regs.h</a>
+</li>
+<li>REG_SIPR0
+: <a class="el" href="w5100__regs_8h.html#ad70dbf772b00d82e6c172e1af00d35fc">w5100_regs.h</a>
+</li>
+<li>REG_SIPR1
+: <a class="el" href="w5100__regs_8h.html#a8708d1ee1180900cd2966a23390f83a2">w5100_regs.h</a>
+</li>
+<li>REG_SIPR2
+: <a class="el" href="w5100__regs_8h.html#a819fe46f0d23469e66d0478af4a266eb">w5100_regs.h</a>
+</li>
+<li>REG_SIPR3
+: <a class="el" href="w5100__regs_8h.html#a4a1bfe762aa7c212c5675e7b13fc31a9">w5100_regs.h</a>
+</li>
+<li>REG_SUB0
+: <a class="el" href="w5100__regs_8h.html#a0e0099214660977f88d8b5cf0353a0ef">w5100_regs.h</a>
+</li>
+<li>REG_SUB1
+: <a class="el" href="w5100__regs_8h.html#a6404fe4101eda02c4be329969d3a6479">w5100_regs.h</a>
+</li>
+<li>REG_SUB2
+: <a class="el" href="w5100__regs_8h.html#a0acdab5e29bc1d2e6c11429e2ec5a2ca">w5100_regs.h</a>
+</li>
+<li>REG_SUB3
+: <a class="el" href="w5100__regs_8h.html#a79ad859e11907ef6130d9eadaf06384b">w5100_regs.h</a>
+</li>
+<li>REG_TMSR
+: <a class="el" href="w5100__regs_8h.html#a3c6afc20b6c87d662a6784866db2afff">w5100_regs.h</a>
+</li>
+<li>REG_UIPR0
+: <a class="el" href="w5100__regs_8h.html#a11dc3308ffd2615a0bf899610edb7611">w5100_regs.h</a>
+</li>
+<li>REG_UIPR1
+: <a class="el" href="w5100__regs_8h.html#aba84bf525a73a4284f250a4e48a8b165">w5100_regs.h</a>
+</li>
+<li>REG_UIPR2
+: <a class="el" href="w5100__regs_8h.html#a4cf1b430d7e54fa10484f9a40532d8a5">w5100_regs.h</a>
+</li>
+<li>REG_UIPR3
+: <a class="el" href="w5100__regs_8h.html#ac8e0e48dbfc033f5b6bf3e1b99d42e37">w5100_regs.h</a>
+</li>
+<li>REG_UPORT0
+: <a class="el" href="w5100__regs_8h.html#a05bb379ae04492e529d820a05401a915">w5100_regs.h</a>
+</li>
+<li>REG_UPORT1
+: <a class="el" href="w5100__regs_8h.html#af87e508d3b8540f71a0ed6b8b4a87675">w5100_regs.h</a>
+</li>
+<li>RES_DIV
+: <a class="el" href="bh1750fvi__internal_8h.html#a47132a147c7939554d85b46cde62a73b">bh1750fvi_internal.h</a>
+</li>
+<li>RESET_DELAY
+: <a class="el" href="pcd8544__internal_8h.html#a5f1226244e161294423fac73a93d034d">pcd8544_internal.h</a>
+</li>
+<li>RF24_SWITCH_AT86RF215_PIN
+: <a class="el" href="openmote-b_2include_2board_8h.html#aa40de2f3526432ff16c71523ad3fcd78">board.h</a>
+</li>
+<li>RF24_SWITCH_CC2538_PIN
+: <a class="el" href="openmote-b_2include_2board_8h.html#a52f28782a343074e0a5b868fcf6530c7">board.h</a>
+</li>
+<li>RF_DTB_2_US
+: <a class="el" href="at86rf215__registers_8h.html#a6081a76690454b6255331f0f27d91a15">at86rf215_registers.h</a>
+</li>
+<li>RF_RCUT_FS_BY_2
+: <a class="el" href="at86rf215__registers_8h.html#a0b002a3d3e0537372be27458c8dd8f59">at86rf215_registers.h</a>
+</li>
+<li>RF_RCUT_FS_BY_2P6
+: <a class="el" href="at86rf215__registers_8h.html#a0987b9941c7527c43897f649b2f49078">at86rf215_registers.h</a>
+</li>
+<li>RF_RCUT_FS_BY_4
+: <a class="el" href="at86rf215__registers_8h.html#ab100d951b6967a87e658dd8bab375108">at86rf215_registers.h</a>
+</li>
+<li>RF_RCUT_FS_BY_5P3
+: <a class="el" href="at86rf215__registers_8h.html#affa18d47351658ef7c1325b6edc82563">at86rf215_registers.h</a>
+</li>
+<li>RF_RCUT_FS_BY_8
+: <a class="el" href="at86rf215__registers_8h.html#a98a95aa966f6056a1ec1d75fe1f3d4b7">at86rf215_registers.h</a>
+</li>
+<li>RF_SR_4000K
+: <a class="el" href="at86rf215__registers_8h.html#ae0e7ae7d293e421283d033241a6f40bd">at86rf215_registers.h</a>
+</li>
+<li>RFC_DBELL
+: <a class="el" href="cc26xx__cc13xx__rfc_8h.html#a3896e1e2ec3827c32c81fb4fbdc84fad">cc26xx_cc13xx_rfc.h</a>
+</li>
+<li>RFC_DBELL_BASE
+: <a class="el" href="group__cpu__specific__peripheral__memory__map.html#gaba94279bbfdf3772165d4207fbb6e6cf">cc26xx_cc13xx_rfc.h</a>
+</li>
+<li>RFC_DBELL_BASE_NONBUF
+: <a class="el" href="group__cpu__specific__peripheral__memory__map.html#ga950dd7b50c760e14904e09a8d3cdab20">cc26xx_cc13xx_rfc.h</a>
+</li>
+<li>RFC_DBELL_NONBUF
+: <a class="el" href="cc26xx__cc13xx__rfc_8h.html#a0909ffab125ab5609b5b8656e07b1cff">cc26xx_cc13xx_rfc.h</a>
+</li>
+<li>RFC_PWR
+: <a class="el" href="cc26xx__cc13xx__rfc_8h.html#a293bee87519ed6b3dede649af0412d07">cc26xx_cc13xx_rfc.h</a>
+</li>
+<li>RFC_PWR_BASE
+: <a class="el" href="group__cpu__specific__peripheral__memory__map.html#ga756236964ac76416d556c1dd8fe20e5f">cc26xx_cc13xx_rfc.h</a>
+</li>
+<li>RFC_PWR_BASE_NONBUF
+: <a class="el" href="group__cpu__specific__peripheral__memory__map.html#ga95633d7f77ae5ffcb9d7e32c573b10f6">cc26xx_cc13xx_rfc.h</a>
+</li>
+<li>RFC_PWR_NONBUF
+: <a class="el" href="cc26xx__cc13xx__rfc_8h.html#a39c90dd25c3c0a7af323dd9f06077297">cc26xx_cc13xx_rfc.h</a>
+</li>
+<li>RFCORE
+: <a class="el" href="group__cpu__cc2538__rfcore.html#ga0e8ed1b33169165d7a2c71841509f8f5">cc2538_rfcore.h</a>
+</li>
+<li>RFCORE_FFSM_EXT_ADDR0
+: <a class="el" href="cc2538_8h.html#a737923cafe8c3d374e3ee01bfdf57f26">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_EXT_ADDR1
+: <a class="el" href="cc2538_8h.html#a11f8c7315ab2035371e30a0214af115c">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_EXT_ADDR2
+: <a class="el" href="cc2538_8h.html#a4388fb0aef8ff6742d371b5fa879ff71">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_EXT_ADDR3
+: <a class="el" href="cc2538_8h.html#a8ad5a7db6b555955dcdd8f075770d3f1">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_EXT_ADDR4
+: <a class="el" href="cc2538_8h.html#a17c60f9eca7ff19bd5457a566b5eef7d">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_EXT_ADDR5
+: <a class="el" href="cc2538_8h.html#a6e721bc00d2f0e02774598fe4b9db74c">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_EXT_ADDR6
+: <a class="el" href="cc2538_8h.html#a921ce2bd9e0ae3e16c1f7dc6fc2ccc9d">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_EXT_ADDR7
+: <a class="el" href="cc2538_8h.html#a614b6b7cf0ac8b066501150454703017">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_PAN_ID0
+: <a class="el" href="cc2538_8h.html#a02476d7a783c06b23c87e4f0370d24cd">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_PAN_ID1
+: <a class="el" href="cc2538_8h.html#aa55da6cdb07ef47041669c199f23d3f2">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_SHORT_ADDR0
+: <a class="el" href="cc2538_8h.html#acf2a0f8720d6f52f92fedb3c65b9247d">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_SHORT_ADDR1
+: <a class="el" href="cc2538_8h.html#ab3668cb0963850e1e598ecb50974e0ad">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_SRCEXTPENDEN0
+: <a class="el" href="cc2538_8h.html#a88b3a2120c54cab0e525162d6db49342">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_SRCEXTPENDEN1
+: <a class="el" href="cc2538_8h.html#aa45b7874212ae416d7f4b8213008c4c2">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_SRCEXTPENDEN2
+: <a class="el" href="cc2538_8h.html#a10eea7053ccde8b1dd1cb5e646a30e1e">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_SRCRESINDEX
+: <a class="el" href="cc2538_8h.html#a6187372f763e739b82af436fe74c4cbd">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_SRCRESMASK0
+: <a class="el" href="cc2538_8h.html#ae6d9f21b530afc737850344ac90359f6">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_SRCRESMASK1
+: <a class="el" href="cc2538_8h.html#ae9ada8d56f23316ad544eee4e98f718a">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_SRCRESMASK2
+: <a class="el" href="cc2538_8h.html#a0dc8f6742f4e90a155a1d310ed6323e3">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_SRCSHORTPENDEN0
+: <a class="el" href="cc2538_8h.html#a2f1d431346c21961e8b7472cd4347149">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_SRCSHORTPENDEN1
+: <a class="el" href="cc2538_8h.html#adecd8a612b69cf166b3fcf7b131b14e5">cc2538.h</a>
+</li>
+<li>RFCORE_FFSM_SRCSHORTPENDEN2
+: <a class="el" href="cc2538_8h.html#a7f115276124678123618454fee32fca4">cc2538.h</a>
+</li>
+<li>RFCORE_SFR_MTCSPCFG
+: <a class="el" href="cc2538_8h.html#af7d2e3b364feb66810e05604013d3c74">cc2538.h</a>
+</li>
+<li>RFCORE_SFR_MTCTRL
+: <a class="el" href="cc2538_8h.html#adefd47d68b68c367b3eb32b74a0d267c">cc2538.h</a>
+</li>
+<li>RFCORE_SFR_MTIRQF
+: <a class="el" href="cc2538_8h.html#a8697e7ab14383eb6bf2235e2d3d0cb26">cc2538.h</a>
+</li>
+<li>RFCORE_SFR_MTIRQM
+: <a class="el" href="cc2538_8h.html#ac6c0354a5d2304bb4662eeccbe4a8abc">cc2538.h</a>
+</li>
+<li>RFCORE_SFR_MTM0
+: <a class="el" href="cc2538_8h.html#a667789e2b309a91d8ae5e66aff8602be">cc2538.h</a>
+</li>
+<li>RFCORE_SFR_MTM1
+: <a class="el" href="cc2538_8h.html#a067f77bd69709cfba10d0114558a7190">cc2538.h</a>
+</li>
+<li>RFCORE_SFR_MTMOVF0
+: <a class="el" href="cc2538_8h.html#a7ace540b5a8cd409f018b5438c8b28a0">cc2538.h</a>
+</li>
+<li>RFCORE_SFR_MTMOVF1
+: <a class="el" href="cc2538_8h.html#a82bfbef302b9bb16c5adb7451e231955">cc2538.h</a>
+</li>
+<li>RFCORE_SFR_MTMOVF2
+: <a class="el" href="cc2538_8h.html#a5f3f5949ecc6c25cc45b40711217cdff">cc2538.h</a>
+</li>
+<li>RFCORE_SFR_MTMSEL
+: <a class="el" href="cc2538_8h.html#a5a0fb28396a5e85a7df1dc88355536ac">cc2538.h</a>
+</li>
+<li>RFCORE_SFR_RFDATA
+: <a class="el" href="cc2538_8h.html#abfa3bf635632eca7337a3d2551ca67d2">cc2538.h</a>
+</li>
+<li>RFCORE_SFR_RFERRF
+: <a class="el" href="cc2538_8h.html#ab9d44e15cf123daf981d17c41b1674b6">cc2538.h</a>
+</li>
+<li>RFCORE_SFR_RFIRQF0
+: <a class="el" href="cc2538_8h.html#ad19560392ce1d533cf1d79a14b79edb8">cc2538.h</a>
+</li>
+<li>RFCORE_SFR_RFIRQF1
+: <a class="el" href="cc2538_8h.html#acb2a1b183bc37b5c94d888cb6183a66a">cc2538.h</a>
+</li>
+<li>RFCORE_SFR_RFST
+: <a class="el" href="cc2538_8h.html#a40673ad35ff0b698efa9fd9d137dacd2">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_ADCTEST0
+: <a class="el" href="cc2538_8h.html#ac054507aebfe82027eab25af6c3e0430">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_ADCTEST1
+: <a class="el" href="cc2538_8h.html#aa7bf5cf11578852271e2719a1dfac01e">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_ADCTEST2
+: <a class="el" href="cc2538_8h.html#a4be03acbbd2bbde59c7629c24d832446">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_AGCCTRL0
+: <a class="el" href="cc2538_8h.html#a27f7b95d227a92fb9e5cc274bf032545">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_AGCCTRL1
+: <a class="el" href="cc2538_8h.html#aa5df330a9a1289aae7cd08d4cd46e246">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_AGCCTRL2
+: <a class="el" href="cc2538_8h.html#aeda34ae222ad3a7d2450fc2937a0e77f">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_AGCCTRL3
+: <a class="el" href="cc2538_8h.html#a917153bd86a351dd8d78d10743255c94">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_ATEST
+: <a class="el" href="cc2538_8h.html#a49900504dc87f15104f2fb4bb9b777d4">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_CCACTRL0
+: <a class="el" href="cc2538_8h.html#a095f60721d5941bb8701f467d7d3a6f1">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_CCACTRL1
+: <a class="el" href="cc2538_8h.html#ae92aa92dad0414bdd4f7c9957a60a2e5">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_CSPCTRL
+: <a class="el" href="cc2538_8h.html#a3a0ab625d3c6705693b50b1990b781ac">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_CSPSTAT
+: <a class="el" href="cc2538_8h.html#aaeff2d4b63d0e4307ba0894201db28b1">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_CSPT
+: <a class="el" href="cc2538_8h.html#a0331fda85ad98658e5afda239dcd82f3">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_CSPX
+: <a class="el" href="cc2538_8h.html#ada53baa77e6a247068db8a23cb4c6c2c">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_CSPY
+: <a class="el" href="cc2538_8h.html#aecfb1d2fa18d7c88172aafd64e3023e8">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_CSPZ
+: <a class="el" href="cc2538_8h.html#a5a6bb1b43920f0fc0b3967baa2f8d981">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_DACTEST0
+: <a class="el" href="cc2538_8h.html#a0b9cd91f5f18f73d91a28ab45553c1ed">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_DACTEST1
+: <a class="el" href="cc2538_8h.html#adefe6d307778718245e143aa1fe0cf94">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_DACTEST2
+: <a class="el" href="cc2538_8h.html#ab156ba30660af311cab51fe0d1c8d896">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_FIFOPCTRL
+: <a class="el" href="cc2538_8h.html#abbfec4e049e89bf2d57eacc9904d48f3">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_FREQCTRL
+: <a class="el" href="cc2538_8h.html#adecf5df0d5f7cfc92feef994f9a4120b">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_FREQEST
+: <a class="el" href="cc2538_8h.html#a90e2a2cfd0d39120e50db43bb6c5d252">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_FREQTUNE
+: <a class="el" href="cc2538_8h.html#a77cd38507bd8f43091803b851ae66036">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_FRMCTRL0
+: <a class="el" href="cc2538_8h.html#a1f19febb9c08a3a6433185307040db05">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_FRMCTRL1
+: <a class="el" href="cc2538_8h.html#a391d6837e2fd27192af075840ff32af3">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_FRMFILT0
+: <a class="el" href="cc2538_8h.html#a31ef0a5a7f0cfe4bf0f972c5c507ff16">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_FRMFILT1
+: <a class="el" href="cc2538_8h.html#a86abb0fdd4213ac73e6a8789738af9d8">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_FSCAL0
+: <a class="el" href="cc2538_8h.html#acc1a446e5d762dc3c0eec50d95095fe3">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_FSCAL1
+: <a class="el" href="cc2538_8h.html#affb70776ce4ed8f84c19f52f782182f4">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_FSCAL2
+: <a class="el" href="cc2538_8h.html#a68186b22fa64908d68729b76c6afb412">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_FSCAL3
+: <a class="el" href="cc2538_8h.html#aac7efabc4eb66334153f9d36dd7930f9">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_FSCTRL
+: <a class="el" href="cc2538_8h.html#a6706429e220e976b2251971719b7f721">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_FSMCTRL
+: <a class="el" href="cc2538_8h.html#a4c453b53d07012a3dae3eef0e0fe6142">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_FSMSTAT0
+: <a class="el" href="cc2538_8h.html#a41b3c3a5dbac42b428f44f58db92340e">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_FSMSTAT1
+: <a class="el" href="cc2538_8h.html#a2045a8c5399b1b8e0aa41f1d699b26e6">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_MDMCTRL0
+: <a class="el" href="cc2538_8h.html#aebdadf12afb5815009faaa8d2fc1b945">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_MDMCTRL1
+: <a class="el" href="cc2538_8h.html#a874877010ed3a7577c1b4a912ee5c31e">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_MDMTEST0
+: <a class="el" href="cc2538_8h.html#a38714a24ab56ad4fe6d6df3c6332029c">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_MDMTEST1
+: <a class="el" href="cc2538_8h.html#a66a5733604e89796880044189b44f319">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_PTEST0
+: <a class="el" href="cc2538_8h.html#a81d0f6b289799ab16e9c1fee8e6788f9">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_PTEST1
+: <a class="el" href="cc2538_8h.html#a1ea903164148930f0f449bd4b29da7cc">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RFC_OBS_CTRL0
+: <a class="el" href="cc2538_8h.html#a286a05768add4cf10de28892d7e8bf8e">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RFC_OBS_CTRL1
+: <a class="el" href="cc2538_8h.html#a9086fdde66e58ef4b24b3a77623f3637">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RFC_OBS_CTRL2
+: <a class="el" href="cc2538_8h.html#ab70f4ed9571b45e567248b2452d3ce64">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RFERRM
+: <a class="el" href="cc2538_8h.html#a5279cb2a1fd2bf0dc7c3f0a7bbc7d14d">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RFIRQM0
+: <a class="el" href="cc2538_8h.html#a9022d650f1bf2e3992a20ea9a6c2fed1">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RFIRQM1
+: <a class="el" href="cc2538_8h.html#adc5f6e6c268fa975cb4bf9f653ddb457">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RFRND
+: <a class="el" href="cc2538_8h.html#af7b3e1715cb249be01705c3cf00f37f9">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RSSI
+: <a class="el" href="cc2538_8h.html#a9cd522d091195f88bcfe1e3142b3cdc3">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RSSISTAT
+: <a class="el" href="cc2538_8h.html#a5ed8a4b7b4522109c785cfdcb0d01714">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RXCTRL
+: <a class="el" href="cc2538_8h.html#ab01662a86a6417dafd03fab3c3d9ec0f">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RXENABLE
+: <a class="el" href="cc2538_8h.html#ac58280b38f880924a25d0154b373a955">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RXFIFOCNT
+: <a class="el" href="cc2538_8h.html#ab477ad037017f0ea13e86e8923f24351">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RXFIRST
+: <a class="el" href="cc2538_8h.html#a94e30f08bf6df04d0040d3c1e1e429d9">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RXFIRST_PTR
+: <a class="el" href="cc2538_8h.html#a59ce71a61cc9c47a55b2f6940b06f27a">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RXLAST_PTR
+: <a class="el" href="cc2538_8h.html#a68fe5237421483b9d0818dbef93926a1">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RXMASKCLR
+: <a class="el" href="cc2538_8h.html#a15bee370e2d074806ab1802b5ce0335c">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RXMASKSET
+: <a class="el" href="cc2538_8h.html#ae4487f6ca0ae010d0ce4b8978255d543">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_RXP1_PTR
+: <a class="el" href="cc2538_8h.html#ae80894f38fa94e90faea4d82bb32b9f9">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_SRCEXTEN0
+: <a class="el" href="cc2538_8h.html#a3192d6e610b1dcc5794fb059806767cb">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_SRCEXTEN1
+: <a class="el" href="cc2538_8h.html#a64a4bc951e4ebd28ed9b17a1db032962">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_SRCEXTEN2
+: <a class="el" href="cc2538_8h.html#acee0663475de028edc71fd1c4120d00a">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_SRCMATCH
+: <a class="el" href="cc2538_8h.html#a26e90d4b8d2247cf67d995d883042ffe">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_SRCSHORTEN0
+: <a class="el" href="cc2538_8h.html#a06337444367f4f56a133c94e3f453c6c">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_SRCSHORTEN1
+: <a class="el" href="cc2538_8h.html#aa0de6f991dca5f40e7f11a7a16259b91">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_SRCSHORTEN2
+: <a class="el" href="cc2538_8h.html#a1eb8cfb753829624c921d8bf045edff3">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_TXCTRL
+: <a class="el" href="cc2538_8h.html#aff550c84ea593fed2d42a1f19417f64a">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_TXFIFOCNT
+: <a class="el" href="cc2538_8h.html#a98f4eb3b16475f5f19619f0d7560ed0d">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_TXFILTCFG
+: <a class="el" href="cc2538_8h.html#af3bdbb78e0fd80a55419ce3990c60a90">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_TXFIRST_PTR
+: <a class="el" href="cc2538_8h.html#a404555f18693175508a4905c4e34f798">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_TXLAST_PTR
+: <a class="el" href="cc2538_8h.html#a579ee93408bddb7ac1a70e6b5059c4f2">cc2538.h</a>
+</li>
+<li>RFCORE_XREG_TXPOWER
+: <a class="el" href="cc2538_8h.html#a58a880dd39551de613879973619a46d0">cc2538.h</a>
+</li>
+<li>RINGBUFFER_INIT
+: <a class="el" href="ringbuffer_8h.html#ad1dc69a30892920af0d4185637bfd69f">ringbuffer.h</a>
+</li>
+<li>RIOTBOOT_FLASHWRITE_SKIPLEN
+: <a class="el" href="flashwrite_8h.html#acb9a6a59c19a2431a3820ce863b5defc">flashwrite.h</a>
+</li>
+<li>RIOTBOOT_MAGIC
+: <a class="el" href="riotboot_2hdr_8h.html#a62edf563d94d69db0f0cdc2c774c231b">hdr.h</a>
+</li>
+<li>RMSR_8KB_TO_S0
+: <a class="el" href="w5100__regs_8h.html#ae1f03c0115cf02845ef8c8ab99680c13">w5100_regs.h</a>
+</li>
+<li>RMUTEX_INIT
+: <a class="el" href="group__core__sync__rmutex.html#ga1a46c7063d2da67c6182b5477e203c54">rmutex.h</a>
+</li>
+<li>RN2XX3_MAX_BUF
+: <a class="el" href="group__drivers__rn2xx3.html#ga3e5c9a257f53cf68353744596f487943">rn2xx3.h</a>
+</li>
+<li>RN2XX3_REPLY_DELAY_TIMEOUT
+: <a class="el" href="group__drivers__rn2xx3.html#gace96debd6cf5f4e9911f69392b60f233">rn2xx3.h</a>
+</li>
+<li>RN2XX3_RX_MAX_BUF
+: <a class="el" href="group__drivers__rn2xx3.html#gaad474822fe67bdd6026cb799756a31c2">rn2xx3.h</a>
+</li>
+<li>RN2XX3_SLEEP_MIN
+: <a class="el" href="group__drivers__rn2xx3.html#ga3870a425f0068b0bd19b74030616058a">rn2xx3.h</a>
+</li>
+<li>RNG_DATA_REG_ADDR
+: <a class="el" href="esp8266_2include_2periph__cpu_8h.html#a1c8140ba01d43a1872af952c3e61d9b2">periph_cpu.h</a>
+</li>
+<li>ROM_API_SETUP
+: <a class="el" href="cc26x2__cc13x2__setup_8h.html#acd8f3e13944e294a1b0ed0b13d49acba">cc26x2_cc13x2_setup.h</a>
+</li>
+<li>ROM_API_TABLE
+: <a class="el" href="group__cpu__specific__peripheral__memory__map.html#ga1c55d330b862f5464ef463feb42c0c31">cc26xx_cc13xx.h</a>
+</li>
+<li>rom_hapi_crc32
+: <a class="el" href="cc26xx__cc13xx__hard__api_8h.html#a545c2dfcf2af7c84d9cfa79577616491">cc26xx_cc13xx_hard_api.h</a>
+</li>
+<li>ROM_HARD_API_BASE
+: <a class="el" href="group__cpu__specific__peripheral__memory__map.html#ga9f72f9a97864bdc8f2afba3677132ebf">cc26xx_cc13xx.h</a>
+</li>
+<li>rom_setup_after_cold_reset_wakeup_from_shutdown_cfg1
+: <a class="el" href="cc26x2__cc13x2__setup_8h.html#a73a56b47b53ad3ac434a72d6522aed52">cc26x2_cc13x2_setup.h</a>
+</li>
+<li>RSSI_BASE_VAL
+: <a class="el" href="group__drivers__at86rf2xx.html#ga272a6f3cfa720c483c3cbb6d2bf80417">at86rf2xx.h</a>
+</li>
+<li>RTO_UNINITIALIZED
+: <a class="el" href="net_2gnrc_2transport__layer_2tcp_2internal_2common_8h.html#a0095fe3523ede92a3093712f1124572b">common.h</a>
+</li>
+<li>RTT_FREQUENCY
+: <a class="el" href="group__drivers__periph__rtt.html#gafec7c948b8c70db3c9394fc3dc145a99">rtt.h</a>
+, <a class="el" href="esp32_2include_2periph__cpu_8h.html#afec7c948b8c70db3c9394fc3dc145a99">periph_cpu.h</a>
+</li>
+<li>RTT_HW_COUNTER_MAX
+: <a class="el" href="rtt__arch_8h.html#a6b0764b202bee623ebc515e4eaf63192">rtt_arch.h</a>
+</li>
+<li>RTT_MAX_VALUE
+: <a class="el" href="group__drivers__periph__rtt.html#ga57f384110fe2e8f4b3c4b9ba246517c6">rtt.h</a>
+, <a class="el" href="sam3_2include_2periph__cpu_8h.html#a57f384110fe2e8f4b3c4b9ba246517c6">periph_cpu.h</a>
+</li>
+<li>RTT_MIN_OFFSET
+: <a class="el" href="group__drivers__periph__rtt.html#gad34d7bc806339ce586e8a942913cdb6f">rtt.h</a>
+</li>
+<li>RTT_MIN_TO_TICKS
+: <a class="el" href="group__drivers__periph__rtt.html#ga04693a09e25f42a9269d112b3721e003">rtt.h</a>
+</li>
+<li>RTT_MS_TO_TICKS
+: <a class="el" href="group__drivers__periph__rtt.html#gabe99532e65885ef807b6a241cb4217d8">rtt.h</a>
+</li>
+<li>RTT_SEC_TO_TICKS
+: <a class="el" href="group__drivers__periph__rtt.html#gaabe307cf7fc39553e3d0aa5c9bc348bf">rtt.h</a>
+</li>
+<li>RTT_TICKS_TO_MIN
+: <a class="el" href="group__drivers__periph__rtt.html#gadf40fd557943deb0d5a977ed3d77edef">rtt.h</a>
+</li>
+<li>RTT_TICKS_TO_MS
+: <a class="el" href="group__drivers__periph__rtt.html#gaeb0e2dd6cd004e110a26267779e79c18">rtt.h</a>
+</li>
+<li>RTT_TICKS_TO_SEC
+: <a class="el" href="group__drivers__periph__rtt.html#gac6777c08b04548b02659dc65986c15f2">rtt.h</a>
+</li>
+<li>RTT_TICKS_TO_US
+: <a class="el" href="group__drivers__periph__rtt.html#gae653b0039b81d7c774c370f1e35e7232">rtt.h</a>
+</li>
+<li>RTT_US_TO_TICKS
+: <a class="el" href="group__drivers__periph__rtt.html#gab4f026969e13c4111fdbbf56ad5e1fde">rtt.h</a>
+</li>
+<li>RXM_BOTH_OQPSK
+: <a class="el" href="at86rf215__registers_8h.html#a12a9763dca450d2567849604b0b7543b">at86rf215_registers.h</a>
+</li>
+<li>RXM_DISABLE
+: <a class="el" href="at86rf215__registers_8h.html#a728aea543eafd2bef477ae492559e759">at86rf215_registers.h</a>
+</li>
+<li>RXM_LEGACY_OQPSK
+: <a class="el" href="at86rf215__registers_8h.html#a428e5c39cf69a03e0e33c9aa9d13b1b0">at86rf215_registers.h</a>
+</li>
+<li>RXM_MR_OQPSK
+: <a class="el" href="at86rf215__registers_8h.html#a51cf95f3c9cc2970f59cb4221bc3d23e">at86rf215_registers.h</a>
+</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+    <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+        <ul>
+            <li class="footer">Generated on Wed Jul 1 2020 17:09:02 by <a href="http://www.doxygen.org/index.html">
+                       <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
+        </ul>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.smartmenus.min.js"></script>
+    <script src="jquery.smartmenus.bootstrap.min.js"></script>
+    <script src="riot-doxy.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+<map id="sys/include/vfs.h" name="sys/include/vfs.h">
+<area shape="rect" id="node2" href="$random-vfs_8h.html" title="Random backends for devfs. " alt="" coords="5,80,147,121"/>
+<area shape="rect" id="node3" href="$constfs_8h.html" title="ConstFS public API. " alt="" coords="171,87,333,114"/>
+<area shape="rect" id="node4" href="$devfs_8h.html" title="DevFS public API. " alt="" coords="357,87,507,114"/>
+<area shape="rect" id="node5" href="$fatfs_8h.html" title="FatFs integration for vfs. " alt="" coords="532,87,676,114"/>
+<area shape="rect" id="node6" href="$littlefs2__fs_8h.html" title="littlefs v2 integration with vfs " alt="" coords="700,87,879,114"/>
+<area shape="rect" id="node7" href="$littlefs__fs_8h.html" title="littlefs integration with vfs " alt="" coords="903,87,1073,114"/>
+<area shape="rect" id="node8" href="$spiffs__fs_8h.html" title="SPIFFS integration with vfs. " alt="" coords="1097,87,1265,114"/>
+</map>

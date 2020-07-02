@@ -1,0 +1,6 @@
+<map id="boards/nucleo&#45;f722ze/include/periph_conf.h" name="boards/nucleo&#45;f722ze/include/periph_conf.h">
+<area shape="rect" id="node3" href="$cfg__clock__216__8__1_8h.html" title="Configure STM32F7 clock to 216MHz and 8MHz HSE using PLL with LSE. " alt="" coords="23,95,183,121"/>
+<area shape="rect" id="node4" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C. " alt="" coords="207,95,346,121"/>
+<area shape="rect" id="node6" href="$cfg__timer__tim2_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM2. " alt="" coords="510,95,629,121"/>
+<area shape="rect" id="node7" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="654,95,776,121"/>
+</map>

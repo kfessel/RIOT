@@ -1,0 +1,15 @@
+<map id="sys/posix/include/arpa/inet.h" name="sys/posix/include/arpa/inet.h">
+<area shape="rect" id="node2" href="$af_8h.html" title="Global UNIX address family definitions. " alt="" coords="5,244,72,271"/>
+<area shape="rect" id="node3" href="$bytes_8h.html" title="System&#45;internal byte operations. " alt="" coords="427,244,517,271"/>
+<area shape="rect" id="node7" href="$in_8h.html" title="Main socket header. " alt="" coords="415,95,502,121"/>
+<area shape="rect" id="node5" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="615,319,702,345"/>
+<area shape="rect" id="node8" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="513,319,591,345"/>
+<area shape="rect" id="node9" href="$socket_8h.html" title="Main socket header. " alt="" coords="190,169,287,196"/>
+<area shape="rect" id="node16" href="$protnum_8h.html" title="Protocol number definitions. " alt="" coords="363,169,466,196"/>
+<area shape="rect" id="node17" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses. " alt="" coords="665,169,773,196"/>
+<area shape="rect" id="node10" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="77,319,141,345"/>
+<area shape="rect" id="node13" href="$uio_8h.html" title="libc header for scatter/gather I/O " alt="" coords="147,244,221,271"/>
+<area shape="rect" id="node14" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="296,244,403,271"/>
+<area shape="rect" id="node11" href="$malloc_8h.html" title="malloc.h" alt="" coords="74,393,145,420"/>
+<area shape="rect" id="node20" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions. " alt="" coords="665,244,773,271"/>
+</map>

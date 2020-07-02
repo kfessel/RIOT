@@ -1,0 +1,31 @@
+<map id="sys/include/net/gnrc/netif.h" name="sys/include/net/gnrc/netif.h">
+<area shape="rect" id="node5" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="328,244,435,271"/>
+<area shape="rect" id="node9" href="$msg_8h.html" title="Messaging API for inter process communication. " alt="" coords="407,169,465,196"/>
+<area shape="rect" id="node11" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses. " alt="" coords="1209,169,1317,196"/>
+<area shape="rect" id="node15" href="$netapi_8h.html" title="Generic interface to communicate with GNRC modules. " alt="" coords="847,95,966,121"/>
+<area shape="rect" id="node17" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="1451,169,1541,196"/>
+<area shape="rect" id="node22" href="$include_2net_2gnrc_2pkt_8h.html" title="General definitions for network packets and their helper functions. " alt="" coords="506,169,609,196"/>
+<area shape="rect" id="node25" href="$netif_2conf_8h.html" title="Configuration macros for Network interface API. " alt="" coords="684,95,823,121"/>
+<area shape="rect" id="node30" href="$flags_8h.html" title="Flag definitions for Network interface API. " alt="" coords="1317,95,1459,121"/>
+<area shape="rect" id="node31" href="$ndp_8h.html" title="IPv6 neighbor discovery message type definitions. " alt="" coords="1217,95,1293,121"/>
+<area shape="rect" id="node32" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="1550,95,1645,121"/>
+<area shape="rect" id="node36" href="$rmutex_8h.html" title="Recursive Mutex for thread synchronization. " alt="" coords="1793,169,1866,196"/>
+<area shape="rect" id="node40" href="$netif_8h.html" title="Common network interface API definitions. " alt="" coords="1901,95,1981,121"/>
+<area shape="rect" id="node6" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="685,319,763,345"/>
+<area shape="rect" id="node13" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="1325,319,1411,345"/>
+<area shape="rect" id="node14" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions. " alt="" coords="1406,244,1514,271"/>
+<area shape="rect" id="node18" href="$nettype_8h.html" title="Protocol type definitions. " alt="" coords="598,244,725,271"/>
+<area shape="rect" id="node19" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="93,319,211,345"/>
+<area shape="rect" id="node20" href="$ethertype_8h.html" title="Ether type definitions. " alt="" coords="915,319,1024,345"/>
+<area shape="rect" id="node21" href="$protnum_8h.html" title="Protocol number definitions. " alt="" coords="787,319,890,345"/>
+<area shape="rect" id="node23" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="459,244,523,271"/>
+<area shape="rect" id="node24" href="$malloc_8h.html" title="malloc.h" alt="" coords="590,319,661,345"/>
+<area shape="rect" id="node26" href="$sys_2include_2net_2ieee802154_8h.html" title="IEEE 802.15.4 header definitions. " alt="" coords="861,169,982,196"/>
+<area shape="rect" id="node28" href="$net_2ethernet_2hdr_8h.html" title="Ethernet header definitions. " alt="" coords="801,244,925,271"/>
+<area shape="rect" id="node29" href="$ipv6_2nib_2conf_8h.html" title="Configuration macro definitions for neighbor information base. " alt="" coords="145,169,303,196"/>
+<area shape="rect" id="node27" href="$eui64_8h.html" title="EUI&#45;64 data type definition. " alt="" coords="1102,244,1189,271"/>
+<area shape="rect" id="node33" href="$errno_8h.html" title="errno.h" alt="" coords="1566,169,1629,196"/>
+<area shape="rect" id="node34" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="1653,169,1713,196"/>
+<area shape="rect" id="node38" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="1899,244,1968,271"/>
+<area shape="rect" id="node39" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="2031,319,2081,345"/>
+</map>

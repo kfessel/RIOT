@@ -1,0 +1,20 @@
+<map id="drivers/include/ata8520e.h" name="drivers/include/ata8520e.h">
+<area shape="rect" id="node3" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="131,304,210,331"/>
+<area shape="rect" id="node4" href="$xtimer_8h.html" title="xtimer interface definitions " alt="" coords="379,80,448,107"/>
+<area shape="rect" id="node28" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="1137,229,1233,256"/>
+<area shape="rect" id="node29" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="1139,155,1229,181"/>
+<area shape="rect" id="node6" href="$timex_8h.html" title="Utility library for comparing and computing timestamps. " alt="" coords="121,229,186,256"/>
+<area shape="rect" id="node7" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="27,229,96,256"/>
+<area shape="rect" id="node10" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="211,229,317,256"/>
+<area shape="rect" id="node13" href="$rmutex_8h.html" title="Recursive Mutex for thread synchronization. " alt="" coords="302,155,375,181"/>
+<area shape="rect" id="node17" href="$tick__conversion_8h.html" title="xtimer tick &lt;&#45;&gt; seconds conversions for different values of XTIMER_HZ " alt="" coords="451,155,615,181"/>
+<area shape="rect" id="node22" href="$implementation_8h.html" title="xtimer implementation " alt="" coords="782,155,943,181"/>
+<area shape="rect" id="node9" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="5,304,56,331"/>
+<area shape="rect" id="node18" href="$div_8h.html" title="div.h" alt="" coords="557,229,608,256"/>
+<area shape="rect" id="node19" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="532,304,601,331"/>
+<area shape="rect" id="node20" href="$panic_8h.html" title="Crash handling header. " alt="" coords="460,379,524,405"/>
+<area shape="rect" id="node21" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="395,453,512,480"/>
+<area shape="rect" id="node23" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions. " alt="" coords="911,229,1012,256"/>
+<area shape="rect" id="node26" href="$irq_8h.html" title="IRQ driver interface. " alt="" coords="839,229,886,256"/>
+<area shape="rect" id="node25" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="836,304,975,331"/>
+</map>

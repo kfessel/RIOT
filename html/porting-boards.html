@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Porting boards</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.powertip.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="doxy-jquery.js"></script>
+    <script src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <!-- Bootstrap -->
+    <link href="doxygen.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="riot.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div id="top">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" id="brand-logo" href="http://riot-os.org"><img height="40px" src="riot-logo.svg" /></a>
+              <p class="navbar-text text-center visible-xs">Documentation</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
+              <ul id="riot-navlist" class="nav navbar-nav"></ul>
+              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
+              <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
+                    onsubmit="try{
+                        var rhtml=document.getElementById('MSearchResults').contentWindow.document.body.innerHTML;
+                        document.getElementById('MSearchResultsWindow').style.display='none';
+                        document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
+                        document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
+                        document.getElementById('doc-content').innerHTML=rhtml;
+                        }finally{
+                            return false;
+                    }">
+                 <div class="form-group">
+                   <div id="MSearchBox" class="MSearchBoxActive">
+                     <div class="input-group">
+                       <div class="input-group-addon">
+                         <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
+                       </div>
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
+                              r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                       <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
+                         <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+<!-- Generated by Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('porting-boards.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Porting boards </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p>At some point you might need to port a new <code>BOARD</code> to <code>RIOT</code>, either because that specific development board is not yet supported or because you have a custom <code>BOARD</code> for your project.</p>
+<p>If you want to port a <code>BOARD</code> to <code>RIOT</code> you have two choices: doing it inside of <code>RIOTBASE</code> or outside. In either case the file structure is basically the same and moving from one to another is easy.</p>
+<p>This guide details the generic structure you need to add a new <code>BOARD</code> to <code>RIOT</code>, the different files as well as their functionality.</p>
+<dl class="section note"><dt>Note</dt><dd>We assume here that your <code>CPU</code> and <code>CPU_MODEL</code> is already supported in <code>RIOT</code> so no peripheral or cpu implementation is needed.</dd></dl>
+<h1><a class="anchor" id="general-structure"></a>
+General structure</h1>
+<p>Like <a class="el" href="creating-an-application.html">applications</a> or <a class="el" href="creating-modules.html">modules</a>, boards consist on a directory containing source files and makefiles. Usually a <code>BOARD</code> directory has the following structure</p>
+<div class="fragment"><div class="line">board-foo/</div><div class="line">|----dist/</div><div class="line">    |----scripts</div><div class="line">|----board.c</div><div class="line">|----doc.txt</div><div class="line">|----include/</div><div class="line">    |----periph_conf.h</div><div class="line">    |----board.h</div><div class="line">    |----gpio_params.h</div><div class="line">|----Makefile</div><div class="line">|----Makefile.dep</div><div class="line">|----Makefile.features</div><div class="line">|----Makefile.include</div></div><!-- fragment --><h2><a class="anchor" id="board-source-files"></a>
+Source files</h2>
+<p>Header files in <code>board-foo/include</code> define physical mappings or configurations. e.g:</p>
+<ul>
+<li><code>periph_conf.h</code>: defines configurations and mappings for peripherals as well as clock configurations.</li>
+<li><code>board.h</code>: holds board specific definitions or mappings, for example LEDs, buttons. It might as well override default drivers parameters (e.g.: assigning specific pin connections to a LCD screen, radio, etc.). Some boards might also define optimized <code>XTIMER_%</code> values (e.g. <a class="el" href="group__sys__xtimer.html#ga370b9e9a079c4cb4f54fd947b67b9f41">XTIMER_BACKOFF</a>).</li>
+<li><code>gpio_params.h</code>: if the board supports <a class="el" href="group__drivers__saul.html">SAUL</a> then its <a class="el" href="structsaul__gpio__params__t.html">saul_gpio_params_t</a> is defined here.</li>
+<li>other: other specific headers needed by one <code>BOARD</code></li>
+</ul>
+<dl class="section note"><dt>Note</dt><dd>Header files do not need to be defined in <code>include/</code>, but if defined somewhere else then they must be added to the include path. In <code>Makefile.include</code>: <code>INCLUDES += -I&lt;some&gt;/&lt;directory&gt;/&lt;path&gt;</code></dd></dl>
+<p>Board initialization functions are defined in <code>board.c</code>. This file must at least define a <code><a class="el" href="6lowpan-clicker_2include_2board_8h.html#a916f2adc2080b4fe88034086d107a8dc" title="Board level initialization. ">board_init()</a></code> function that is called at startup. This function initializes the <code>CPU</code> by calling<code><a class="el" href="atmega__common_2include_2cpu_8h.html#a560ad8614ae03841a10b489f4370bc51" title="Initialization of the CPU. ">cpu_init()</a></code> among others.</p>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="6lowpan-clicker_2include_2board_8h.html#a916f2adc2080b4fe88034086d107a8dc">board_init</a>(<span class="keywordtype">void</span>)</div><div class="line">{</div><div class="line">    <span class="comment">/* initialize the CPU core */</span></div><div class="line">    <a class="code" href="atmega__common_2include_2cpu_8h.html#a560ad8614ae03841a10b489f4370bc51">cpu_init</a>();</div><div class="line"></div><div class="line">    <span class="comment">/* initialize GPIO or others... */</span></div><div class="line">    ...</div><div class="line">}</div></div><!-- fragment --><h2>Makefiles</h2>
+<h3><a class="anchor" id="Makefile"></a>
+Makefile</h3>
+<p>A board's Makefile just needs to include <code>Makefile.base</code> in the RIOT repository and define the <code>MODULE</code> as <code>board</code> (see <a class="el" href="creating-modules.html">modules</a> for more details)</p>
+<div class="fragment"><div class="line">MODULE = board</div><div class="line"></div><div class="line">include $(RIOTBASE)/Makefile.base</div></div><!-- fragment --><h3><a class="anchor" id="makefile-dep"></a>
+Makefile.dep</h3>
+<p>Dependencies on other <code>MODULES</code> or <code>FEATURES</code> can be defined here. This might specify <code>MODULES</code> or dependencies that need to be pulled under specific configurations. e.g.: if your board has a sx1276 lora chip:</p>
+<div class="fragment"><div class="line">ifneq (,$(filter netdev_default,$(USEMODULE)))</div><div class="line">  USEMODULE += sx1276</div><div class="line">endif</div></div><!-- fragment --><dl class="section note"><dt>Note</dt><dd><code>Makefile.dep</code> is processed only once so you have to take care of adding the dependency block for your board <em>before</em> its dependencies pull in their own dependencies.</dd></dl>
+<h3><a class="anchor" id="makefile-features"></a>
+Makefile.features</h3>
+<p>This file defines all the features provided by the BOARD. These features might also need to be supported by the <code>CPU</code>. Here, define the <code>CPU</code> and <code>CPU_MODEL</code> (see <a class="el" href="build-system-basics.html">build system basics</a> for more details on these variables).</p>
+<p>e.g.:</p>
+<div class="fragment"><div class="line">CPU = foo</div><div class="line">CPU_MODEL = foobar</div><div class="line"></div><div class="line"># Put defined MCU peripherals here (in alphabetical order)</div><div class="line">FEATURES_PROVIDED += periph_i2c</div><div class="line">FEATURES_PROVIDED += periph_spi</div><div class="line">FEATURES_PROVIDED += periph_uart</div></div><!-- fragment --><h3><a class="anchor" id="makefile-include"></a>
+Makefile.include</h3>
+<p>This file contains BSP or toolchain configurations for the <code>BOARD</code>. It should at least define the configuration needed for flashing (i.e. a programmer) as well as the serial configuration (if one is available).</p>
+<p>e.g.:</p>
+<div class="fragment"><div class="line"># Define the default port depending on the host OS</div><div class="line">PORT_LINUX ?= /dev/ttyUSB0</div><div class="line">PORT_DARWIN ?= $(firstword $(sort $(wildcard /dev/tty.usbserial*)))</div><div class="line"></div><div class="line"># setup serial terminal</div><div class="line">include $(RIOTMAKE)/tools/serial.inc.mk</div><div class="line"></div><div class="line"># this board uses openocd</div><div class="line">include $(RIOTMAKE)/tools/openocd.inc.mk</div></div><!-- fragment --><h2><a class="anchor" id="board-doc"></a>
+doc.txt</h2>
+<p>Although not explicitly needed, if upstreamed and as a general good practice, this file holds all <code>BOARD</code> documentation. This can include datasheet reference, documentation on how to flash, etc.</p>
+<p>The documentation must be under the proper doxygen group, you can compile the documentation by calling <code>make doc</code> and then open the generated html file on any browser.</p>
+<div class="fragment"><div class="line">/**</div><div class="line">@defgroup    boards_foo FooBoard</div><div class="line">@ingroup     boards</div><div class="line">@brief       Support for the foo board</div><div class="line">@author      FooName BarName &lt;foo.bar@baz.com&gt;</div><div class="line"></div><div class="line">### User Interface</div><div class="line"></div><div class="line">  ....</div><div class="line"></div><div class="line">### Using UART</div><div class="line"></div><div class="line">  ...</div><div class="line"></div><div class="line">### Flashing the device</div><div class="line"></div><div class="line">  ...</div><div class="line"></div><div class="line">*/</div></div><!-- fragment --><h1>Helper tools</h1>
+<p>To help you start porting a board, the RIOT build system provides the <code>generate-board</code> make target. It is a wrapper around the <a href="https://pypi.org/project/riotgen/">riotgen</a> command line tool that is helpful when starting to port a board: all required files are generated with copyright headers, doxygen groups, etc, so you can concentrate on the port. The board source files are created in the <code>boards/&lt;board name&gt;</code> directory.</p>
+<p><b>Usage:</b></p>
+<p>From the RIOT base directory, run: </p><div class="fragment"><div class="line">make generate-board</div></div><!-- fragment --><p> Then answer a few questions about the driver:</p><ul>
+<li>Board name: Enter a name for your board. It will be used as the name of the board directory under <code>boards</code>.</li>
+<li>Board displayed name: Enter the name of the board, as displayed in the Doxygen documentation.</li>
+<li>CPU name: Enter the name of the CPU embedded on the board.</li>
+<li>CPU model name: Enter the precise model name of the CPU.</li>
+<li>Features provided: CPU features provided (and configured) for this board.</li>
+</ul>
+<p>Other global information (author name, email, organization) should be retrieved automatically from your git configuration.</p>
+<h1><a class="anchor" id="common-board-code"></a>
+Using Common code</h1>
+<p>To avoid code duplication, common code across boards has been grouped in <code>boards/common</code>. e.g. <code>BOARD</code>s based on the same cpu (<code>boards/common/nrf52</code>) or <code>BOARD</code>s having the same layout <code>boards/common/nucleo64</code>.</p>
+<p>In the case of source files this means some functions like <code>board_init</code> can be already defined in the common code. Unless having specific configurations or initialization you might not need a <code>board.c</code> or <code>board.h</code>. Another common use case is common peripheral configurations:</p>
+<div class="fragment"><div class="line">-\#include &quot;cfg_timer_tim5.h&quot;</div><div class="line">+/**</div><div class="line">+ * @name   Timer configuration</div><div class="line">+ * @{</div><div class="line">+ */</div><div class="line">+static const timer_conf_t timer_config[] = {</div><div class="line">+    {</div><div class="line">+        .dev      = TIM5,</div><div class="line">+        .max      = 0xffffffff,</div><div class="line">+        .rcc_mask = RCC_APB1ENR_TIM5EN,</div><div class="line">+        .bus      = APB1,</div><div class="line">+        .irqn     = TIM5_IRQn</div><div class="line">+    }</div><div class="line">+};</div><div class="line">+</div><div class="line">+#define TIMER_0_ISR         isr_tim5</div><div class="line">+</div><div class="line">+#define TIMER_NUMOF         ARRAY_SIZE(timer_config)</div><div class="line">+/** @} */</div></div><!-- fragment --><p>If you want to use common makefiles, include them at the end of the specific <code>Makefile</code>, e.g. for a <code>Makefile.features</code>:</p>
+<div class="fragment"><div class="line">CPU = foo</div><div class="line">CPU_MODEL = foobar</div><div class="line"></div><div class="line"># Put defined MCU peripherals here (in alphabetical order)</div><div class="line">FEATURES_PROVIDED += periph_i2c</div><div class="line">FEATURES_PROVIDED += periph_spi</div><div class="line">FEATURES_PROVIDED += periph_uart</div><div class="line"></div><div class="line">include $(RIOTBOARD)/common/foo_common/Makefile.features</div></div><!-- fragment --><h1><a class="anchor" id="boards-outside-of-riotbase"></a>
+Boards outside of RIOTBASE</h1>
+<p>All <code>BOARD</code>s in RIOT reside in <code>RIOTBOARD</code> (<code>RIOTBOARD</code> being a make variable set to <code>/boards</code>).</p>
+<p>If one wants to use a <code>BOARD</code> outside of <code>RIOTBOARD</code>, the way to go is setting the <code>EXTERNAL_BOARD_DIRS</code> variable to the path to the directory containing your external boards, e.g.: <code>EXTERNAL_BOARD_DIRS=/home/external-boards/</code> (this would commonly be done in your application <code>Makefile</code> or your environment). You can specify multiple directories separated by spaces.</p>
+<div class="fragment"><div class="line">/home/</div><div class="line">|----RIOT/</div><div class="line">    |---- ...</div><div class="line">|----external-boards/</div><div class="line">    |----board-foo/</div><div class="line">        |----dist/</div><div class="line">            |----scripts</div><div class="line">        |----board.c</div><div class="line">        |----doc.txt</div><div class="line">        |----include/</div><div class="line">            |----periph_conf.h</div><div class="line">            |----board.h</div><div class="line">            |----gpio_params.h</div><div class="line">        |----Makefile</div><div class="line">        |----Makefile.dep</div><div class="line">        |----Makefile.features</div><div class="line">        |----Makefile.include</div></div><!-- fragment --><p>If the external <code>BOARD</code> is very similar to a <code>BOARD</code> already present in <code>RIOTBOARD</code>, the external <code>BOARD</code> (<code>board-foo</code>) can inherit from that parent <code>BOARD</code> (e.g: <code>foo-parent</code>).</p>
+<p>In this case some special considerations must be taken with the makefiles:</p>
+<ul>
+<li><code>Makefile</code><ul>
+<li><code>MODULE</code> cannot be <code>board</code>: <code>foo-parent</code> will already define <code>MODULE = board</code>, so use any other name, lets say <code>MODULE = board-foo</code>.</li>
+<li>Include the location of the parent <code>BOARD</code> to inherit from (if there is one):</li>
+</ul>
+</li>
+</ul>
+<div class="fragment"><div class="line">DIRS += $(RIOTBOARD)/foo-parent</div></div><!-- fragment --><ul>
+<li><code>Makefile.include</code><ul>
+<li>duplicate the include done by <code>/Makefile.include</code> to also include the parent board header. e.g: if inheriting from <code>foo-parent</code> `<code>INCLUDES += $(addprefix -I,$(wildcard /foo-parent/include))</code></li>
+</ul>
+</li>
+<li><code>Makefile.dep</code>: <code>board</code> is added by default to <code>USEMODULE</code> but since <code>board-foo</code> is used for this <code>BOARD</code>, it must be explicitly included by adding <code>USEMODULE += board-foo</code>.</li>
+<li>Then simply include in each <code>Makefile.*</code> the corresponding parent <code>BOARD</code> <code>Makefile.*</code>, just as it is done for common <code>BOARD</code> code (as explained in <a class="el" href="porting-boards.html#common-board-code">Using Common code</a>). e.g: <code>include /foo-parent/Makefile.*include*</code></li>
+</ul>
+<p>An example can be found in <a href="https://github.com/RIOT-OS/RIOT/tree/master/tests/external_board_native"><code>tests/external_board_native</code></a></p>
+<h1><a class="anchor" id="boards-tools"></a>
+Tools</h1>
+<p>Some scripts and tools available to ease <code>BOARD</code> porting and testing:</p>
+<ul>
+<li>Run <code>dist/tools/insufficient_memory/add_insufficient_memory_board.sh &lt;board&gt;</code> if your board has little memory. This updates the <code>Makefile.ci</code> lists to exclude the <code>BOARD</code> from automated compile-tests of applications that do not fit on the <code>BOARD</code>s <code>CPU</code>.</li>
+<li>Run <code>dist/tools/compile_and_test_for_board/compile_and_test_for_board.py . &lt;board&gt; --with-test-only</code> to run all automated tests on the new board. </li>
+</ul>
+</div></div><!-- contents -->
+</div><!-- doc-content -->
+    <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+        <ul>
+            <li class="footer">Generated on Wed Jul 1 2020 17:08:58 by <a href="http://www.doxygen.org/index.html">
+                       <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
+        </ul>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.smartmenus.min.js"></script>
+    <script src="jquery.smartmenus.bootstrap.min.js"></script>
+    <script src="riot-doxy.js"></script>
+  </body>
+</html>

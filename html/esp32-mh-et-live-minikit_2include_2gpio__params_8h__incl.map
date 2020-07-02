@@ -1,0 +1,7 @@
+<map id="boards/esp32&#45;mh&#45;et&#45;live&#45;minikit/include/gpio_params.h" name="boards/esp32&#45;mh&#45;et&#45;live&#45;minikit/include/gpio_params.h">
+<area shape="rect" id="node2" href="$esp32-mh-et-live-minikit_2include_2board_8h.html" title="Board specific definitions for MH&#45;ET LIVE MiniKit for ESP32. " alt="" coords="388,109,453,136"/>
+<area shape="rect" id="node6" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="223,109,319,136"/>
+<area shape="rect" id="node5" href="$esp32-mh-et-live-minikit_2include_2board__modules_8h.html" title="Definitions for Wemos stackable hardware modules (shields) " alt="" coords="545,184,667,211"/>
+<area shape="rect" id="node7" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="105,184,201,211"/>
+<area shape="rect" id="node11" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="225,184,318,211"/>
+</map>

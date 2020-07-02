@@ -1,0 +1,9 @@
+<map id="boards/sensebox_samd21/include/sdcard_spi_params.h" name="boards/sensebox_samd21/include/sdcard_spi_params.h">
+<area shape="rect" id="node2" href="$sensebox__samd21_2include_2board_8h.html" title="Support for the SenseBox MCU with SAMD21 board. " alt="" coords="568,95,633,121"/>
+<area shape="rect" id="node4" href="$boards_2sensebox__samd21_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for SenseBox MCU with SAMD21. " alt="" coords="507,169,607,196"/>
+<area shape="rect" id="node7" href="$mtd__sdcard_8h.html" title="Interface definition for mtd_sdcard driver. " alt="" coords="157,169,258,196"/>
+<area shape="rect" id="node8" href="$sdcard__spi_8h.html" title="Public interface for the sdcard_spi driver. " alt="" coords="250,244,346,271"/>
+<area shape="rect" id="node15" href="$mtd_8h.html" title="mtd.h" alt="" coords="13,319,68,345"/>
+<area shape="rect" id="node9" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="209,319,299,345"/>
+<area shape="rect" id="node14" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="290,393,386,420"/>
+</map>

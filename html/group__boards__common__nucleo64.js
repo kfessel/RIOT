@@ -1,0 +1,25 @@
+var group__boards__common__nucleo64 =
+[
+    [ "STM32 Nucleo-F030R8", "group__boards__nucleo-f030r8.html", "group__boards__nucleo-f030r8" ],
+    [ "STM32 Nucleo-F070RB", "group__boards__nucleo-f070rb.html", "group__boards__nucleo-f070rb" ],
+    [ "STM32 Nucleo-F072RB", "group__boards__nucleo-f072rb.html", "group__boards__nucleo-f072rb" ],
+    [ "STM32 Nucleo-F091RC", "group__boards__nucleo-f091rc.html", "group__boards__nucleo-f091rc" ],
+    [ "STM32 Nucleo-F103RB", "group__boards__nucleo-f103rb.html", "group__boards__nucleo-f103rb" ],
+    [ "STM32 Nucleo-F302R8", "group__boards__nucleo-f302r8.html", "group__boards__nucleo-f302r8" ],
+    [ "STM32 Nucleo-F303RE", "group__boards__nucleo-f303re.html", "group__boards__nucleo-f303re" ],
+    [ "STM32 Nucleo-F334R8", "group__boards__nucleo-f334r8.html", "group__boards__nucleo-f334r8" ],
+    [ "STM32 Nucleo-F401RE", "group__boards__nucleo-f401re.html", "group__boards__nucleo-f401re" ],
+    [ "STM32 Nucleo-F410RB", "group__boards__nucleo-f410rb.html", "group__boards__nucleo-f410rb" ],
+    [ "STM32 Nucleo-F411RE", "group__boards__nucleo-f411re.html", "group__boards__nucleo-f411re" ],
+    [ "STM32 Nucleo-F446RE", "group__boards__nucleo-f446re.html", "group__boards__nucleo-f446re" ],
+    [ "STM32 Nucleo-G474RE", "group__boards__nucleo-g474re.html", "group__boards__nucleo-g474re" ],
+    [ "STM32 Nucleo-L053R8", "group__boards__nucleo-l053r8.html", "group__boards__nucleo-l053r8" ],
+    [ "STM32 Nucleo-L073RZ", "group__boards__nucleo-l073rz.html", "group__boards__nucleo-l073rz" ],
+    [ "STM32 Nucleo-L152RE", "group__boards__nucleo-l152re.html", "group__boards__nucleo-l152re" ],
+    [ "STM32 Nucleo-L433RC", "group__boards__nucleo-l433rc.html", "group__boards__nucleo-l433rc" ],
+    [ "STM32 Nucleo-L452RE", "group__boards__nucleo-l452re.html", "group__boards__nucleo-l452re" ],
+    [ "STM32 Nucleo-L476RG", "group__boards__nucleo-l476rg.html", "group__boards__nucleo-l476rg" ],
+    [ "arduino_board.h", "common_2nucleo64_2include_2arduino__board_8h.html", null ],
+    [ "arduino_pinmap.h", "common_2nucleo64_2include_2arduino__pinmap_8h.html", null ],
+    [ "board.h", "common_2nucleo64_2include_2board_8h.html", null ]
+];

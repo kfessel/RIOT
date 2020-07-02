@@ -1,0 +1,9 @@
+<map id="sys/include/isrpipe/read_timeout.h" name="sys/include/isrpipe/read_timeout.h">
+<area shape="rect" id="node2" href="$isrpipe_8h.html" title="isrpipe Interface " alt="" coords="130,95,201,121"/>
+<area shape="rect" id="node4" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="59,169,128,196"/>
+<area shape="rect" id="node7" href="$tsrb_8h.html" title="Thread&#45;safe ringbuffer interface definition. " alt="" coords="215,169,270,196"/>
+<area shape="rect" id="node6" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="5,244,56,271"/>
+<area shape="rect" id="node8" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="221,244,291,271"/>
+<area shape="rect" id="node9" href="$panic_8h.html" title="Crash handling header. " alt="" coords="212,319,276,345"/>
+<area shape="rect" id="node10" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="173,393,291,420"/>
+</map>

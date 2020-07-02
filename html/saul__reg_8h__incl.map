@@ -1,0 +1,6 @@
+<map id="sys/include/saul_reg.h" name="sys/include/saul_reg.h">
+<area shape="rect" id="node3" href="$saul_8h.html" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer. " alt="" coords="79,80,136,107"/>
+<area shape="rect" id="node5" href="$phydat_8h.html" title="Generic data container for physical data interface. " alt="" coords="163,155,235,181"/>
+<area shape="rect" id="node4" href="$errno_8h.html" title="errno.h" alt="" coords="76,155,139,181"/>
+<area shape="rect" id="node7" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="191,229,309,256"/>
+</map>

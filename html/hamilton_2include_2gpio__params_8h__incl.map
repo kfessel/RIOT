@@ -1,0 +1,7 @@
+<map id="boards/hamilton/include/gpio_params.h" name="boards/hamilton/include/gpio_params.h">
+<area shape="rect" id="node2" href="$hamilton_2include_2board_8h.html" title="Board specific definitions for the Hamilton board. " alt="" coords="120,95,185,121"/>
+<area shape="rect" id="node7" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="243,95,339,121"/>
+<area shape="rect" id="node4" href="$boards_2hamilton_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Hamilton mote. " alt="" coords="69,169,169,196"/>
+<area shape="rect" id="node8" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="362,169,458,196"/>
+<area shape="rect" id="node11" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="245,169,338,196"/>
+</map>

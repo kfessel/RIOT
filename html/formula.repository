@@ -1,0 +1,35 @@
+\form#0:$ accel = {value \times 3.9} $
+\form#1:$ accel = {value \times 7.8} $
+\form#2:$ accel = {value \times 15.6} $
+\form#3:$ accel = {value \times 31.2} $
+\form#4:$\mu T$
+\form#5:$ a = \frac{value \cdot 1000}{1024} \cdot mg $
+\form#6:$ a = \frac{value \cdot 1000}{512} \cdot mg $
+\form#7:$ a = \frac{value \cdot 1000}{256} \cdot mg $
+\form#8:$^\circ C \cdot 10$
+\form#9:\begin{eqnarray*} Lux &=& LSB\_Size \cdot R[11:0] \end{eqnarray*}
+\form#10:\begin{eqnarray*} LSB\_Size &=& 0.01 \cdot 2^{E[3:0]} \end{eqnarray*}
+\form#11:\begin{eqnarray*} R_{min} &=& \frac{V_{DD} - V_{OL(max)}} {I_{OL}}\\ R_{max} &=& \frac{t_r} {(0.8473 \cdot C_b)} \end{eqnarray*}
+\form#12:$ V_{DD} =$
+\form#13:$ V_{OL(max)} =$
+\form#14:$ I_{OL} =$
+\form#15:$ t_r =$
+\form#16:$ C_b =$
+\form#17:\begin{eqnarray*} T_{\mathrm{DIE}} &=& \frac{T_{\mathrm{RAW}}}{128} \end{eqnarray*}
+\form#18:\begin{eqnarray*} T_{\mathrm{DIFF}} &=& T_{\mathrm{DIE}} - T_{\mathrm{REF}} \end{eqnarray*}
+\form#19:$S_{\mathrm{0}}$
+\form#20:\begin{eqnarray*} S &=& S_{\mathrm{0}} \cdot ( 1 + a_1 \cdot T_{\mathrm{DIFF}} + a_2 \cdot T_{\mathrm{DIFF}}^2 ) \\ \end{eqnarray*}
+\form#21:$ 156.25\,\mathrm{nV} $
+\form#22:\begin{eqnarray*} V_{\mathrm{OBJ}} &=& V_{\mathrm{RAW}} \cdot 156.25\,\mathrm{nV} \end{eqnarray*}
+\form#23:\begin{eqnarray*} V_{OS} &=& b_0 + b_1 \cdot T_{\mathrm{DIFF}} + b_2 \cdot T_{\mathrm{DIFF}}^2 \\ \end{eqnarray*}
+\form#24:\begin{eqnarray*} f(V_{\mathrm{OBJ}}) &=& (V_{\mathrm{OBJ}} - V_{O\mathrm{S}}) + c_2 \cdot (V_{\mathrm{OBJ}} - V_{\mathrm{OS}})^2 \\ \end{eqnarray*}
+\form#25:\begin{eqnarray*} T_{\mathrm{OBJ}} &=& \sqrt[4]{T_{\mathrm{DIE}}^4 + \frac{f(V_{\mathrm{OBJ}})}{S}} \\ \end{eqnarray*}
+\form#26:\begin{eqnarray*} a_{\mathrm{1}} &=& 1.75 \cdot 10^{-3} \\ a_{\mathrm{2}} &=& -1.678 \cdot 10^{-5} \\ T_{\mathrm{REF}} &=& 298.15\,\mathrm{K} \\ b_{\mathrm{0}} &=& -2.94 \cdot 10^{-5} \\ b_{\mathrm{1}} &=& -5.7 \cdot 10^{-7} \\ b_{\mathrm{2}} &=& 4.63 \cdot 10^{-9} \\ c_{\mathrm{2}} &=& 13.4 \end{eqnarray*}
+\form#27:$a_{\mathrm{1}}$
+\form#28:$a_{\mathrm{2}}$
+\form#29:$T_{\mathrm{REF}}$
+\form#30:$b_{\mathrm{0}}$
+\form#31:$b_{\mathrm{1}}$
+\form#32:$b_{\mathrm{2}}$
+\form#33:$c_{\mathrm{2}}$
+\form#34:$ (2^{11} - 1) $

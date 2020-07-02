@@ -1,0 +1,6 @@
+<map id="boards/openmote&#45;b/include/gpio_params.h" name="boards/openmote&#45;b/include/gpio_params.h">
+<area shape="rect" id="node2" href="$openmote-b_2include_2board_8h.html" title="Board specific definitions for the OpenMote&#45;B board. " alt="" coords="58,95,123,121"/>
+<area shape="rect" id="node8" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="148,95,244,121"/>
+<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,169,189,196"/>
+<area shape="rect" id="node9" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="213,169,307,196"/>
+</map>

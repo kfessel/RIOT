@@ -1,0 +1,8 @@
+<map id="sys/include/can/device.h" name="sys/include/can/device.h">
+<area shape="rect" id="node2" href="$esp32_2include_2can__params_8h.html" title="ESP32 CAN controller driver (esp_can) default parameters. " alt="" coords="5,80,157,121"/>
+<area shape="rect" id="node3" href="$candev__linux__params_8h.html" title="Default linux can config. " alt="" coords="181,80,344,121"/>
+<area shape="rect" id="node4" href="$stm32_2include_2can__params_8h.html" title="STM32 CAN controller driver (bxCAN) default parameters. " alt="" coords="369,80,522,121"/>
+<area shape="rect" id="node5" href="$dll_8h.html" title="Definitions of low&#45;level CAN DLL interface. " alt="" coords="547,87,688,114"/>
+<area shape="rect" id="node6" href="$can_2raw_8h.html" title="Definitions high&#45;level RAW CAN interface. " alt="" coords="712,87,861,114"/>
+<area shape="rect" id="node7" href="$can_2conn_2raw_8h.html" title="Definitions of generic CAN interface. " alt="" coords="714,169,859,211"/>
+</map>

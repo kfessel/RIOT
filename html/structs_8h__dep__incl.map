@@ -1,0 +1,10 @@
+<map id="sys/include/net/gnrc/rpl/structs.h" name="sys/include/net/gnrc/rpl/structs.h">
+<area shape="rect" id="node2" href="$dodag_8h.html" title="DODAG&#45;related functions for RPL. " alt="" coords="5,102,144,143"/>
+<area shape="rect" id="node3" href="$rpl_8h.html" title="RPL header. " alt="" coords="59,199,197,240"/>
+<area shape="rect" id="node4" href="$of__manager_8h.html" title="RPL Objective functions manager header. " alt="" coords="219,102,357,143"/>
+<area shape="rect" id="node5" href="$p2p_8h.html" title="Definititions for P2P&#45;RPL. " alt="" coords="325,199,464,240"/>
+<area shape="rect" id="node6" href="$p2p__structs_8h.html" title="P2P&#45;RPL data structs. " alt="" coords="432,102,571,143"/>
+<area shape="rect" id="node8" href="$validation_8h.html" title="RPL control message validation functions. " alt="" coords="595,95,733,151"/>
+<area shape="rect" id="node9" href="$of0_8h.html" title="Objective Function Zero. " alt="" coords="758,102,895,143"/>
+<area shape="rect" id="node7" href="$p2p__dodag_8h.html" title="DODAG&#45;related functions for P2P&#45;RPL. " alt="" coords="488,199,627,240"/>
+</map>

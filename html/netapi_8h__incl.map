@@ -1,0 +1,12 @@
+<map id="sys/include/net/gnrc/netapi.h" name="sys/include/net/gnrc/netapi.h">
+<area shape="rect" id="node3" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="318,95,409,121"/>
+<area shape="rect" id="node4" href="$nettype_8h.html" title="Protocol type definitions. " alt="" coords="533,169,660,196"/>
+<area shape="rect" id="node10" href="$include_2net_2gnrc_2pkt_8h.html" title="General definitions for network packets and their helper functions. " alt="" coords="433,95,536,121"/>
+<area shape="rect" id="node5" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="445,244,524,271"/>
+<area shape="rect" id="node6" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="549,244,666,271"/>
+<area shape="rect" id="node8" href="$ethertype_8h.html" title="Ether type definitions. " alt="" coords="690,244,799,271"/>
+<area shape="rect" id="node9" href="$protnum_8h.html" title="Protocol number definitions. " alt="" coords="824,244,927,271"/>
+<area shape="rect" id="node11" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="9,169,73,196"/>
+<area shape="rect" id="node13" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="311,169,418,196"/>
+<area shape="rect" id="node12" href="$malloc_8h.html" title="malloc.h" alt="" coords="5,244,76,271"/>
+</map>

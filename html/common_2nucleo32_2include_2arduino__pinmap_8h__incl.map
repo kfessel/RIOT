@@ -1,0 +1,4 @@
+<map id="boards/common/nucleo32/include/arduino_pinmap.h" name="boards/common/nucleo32/include/arduino_pinmap.h">
+<area shape="rect" id="node2" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,95,189,121"/>
+<area shape="rect" id="node6" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="213,95,307,121"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="cpu/esp32/include/irq_arch.h" name="cpu/esp32/include/irq_arch.h">
+<area shape="rect" id="node2" href="$irq__arch__common_8h.html" title="Implementation of the kernels irq interface. " alt="" coords="385,95,521,121"/>
+<area shape="rect" id="node3" href="$irq_8h.html" title="IRQ driver interface. " alt="" coords="131,169,177,196"/>
+<area shape="rect" id="node6" href="$sched_8h.html" title="Scheduler API definition. " alt="" coords="419,169,487,196"/>
+<area shape="rect" id="node8" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="346,244,463,271"/>
+<area shape="rect" id="node9" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="215,244,322,271"/>
+<area shape="rect" id="node14" href="$native__sched_8h.html" title="Add definitions required on the native board. " alt="" coords="539,244,649,271"/>
+<area shape="rect" id="node15" href="$clist_8h.html" title="Circular linked list. " alt="" coords="673,244,731,271"/>
+<area shape="rect" id="node11" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="140,319,219,345"/>
+<area shape="rect" id="node16" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="677,319,727,345"/>
+</map>

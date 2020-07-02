@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>boards/same54-xpro/include/periph_conf.h File Reference</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.powertip.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="doxy-jquery.js"></script>
+    <script src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <!-- Bootstrap -->
+    <link href="doxygen.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="riot.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div id="top">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" id="brand-logo" href="http://riot-os.org"><img height="40px" src="riot-logo.svg" /></a>
+              <p class="navbar-text text-center visible-xs">Documentation</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
+              <ul id="riot-navlist" class="nav navbar-nav"></ul>
+              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
+              <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
+                    onsubmit="try{
+                        var rhtml=document.getElementById('MSearchResults').contentWindow.document.body.innerHTML;
+                        document.getElementById('MSearchResultsWindow').style.display='none';
+                        document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
+                        document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
+                        document.getElementById('doc-content').innerHTML=rhtml;
+                        }finally{
+                            return false;
+                    }">
+                 <div class="form-group">
+                   <div id="MSearchBox" class="MSearchBoxActive">
+                     <div class="input-group">
+                       <div class="input-group-addon">
+                         <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
+                       </div>
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
+                              r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                       <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
+                         <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+<!-- Generated by Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('boards_2same54-xpro_2include_2periph__conf_8h.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a>  </div>
+  <div class="headertitle">
+<div class="title">periph_conf.h File Reference<div class="ingroups"><a class="el" href="group__boards.html">Boards</a> &raquo; <a class="el" href="group__boards__same54-xpro.html">Microchip SAM E54 Xplained Pro</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Configuration of CPU peripherals for the Microchip SAM E54 Xplained Pro board.  
+<a href="#details">More...</a></p>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Configuration of CPU peripherals for the Microchip SAM E54 Xplained Pro board. </p>
+<dl class="section author"><dt>Author</dt><dd>Benjamin Valentin <a href="#" onclick="location.href='mai'+'lto:'+'ben'+'ja'+'min'+'.v'+'ale'+'nt'+'in@'+'ml'+'-pa'+'.c'+'om'; return false;">benja<span style="display: none;">.nosp@m.</span>min.<span style="display: none;">.nosp@m.</span>valen<span style="display: none;">.nosp@m.</span>tin@<span style="display: none;">.nosp@m.</span>ml-pa<span style="display: none;">.nosp@m.</span>.com</a> </dd></dl>
+
+<p class="definition">Definition in file <a class="el" href="boards_2same54-xpro_2include_2periph__conf_8h_source.html">periph_conf.h</a>.</p>
+</div><div class="textblock"><code>#include &quot;periph_cpu.h&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for periph_conf.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="boards_2same54-xpro_2include_2periph__conf_8h__incl.svg" width="160" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<p><a href="boards_2same54-xpro_2include_2periph__conf_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a9e1238f5985c94a661e836289438d740"><td class="memItemLeft" align="right" valign="top"><a id="a9e1238f5985c94a661e836289438d740"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boards_2same54-xpro_2include_2periph__conf_8h.html#a9e1238f5985c94a661e836289438d740">USE_VREG_BUCK</a>&#160;&#160;&#160;(1)</td></tr>
+<tr class="memdesc:a9e1238f5985c94a661e836289438d740"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the internal DC/DC converter The board is equipped with the necessary inductor. <br /></td></tr>
+<tr class="separator:a9e1238f5985c94a661e836289438d740"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13ab7a7807fea0ab81b49042b5a57ba1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="boards_2same54-xpro_2include_2periph__conf_8h.html#a13ab7a7807fea0ab81b49042b5a57ba1">USE_XOSC_ONLY</a>&#160;&#160;&#160;(0)</td></tr>
+<tr class="memdesc:a13ab7a7807fea0ab81b49042b5a57ba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use the external oscillator to source all fast clocks.  <a href="#a13ab7a7807fea0ab81b49042b5a57ba1">More...</a><br /></td></tr>
+<tr class="separator:a13ab7a7807fea0ab81b49042b5a57ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+external Oscillator (XOSC1) configuration</h2></td></tr>
+<tr class="memitem:a612dc0ee94bcb874cb8e74d0011291eb"><td class="memItemLeft" align="right" valign="top"><a id="a612dc0ee94bcb874cb8e74d0011291eb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>XOSC1_FREQUENCY</b>&#160;&#160;&#160;<a class="el" href="units_8h.html#ab7b18750ddf0850461f926ae151ca7fa">MHZ</a>(12)</td></tr>
+<tr class="separator:a612dc0ee94bcb874cb8e74d0011291eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+desired core clock frequency</h2></td></tr>
+<tr class="memitem:afc465f12242e68f6c3695caa3ba0a169"><td class="memItemLeft" align="right" valign="top"><a id="afc465f12242e68f6c3695caa3ba0a169"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>CLOCK_CORECLOCK</b>&#160;&#160;&#160;<a class="el" href="units_8h.html#ab7b18750ddf0850461f926ae151ca7fa">MHZ</a>(120)</td></tr>
+<tr class="separator:afc465f12242e68f6c3695caa3ba0a169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+32kHz Oscillator configuration</h2></td></tr>
+<tr class="memitem:ade43723ebbd3af6b5bb6106b274d1fb6"><td class="memItemLeft" align="right" valign="top"><a id="ade43723ebbd3af6b5bb6106b274d1fb6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>EXTERNAL_OSC32_SOURCE</b>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:ade43723ebbd3af6b5bb6106b274d1fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62b45edb22c6174dfc9f548decbf6e5d"><td class="memItemLeft" align="right" valign="top"><a id="a62b45edb22c6174dfc9f548decbf6e5d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>ULTRA_LOW_POWER_INTERNAL_OSC_SOURCE</b>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a62b45edb22c6174dfc9f548decbf6e5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Timer peripheral configuration</h2></td></tr>
+<tr class="memitem:a86e04a0428d7c23b92b137ae55f2eba9"><td class="memItemLeft" align="right" valign="top"><a id="a86e04a0428d7c23b92b137ae55f2eba9"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>TIMER_0_CHANNELS</b>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:a86e04a0428d7c23b92b137ae55f2eba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c490d334538c05373718609ca5fe2d4"><td class="memItemLeft" align="right" valign="top"><a id="a4c490d334538c05373718609ca5fe2d4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>TIMER_0_ISR</b>&#160;&#160;&#160;isr_tc0</td></tr>
+<tr class="separator:a4c490d334538c05373718609ca5fe2d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca8db51a6d02d9a5c27970c09333837a"><td class="memItemLeft" align="right" valign="top"><a id="aca8db51a6d02d9a5c27970c09333837a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>TIMER_1_CHANNELS</b>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:aca8db51a6d02d9a5c27970c09333837a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1f8037bcb60d4669f508c471f92bc17"><td class="memItemLeft" align="right" valign="top"><a id="ab1f8037bcb60d4669f508c471f92bc17"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>TIMER_1_ISR</b>&#160;&#160;&#160;isr_tc2</td></tr>
+<tr class="separator:ab1f8037bcb60d4669f508c471f92bc17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e2f66f5b6f5c835dd11f9766c4ed897"><td class="memItemLeft" align="right" valign="top"><a id="a6e2f66f5b6f5c835dd11f9766c4ed897"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>TIMER_NUMOF</b>&#160;&#160;&#160;<a class="el" href="kernel__defines_8h.html#a25f003de16c08a4888b69f619d70f427">ARRAY_SIZE</a>(timer_config)</td></tr>
+<tr class="separator:a6e2f66f5b6f5c835dd11f9766c4ed897"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b28b4c69f45b3c82837e7f5269f00a9"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="structtc32__conf__t.html">tc32_conf_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>timer_config</b> []</td></tr>
+<tr class="separator:a8b28b4c69f45b3c82837e7f5269f00a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+UART configuration</h2></td></tr>
+<tr class="memitem:a713e03d19734d793baee3d1cc25c2dbb"><td class="memItemLeft" align="right" valign="top"><a id="a713e03d19734d793baee3d1cc25c2dbb"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>UART_0_ISR</b>&#160;&#160;&#160;isr_sercom2_2</td></tr>
+<tr class="separator:a713e03d19734d793baee3d1cc25c2dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abedde651610f672e7d10d935008155e2"><td class="memItemLeft" align="right" valign="top"><a id="abedde651610f672e7d10d935008155e2"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>UART_0_ISR_TX</b>&#160;&#160;&#160;isr_sercom2_0</td></tr>
+<tr class="separator:abedde651610f672e7d10d935008155e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9358264b5cbce69dddad098a8600aae"><td class="memItemLeft" align="right" valign="top"><a id="af9358264b5cbce69dddad098a8600aae"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>UART_1_ISR</b>&#160;&#160;&#160;isr_sercom0_2</td></tr>
+<tr class="separator:af9358264b5cbce69dddad098a8600aae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad46dcb7aa7bd4fdc3a345f7083c06391"><td class="memItemLeft" align="right" valign="top"><a id="ad46dcb7aa7bd4fdc3a345f7083c06391"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>UART_1_ISR_TX</b>&#160;&#160;&#160;isr_sercom0_0</td></tr>
+<tr class="separator:ad46dcb7aa7bd4fdc3a345f7083c06391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdfcd079b784102f3ceb94a04d9c9250"><td class="memItemLeft" align="right" valign="top"><a id="afdfcd079b784102f3ceb94a04d9c9250"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>UART_2_ISR</b>&#160;&#160;&#160;isr_sercom5_2</td></tr>
+<tr class="separator:afdfcd079b784102f3ceb94a04d9c9250"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f621d504857aa3e6b88f4c5774ef7f4"><td class="memItemLeft" align="right" valign="top"><a id="a0f621d504857aa3e6b88f4c5774ef7f4"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>UART_2_ISR_TX</b>&#160;&#160;&#160;isr_sercom5_0</td></tr>
+<tr class="separator:a0f621d504857aa3e6b88f4c5774ef7f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae13f589a3f29600569b784d83c85462"><td class="memItemLeft" align="right" valign="top"><a id="aae13f589a3f29600569b784d83c85462"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>UART_3_ISR</b>&#160;&#160;&#160;isr_sercom1_2</td></tr>
+<tr class="separator:aae13f589a3f29600569b784d83c85462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c805755d2ed4001a1e7780a1020c48c"><td class="memItemLeft" align="right" valign="top"><a id="a6c805755d2ed4001a1e7780a1020c48c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>UART_3_ISR_TX</b>&#160;&#160;&#160;isr_sercom1_0</td></tr>
+<tr class="separator:a6c805755d2ed4001a1e7780a1020c48c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a850405f2aaa352ad264346531f0e6230"><td class="memItemLeft" align="right" valign="top"><a id="a850405f2aaa352ad264346531f0e6230"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>UART_NUMOF</b>&#160;&#160;&#160;<a class="el" href="kernel__defines_8h.html#a25f003de16c08a4888b69f619d70f427">ARRAY_SIZE</a>(<a class="el" href="esp8266_2include_2periph__conf__common_8h.html#a1643cfc64589407fb96b4cbf908689a5">uart_config</a>)</td></tr>
+<tr class="separator:a850405f2aaa352ad264346531f0e6230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1643cfc64589407fb96b4cbf908689a5"><td class="memItemLeft" align="right" valign="top"><a id="a1643cfc64589407fb96b4cbf908689a5"></a>
+static const <a class="el" href="structuart__conf__t.html">uart_conf_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>uart_config</b> []</td></tr>
+<tr class="separator:a1643cfc64589407fb96b4cbf908689a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+SPI configuration</h2></td></tr>
+<tr class="memitem:ab35a2b79568128efef74adf1ba1910a8"><td class="memItemLeft" align="right" valign="top"><a id="ab35a2b79568128efef74adf1ba1910a8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SPI_NUMOF</b>&#160;&#160;&#160;<a class="el" href="kernel__defines_8h.html#a25f003de16c08a4888b69f619d70f427">ARRAY_SIZE</a>(<a class="el" href="esp8266_2include_2periph__conf__common_8h.html#a873188d7292e07499dcde9674b1e849c">spi_config</a>)</td></tr>
+<tr class="separator:ab35a2b79568128efef74adf1ba1910a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a873188d7292e07499dcde9674b1e849c"><td class="memItemLeft" align="right" valign="top"><a id="a873188d7292e07499dcde9674b1e849c"></a>
+static const <a class="el" href="structspi__conf__t.html">spi_conf_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>spi_config</b> []</td></tr>
+<tr class="separator:a873188d7292e07499dcde9674b1e849c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+I2C configuration</h2></td></tr>
+<tr class="memitem:abce62e16a6e3b3205801fed93c51692d"><td class="memItemLeft" align="right" valign="top"><a id="abce62e16a6e3b3205801fed93c51692d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>I2C_NUMOF</b>&#160;&#160;&#160;<a class="el" href="kernel__defines_8h.html#a25f003de16c08a4888b69f619d70f427">ARRAY_SIZE</a>(<a class="el" href="esp8266_2include_2periph__conf__common_8h.html#aa9dcbfbe7aa5baf027d834e5bca62a47">i2c_config</a>)</td></tr>
+<tr class="separator:abce62e16a6e3b3205801fed93c51692d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9dcbfbe7aa5baf027d834e5bca62a47"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="structi2c__conf__t.html">i2c_conf_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>i2c_config</b> []</td></tr>
+<tr class="separator:aa9dcbfbe7aa5baf027d834e5bca62a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+RTT configuration</h2></td></tr>
+<tr class="memitem:afec7c948b8c70db3c9394fc3dc145a99"><td class="memItemLeft" align="right" valign="top"><a id="afec7c948b8c70db3c9394fc3dc145a99"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RTT_FREQUENCY</b>&#160;&#160;&#160;(32768U)</td></tr>
+<tr class="separator:afec7c948b8c70db3c9394fc3dc145a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+USB peripheral configuration</h2></td></tr>
+<tr class="memitem:a57b47076d6e87497ff2901208cb484dc"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="structsam0__common__usb__config__t.html">sam0_common_usb_config_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>sam_usbdev_config</b> []</td></tr>
+<tr class="separator:a57b47076d6e87497ff2901208cb484dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+DAC configuration</h2></td></tr>
+<tr class="memitem:a3146b48b878b99f151de5239d3814793"><td class="memItemLeft" align="right" valign="top"><a id="a3146b48b878b99f151de5239d3814793"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_CLOCK</b>&#160;&#160;&#160;<a class="el" href="samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a2df224b532e504c664562f932fb8c9b8">SAM0_GCLK_TIMER</a></td></tr>
+<tr class="separator:a3146b48b878b99f151de5239d3814793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5afd9690184542986af3376d1dd88957"><td class="memItemLeft" align="right" valign="top"><a id="a5afd9690184542986af3376d1dd88957"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>DAC_VREF</b>&#160;&#160;&#160;DAC_CTRLB_REFSEL_VREFPU</td></tr>
+<tr class="separator:a5afd9690184542986af3376d1dd88957"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a13ab7a7807fea0ab81b49042b5a57ba1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13ab7a7807fea0ab81b49042b5a57ba1">&#9670;&nbsp;</a></span>USE_XOSC_ONLY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define USE_XOSC_ONLY&#160;&#160;&#160;(0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Use the external oscillator to source all fast clocks. </p>
+<p>This allows us to use the buck voltage regulator for maximum power efficiency, but limits the maximum clock frequency to 12 MHz. </p>
+
+<p class="definition">Definition at line <a class="el" href="boards_2same54-xpro_2include_2periph__conf_8h_source.html#l00036">36</a> of file <a class="el" href="boards_2same54-xpro_2include_2periph__conf_8h_source.html">periph_conf.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="aa9dcbfbe7aa5baf027d834e5bca62a47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9dcbfbe7aa5baf027d834e5bca62a47">&#9670;&nbsp;</a></span>i2c_config</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structi2c__conf__t.html">i2c_conf_t</a> i2c_config[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    {    </div><div class="line">        .dev      = &amp;(SERCOM3-&gt;I2CM),</div><div class="line">        .speed    = <a class="code" href="group__drivers__periph__i2c.html#gga6e6a870f98abb8cffa95373b69fb8243a0826bf5711e82ba26b4ada6104260583">I2C_SPEED_NORMAL</a>,</div><div class="line">        .scl_pin  = <a class="code" href="atmega1284p_2include_2periph__cpu_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a>(<a class="code" href="ezr32wg_2include_2periph__cpu_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aae3d8a811f3bf7196f361be4104db68db">PA</a>, 23),</div><div class="line">        .sda_pin  = <a class="code" href="atmega1284p_2include_2periph__cpu_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a>(<a class="code" href="ezr32wg_2include_2periph__cpu_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aae3d8a811f3bf7196f361be4104db68db">PA</a>, 22),</div><div class="line">        .mux      = <a class="code" href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0a735b6a3c0b2afe9159f89367eeee53d9">GPIO_MUX_C</a>,</div><div class="line">        .gclk_src = <a class="code" href="samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a11e06014c73014464975350e2f17976e">SAM0_GCLK_PERIPH</a>,</div><div class="line">        .flags    = <a class="code" href="sam0__common_2include_2periph__cpu__common_8h.html#a35689050a00ae4d0da14a1abe0e38dc3a0af5d8198ede19f93bab78bc0db71652">I2C_FLAG_NONE</a></div><div class="line">    },</div><div class="line">    {    </div><div class="line">        .dev      = &amp;(SERCOM7-&gt;I2CM),</div><div class="line">        .speed    = <a class="code" href="group__drivers__periph__i2c.html#gga6e6a870f98abb8cffa95373b69fb8243a0826bf5711e82ba26b4ada6104260583">I2C_SPEED_NORMAL</a>,</div><div class="line">        .scl_pin  = <a class="code" href="atmega1284p_2include_2periph__cpu_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a>(<a class="code" href="ezr32wg_2include_2periph__cpu_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aaefbc069e0ac4cd293f3ba527bec2befe">PD</a>, 9),</div><div class="line">        .sda_pin  = <a class="code" href="atmega1284p_2include_2periph__cpu_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a>(<a class="code" href="ezr32wg_2include_2periph__cpu_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aaefbc069e0ac4cd293f3ba527bec2befe">PD</a>, 8),</div><div class="line">        .mux      = <a class="code" href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0a735b6a3c0b2afe9159f89367eeee53d9">GPIO_MUX_C</a>,</div><div class="line">        .gclk_src = <a class="code" href="samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a11e06014c73014464975350e2f17976e">SAM0_GCLK_PERIPH</a>,</div><div class="line">        .flags    = <a class="code" href="sam0__common_2include_2periph__cpu__common_8h.html#a35689050a00ae4d0da14a1abe0e38dc3a0af5d8198ede19f93bab78bc0db71652">I2C_FLAG_NONE</a></div><div class="line">    }</div><div class="line">}</div><div class="ttc" id="sam0__common_2include_2periph__cpu__common_8h_html_a35689050a00ae4d0da14a1abe0e38dc3a0af5d8198ede19f93bab78bc0db71652"><div class="ttname"><a href="sam0__common_2include_2periph__cpu__common_8h.html#a35689050a00ae4d0da14a1abe0e38dc3a0af5d8198ede19f93bab78bc0db71652">I2C_FLAG_NONE</a></div><div class="ttdoc">No flags set. </div><div class="ttdef"><b>Definition:</b> <a href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00303">periph_cpu_common.h:303</a></div></div>
+<div class="ttc" id="ezr32wg_2include_2periph__cpu_8h_html_ad63240694c6dc2a28c24bfc2db90ad7aae3d8a811f3bf7196f361be4104db68db"><div class="ttname"><a href="ezr32wg_2include_2periph__cpu_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aae3d8a811f3bf7196f361be4104db68db">PA</a></div><div class="ttdoc">port A </div><div class="ttdef"><b>Definition:</b> <a href="ezr32wg_2include_2periph__cpu_8h_source.html#l00092">periph_cpu.h:92</a></div></div>
+<div class="ttc" id="sam0__common_2include_2periph__cpu__common_8h_html_ac86e130e5617ffe35f2aa1169d8a67c0a735b6a3c0b2afe9159f89367eeee53d9"><div class="ttname"><a href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0a735b6a3c0b2afe9159f89367eeee53d9">GPIO_MUX_C</a></div><div class="ttdoc">select peripheral function C </div><div class="ttdef"><b>Definition:</b> <a href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00135">periph_cpu_common.h:135</a></div></div>
+<div class="ttc" id="ezr32wg_2include_2periph__cpu_8h_html_ad63240694c6dc2a28c24bfc2db90ad7aaefbc069e0ac4cd293f3ba527bec2befe"><div class="ttname"><a href="ezr32wg_2include_2periph__cpu_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aaefbc069e0ac4cd293f3ba527bec2befe">PD</a></div><div class="ttdoc">port D </div><div class="ttdef"><b>Definition:</b> <a href="ezr32wg_2include_2periph__cpu_8h_source.html#l00095">periph_cpu.h:95</a></div></div>
+<div class="ttc" id="atmega1284p_2include_2periph__cpu_8h_html_ae29846b3ecd19a0b7c44ff80a37ae7c1"><div class="ttname"><a href="atmega1284p_2include_2periph__cpu_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a></div><div class="ttdeci">#define GPIO_PIN(x, y)</div><div class="ttdoc">Define a CPU specific GPIO pin generator macro. </div><div class="ttdef"><b>Definition:</b> <a href="atmega1284p_2include_2periph__cpu_8h_source.html#l00035">periph_cpu.h:35</a></div></div>
+<div class="ttc" id="samd5x_2include_2periph__cpu_8h_html_a5a77d65f4abba81d4456fa6ba8136e24a11e06014c73014464975350e2f17976e"><div class="ttname"><a href="samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a11e06014c73014464975350e2f17976e">SAM0_GCLK_PERIPH</a></div><div class="ttdoc">12-48 MHz (DFLL) clock </div><div class="ttdef"><b>Definition:</b> <a href="samd5x_2include_2periph__cpu_8h_source.html#l00067">periph_cpu.h:67</a></div></div>
+<div class="ttc" id="group__drivers__periph__i2c_html_gga6e6a870f98abb8cffa95373b69fb8243a0826bf5711e82ba26b4ada6104260583"><div class="ttname"><a href="group__drivers__periph__i2c.html#gga6e6a870f98abb8cffa95373b69fb8243a0826bf5711e82ba26b4ada6104260583">I2C_SPEED_NORMAL</a></div><div class="ttdoc">normal mode: ~100 kbit/s </div><div class="ttdef"><b>Definition:</b> <a href="i2c_8h_source.html#l00183">i2c.h:183</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="boards_2same54-xpro_2include_2periph__conf_8h_source.html#l00235">235</a> of file <a class="el" href="boards_2same54-xpro_2include_2periph__conf_8h_source.html">periph_conf.h</a>.</p>
+
+</div>
+</div>
+<a id="a57b47076d6e87497ff2901208cb484dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57b47076d6e87497ff2901208cb484dc">&#9670;&nbsp;</a></span>sam_usbdev_config</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structsam0__common__usb__config__t.html">sam0_common_usb_config_t</a> sam_usbdev_config[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    {</div><div class="line">        .dm     = <a class="code" href="atmega1284p_2include_2periph__cpu_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a>(<a class="code" href="ezr32wg_2include_2periph__cpu_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aae3d8a811f3bf7196f361be4104db68db">PA</a>, 24),</div><div class="line">        .dp     = <a class="code" href="atmega1284p_2include_2periph__cpu_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a>(<a class="code" href="ezr32wg_2include_2periph__cpu_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aae3d8a811f3bf7196f361be4104db68db">PA</a>, 25),</div><div class="line">        .d_mux  = <a class="code" href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0a3bc25dbd31de692bc46ea6fe674656be">GPIO_MUX_H</a>,</div><div class="line">        .device = &amp;USB-&gt;DEVICE,</div><div class="line">        .gclk_src = <a class="code" href="samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a11e06014c73014464975350e2f17976e">SAM0_GCLK_PERIPH</a>,</div><div class="line">    }</div><div class="line">}</div><div class="ttc" id="ezr32wg_2include_2periph__cpu_8h_html_ad63240694c6dc2a28c24bfc2db90ad7aae3d8a811f3bf7196f361be4104db68db"><div class="ttname"><a href="ezr32wg_2include_2periph__cpu_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aae3d8a811f3bf7196f361be4104db68db">PA</a></div><div class="ttdoc">port A </div><div class="ttdef"><b>Definition:</b> <a href="ezr32wg_2include_2periph__cpu_8h_source.html#l00092">periph_cpu.h:92</a></div></div>
+<div class="ttc" id="sam0__common_2include_2periph__cpu__common_8h_html_ac86e130e5617ffe35f2aa1169d8a67c0a3bc25dbd31de692bc46ea6fe674656be"><div class="ttname"><a href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0a3bc25dbd31de692bc46ea6fe674656be">GPIO_MUX_H</a></div><div class="ttdoc">select peripheral function H </div><div class="ttdef"><b>Definition:</b> <a href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00140">periph_cpu_common.h:140</a></div></div>
+<div class="ttc" id="atmega1284p_2include_2periph__cpu_8h_html_ae29846b3ecd19a0b7c44ff80a37ae7c1"><div class="ttname"><a href="atmega1284p_2include_2periph__cpu_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a></div><div class="ttdeci">#define GPIO_PIN(x, y)</div><div class="ttdoc">Define a CPU specific GPIO pin generator macro. </div><div class="ttdef"><b>Definition:</b> <a href="atmega1284p_2include_2periph__cpu_8h_source.html#l00035">periph_cpu.h:35</a></div></div>
+<div class="ttc" id="samd5x_2include_2periph__cpu_8h_html_a5a77d65f4abba81d4456fa6ba8136e24a11e06014c73014464975350e2f17976e"><div class="ttname"><a href="samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a11e06014c73014464975350e2f17976e">SAM0_GCLK_PERIPH</a></div><div class="ttdoc">12-48 MHz (DFLL) clock </div><div class="ttdef"><b>Definition:</b> <a href="samd5x_2include_2periph__cpu_8h_source.html#l00067">periph_cpu.h:67</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="boards_2same54-xpro_2include_2periph__conf_8h_source.html#l00272">272</a> of file <a class="el" href="boards_2same54-xpro_2include_2periph__conf_8h_source.html">periph_conf.h</a>.</p>
+
+</div>
+</div>
+<a id="a8b28b4c69f45b3c82837e7f5269f00a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b28b4c69f45b3c82837e7f5269f00a9">&#9670;&nbsp;</a></span>timer_config</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="structtc32__conf__t.html">tc32_conf_t</a> timer_config[]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    {   </div><div class="line">        .dev            = TC0,</div><div class="line">        .irq            = TC0_IRQn,</div><div class="line">        .mclk           = &amp;MCLK-&gt;APBAMASK.reg,</div><div class="line">        .mclk_mask      = MCLK_APBAMASK_TC0 | MCLK_APBAMASK_TC1,</div><div class="line">        .gclk_id        = TC0_GCLK_ID,</div><div class="line">        .gclk_src       = <a class="code" href="samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a2df224b532e504c664562f932fb8c9b8">SAM0_GCLK_TIMER</a>,</div><div class="line">        .flags          = TC_CTRLA_MODE_COUNT32,</div><div class="line">    },</div><div class="line">    {   </div><div class="line">        .dev            = TC2,</div><div class="line">        .irq            = TC2_IRQn,</div><div class="line">        .mclk           = &amp;MCLK-&gt;APBBMASK.reg,</div><div class="line">        .mclk_mask      = MCLK_APBBMASK_TC2 | MCLK_APBBMASK_TC3,</div><div class="line">        .gclk_id        = TC2_GCLK_ID,</div><div class="line">        .gclk_src       = <a class="code" href="samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a2df224b532e504c664562f932fb8c9b8">SAM0_GCLK_TIMER</a>,</div><div class="line">        .flags          = TC_CTRLA_MODE_COUNT32,</div><div class="line">    }</div><div class="line">}</div><div class="ttc" id="samd5x_2include_2periph__cpu_8h_html_a5a77d65f4abba81d4456fa6ba8136e24a2df224b532e504c664562f932fb8c9b8"><div class="ttname"><a href="samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a2df224b532e504c664562f932fb8c9b8">SAM0_GCLK_TIMER</a></div><div class="ttdoc">4-8 MHz clock for xTimer </div><div class="ttdef"><b>Definition:</b> <a href="samd5x_2include_2periph__cpu_8h_source.html#l00066">periph_cpu.h:66</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="boards_2same54-xpro_2include_2periph__conf_8h_source.html#l00077">77</a> of file <a class="el" href="boards_2same54-xpro_2include_2periph__conf_8h_source.html">periph_conf.h</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+    <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+        <ul>
+            <li class="footer">Generated on Wed Jul 1 2020 17:08:56 by <a href="http://www.doxygen.org/index.html">
+                       <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
+        </ul>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.smartmenus.min.js"></script>
+    <script src="jquery.smartmenus.bootstrap.min.js"></script>
+    <script src="riot-doxy.js"></script>
+  </body>
+</html>

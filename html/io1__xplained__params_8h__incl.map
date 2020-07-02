@@ -1,0 +1,17 @@
+<map id="drivers/io1_xplained/include/io1_xplained_params.h" name="drivers/io1_xplained/include/io1_xplained_params.h">
+<area shape="rect" id="node3" href="$io1__xplained_8h.html" title="Device driver interface for the Atmel IO1 Xplained extension. " alt="" coords="669,109,774,136"/>
+<area shape="rect" id="node19" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="923,333,1019,360"/>
+<area shape="rect" id="node20" href="$io1__xplained__internals_8h.html" title="Internal addresses, constants for the IO1 Xplained extension. " alt="" coords="1042,184,1203,211"/>
+<area shape="rect" id="node23" href="$saul__reg_8h.html" title="SAUL registry interface definition. " alt="" coords="517,109,600,136"/>
+<area shape="rect" id="node24" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="839,184,935,211"/>
+<area shape="rect" id="node4" href="$saul_8h.html" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer. " alt="" coords="463,184,521,211"/>
+<area shape="rect" id="node10" href="$at30tse75x_8h.html" title="Driver for the AT30TSE75x temperature sensor with serial EEPROM. " alt="" coords="597,184,694,211"/>
+<area shape="rect" id="node16" href="$sdcard__spi_8h.html" title="Public interface for the sdcard_spi driver. " alt="" coords="719,184,815,211"/>
+<area shape="rect" id="node6" href="$errno_8h.html" title="errno.h" alt="" coords="297,259,359,285"/>
+<area shape="rect" id="node7" href="$phydat_8h.html" title="Generic data container for physical data interface. " alt="" coords="200,259,272,285"/>
+<area shape="rect" id="node9" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="24,333,141,360"/>
+<area shape="rect" id="node11" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition. " alt="" coords="383,259,473,285"/>
+<area shape="rect" id="node15" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="216,333,355,360"/>
+<area shape="rect" id="node17" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="739,259,829,285"/>
+<area shape="rect" id="node22" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="1008,259,1101,285"/>
+</map>

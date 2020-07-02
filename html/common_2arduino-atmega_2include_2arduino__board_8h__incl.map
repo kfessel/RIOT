@@ -1,0 +1,6 @@
+<map id="boards/common/arduino&#45;atmega/include/arduino_board.h" name="boards/common/arduino&#45;atmega/include/arduino_board.h">
+<area shape="rect" id="node2" href="$common_2arduino-atmega_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins for Arduino Atmega boards. " alt="" coords="110,109,234,136"/>
+<area shape="rect" id="node9" href="$pwm_8h.html" title="Low&#45;level PWM peripheral driver interface definitions. " alt="" coords="243,184,343,211"/>
+<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="5,184,101,211"/>
+<area shape="rect" id="node7" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="125,184,219,211"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="drivers/at24cxxx/include/at24cxxx_params.h" name="drivers/at24cxxx/include/at24cxxx_params.h">
+<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="121,95,217,121"/>
+<area shape="rect" id="node7" href="$at24cxxx__defines_8h.html" title="Constants for AT24CXXX EEPROM devices. " alt="" coords="299,95,434,121"/>
+<area shape="rect" id="node8" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="337,169,455,196"/>
+</map>

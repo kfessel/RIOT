@@ -1,0 +1,7 @@
+<map id="drivers/include/periph/usbdev.h" name="drivers/include/periph/usbdev.h">
+<area shape="rect" id="node4" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="205,95,274,121"/>
+<area shape="rect" id="node7" href="$usb_8h.html" title="Definition of global compile time configuration options. " alt="" coords="300,95,355,121"/>
+<area shape="rect" id="node9" href="$usbopt_8h.html" title="Definition of global USB peripheral and USB peripheral endpoint configuration options. " alt="" coords="32,95,129,121"/>
+<area shape="rect" id="node5" href="$panic_8h.html" title="Crash handling header. " alt="" coords="207,169,271,196"/>
+<area shape="rect" id="node6" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="205,244,322,271"/>
+</map>

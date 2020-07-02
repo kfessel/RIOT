@@ -1,0 +1,17 @@
+<map id="sys/include/net/gnrc/pktbuf.h" name="sys/include/net/gnrc/pktbuf.h">
+<area shape="rect" id="node3" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="69,244,133,271"/>
+<area shape="rect" id="node7" href="$include_2net_2gnrc_2pkt_8h.html" title="General definitions for network packets and their helper functions. " alt="" coords="479,169,581,196"/>
+<area shape="rect" id="node14" href="$nettype_8h.html" title="Protocol type definitions. " alt="" coords="227,244,353,271"/>
+<area shape="rect" id="node18" href="$neterr_8h.html" title="Error reporting definitions. " alt="" coords="630,95,747,121"/>
+<area shape="rect" id="node22" href="$utlist_8h.html" title="Macros for basic linked list operations. " alt="" coords="463,95,525,121"/>
+<area shape="rect" id="node4" href="$malloc_8h.html" title="malloc.h" alt="" coords="5,319,76,345"/>
+<area shape="rect" id="node8" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="503,319,581,345"/>
+<area shape="rect" id="node9" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="606,244,713,271"/>
+<area shape="rect" id="node15" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="361,319,478,345"/>
+<area shape="rect" id="node16" href="$ethertype_8h.html" title="Ether type definitions. " alt="" coords="227,319,337,345"/>
+<area shape="rect" id="node17" href="$protnum_8h.html" title="Protocol number definitions. " alt="" coords="100,319,203,345"/>
+<area shape="rect" id="node19" href="$errno_8h.html" title="errno.h" alt="" coords="657,169,720,196"/>
+<area shape="rect" id="node20" href="$msg_8h.html" title="Messaging API for inter process communication. " alt="" coords="838,169,897,196"/>
+<area shape="rect" id="node23" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="385,169,454,196"/>
+<area shape="rect" id="node24" href="$panic_8h.html" title="Crash handling header. " alt="" coords="387,244,451,271"/>
+</map>

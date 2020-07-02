@@ -1,0 +1,8 @@
+<map id="sys/include/fs/fatfs.h" name="sys/include/fs/fatfs.h">
+<area shape="rect" id="node3" href="$vfs_8h.html" title="VFS layer API declarations. " alt="" coords="289,80,339,107"/>
+<area shape="rect" id="node8" href="$statvfs_8h.html" title="POSIX compatible sys/statvfs.h definitions. " alt="" coords="87,155,186,181"/>
+<area shape="rect" id="node9" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="261,155,367,181"/>
+<area shape="rect" id="node13" href="$clist_8h.html" title="Circular linked list. " alt="" coords="392,155,449,181"/>
+<area shape="rect" id="node10" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="211,229,289,256"/>
+<area shape="rect" id="node14" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="495,229,546,256"/>
+</map>

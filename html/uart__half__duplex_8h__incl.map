@@ -1,0 +1,6 @@
+<map id="drivers/uart_half_duplex/include/uart_half_duplex.h" name="drivers/uart_half_duplex/include/uart_half_duplex.h">
+<area shape="rect" id="node2" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="9,95,73,121"/>
+<area shape="rect" id="node4" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition. " alt="" coords="269,95,364,121"/>
+<area shape="rect" id="node3" href="$malloc_8h.html" title="malloc.h" alt="" coords="5,169,76,196"/>
+<area shape="rect" id="node10" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="543,169,682,196"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="boards/common/arduino&#45;atmega/include/gpio_params.h" name="boards/common/arduino&#45;atmega/include/gpio_params.h">
+<area shape="rect" id="node3" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="152,109,248,136"/>
+<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,184,189,211"/>
+<area shape="rect" id="node8" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="213,184,307,211"/>
+</map>

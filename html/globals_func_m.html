@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Globals</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.powertip.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="doxy-jquery.js"></script>
+    <script src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <!-- Bootstrap -->
+    <link href="doxygen.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="riot.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div id="top">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" id="brand-logo" href="http://riot-os.org"><img height="40px" src="riot-logo.svg" /></a>
+              <p class="navbar-text text-center visible-xs">Documentation</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
+              <ul id="riot-navlist" class="nav navbar-nav"></ul>
+              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
+              <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
+                    onsubmit="try{
+                        var rhtml=document.getElementById('MSearchResults').contentWindow.document.body.innerHTML;
+                        document.getElementById('MSearchResultsWindow').style.display='none';
+                        document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
+                        document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
+                        document.getElementById('doc-content').innerHTML=rhtml;
+                        }finally{
+                            return false;
+                    }">
+                 <div class="form-group">
+                   <div id="MSearchBox" class="MSearchBoxActive">
+                     <div class="input-group">
+                       <div class="input-group-addon">
+                         <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
+                       </div>
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
+                              r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                       <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
+                         <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+<!-- Generated by Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('globals_func_m.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+&#160;
+
+<h3><a id="index_m"></a>- m -</h3><ul>
+<li>mag3110_init()
+: <a class="el" href="group__drivers__mag3110.html#ga494ec4635c7dd1acd9e18c8fe94238bf">mag3110.h</a>
+</li>
+<li>mag3110_is_ready()
+: <a class="el" href="group__drivers__mag3110.html#ga99b55d1ebdf6821b8e25f53af4784b81">mag3110.h</a>
+</li>
+<li>mag3110_read()
+: <a class="el" href="group__drivers__mag3110.html#ga99e99fe70522055db24346f7295eedc1">mag3110.h</a>
+</li>
+<li>mag3110_read_dtemp()
+: <a class="el" href="group__drivers__mag3110.html#gaf5f37243d08ddb7256aafeefe53ae5d3">mag3110.h</a>
+</li>
+<li>mag3110_set_active()
+: <a class="el" href="group__drivers__mag3110.html#gac81d1ba93eea246252ed7b1771ec684a">mag3110.h</a>
+</li>
+<li>mag3110_set_standby()
+: <a class="el" href="group__drivers__mag3110.html#gaf47af6f4323d87e1aa74729299acb4dd">mag3110.h</a>
+</li>
+<li>mag3110_set_user_offset()
+: <a class="el" href="group__drivers__mag3110.html#gafaa722c8e341d4fe0b4b766048329fb9">mag3110.h</a>
+</li>
+<li>malloc()
+: <a class="el" href="group__oneway__malloc.html#ga7ac38fce3243a7dcf448301ee9ffd392">malloc.h</a>
+</li>
+<li>matstat_add()
+: <a class="el" href="matstat_8h.html#ac308360d7a783403ff0e3580da2c842d">matstat.h</a>
+</li>
+<li>matstat_clear()
+: <a class="el" href="matstat_8h.html#ac41962bb19ea28270117846f93df5e7a">matstat.h</a>
+</li>
+<li>matstat_mean()
+: <a class="el" href="matstat_8h.html#a1b1db555cd6f40518fbf473caa06319d">matstat.h</a>
+</li>
+<li>matstat_merge()
+: <a class="el" href="matstat_8h.html#ac9aa33b061aa11e2b2feb0f562b0e675">matstat.h</a>
+</li>
+<li>matstat_variance()
+: <a class="el" href="matstat_8h.html#a2c1c4adea1d2b5a9073eb1501af95cfa">matstat.h</a>
+</li>
+<li>mbox_get()
+: <a class="el" href="group__core__mbox.html#ga27097c9c9ef5fd4b5bff912580525126">mbox.h</a>
+</li>
+<li>mbox_init()
+: <a class="el" href="group__core__mbox.html#ga33c89a9d8e639a4d220be184faf5ac85">mbox.h</a>
+</li>
+<li>mbox_put()
+: <a class="el" href="group__core__mbox.html#gabfb23792f625efb692729cf0ad555349">mbox.h</a>
+</li>
+<li>mbox_try_get()
+: <a class="el" href="group__core__mbox.html#gafd3d1b114d4db9befc6564750f711d6e">mbox.h</a>
+</li>
+<li>mbox_try_put()
+: <a class="el" href="group__core__mbox.html#gabed66ce7a0c6cbe474f5accd7658e4a7">mbox.h</a>
+</li>
+<li>mci_initialize()
+: <a class="el" href="diskio_8h.html#a32607a1c4edebae627bd6d0efead1de5">diskio.h</a>
+</li>
+<li>mci_ioctl()
+: <a class="el" href="diskio_8h.html#abe4f18c382c67e97f19bcbfabdcded1f">diskio.h</a>
+</li>
+<li>mci_read()
+: <a class="el" href="diskio_8h.html#ade36d35ee5de2f52c366ccf1a25b3955">diskio.h</a>
+</li>
+<li>mci_status()
+: <a class="el" href="diskio_8h.html#a61051ef24cee83d23916f98eccfbe614">diskio.h</a>
+</li>
+<li>mci_write()
+: <a class="el" href="diskio_8h.html#a951939720ea87f986ac8109a6b8411bb">diskio.h</a>
+</li>
+<li>md5()
+: <a class="el" href="group__sys__hashes__md5.html#ga34b9c4858990c1331a504cfd3db50da2">md5.h</a>
+</li>
+<li>md5_final()
+: <a class="el" href="group__sys__hashes__md5.html#gad5aa369e5fb573c695b9b2e507b0bee6">md5.h</a>
+</li>
+<li>md5_init()
+: <a class="el" href="group__sys__hashes__md5.html#ga7b23bc124682da7474a6039455bcad8f">md5.h</a>
+</li>
+<li>md5_update()
+: <a class="el" href="group__sys__hashes__md5.html#gaa3980fff6e5395d93369f36e01876ce6">md5.h</a>
+</li>
+<li>MemManage_Handler()
+: <a class="el" href="group__CC2538__cmsis.html#ga3150f74512510287a942624aa9b44cc5">cc2538.h</a>
+</li>
+<li>mhz19_get_ppm()
+: <a class="el" href="group__drivers__mhz19.html#ga80b093fb1763a7feb3f6bdf2a5567fb9">mhz19.h</a>
+</li>
+<li>mhz19_init()
+: <a class="el" href="group__drivers__mhz19.html#ga326bf9228d31c89226e9d7deb1137e6a">mhz19.h</a>
+</li>
+<li>microbit_matrix_init()
+: <a class="el" href="microbit_8h.html#a1b4b6a92681a9249dbabc92c5f731363">microbit.h</a>
+</li>
+<li>microbit_matrix_off()
+: <a class="el" href="microbit_8h.html#adb47733cd38c80dc9ca9dc88dc8e5699">microbit.h</a>
+</li>
+<li>microbit_matrix_on()
+: <a class="el" href="microbit_8h.html#a3e3123ba53bb98125127c302ff576fff">microbit.h</a>
+</li>
+<li>microbit_matrix_set_char()
+: <a class="el" href="microbit_8h.html#a1acdd96edd24a3337569130214e71ccb">microbit.h</a>
+</li>
+<li>microbit_matrix_set_raw()
+: <a class="el" href="microbit_8h.html#a1a5f7efca7f42bbe05b3d80b37bb003b">microbit.h</a>
+</li>
+<li>microbit_matrix_shift_str()
+: <a class="el" href="microbit_8h.html#a2c252ba9bfbd4e153b21e1a2282456a4">microbit.h</a>
+</li>
+<li>micros()
+: <a class="el" href="group__sys__arduino__api.html#ga8b24cbb7c3486e1bfa05c86db83ecb01">arduino.hpp</a>
+</li>
+<li>millis()
+: <a class="el" href="group__sys__arduino__api.html#ga6ff7f2532a22366f0013bc41397129fd">arduino.hpp</a>
+</li>
+<li>mineplex_char()
+: <a class="el" href="group__sys__mineplex.html#ga9090cc31846fe655eb10e157d573641a">mineplex.h</a>
+</li>
+<li>mini_matrix_init()
+: <a class="el" href="mini_8h.html#a9a884a93844b6e815a2fb4cc90d17a95">mini.h</a>
+</li>
+<li>mini_matrix_off()
+: <a class="el" href="mini_8h.html#a5bfbcd0e7fbf0d0da696a27e762831c7">mini.h</a>
+</li>
+<li>mini_matrix_on()
+: <a class="el" href="mini_8h.html#a0565b1a24ed033aec27b373cedca1807">mini.h</a>
+</li>
+<li>mini_matrix_set_char()
+: <a class="el" href="mini_8h.html#ad12dfbdf9a5a1671c145411d42c8ea0e">mini.h</a>
+</li>
+<li>mini_matrix_set_raw()
+: <a class="el" href="mini_8h.html#ac1ce7a22901fe6124c63a1fc31c1c2b8">mini.h</a>
+</li>
+<li>mini_matrix_shift_str()
+: <a class="el" href="mini_8h.html#a70ac38ebdaa50b91615f08a1568968fa">mini.h</a>
+</li>
+<li>mips32r2_isr_end()
+: <a class="el" href="group__cpu__mips32r2__common.html#gaaca76817121acd607f7b807ae09cf79c">cpu.h</a>
+</li>
+<li>mma7660_config_interrupts()
+: <a class="el" href="group__drivers__mma7660.html#gaf1732ba9d7e33b8666d679325e31a7e1">mma7660.h</a>
+</li>
+<li>mma7660_config_pd()
+: <a class="el" href="group__drivers__mma7660.html#gae9469d9921288a9f6889a1d9b410b24f">mma7660.h</a>
+</li>
+<li>mma7660_config_pdet()
+: <a class="el" href="group__drivers__mma7660.html#gaeb421e31df1b5f2bc91f6432fd1e1a3c">mma7660.h</a>
+</li>
+<li>mma7660_config_samplerate()
+: <a class="el" href="group__drivers__mma7660.html#ga2164bcf3b56406e943ca3602012d7d58">mma7660.h</a>
+</li>
+<li>mma7660_init()
+: <a class="el" href="group__drivers__mma7660.html#ga77b0f534508f0fa6edf4ca31d03638f0">mma7660.h</a>
+</li>
+<li>mma7660_read()
+: <a class="el" href="group__drivers__mma7660.html#gaaac40d04aebe00a433f30e7b37d5307e">mma7660.h</a>
+</li>
+<li>mma7660_read_counts()
+: <a class="el" href="group__drivers__mma7660.html#ga337c8b446883dd0d0b924a9725a6ffcc">mma7660.h</a>
+</li>
+<li>mma7660_read_tilt()
+: <a class="el" href="group__drivers__mma7660.html#ga10ba7a14ce7116c5ffddc6ffca98c287">mma7660.h</a>
+</li>
+<li>mma7660_set_mode()
+: <a class="el" href="group__drivers__mma7660.html#ga269a690b3564e5627863b02ba6e42be3">mma7660.h</a>
+</li>
+<li>mma7660_write_sleep_count()
+: <a class="el" href="group__drivers__mma7660.html#gad15a475321c33260ee49c722d4166383">mma7660.h</a>
+</li>
+<li>mma8x5x_ack_int()
+: <a class="el" href="group__drivers__mma8x5x.html#ga63fd284d31680237ccddea94028ca28d">mma8x5x.h</a>
+</li>
+<li>mma8x5x_init()
+: <a class="el" href="group__drivers__mma8x5x.html#ga5420a9cd99c97f9b88848f99f5a5e2b6">mma8x5x.h</a>
+</li>
+<li>mma8x5x_is_ready()
+: <a class="el" href="group__drivers__mma8x5x.html#gadbad9d29b3fbc68bd05c80fbdf2b58d9">mma8x5x.h</a>
+</li>
+<li>mma8x5x_read()
+: <a class="el" href="group__drivers__mma8x5x.html#gaefe225136d5aafcc4a37b38ba7525287">mma8x5x.h</a>
+</li>
+<li>mma8x5x_set_active()
+: <a class="el" href="group__drivers__mma8x5x.html#gaacb242963421e9544ae2e8af89c3815d">mma8x5x.h</a>
+</li>
+<li>mma8x5x_set_motiondetect()
+: <a class="el" href="group__drivers__mma8x5x.html#gac996436ccb6c416c848812b4433856c0">mma8x5x.h</a>
+</li>
+<li>mma8x5x_set_standby()
+: <a class="el" href="group__drivers__mma8x5x.html#gac4798e15272544651f7171d3dbc46c37">mma8x5x.h</a>
+</li>
+<li>mma8x5x_set_user_offset()
+: <a class="el" href="group__drivers__mma8x5x.html#ga0129d9d93189e200a7ec5b979586d71c">mma8x5x.h</a>
+</li>
+<li>motor_brake()
+: <a class="el" href="group__drivers__motor.html#ga247b4fe9e41a05ee681b953c01d4d39c">motor_driver.h</a>
+</li>
+<li>motor_disable()
+: <a class="el" href="group__drivers__motor.html#gac754fc14404b505f664234c355ea3a90">motor_driver.h</a>
+</li>
+<li>motor_driver_init()
+: <a class="el" href="group__drivers__motor.html#gaedd658666dd7c13c9ccc0588eac81427">motor_driver.h</a>
+</li>
+<li>motor_enable()
+: <a class="el" href="group__drivers__motor.html#gacec4c0b5260865e725318036905c245e">motor_driver.h</a>
+</li>
+<li>motor_set()
+: <a class="el" href="group__drivers__motor.html#gabd3a982766274bfe01ccf79b751c496b">motor_driver.h</a>
+</li>
+<li>mp_do_str()
+: <a class="el" href="micropython_8h.html#a2173595421a0c3d3a59a17e95ce92eea">micropython.h</a>
+</li>
+<li>mp_riot_init()
+: <a class="el" href="micropython_8h.html#a226a0a8afd436e08fd100aff5c35f31b">micropython.h</a>
+</li>
+<li>mpl3115a2_init()
+: <a class="el" href="group__drivers__mpl3115a2.html#ga522ea56894f54659bd37f92625f7032b">mpl3115a2.h</a>
+</li>
+<li>mpl3115a2_is_ready()
+: <a class="el" href="group__drivers__mpl3115a2.html#ga5d5a6b5311f7bdc1dc4a2ba303a68d93">mpl3115a2.h</a>
+</li>
+<li>mpl3115a2_read_pressure()
+: <a class="el" href="group__drivers__mpl3115a2.html#ga3fa27e02456e659badac4b5c5de54913">mpl3115a2.h</a>
+</li>
+<li>mpl3115a2_read_temp()
+: <a class="el" href="group__drivers__mpl3115a2.html#gaef556f4adbd25aef7f2a6a20708f2f18">mpl3115a2.h</a>
+</li>
+<li>mpl3115a2_reset()
+: <a class="el" href="group__drivers__mpl3115a2.html#ga3acb0ca784d73b7b3363eb570d3344b0">mpl3115a2.h</a>
+</li>
+<li>mpl3115a2_set_active()
+: <a class="el" href="group__drivers__mpl3115a2.html#ga83781cd30238788ba31cb381733116d7">mpl3115a2.h</a>
+</li>
+<li>mpl3115a2_set_standby()
+: <a class="el" href="group__drivers__mpl3115a2.html#ga47297785986f954a397cd7b038bd0cd2">mpl3115a2.h</a>
+</li>
+<li>mpu9x50_init()
+: <a class="el" href="group__drivers__mpu9x50.html#gaed936dfffa5d6ee03e38fceefa6ec68e">mpu9x50.h</a>
+</li>
+<li>mpu9x50_read_accel()
+: <a class="el" href="group__drivers__mpu9x50.html#ga79f3b90c7b5216320181242058f6ad33">mpu9x50.h</a>
+</li>
+<li>mpu9x50_read_compass()
+: <a class="el" href="group__drivers__mpu9x50.html#ga6af64b79bb20cc53276b0a47941febd6">mpu9x50.h</a>
+</li>
+<li>mpu9x50_read_gyro()
+: <a class="el" href="group__drivers__mpu9x50.html#gafdaa40ce2894b84253d984f4cb5afc58">mpu9x50.h</a>
+</li>
+<li>mpu9x50_read_temperature()
+: <a class="el" href="group__drivers__mpu9x50.html#ga0087dd46cbf9b321041fbae1da39acd2">mpu9x50.h</a>
+</li>
+<li>mpu9x50_set_accel_fsr()
+: <a class="el" href="group__drivers__mpu9x50.html#gaeb40825259d5b052bc2aafbb193c08a1">mpu9x50.h</a>
+</li>
+<li>mpu9x50_set_accel_power()
+: <a class="el" href="group__drivers__mpu9x50.html#gaf8ee619de4c4af22ca1a6535ab6f784c">mpu9x50.h</a>
+</li>
+<li>mpu9x50_set_compass_power()
+: <a class="el" href="group__drivers__mpu9x50.html#ga489174498faac44447fc0e19fcc8cf32">mpu9x50.h</a>
+</li>
+<li>mpu9x50_set_compass_sample_rate()
+: <a class="el" href="group__drivers__mpu9x50.html#gac766b89809941f5fa0482a75749e1747">mpu9x50.h</a>
+</li>
+<li>mpu9x50_set_gyro_fsr()
+: <a class="el" href="group__drivers__mpu9x50.html#gaf79df296358adaed594f358080a2c8dd">mpu9x50.h</a>
+</li>
+<li>mpu9x50_set_gyro_power()
+: <a class="el" href="group__drivers__mpu9x50.html#gaa878ebfb0f18ab1e8477bfdc4abcde06">mpu9x50.h</a>
+</li>
+<li>mpu9x50_set_sample_rate()
+: <a class="el" href="group__drivers__mpu9x50.html#ga6f0b546156158dbd0c26aca131ccb0e7">mpu9x50.h</a>
+</li>
+<li>MPU_ATTR()
+: <a class="el" href="mpu_8h.html#ac5c2093e7c89bebb63b847994f1cfc48">mpu.h</a>
+</li>
+<li>mpu_configure()
+: <a class="el" href="mpu_8h.html#a400a800c40ddd023921603ae37867e25">mpu.h</a>
+</li>
+<li>mpu_disable()
+: <a class="el" href="mpu_8h.html#a7f7dce26f7d8dec5ad33116dee4d3276">mpu.h</a>
+</li>
+<li>mpu_enable()
+: <a class="el" href="mpu_8h.html#a82823b017203f2e544abdbe54e07fc4a">mpu.h</a>
+</li>
+<li>mpu_enabled()
+: <a class="el" href="mpu_8h.html#a6d19ab8501f0fd82e37fdd8c7e0cf8d2">mpu.h</a>
+</li>
+<li>mq3_init()
+: <a class="el" href="group__drivers__mq3.html#ga565ec4c73cd412afb391b409e6d4e902">mq3.h</a>
+</li>
+<li>mq3_read()
+: <a class="el" href="group__drivers__mq3.html#ga9fa4c1c05afca95ea9e7c5c4f10b78cd">mq3.h</a>
+</li>
+<li>mq3_read_raw()
+: <a class="el" href="group__drivers__mq3.html#gab85158b60fb4aab4aec8da41502b9cbf">mq3.h</a>
+</li>
+<li>mrf24j40_assert_awake()
+: <a class="el" href="group__drivers__mrf24j40.html#ga9d95f7fc6d4fd8ed92548b2c34cddad2">mrf24j40.h</a>
+</li>
+<li>mrf24j40_assert_sleep()
+: <a class="el" href="group__drivers__mrf24j40.html#ga39f17e925043e93cb507f79bac4e382e">mrf24j40.h</a>
+</li>
+<li>mrf24j40_cca()
+: <a class="el" href="group__drivers__mrf24j40.html#ga4577af44fa3447d5a5d5ddb06df6d114">mrf24j40.h</a>
+</li>
+<li>mrf24j40_dbm_from_reg()
+: <a class="el" href="group__drivers__mrf24j40.html#ga80322d719b89cdc3317ef20d09e5b22b">mrf24j40.h</a>
+</li>
+<li>mrf24j40_disable_auto_pa_lna()
+: <a class="el" href="mrf24j40__internal_8h.html#ae352e938ed8ec228a0c82a5629f37fcf">mrf24j40_internal.h</a>
+</li>
+<li>mrf24j40_enable_auto_pa_lna()
+: <a class="el" href="mrf24j40__internal_8h.html#a8d2fa422c6058d457f1556a1385107d3">mrf24j40_internal.h</a>
+</li>
+<li>mrf24j40_enable_lna()
+: <a class="el" href="mrf24j40__internal_8h.html#a92eb0509617c2949094a118a4a66c6e2">mrf24j40_internal.h</a>
+</li>
+<li>mrf24j40_get_addr_long()
+: <a class="el" href="group__drivers__mrf24j40.html#ga52203a578f8d9625ba7a8be1e7a268af">mrf24j40.h</a>
+</li>
+<li>mrf24j40_get_addr_short()
+: <a class="el" href="group__drivers__mrf24j40.html#gad6945acbeb167ae2106597d1e4779fb8">mrf24j40.h</a>
+</li>
+<li>mrf24j40_get_cca_threshold()
+: <a class="el" href="group__drivers__mrf24j40.html#ga7c45379984c1729e858728bed33d3d02">mrf24j40.h</a>
+</li>
+<li>mrf24j40_get_chan()
+: <a class="el" href="group__drivers__mrf24j40.html#ga751b0453c8f398505141d8f6ba80940a">mrf24j40.h</a>
+</li>
+<li>mrf24j40_get_csma_max_retries()
+: <a class="el" href="group__drivers__mrf24j40.html#ga6268c942b7046f718e31db9826160688">mrf24j40.h</a>
+</li>
+<li>mrf24j40_get_pan()
+: <a class="el" href="group__drivers__mrf24j40.html#ga31df59ab4275cf91bd149211a71d93b1">mrf24j40.h</a>
+</li>
+<li>mrf24j40_get_turbo()
+: <a class="el" href="group__drivers__mrf24j40.html#gabb2658159bdee5bfaf6300fb0289fb9c">mrf24j40.h</a>
+</li>
+<li>mrf24j40_get_txpower()
+: <a class="el" href="group__drivers__mrf24j40.html#gacdcc19e5d39a63ec79a8c469b0dbc98a">mrf24j40.h</a>
+</li>
+<li>mrf24j40_hardware_reset()
+: <a class="el" href="mrf24j40__internal_8h.html#ae9ce4273c75f8faed9122306b50330aa">mrf24j40_internal.h</a>
+</li>
+<li>mrf24j40_init()
+: <a class="el" href="mrf24j40__internal_8h.html#ac3e229b2fa1ba30924f6448d55483b81">mrf24j40_internal.h</a>
+</li>
+<li>mrf24j40_reg_read_long()
+: <a class="el" href="mrf24j40__internal_8h.html#abbf3c6317cc6dba414e82503e4fc92ad">mrf24j40_internal.h</a>
+</li>
+<li>mrf24j40_reg_read_short()
+: <a class="el" href="mrf24j40__internal_8h.html#a7f12a8d852d55e4cbc4fffc47eb3b1e5">mrf24j40_internal.h</a>
+</li>
+<li>mrf24j40_reg_write_long()
+: <a class="el" href="mrf24j40__internal_8h.html#a086512a638cdd3bd6e0d1cf3e969cb25">mrf24j40_internal.h</a>
+</li>
+<li>mrf24j40_reg_write_short()
+: <a class="el" href="mrf24j40__internal_8h.html#a4eb00e88ed0b5c5f4fe9457d946df002">mrf24j40_internal.h</a>
+</li>
+<li>mrf24j40_reset()
+: <a class="el" href="group__drivers__mrf24j40.html#gaaead3f046c789ebeaa75d48145032bc2">mrf24j40.h</a>
+</li>
+<li>mrf24j40_reset_state_machine()
+: <a class="el" href="group__drivers__mrf24j40.html#gaa6ab2d895608a3f7c89575394b8a76e7">mrf24j40.h</a>
+</li>
+<li>mrf24j40_reset_tasks()
+: <a class="el" href="mrf24j40__internal_8h.html#a3b3530db3e66fe7a4f28b41f4fe574d5">mrf24j40_internal.h</a>
+</li>
+<li>mrf24j40_rx_fifo_read()
+: <a class="el" href="mrf24j40__internal_8h.html#a2dc7584c17be55b64d848b9ef02c690a">mrf24j40_internal.h</a>
+</li>
+<li>mrf24j40_set_addr_long()
+: <a class="el" href="group__drivers__mrf24j40.html#gafac9cabc04b57ea3c6c2308e25304521">mrf24j40.h</a>
+</li>
+<li>mrf24j40_set_addr_short()
+: <a class="el" href="group__drivers__mrf24j40.html#gaec173376dad8734c3dafd61812a43738">mrf24j40.h</a>
+</li>
+<li>mrf24j40_set_cca_threshold()
+: <a class="el" href="group__drivers__mrf24j40.html#ga858128e8ba01e9bb985463a9f007e05c">mrf24j40.h</a>
+</li>
+<li>mrf24j40_set_chan()
+: <a class="el" href="group__drivers__mrf24j40.html#gae41cdb300aa8fa8c814e48daf9307145">mrf24j40.h</a>
+</li>
+<li>mrf24j40_set_csma_backoff_exp()
+: <a class="el" href="group__drivers__mrf24j40.html#ga67a57cb0f06873c41e43ef582911f514">mrf24j40.h</a>
+</li>
+<li>mrf24j40_set_csma_max_retries()
+: <a class="el" href="group__drivers__mrf24j40.html#ga0da995a94f7f38f677f288c9be8f5331">mrf24j40.h</a>
+</li>
+<li>mrf24j40_set_option()
+: <a class="el" href="group__drivers__mrf24j40.html#ga023db35ebc5374b8d88e684f74e79cfd">mrf24j40.h</a>
+</li>
+<li>mrf24j40_set_pan()
+: <a class="el" href="group__drivers__mrf24j40.html#gab882597e281c5284096308c5a3304492">mrf24j40.h</a>
+</li>
+<li>mrf24j40_set_state()
+: <a class="el" href="group__drivers__mrf24j40.html#gab5ee971408a8b2d3dbd0ecf5db44dab1">mrf24j40.h</a>
+</li>
+<li>mrf24j40_set_turbo()
+: <a class="el" href="group__drivers__mrf24j40.html#gad143fd43458223d4f9fc78fbe86c1405">mrf24j40.h</a>
+</li>
+<li>mrf24j40_set_txpower()
+: <a class="el" href="group__drivers__mrf24j40.html#ga4a46456d0f6d2ad7e650339ae49a149f">mrf24j40.h</a>
+</li>
+<li>mrf24j40_setup()
+: <a class="el" href="group__drivers__mrf24j40.html#gaccf3bda8a710699eff9fa5be798495be">mrf24j40.h</a>
+</li>
+<li>mrf24j40_sleep()
+: <a class="el" href="group__drivers__mrf24j40.html#ga2f3d1e5efaea54dc69419b4362227e93">mrf24j40.h</a>
+</li>
+<li>mrf24j40_software_reset()
+: <a class="el" href="group__drivers__mrf24j40.html#ga93de08128de3421f1a65edf058316fbc">mrf24j40.h</a>
+</li>
+<li>mrf24j40_tx_exec()
+: <a class="el" href="group__drivers__mrf24j40.html#gab13d481a9e61f055b65380022af04c69">mrf24j40.h</a>
+</li>
+<li>mrf24j40_tx_load()
+: <a class="el" href="group__drivers__mrf24j40.html#ga824897a444ed6b544edc8466f79b1326">mrf24j40.h</a>
+</li>
+<li>mrf24j40_tx_normal_fifo_write()
+: <a class="el" href="mrf24j40__internal_8h.html#ac8ce53fc6cb2a226619ee242081330c0">mrf24j40_internal.h</a>
+</li>
+<li>mrf24j40_tx_prepare()
+: <a class="el" href="group__drivers__mrf24j40.html#ga81d51122b1b4e529ed56ae7c48b116ae">mrf24j40.h</a>
+</li>
+<li>mrf24j40_update_tasks()
+: <a class="el" href="mrf24j40__internal_8h.html#a6c1552331ab87b981e7e712f662ac09a">mrf24j40_internal.h</a>
+</li>
+<li>msg_avail()
+: <a class="el" href="group__core__msg.html#gad1353dec9af776d4caf5f4e00cec112e">msg.h</a>
+</li>
+<li>msg_bus_attach()
+: <a class="el" href="msg__bus_8h.html#a75bf3f0f5c857c9c43bcb4ec505d9708">msg_bus.h</a>
+</li>
+<li>msg_bus_detach()
+: <a class="el" href="msg__bus_8h.html#afeaefceca1313dbdb3619d6e6aa5f3dc">msg_bus.h</a>
+</li>
+<li>msg_bus_get_entry()
+: <a class="el" href="msg__bus_8h.html#a1cc09d5cbadf1ea12d1195c364539c38">msg_bus.h</a>
+</li>
+<li>msg_bus_get_type()
+: <a class="el" href="msg__bus_8h.html#a02dcfbb463b3159e2971e7cd3bc0960f">msg_bus.h</a>
+</li>
+<li>msg_bus_init()
+: <a class="el" href="msg__bus_8h.html#a301cab8c84c7c5e49381d805b3d8e03c">msg_bus.h</a>
+</li>
+<li>msg_bus_post()
+: <a class="el" href="msg__bus_8h.html#a67c5433470d13ad01053567da8fad3ec">msg_bus.h</a>
+</li>
+<li>msg_bus_subscribe()
+: <a class="el" href="msg__bus_8h.html#a93250712197c6067c1de4727df4a216e">msg_bus.h</a>
+</li>
+<li>msg_bus_unsubscribe()
+: <a class="el" href="msg__bus_8h.html#a713fdfb9c247f9c4695abc88404981d0">msg_bus.h</a>
+</li>
+<li>msg_init_queue()
+: <a class="el" href="group__core__msg.html#ga480e6f32c8ab18579b62a890f3fda2cd">msg.h</a>
+</li>
+<li>msg_is_from_bus()
+: <a class="el" href="msg__bus_8h.html#ad0d4d4bd8e41b9850bdd19a8c072eb1a">msg_bus.h</a>
+</li>
+<li>msg_queue_print()
+: <a class="el" href="group__core__msg.html#ga43b46e5167cdf2b2324920b59dae81a0">msg.h</a>
+</li>
+<li>msg_receive()
+: <a class="el" href="group__core__msg.html#gae3e05f08bd71d6f65dc727624c4d5f7a">msg.h</a>
+</li>
+<li>msg_reply()
+: <a class="el" href="group__core__msg.html#ga2e7b09dc269eb4847f6e08b9900ffda9">msg.h</a>
+</li>
+<li>msg_reply_int()
+: <a class="el" href="group__core__msg.html#ga09edaaa9af7fca0a049459038b087583">msg.h</a>
+</li>
+<li>msg_send()
+: <a class="el" href="group__core__msg.html#gac5347725c3d203ac72604c0ab8b7d6d8">msg.h</a>
+</li>
+<li>msg_send_bus()
+: <a class="el" href="msg__bus_8h.html#af3c667c55f552a7892e9a0ea75528031">msg_bus.h</a>
+</li>
+<li>msg_send_int()
+: <a class="el" href="group__core__msg.html#ga2762c096056c5eac7ffe38c8727e033a">msg.h</a>
+</li>
+<li>msg_send_receive()
+: <a class="el" href="group__core__msg.html#ga01aee21f8554591c7933d4ba05cfe85b">msg.h</a>
+</li>
+<li>msg_send_to_self()
+: <a class="el" href="group__core__msg.html#ga8711110548c90fe5ca82215e89bb83dd">msg.h</a>
+</li>
+<li>msg_sent_by_int()
+: <a class="el" href="group__core__msg.html#ga77476ad20575d236516ec0acb0bdabd1">msg.h</a>
+</li>
+<li>msg_try_receive()
+: <a class="el" href="group__core__msg.html#ga0a5e88bf7d9cadb41e5acf4deb300061">msg.h</a>
+</li>
+<li>msg_try_send()
+: <a class="el" href="group__core__msg.html#ga99264bd4f263fa2b478308c1f7983c10">msg.h</a>
+</li>
+<li>msp430_cpu_init()
+: <a class="el" href="group__cpu__msp430__common.html#ga9f5b56342b4b7997fd1bd332ac32de5a">cpu.h</a>
+</li>
+<li>mtd_erase()
+: <a class="el" href="group__drivers__mtd.html#gaabab7f7b0b1cfcdbe2b32d2e26bbf4d7">mtd.h</a>
+</li>
+<li>mtd_init()
+: <a class="el" href="group__drivers__mtd.html#ga6bcf582eaf56330ea31c1162ea535076">mtd.h</a>
+</li>
+<li>mtd_power()
+: <a class="el" href="group__drivers__mtd.html#gaf44f35470c2180ebd4b772f3b25d31fc">mtd.h</a>
+</li>
+<li>mtd_read()
+: <a class="el" href="group__drivers__mtd.html#ga74ffca1da0436aada58ef3f18f469e36">mtd.h</a>
+</li>
+<li>mtd_write()
+: <a class="el" href="group__drivers__mtd.html#ga5f36fb25e0daada2e9a873475c532d94">mtd.h</a>
+</li>
+<li>mutex_init()
+: <a class="el" href="group__core__sync__mutex.html#ga863625fd3252b5ebdadafaa6509ddb6d">mutex.h</a>
+</li>
+<li>mutex_lock()
+: <a class="el" href="group__core__sync__mutex.html#gac50891b4f3d2930d34c173567d739201">mutex.h</a>
+</li>
+<li>mutex_trylock()
+: <a class="el" href="group__core__sync__mutex.html#gadece3a92e8921da1468368dd041c40fe">mutex.h</a>
+</li>
+<li>mutex_unlock()
+: <a class="el" href="group__core__sync__mutex.html#ga05ccabe849d63b032f6317323da60187">mutex.h</a>
+</li>
+<li>mutex_unlock_and_sleep()
+: <a class="el" href="group__core__sync__mutex.html#gab7d277fbba41acd77cb81fa52bc17b92">mutex.h</a>
+</li>
+<li>my9221_init()
+: <a class="el" href="group__drivers__my9221.html#ga856a15b40a6d2b07114484a8ca60fd1a">my9221.h</a>
+</li>
+<li>my9221_set_led()
+: <a class="el" href="group__drivers__my9221.html#ga68e7c20babf3b5e4a8a1ac9a8a7613dc">my9221.h</a>
+</li>
+<li>my9221_set_state()
+: <a class="el" href="group__drivers__my9221.html#gaef3d09f01fb47b46fe30a316c5347f80">my9221.h</a>
+</li>
+<li>my9221_toggle_led()
+: <a class="el" href="group__drivers__my9221.html#ga041ac8d6ee7409f94dec3e3d23f1d1b1">my9221.h</a>
+</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+    <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+        <ul>
+            <li class="footer">Generated on Wed Jul 1 2020 17:09:02 by <a href="http://www.doxygen.org/index.html">
+                       <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
+        </ul>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.smartmenus.min.js"></script>
+    <script src="jquery.smartmenus.bootstrap.min.js"></script>
+    <script src="riot-doxy.js"></script>
+  </body>
+</html>

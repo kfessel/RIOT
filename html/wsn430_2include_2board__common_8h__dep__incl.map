@@ -1,0 +1,96 @@
+<map id="boards/common/wsn430/include/board_common.h" name="boards/common/wsn430/include/board_common.h">
+<area shape="rect" id="node2" href="$adafruit-clue_2include_2board_8h.html" title="Board specific configuration for the Adafruit Clue board. " alt="" coords="15,102,151,143"/>
+<area shape="rect" id="node4" href="$airfy-beacon_2include_2board_8h.html" title="Board specific definitions for the Airfy Beacon board. " alt="" coords="175,102,311,143"/>
+<area shape="rect" id="node5" href="$arduino-duemilanove_2include_2board_8h.html" title="Board specific definitions for the Arduino Duemilanove board. " alt="" coords="335,102,519,143"/>
+<area shape="rect" id="node6" href="$arduino-leonardo_2include_2board_8h.html" title="Board specific definitions for the Arduino Leonardo board. " alt="" coords="543,102,703,143"/>
+<area shape="rect" id="node7" href="$arduino-mega2560_2include_2board_8h.html" title="Board specific definitions for the Arduino Mega 2560 board. " alt="" coords="727,102,898,143"/>
+<area shape="rect" id="node8" href="$arduino-mkr1000_2include_2board_8h.html" title="Board specific definitions for the Arduino MKR1000 board. " alt="" coords="923,102,1084,143"/>
+<area shape="rect" id="node9" href="$arduino-mkrfox1200_2include_2board_8h.html" title="Board specific definitions for the Arduino MKRFOX1200 board. " alt="" coords="1109,102,1287,143"/>
+<area shape="rect" id="node10" href="$arduino-mkrwan1300_2include_2board_8h.html" title="Support for the Arduino MKRWAN1300 board. " alt="" coords="1312,102,1497,143"/>
+<area shape="rect" id="node11" href="$arduino-mkrzero_2include_2board_8h.html" title="Board specific definitions for the Arduino MKRZERO board. " alt="" coords="1521,102,1680,143"/>
+<area shape="rect" id="node12" href="$arduino-nano_2include_2board_8h.html" title="Board specific definitions for the Arduino Uno board. " alt="" coords="1705,102,1843,143"/>
+<area shape="rect" id="node13" href="$arduino-nano-33-ble_2include_2board_8h.html" title="Board specific configuration for the Arduino Nano 33 BLE. " alt="" coords="1868,102,2021,143"/>
+<area shape="rect" id="node15" href="$arduino-uno_2include_2board_8h.html" title="Board specific definitions for the Arduino Uno board. " alt="" coords="2045,102,2177,143"/>
+<area shape="rect" id="node16" href="$blackpill_2include_2board_8h.html" title="Support for the stm32f103c8 based Black pill. " alt="" coords="2202,102,2359,143"/>
+<area shape="rect" id="node17" href="$blackpill-128kib_2include_2board_8h.html" title="Support for the stm32f103c8 based Black pill. " alt="" coords="2383,102,2538,143"/>
+<area shape="rect" id="node18" href="$bluepill_2include_2board_8h.html" title="This board can be bought very cheaply on sides like eBay or AliExpress. " alt="" coords="2563,102,2713,143"/>
+<area shape="rect" id="node19" href="$bluepill-128kib_2include_2board_8h.html" title="This board can be bought very cheaply on sides like eBay or AliExpress. " alt="" coords="2738,102,2885,143"/>
+<area shape="rect" id="node20" href="$calliope-mini_2include_2board_8h.html" title="This board is for calliope&#45;mini revision 1.0. " alt="" coords="2909,102,3047,143"/>
+<area shape="rect" id="node22" href="$common_2particle-mesh_2include_2board_8h.html" title="Common board specific configuration for the Particle Mesh. " alt="" coords="3071,102,3232,143"/>
+<area shape="rect" id="node24" href="$dwm1001_2include_2board_8h.html" title="Board specific configuration for the DWM1001 dev board. " alt="" coords="3256,102,3423,143"/>
+<area shape="rect" id="node25" href="$esp32-heltec-lora32-v2_2include_2board_8h.html" title="Board specific definitions for Heltec WiFi LoRa 32 V2 board. " alt="" coords="3447,102,3618,143"/>
+<area shape="rect" id="node27" href="$esp32-mh-et-live-minikit_2include_2board_8h.html" title="Board specific definitions for MH&#45;ET LIVE MiniKit for ESP32. " alt="" coords="3643,95,3780,151"/>
+<area shape="rect" id="node29" href="$esp32-olimex-evb_2include_2board_8h.html" title="Board specific definitions for Olimex ESP32&#45;EVB (ESP32&#45;GATEWAY) " alt="" coords="3804,102,3947,143"/>
+<area shape="rect" id="node31" href="$esp32-ttgo-t-beam_2include_2board_8h.html" title="Board specific definitions for TTGO T&#45;Beam board. " alt="" coords="3971,102,4121,143"/>
+<area shape="rect" id="node33" href="$esp32-wemos-lolin-d32-pro_2include_2board_8h.html" title="Board specific definitions for Wemos LOLIN D32 Pro. " alt="" coords="4146,95,4293,151"/>
+<area shape="rect" id="node35" href="$esp32-wroom-32_2include_2board_8h.html" title="Board specific definitions for generic ESP32&#45;WROOM&#45;32 boards. " alt="" coords="4317,102,4460,143"/>
+<area shape="rect" id="node37" href="$esp32-wrover-kit_2include_2board_8h.html" title="Board specific definitions for Espressif ESP&#45;WROVER&#45;KIT V3. " alt="" coords="4484,102,4627,143"/>
+<area shape="rect" id="node39" href="$esp8266-esp-12x_2include_2board_8h.html" title="Board specific definitions for ESP&#45;12x based boards. " alt="" coords="4651,102,4790,143"/>
+<area shape="rect" id="node41" href="$esp8266-olimex-mod_2include_2board_8h.html" title="Board specific definitions for Olimex MOD&#45;WIFI&#45;ESP8266&#45;DEV boards. " alt="" coords="4815,102,4971,143"/>
+<area shape="rect" id="node43" href="$esp8266-sparkfun-thing_2include_2board_8h.html" title="Board specific definitions for SparkFun ESP8266 Thing boards. " alt="" coords="4995,102,5163,143"/>
+<area shape="rect" id="node45" href="$feather-nrf52840_2include_2board_8h.html" title="Board specific configuration for the Adafruit Feather nRF52840 Express. " alt="" coords="5188,102,5347,143"/>
+<area shape="rect" id="node47" href="$firefly_2include_2board_8h.html" title="Support for the Firefly board. " alt="" coords="5371,102,5513,143"/>
+<area shape="rect" id="node50" href="$frdm-kw41z_2include_2board_8h.html" title="Board specific definitions for the FRDM&#45;KW41Z. " alt="" coords="5538,102,5717,143"/>
+<area shape="rect" id="node53" href="$iotlab-a8-m3_2include_2board_8h.html" title="Board specific definitions for the iotlab&#45;a8&#45;m3 board. " alt="" coords="5741,102,5877,143"/>
+<area shape="rect" id="node54" href="$iotlab-m3_2include_2board_8h.html" title="Board specific definitions for the iotlab&#45;m3 board. " alt="" coords="5901,102,6063,143"/>
+<area shape="rect" id="node55" href="$microbit_2include_2board_8h.html" title="Board specific configuration for the BBC micro:bit. " alt="" coords="6088,102,6244,143"/>
+<area shape="rect" id="node57" href="$msb-430_2include_2board_8h.html" title="Central definitions for the ScatterWeb MSB&#45;430 board. " alt="" coords="6269,102,6429,143"/>
+<area shape="rect" id="node58" href="$msb-430h_2include_2board_8h.html" title="Basic definitions for the MSB&#45;430H board. " alt="" coords="6453,102,6620,143"/>
+<area shape="rect" id="node59" href="$nrf51dk_2include_2board_8h.html" title="Board specific configuration for the nRF51DK. " alt="" coords="6644,102,6797,143"/>
+<area shape="rect" id="node61" href="$nrf51dongle_2include_2board_8h.html" title="Board specific configuration for the nRF51 Dongle. " alt="" coords="6821,102,6953,143"/>
+<area shape="rect" id="node62" href="$nrf52832-mdk_2include_2board_8h.html" title="Board specific configuration for the nRF52832&#45;MDK. " alt="" coords="6978,102,7122,143"/>
+<area shape="rect" id="node64" href="$nrf52840-mdk_2include_2board_8h.html" title="Board specific configuration for the nRF52840&#45;MDK. " alt="" coords="7146,102,7290,143"/>
+<area shape="rect" id="node66" href="$nrf52840dk_2include_2board_8h.html" title="Board specific configuration for the nRF52840 DK. " alt="" coords="7315,102,7489,143"/>
+<area shape="rect" id="node67" href="$nrf52840dongle_2include_2board_8h.html" title="Board specific configuration for the nRF52840&#45;Dongle. " alt="" coords="7513,102,7667,143"/>
+<area shape="rect" id="node69" href="$nrf52dk_2include_2board_8h.html" title="Board specific configuration for the nRF52 DK. " alt="" coords="7691,102,7844,143"/>
+<area shape="rect" id="node70" href="$pinetime_2include_2board_8h.html" title="Board specific configuration for the PineTime. " alt="" coords="7868,102,8027,143"/>
+<area shape="rect" id="node71" href="$remote-pa_2include_2board_8h.html" title="Board specific definitions for the Re&#45;Mote board prototype A. " alt="" coords="8051,102,8219,143"/>
+<area shape="rect" id="node74" href="$remote-reva_2include_2board_8h.html" title="Board specific definitions for the RE&#45;Mote board Revision A. " alt="" coords="8244,102,8379,143"/>
+<area shape="rect" id="node77" href="$remote-revb_2include_2board_8h.html" title="Board specific definitions for the RE&#45;Mote board Revision B. " alt="" coords="8403,102,8537,143"/>
+<area shape="rect" id="node80" href="$sodaq-autonomo_2include_2board_8h.html" title="Board specific definitions for the SODAQ Autonomo board. " alt="" coords="8561,102,8723,143"/>
+<area shape="rect" id="node82" href="$sodaq-explorer_2include_2board_8h.html" title="Board specific definitions for the SODAQ ExpLoRer board. " alt="" coords="8747,102,8897,143"/>
+<area shape="rect" id="node84" href="$sodaq-one_2include_2board_8h.html" title="Board specific definitions for the SODAQ ONE board. " alt="" coords="8922,102,9093,143"/>
+<area shape="rect" id="node86" href="$sodaq-sara-aff_2include_2board_8h.html" title="Board specific definitions for the SODAQ SARA AFF boards. " alt="" coords="9117,102,9265,143"/>
+<area shape="rect" id="node88" href="$sodaq-sara-sff_2include_2board_8h.html" title="Board specific definitions for the SODAQ SARA SFF board. " alt="" coords="9289,102,9437,143"/>
+<area shape="rect" id="node90" href="$usb-kw41z_2include_2board_8h.html" title="Board specific definitions for the USB&#45;KW41Z. " alt="" coords="9462,102,9635,143"/>
+<area shape="rect" id="node93" href="$wsn430-v1__3b_2include_2board_8h.html" title="Support for the Senslab WSN430 v1.3b board. " alt="" coords="9659,102,9809,143"/>
+<area shape="rect" id="node94" href="$wsn430-v1__4_2include_2board_8h.html" title="Support for the Senslab WSN430 v1.4 board. " alt="" coords="9833,102,9976,143"/>
+<area shape="rect" id="node95" href="$yunjia-nrf51822_2include_2board_8h.html" title="Board specific definitions for the Yunjia NRF51822 board. " alt="" coords="10000,102,10153,143"/>
+<area shape="rect" id="node3" href="$adafruit-clue_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="5,206,161,247"/>
+<area shape="rect" id="node14" href="$arduino-nano-33-ble_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="1875,199,2014,255"/>
+<area shape="rect" id="node21" href="$calliope-mini_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="2881,206,3037,247"/>
+<area shape="rect" id="node23" href="$common_2particle-mesh_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="3062,206,3254,247"/>
+<area shape="rect" id="node26" href="$esp32-heltec-lora32-v2_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="3293,199,3445,255"/>
+<area shape="rect" id="node28" href="$esp32-mh-et-live-minikit_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="3469,199,3607,255"/>
+<area shape="rect" id="node30" href="$esp32-olimex-evb_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="3631,206,3813,247"/>
+<area shape="rect" id="node32" href="$esp32-ttgo-t-beam_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="3837,206,4029,247"/>
+<area shape="rect" id="node34" href="$esp32-wemos-lolin-d32-pro_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="4053,199,4199,255"/>
+<area shape="rect" id="node36" href="$esp32-wroom-32_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="4224,206,4399,247"/>
+<area shape="rect" id="node38" href="$esp32-wrover-kit_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="4423,206,4597,247"/>
+<area shape="rect" id="node40" href="$esp8266-esp-12x_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="4622,206,4803,247"/>
+<area shape="rect" id="node42" href="$esp8266-olimex-mod_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="4828,206,5013,247"/>
+<area shape="rect" id="node44" href="$esp8266-sparkfun-thing_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5037,206,5225,247"/>
+<area shape="rect" id="node46" href="$feather-nrf52840_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="5249,206,5408,247"/>
+<area shape="rect" id="node48" href="$firefly_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="5432,206,5575,247"/>
+<area shape="rect" id="node49" href="$firefly_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5599,206,5741,247"/>
+<area shape="rect" id="node51" href="$frdm-kw41z_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="5766,206,5945,247"/>
+<area shape="rect" id="node52" href="$frdm-kw41z_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5969,206,6147,247"/>
+<area shape="rect" id="node56" href="$microbit_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="6172,206,6328,247"/>
+<area shape="rect" id="node60" href="$nrf51dk_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="6644,206,6797,247"/>
+<area shape="rect" id="node63" href="$nrf52832-mdk_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="6945,206,7101,247"/>
+<area shape="rect" id="node65" href="$nrf52840-mdk_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="7125,206,7281,247"/>
+<area shape="rect" id="node68" href="$nrf52840dongle_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="7305,206,7461,247"/>
+<area shape="rect" id="node72" href="$remote-pa_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="7486,206,7654,247"/>
+<area shape="rect" id="node73" href="$remote-pa_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="7678,206,7846,247"/>
+<area shape="rect" id="node75" href="$remote-reva_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="7871,206,8024,247"/>
+<area shape="rect" id="node76" href="$remote-reva_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="8048,206,8204,247"/>
+<area shape="rect" id="node78" href="$remote-revb_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC in Revision B. " alt="" coords="8228,206,8381,247"/>
+<area shape="rect" id="node79" href="$remote-revb_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="8405,206,8561,247"/>
+<area shape="rect" id="node81" href="$sodaq-autonomo_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="8585,206,8747,247"/>
+<area shape="rect" id="node83" href="$sodaq-explorer_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="8771,206,8927,247"/>
+<area shape="rect" id="node85" href="$sodaq-one_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="8951,206,9122,247"/>
+<area shape="rect" id="node87" href="$sodaq-sara-aff_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="9147,206,9303,247"/>
+<area shape="rect" id="node89" href="$sodaq-sara-sff_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="9327,206,9483,247"/>
+<area shape="rect" id="node91" href="$usb-kw41z_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="9507,206,9681,247"/>
+<area shape="rect" id="node92" href="$usb-kw41z_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="9705,206,9878,247"/>
+</map>

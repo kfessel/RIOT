@@ -1,0 +1,5 @@
+<map id="boards/nucleo&#45;g474re/include/periph_conf.h" name="boards/nucleo&#45;g474re/include/periph_conf.h">
+<area shape="rect" id="node3" href="$stm32_2include_2g4_2cfg__clock__default_8h.html" title="Configure STM32G4 clock. " alt="" coords="27,95,180,121"/>
+<area shape="rect" id="node4" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C. " alt="" coords="205,95,343,121"/>
+<area shape="rect" id="node6" href="$cfg__timer__tim5_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM5. " alt="" coords="508,95,627,121"/>
+</map>

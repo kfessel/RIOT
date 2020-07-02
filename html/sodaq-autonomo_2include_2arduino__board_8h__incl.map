@@ -1,0 +1,5 @@
+<map id="boards/sodaq&#45;autonomo/include/arduino_board.h" name="boards/sodaq&#45;autonomo/include/arduino_board.h">
+<area shape="rect" id="node2" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="5,95,101,121"/>
+<area shape="rect" id="node6" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="251,95,344,121"/>
+<area shape="rect" id="node8" href="$pwm_8h.html" title="Low&#45;level PWM peripheral driver interface definitions. " alt="" coords="126,95,226,121"/>
+</map>

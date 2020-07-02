@@ -1,0 +1,9 @@
+<map id="cpu/native/include/netdev_tap.h" name="cpu/native/include/netdev_tap.h">
+<area shape="rect" id="node3" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="193,95,288,121"/>
+<area shape="rect" id="node8" href="$net_2ethernet_2hdr_8h.html" title="Ethernet header definitions. " alt="" coords="399,95,523,121"/>
+<area shape="rect" id="node4" href="$errno_8h.html" title="errno.h" alt="" coords="209,169,272,196"/>
+<area shape="rect" id="node5" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="9,169,69,196"/>
+<area shape="rect" id="node7" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="94,169,185,196"/>
+<area shape="rect" id="node9" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="509,169,588,196"/>
+<area shape="rect" id="node10" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="399,169,485,196"/>
+</map>

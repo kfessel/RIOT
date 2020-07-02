@@ -1,0 +1,4 @@
+<map id="boards/nucleo&#45;l496zg/include/periph_conf.h" name="boards/nucleo&#45;l496zg/include/periph_conf.h">
+<area shape="rect" id="node3" href="$cfg__clock__80__1_8h.html" title="Configure STM32L4 clock using 80MHz core clock and LSE (32.768kHz) " alt="" coords="23,95,162,121"/>
+<area shape="rect" id="node4" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C. " alt="" coords="186,95,324,121"/>
+</map>

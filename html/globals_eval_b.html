@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Globals</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.powertip.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="doxy-jquery.js"></script>
+    <script src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <!-- Bootstrap -->
+    <link href="doxygen.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="riot.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div id="top">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" id="brand-logo" href="http://riot-os.org"><img height="40px" src="riot-logo.svg" /></a>
+              <p class="navbar-text text-center visible-xs">Documentation</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
+              <ul id="riot-navlist" class="nav navbar-nav"></ul>
+              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
+              <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
+                    onsubmit="try{
+                        var rhtml=document.getElementById('MSearchResults').contentWindow.document.body.innerHTML;
+                        document.getElementById('MSearchResultsWindow').style.display='none';
+                        document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
+                        document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
+                        document.getElementById('doc-content').innerHTML=rhtml;
+                        }finally{
+                            return false;
+                    }">
+                 <div class="form-group">
+                   <div id="MSearchBox" class="MSearchBoxActive">
+                     <div class="input-group">
+                       <div class="input-group-addon">
+                         <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
+                       </div>
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
+                              r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                       <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
+                         <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+<!-- Generated by Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('globals_eval_b.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+&#160;
+
+<h3><a id="index_b"></a>- b -</h3><ul>
+<li>BH1750FVI_ERR_I2C
+: <a class="el" href="group__drivers__bh1750fvi.html#gga4efaf4e07364d6302f598569aa7e55dca91579767285407bfbfb2f43c8f11760e">bh1750fvi.h</a>
+</li>
+<li>BH1750FVI_OK
+: <a class="el" href="group__drivers__bh1750fvi.html#gga4efaf4e07364d6302f598569aa7e55dca6a7eb967db7afedb8b3f4dad6b255185">bh1750fvi.h</a>
+</li>
+<li>BH1900NUX_ERR_I2C
+: <a class="el" href="group__drivers__bh1900nux.html#gga34df7cc7f69a8ec535eec8a524dcbaf9a3e12add08b9e75dfa4a27e73003ad746">bh1900nux.h</a>
+</li>
+<li>BH1900NUX_OK
+: <a class="el" href="group__drivers__bh1900nux.html#gga34df7cc7f69a8ec535eec8a524dcbaf9a10e3484cdbc0a726526eff3f31e3ae02">bh1900nux.h</a>
+</li>
+<li>BIN
+: <a class="el" href="serialport_8hpp.html#a0b7d38b35e62513d1ad5b1529a788b52a3dba92f17ebb0d7efe6056d51e9acdc7">serialport.hpp</a>
+</li>
+<li>BLOCKING
+: <a class="el" href="group__core__mbox.html#ggadf764cbdea00d65edcd07bb9953ad2b7a854a1cd6e3a98db9e290dddea29725e7">mbox.h</a>
+</li>
+<li>BLUETIL_AD_NOMEM
+: <a class="el" href="group__ble__bluetil__ad.html#gga25f1c885c7f5230ea4c9bc48dde88fe1a426da11bdd4a2cd79c9e15df1e9615dd">ad.h</a>
+</li>
+<li>BLUETIL_AD_NOTFOUND
+: <a class="el" href="group__ble__bluetil__ad.html#gga25f1c885c7f5230ea4c9bc48dde88fe1a0764004598997dc053f9b19cd9a8288e">ad.h</a>
+</li>
+<li>BLUETIL_AD_OK
+: <a class="el" href="group__ble__bluetil__ad.html#gga25f1c885c7f5230ea4c9bc48dde88fe1aba5b00c28d9aca747817bc7553678c0f">ad.h</a>
+</li>
+<li>BME680_COM_FAILED
+: <a class="el" href="group__drivers__bme680.html#gga81929fb3d21206b62f55bcb744f71d5da3794e85730746dab9afcad6ee9d6d63a">bme680.h</a>
+</li>
+<li>BME680_INVALID
+: <a class="el" href="group__drivers__bme680.html#gga81929fb3d21206b62f55bcb744f71d5dac9e47b7dd656b02ed94f337c8827f850">bme680.h</a>
+</li>
+<li>BME680_NO_DEV
+: <a class="el" href="group__drivers__bme680.html#gga81929fb3d21206b62f55bcb744f71d5dacdd611e7ad7ba603857c81adc81eb696">bme680.h</a>
+</li>
+<li>BME680_NO_NEW_DATA
+: <a class="el" href="group__drivers__bme680.html#gga81929fb3d21206b62f55bcb744f71d5da0999a9d79eb6908503ca3609c931e250">bme680.h</a>
+</li>
+<li>BME680_NULL_PTR
+: <a class="el" href="group__drivers__bme680.html#gga81929fb3d21206b62f55bcb744f71d5dab9c9639d48348a5a40a6583b54fadfa4">bme680.h</a>
+</li>
+<li>BMP180_ERR_NOCAL
+: <a class="el" href="group__drivers__bmp180.html#gga7ada2556f3c386db5f31969fb6d4d002a37c19b31b44c62a7227b6e99db7aecba">bmp180.h</a>
+</li>
+<li>BMP180_ERR_NODEV
+: <a class="el" href="group__drivers__bmp180.html#gga7ada2556f3c386db5f31969fb6d4d002a4fdf10b641caf83d04184dac0108b4e6">bmp180.h</a>
+</li>
+<li>BMP180_OK
+: <a class="el" href="group__drivers__bmp180.html#gga7ada2556f3c386db5f31969fb6d4d002a14982eda73a5aaa35baade00f3feea41">bmp180.h</a>
+</li>
+<li>BMX055_ACC_RANGE_16G
+: <a class="el" href="group__drivers__bmx055.html#gga411daa33422a4d555cf28c1969d67ad2afbbe9f445981352da95a13ae5e76002b">bmx055.h</a>
+</li>
+<li>BMX055_ACC_RANGE_2G
+: <a class="el" href="group__drivers__bmx055.html#gga411daa33422a4d555cf28c1969d67ad2ab94f1ce9c99bdc10fd47715f1ea50251">bmx055.h</a>
+</li>
+<li>BMX055_ACC_RANGE_4G
+: <a class="el" href="group__drivers__bmx055.html#gga411daa33422a4d555cf28c1969d67ad2a9ea1c67553af37aa4ced980d1cc60d16">bmx055.h</a>
+</li>
+<li>BMX055_ACC_RANGE_8G
+: <a class="el" href="group__drivers__bmx055.html#gga411daa33422a4d555cf28c1969d67ad2ae54256df2e64f7845cfedef5b20e0842">bmx055.h</a>
+</li>
+<li>BMX055_GYRO_SCALE_0125DPS
+: <a class="el" href="group__drivers__bmx055.html#gga13216a6a0deff8e2be640c8af9489ad4a490a0a514849fc9ef1c0294fc8158e50">bmx055.h</a>
+</li>
+<li>BMX055_GYRO_SCALE_0250DPS
+: <a class="el" href="group__drivers__bmx055.html#gga13216a6a0deff8e2be640c8af9489ad4a6a28947b86e8fdc15b464fa4c61f56d4">bmx055.h</a>
+</li>
+<li>BMX055_GYRO_SCALE_0500DPS
+: <a class="el" href="group__drivers__bmx055.html#gga13216a6a0deff8e2be640c8af9489ad4acc48232a700180b5903bb947ee0c7ec3">bmx055.h</a>
+</li>
+<li>BMX055_GYRO_SCALE_1000DPS
+: <a class="el" href="group__drivers__bmx055.html#gga13216a6a0deff8e2be640c8af9489ad4ab0799ccbe40cc7b0812a880577c8d954">bmx055.h</a>
+</li>
+<li>BMX055_GYRO_SCALE_2000DPS
+: <a class="el" href="group__drivers__bmx055.html#gga13216a6a0deff8e2be640c8af9489ad4adab670dd73e538784489b16d512d8630">bmx055.h</a>
+</li>
+<li>BMX055_MAG_DRATE_02HZ
+: <a class="el" href="group__drivers__bmx055.html#gga77a5b0018b451dc09ff04d0ee658bdc0a52852eabccdb955eaed7fa37202dce8d">bmx055.h</a>
+</li>
+<li>BMX055_MAG_DRATE_06HZ
+: <a class="el" href="group__drivers__bmx055.html#gga77a5b0018b451dc09ff04d0ee658bdc0ac1a2f23e437f31eb4418186a1b93a5a2">bmx055.h</a>
+</li>
+<li>BMX055_MAG_DRATE_08HZ
+: <a class="el" href="group__drivers__bmx055.html#gga77a5b0018b451dc09ff04d0ee658bdc0ac573e5dc9fe0be8c1090f18c05470d4d">bmx055.h</a>
+</li>
+<li>BMX055_MAG_DRATE_15HZ
+: <a class="el" href="group__drivers__bmx055.html#gga77a5b0018b451dc09ff04d0ee658bdc0a34f69736b040773d71480d7268bcb316">bmx055.h</a>
+</li>
+<li>BMX055_MAG_DRATE_20HZ
+: <a class="el" href="group__drivers__bmx055.html#gga77a5b0018b451dc09ff04d0ee658bdc0aeba84d09c61ccab3ad321012cfea90c9">bmx055.h</a>
+</li>
+<li>BMX055_MAG_DRATE_25HZ
+: <a class="el" href="group__drivers__bmx055.html#gga77a5b0018b451dc09ff04d0ee658bdc0a26b1eb233689b8c00893ce37907c3ba7">bmx055.h</a>
+</li>
+<li>BMX055_MAG_DRATE_30HZ
+: <a class="el" href="group__drivers__bmx055.html#gga77a5b0018b451dc09ff04d0ee658bdc0a2129ff2993d764667cf7a6636a643ef4">bmx055.h</a>
+</li>
+<li>BMX055_MAG_DRATE_DEFAULT
+: <a class="el" href="group__drivers__bmx055.html#gga77a5b0018b451dc09ff04d0ee658bdc0a521d12bb071b96a2cc7057d2e8a2d670">bmx055.h</a>
+</li>
+<li>BMX055_NOBUS
+: <a class="el" href="group__drivers__bmx055.html#gga25e50be5c73e0b2fab54944e68dd48c2a673c9f10abf4c506e05026c52fa3c5b9">bmx055.h</a>
+</li>
+<li>BMX055_NODEV
+: <a class="el" href="group__drivers__bmx055.html#gga25e50be5c73e0b2fab54944e68dd48c2aec33b6e9597c52de9390127feeb6bd77">bmx055.h</a>
+</li>
+<li>BMX055_NOREAD
+: <a class="el" href="group__drivers__bmx055.html#gga25e50be5c73e0b2fab54944e68dd48c2ad5cab95d709dc7ef22fd463e89be1819">bmx055.h</a>
+</li>
+<li>BMX055_NOTREADY
+: <a class="el" href="group__drivers__bmx055.html#gga25e50be5c73e0b2fab54944e68dd48c2a9cccf875d329cbd70765a801df7c8bd8">bmx055.h</a>
+</li>
+<li>BMX055_NOWRITE
+: <a class="el" href="group__drivers__bmx055.html#gga25e50be5c73e0b2fab54944e68dd48c2a610951e7e22be5a55c50f298bf3962b2">bmx055.h</a>
+</li>
+<li>BMX055_OK
+: <a class="el" href="group__drivers__bmx055.html#gga25e50be5c73e0b2fab54944e68dd48c2a8aa6f9a60719d4bc4c1be030bde595f9">bmx055.h</a>
+</li>
+<li>BMX280_ERR_BUS
+: <a class="el" href="group__drivers__bmx280.html#gga97f905ac94bfebd46e50e32c7389e6eba3c258113e69309dc4e345ebfa03cd2ee">bmx280.h</a>
+</li>
+<li>BMX280_ERR_NODEV
+: <a class="el" href="group__drivers__bmx280.html#gga97f905ac94bfebd46e50e32c7389e6eba3c2ff1851fa1744f9ac3e7d7a5048974">bmx280.h</a>
+</li>
+<li>BMX280_OK
+: <a class="el" href="group__drivers__bmx280.html#gga97f905ac94bfebd46e50e32c7389e6ebad656ef45890e366ab0b62e82c8d8492e">bmx280.h</a>
+</li>
+<li>BOARD_NRFANTENNA_BUILTIN
+: <a class="el" href="common_2particle-mesh_2include_2board_8h.html#a57bf63dee096cf6baa4c8c0952ad8c47af7aee87625e515b33b45c69d2aa094be">board.h</a>
+</li>
+<li>BOARD_NRFANTENNA_EXTERNAL
+: <a class="el" href="common_2particle-mesh_2include_2board_8h.html#a57bf63dee096cf6baa4c8c0952ad8c47ab63a3dd77ae912934e57b920f59b4b38">board.h</a>
+</li>
+<li>BusFault_IRQn
+: <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a8693500eff174f16119e96234fee73af">cc26xx_cc13xx.h</a>
+, <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a8693500eff174f16119e96234fee73af">cc2538.h</a>
+</li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+    <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+        <ul>
+            <li class="footer">Generated on Wed Jul 1 2020 17:09:02 by <a href="http://www.doxygen.org/index.html">
+                       <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
+        </ul>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.smartmenus.min.js"></script>
+    <script src="jquery.smartmenus.bootstrap.min.js"></script>
+    <script src="riot-doxy.js"></script>
+  </body>
+</html>

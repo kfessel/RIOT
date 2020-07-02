@@ -1,0 +1,13 @@
+<map id="drivers/include/slipdev.h" name="drivers/include/slipdev.h">
+<area shape="rect" id="node3" href="$cib_8h.html" title="Circular integer buffer interface. " alt="" coords="442,80,493,107"/>
+<area shape="rect" id="node8" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="175,80,269,107"/>
+<area shape="rect" id="node13" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition. " alt="" coords="655,80,749,107"/>
+<area shape="rect" id="node18" href="$tsrb_8h.html" title="Thread&#45;safe ringbuffer interface definition. " alt="" coords="363,80,417,107"/>
+<area shape="rect" id="node4" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="433,155,502,181"/>
+<area shape="rect" id="node5" href="$panic_8h.html" title="Crash handling header. " alt="" coords="447,229,511,256"/>
+<area shape="rect" id="node6" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="433,304,550,331"/>
+<area shape="rect" id="node9" href="$errno_8h.html" title="errno.h" alt="" coords="5,155,68,181"/>
+<area shape="rect" id="node10" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="92,155,152,181"/>
+<area shape="rect" id="node12" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="177,155,267,181"/>
+<area shape="rect" id="node17" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="526,155,665,181"/>
+</map>

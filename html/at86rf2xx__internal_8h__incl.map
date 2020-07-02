@@ -1,0 +1,20 @@
+<map id="drivers/at86rf2xx/include/at86rf2xx_internal.h" name="drivers/at86rf2xx/include/at86rf2xx_internal.h">
+<area shape="rect" id="node3" href="$at86rf2xx_8h.html" title="Interface definition for AT86RF2xx based drivers. " alt="" coords="957,95,1043,121"/>
+<area shape="rect" id="node6" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="1048,319,1165,345"/>
+<area shape="rect" id="node8" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="219,244,314,271"/>
+<area shape="rect" id="node13" href="$drivers_2include_2net_2netdev_2ieee802154_8h.html" title="Definitions for netdev common IEEE 802.15.4 code. " alt="" coords="665,169,829,196"/>
+<area shape="rect" id="node19" href="$nettype_8h.html" title="Protocol type definitions. " alt="" coords="806,244,933,271"/>
+<area shape="rect" id="node23" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="1234,169,1323,196"/>
+<area shape="rect" id="node27" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="1392,244,1488,271"/>
+<area shape="rect" id="node9" href="$errno_8h.html" title="errno.h" alt="" coords="129,319,191,345"/>
+<area shape="rect" id="node10" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="45,319,105,345"/>
+<area shape="rect" id="node12" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="267,319,357,345"/>
+<area shape="rect" id="node14" href="$sys_2include_2net_2ieee802154_8h.html" title="IEEE 802.15.4 header definitions. " alt="" coords="503,244,625,271"/>
+<area shape="rect" id="node15" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="432,319,496,345"/>
+<area shape="rect" id="node17" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="590,393,677,420"/>
+<area shape="rect" id="node18" href="$eui64_8h.html" title="EUI&#45;64 data type definition. " alt="" coords="521,319,607,345"/>
+<area shape="rect" id="node16" href="$malloc_8h.html" title="malloc.h" alt="" coords="433,393,503,420"/>
+<area shape="rect" id="node20" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="683,319,762,345"/>
+<area shape="rect" id="node21" href="$ethertype_8h.html" title="Ether type definitions. " alt="" coords="787,319,896,345"/>
+<area shape="rect" id="node22" href="$protnum_8h.html" title="Protocol number definitions. " alt="" coords="921,319,1023,345"/>
+</map>

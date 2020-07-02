@@ -1,0 +1,5 @@
+<map id="boards/nucleo&#45;f401re/include/periph_conf.h" name="boards/nucleo&#45;f401re/include/periph_conf.h">
+<area shape="rect" id="node3" href="$cfg__clock__84__8__1_8h.html" title="Configure STM32F4 clock to 84MHz using PLL. " alt="" coords="27,95,180,121"/>
+<area shape="rect" id="node4" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C. " alt="" coords="205,95,344,121"/>
+<area shape="rect" id="node5" href="$cfg__timer__tim5_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM5. " alt="" coords="368,95,487,121"/>
+</map>

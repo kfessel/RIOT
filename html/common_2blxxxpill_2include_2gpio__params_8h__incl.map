@@ -1,0 +1,5 @@
+<map id="boards/common/blxxxpill/include/gpio_params.h" name="boards/common/blxxxpill/include/gpio_params.h">
+<area shape="rect" id="node3" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="152,95,248,121"/>
+<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,169,189,196"/>
+<area shape="rect" id="node8" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="213,169,307,196"/>
+</map>

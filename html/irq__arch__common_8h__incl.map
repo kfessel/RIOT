@@ -1,0 +1,10 @@
+<map id="cpu/esp_common/include/irq_arch_common.h" name="cpu/esp_common/include/irq_arch_common.h">
+<area shape="rect" id="node2" href="$irq_8h.html" title="IRQ driver interface. " alt="" coords="131,95,177,121"/>
+<area shape="rect" id="node5" href="$sched_8h.html" title="Scheduler API definition. " alt="" coords="419,95,487,121"/>
+<area shape="rect" id="node7" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="346,169,463,196"/>
+<area shape="rect" id="node8" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="215,169,322,196"/>
+<area shape="rect" id="node13" href="$native__sched_8h.html" title="Add definitions required on the native board. " alt="" coords="539,169,649,196"/>
+<area shape="rect" id="node14" href="$clist_8h.html" title="Circular linked list. " alt="" coords="673,169,731,196"/>
+<area shape="rect" id="node10" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="140,244,219,271"/>
+<area shape="rect" id="node15" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="677,244,727,271"/>
+</map>

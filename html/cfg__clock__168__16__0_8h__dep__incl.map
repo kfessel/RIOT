@@ -1,0 +1,7 @@
+<map id="boards/common/stm32/include/f4/cfg_clock_168_16_0.h" name="boards/common/stm32/include/f4/cfg_clock_168_16_0.h">
+<area shape="rect" id="node2" href="$boards_2f4vi1_2include_2periph__conf_8h.html" title="boards/f4vi1/include\l/periph_conf.h" alt="" coords="5,109,144,151"/>
+<area shape="rect" id="node4" href="$boards_2msbiot_2include_2periph__conf_8h.html" title="boards/msbiot/include\l/periph_conf.h" alt="" coords="168,109,317,151"/>
+<area shape="rect" id="node3" href="$f4vi1_2include_2board_8h.html" title="Board specific definitions for the f4vi1 board. " alt="" coords="5,199,144,240"/>
+<area shape="rect" id="node5" href="$msbiot_2include_2board_8h.html" title="Board specific definitions for the MSB&#45;IoT board. " alt="" coords="168,199,317,240"/>
+<area shape="rect" id="node6" href="$msbiot_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="168,288,317,329"/>
+</map>

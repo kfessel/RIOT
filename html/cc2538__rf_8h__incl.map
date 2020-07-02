@@ -1,0 +1,17 @@
+<map id="cpu/cc2538/include/cc2538_rf.h" name="cpu/cc2538/include/cc2538_rf.h">
+<area shape="rect" id="node3" href="$sys_2include_2net_2ieee802154_8h.html" title="IEEE 802.15.4 header definitions. " alt="" coords="200,169,321,196"/>
+<area shape="rect" id="node9" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="364,169,459,196"/>
+<area shape="rect" id="node14" href="$drivers_2include_2net_2netdev_2ieee802154_8h.html" title="Definitions for netdev common IEEE 802.15.4 code. " alt="" coords="399,95,563,121"/>
+<area shape="rect" id="node5" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="9,244,73,271"/>
+<area shape="rect" id="node7" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="152,319,239,345"/>
+<area shape="rect" id="node8" href="$eui64_8h.html" title="EUI&#45;64 data type definition. " alt="" coords="101,244,188,271"/>
+<area shape="rect" id="node6" href="$malloc_8h.html" title="malloc.h" alt="" coords="5,319,76,345"/>
+<area shape="rect" id="node10" href="$errno_8h.html" title="errno.h" alt="" coords="365,244,428,271"/>
+<area shape="rect" id="node11" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="452,244,512,271"/>
+<area shape="rect" id="node13" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="537,244,627,271"/>
+<area shape="rect" id="node15" href="$nettype_8h.html" title="Protocol type definitions. " alt="" coords="751,169,877,196"/>
+<area shape="rect" id="node16" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="652,244,731,271"/>
+<area shape="rect" id="node17" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="755,244,873,271"/>
+<area shape="rect" id="node19" href="$ethertype_8h.html" title="Ether type definitions. " alt="" coords="897,244,1006,271"/>
+<area shape="rect" id="node20" href="$protnum_8h.html" title="Protocol number definitions. " alt="" coords="1031,244,1133,271"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="drivers/mhz19/include/mhz19_params.h" name="drivers/mhz19/include/mhz19_params.h">
+<area shape="rect" id="node3" href="$mhz19_8h.html" title="Interface definition for the MH&#45;Z19 CO2 sensor driver. " alt="" coords="95,95,167,121"/>
+<area shape="rect" id="node11" href="$saul__reg_8h.html" title="SAUL registry interface definition. " alt="" coords="191,95,274,121"/>
+<area shape="rect" id="node5" href="$saul_8h.html" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer. " alt="" coords="137,169,195,196"/>
+<area shape="rect" id="node7" href="$errno_8h.html" title="errno.h" alt="" coords="81,244,144,271"/>
+<area shape="rect" id="node8" href="$phydat_8h.html" title="Generic data container for physical data interface. " alt="" coords="270,244,342,271"/>
+<area shape="rect" id="node10" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="247,319,365,345"/>
+</map>

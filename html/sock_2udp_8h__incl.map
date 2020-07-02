@@ -1,0 +1,8 @@
+<map id="sys/include/net/sock/udp.h" name="sys/include/net/sock/udp.h">
+<area shape="rect" id="node2" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="31,95,100,121"/>
+<area shape="rect" id="node7" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="124,95,188,121"/>
+<area shape="rect" id="node10" href="$sock_8h.html" title="Common sock API definitions. " alt="" coords="377,95,460,121"/>
+<area shape="rect" id="node3" href="$panic_8h.html" title="Crash handling header. " alt="" coords="32,169,96,196"/>
+<area shape="rect" id="node4" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="5,244,123,271"/>
+<area shape="rect" id="node8" href="$malloc_8h.html" title="malloc.h" alt="" coords="121,169,191,196"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="boards/6lowpan&#45;clicker/include/gpio_params.h" name="boards/6lowpan&#45;clicker/include/gpio_params.h">
+<area shape="rect" id="node2" href="$6lowpan-clicker_2include_2board_8h.html" title="board configuration for the MikroE 6LoWPAN Clicker " alt="" coords="88,95,153,121"/>
+<area shape="rect" id="node6" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="195,95,291,121"/>
+<area shape="rect" id="node4" href="$boards_26lowpan-clicker_2include_2periph__conf_8h.html" title="peripheral configuration for the MikroE 6LoWPAN Clicker " alt="" coords="71,169,171,196"/>
+<area shape="rect" id="node7" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="195,169,291,196"/>
+<area shape="rect" id="node10" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="315,169,409,196"/>
+</map>

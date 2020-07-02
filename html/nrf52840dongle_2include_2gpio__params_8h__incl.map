@@ -1,0 +1,6 @@
+<map id="boards/nrf52840dongle/include/gpio_params.h" name="boards/nrf52840dongle/include/gpio_params.h">
+<area shape="rect" id="node2" href="$nrf52840dongle_2include_2board_8h.html" title="Board specific configuration for the nRF52840&#45;Dongle. " alt="" coords="128,95,193,121"/>
+<area shape="rect" id="node9" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="231,95,327,121"/>
+<area shape="rect" id="node5" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="231,169,327,196"/>
+<area shape="rect" id="node10" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="351,169,445,196"/>
+</map>

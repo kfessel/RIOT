@@ -1,0 +1,7 @@
+<map id="sys/include/ztimer/convert_shift.h" name="sys/include/ztimer/convert_shift.h">
+<area shape="rect" id="node3" href="$ztimer_8h.html" title="ztimer API " alt="" coords="167,169,236,196"/>
+<area shape="rect" id="node11" href="$convert_8h.html" title="ztimer frequency conversion base module " alt="" coords="47,95,163,121"/>
+<area shape="rect" id="node4" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="243,319,349,345"/>
+<area shape="rect" id="node9" href="$msg_8h.html" title="Messaging API for inter process communication. " alt="" coords="173,244,232,271"/>
+<area shape="rect" id="node5" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="454,393,533,420"/>
+</map>

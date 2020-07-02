@@ -1,0 +1,7 @@
+<map id="boards/common/sodaq/include/cfg_rtc_default.h" name="boards/common/sodaq/include/cfg_rtc_default.h">
+<area shape="rect" id="node2" href="$boards_2sodaq-autonomo_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ Autonomo board. " alt="" coords="5,95,167,136"/>
+<area shape="rect" id="node3" href="$boards_2sodaq-explorer_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Sodaq LoRaWAN Explorer board. " alt="" coords="191,95,341,136"/>
+<area shape="rect" id="node4" href="$boards_2sodaq-one_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ ONE board. " alt="" coords="366,95,537,136"/>
+<area shape="rect" id="node5" href="$boards_2sodaq-sara-aff_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ SARA AFF boards. " alt="" coords="561,95,710,136"/>
+<area shape="rect" id="node6" href="$boards_2sodaq-sara-sff_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ SARA SFF board. " alt="" coords="734,95,883,136"/>
+</map>

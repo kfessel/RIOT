@@ -1,0 +1,10 @@
+<map id="cpu/sam0_common/include/sam_usb.h" name="cpu/sam0_common/include/sam_usb.h">
+<area shape="rect" id="node3" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="36,95,100,121"/>
+<area shape="rect" id="node6" href="$usbdev_8h.html" title="Definitions low&#45;level USB driver interface. " alt="" coords="251,95,365,121"/>
+<area shape="rect" id="node4" href="$malloc_8h.html" title="malloc.h" alt="" coords="33,169,103,196"/>
+<area shape="rect" id="node8" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="352,169,421,196"/>
+<area shape="rect" id="node11" href="$usb_8h.html" title="Definition of global compile time configuration options. " alt="" coords="447,169,502,196"/>
+<area shape="rect" id="node13" href="$usbopt_8h.html" title="Definition of global USB peripheral and USB peripheral endpoint configuration options. " alt="" coords="179,169,277,196"/>
+<area shape="rect" id="node9" href="$panic_8h.html" title="Crash handling header. " alt="" coords="355,244,419,271"/>
+<area shape="rect" id="node10" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="352,319,469,345"/>
+</map>

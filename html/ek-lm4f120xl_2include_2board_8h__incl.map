@@ -1,0 +1,5 @@
+<map id="boards/ek&#45;lm4f120xl/include/board.h" name="boards/ek&#45;lm4f120xl/include/board.h">
+<area shape="rect" id="node3" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition. " alt="" coords="170,95,265,121"/>
+<area shape="rect" id="node10" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions. " alt="" coords="289,95,391,121"/>
+<area shape="rect" id="node9" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="448,169,587,196"/>
+</map>

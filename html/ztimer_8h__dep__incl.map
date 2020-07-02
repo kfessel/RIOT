@@ -1,0 +1,13 @@
+<map id="sys/include/ztimer.h" name="sys/include/ztimer.h">
+<area shape="rect" id="node2" href="$sys_2include_2ztimer_2config_8h.html" title="ztimer default configuration " alt="" coords="5,80,133,121"/>
+<area shape="rect" id="node3" href="$convert_8h.html" title="ztimer frequency conversion base module " alt="" coords="259,80,387,121"/>
+<area shape="rect" id="node4" href="$convert__frac_8h.html" title="ztimer_convert_frac interface definitions " alt="" coords="49,169,177,211"/>
+<area shape="rect" id="node5" href="$convert__muldiv64_8h.html" title="ztimer frequency conversion module API " alt="" coords="225,169,364,211"/>
+<area shape="rect" id="node6" href="$convert__shift_8h.html" title="ztimer_convert_shift interface definitions " alt="" coords="388,169,516,211"/>
+<area shape="rect" id="node7" href="$mock_8h.html" title="ztimer mock clock backend API " alt="" coords="461,80,589,121"/>
+<area shape="rect" id="node8" href="$overhead_8h.html" title="ztimer_overhead API " alt="" coords="613,80,741,121"/>
+<area shape="rect" id="node9" href="$periph__rtc_8h.html" title="ztimer rtc/timer backend API " alt="" coords="765,80,893,121"/>
+<area shape="rect" id="node10" href="$periph__rtt_8h.html" title="ztimer periph/rtt backend API " alt="" coords="917,80,1045,121"/>
+<area shape="rect" id="node11" href="$periph__timer_8h.html" title="ztimer periph/timer backend API " alt="" coords="1069,80,1197,121"/>
+<area shape="rect" id="node12" href="$xtimer__compat_8h.html" title="ztimer xtimer wrapper interface " alt="" coords="1221,80,1349,121"/>
+</map>

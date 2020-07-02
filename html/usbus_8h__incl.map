@@ -1,0 +1,16 @@
+<map id="sys/include/usb/usbus.h" name="sys/include/usb/usbus.h">
+<area shape="rect" id="node3" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="918,80,982,107"/>
+<area shape="rect" id="node5" href="$clist_8h.html" title="Circular linked list. " alt="" coords="836,80,894,107"/>
+<area shape="rect" id="node9" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="20,155,126,181"/>
+<area shape="rect" id="node13" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="625,304,742,331"/>
+<area shape="rect" id="node14" href="$msg_8h.html" title="Messaging API for inter process communication. " alt="" coords="132,80,190,107"/>
+<area shape="rect" id="node17" href="$usb_8h.html" title="Definition of global compile time configuration options. " alt="" coords="770,155,824,181"/>
+<area shape="rect" id="node19" href="$usbdev_8h.html" title="Definitions low&#45;level USB driver interface. " alt="" coords="556,80,670,107"/>
+<area shape="rect" id="node23" href="$descriptor_8h.html" title="Definitions for USB protocol messages. " alt="" coords="214,80,329,107"/>
+<area shape="rect" id="node4" href="$malloc_8h.html" title="malloc.h" alt="" coords="975,155,1046,181"/>
+<area shape="rect" id="node7" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="849,155,900,181"/>
+<area shape="rect" id="node10" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="24,229,103,256"/>
+<area shape="rect" id="node20" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="625,155,694,181"/>
+<area shape="rect" id="node22" href="$usbopt_8h.html" title="Definition of global USB peripheral and USB peripheral endpoint configuration options. " alt="" coords="402,155,499,181"/>
+<area shape="rect" id="node21" href="$panic_8h.html" title="Crash handling header. " alt="" coords="629,229,693,256"/>
+</map>

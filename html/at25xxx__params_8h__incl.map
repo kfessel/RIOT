@@ -1,0 +1,5 @@
+<map id="drivers/at25xxx/include/at25xxx_params.h" name="drivers/at25xxx/include/at25xxx_params.h">
+<area shape="rect" id="node3" href="$at25xxx_8h.html" title="Driver for the AT25xxx series of EEPROMs. " alt="" coords="148,95,227,121"/>
+<area shape="rect" id="node6" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="215,169,304,196"/>
+<area shape="rect" id="node11" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="389,244,485,271"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="boards/nrf6310/include/periph_conf.h" name="boards/nrf6310/include/periph_conf.h">
+<area shape="rect" id="node3" href="$cfg__clock__16__1_8h.html" title="Common clock configuration for some nrf51 based boards. " alt="" coords="22,95,146,121"/>
+<area shape="rect" id="node4" href="$cfg__timer__012_8h.html" title="Shared timer peripheral configuration mapping timers 0, 1, and 2. " alt="" coords="171,95,285,121"/>
+</map>

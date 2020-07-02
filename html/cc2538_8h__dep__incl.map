@@ -1,0 +1,12 @@
+<map id="cpu/cc2538/include/cc2538.h" name="cpu/cc2538/include/cc2538.h">
+<area shape="rect" id="node2" href="$cc2538__gpio_8h.html" title="Driver for the cc2538 GPIO controller. " alt="" coords="979,95,1114,136"/>
+<area shape="rect" id="node3" href="$cc2538_2include_2cpu__conf_8h.html" title="Implementation specific CPU configuration options. " alt="" coords="424,184,559,225"/>
+<area shape="rect" id="node6" href="$cc2538__gptimer_8h.html" title="CC2538 General Purpose Timer (GPTIMER) driver. " alt="" coords="27,95,162,136"/>
+<area shape="rect" id="node7" href="$cc2538__rfcore_8h.html" title="CC2538 RF core interface. " alt="" coords="186,95,320,136"/>
+<area shape="rect" id="node8" href="$cc2538__soc__adc_8h.html" title="CC2538 SOC ADC interface. " alt="" coords="344,95,479,136"/>
+<area shape="rect" id="node9" href="$cc2538__ssi_8h.html" title="CC2538 SSI interface. " alt="" coords="503,95,638,136"/>
+<area shape="rect" id="node10" href="$cc2538__sys__ctrl_8h.html" title="CC2538 System Control interface. " alt="" coords="662,95,796,136"/>
+<area shape="rect" id="node11" href="$cc2538__uart_8h.html" title="CC2538 UART interface. " alt="" coords="820,95,955,136"/>
+<area shape="rect" id="node4" href="$boards_2openmote-b_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the OpenMote&#45;B board. " alt="" coords="858,184,1037,225"/>
+<area shape="rect" id="node5" href="$boards_2openmote-cc2538_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the OpenMote&#45;cc2538 board. " alt="" coords="1061,184,1229,225"/>
+</map>

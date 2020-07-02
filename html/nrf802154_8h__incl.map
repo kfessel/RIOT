@@ -1,0 +1,17 @@
+<map id="cpu/nrf52/include/nrf802154.h" name="cpu/nrf52/include/nrf802154.h">
+<area shape="rect" id="node2" href="$drivers_2include_2net_2netdev_2ieee802154_8h.html" title="Definitions for netdev common IEEE 802.15.4 code. " alt="" coords="630,80,794,107"/>
+<area shape="rect" id="node3" href="$sys_2include_2net_2ieee802154_8h.html" title="IEEE 802.15.4 header definitions. " alt="" coords="80,155,201,181"/>
+<area shape="rect" id="node9" href="$nettype_8h.html" title="Protocol type definitions. " alt="" coords="525,155,652,181"/>
+<area shape="rect" id="node15" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="795,229,886,256"/>
+<area shape="rect" id="node16" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="876,155,970,181"/>
+<area shape="rect" id="node5" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="39,229,103,256"/>
+<area shape="rect" id="node7" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="130,304,217,331"/>
+<area shape="rect" id="node8" href="$eui64_8h.html" title="EUI&#45;64 data type definition. " alt="" coords="178,229,265,256"/>
+<area shape="rect" id="node6" href="$malloc_8h.html" title="malloc.h" alt="" coords="36,304,106,331"/>
+<area shape="rect" id="node10" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="289,229,368,256"/>
+<area shape="rect" id="node11" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="392,229,510,256"/>
+<area shape="rect" id="node13" href="$ethertype_8h.html" title="Ether type definitions. " alt="" coords="534,229,643,256"/>
+<area shape="rect" id="node14" href="$protnum_8h.html" title="Protocol number definitions. " alt="" coords="668,229,770,256"/>
+<area shape="rect" id="node17" href="$errno_8h.html" title="errno.h" alt="" coords="961,229,1024,256"/>
+<area shape="rect" id="node18" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="1048,229,1108,256"/>
+</map>

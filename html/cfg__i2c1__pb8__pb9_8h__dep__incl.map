@@ -1,0 +1,24 @@
+<map id="boards/common/stm32/include/cfg_i2c1_pb8_pb9.h" name="boards/common/stm32/include/cfg_i2c1_pb8_pb9.h">
+<area shape="rect" id="node2" href="$boards_2b-l072z-lrwan1_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the ST B&#45;L072Z&#45;LRWAN1 board. " alt="" coords="5,95,155,136"/>
+<area shape="rect" id="node3" href="$boards_2nucleo-f070rb_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f070rb board. " alt="" coords="179,95,328,136"/>
+<area shape="rect" id="node4" href="$boards_2nucleo-f072rb_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f072rb board. " alt="" coords="352,95,501,136"/>
+<area shape="rect" id="node5" href="$boards_2nucleo-f091rc_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f091rc board. " alt="" coords="525,95,675,136"/>
+<area shape="rect" id="node6" href="$boards_2nucleo-f207zg_2include_2periph__conf_8h.html" title="boards/nucleo&#45;f207zg\l/include/periph_conf.h" alt="" coords="699,95,848,136"/>
+<area shape="rect" id="node7" href="$boards_2nucleo-f401re_2include_2periph__conf_8h.html" title="boards/nucleo&#45;f401re\l/include/periph_conf.h" alt="" coords="872,95,1021,136"/>
+<area shape="rect" id="node8" href="$boards_2nucleo-f410rb_2include_2periph__conf_8h.html" title="boards/nucleo&#45;f410rb\l/include/periph_conf.h" alt="" coords="1045,95,1195,136"/>
+<area shape="rect" id="node9" href="$boards_2nucleo-f411re_2include_2periph__conf_8h.html" title="boards/nucleo&#45;f411re\l/include/periph_conf.h" alt="" coords="1219,95,1368,136"/>
+<area shape="rect" id="node10" href="$boards_2nucleo-f412zg_2include_2periph__conf_8h.html" title="boards/nucleo&#45;f412zg\l/include/periph_conf.h" alt="" coords="1392,95,1541,136"/>
+<area shape="rect" id="node11" href="$boards_2nucleo-f413zh_2include_2periph__conf_8h.html" title="boards/nucleo&#45;f413zh\l/include/periph_conf.h" alt="" coords="1565,95,1715,136"/>
+<area shape="rect" id="node12" href="$boards_2nucleo-f429zi_2include_2periph__conf_8h.html" title="boards/nucleo&#45;f429zi\l/include/periph_conf.h" alt="" coords="1739,95,1888,136"/>
+<area shape="rect" id="node13" href="$boards_2nucleo-f446re_2include_2periph__conf_8h.html" title="boards/nucleo&#45;f446re\l/include/periph_conf.h" alt="" coords="1912,95,2061,136"/>
+<area shape="rect" id="node14" href="$boards_2nucleo-f446ze_2include_2periph__conf_8h.html" title="boards/nucleo&#45;f446ze\l/include/periph_conf.h" alt="" coords="2085,95,2235,136"/>
+<area shape="rect" id="node15" href="$boards_2nucleo-f722ze_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f722ze board. " alt="" coords="2259,95,2408,136"/>
+<area shape="rect" id="node16" href="$boards_2nucleo-f746zg_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f746zg board. " alt="" coords="2432,95,2581,136"/>
+<area shape="rect" id="node17" href="$boards_2nucleo-f767zi_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f767zi board. " alt="" coords="2605,95,2755,136"/>
+<area shape="rect" id="node18" href="$boards_2nucleo-g474re_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;g474re board. " alt="" coords="2779,95,2928,136"/>
+<area shape="rect" id="node19" href="$boards_2nucleo-l476rg_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l476rg board. " alt="" coords="2952,95,3101,136"/>
+<area shape="rect" id="node20" href="$boards_2nucleo-l496zg_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo144&#45;l496 board. " alt="" coords="3125,95,3275,136"/>
+<area shape="rect" id="node21" href="$boards_2nucleo-l4r5zi_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l4r5zi board. " alt="" coords="3299,95,3448,136"/>
+<area shape="rect" id="node22" href="$boards_2p-nucleo-wb55_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the p&#45;nucleo&#45;wb55 board. " alt="" coords="3472,95,3621,136"/>
+<area shape="rect" id="node23" href="$boards_2weact-f411ce_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the WeAct&#45;F411CE Board. " alt="" coords="3645,95,3795,136"/>
+</map>

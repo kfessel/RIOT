@@ -1,0 +1,8 @@
+<map id="boards/common/stm32/include/l0/cfg_clock_32_16_1.h" name="boards/common/stm32/include/l0/cfg_clock_32_16_1.h">
+<area shape="rect" id="node2" href="$boards_2b-l072z-lrwan1_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the ST B&#45;L072Z&#45;LRWAN1 board. " alt="" coords="5,109,155,151"/>
+<area shape="rect" id="node3" href="$boards_2i-nucleo-lrwan1_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the ST I&#45;NUCLEO&#45;LRWAN1 board. " alt="" coords="179,109,331,151"/>
+<area shape="rect" id="node4" href="$boards_2lsn50_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the LSN50 board. " alt="" coords="355,109,496,151"/>
+<area shape="rect" id="node5" href="$boards_2nucleo-l031k6_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l031k6 board. " alt="" coords="520,109,669,151"/>
+<area shape="rect" id="node6" href="$boards_2nucleo-l053r8_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l053r8 board. " alt="" coords="693,109,843,151"/>
+<area shape="rect" id="node7" href="$boards_2nucleo-l073rz_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l073rz board. " alt="" coords="867,109,1016,151"/>
+</map>

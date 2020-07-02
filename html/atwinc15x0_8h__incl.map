@@ -1,0 +1,14 @@
+<map id="drivers/include/atwinc15x0.h" name="drivers/include/atwinc15x0.h">
+<area shape="rect" id="node3" href="$ethernet_8h.html" title="Definitions for Ethernet. " alt="" coords="227,80,329,107"/>
+<area shape="rect" id="node9" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="449,80,544,107"/>
+<area shape="rect" id="node14" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="705,155,801,181"/>
+<area shape="rect" id="node18" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="815,80,904,107"/>
+<area shape="rect" id="node21" href="$ringbuffer_8h.html" title="A utility for storing and retrieving byte data using a ring buffer. " alt="" coords="928,80,1015,107"/>
+<area shape="rect" id="node5" href="$net_2ethernet_2hdr_8h.html" title="Ethernet header definitions. " alt="" coords="116,155,240,181"/>
+<area shape="rect" id="node8" href="$eui64_8h.html" title="EUI&#45;64 data type definition. " alt="" coords="5,155,92,181"/>
+<area shape="rect" id="node6" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="161,229,240,256"/>
+<area shape="rect" id="node7" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="51,229,137,256"/>
+<area shape="rect" id="node10" href="$errno_8h.html" title="errno.h" alt="" coords="567,155,629,181"/>
+<area shape="rect" id="node11" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="367,155,427,181"/>
+<area shape="rect" id="node13" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="451,155,542,181"/>
+</map>

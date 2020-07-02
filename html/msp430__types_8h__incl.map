@@ -1,0 +1,5 @@
+<map id="cpu/msp430_common/include/msp430_types.h" name="cpu/msp430_common/include/msp430_types.h">
+<area shape="rect" id="node3" href="$errno_8h.html" title="errno.h" alt="" coords="127,95,189,121"/>
+<area shape="rect" id="node4" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="214,95,321,121"/>
+<area shape="rect" id="node6" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="132,169,211,196"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="drivers/include/dynamixel.h" name="drivers/include/dynamixel.h">
+<area shape="rect" id="node2" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="98,155,162,181"/>
+<area shape="rect" id="node5" href="$dynamixel__protocol_8h.html" title="Dynamixel protocol definitions. " alt="" coords="484,155,629,181"/>
+<area shape="rect" id="node7" href="$uart__half__duplex_8h.html" title="Interface definition for half&#45;duplex UART driver. " alt="" coords="169,80,297,107"/>
+<area shape="rect" id="node3" href="$malloc_8h.html" title="malloc.h" alt="" coords="5,229,76,256"/>
+<area shape="rect" id="node8" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition. " alt="" coords="275,155,369,181"/>
+<area shape="rect" id="node13" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="359,229,498,256"/>
+</map>

@@ -1,0 +1,1820 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>cpu/sam0_common/include/periph_cpu_common.h File Reference</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.powertip.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="doxy-jquery.js"></script>
+    <script src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <!-- Bootstrap -->
+    <link href="doxygen.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="riot.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div id="top">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" id="brand-logo" href="http://riot-os.org"><img height="40px" src="riot-logo.svg" /></a>
+              <p class="navbar-text text-center visible-xs">Documentation</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
+              <ul id="riot-navlist" class="nav navbar-nav"></ul>
+              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
+              <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
+                    onsubmit="try{
+                        var rhtml=document.getElementById('MSearchResults').contentWindow.document.body.innerHTML;
+                        document.getElementById('MSearchResultsWindow').style.display='none';
+                        document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
+                        document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
+                        document.getElementById('doc-content').innerHTML=rhtml;
+                        }finally{
+                            return false;
+                    }">
+                 <div class="form-group">
+                   <div id="MSearchBox" class="MSearchBoxActive">
+                     <div class="input-group">
+                       <div class="input-group-addon">
+                         <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
+                       </div>
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
+                              r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                       <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
+                         <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+<!-- Generated by Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('sam0__common_2include_2periph__cpu__common_8h.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle">
+<div class="title">periph_cpu_common.h File Reference<div class="ingroups"><a class="el" href="group__cpu.html">CPU</a> &raquo; <a class="el" href="group__cpu__sam0__common.html">Atmel SAM0 common</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Common CPU specific definitions for all SAMx21 based CPUs.  
+<a href="#details">More...</a></p>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Common CPU specific definitions for all SAMx21 based CPUs. </p>
+<p>Common CPU specific definitions for all SAMx21 based CPUs</p>
+<dl class="section author"><dt>Author</dt><dd>Hauke Petersen <a href="#" onclick="location.href='mai'+'lto:'+'hau'+'ke'+'.pe'+'te'+'rse'+'n@'+'fu-'+'be'+'rli'+'n.'+'de'; return false;">hauke<span style="display: none;">.nosp@m.</span>.pet<span style="display: none;">.nosp@m.</span>ersen<span style="display: none;">.nosp@m.</span>@fu-<span style="display: none;">.nosp@m.</span>berli<span style="display: none;">.nosp@m.</span>n.de</a> </dd>
+<dd>
+Dylan Laduranty <a href="#" onclick="location.href='mai'+'lto:'+'dyl'+'an'+'.la'+'du'+'ran'+'ty'+'@me'+'so'+'tic'+'.c'+'om'; return false;">dylan<span style="display: none;">.nosp@m.</span>.lad<span style="display: none;">.nosp@m.</span>urant<span style="display: none;">.nosp@m.</span>y@me<span style="display: none;">.nosp@m.</span>sotic<span style="display: none;">.nosp@m.</span>.com</a> </dd></dl>
+
+<p class="definition">Definition in file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+</div><div class="textblock"><code>#include &quot;cpu.h&quot;</code><br />
+<code>#include &quot;exti_config.h&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for periph_cpu_common.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam0__common_2include_2periph__cpu__common_8h__incl.svg" width="224" height="276"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="sam0__common_2include_2periph__cpu__common_8h__dep__incl.svg" width="3160" height="231"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<p><a href="sam0__common_2include_2periph__cpu__common_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structuart__conf__t.html">uart_conf_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">UART device configuration.  <a href="structuart__conf__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structspi__conf__t.html">spi_conf_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">SPI configuration structure type.  <a href="structspi__conf__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structi2c__conf__t.html">i2c_conf_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">I2C configuration options.  <a href="structi2c__conf__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtc32__conf__t.html">tc32_conf_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer device configuration.  <a href="structtc32__conf__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structadc__conf__chan__t.html">adc_conf_chan_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">ADC Channel Configuration.  <a href="structadc__conf__chan__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structsam0__common__usb__config__t.html">sam0_common_usb_config_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB peripheral parameters.  <a href="structsam0__common__usb__config__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a3969ce1e494a72d3c2925b10ddeb4604"><td class="memItemLeft" align="right" valign="top"><a id="a3969ce1e494a72d3c2925b10ddeb4604"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a3969ce1e494a72d3c2925b10ddeb4604">GPIO_UNDEF</a>&#160;&#160;&#160;(0xffffffff)</td></tr>
+<tr class="memdesc:a3969ce1e494a72d3c2925b10ddeb4604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Definition of a fitting UNDEF value. <br /></td></tr>
+<tr class="separator:a3969ce1e494a72d3c2925b10ddeb4604"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b87241cfc8f0eb706ef97888f30ed0d"><td class="memItemLeft" align="right" valign="top"><a id="a4b87241cfc8f0eb706ef97888f30ed0d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a4b87241cfc8f0eb706ef97888f30ed0d">TIMER_CHANNEL_NUMOF</a>&#160;&#160;&#160;(2)</td></tr>
+<tr class="memdesc:a4b87241cfc8f0eb706ef97888f30ed0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of available timer channels. <br /></td></tr>
+<tr class="separator:a4b87241cfc8f0eb706ef97888f30ed0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb358111eba1eb3ba04b65fe1fad0749"><td class="memItemLeft" align="right" valign="top"><a id="aeb358111eba1eb3ba04b65fe1fad0749"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#aeb358111eba1eb3ba04b65fe1fad0749">WDT_HAS_STOP</a>&#160;&#160;&#160;(1)</td></tr>
+<tr class="memdesc:aeb358111eba1eb3ba04b65fe1fad0749"><td class="mdescLeft">&#160;</td><td class="mdescRight">Watchdog can be stopped. <br /></td></tr>
+<tr class="separator:aeb358111eba1eb3ba04b65fe1fad0749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7513ced84868c0d8853a3ad09e3c5908"><td class="memItemLeft" align="right" valign="top"><a id="a7513ced84868c0d8853a3ad09e3c5908"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a7513ced84868c0d8853a3ad09e3c5908">WDT_HAS_INIT</a>&#160;&#160;&#160;(1)</td></tr>
+<tr class="memdesc:a7513ced84868c0d8853a3ad09e3c5908"><td class="mdescLeft">&#160;</td><td class="mdescRight">Watchdog has to be initialized. <br /></td></tr>
+<tr class="separator:a7513ced84868c0d8853a3ad09e3c5908"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a35689050a00ae4d0da14a1abe0e38dc3"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a35689050a00ae4d0da14a1abe0e38dc3">i2c_flag_t</a> { <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a35689050a00ae4d0da14a1abe0e38dc3a0af5d8198ede19f93bab78bc0db71652">I2C_FLAG_NONE</a> = 0x0, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a35689050a00ae4d0da14a1abe0e38dc3a7dbf5268ce25d42f71d696e4577df53e">I2C_FLAG_RUN_STANDBY</a> = 0x1
+ }<tr class="memdesc:a35689050a00ae4d0da14a1abe0e38dc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Available SERCOM I2C flag selections.  <a href="sam0__common_2include_2periph__cpu__common_8h.html#a35689050a00ae4d0da14a1abe0e38dc3">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a35689050a00ae4d0da14a1abe0e38dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af734ec0eb8f02ea6acd32e1efda0dfed"><td class="memItemLeft" align="right" valign="top"><a id="af734ec0eb8f02ea6acd32e1efda0dfed"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#af734ec0eb8f02ea6acd32e1efda0dfed">sam0_supc_t</a> { <b>SAM0_VREG_LDO</b>, 
+<b>SAM0_VREG_BUCK</b>
+ }<tr class="memdesc:af734ec0eb8f02ea6acd32e1efda0dfed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Available voltage regulators on the supply controller. <br /></td></tr>
+</td></tr>
+<tr class="separator:af734ec0eb8f02ea6acd32e1efda0dfed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a444741edfb203e5956e8459181ae1a16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a444741edfb203e5956e8459181ae1a16">gpio_init_mux</a> (<a class="el" href="group__drivers__periph__gpio.html#gadacfc0deb08affff1e88f9549c8e2823">gpio_t</a> pin, <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0">gpio_mux_t</a> mux)</td></tr>
+<tr class="memdesc:a444741edfb203e5956e8459181ae1a16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set up alternate function (PMUX setting) for a PORT pin.  <a href="#a444741edfb203e5956e8459181ae1a16">More...</a><br /></td></tr>
+<tr class="separator:a444741edfb203e5956e8459181ae1a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcce5407ba5444d181a8f085bc3a2832"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#afcce5407ba5444d181a8f085bc3a2832">gpio_pm_cb_enter</a> (int deep)</td></tr>
+<tr class="memdesc:afcce5407ba5444d181a8f085bc3a2832"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called before the power management enters a power mode.  <a href="#afcce5407ba5444d181a8f085bc3a2832">More...</a><br /></td></tr>
+<tr class="separator:afcce5407ba5444d181a8f085bc3a2832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fdb7ae4ed39ceb155d9ec7522b8bc9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a6fdb7ae4ed39ceb155d9ec7522b8bc9d">gpio_pm_cb_leave</a> (int deep)</td></tr>
+<tr class="memdesc:a6fdb7ae4ed39ceb155d9ec7522b8bc9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called after the power management left a power mode.  <a href="#a6fdb7ae4ed39ceb155d9ec7522b8bc9d">More...</a><br /></td></tr>
+<tr class="separator:a6fdb7ae4ed39ceb155d9ec7522b8bc9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ef90437fbbfb1923cee77f5fbf44a16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a8ef90437fbbfb1923cee77f5fbf44a16">cpu_pm_cb_enter</a> (int deep)</td></tr>
+<tr class="memdesc:a8ef90437fbbfb1923cee77f5fbf44a16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called before the power management enters a power mode.  <a href="#a8ef90437fbbfb1923cee77f5fbf44a16">More...</a><br /></td></tr>
+<tr class="separator:a8ef90437fbbfb1923cee77f5fbf44a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a416db8ec05f950437ecfe7e28c4d39f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a416db8ec05f950437ecfe7e28c4d39f4">cpu_pm_cb_leave</a> (int deep)</td></tr>
+<tr class="memdesc:a416db8ec05f950437ecfe7e28c4d39f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called after the power management left a power mode.  <a href="#a416db8ec05f950437ecfe7e28c4d39f4">More...</a><br /></td></tr>
+<tr class="separator:a416db8ec05f950437ecfe7e28c4d39f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a898b0b2607bf5b03775ca79cc0b047ba"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a898b0b2607bf5b03775ca79cc0b047ba">sam0_cortexm_sleep</a> (int deep)</td></tr>
+<tr class="memdesc:a898b0b2607bf5b03775ca79cc0b047ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper for cortexm_sleep calling power management callbacks.  <a href="#a898b0b2607bf5b03775ca79cc0b047ba">More...</a><br /></td></tr>
+<tr class="separator:a898b0b2607bf5b03775ca79cc0b047ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d9a7441b2caf95ad2f9cb2232e6418c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a0d9a7441b2caf95ad2f9cb2232e6418c">gpio_disable_mux</a> (<a class="el" href="group__drivers__periph__gpio.html#gadacfc0deb08affff1e88f9549c8e2823">gpio_t</a> pin)</td></tr>
+<tr class="memdesc:a0d9a7441b2caf95ad2f9cb2232e6418c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable alternate function (PMUX setting) for a PORT pin.  <a href="#a0d9a7441b2caf95ad2f9cb2232e6418c">More...</a><br /></td></tr>
+<tr class="separator:a0d9a7441b2caf95ad2f9cb2232e6418c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5483a8b74b140a99e635437b519aa30"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ae5483a8b74b140a99e635437b519aa30">sam0_set_voltage_regulator</a> (<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#af734ec0eb8f02ea6acd32e1efda0dfed">sam0_supc_t</a> src)</td></tr>
+<tr class="memdesc:ae5483a8b74b140a99e635437b519aa30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch the internal voltage regulator used for generating the internal MCU voltages.  <a href="#ae5483a8b74b140a99e635437b519aa30">More...</a><br /></td></tr>
+<tr class="separator:ae5483a8b74b140a99e635437b519aa30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a8e84c1eccb5bce55462c9ffc70ca87"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a5a8e84c1eccb5bce55462c9ffc70ca87">sam0_gclk_freq</a> (uint8_t id)</td></tr>
+<tr class="memdesc:a5a8e84c1eccb5bce55462c9ffc70ca87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the frequency of a GCLK provider.  <a href="#a5a8e84c1eccb5bce55462c9ffc70ca87">More...</a><br /></td></tr>
+<tr class="separator:a5a8e84c1eccb5bce55462c9ffc70ca87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd6d605fc39c6a1c13f8b8aac1f25ff3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abd6d605fc39c6a1c13f8b8aac1f25ff3">sam0_gclk_enable</a> (uint8_t id)</td></tr>
+<tr class="memdesc:abd6d605fc39c6a1c13f8b8aac1f25ff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables an on-demand GCLK that has been configured in cpu.c.  <a href="#abd6d605fc39c6a1c13f8b8aac1f25ff3">More...</a><br /></td></tr>
+<tr class="separator:abd6d605fc39c6a1c13f8b8aac1f25ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26065779efe4c2bbeab837b5c424bfde"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a26065779efe4c2bbeab837b5c424bfde">sercom_id</a> (const void *sercom)</td></tr>
+<tr class="memdesc:a26065779efe4c2bbeab837b5c424bfde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the numeric id of a SERCOM device derived from its address.  <a href="#a26065779efe4c2bbeab837b5c424bfde">More...</a><br /></td></tr>
+<tr class="separator:a26065779efe4c2bbeab837b5c424bfde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af316f0004ecaf984f972085bada32000"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#af316f0004ecaf984f972085bada32000">sercom_clk_en</a> (void *sercom)</td></tr>
+<tr class="memdesc:af316f0004ecaf984f972085bada32000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable peripheral clock for given SERCOM device.  <a href="#af316f0004ecaf984f972085bada32000">More...</a><br /></td></tr>
+<tr class="separator:af316f0004ecaf984f972085bada32000"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c9fd4adf3c2aa1f8ff737d00f1849fe"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a8c9fd4adf3c2aa1f8ff737d00f1849fe">sercom_clk_dis</a> (void *sercom)</td></tr>
+<tr class="memdesc:a8c9fd4adf3c2aa1f8ff737d00f1849fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable peripheral clock for given SERCOM device.  <a href="#a8c9fd4adf3c2aa1f8ff737d00f1849fe">More...</a><br /></td></tr>
+<tr class="separator:a8c9fd4adf3c2aa1f8ff737d00f1849fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a715ce6f0ace7746dc434400c51c18fd5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a715ce6f0ace7746dc434400c51c18fd5">sercom_set_gen</a> (void *sercom, uint8_t gclk)</td></tr>
+<tr class="memdesc:a715ce6f0ace7746dc434400c51c18fd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configure generator clock for given SERCOM device.  <a href="#a715ce6f0ace7746dc434400c51c18fd5">More...</a><br /></td></tr>
+<tr class="separator:a715ce6f0ace7746dc434400c51c18fd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8de821ae21c5342752d2c365bb6318da"><td class="memItemLeft" align="right" valign="top"><a id="a8de821ae21c5342752d2c365bb6318da"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a8de821ae21c5342752d2c365bb6318da">cpu_woke_from_backup</a> (void)</td></tr>
+<tr class="memdesc:a8de821ae21c5342752d2c365bb6318da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the CPU woke deep sleep (backup/standby) <br /></td></tr>
+<tr class="separator:a8de821ae21c5342752d2c365bb6318da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1943715eaeaa63e28b7b4e207f655fca"><td class="memItemLeft" align="right" valign="top"><a id="a1943715eaeaa63e28b7b4e207f655fca"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a1943715eaeaa63e28b7b4e207f655fca">CPUID_LEN</a>&#160;&#160;&#160;(16U)</td></tr>
+<tr class="memdesc:a1943715eaeaa63e28b7b4e207f655fca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of the CPU_ID in octets. <br /></td></tr>
+<tr class="separator:a1943715eaeaa63e28b7b4e207f655fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bd1b3321b66208c3499e83d495333cd"><td class="memItemLeft" align="right" valign="top"><a id="a7bd1b3321b66208c3499e83d495333cd"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a7bd1b3321b66208c3499e83d495333cd">PERIPH_SPI_NEEDS_INIT_CS</a></td></tr>
+<tr class="memdesc:a7bd1b3321b66208c3499e83d495333cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Use shared SPI functions. <br /></td></tr>
+<tr class="separator:a7bd1b3321b66208c3499e83d495333cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3d9c2b9cf24ed0b13807d63f5e9b11f"><td class="memItemLeft" align="right" valign="top"><a id="af3d9c2b9cf24ed0b13807d63f5e9b11f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PERIPH_SPI_NEEDS_TRANSFER_BYTE</b></td></tr>
+<tr class="separator:af3d9c2b9cf24ed0b13807d63f5e9b11f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac68c30cec18f4abf11cc4bb09c13df17"><td class="memItemLeft" align="right" valign="top"><a id="ac68c30cec18f4abf11cc4bb09c13df17"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PERIPH_SPI_NEEDS_TRANSFER_REG</b></td></tr>
+<tr class="separator:ac68c30cec18f4abf11cc4bb09c13df17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb6291046cbd0102e8c87af75e4200d"><td class="memItemLeft" align="right" valign="top"><a id="afeb6291046cbd0102e8c87af75e4200d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PERIPH_SPI_NEEDS_TRANSFER_REGS</b></td></tr>
+<tr class="separator:afeb6291046cbd0102e8c87af75e4200d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a759f553fbddd2915b49e50c967661fb1"><td class="memItemLeft" align="right" valign="top"><a id="a759f553fbddd2915b49e50c967661fb1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a759f553fbddd2915b49e50c967661fb1">HAVE_GPIO_T</a></td></tr>
+<tr class="memdesc:a759f553fbddd2915b49e50c967661fb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override GPIO type. <br /></td></tr>
+<tr class="separator:a759f553fbddd2915b49e50c967661fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e0133bf7f8e7484ac0088145cd051ec"><td class="memItemLeft" align="right" valign="top"><a id="a8e0133bf7f8e7484ac0088145cd051ec"></a>
+typedef uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>gpio_t</b></td></tr>
+<tr class="separator:a8e0133bf7f8e7484ac0088145cd051ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae29846b3ecd19a0b7c44ff80a37ae7c1"><td class="memItemLeft" align="right" valign="top"><a id="ae29846b3ecd19a0b7c44ff80a37ae7c1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a>(x,  y)&#160;&#160;&#160;(((<a class="el" href="group__drivers__periph__gpio.html#gadacfc0deb08affff1e88f9549c8e2823">gpio_t</a>)(&amp;PORT-&gt;Group[x])) | y)</td></tr>
+<tr class="memdesc:ae29846b3ecd19a0b7c44ff80a37ae7c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Macro for accessing GPIO pins. <br /></td></tr>
+<tr class="separator:ae29846b3ecd19a0b7c44ff80a37ae7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a243fc9e4cd33331031ce3277dbb06483"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a243fc9e4cd33331031ce3277dbb06483">GPIO_MODE</a>(pr,  ie,  pe)&#160;&#160;&#160;(pr | (ie &lt;&lt; 1) | (pe &lt;&lt; 2))</td></tr>
+<tr class="memdesc:a243fc9e4cd33331031ce3277dbb06483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate GPIO mode bitfields.  <a href="#a243fc9e4cd33331031ce3277dbb06483">More...</a><br /></td></tr>
+<tr class="separator:a243fc9e4cd33331031ce3277dbb06483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d6c77df27eaeba19a369cec7754bb30"><td class="memItemLeft" align="right" valign="top"><a id="a7d6c77df27eaeba19a369cec7754bb30"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a7d6c77df27eaeba19a369cec7754bb30">UART_TXBUF_SIZE</a>&#160;&#160;&#160;(64)</td></tr>
+<tr class="memdesc:a7d6c77df27eaeba19a369cec7754bb30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the UART TX buffer for non-blocking mode. <br /></td></tr>
+<tr class="separator:a7d6c77df27eaeba19a369cec7754bb30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab39a415800ebd0d977c477376649649b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ab39a415800ebd0d977c477376649649bae3d8a811f3bf7196f361be4104db68db">PA</a> = 0, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ab39a415800ebd0d977c477376649649ba8b7dd81ba2f0d15957795457d92ce139">PB</a> = 1, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ab39a415800ebd0d977c477376649649baa2c62b62b658ac45e83749e9e9c1cb46">PC</a> = 2, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ab39a415800ebd0d977c477376649649baefbc069e0ac4cd293f3ba527bec2befe">PD</a> = 3
+ }<tr class="memdesc:ab39a415800ebd0d977c477376649649b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Available ports on the SAMD21 &amp; SAML21.  <a href="sam0__common_2include_2periph__cpu__common_8h.html#ab39a415800ebd0d977c477376649649b">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ab39a415800ebd0d977c477376649649b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac86e130e5617ffe35f2aa1169d8a67c0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0">gpio_mux_t</a> { <br />
+&#160;&#160;<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0a8224781ec4d2580d0a756a0831dfc731">GPIO_MUX_A</a> = 0x0, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0ad65f474c933e032616f9d164707c7413">GPIO_MUX_B</a> = 0x1, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0a735b6a3c0b2afe9159f89367eeee53d9">GPIO_MUX_C</a> = 0x2, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0a58aca89cf09aaa1d2026ab1f32b05236">GPIO_MUX_D</a> = 0x3, 
+<br />
+&#160;&#160;<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0a1753f05fa16af9774bae3839d7fd0258">GPIO_MUX_E</a> = 0x4, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0afa8534df31df91f936fec7ebb8144694">GPIO_MUX_F</a> = 0x5, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0a72b834876d72c168f46f3c240a217a34">GPIO_MUX_G</a> = 0x6, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0a3bc25dbd31de692bc46ea6fe674656be">GPIO_MUX_H</a> = 0x7, 
+<br />
+&#160;&#160;<a class="el" href="sam3_2include_2periph__cpu_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0a8224781ec4d2580d0a756a0831dfc731">GPIO_MUX_A</a> = 0, 
+<a class="el" href="sam3_2include_2periph__cpu_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0ad65f474c933e032616f9d164707c7413">GPIO_MUX_B</a> = 1
+<br />
+ }<tr class="memdesc:ac86e130e5617ffe35f2aa1169d8a67c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Available MUX values for configuring a pin's alternate function.  <a href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:ac86e130e5617ffe35f2aa1169d8a67c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a021fb5a98f716e7efb8754e405c81199"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a021fb5a98f716e7efb8754e405c81199">uart_rxpad_t</a> { <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a021fb5a98f716e7efb8754e405c81199a2b6fd10598396e4c9dd46daeaf8205d2">UART_PAD_RX_0</a> = 0x0, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a021fb5a98f716e7efb8754e405c81199a274af0f75e2a10323280d40487559c64">UART_PAD_RX_1</a> = 0x1, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a021fb5a98f716e7efb8754e405c81199a7ad5da463da8af334a21010ab254fa93">UART_PAD_RX_2</a> = 0x2, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a021fb5a98f716e7efb8754e405c81199a66d59263bdb8bf96952c1e75b999f45e">UART_PAD_RX_3</a> = 0x3
+ }<tr class="memdesc:a021fb5a98f716e7efb8754e405c81199"><td class="mdescLeft">&#160;</td><td class="mdescRight">Available values for SERCOM UART RX pad selection.  <a href="sam0__common_2include_2periph__cpu__common_8h.html#a021fb5a98f716e7efb8754e405c81199">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a021fb5a98f716e7efb8754e405c81199"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a4da11aea6791b96ad83a061b0f576d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a9a4da11aea6791b96ad83a061b0f576d">uart_txpad_t</a> { <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a9a4da11aea6791b96ad83a061b0f576dad17d929271f49a266d2dd337a6b4004a">UART_PAD_TX_0</a> = 0x0, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a9a4da11aea6791b96ad83a061b0f576dae59a06105ec31aff983245e9d06cad10">UART_PAD_TX_2</a> = 0x1, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a9a4da11aea6791b96ad83a061b0f576da62691ed835f147978930060144e520ab">UART_PAD_TX_0_RTS_2_CTS_3</a> = 0x2
+ }<tr class="memdesc:a9a4da11aea6791b96ad83a061b0f576d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Available values for SERCOM UART TX pad selection.  <a href="sam0__common_2include_2periph__cpu__common_8h.html#a9a4da11aea6791b96ad83a061b0f576d">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a9a4da11aea6791b96ad83a061b0f576d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a836e09ffaa5767111e9d10b38a17fd75"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a836e09ffaa5767111e9d10b38a17fd75">uart_flag_t</a> { <br />
+&#160;&#160;<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a836e09ffaa5767111e9d10b38a17fd75a85629b346e3b64053d1888d17efdfcd6">UART_FLAG_NONE</a> = 0x0, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a836e09ffaa5767111e9d10b38a17fd75aeea3ab9987a87420391bc2035d89030e">UART_FLAG_RUN_STANDBY</a> = 0x1, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a836e09ffaa5767111e9d10b38a17fd75af1543018e41d97c317723a479d3ece08">UART_FLAG_WAKEUP</a> = 0x2, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a836e09ffaa5767111e9d10b38a17fd75a6d882596e7396b5e216c1820bd9df4e5">UART_FLAG_RXINV</a> = 0x4, 
+<br />
+&#160;&#160;<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a836e09ffaa5767111e9d10b38a17fd75a440a7082816f610f0016f55c3f2da5aa">UART_FLAG_TXINV</a> = 0x8
+<br />
+ }<tr class="memdesc:a836e09ffaa5767111e9d10b38a17fd75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Available SERCOM UART flag selections.  <a href="sam0__common_2include_2periph__cpu__common_8h.html#a836e09ffaa5767111e9d10b38a17fd75">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a836e09ffaa5767111e9d10b38a17fd75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f3aefc5ac5917dd4a5c71ca3b624b29"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a5f3aefc5ac5917dd4a5c71ca3b624b29">spi_misopad_t</a> { <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a5f3aefc5ac5917dd4a5c71ca3b624b29a92f167e36771c98d038232388b7e850c">SPI_PAD_MISO_0</a> = 0x0, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a5f3aefc5ac5917dd4a5c71ca3b624b29a37ec9a2389ee973ec1785845479a2130">SPI_PAD_MISO_1</a> = 0x1, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a5f3aefc5ac5917dd4a5c71ca3b624b29a69ad245d6a0b17445d3ff6ca4bfb9fd6">SPI_PAD_MISO_2</a> = 0x2, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a5f3aefc5ac5917dd4a5c71ca3b624b29abbe88f9c5efc963d0cf52674f3d370d9">SPI_PAD_MISO_3</a> = 0x3
+ }<tr class="memdesc:a5f3aefc5ac5917dd4a5c71ca3b624b29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Available values for SERCOM SPI MISO pad selection.  <a href="sam0__common_2include_2periph__cpu__common_8h.html#a5f3aefc5ac5917dd4a5c71ca3b624b29">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a5f3aefc5ac5917dd4a5c71ca3b624b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecd093a68bc8af5fd8df392bc9e7d598"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#aecd093a68bc8af5fd8df392bc9e7d598">spi_mosipad_t</a> { <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#aecd093a68bc8af5fd8df392bc9e7d598afb7a1f7d65f561a12e60be5a27b3a395">SPI_PAD_MOSI_0_SCK_1</a> = 0x0, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#aecd093a68bc8af5fd8df392bc9e7d598a3dfa7950c9a6cb45530c07ae67f13581">SPI_PAD_MOSI_2_SCK_3</a> = 0x1, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#aecd093a68bc8af5fd8df392bc9e7d598a51569f604aa9f0adaa1b5eaf767aaae9">SPI_PAD_MOSI_3_SCK_1</a> = 0x2, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#aecd093a68bc8af5fd8df392bc9e7d598a41b718f20afe7b352a8054ffe68cc730">SPI_PAD_MOSI_0_SCK_3</a> = 0x3
+ }<tr class="memdesc:aecd093a68bc8af5fd8df392bc9e7d598"><td class="mdescLeft">&#160;</td><td class="mdescRight">Available values for SERCOM SPI MOSI and SCK pad selection.  <a href="sam0__common_2include_2periph__cpu__common_8h.html#aecd093a68bc8af5fd8df392bc9e7d598">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:aecd093a68bc8af5fd8df392bc9e7d598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+WDT upper and lower bound times in ms</h2></td></tr>
+<tr class="memitem:a5265674ed64e5865196727196ef8265b"><td class="memItemLeft" align="right" valign="top"><a id="a5265674ed64e5865196727196ef8265b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>NWDT_TIME_LOWER_LIMIT</b>&#160;&#160;&#160;(8U)</td></tr>
+<tr class="separator:a5265674ed64e5865196727196ef8265b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04d8ac7c09912d8ac89d5ba4cc06b08c"><td class="memItemLeft" align="right" valign="top"><a id="a04d8ac7c09912d8ac89d5ba4cc06b08c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>NWDT_TIME_UPPER_LIMIT</b>&#160;&#160;&#160;(16384U)</td></tr>
+<tr class="separator:a04d8ac7c09912d8ac89d5ba4cc06b08c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+sam0 DMA peripheral</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrpabe6816de29426f675d13601c2fa42ef"></a>The sam0 DMA peripheral has a number of channels.</p>
+<p>Each channel is a separate data stream, triggered by a configurable trigger when enabled, or triggered by software (not yet supported). In theory each DMA channel is equal and can have a configurable priority and can be triggered by the full set of triggers available.</p>
+<p>DMA descriptors, specifying a single transfer with size, source and destination, are kept in RAM and are read when the channel is enabled and triggered. On the SAML21 platform, these descriptors must reside in the LP SRAM.</p>
+<p>The DMA addresses supplied must point to the <b>end</b> of the array to be transferred. When address increment is enabled this means that the supplied src or dst argument must point to array + length. When increment is disabled, the source or destination address can be used directly. The calculation of the end of the array must be done by the calling function, because the beatsize and the increment can usually be hardcoded there and doesn't have to be retrieved from the DMA register configuration. See also section 20.6.2.7 of the SAM D21/DA1 Family Data Sheet.</p>
+<p>Example: </p><div class="fragment"><div class="line"><span class="keywordtype">void</span> transfer_data(<span class="keywordtype">void</span> *src, <span class="keywordtype">void</span> *dst, <span class="keywordtype">size_t</span> len)</div><div class="line">{</div><div class="line">     <a class="code" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a> channel = <a class="code" href="sam0__common_2include_2periph__cpu__common_8h.html#a5f278a1560d69271018f17c874f0b311">dma_acquire_channel</a>()</div><div class="line">     if (channel == 0xff) {</div><div class="line">         <span class="keywordflow">return</span> -E_BUSY;</div><div class="line">     }</div><div class="line"></div><div class="line">     <a class="code" href="sam0__common_2include_2periph__cpu__common_8h.html#a476526a345cf41251ac41c171d087ac1">dma_setup</a>(channel, DMA_TRIGGER_MY_PERIH, 0, <span class="keyword">true</span>);</div><div class="line">     <a class="code" href="sam0__common_2include_2periph__cpu__common_8h.html#a171ec4dc2efe5cddf9174cab6825e6b2">dma_prepare</a>(channel, DMAC_BTCTRL_BEATSIZE_BYTE_Val,</div><div class="line">                 (uint8_t*)src + len, (uint8_t*)dst + len, len);</div><div class="line"></div><div class="line">     <a class="code" href="sam0__common_2include_2periph__cpu__common_8h.html#afa298eabce48b1b3e160f53717d6962b">dma_start</a>(channel);</div><div class="line">     <a class="code" href="sam0__common_2include_2periph__cpu__common_8h.html#a262ff8cbca58c8dc47b5ef4ac9d503a2">dma_wait</a>(channel);</div><div class="line"></div><div class="line">     <a class="code" href="sam0__common_2include_2periph__cpu__common_8h.html#a64601b2c03edb42fc37eb23aa7f1d6a8">dma_release_channel</a>(channel);</div><div class="line">}</div></div><!-- fragment --> </td></tr>
+<tr class="memitem:a60c3d89895c49016f66e0e823ce6cb1c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a60c3d89895c49016f66e0e823ce6cb1c">DMA_TRIGGER_DISABLED</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:a60c3d89895c49016f66e0e823ce6cb1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates that the peripheral doesn't utilize the DMA controller.  <a href="#a60c3d89895c49016f66e0e823ce6cb1c">More...</a><br /></td></tr>
+<tr class="separator:a60c3d89895c49016f66e0e823ce6cb1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2545e42f23e359d4197aee636ba5703a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a2545e42f23e359d4197aee636ba5703a">DMA_DESCRIPTOR_IN_LPSRAM</a></td></tr>
+<tr class="memdesc:a2545e42f23e359d4197aee636ba5703a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the DMA descriptors to the LP SRAM.  <a href="#a2545e42f23e359d4197aee636ba5703a">More...</a><br /></td></tr>
+<tr class="separator:a2545e42f23e359d4197aee636ba5703a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69b0a17744808afed2dbb8b6c340573c"><td class="memItemLeft" align="right" valign="top"><a id="a69b0a17744808afed2dbb8b6c340573c"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a69b0a17744808afed2dbb8b6c340573c">DMA_DESCRIPTOR_ATTRS</a>&#160;&#160;&#160;__attribute__((section(&quot;.backup.bss&quot;)))</td></tr>
+<tr class="memdesc:a69b0a17744808afed2dbb8b6c340573c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extra attributes required for instantiating DMA descriptors. <br /></td></tr>
+<tr class="separator:a69b0a17744808afed2dbb8b6c340573c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e0d37c40017608bf9423d47bd306aad"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a9e0d37c40017608bf9423d47bd306aad">dma_incr_t</a> { <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a9e0d37c40017608bf9423d47bd306aada177b8cd4ae6c550c77c569f7be490848">DMA_INCR_NONE</a> = 0, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a9e0d37c40017608bf9423d47bd306aadae477948862b714463e6c371b3520a82d">DMA_INCR_SRC</a> = 1, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a9e0d37c40017608bf9423d47bd306aadaa11c426657a94f0c785b671b2411c1d2">DMA_INCR_DEST</a> = 2, 
+<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a9e0d37c40017608bf9423d47bd306aadad7c9dacf1b53a2325dbfd4704ce74888">DMA_INCR_BOTH</a> = 3
+ }<tr class="memdesc:a9e0d37c40017608bf9423d47bd306aad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Available DMA address increment modes.  <a href="sam0__common_2include_2periph__cpu__common_8h.html#a9e0d37c40017608bf9423d47bd306aad">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a9e0d37c40017608bf9423d47bd306aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc9032c3a330351ad3078e39069b3514"><td class="memItemLeft" align="right" valign="top"><a id="abc9032c3a330351ad3078e39069b3514"></a>
+typedef unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a></td></tr>
+<tr class="memdesc:abc9032c3a330351ad3078e39069b3514"><td class="mdescLeft">&#160;</td><td class="mdescRight">DMA channel type. <br /></td></tr>
+<tr class="separator:abc9032c3a330351ad3078e39069b3514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c9e133b825bded7bf8039c43b49d2c7"><td class="memItemLeft" align="right" valign="top"><a id="a1c9e133b825bded7bf8039c43b49d2c7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a1c9e133b825bded7bf8039c43b49d2c7">dma_init</a> (void)</td></tr>
+<tr class="memdesc:a1c9e133b825bded7bf8039c43b49d2c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize DMA. <br /></td></tr>
+<tr class="separator:a1c9e133b825bded7bf8039c43b49d2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f278a1560d69271018f17c874f0b311"><td class="memItemLeft" align="right" valign="top"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a5f278a1560d69271018f17c874f0b311">dma_acquire_channel</a> (void)</td></tr>
+<tr class="memdesc:a5f278a1560d69271018f17c874f0b311"><td class="mdescLeft">&#160;</td><td class="mdescRight">Acquire a DMA channel.  <a href="#a5f278a1560d69271018f17c874f0b311">More...</a><br /></td></tr>
+<tr class="separator:a5f278a1560d69271018f17c874f0b311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64601b2c03edb42fc37eb23aa7f1d6a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a64601b2c03edb42fc37eb23aa7f1d6a8">dma_release_channel</a> (<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a> dma)</td></tr>
+<tr class="memdesc:a64601b2c03edb42fc37eb23aa7f1d6a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release a previously acquired DMA channel.  <a href="#a64601b2c03edb42fc37eb23aa7f1d6a8">More...</a><br /></td></tr>
+<tr class="separator:a64601b2c03edb42fc37eb23aa7f1d6a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a476526a345cf41251ac41c171d087ac1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a476526a345cf41251ac41c171d087ac1">dma_setup</a> (<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a> dma, unsigned trigger, uint8_t prio, bool irq)</td></tr>
+<tr class="memdesc:a476526a345cf41251ac41c171d087ac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize a previously allocated DMA channel with one-time settings.  <a href="#a476526a345cf41251ac41c171d087ac1">More...</a><br /></td></tr>
+<tr class="separator:a476526a345cf41251ac41c171d087ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a171ec4dc2efe5cddf9174cab6825e6b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a171ec4dc2efe5cddf9174cab6825e6b2">dma_prepare</a> (<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a> dma, uint8_t width, const void *src, void *dst, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> num, <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a9e0d37c40017608bf9423d47bd306aad">dma_incr_t</a> incr)</td></tr>
+<tr class="memdesc:a171ec4dc2efe5cddf9174cab6825e6b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare the DMA channel for an individual transfer.  <a href="#a171ec4dc2efe5cddf9174cab6825e6b2">More...</a><br /></td></tr>
+<tr class="separator:a171ec4dc2efe5cddf9174cab6825e6b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af832cb61dbdbfc9731ee4acde62a3f14"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#af832cb61dbdbfc9731ee4acde62a3f14">dma_prepare_src</a> (<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a> dma, const void *src, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> num, bool incr)</td></tr>
+<tr class="memdesc:af832cb61dbdbfc9731ee4acde62a3f14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare a transfer without modifying the destination address settings.  <a href="#af832cb61dbdbfc9731ee4acde62a3f14">More...</a><br /></td></tr>
+<tr class="separator:af832cb61dbdbfc9731ee4acde62a3f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3659b2adfc79b3dd9d3825f8a0fa7b21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a3659b2adfc79b3dd9d3825f8a0fa7b21">dma_prepare_dst</a> (<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a> dma, void *dst, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> num, bool incr)</td></tr>
+<tr class="memdesc:a3659b2adfc79b3dd9d3825f8a0fa7b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare a transfer without modifying the source address settings.  <a href="#a3659b2adfc79b3dd9d3825f8a0fa7b21">More...</a><br /></td></tr>
+<tr class="separator:a3659b2adfc79b3dd9d3825f8a0fa7b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fad966cbb977e03da51f878cdd3e634"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a9fad966cbb977e03da51f878cdd3e634">dma_append</a> (<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a> dma, DmacDescriptor *descriptor, uint8_t width, const void *src, void *dst, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> num, <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a9e0d37c40017608bf9423d47bd306aad">dma_incr_t</a> incr)</td></tr>
+<tr class="memdesc:a9fad966cbb977e03da51f878cdd3e634"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a second transfer descriptor after the default channel descriptor.  <a href="#a9fad966cbb977e03da51f878cdd3e634">More...</a><br /></td></tr>
+<tr class="separator:a9fad966cbb977e03da51f878cdd3e634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac255fe1e0e1021f080229efe9e004aaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ac255fe1e0e1021f080229efe9e004aaa">dma_append_src</a> (<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a> dma, DmacDescriptor *next, const void *src, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> num, bool incr)</td></tr>
+<tr class="memdesc:ac255fe1e0e1021f080229efe9e004aaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a second transfer descriptor after the default channel descriptor, copying destination and block size from the initial descriptor.  <a href="#ac255fe1e0e1021f080229efe9e004aaa">More...</a><br /></td></tr>
+<tr class="separator:ac255fe1e0e1021f080229efe9e004aaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91450f9cb3499fde9c17d123ae1b8724"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a91450f9cb3499fde9c17d123ae1b8724">dma_append_dst</a> (<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a> dma, DmacDescriptor *next, void *dst, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> num, bool incr)</td></tr>
+<tr class="memdesc:a91450f9cb3499fde9c17d123ae1b8724"><td class="mdescLeft">&#160;</td><td class="mdescRight">Append a second transfer descriptor after the default channel descriptor, copying source and block size from the initial descriptor.  <a href="#a91450f9cb3499fde9c17d123ae1b8724">More...</a><br /></td></tr>
+<tr class="separator:a91450f9cb3499fde9c17d123ae1b8724"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa298eabce48b1b3e160f53717d6962b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#afa298eabce48b1b3e160f53717d6962b">dma_start</a> (<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a> dma)</td></tr>
+<tr class="memdesc:afa298eabce48b1b3e160f53717d6962b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start a DMA transfer.  <a href="#afa298eabce48b1b3e160f53717d6962b">More...</a><br /></td></tr>
+<tr class="separator:afa298eabce48b1b3e160f53717d6962b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a262ff8cbca58c8dc47b5ef4ac9d503a2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a262ff8cbca58c8dc47b5ef4ac9d503a2">dma_wait</a> (<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a> dma)</td></tr>
+<tr class="memdesc:a262ff8cbca58c8dc47b5ef4ac9d503a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait for a DMA channel to finish the transfer.  <a href="#a262ff8cbca58c8dc47b5ef4ac9d503a2">More...</a><br /></td></tr>
+<tr class="separator:a262ff8cbca58c8dc47b5ef4ac9d503a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34d7f34890a15bbb258c60e340534e7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a34d7f34890a15bbb258c60e340534e7d">dma_cancel</a> (<a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a> dma)</td></tr>
+<tr class="memdesc:a34d7f34890a15bbb258c60e340534e7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel an active DMA transfer.  <a href="#a34d7f34890a15bbb258c60e340534e7d">More...</a><br /></td></tr>
+<tr class="separator:a34d7f34890a15bbb258c60e340534e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a2545e42f23e359d4197aee636ba5703a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2545e42f23e359d4197aee636ba5703a">&#9670;&nbsp;</a></span>DMA_DESCRIPTOR_IN_LPSRAM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DMA_DESCRIPTOR_IN_LPSRAM</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Move the DMA descriptors to the LP SRAM. </p>
+<p>Required on the SAML21 </p>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00745">745</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<a id="a60c3d89895c49016f66e0e823ce6cb1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60c3d89895c49016f66e0e823ce6cb1c">&#9670;&nbsp;</a></span>DMA_TRIGGER_DISABLED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DMA_TRIGGER_DISABLED&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indicates that the peripheral doesn't utilize the DMA controller. </p>
+<p>Matches with the register configuration for software based triggers. </p>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00739">739</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<a id="a243fc9e4cd33331031ce3277dbb06483"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a243fc9e4cd33331031ce3277dbb06483">&#9670;&nbsp;</a></span>GPIO_MODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GPIO_MODE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pr, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">ie, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">pe&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(pr | (ie &lt;&lt; 1) | (pe &lt;&lt; 2))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Generate GPIO mode bitfields. </p>
+<p>We use 3 bit to determine the pin functions:</p><ul>
+<li>bit 0: PD(0) or PU(1)</li>
+<li>bit 1: input enable</li>
+<li>bit 2: pull enable </li>
+</ul>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00099">99</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ab39a415800ebd0d977c477376649649b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab39a415800ebd0d977c477376649649b">&#9670;&nbsp;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Available ports on the SAMD21 &amp; SAML21. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ab39a415800ebd0d977c477376649649bae3d8a811f3bf7196f361be4104db68db"></a>PA&#160;</td><td class="fielddoc"><p>port A </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab39a415800ebd0d977c477376649649ba8b7dd81ba2f0d15957795457d92ce139"></a>PB&#160;</td><td class="fielddoc"><p>port B </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab39a415800ebd0d977c477376649649baa2c62b62b658ac45e83749e9e9c1cb46"></a>PC&#160;</td><td class="fielddoc"><p>port C </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ab39a415800ebd0d977c477376649649baefbc069e0ac4cd293f3ba527bec2befe"></a>PD&#160;</td><td class="fielddoc"><p>port D </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00084">84</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<a id="a9e0d37c40017608bf9423d47bd306aad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e0d37c40017608bf9423d47bd306aad">&#9670;&nbsp;</a></span>dma_incr_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a9e0d37c40017608bf9423d47bd306aad">dma_incr_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Available DMA address increment modes. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9e0d37c40017608bf9423d47bd306aada177b8cd4ae6c550c77c569f7be490848"></a>DMA_INCR_NONE&#160;</td><td class="fielddoc"><p>Don't increment any addresses after a beat. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9e0d37c40017608bf9423d47bd306aadae477948862b714463e6c371b3520a82d"></a>DMA_INCR_SRC&#160;</td><td class="fielddoc"><p>Increment the source address after a beat. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9e0d37c40017608bf9423d47bd306aadaa11c426657a94f0c785b671b2411c1d2"></a>DMA_INCR_DEST&#160;</td><td class="fielddoc"><p>Increment destination address after a beat. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9e0d37c40017608bf9423d47bd306aadad7c9dacf1b53a2325dbfd4704ce74888"></a>DMA_INCR_BOTH&#160;</td><td class="fielddoc"><p>Increment both addresses after a beat. </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00765">765</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<a id="ac86e130e5617ffe35f2aa1169d8a67c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac86e130e5617ffe35f2aa1169d8a67c0">&#9670;&nbsp;</a></span>gpio_mux_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0">gpio_mux_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Available MUX values for configuring a pin's alternate function. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac86e130e5617ffe35f2aa1169d8a67c0a8224781ec4d2580d0a756a0831dfc731"></a>GPIO_MUX_A&#160;</td><td class="fielddoc"><p>select peripheral function A </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac86e130e5617ffe35f2aa1169d8a67c0ad65f474c933e032616f9d164707c7413"></a>GPIO_MUX_B&#160;</td><td class="fielddoc"><p>select peripheral function B </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac86e130e5617ffe35f2aa1169d8a67c0a735b6a3c0b2afe9159f89367eeee53d9"></a>GPIO_MUX_C&#160;</td><td class="fielddoc"><p>select peripheral function C </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac86e130e5617ffe35f2aa1169d8a67c0a58aca89cf09aaa1d2026ab1f32b05236"></a>GPIO_MUX_D&#160;</td><td class="fielddoc"><p>select peripheral function D </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac86e130e5617ffe35f2aa1169d8a67c0a1753f05fa16af9774bae3839d7fd0258"></a>GPIO_MUX_E&#160;</td><td class="fielddoc"><p>select peripheral function E </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac86e130e5617ffe35f2aa1169d8a67c0afa8534df31df91f936fec7ebb8144694"></a>GPIO_MUX_F&#160;</td><td class="fielddoc"><p>select peripheral function F </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac86e130e5617ffe35f2aa1169d8a67c0a72b834876d72c168f46f3c240a217a34"></a>GPIO_MUX_G&#160;</td><td class="fielddoc"><p>select peripheral function G </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac86e130e5617ffe35f2aa1169d8a67c0a3bc25dbd31de692bc46ea6fe674656be"></a>GPIO_MUX_H&#160;</td><td class="fielddoc"><p>select peripheral function H </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac86e130e5617ffe35f2aa1169d8a67c0a8224781ec4d2580d0a756a0831dfc731"></a>GPIO_MUX_A&#160;</td><td class="fielddoc"><p>alternate function A </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ac86e130e5617ffe35f2aa1169d8a67c0ad65f474c933e032616f9d164707c7413"></a>GPIO_MUX_B&#160;</td><td class="fielddoc"><p>alternate function B </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00132">132</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<a id="a35689050a00ae4d0da14a1abe0e38dc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35689050a00ae4d0da14a1abe0e38dc3">&#9670;&nbsp;</a></span>i2c_flag_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a35689050a00ae4d0da14a1abe0e38dc3">i2c_flag_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Available SERCOM I2C flag selections. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a35689050a00ae4d0da14a1abe0e38dc3a0af5d8198ede19f93bab78bc0db71652"></a>I2C_FLAG_NONE&#160;</td><td class="fielddoc"><p>No flags set. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a35689050a00ae4d0da14a1abe0e38dc3a7dbf5268ce25d42f71d696e4577df53e"></a>I2C_FLAG_RUN_STANDBY&#160;</td><td class="fielddoc"><p>run SERCOM in standby mode </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00302">302</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<a id="a5f3aefc5ac5917dd4a5c71ca3b624b29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f3aefc5ac5917dd4a5c71ca3b624b29">&#9670;&nbsp;</a></span>spi_misopad_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a5f3aefc5ac5917dd4a5c71ca3b624b29">spi_misopad_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Available values for SERCOM SPI MISO pad selection. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5f3aefc5ac5917dd4a5c71ca3b624b29a92f167e36771c98d038232388b7e850c"></a>SPI_PAD_MISO_0&#160;</td><td class="fielddoc"><p>use pad 0 for MISO line </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5f3aefc5ac5917dd4a5c71ca3b624b29a37ec9a2389ee973ec1785845479a2130"></a>SPI_PAD_MISO_1&#160;</td><td class="fielddoc"><p>use pad 0 for MISO line </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5f3aefc5ac5917dd4a5c71ca3b624b29a69ad245d6a0b17445d3ff6ca4bfb9fd6"></a>SPI_PAD_MISO_2&#160;</td><td class="fielddoc"><p>use pad 0 for MISO line </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5f3aefc5ac5917dd4a5c71ca3b624b29abbe88f9c5efc963d0cf52674f3d370d9"></a>SPI_PAD_MISO_3&#160;</td><td class="fielddoc"><p>use pad 0 for MISO line </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00222">222</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<a id="aecd093a68bc8af5fd8df392bc9e7d598"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecd093a68bc8af5fd8df392bc9e7d598">&#9670;&nbsp;</a></span>spi_mosipad_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#aecd093a68bc8af5fd8df392bc9e7d598">spi_mosipad_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Available values for SERCOM SPI MOSI and SCK pad selection. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aecd093a68bc8af5fd8df392bc9e7d598afb7a1f7d65f561a12e60be5a27b3a395"></a>SPI_PAD_MOSI_0_SCK_1&#160;</td><td class="fielddoc"><p>use pad 0 for MOSI, pad 1 for SCK </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aecd093a68bc8af5fd8df392bc9e7d598a3dfa7950c9a6cb45530c07ae67f13581"></a>SPI_PAD_MOSI_2_SCK_3&#160;</td><td class="fielddoc"><p>use pad 2 for MOSI, pad 3 for SCK </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aecd093a68bc8af5fd8df392bc9e7d598a51569f604aa9f0adaa1b5eaf767aaae9"></a>SPI_PAD_MOSI_3_SCK_1&#160;</td><td class="fielddoc"><p>use pad 3 for MOSI, pad 1 for SCK </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aecd093a68bc8af5fd8df392bc9e7d598a41b718f20afe7b352a8054ffe68cc730"></a>SPI_PAD_MOSI_0_SCK_3&#160;</td><td class="fielddoc"><p>use pad 0 for MOSI, pad 3 for SCK </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00232">232</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<a id="a836e09ffaa5767111e9d10b38a17fd75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a836e09ffaa5767111e9d10b38a17fd75">&#9670;&nbsp;</a></span>uart_flag_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a836e09ffaa5767111e9d10b38a17fd75">uart_flag_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Available SERCOM UART flag selections. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a836e09ffaa5767111e9d10b38a17fd75a85629b346e3b64053d1888d17efdfcd6"></a>UART_FLAG_NONE&#160;</td><td class="fielddoc"><p>No flags set. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a836e09ffaa5767111e9d10b38a17fd75aeea3ab9987a87420391bc2035d89030e"></a>UART_FLAG_RUN_STANDBY&#160;</td><td class="fielddoc"><p>run SERCOM in standby mode </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a836e09ffaa5767111e9d10b38a17fd75af1543018e41d97c317723a479d3ece08"></a>UART_FLAG_WAKEUP&#160;</td><td class="fielddoc"><p>wake from sleep on receive </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a836e09ffaa5767111e9d10b38a17fd75a6d882596e7396b5e216c1820bd9df4e5"></a>UART_FLAG_RXINV&#160;</td><td class="fielddoc"><p>invert RX signal </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a836e09ffaa5767111e9d10b38a17fd75a440a7082816f610f0016f55c3f2da5aa"></a>UART_FLAG_TXINV&#160;</td><td class="fielddoc"><p>invert TX signal </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00167">167</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<a id="a021fb5a98f716e7efb8754e405c81199"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a021fb5a98f716e7efb8754e405c81199">&#9670;&nbsp;</a></span>uart_rxpad_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a021fb5a98f716e7efb8754e405c81199">uart_rxpad_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Available values for SERCOM UART RX pad selection. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a021fb5a98f716e7efb8754e405c81199a2b6fd10598396e4c9dd46daeaf8205d2"></a>UART_PAD_RX_0&#160;</td><td class="fielddoc"><p>use pad 0 for RX line </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a021fb5a98f716e7efb8754e405c81199a274af0f75e2a10323280d40487559c64"></a>UART_PAD_RX_1&#160;</td><td class="fielddoc"><p>select pad 1 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a021fb5a98f716e7efb8754e405c81199a7ad5da463da8af334a21010ab254fa93"></a>UART_PAD_RX_2&#160;</td><td class="fielddoc"><p>select pad 2 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a021fb5a98f716e7efb8754e405c81199a66d59263bdb8bf96952c1e75b999f45e"></a>UART_PAD_RX_3&#160;</td><td class="fielddoc"><p>select pad 3 </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00147">147</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<a id="a9a4da11aea6791b96ad83a061b0f576d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a4da11aea6791b96ad83a061b0f576d">&#9670;&nbsp;</a></span>uart_txpad_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a9a4da11aea6791b96ad83a061b0f576d">uart_txpad_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Available values for SERCOM UART TX pad selection. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a9a4da11aea6791b96ad83a061b0f576dad17d929271f49a266d2dd337a6b4004a"></a>UART_PAD_TX_0&#160;</td><td class="fielddoc"><p>select pad 0 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9a4da11aea6791b96ad83a061b0f576dae59a06105ec31aff983245e9d06cad10"></a>UART_PAD_TX_2&#160;</td><td class="fielddoc"><p>select pad 2 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a9a4da11aea6791b96ad83a061b0f576da62691ed835f147978930060144e520ab"></a>UART_PAD_TX_0_RTS_2_CTS_3&#160;</td><td class="fielddoc"><p>TX is pad 0, on top RTS on pad 2 and CTS on pad 3. </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00157">157</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a8ef90437fbbfb1923cee77f5fbf44a16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ef90437fbbfb1923cee77f5fbf44a16">&#9670;&nbsp;</a></span>cpu_pm_cb_enter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cpu_pm_cb_enter </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>deep</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called before the power management enters a power mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">deep</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a416db8ec05f950437ecfe7e28c4d39f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a416db8ec05f950437ecfe7e28c4d39f4">&#9670;&nbsp;</a></span>cpu_pm_cb_leave()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cpu_pm_cb_leave </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>deep</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called after the power management left a power mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">deep</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5f278a1560d69271018f17c874f0b311"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f278a1560d69271018f17c874f0b311">&#9670;&nbsp;</a></span>dma_acquire_channel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a> dma_acquire_channel </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Acquire a DMA channel. </p>
+<p>A free DMA channel is marked as allocated and a reference is returned. DMA channels can be acquired for long periods of time, e.g. from the start to end of a number of transfers or directly at boot and never released.</p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the DMA channel </dd>
+<dd>
+UINT8_MAX when no DMA channel is available </dd></dl>
+
+</div>
+</div>
+<a id="a9fad966cbb977e03da51f878cdd3e634"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fad966cbb977e03da51f878cdd3e634">&#9670;&nbsp;</a></span>dma_append()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_append </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a>&#160;</td>
+          <td class="paramname"><em>dma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DmacDescriptor *&#160;</td>
+          <td class="paramname"><em>descriptor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>dst</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a>&#160;</td>
+          <td class="paramname"><em>num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a9e0d37c40017608bf9423d47bd306aad">dma_incr_t</a>&#160;</td>
+          <td class="paramname"><em>incr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Append a second transfer descriptor after the default channel descriptor. </p>
+<dl class="section note"><dt>Note</dt><dd>Only a single extra transfer descriptor is supported for now.</dd>
+<dd>
+<code>next</code> must remain valid throughout the full transfer duration</dd>
+<dd>
+When increment is enabled for source or destination, <code>src</code> and/or <code>dst</code> must point to the <b>end</b> of the array.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dma</td><td>DMA channel reference to add the descriptor to </td></tr>
+    <tr><td class="paramname">descriptor</td><td>Extra transfer descriptor to append </td></tr>
+    <tr><td class="paramname">width</td><td>Transfer beat size to use </td></tr>
+    <tr><td class="paramname">src</td><td>Source address for the transfer </td></tr>
+    <tr><td class="paramname">dst</td><td>Destination address for the transfer </td></tr>
+    <tr><td class="paramname">num</td><td>Number of beats to transfer </td></tr>
+    <tr><td class="paramname">incr</td><td>Which of the addresses to increment after a beat </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a91450f9cb3499fde9c17d123ae1b8724"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91450f9cb3499fde9c17d123ae1b8724">&#9670;&nbsp;</a></span>dma_append_dst()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_append_dst </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a>&#160;</td>
+          <td class="paramname"><em>dma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DmacDescriptor *&#160;</td>
+          <td class="paramname"><em>next</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>dst</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a>&#160;</td>
+          <td class="paramname"><em>num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>incr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Append a second transfer descriptor after the default channel descriptor, copying source and block size from the initial descriptor. </p>
+<dl class="section note"><dt>Note</dt><dd>Only a single extra transfer descriptor is supported for now.</dd>
+<dd>
+<code>next</code> must remain valid throughout the full transfer duration</dd>
+<dd>
+When increment is enabled for destination, <code>dst</code> must point to the <b>end</b> of the array.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dma</td><td>DMA channel reference to add the descriptor to </td></tr>
+    <tr><td class="paramname">next</td><td>Extra transfer descriptor to append </td></tr>
+    <tr><td class="paramname">dst</td><td>Destination address for the transfer </td></tr>
+    <tr><td class="paramname">num</td><td>Number of beats to transfer </td></tr>
+    <tr><td class="paramname">incr</td><td>Whether to increment the source address after a beat </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac255fe1e0e1021f080229efe9e004aaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac255fe1e0e1021f080229efe9e004aaa">&#9670;&nbsp;</a></span>dma_append_src()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_append_src </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a>&#160;</td>
+          <td class="paramname"><em>dma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DmacDescriptor *&#160;</td>
+          <td class="paramname"><em>next</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a>&#160;</td>
+          <td class="paramname"><em>num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>incr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Append a second transfer descriptor after the default channel descriptor, copying destination and block size from the initial descriptor. </p>
+<dl class="section note"><dt>Note</dt><dd>Only a single extra transfer descriptor is supported for now.</dd>
+<dd>
+<code>next</code> must remain valid throughout the full transfer duration</dd>
+<dd>
+When increment is enabled for source, <code>src</code> must point to the <b>end</b> of the array.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dma</td><td>DMA channel reference to add the descriptor to </td></tr>
+    <tr><td class="paramname">next</td><td>Extra transfer descriptor to append </td></tr>
+    <tr><td class="paramname">src</td><td>Source address for the transfer </td></tr>
+    <tr><td class="paramname">num</td><td>Number of beats to transfer </td></tr>
+    <tr><td class="paramname">incr</td><td>Whether to increment the source address after a beat </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a34d7f34890a15bbb258c60e340534e7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34d7f34890a15bbb258c60e340534e7d">&#9670;&nbsp;</a></span>dma_cancel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_cancel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a>&#160;</td>
+          <td class="paramname"><em>dma</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cancel an active DMA transfer. </p>
+<p>It is not harmful to call this on an inactive channel, but it will waste some processing time</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dma</td><td>DMA channel reference </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a171ec4dc2efe5cddf9174cab6825e6b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a171ec4dc2efe5cddf9174cab6825e6b2">&#9670;&nbsp;</a></span>dma_prepare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_prepare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a>&#160;</td>
+          <td class="paramname"><em>dma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>dst</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a>&#160;</td>
+          <td class="paramname"><em>num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a9e0d37c40017608bf9423d47bd306aad">dma_incr_t</a>&#160;</td>
+          <td class="paramname"><em>incr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prepare the DMA channel for an individual transfer. </p>
+<dl class="section note"><dt>Note</dt><dd>When increment is enabled for source or destination, the <code>src</code> and/or <code>dst</code> must point to the <b>end</b> of the array.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dma</td><td>DMA channel reference </td></tr>
+    <tr><td class="paramname">width</td><td>Transfer beat size to use </td></tr>
+    <tr><td class="paramname">src</td><td>Source address for the transfer </td></tr>
+    <tr><td class="paramname">dst</td><td>Destination address for the transfer </td></tr>
+    <tr><td class="paramname">num</td><td>Number of beats to transfer </td></tr>
+    <tr><td class="paramname">incr</td><td>Which of the addresses to increment after a beat </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3659b2adfc79b3dd9d3825f8a0fa7b21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3659b2adfc79b3dd9d3825f8a0fa7b21">&#9670;&nbsp;</a></span>dma_prepare_dst()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_prepare_dst </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a>&#160;</td>
+          <td class="paramname"><em>dma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>dst</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a>&#160;</td>
+          <td class="paramname"><em>num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>incr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prepare a transfer without modifying the source address settings. </p>
+<p>Can be used when repeatedly using a dma channel to transfer from the same peripheral address, leaving the source address and related settings untouched</p>
+<dl class="section note"><dt>Note</dt><dd>This only touches the destination address, the number of transfers and destination increment settings. Be sure to initialize the full descriptor beforehand with <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a171ec4dc2efe5cddf9174cab6825e6b2">dma_prepare</a></dd>
+<dd>
+When increment is enabled for destination, <code>dst</code> must point to the <b>end</b> of the array.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dma</td><td>DMA channel reference </td></tr>
+    <tr><td class="paramname">dst</td><td>Destination address for the transfer </td></tr>
+    <tr><td class="paramname">num</td><td>Number of beats to transfer </td></tr>
+    <tr><td class="paramname">incr</td><td>Whether to increment the destination address after a beat </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="af832cb61dbdbfc9731ee4acde62a3f14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af832cb61dbdbfc9731ee4acde62a3f14">&#9670;&nbsp;</a></span>dma_prepare_src()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_prepare_src </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a>&#160;</td>
+          <td class="paramname"><em>dma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a>&#160;</td>
+          <td class="paramname"><em>num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>incr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prepare a transfer without modifying the destination address settings. </p>
+<p>Can be used when repeatedly using a dma channel to transfer to the same peripheral address, leaving the destination address and related settings untouched</p>
+<dl class="section note"><dt>Note</dt><dd>This only touches the source address, number of transfers and source increment settings. Be sure to initialize the full descriptor beforehand with <a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#a171ec4dc2efe5cddf9174cab6825e6b2">dma_prepare</a></dd>
+<dd>
+When increment is enabled for source, the <code>src</code> must point to the <b>end</b> of the array.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dma</td><td>DMA channel reference </td></tr>
+    <tr><td class="paramname">src</td><td>Source address for the transfer </td></tr>
+    <tr><td class="paramname">num</td><td>Number of beats to transfer </td></tr>
+    <tr><td class="paramname">incr</td><td>Whether to increment the source address after a beat </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a64601b2c03edb42fc37eb23aa7f1d6a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64601b2c03edb42fc37eb23aa7f1d6a8">&#9670;&nbsp;</a></span>dma_release_channel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_release_channel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a>&#160;</td>
+          <td class="paramname"><em>dma</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Release a previously acquired DMA channel. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dma</td><td>DMA channel to release </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a476526a345cf41251ac41c171d087ac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a476526a345cf41251ac41c171d087ac1">&#9670;&nbsp;</a></span>dma_setup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_setup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a>&#160;</td>
+          <td class="paramname"><em>dma</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>trigger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>prio</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>irq</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize a previously allocated DMA channel with one-time settings. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dma</td><td>DMA channel reference </td></tr>
+    <tr><td class="paramname">trigger</td><td>Trigger to use for this DMA channel </td></tr>
+    <tr><td class="paramname">prio</td><td>Channel priority </td></tr>
+    <tr><td class="paramname">irq</td><td>Whether to enable the interrupt handler for this channel </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afa298eabce48b1b3e160f53717d6962b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa298eabce48b1b3e160f53717d6962b">&#9670;&nbsp;</a></span>dma_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_start </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a>&#160;</td>
+          <td class="paramname"><em>dma</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start a DMA transfer. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dma</td><td>DMA channel reference </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a262ff8cbca58c8dc47b5ef4ac9d503a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a262ff8cbca58c8dc47b5ef4ac9d503a2">&#9670;&nbsp;</a></span>dma_wait()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void dma_wait </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#abc9032c3a330351ad3078e39069b3514">dma_t</a>&#160;</td>
+          <td class="paramname"><em>dma</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Wait for a DMA channel to finish the transfer. </p>
+<p>This function uses a blocking mutex to wait for the transfer to finish</p>
+<dl class="section note"><dt>Note</dt><dd>Use only with DMA channels of which the interrupt is enabled</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dma</td><td>DMA channel reference </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0d9a7441b2caf95ad2f9cb2232e6418c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d9a7441b2caf95ad2f9cb2232e6418c">&#9670;&nbsp;</a></span>gpio_disable_mux()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gpio_disable_mux </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__periph__gpio.html#gadacfc0deb08affff1e88f9549c8e2823">gpio_t</a>&#160;</td>
+          <td class="paramname"><em>pin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable alternate function (PMUX setting) for a PORT pin. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pin</td><td>Pin to reset the multiplexing for </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a444741edfb203e5956e8459181ae1a16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a444741edfb203e5956e8459181ae1a16">&#9670;&nbsp;</a></span>gpio_init_mux()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gpio_init_mux </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__periph__gpio.html#gadacfc0deb08affff1e88f9549c8e2823">gpio_t</a>&#160;</td>
+          <td class="paramname"><em>pin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0">gpio_mux_t</a>&#160;</td>
+          <td class="paramname"><em>mux</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set up alternate function (PMUX setting) for a PORT pin. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pin</td><td>Pin to set the multiplexing for </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mux</td><td>Mux value </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afcce5407ba5444d181a8f085bc3a2832"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcce5407ba5444d181a8f085bc3a2832">&#9670;&nbsp;</a></span>gpio_pm_cb_enter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gpio_pm_cb_enter </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>deep</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called before the power management enters a power mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">deep</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6fdb7ae4ed39ceb155d9ec7522b8bc9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fdb7ae4ed39ceb155d9ec7522b8bc9d">&#9670;&nbsp;</a></span>gpio_pm_cb_leave()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gpio_pm_cb_leave </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>deep</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called after the power management left a power mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">deep</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a898b0b2607bf5b03775ca79cc0b047ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a898b0b2607bf5b03775ca79cc0b047ba">&#9670;&nbsp;</a></span>sam0_cortexm_sleep()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void sam0_cortexm_sleep </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>deep</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Wrapper for cortexm_sleep calling power management callbacks. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">deep</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00409">409</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<a id="abd6d605fc39c6a1c13f8b8aac1f25ff3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd6d605fc39c6a1c13f8b8aac1f25ff3">&#9670;&nbsp;</a></span>sam0_gclk_enable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void sam0_gclk_enable </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enables an on-demand GCLK that has been configured in cpu.c. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>The ID of the GCLK </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5a8e84c1eccb5bce55462c9ffc70ca87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a8e84c1eccb5bce55462c9ffc70ca87">&#9670;&nbsp;</a></span>sam0_gclk_freq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t sam0_gclk_freq </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the frequency of a GCLK provider. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">id</td><td>The ID of the GCLK</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The frequency of the GCLK with the given ID. </dd></dl>
+
+</div>
+</div>
+<a id="ae5483a8b74b140a99e635437b519aa30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5483a8b74b140a99e635437b519aa30">&#9670;&nbsp;</a></span>sam0_set_voltage_regulator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void sam0_set_voltage_regulator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="sam0__common_2include_2periph__cpu__common_8h.html#af734ec0eb8f02ea6acd32e1efda0dfed">sam0_supc_t</a>&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Switch the internal voltage regulator used for generating the internal MCU voltages. </p>
+<p>Available options are:</p>
+<ul>
+<li>LDO: not very efficient, but will always work</li>
+<li>BUCK converter: Most efficient, but incompatible with the use of DFLL or DPLL. Please refer to the errata sheet, further restrictions may apply depending on the MCU.</li>
+</ul>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">src</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00455">455</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<a id="a8c9fd4adf3c2aa1f8ff737d00f1849fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c9fd4adf3c2aa1f8ff737d00f1849fe">&#9670;&nbsp;</a></span>sercom_clk_dis()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void sercom_clk_dis </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>sercom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Disable peripheral clock for given SERCOM device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sercom</td><td>SERCOM device </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00573">573</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<a id="af316f0004ecaf984f972085bada32000"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af316f0004ecaf984f972085bada32000">&#9670;&nbsp;</a></span>sercom_clk_en()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void sercom_clk_en </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>sercom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enable peripheral clock for given SERCOM device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sercom</td><td>SERCOM device </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00543">543</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<a id="a26065779efe4c2bbeab837b5c424bfde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26065779efe4c2bbeab837b5c424bfde">&#9670;&nbsp;</a></span>sercom_id()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint8_t sercom_id </td>
+          <td>(</td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>sercom</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the numeric id of a SERCOM device derived from its address. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sercom</td><td>SERCOM device</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>numeric id of the given SERCOM device </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00489">489</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+<a id="a715ce6f0ace7746dc434400c51c18fd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a715ce6f0ace7746dc434400c51c18fd5">&#9670;&nbsp;</a></span>sercom_set_gen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void sercom_set_gen </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>sercom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>gclk</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Configure generator clock for given SERCOM device. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">sercom</td><td>SERCOM device </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">gclk</td><td>Generator clock </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00615">615</a> of file <a class="el" href="sam0__common_2include_2periph__cpu__common_8h_source.html">periph_cpu_common.h</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+    <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+        <ul>
+            <li class="footer">Generated on Wed Jul 1 2020 17:08:55 by <a href="http://www.doxygen.org/index.html">
+                       <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
+        </ul>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.smartmenus.min.js"></script>
+    <script src="jquery.smartmenus.bootstrap.min.js"></script>
+    <script src="riot-doxy.js"></script>
+  </body>
+</html>

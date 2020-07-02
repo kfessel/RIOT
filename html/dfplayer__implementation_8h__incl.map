@@ -1,0 +1,16 @@
+<map id="drivers/dfplayer/include/dfplayer_implementation.h" name="drivers/dfplayer/include/dfplayer_implementation.h">
+<area shape="rect" id="node2" href="$errno_8h.html" title="errno.h" alt="" coords="178,95,241,121"/>
+<area shape="rect" id="node3" href="$dfplayer_8h.html" title="DFPlayer Mini Device Driver. " alt="" coords="265,95,343,121"/>
+<area shape="rect" id="node8" href="$dfplayer__types_8h.html" title="Types used in the DFPlayer Mini Device Driver. " alt="" coords="318,244,437,271"/>
+<area shape="rect" id="node22" href="$dfplayer__constants_8h.html" title="Constants used in the DFPlayer Mini Driver. " alt="" coords="513,244,655,271"/>
+<area shape="rect" id="node23" href="$dfplayer__internal_8h.html" title="Internal functions of DFPlayer Mini Device driver. " alt="" coords="419,169,547,196"/>
+<area shape="rect" id="node6" href="$dfplayer__params_8h.html" title="Default configuration for the DFPlayer Mini driver. " alt="" coords="113,169,242,196"/>
+<area shape="rect" id="node21" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="36,244,153,271"/>
+<area shape="rect" id="node9" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="136,319,243,345"/>
+<area shape="rect" id="node14" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="317,319,387,345"/>
+<area shape="rect" id="node16" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="683,319,779,345"/>
+<area shape="rect" id="node19" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition. " alt="" coords="563,319,658,345"/>
+<area shape="rect" id="node10" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="121,393,199,420"/>
+<area shape="rect" id="node15" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="317,393,368,420"/>
+<area shape="rect" id="node20" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="533,393,672,420"/>
+</map>

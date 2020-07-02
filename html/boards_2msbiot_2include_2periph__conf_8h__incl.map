@@ -1,0 +1,4 @@
+<map id="boards/msbiot/include/periph_conf.h" name="boards/msbiot/include/periph_conf.h">
+<area shape="rect" id="node3" href="$cfg__clock__168__16__0_8h.html" title="Configure STM32F4 clock to 168MHz using PLL. " alt="" coords="126,95,293,121"/>
+<area shape="rect" id="node4" href="$cfg__spi__divtable_8h.html" title="Collection of pre&#45;computed bus pre&#45;scalers for SPI configuration. " alt="" coords="317,95,443,121"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="boards/arduino&#45;nano&#45;33&#45;ble/include/gpio_params.h" name="boards/arduino&#45;nano&#45;33&#45;ble/include/gpio_params.h">
+<area shape="rect" id="node2" href="$arduino-nano-33-ble_2include_2board_8h.html" title="Board specific configuration for the Arduino Nano 33 BLE. " alt="" coords="113,109,179,136"/>
+<area shape="rect" id="node5" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="231,109,327,136"/>
+<area shape="rect" id="node6" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="231,184,327,211"/>
+<area shape="rect" id="node10" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="351,184,445,211"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="boards/common/nrf51/include/cfg_clock_16_1.h" name="boards/common/nrf51/include/cfg_clock_16_1.h">
+<area shape="rect" id="node2" href="$boards_2airfy-beacon_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Airfy Beacon board. " alt="" coords="5,95,155,136"/>
+<area shape="rect" id="node3" href="$boards_2nrf51dk_2include_2periph__conf_8h.html" title="Peripheral configuration for the Nordic nRF51DK. " alt="" coords="179,95,333,136"/>
+<area shape="rect" id="node4" href="$boards_2nrf51dongle_2include_2periph__conf_8h.html" title="Peripheral configuration for the Nordic nRF51 Dongle. " alt="" coords="357,95,507,136"/>
+<area shape="rect" id="node5" href="$boards_2nrf6310_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nRF51 board nrf6310. " alt="" coords="531,95,685,136"/>
+</map>

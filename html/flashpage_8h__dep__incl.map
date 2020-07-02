@@ -1,0 +1,6 @@
+<map id="drivers/include/periph/flashpage.h" name="drivers/include/periph/flashpage.h">
+<area shape="rect" id="node2" href="$mtd__flashpage_8h.html" title="Interface definition for the flashpage memory driver. " alt="" coords="5,95,137,136"/>
+<area shape="rect" id="node3" href="$flashwrite_8h.html" title="riotboot flash writing module " alt="" coords="161,95,296,136"/>
+<area shape="rect" id="node4" href="$suit_8h_source.html" title="sys/include/suit.h" alt="" coords="167,184,291,211"/>
+<area shape="rect" id="node5" href="$handlers_8h_source.html" title="sys/include/suit/handlers.h" alt="" coords="140,259,317,285"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="drivers/include/pir.h" name="drivers/include/pir.h">
+<area shape="rect" id="node2" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="251,80,358,107"/>
+<area shape="rect" id="node8" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="422,80,518,107"/>
+<area shape="rect" id="node4" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="95,155,173,181"/>
+</map>

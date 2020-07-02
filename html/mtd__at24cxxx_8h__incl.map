@@ -1,0 +1,7 @@
+<map id="drivers/include/mtd_at24cxxx.h" name="drivers/include/mtd_at24cxxx.h">
+<area shape="rect" id="node2" href="$at24cxxx_8h.html" title="Device driver interface for AT24CXXX EEPROM units. " alt="" coords="370,95,457,121"/>
+<area shape="rect" id="node11" href="$mtd_8h.html" title="mtd.h" alt="" coords="490,95,545,121"/>
+<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="60,169,156,196"/>
+<area shape="rect" id="node8" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition. " alt="" coords="350,169,440,196"/>
+<area shape="rect" id="node10" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="326,244,464,271"/>
+</map>

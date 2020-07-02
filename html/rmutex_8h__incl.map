@@ -1,0 +1,6 @@
+<map id="core/include/rmutex.h" name="core/include/rmutex.h">
+<area shape="rect" id="node4" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="91,80,160,107"/>
+<area shape="rect" id="node7" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="244,80,351,107"/>
+<area shape="rect" id="node6" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="5,155,56,181"/>
+<area shape="rect" id="node8" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="263,155,342,181"/>
+</map>

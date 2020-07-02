@@ -1,0 +1,27 @@
+var esp32_2include_2board__common_8h =
+[
+    [ "ESP32_XTAL_FREQ", "esp32_2include_2board__common_8h.html#a0b2fb9a2db5cb2a6df2addcca04da35f", null ],
+    [ "LED0_MASK", "esp32_2include_2board__common_8h.html#abfabde35a3e8b7ab50146a5e223bfead", null ],
+    [ "LED0_OFF", "esp32_2include_2board__common_8h.html#aef2e39b9fd343d0e437fac0463f3e02d", null ],
+    [ "LED0_ON", "esp32_2include_2board__common_8h.html#a1e48dc02333bfc2e6ad3e5bd466eecd4", null ],
+    [ "LED0_TOGGLE", "esp32_2include_2board__common_8h.html#aebc6389533d9fc8dcbe4d2129a4d5a45", null ],
+    [ "LED1_MASK", "esp32_2include_2board__common_8h.html#a669ed6e073140d069b30442bf4c08842", null ],
+    [ "LED1_OFF", "esp32_2include_2board__common_8h.html#a343fd2d3ce61b84f88ddfaea32c67c58", null ],
+    [ "LED1_ON", "esp32_2include_2board__common_8h.html#aadd4c7ae0cd4e9bbb17f7055dd51fe08", null ],
+    [ "LED1_TOGGLE", "esp32_2include_2board__common_8h.html#a267fdbba1d750146b73da35c1731fd17", null ],
+    [ "LED2_MASK", "esp32_2include_2board__common_8h.html#a40f0f4b5ae7ea50d341105ddc740101e", null ],
+    [ "LED2_OFF", "esp32_2include_2board__common_8h.html#ac6468b1df4dfabcca0bb142044d6f976", null ],
+    [ "LED2_ON", "esp32_2include_2board__common_8h.html#ab55f588eb2c5177d3f7806e60d379fba", null ],
+    [ "LED2_TOGGLE", "esp32_2include_2board__common_8h.html#acd16785845ce7004334b91a98707f8eb", null ],
+    [ "MTD_0", "esp32_2include_2board__common_8h.html#a0f992c379bd87e59320727deb561bbbd", null ],
+    [ "SPI_FLASH_DRIVE_START", "esp32_2include_2board__common_8h.html#af3f4547c4a12fa24af7dd7e286aa9f27", null ],
+    [ "SPIFFS_ALIGNED_OBJECT_INDEX_TABLES", "esp32_2include_2board__common_8h.html#afdc47aa571d5b518828f894260a0d61b", null ],
+    [ "SPIFFS_CACHE", "esp32_2include_2board__common_8h.html#af23e950a724dcece1082fa62106fcbd0", null ],
+    [ "SPIFFS_HAL_CALLBACK_EXTRA", "esp32_2include_2board__common_8h.html#a5344be1b6fbd49daec8866db48adcd8a", null ],
+    [ "SPIFFS_READ_ONLY", "esp32_2include_2board__common_8h.html#a71836a4b19e137303a1cf15800f658e3", null ],
+    [ "SPIFFS_SINGLETON", "esp32_2include_2board__common_8h.html#a76aad051735d4001dec8d09f1be4dcb0", null ],
+    [ "STDIO_UART_BAUDRATE", "esp32_2include_2board__common_8h.html#ab2f12549369d69d3db8f38d49c8ca507", null ],
+    [ "board_init_common", "esp32_2include_2board__common_8h.html#ac601b7501329024bbbfc28ca034c9b6f", null ],
+    [ "print_board_config", "esp32_2include_2board__common_8h.html#a3844f28b299a5977576eef4430ba90e3", null ],
+    [ "mtd0", "esp32_2include_2board__common_8h.html#aff5f5efe3abd184592b11d520918dc44", null ]
+];

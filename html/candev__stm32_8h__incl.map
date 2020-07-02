@@ -1,0 +1,12 @@
+<map id="cpu/stm32/include/candev_stm32.h" name="cpu/stm32/include/candev_stm32.h">
+<area shape="rect" id="node2" href="$candev_8h.html" title="Definitions for low&#45;level CAN driver interface. " alt="" coords="168,95,268,121"/>
+<area shape="rect" id="node4" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="520,319,584,345"/>
+<area shape="rect" id="node6" href="$sys_2include_2can_2can_8h.html" title="Definitions high&#45;level CAN interface. " alt="" coords="31,169,110,196"/>
+<area shape="rect" id="node7" href="$include_2can_2common_8h.html" title="Definitions of high&#45;level CAN interface. " alt="" coords="164,169,272,196"/>
+<area shape="rect" id="node13" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="366,169,436,196"/>
+<area shape="rect" id="node5" href="$malloc_8h.html" title="malloc.h" alt="" coords="516,393,587,420"/>
+<area shape="rect" id="node8" href="$uio_8h.html" title="libc header for scatter/gather I/O " alt="" coords="336,244,410,271"/>
+<area shape="rect" id="node10" href="$timex_8h.html" title="Utility library for comparing and computing timestamps. " alt="" coords="246,244,311,271"/>
+<area shape="rect" id="node11" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="231,319,310,345"/>
+<area shape="rect" id="node15" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="528,244,578,271"/>
+</map>

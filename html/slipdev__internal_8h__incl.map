@@ -1,0 +1,11 @@
+<map id="drivers/slipdev/include/slipdev_internal.h" name="drivers/slipdev/include/slipdev_internal.h">
+<area shape="rect" id="node4" href="$isrpipe_8h.html" title="isrpipe Interface " alt="" coords="229,95,299,121"/>
+<area shape="rect" id="node5" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="143,169,212,196"/>
+<area shape="rect" id="node11" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition. " alt="" coords="543,169,638,196"/>
+<area shape="rect" id="node7" href="$tsrb_8h.html" title="Thread&#45;safe ringbuffer interface definition. " alt="" coords="237,169,291,196"/>
+<area shape="rect" id="node6" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="43,244,93,271"/>
+<area shape="rect" id="node8" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="180,244,249,271"/>
+<area shape="rect" id="node9" href="$panic_8h.html" title="Crash handling header. " alt="" coords="183,319,247,345"/>
+<area shape="rect" id="node10" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="156,393,273,420"/>
+<area shape="rect" id="node15" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="415,244,553,271"/>
+</map>

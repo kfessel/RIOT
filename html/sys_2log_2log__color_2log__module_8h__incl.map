@@ -1,0 +1,7 @@
+<map id="sys/log/log_color/log_module.h" name="sys/log/log_color/log_module.h">
+<area shape="rect" id="node2" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="29,95,99,121"/>
+<area shape="rect" id="node6" href="$stdio_8h.html" title="stdio.h wrapper for MSP430 " alt="" coords="191,169,252,196"/>
+<area shape="rect" id="node8" href="$log_8h.html" title="System logging header. " alt="" coords="267,95,317,121"/>
+<area shape="rect" id="node3" href="$panic_8h.html" title="Crash handling header. " alt="" coords="32,169,96,196"/>
+<area shape="rect" id="node4" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="5,244,123,271"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="core/include/cib.h" name="core/include/cib.h">
+<area shape="rect" id="node2" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="33,80,102,107"/>
+<area shape="rect" id="node3" href="$panic_8h.html" title="Crash handling header. " alt="" coords="35,155,99,181"/>
+<area shape="rect" id="node4" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="9,229,126,256"/>
+</map>

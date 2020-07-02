@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>sys/include/net/gnrc/tcp.h Source File</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.powertip.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="doxy-jquery.js"></script>
+    <script src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <!-- Bootstrap -->
+    <link href="doxygen.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="riot.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div id="top">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" id="brand-logo" href="http://riot-os.org"><img height="40px" src="riot-logo.svg" /></a>
+              <p class="navbar-text text-center visible-xs">Documentation</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
+              <ul id="riot-navlist" class="nav navbar-nav"></ul>
+              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
+              <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
+                    onsubmit="try{
+                        var rhtml=document.getElementById('MSearchResults').contentWindow.document.body.innerHTML;
+                        document.getElementById('MSearchResultsWindow').style.display='none';
+                        document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
+                        document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
+                        document.getElementById('doc-content').innerHTML=rhtml;
+                        }finally{
+                            return false;
+                    }">
+                 <div class="form-group">
+                   <div id="MSearchBox" class="MSearchBoxActive">
+                     <div class="input-group">
+                       <div class="input-group-addon">
+                         <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
+                       </div>
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
+                              r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                       <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
+                         <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+<!-- Generated by Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('gnrc_2tcp_8h_source.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">tcp.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="gnrc_2tcp_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright (C) 2015-2017 Simon Brummer</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This file is subject to the terms and conditions of the GNU Lesser</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * General Public License v2.1. See the file LICENSE in the top level</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * directory for more details.</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> */</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#ifndef NET_GNRC_TCP_H</span></div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#define NET_GNRC_TCP_H</span></div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;stdint.h&gt;</span></div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="include_2net_2gnrc_2pkt_8h.html">net/gnrc/pkt.h</a>&quot;</span></div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="tcb_8h.html">net/gnrc/tcp/tcb.h</a>&quot;</span></div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#ifdef MODULE_GNRC_IPV6</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="gnrc_2ipv6_8h.html">net/gnrc/ipv6.h</a>&quot;</span></div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="structgnrc__tcp__ep__t.html">   41</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div><div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="structgnrc__tcp__ep__t.html#a40f51ca3cf7744e90a370091497c62c8">   42</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="structgnrc__tcp__ep__t.html#a40f51ca3cf7744e90a370091497c62c8">family</a>;                            </div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">union </span>{</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#ifdef MODULE_GNRC_IPV6</span></div><div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="structgnrc__tcp__ep__t.html#a10fb17a4e8ab05e39f380beb90a8b0ac">   45</a></span>&#160;        uint8_t ipv6[<span class="keyword">sizeof</span>(<a class="code" href="unionipv6__addr__t.html">ipv6_addr_t</a>)]; </div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="structgnrc__tcp__ep__t.html#aecd9d300507bc830b999d9f86400c1f6">   47</a></span>&#160;        uint8_t <a class="code" href="structgnrc__tcp__ep__t.html#aecd9d300507bc830b999d9f86400c1f6">dummy</a>;                     </div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    } addr;                                </div><div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="structgnrc__tcp__ep__t.html#a100b5930e95637d4caf66276dd452556">   49</a></span>&#160;    uint16_t <a class="code" href="structgnrc__tcp__ep__t.html#a100b5930e95637d4caf66276dd452556">netif</a>;                        </div><div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="structgnrc__tcp__ep__t.html#a5258be82544e488be5bc61abd55b7a88">   50</a></span>&#160;    uint16_t <a class="code" href="structgnrc__tcp__ep__t.html#a5258be82544e488be5bc61abd55b7a88">port</a>;                         </div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;} <a class="code" href="structgnrc__tcp__ep__t.html">gnrc_tcp_ep_t</a>;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keywordtype">int</span> <a class="code" href="group__net__gnrc__tcp.html#ga5ce1d01123352e4770987da103fedd17">gnrc_tcp_ep_init</a>(<a class="code" href="structgnrc__tcp__ep__t.html">gnrc_tcp_ep_t</a> *ep, <span class="keywordtype">int</span> family, <span class="keyword">const</span> uint8_t *addr, <span class="keywordtype">size_t</span> addr_size,</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                     uint16_t port, uint16_t netif);</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="keywordtype">int</span> <a class="code" href="group__net__gnrc__tcp.html#ga7666cfa4bc1580eb1e937b67d30d2251">gnrc_tcp_ep_from_str</a>(<a class="code" href="structgnrc__tcp__ep__t.html">gnrc_tcp_ep_t</a> *ep, <span class="keyword">const</span> <span class="keywordtype">char</span> *str);</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="keywordtype">int</span> <a class="code" href="group__net__gnrc__tcp.html#ga36bd9191d96fb21d0c4e5fa1f226df8d">gnrc_tcp_init</a>(<span class="keywordtype">void</span>);</div><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__net__gnrc__tcp.html#gafa3fa572c52592c2e24c6d29fe1fcdca">gnrc_tcp_tcb_init</a>(<a class="code" href="struct__transmission__control__block.html">gnrc_tcp_tcb_t</a> *tcb);</div><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="keywordtype">int</span> <a class="code" href="group__net__gnrc__tcp.html#ga5ae78e146398190cfadd90ee127927da">gnrc_tcp_open_active</a>(<a class="code" href="struct__transmission__control__block.html">gnrc_tcp_tcb_t</a> *tcb, <span class="keyword">const</span> <a class="code" href="structgnrc__tcp__ep__t.html">gnrc_tcp_ep_t</a> *remote,</div><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                         uint16_t local_port);</div><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="keywordtype">int</span> <a class="code" href="group__net__gnrc__tcp.html#ga259308499de7ba06bfb5584f389c37bd">gnrc_tcp_open_passive</a>(<a class="code" href="struct__transmission__control__block.html">gnrc_tcp_tcb_t</a> *tcb, <span class="keyword">const</span> <a class="code" href="structgnrc__tcp__ep__t.html">gnrc_tcp_ep_t</a> *local);</div><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;ssize_t <a class="code" href="group__net__gnrc__tcp.html#gab39c12a14c4c4dabe421acd41bb308c2">gnrc_tcp_send</a>(<a class="code" href="struct__transmission__control__block.html">gnrc_tcp_tcb_t</a> *tcb, <span class="keyword">const</span> <span class="keywordtype">void</span> *data, <span class="keyword">const</span> <span class="keywordtype">size_t</span> len,</div><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                      <span class="keyword">const</span> uint32_t user_timeout_duration_us);</div><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;</div><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;ssize_t <a class="code" href="group__net__gnrc__tcp.html#ga5e61dc42cb9d0d69a9af6b53ddf3f5d9">gnrc_tcp_recv</a>(<a class="code" href="struct__transmission__control__block.html">gnrc_tcp_tcb_t</a> *tcb, <span class="keywordtype">void</span> *data, <span class="keyword">const</span> <span class="keywordtype">size_t</span> max_len,</div><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                      <span class="keyword">const</span> uint32_t user_timeout_duration_us);</div><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__net__gnrc__tcp.html#ga070b6a96d79dd93dac2ae938c200e831">gnrc_tcp_close</a>(<a class="code" href="struct__transmission__control__block.html">gnrc_tcp_tcb_t</a> *tcb);</div><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;</div><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<span class="keywordtype">void</span> <a class="code" href="group__net__gnrc__tcp.html#gab662881dc7ede8cd0c4b8d4863e35f5d">gnrc_tcp_abort</a>(<a class="code" href="struct__transmission__control__block.html">gnrc_tcp_tcb_t</a> *tcb);</div><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;</div><div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="keywordtype">int</span> <a class="code" href="group__net__gnrc__tcp.html#ga3a3b7e47d3d7f804151db59ce618ad9b">gnrc_tcp_calc_csum</a>(<span class="keyword">const</span> <a class="code" href="structgnrc__pktsnip.html">gnrc_pktsnip_t</a> *hdr, <span class="keyword">const</span> <a class="code" href="structgnrc__pktsnip.html">gnrc_pktsnip_t</a> *pseudo_hdr);</div><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;</div><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<a class="code" href="structgnrc__pktsnip.html">gnrc_pktsnip_t</a> *<a class="code" href="group__net__gnrc__tcp.html#ga339a9f090c32b9cf793e18e038f2e32e">gnrc_tcp_hdr_build</a>(<a class="code" href="structgnrc__pktsnip.html">gnrc_pktsnip_t</a> *payload, uint16_t src, uint16_t dst);</div><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;</div><div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div><div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;}</div><div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;</div><div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* NET_GNRC_TCP_H */</span><span class="preprocessor"></span></div><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;</div><div class="ttc" id="group__net__gnrc__tcp_html_ga5ae78e146398190cfadd90ee127927da"><div class="ttname"><a href="group__net__gnrc__tcp.html#ga5ae78e146398190cfadd90ee127927da">gnrc_tcp_open_active</a></div><div class="ttdeci">int gnrc_tcp_open_active(gnrc_tcp_tcb_t *tcb, const gnrc_tcp_ep_t *remote, uint16_t local_port)</div><div class="ttdoc">Opens a connection actively. </div></div>
+<div class="ttc" id="tcb_8h_html"><div class="ttname"><a href="tcb_8h.html">tcb.h</a></div><div class="ttdoc">GNRC TCP transmission control block (TCB) </div></div>
+<div class="ttc" id="include_2net_2gnrc_2pkt_8h_html"><div class="ttname"><a href="include_2net_2gnrc_2pkt_8h.html">pkt.h</a></div><div class="ttdoc">General definitions for network packets and their helper functions. </div></div>
+<div class="ttc" id="group__net__gnrc__tcp_html_ga259308499de7ba06bfb5584f389c37bd"><div class="ttname"><a href="group__net__gnrc__tcp.html#ga259308499de7ba06bfb5584f389c37bd">gnrc_tcp_open_passive</a></div><div class="ttdeci">int gnrc_tcp_open_passive(gnrc_tcp_tcb_t *tcb, const gnrc_tcp_ep_t *local)</div><div class="ttdoc">Opens a connection passively, by waiting for an incoming request. </div></div>
+<div class="ttc" id="group__net__gnrc__tcp_html_ga339a9f090c32b9cf793e18e038f2e32e"><div class="ttname"><a href="group__net__gnrc__tcp.html#ga339a9f090c32b9cf793e18e038f2e32e">gnrc_tcp_hdr_build</a></div><div class="ttdeci">gnrc_pktsnip_t * gnrc_tcp_hdr_build(gnrc_pktsnip_t *payload, uint16_t src, uint16_t dst)</div><div class="ttdoc">Adds a TCP header to a given payload. </div></div>
+<div class="ttc" id="structgnrc__tcp__ep__t_html_a5258be82544e488be5bc61abd55b7a88"><div class="ttname"><a href="structgnrc__tcp__ep__t.html#a5258be82544e488be5bc61abd55b7a88">gnrc_tcp_ep_t::port</a></div><div class="ttdeci">uint16_t port</div><div class="ttdoc">Port number (in host byte order) </div><div class="ttdef"><b>Definition:</b> <a href="gnrc_2tcp_8h_source.html#l00050">tcp.h:50</a></div></div>
+<div class="ttc" id="structgnrc__tcp__ep__t_html"><div class="ttname"><a href="structgnrc__tcp__ep__t.html">gnrc_tcp_ep_t</a></div><div class="ttdoc">Address information for a single TCP connection endpoint. </div><div class="ttdef"><b>Definition:</b> <a href="gnrc_2tcp_8h_source.html#l00041">tcp.h:41</a></div></div>
+<div class="ttc" id="group__net__gnrc__tcp_html_gafa3fa572c52592c2e24c6d29fe1fcdca"><div class="ttname"><a href="group__net__gnrc__tcp.html#gafa3fa572c52592c2e24c6d29fe1fcdca">gnrc_tcp_tcb_init</a></div><div class="ttdeci">void gnrc_tcp_tcb_init(gnrc_tcp_tcb_t *tcb)</div><div class="ttdoc">Initialize Transmission Control Block (TCB) </div></div>
+<div class="ttc" id="struct__transmission__control__block_html"><div class="ttname"><a href="struct__transmission__control__block.html">_transmission_control_block</a></div><div class="ttdoc">Transmission control block of GNRC TCP. </div><div class="ttdef"><b>Definition:</b> <a href="tcb_8h_source.html#l00065">tcb.h:65</a></div></div>
+<div class="ttc" id="group__net__gnrc__tcp_html_gab662881dc7ede8cd0c4b8d4863e35f5d"><div class="ttname"><a href="group__net__gnrc__tcp.html#gab662881dc7ede8cd0c4b8d4863e35f5d">gnrc_tcp_abort</a></div><div class="ttdeci">void gnrc_tcp_abort(gnrc_tcp_tcb_t *tcb)</div><div class="ttdoc">Abort a TCP connection. </div></div>
+<div class="ttc" id="structgnrc__tcp__ep__t_html_a100b5930e95637d4caf66276dd452556"><div class="ttname"><a href="structgnrc__tcp__ep__t.html#a100b5930e95637d4caf66276dd452556">gnrc_tcp_ep_t::netif</a></div><div class="ttdeci">uint16_t netif</div><div class="ttdoc">Network interface ID. </div><div class="ttdef"><b>Definition:</b> <a href="gnrc_2tcp_8h_source.html#l00049">tcp.h:49</a></div></div>
+<div class="ttc" id="group__net__gnrc__tcp_html_ga7666cfa4bc1580eb1e937b67d30d2251"><div class="ttname"><a href="group__net__gnrc__tcp.html#ga7666cfa4bc1580eb1e937b67d30d2251">gnrc_tcp_ep_from_str</a></div><div class="ttdeci">int gnrc_tcp_ep_from_str(gnrc_tcp_ep_t *ep, const char *str)</div><div class="ttdoc">Construct TCP connection endpoint from string. </div></div>
+<div class="ttc" id="group__net__gnrc__tcp_html_ga070b6a96d79dd93dac2ae938c200e831"><div class="ttname"><a href="group__net__gnrc__tcp.html#ga070b6a96d79dd93dac2ae938c200e831">gnrc_tcp_close</a></div><div class="ttdeci">void gnrc_tcp_close(gnrc_tcp_tcb_t *tcb)</div><div class="ttdoc">Close a TCP connection. </div></div>
+<div class="ttc" id="group__net__gnrc__tcp_html_ga5e61dc42cb9d0d69a9af6b53ddf3f5d9"><div class="ttname"><a href="group__net__gnrc__tcp.html#ga5e61dc42cb9d0d69a9af6b53ddf3f5d9">gnrc_tcp_recv</a></div><div class="ttdeci">ssize_t gnrc_tcp_recv(gnrc_tcp_tcb_t *tcb, void *data, const size_t max_len, const uint32_t user_timeout_duration_us)</div><div class="ttdoc">Receive Data from the peer. </div></div>
+<div class="ttc" id="gnrc_2ipv6_8h_html"><div class="ttname"><a href="gnrc_2ipv6_8h.html">ipv6.h</a></div><div class="ttdoc">Definitions for GNRC&amp;#39;s IPv6 implementation. </div></div>
+<div class="ttc" id="structgnrc__tcp__ep__t_html_aecd9d300507bc830b999d9f86400c1f6"><div class="ttname"><a href="structgnrc__tcp__ep__t.html#aecd9d300507bc830b999d9f86400c1f6">gnrc_tcp_ep_t::dummy</a></div><div class="ttdeci">uint8_t dummy</div><div class="ttdoc">Enable build without network module. </div><div class="ttdef"><b>Definition:</b> <a href="gnrc_2tcp_8h_source.html#l00047">tcp.h:47</a></div></div>
+<div class="ttc" id="group__net__gnrc__tcp_html_ga36bd9191d96fb21d0c4e5fa1f226df8d"><div class="ttname"><a href="group__net__gnrc__tcp.html#ga36bd9191d96fb21d0c4e5fa1f226df8d">gnrc_tcp_init</a></div><div class="ttdeci">int gnrc_tcp_init(void)</div><div class="ttdoc">Initialize TCP. </div></div>
+<div class="ttc" id="group__net__gnrc__tcp_html_ga5ce1d01123352e4770987da103fedd17"><div class="ttname"><a href="group__net__gnrc__tcp.html#ga5ce1d01123352e4770987da103fedd17">gnrc_tcp_ep_init</a></div><div class="ttdeci">int gnrc_tcp_ep_init(gnrc_tcp_ep_t *ep, int family, const uint8_t *addr, size_t addr_size, uint16_t port, uint16_t netif)</div><div class="ttdoc">Initialize TCP connection endpoint. </div></div>
+<div class="ttc" id="group__net__gnrc__tcp_html_gab39c12a14c4c4dabe421acd41bb308c2"><div class="ttname"><a href="group__net__gnrc__tcp.html#gab39c12a14c4c4dabe421acd41bb308c2">gnrc_tcp_send</a></div><div class="ttdeci">ssize_t gnrc_tcp_send(gnrc_tcp_tcb_t *tcb, const void *data, const size_t len, const uint32_t user_timeout_duration_us)</div><div class="ttdoc">Transmit data to connected peer. </div></div>
+<div class="ttc" id="structgnrc__pktsnip_html"><div class="ttname"><a href="structgnrc__pktsnip.html">gnrc_pktsnip</a></div><div class="ttdoc">Type to represent parts (either headers or payload) of a packet, called snips. </div><div class="ttdef"><b>Definition:</b> <a href="include_2net_2gnrc_2pkt_8h_source.html#l00107">pkt.h:107</a></div></div>
+<div class="ttc" id="structgnrc__tcp__ep__t_html_a40f51ca3cf7744e90a370091497c62c8"><div class="ttname"><a href="structgnrc__tcp__ep__t.html#a40f51ca3cf7744e90a370091497c62c8">gnrc_tcp_ep_t::family</a></div><div class="ttdeci">int family</div><div class="ttdoc">IP address family. </div><div class="ttdef"><b>Definition:</b> <a href="gnrc_2tcp_8h_source.html#l00042">tcp.h:42</a></div></div>
+<div class="ttc" id="unionipv6__addr__t_html"><div class="ttname"><a href="unionipv6__addr__t.html">ipv6_addr_t</a></div><div class="ttdoc">Data type to represent an IPv6 address. </div><div class="ttdef"><b>Definition:</b> <a href="ipv6_2addr_8h_source.html#l00074">addr.h:74</a></div></div>
+<div class="ttc" id="group__net__gnrc__tcp_html_ga3a3b7e47d3d7f804151db59ce618ad9b"><div class="ttname"><a href="group__net__gnrc__tcp.html#ga3a3b7e47d3d7f804151db59ce618ad9b">gnrc_tcp_calc_csum</a></div><div class="ttdeci">int gnrc_tcp_calc_csum(const gnrc_pktsnip_t *hdr, const gnrc_pktsnip_t *pseudo_hdr)</div><div class="ttdoc">Calculate and set checksum in TCP header. </div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+    <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+        <ul>
+            <li class="footer">Generated on Wed Jul 1 2020 17:08:54 by <a href="http://www.doxygen.org/index.html">
+                       <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
+        </ul>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.smartmenus.min.js"></script>
+    <script src="jquery.smartmenus.bootstrap.min.js"></script>
+    <script src="riot-doxy.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+<map id="cpu/cc2538/include/cpu_conf.h" name="cpu/cc2538/include/cpu_conf.h">
+<area shape="rect" id="node3" href="$cc2538_8h.html" title="CC2538 MCU interrupt and register definitions. " alt="" coords="607,169,682,196"/>
+<area shape="rect" id="node5" href="$cc2538__gpio_8h.html" title="Driver for the cc2538 GPIO controller. " alt="" coords="1069,95,1175,121"/>
+<area shape="rect" id="node7" href="$cc2538__uart_8h.html" title="CC2538 UART interface. " alt="" coords="637,95,741,121"/>
+<area shape="rect" id="node8" href="$cc2538__gptimer_8h.html" title="CC2538 General Purpose Timer (GPTIMER) driver. " alt="" coords="919,95,1045,121"/>
+<area shape="rect" id="node9" href="$cc2538__soc__adc_8h.html" title="CC2538 SOC ADC interface. " alt="" coords="765,95,895,121"/>
+<area shape="rect" id="node10" href="$cc2538__ssi_8h.html" title="CC2538 SSI interface. " alt="" coords="173,95,271,121"/>
+<area shape="rect" id="node11" href="$cc2538__rfcore_8h.html" title="CC2538 RF core interface. " alt="" coords="295,95,410,121"/>
+<area shape="rect" id="node12" href="$cc2538__sys__ctrl_8h.html" title="CC2538 System Control interface. " alt="" coords="434,95,562,121"/>
+</map>

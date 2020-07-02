@@ -1,0 +1,23 @@
+<map id="drivers/dcf77/include/dcf77_params.h" name="drivers/dcf77/include/dcf77_params.h">
+<area shape="rect" id="node3" href="$dcf77_8h.html" title="Interface definition for the dcf77 sensor driver. " alt="" coords="591,95,656,121"/>
+<area shape="rect" id="node5" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="9,169,73,196"/>
+<area shape="rect" id="node7" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="163,393,241,420"/>
+<area shape="rect" id="node8" href="$xtimer_8h.html" title="xtimer interface definitions " alt="" coords="545,169,614,196"/>
+<area shape="rect" id="node32" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="1074,319,1170,345"/>
+<area shape="rect" id="node33" href="$dcf77__internal_8h.html" title="Bit definitions for DCF77 transmission. " alt="" coords="782,169,897,196"/>
+<area shape="rect" id="node6" href="$malloc_8h.html" title="malloc.h" alt="" coords="5,244,76,271"/>
+<area shape="rect" id="node10" href="$timex_8h.html" title="Utility library for comparing and computing timestamps. " alt="" coords="169,319,235,345"/>
+<area shape="rect" id="node11" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="731,319,801,345"/>
+<area shape="rect" id="node14" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="259,319,366,345"/>
+<area shape="rect" id="node17" href="$rmutex_8h.html" title="Recursive Mutex for thread synchronization. " alt="" coords="532,244,605,271"/>
+<area shape="rect" id="node20" href="$tick__conversion_8h.html" title="xtimer tick &lt;&#45;&gt; seconds conversions for different values of XTIMER_HZ " alt="" coords="344,244,508,271"/>
+<area shape="rect" id="node25" href="$implementation_8h.html" title="xtimer implementation " alt="" coords="892,244,1053,271"/>
+<area shape="rect" id="node13" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="698,393,749,420"/>
+<area shape="rect" id="node21" href="$div_8h.html" title="div.h" alt="" coords="390,319,441,345"/>
+<area shape="rect" id="node22" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="457,393,526,420"/>
+<area shape="rect" id="node23" href="$panic_8h.html" title="Crash handling header. " alt="" coords="459,468,523,495"/>
+<area shape="rect" id="node24" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="433,543,550,569"/>
+<area shape="rect" id="node26" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions. " alt="" coords="922,319,1023,345"/>
+<area shape="rect" id="node29" href="$irq_8h.html" title="IRQ driver interface. " alt="" coords="1195,319,1241,345"/>
+<area shape="rect" id="node28" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="911,393,1050,420"/>
+</map>

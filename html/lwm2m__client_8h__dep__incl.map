@@ -1,0 +1,4 @@
+<map id="pkg/wakaama/include/lwm2m_client.h" name="pkg/wakaama/include/lwm2m_client.h">
+<area shape="rect" id="node2" href="$lwm2m__client__connection_8h.html" title="Public API and definitions of the connection handle for LwM2M client implementation using Wakaama..." alt="" coords="5,95,192,136"/>
+<area shape="rect" id="node3" href="$lwm2m__client__objects_8h.html" title="Public API and definitions for the helper functions to interact with basic objects from a LwM2M clien..." alt="" coords="217,95,383,136"/>
+</map>

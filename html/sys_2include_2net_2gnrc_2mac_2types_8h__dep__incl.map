@@ -1,0 +1,5 @@
+<map id="sys/include/net/gnrc/mac/types.h" name="sys/include/net/gnrc/mac/types.h">
+<area shape="rect" id="node2" href="$netif_2mac_8h.html" title="Common MAC module definitions for Network interface API " alt="" coords="5,102,144,143"/>
+<area shape="rect" id="node3" href="$lwmac__internal_8h.html" title="Interface definition for internal functions of LWMAC protocol. " alt="" coords="168,102,379,143"/>
+<area shape="rect" id="node4" href="$tx__state__machine_8h.html" title="Implementation of TX state machine. " alt="" coords="403,95,563,151"/>
+</map>

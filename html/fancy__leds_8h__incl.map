@@ -1,0 +1,5 @@
+<map id="boards/common/remote/include/fancy_leds.h" name="boards/common/remote/include/fancy_leds.h">
+<area shape="rect" id="node2" href="$remote_2include_2board__common_8h.html" title="Board specific definitions for the RE&#45;Mote boards. " alt="" coords="206,95,329,121"/>
+<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="357,244,453,271"/>
+<area shape="rect" id="node8" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="223,169,312,196"/>
+</map>

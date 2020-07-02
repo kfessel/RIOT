@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>cpu/samd5x/include/periph_cpu.h File Reference</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.powertip.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="doxy-jquery.js"></script>
+    <script src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+</script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <!-- Bootstrap -->
+    <link href="doxygen.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="riot.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div id="top">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" id="brand-logo" href="http://riot-os.org"><img height="40px" src="riot-logo.svg" /></a>
+              <p class="navbar-text text-center visible-xs">Documentation</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
+              <ul id="riot-navlist" class="nav navbar-nav"></ul>
+              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
+              <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
+                    onsubmit="try{
+                        var rhtml=document.getElementById('MSearchResults').contentWindow.document.body.innerHTML;
+                        document.getElementById('MSearchResultsWindow').style.display='none';
+                        document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
+                        document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
+                        document.getElementById('doc-content').innerHTML=rhtml;
+                        }finally{
+                            return false;
+                    }">
+                 <div class="form-group">
+                   <div id="MSearchBox" class="MSearchBoxActive">
+                     <div class="input-group">
+                       <div class="input-group-addon">
+                         <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
+                       </div>
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
+                              r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                       <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
+                         <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+<!-- Generated by Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('samd5x_2include_2periph__cpu_8h.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a>  </div>
+  <div class="headertitle">
+<div class="title">periph_cpu.h File Reference<div class="ingroups"><a class="el" href="group__cpu.html">CPU</a> &raquo; <a class="el" href="group__cpu__samd5x.html">Microchip SAMD5x/SAME5x</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>CPU specific definitions for internal peripheral handling.  
+<a href="#details">More...</a></p>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>CPU specific definitions for internal peripheral handling. </p>
+<p>CPU specific definitions for internal peripheral handling</p>
+<dl class="section author"><dt>Author</dt><dd>Benjamin Valentin <a href="#" onclick="location.href='mai'+'lto:'+'ben'+'ja'+'min'+'.v'+'ale'+'nt'+'in@'+'ml'+'-pa'+'.c'+'om'; return false;">benja<span style="display: none;">.nosp@m.</span>min.<span style="display: none;">.nosp@m.</span>valen<span style="display: none;">.nosp@m.</span>tin@<span style="display: none;">.nosp@m.</span>ml-pa<span style="display: none;">.nosp@m.</span>.com</a> </dd></dl>
+
+<p class="definition">Definition in file <a class="el" href="samd5x_2include_2periph__cpu_8h_source.html">periph_cpu.h</a>.</p>
+</div><div class="textblock"><code>#include &lt;limits.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="units_8h_source.html">macros/units.h</a>&quot;</code><br />
+<code>#include &quot;periph_cpu_common.h&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for periph_cpu.h:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="samd5x_2include_2periph__cpu_8h__incl.svg" width="386" height="127"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+<p><a href="samd5x_2include_2periph__cpu_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a292c9a0a5b03329a153ad28343ff2e09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="samd5x_2include_2periph__cpu_8h.html#a292c9a0a5b03329a153ad28343ff2e09">SPI_HWCS</a>(x)&#160;&#160;&#160;(UINT_MAX - 1)</td></tr>
+<tr class="memdesc:a292c9a0a5b03329a153ad28343ff2e09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override SPI hardware chip select macro.  <a href="#a292c9a0a5b03329a153ad28343ff2e09">More...</a><br /></td></tr>
+<tr class="separator:a292c9a0a5b03329a153ad28343ff2e09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59201a381b7ecbc7a856d1d88724878e"><td class="memItemLeft" align="right" valign="top"><a id="a59201a381b7ecbc7a856d1d88724878e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="samd5x_2include_2periph__cpu_8h.html#a59201a381b7ecbc7a856d1d88724878e">DAC_RES_BITS</a>&#160;&#160;&#160;(12)</td></tr>
+<tr class="memdesc:a59201a381b7ecbc7a856d1d88724878e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The MCU has a 12 bit DAC. <br /></td></tr>
+<tr class="separator:a59201a381b7ecbc7a856d1d88724878e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d6ae6694d0a51952fb26d994de93d12"><td class="memItemLeft" align="right" valign="top"><a id="a2d6ae6694d0a51952fb26d994de93d12"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="samd5x_2include_2periph__cpu_8h.html#a2d6ae6694d0a51952fb26d994de93d12">DAC_NUMOF</a>&#160;&#160;&#160;(2)</td></tr>
+<tr class="memdesc:a2d6ae6694d0a51952fb26d994de93d12"><td class="mdescLeft">&#160;</td><td class="mdescRight">The MCU has two DAC outputs. <br /></td></tr>
+<tr class="separator:a2d6ae6694d0a51952fb26d994de93d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d52dd0144d38c033aa29d57351a0d0a"><td class="memItemLeft" align="right" valign="top"><a id="a3d52dd0144d38c033aa29d57351a0d0a"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="samd5x_2include_2periph__cpu_8h.html#a3d52dd0144d38c033aa29d57351a0d0a">SAM0_DFLL_FREQ_HZ</a>&#160;&#160;&#160;<a class="el" href="units_8h.html#ab7b18750ddf0850461f926ae151ca7fa">MHZ</a>(48)</td></tr>
+<tr class="memdesc:a3d52dd0144d38c033aa29d57351a0d0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">DFLL runs at at fixed frequency of 48 MHz. <br /></td></tr>
+<tr class="separator:a3d52dd0144d38c033aa29d57351a0d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a121c34ee69ce4a30751903b3da728672"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="samd5x_2include_2periph__cpu_8h.html#a121c34ee69ce4a30751903b3da728672">SAM0_XOSC_FREQ_HZ</a>&#160;&#160;&#160;(XOSC0_FREQUENCY ? XOSC0_FREQUENCY : XOSC1_FREQUENCY)</td></tr>
+<tr class="memdesc:a121c34ee69ce4a30751903b3da728672"><td class="mdescLeft">&#160;</td><td class="mdescRight">￼ *  <a href="#a121c34ee69ce4a30751903b3da728672">More...</a><br /></td></tr>
+<tr class="separator:a121c34ee69ce4a30751903b3da728672"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec3ed7e3039ce8fb8f2de6e3d2c177ef"><td class="memItemLeft" align="right" valign="top"><a id="aec3ed7e3039ce8fb8f2de6e3d2c177ef"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="samd5x_2include_2periph__cpu_8h.html#aec3ed7e3039ce8fb8f2de6e3d2c177ef">SAM0_DPLL_FREQ_MIN_HZ</a>&#160;&#160;&#160;<a class="el" href="units_8h.html#ab7b18750ddf0850461f926ae151ca7fa">MHZ</a>(96)</td></tr>
+<tr class="memdesc:aec3ed7e3039ce8fb8f2de6e3d2c177ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">DPLL must run with at least 96 MHz. <br /></td></tr>
+<tr class="separator:aec3ed7e3039ce8fb8f2de6e3d2c177ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c7545ee86bdfc88cca140ae2dc65dd6"><td class="memItemLeft" align="right" valign="top"><a id="a8c7545ee86bdfc88cca140ae2dc65dd6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="samd5x_2include_2periph__cpu_8h.html#a8c7545ee86bdfc88cca140ae2dc65dd6">SAM0_DPLL_FREQ_MAX_HZ</a>&#160;&#160;&#160;<a class="el" href="units_8h.html#ab7b18750ddf0850461f926ae151ca7fa">MHZ</a>(20)</td></tr>
+<tr class="memdesc:a8c7545ee86bdfc88cca140ae2dc65dd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">DPLL frequency must not exceed 200 MHz. <br /></td></tr>
+<tr class="separator:a8c7545ee86bdfc88cca140ae2dc65dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Power mode configuration</h2></td></tr>
+<tr class="memitem:a3d1931627629f3c43bd898da0be6075b"><td class="memItemLeft" align="right" valign="top"><a id="a3d1931627629f3c43bd898da0be6075b"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>PM_NUM_MODES</b>&#160;&#160;&#160;(3)</td></tr>
+<tr class="separator:a3d1931627629f3c43bd898da0be6075b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+SAMD5x GCLK definitions</h2></td></tr>
+<tr class="memitem:a5a77d65f4abba81d4456fa6ba8136e24"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a67031065696efef7697b5341140c1748">SAM0_GCLK_MAIN</a> = 0, 
+<a class="el" href="samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a9fe7340f432a0210661fde5a7fd357d6">SAM0_GCLK_32KHZ</a>, 
+<a class="el" href="samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a2df224b532e504c664562f932fb8c9b8">SAM0_GCLK_TIMER</a>, 
+<a class="el" href="samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a11e06014c73014464975350e2f17976e">SAM0_GCLK_PERIPH</a>
+ }</td></tr>
+<tr class="separator:a5a77d65f4abba81d4456fa6ba8136e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+GCLK compatibility definitions</h2></td></tr>
+<tr class="memitem:a00680b894a5a8b3129593d8f435250ac"><td class="memItemLeft" align="right" valign="top"><a id="a00680b894a5a8b3129593d8f435250ac"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SAM0_GCLK_8MHZ</b>&#160;&#160;&#160;<a class="el" href="samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a2df224b532e504c664562f932fb8c9b8">SAM0_GCLK_TIMER</a></td></tr>
+<tr class="separator:a00680b894a5a8b3129593d8f435250ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ae6fb73122b20f3f54cbf69e5974d7d"><td class="memItemLeft" align="right" valign="top"><a id="a4ae6fb73122b20f3f54cbf69e5974d7d"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>SAM0_GCLK_48MHZ</b>&#160;&#160;&#160;<a class="el" href="samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a11e06014c73014464975350e2f17976e">SAM0_GCLK_PERIPH</a></td></tr>
+<tr class="separator:a4ae6fb73122b20f3f54cbf69e5974d7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Real time counter configuration</h2></td></tr>
+<tr class="memitem:a57f384110fe2e8f4b3c4b9ba246517c6"><td class="memItemLeft" align="right" valign="top"><a id="a57f384110fe2e8f4b3c4b9ba246517c6"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RTT_MAX_VALUE</b>&#160;&#160;&#160;(0xffffffff)</td></tr>
+<tr class="separator:a57f384110fe2e8f4b3c4b9ba246517c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a599739d7c50c77442f6c0fc8f50488d1"><td class="memItemLeft" align="right" valign="top"><a id="a599739d7c50c77442f6c0fc8f50488d1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RTT_CLOCK_FREQUENCY</b>&#160;&#160;&#160;(32768U)                      /* in Hz */</td></tr>
+<tr class="separator:a599739d7c50c77442f6c0fc8f50488d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a639ca831f0c64ac1e563dc2b8946d1b8"><td class="memItemLeft" align="right" valign="top"><a id="a639ca831f0c64ac1e563dc2b8946d1b8"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RTT_MIN_FREQUENCY</b>&#160;&#160;&#160;(RTT_CLOCK_FREQUENCY / 1024U) /* in Hz */</td></tr>
+<tr class="separator:a639ca831f0c64ac1e563dc2b8946d1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a062fc1b3bb06996dd08f8c5ab52912f1"><td class="memItemLeft" align="right" valign="top"><a id="a062fc1b3bb06996dd08f8c5ab52912f1"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RTT_MAX_FREQUENCY</b>&#160;&#160;&#160;(RTT_CLOCK_FREQUENCY)         /* in Hz */</td></tr>
+<tr class="separator:a062fc1b3bb06996dd08f8c5ab52912f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a121c34ee69ce4a30751903b3da728672"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a121c34ee69ce4a30751903b3da728672">&#9670;&nbsp;</a></span>SAM0_XOSC_FREQ_HZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SAM0_XOSC_FREQ_HZ&#160;&#160;&#160;(XOSC0_FREQUENCY ? XOSC0_FREQUENCY : XOSC1_FREQUENCY)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>￼ * </p>
+<p>XOSC is used to generate a fixed frequency of 48 MHz ￼ </p>
+
+<p class="definition">Definition at line <a class="el" href="samd5x_2include_2periph__cpu_8h_source.html#l00040">40</a> of file <a class="el" href="samd5x_2include_2periph__cpu_8h_source.html">periph_cpu.h</a>.</p>
+
+</div>
+</div>
+<a id="a292c9a0a5b03329a153ad28343ff2e09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a292c9a0a5b03329a153ad28343ff2e09">&#9670;&nbsp;</a></span>SPI_HWCS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SPI_HWCS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;(UINT_MAX - 1)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Override SPI hardware chip select macro. </p>
+<p>As of now, we do not support HW CS, so we always set it to a fixed value </p>
+
+<p class="definition">Definition at line <a class="el" href="samd5x_2include_2periph__cpu_8h_source.html#l00084">84</a> of file <a class="el" href="samd5x_2include_2periph__cpu_8h_source.html">periph_cpu.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a5a77d65f4abba81d4456fa6ba8136e24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a77d65f4abba81d4456fa6ba8136e24">&#9670;&nbsp;</a></span>anonymous enum</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a5a77d65f4abba81d4456fa6ba8136e24a67031065696efef7697b5341140c1748"></a>SAM0_GCLK_MAIN&#160;</td><td class="fielddoc"><p>120 MHz main clock </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5a77d65f4abba81d4456fa6ba8136e24a9fe7340f432a0210661fde5a7fd357d6"></a>SAM0_GCLK_32KHZ&#160;</td><td class="fielddoc"><p>32 kHz clock </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5a77d65f4abba81d4456fa6ba8136e24a2df224b532e504c664562f932fb8c9b8"></a>SAM0_GCLK_TIMER&#160;</td><td class="fielddoc"><p>4-8 MHz clock for xTimer </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5a77d65f4abba81d4456fa6ba8136e24a11e06014c73014464975350e2f17976e"></a>SAM0_GCLK_PERIPH&#160;</td><td class="fielddoc"><p>12-48 MHz (DFLL) clock </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="samd5x_2include_2periph__cpu_8h_source.html#l00063">63</a> of file <a class="el" href="samd5x_2include_2periph__cpu_8h_source.html">periph_cpu.h</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+    <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+        <ul>
+            <li class="footer">Generated on Wed Jul 1 2020 17:08:55 by <a href="http://www.doxygen.org/index.html">
+                       <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
+        </ul>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.smartmenus.min.js"></script>
+    <script src="jquery.smartmenus.bootstrap.min.js"></script>
+    <script src="riot-doxy.js"></script>
+  </body>
+</html>

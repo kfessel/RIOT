@@ -1,0 +1,4 @@
+<map id="cpu/esp32/include/gpio_arch.h" name="cpu/esp32/include/gpio_arch.h">
+<area shape="rect" id="node2" href="$gpio__arch__common_8h.html" title="Architecture specific GPIO functions for ESP SoCs. " alt="" coords="5,95,152,121"/>
+<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="176,95,272,121"/>
+</map>

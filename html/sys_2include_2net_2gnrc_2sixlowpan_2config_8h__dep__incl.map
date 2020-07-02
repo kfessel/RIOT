@@ -1,0 +1,6 @@
+<map id="sys/include/net/gnrc/sixlowpan/config.h" name="sys/include/net/gnrc/sixlowpan/config.h">
+<area shape="rect" id="node2" href="$rb_8h.html" title="Reassembly buffer definitions. " alt="" coords="5,95,144,136"/>
+<area shape="rect" id="node3" href="$vrb_8h.html" title="Virtual reassembly buffer definitions. " alt="" coords="57,184,199,225"/>
+<area shape="rect" id="node4" href="$gnrc_2sixlowpan_2nd_8h.html" title="General 6LoWPAN ND definitions. " alt="" coords="219,95,357,136"/>
+<area shape="rect" id="node5" href="$gnrc_2sixlowpan_8h.html" title="Definitions for 6LoWPAN. " alt="" coords="381,95,520,136"/>
+</map>

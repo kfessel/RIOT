@@ -1,0 +1,9 @@
+<map id="boards/common/esp32/include/arduino_board_common.h" name="boards/common/esp32/include/arduino_board_common.h">
+<area shape="rect" id="node2" href="$esp32-heltec-lora32-v2_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API. " alt="" coords="5,109,176,165"/>
+<area shape="rect" id="node3" href="$esp32-mh-et-live-minikit_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API. " alt="" coords="201,109,338,165"/>
+<area shape="rect" id="node4" href="$esp32-olimex-evb_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API. " alt="" coords="362,109,505,165"/>
+<area shape="rect" id="node5" href="$esp32-ttgo-t-beam_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API. " alt="" coords="529,109,679,165"/>
+<area shape="rect" id="node6" href="$esp32-wemos-lolin-d32-pro_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API. " alt="" coords="703,109,849,165"/>
+<area shape="rect" id="node7" href="$esp32-wroom-32_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API. " alt="" coords="874,109,1017,165"/>
+<area shape="rect" id="node8" href="$esp32-wrover-kit_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API. " alt="" coords="1041,109,1183,165"/>
+</map>

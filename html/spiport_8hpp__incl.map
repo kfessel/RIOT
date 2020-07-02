@@ -1,0 +1,10 @@
+<map id="sys/arduino/include/spiport.hpp" name="sys/arduino/include/spiport.hpp">
+<area shape="rect" id="node3" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="145,95,231,121"/>
+<area shape="rect" id="node5" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="603,95,693,121"/>
+<area shape="rect" id="node12" href="$rmutex_8h.html" title="Recursive Mutex for thread synchronization. " alt="" coords="255,95,329,121"/>
+<area shape="rect" id="node11" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="711,169,807,196"/>
+<area shape="rect" id="node14" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="335,169,404,196"/>
+<area shape="rect" id="node16" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="479,169,585,196"/>
+<area shape="rect" id="node15" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="269,244,320,271"/>
+<area shape="rect" id="node17" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="553,244,631,271"/>
+</map>

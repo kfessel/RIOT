@@ -1,0 +1,11 @@
+<map id="drivers/pir/include/pir_params.h" name="drivers/pir/include/pir_params.h">
+<area shape="rect" id="node3" href="$pir_8h.html" title="Device driver interface for the PIR motion sensor. " alt="" coords="373,169,420,196"/>
+<area shape="rect" id="node14" href="$saul__reg_8h.html" title="SAUL registry interface definition. " alt="" coords="609,95,691,121"/>
+<area shape="rect" id="node4" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="401,244,507,271"/>
+<area shape="rect" id="node10" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="157,244,253,271"/>
+<area shape="rect" id="node6" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="339,319,417,345"/>
+<area shape="rect" id="node15" href="$saul_8h.html" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer. " alt="" coords="587,169,644,196"/>
+<area shape="rect" id="node17" href="$phydat_8h.html" title="Generic data container for physical data interface. " alt="" coords="721,244,793,271"/>
+<area shape="rect" id="node16" href="$errno_8h.html" title="errno.h" alt="" coords="583,244,645,271"/>
+<area shape="rect" id="node18" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="698,319,815,345"/>
+</map>

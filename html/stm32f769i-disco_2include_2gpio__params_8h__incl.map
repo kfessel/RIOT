@@ -1,0 +1,9 @@
+<map id="boards/stm32f769i&#45;disco/include/gpio_params.h" name="boards/stm32f769i&#45;disco/include/gpio_params.h">
+<area shape="rect" id="node2" href="$stm32f769i-disco_2include_2board_8h.html" title="Board specific definitions for the STM32F769I&#45;DISCO board. " alt="" coords="390,95,455,121"/>
+<area shape="rect" id="node9" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="488,169,584,196"/>
+<area shape="rect" id="node4" href="$boards_2stm32f769i-disco_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the STM32F769I&#45;DISCO board. " alt="" coords="257,169,357,196"/>
+<area shape="rect" id="node7" href="$cfg__timer__tim2_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM2. " alt="" coords="345,244,463,271"/>
+<area shape="rect" id="node8" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="5,244,128,271"/>
+<area shape="rect" id="node10" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="488,244,584,271"/>
+<area shape="rect" id="node13" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="608,244,701,271"/>
+</map>

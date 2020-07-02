@@ -1,0 +1,11 @@
+<map id="boards/common/stm32/include/f4/cfg_clock_168_8_common.h" name="boards/common/stm32/include/f4/cfg_clock_168_8_common.h">
+<area shape="rect" id="node2" href="$cfg__clock__168__8__0_8h.html" title="Configure STM32F4 clock to 168MHz using PLL and without LSE. " alt="" coords="15,109,169,165"/>
+<area shape="rect" id="node6" href="$cfg__clock__168__8__1_8h.html" title="Configure STM32F4 clock to 168MHz using PLL with LSE. " alt="" coords="195,109,349,165"/>
+<area shape="rect" id="node3" href="$boards_2stm32f4discovery_2include_2periph__conf_8h.html" title="boards/stm32f4discovery\l/include/periph_conf.h" alt="" coords="5,213,173,255"/>
+<area shape="rect" id="node4" href="$stm32f4discovery_2include_2board_8h.html" title="Board specific definitions for the STM32F4Discovery evaluation board. " alt="" coords="5,303,173,344"/>
+<area shape="rect" id="node5" href="$stm32f4discovery_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,392,173,433"/>
+<area shape="rect" id="node7" href="$boards_2nucleo-f429zi_2include_2periph__conf_8h.html" title="boards/nucleo&#45;f429zi\l/include/periph_conf.h" alt="" coords="197,213,347,255"/>
+<area shape="rect" id="node8" href="$boards_2stm32f429i-disc1_2include_2periph__conf_8h.html" title="boards/stm32f429i&#45;disc1\l/include/periph_conf.h" alt="" coords="371,213,535,255"/>
+<area shape="rect" id="node9" href="$stm32f429i-disc1_2include_2board_8h.html" title="Board specific definitions for the STM32F429I&#45;DISC1 evaluation board. " alt="" coords="371,303,535,344"/>
+<area shape="rect" id="node10" href="$stm32f429i-disc1_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="371,392,535,433"/>
+</map>

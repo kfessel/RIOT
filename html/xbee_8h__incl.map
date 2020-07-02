@@ -1,0 +1,32 @@
+<map id="drivers/include/xbee.h" name="drivers/include/xbee.h">
+<area shape="rect" id="node3" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="371,229,441,256"/>
+<area shape="rect" id="node6" href="$xtimer_8h.html" title="xtimer interface definitions " alt="" coords="734,80,803,107"/>
+<area shape="rect" id="node28" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition. " alt="" coords="1489,229,1584,256"/>
+<area shape="rect" id="node29" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="1369,229,1465,256"/>
+<area shape="rect" id="node30" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="1487,80,1581,107"/>
+<area shape="rect" id="node35" href="$sys_2include_2net_2ieee802154_8h.html" title="IEEE 802.15.4 header definitions. " alt="" coords="104,80,225,107"/>
+<area shape="rect" id="node40" href="$nettype_8h.html" title="Protocol type definitions. " alt="" coords="1663,229,1789,256"/>
+<area shape="rect" id="node5" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="381,304,431,331"/>
+<area shape="rect" id="node8" href="$timex_8h.html" title="Utility library for comparing and computing timestamps. " alt="" coords="681,229,747,256"/>
+<area shape="rect" id="node10" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="771,229,878,256"/>
+<area shape="rect" id="node13" href="$rmutex_8h.html" title="Recursive Mutex for thread synchronization. " alt="" coords="607,155,680,181"/>
+<area shape="rect" id="node17" href="$tick__conversion_8h.html" title="xtimer tick &lt;&#45;&gt; seconds conversions for different values of XTIMER_HZ " alt="" coords="807,155,971,181"/>
+<area shape="rect" id="node22" href="$implementation_8h.html" title="xtimer implementation " alt="" coords="1047,155,1208,181"/>
+<area shape="rect" id="node9" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="785,304,864,331"/>
+<area shape="rect" id="node18" href="$div_8h.html" title="div.h" alt="" coords="902,229,953,256"/>
+<area shape="rect" id="node19" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="889,304,958,331"/>
+<area shape="rect" id="node20" href="$panic_8h.html" title="Crash handling header. " alt="" coords="1049,379,1113,405"/>
+<area shape="rect" id="node21" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="1731,453,1849,480"/>
+<area shape="rect" id="node23" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions. " alt="" coords="1243,229,1345,256"/>
+<area shape="rect" id="node26" href="$irq_8h.html" title="IRQ driver interface. " alt="" coords="1101,229,1148,256"/>
+<area shape="rect" id="node25" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="1502,304,1641,331"/>
+<area shape="rect" id="node31" href="$errno_8h.html" title="errno.h" alt="" coords="1495,155,1557,181"/>
+<area shape="rect" id="node32" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="1581,155,1641,181"/>
+<area shape="rect" id="node34" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="1666,155,1757,181"/>
+<area shape="rect" id="node36" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="9,155,73,181"/>
+<area shape="rect" id="node38" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="152,229,239,256"/>
+<area shape="rect" id="node39" href="$eui64_8h.html" title="EUI&#45;64 data type definition. " alt="" coords="203,155,289,181"/>
+<area shape="rect" id="node37" href="$malloc_8h.html" title="malloc.h" alt="" coords="5,229,76,256"/>
+<area shape="rect" id="node41" href="$ethertype_8h.html" title="Ether type definitions. " alt="" coords="1817,304,1926,331"/>
+<area shape="rect" id="node42" href="$protnum_8h.html" title="Protocol number definitions. " alt="" coords="1951,304,2053,331"/>
+</map>

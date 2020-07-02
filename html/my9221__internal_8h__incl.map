@@ -1,0 +1,18 @@
+<map id="drivers/my9221/include/my9221_internal.h" name="drivers/my9221/include/my9221_internal.h">
+<area shape="rect" id="node2" href="$xtimer_8h.html" title="xtimer interface definitions " alt="" coords="753,95,823,121"/>
+<area shape="rect" id="node5" href="$timex_8h.html" title="Utility library for comparing and computing timestamps. " alt="" coords="1045,244,1110,271"/>
+<area shape="rect" id="node7" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="604,244,673,271"/>
+<area shape="rect" id="node10" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="697,244,804,271"/>
+<area shape="rect" id="node13" href="$rmutex_8h.html" title="Recursive Mutex for thread synchronization. " alt="" coords="789,169,862,196"/>
+<area shape="rect" id="node17" href="$tick__conversion_8h.html" title="xtimer tick &lt;&#45;&gt; seconds conversions for different values of XTIMER_HZ " alt="" coords="1090,169,1254,196"/>
+<area shape="rect" id="node22" href="$implementation_8h.html" title="xtimer implementation " alt="" coords="74,169,235,196"/>
+<area shape="rect" id="node6" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="1030,319,1109,345"/>
+<area shape="rect" id="node9" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="649,319,700,345"/>
+<area shape="rect" id="node18" href="$div_8h.html" title="div.h" alt="" coords="1143,244,1193,271"/>
+<area shape="rect" id="node19" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="1133,319,1203,345"/>
+<area shape="rect" id="node20" href="$panic_8h.html" title="Crash handling header. " alt="" coords="1093,393,1157,420"/>
+<area shape="rect" id="node21" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="1024,468,1141,495"/>
+<area shape="rect" id="node23" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions. " alt="" coords="417,244,519,271"/>
+<area shape="rect" id="node26" href="$irq_8h.html" title="IRQ driver interface. " alt="" coords="127,244,174,271"/>
+<area shape="rect" id="node25" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="399,319,537,345"/>
+</map>

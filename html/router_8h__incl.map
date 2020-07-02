@@ -1,0 +1,12 @@
+<map id="sys/include/can/router.h" name="sys/include/can/router.h">
+<area shape="rect" id="node2" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="274,229,381,256"/>
+<area shape="rect" id="node8" href="$sys_2include_2can_2can_8h.html" title="Definitions high&#45;level CAN interface. " alt="" coords="669,155,748,181"/>
+<area shape="rect" id="node9" href="$include_2can_2pkt_8h.html" title="CAN memory allocation module. " alt="" coords="508,80,584,107"/>
+<area shape="rect" id="node4" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="393,304,472,331"/>
+<area shape="rect" id="node11" href="$include_2can_2common_8h.html" title="Definitions of high&#45;level CAN interface. " alt="" coords="339,155,447,181"/>
+<area shape="rect" id="node17" href="$msg_8h.html" title="Messaging API for inter process communication. " alt="" coords="586,155,645,181"/>
+<area shape="rect" id="node12" href="$uio_8h.html" title="libc header for scatter/gather I/O " alt="" coords="82,229,157,256"/>
+<area shape="rect" id="node15" href="$timex_8h.html" title="Utility library for comparing and computing timestamps. " alt="" coords="405,229,471,256"/>
+<area shape="rect" id="node13" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="9,304,73,331"/>
+<area shape="rect" id="node14" href="$malloc_8h.html" title="malloc.h" alt="" coords="5,379,76,405"/>
+</map>

@@ -1,0 +1,112 @@
+<map id="drivers/include/saul/periph.h" name="drivers/include/saul/periph.h">
+<area shape="rect" id="node2" href="$6lowpan-clicker_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="5,102,161,143"/>
+<area shape="rect" id="node3" href="$acd52832_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="185,102,352,143"/>
+<area shape="rect" id="node4" href="$adafruit-clue_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="376,102,532,143"/>
+<area shape="rect" id="node5" href="$arduino-nano-33-ble_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="557,95,695,151"/>
+<area shape="rect" id="node6" href="$atmega256rfr2-xpro_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="720,102,905,143"/>
+<area shape="rect" id="node7" href="$avr-rss2_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="930,102,1087,143"/>
+<area shape="rect" id="node8" href="$b-l072z-lrwan1_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="1112,102,1268,143"/>
+<area shape="rect" id="node9" href="$b-l475e-iot01a_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="1292,102,1448,143"/>
+<area shape="rect" id="node10" href="$calliope-mini_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="1472,102,1628,143"/>
+<area shape="rect" id="node11" href="$cc2650stk_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="1653,102,1823,143"/>
+<area shape="rect" id="node12" href="$common_2arduino-atmega_2include_2gpio__params_8h.html" title="Common configuration of mapped GPIOs for Arduino Atmega boards. " alt="" coords="1848,95,2009,151"/>
+<area shape="rect" id="node13" href="$common_2arduino-due_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="2034,102,2215,143"/>
+<area shape="rect" id="node14" href="$common_2arduino-mkr_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="2240,102,2423,143"/>
+<area shape="rect" id="node15" href="$common_2arduino-zero_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="2447,102,2632,143"/>
+<area shape="rect" id="node16" href="$common_2blxxxpill_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="2656,102,2823,143"/>
+<area shape="rect" id="node17" href="$common_2iotlab_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="2847,102,3003,143"/>
+<area shape="rect" id="node18" href="$common_2nrf52xxxdk_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="3027,102,3209,143"/>
+<area shape="rect" id="node19" href="$common_2nucleo144_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="3234,102,3413,143"/>
+<area shape="rect" id="node20" href="$common_2nucleo32_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="3437,102,3607,143"/>
+<area shape="rect" id="node21" href="$common_2nucleo64_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="3631,102,3802,143"/>
+<area shape="rect" id="node22" href="$common_2particle-mesh_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="3826,102,4018,143"/>
+<area shape="rect" id="node23" href="$common_2saml1x_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="4043,102,4204,143"/>
+<area shape="rect" id="node24" href="$common_2slwstk6000b_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="4229,102,4421,143"/>
+<area shape="rect" id="node25" href="$ek-lm4f120xl_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="4445,102,4601,143"/>
+<area shape="rect" id="node26" href="$esp32-heltec-lora32-v2_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="4626,95,4778,151"/>
+<area shape="rect" id="node27" href="$esp32-mh-et-live-minikit_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="4803,95,4940,151"/>
+<area shape="rect" id="node28" href="$esp32-olimex-evb_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="4965,102,5146,143"/>
+<area shape="rect" id="node29" href="$esp32-ttgo-t-beam_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5170,102,5362,143"/>
+<area shape="rect" id="node30" href="$esp32-wemos-lolin-d32-pro_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5386,95,5533,151"/>
+<area shape="rect" id="node31" href="$esp32-wroom-32_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5557,102,5732,143"/>
+<area shape="rect" id="node32" href="$esp32-wrover-kit_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5756,102,5931,143"/>
+<area shape="rect" id="node33" href="$esp8266-esp-12x_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5955,102,6137,143"/>
+<area shape="rect" id="node34" href="$esp8266-olimex-mod_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="6161,102,6347,143"/>
+<area shape="rect" id="node35" href="$esp8266-sparkfun-thing_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="6371,102,6559,143"/>
+<area shape="rect" id="node36" href="$feather-m0_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="6583,102,6755,143"/>
+<area shape="rect" id="node37" href="$feather-nrf52840_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="6779,102,6937,143"/>
+<area shape="rect" id="node38" href="$firefly_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="6961,102,7104,143"/>
+<area shape="rect" id="node39" href="$firefly_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="7128,102,7271,143"/>
+<area shape="rect" id="node40" href="$frdm-k22f_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="7295,102,7461,143"/>
+<area shape="rect" id="node41" href="$frdm-k22f_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="7485,102,7650,143"/>
+<area shape="rect" id="node42" href="$frdm-k64f_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="7674,102,7839,143"/>
+<area shape="rect" id="node43" href="$frdm-kw41z_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="7863,102,8042,143"/>
+<area shape="rect" id="node44" href="$frdm-kw41z_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="8066,102,8245,143"/>
+<area shape="rect" id="node45" href="$hamilton_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="8269,102,8428,143"/>
+<area shape="rect" id="node46" href="$ikea-tradfri_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="8452,102,8608,143"/>
+<area shape="rect" id="node47" href="$lobaro-lorabox_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="8632,102,8788,143"/>
+<area shape="rect" id="node48" href="$maple-mini_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="8813,102,8986,143"/>
+<area shape="rect" id="node49" href="$mbed__lpc1768_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="9011,102,9167,143"/>
+<area shape="rect" id="node50" href="$mcb2388_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="9191,102,9354,143"/>
+<area shape="rect" id="node51" href="$mcb2388_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="9378,102,9541,143"/>
+<area shape="rect" id="node52" href="$mega-xplained_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="9565,102,9719,143"/>
+<area shape="rect" id="node53" href="$mega-xplained_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="9743,102,9899,143"/>
+<area shape="rect" id="node54" href="$microbit_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="9923,102,10079,143"/>
+<area shape="rect" id="node55" href="$msbiot_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="10103,102,10253,143"/>
+<area shape="rect" id="node56" href="$mulle_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="10277,102,10418,143"/>
+<area shape="rect" id="node57" href="$mulle_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="10442,102,10583,143"/>
+<area shape="rect" id="node58" href="$nrf51dk_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="10608,102,10761,143"/>
+<area shape="rect" id="node59" href="$nrf52832-mdk_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="10785,102,10941,143"/>
+<area shape="rect" id="node60" href="$nrf52840-mdk_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="10965,102,11121,143"/>
+<area shape="rect" id="node61" href="$nrf52840dongle_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="11145,102,11301,143"/>
+<area shape="rect" id="node62" href="$nz32-sc151_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="11325,102,11503,143"/>
+<area shape="rect" id="node63" href="$olimexino-stm32_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="11527,102,11687,143"/>
+<area shape="rect" id="node64" href="$openlabs-kw41z-mini_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="11711,102,11893,143"/>
+<area shape="rect" id="node65" href="$openlabs-kw41z-mini_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="11917,102,12101,143"/>
+<area shape="rect" id="node66" href="$openmote-b_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="12125,102,12303,143"/>
+<area shape="rect" id="node67" href="$p-l496g-cell02_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="12328,102,12484,143"/>
+<area shape="rect" id="node68" href="$p-nucleo-wb55_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="12508,102,12664,143"/>
+<area shape="rect" id="node69" href="$pba-d-01-kw2x_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="12688,102,12844,143"/>
+<area shape="rect" id="node70" href="$phynode-kw41z_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="12868,102,13024,143"/>
+<area shape="rect" id="node71" href="$phynode-kw41z_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="13048,102,13204,143"/>
+<area shape="rect" id="node72" href="$pic32-wifire_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="13228,102,13384,143"/>
+<area shape="rect" id="node73" href="$pyboard_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="13408,102,13564,143"/>
+<area shape="rect" id="node74" href="$reel_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="13589,102,13719,143"/>
+<area shape="rect" id="node75" href="$remote-pa_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="13743,102,13911,143"/>
+<area shape="rect" id="node76" href="$remote-pa_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="13935,102,14103,143"/>
+<area shape="rect" id="node77" href="$remote-reva_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="14128,102,14281,143"/>
+<area shape="rect" id="node78" href="$remote-reva_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="14305,102,14461,143"/>
+<area shape="rect" id="node79" href="$remote-revb_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC in Revision B. " alt="" coords="14485,102,14639,143"/>
+<area shape="rect" id="node80" href="$remote-revb_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="14663,102,14819,143"/>
+<area shape="rect" id="node81" href="$samd21-xpro_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="14843,102,14999,143"/>
+<area shape="rect" id="node82" href="$same54-xpro_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="15023,102,15179,143"/>
+<area shape="rect" id="node83" href="$samr21-xpro_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="15203,102,15359,143"/>
+<area shape="rect" id="node84" href="$samr30-xpro_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="15383,102,15539,143"/>
+<area shape="rect" id="node85" href="$samr34-xpro_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="15563,102,15719,143"/>
+<area shape="rect" id="node86" href="$seeeduino__arch-pro_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="15743,102,15922,143"/>
+<area shape="rect" id="node87" href="$sensebox__samd21_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="15947,102,16121,143"/>
+<area shape="rect" id="node88" href="$serpente_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="16146,102,16306,143"/>
+<area shape="rect" id="node89" href="$slstk3401a_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="16330,102,16503,143"/>
+<area shape="rect" id="node90" href="$slstk3402a_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="16527,102,16701,143"/>
+<area shape="rect" id="node91" href="$sltb001a_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="16725,102,16884,143"/>
+<area shape="rect" id="node92" href="$sodaq-autonomo_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="16908,102,17069,143"/>
+<area shape="rect" id="node93" href="$sodaq-explorer_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="17093,102,17249,143"/>
+<area shape="rect" id="node94" href="$sodaq-one_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="17274,102,17445,143"/>
+<area shape="rect" id="node95" href="$sodaq-sara-aff_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="17469,102,17625,143"/>
+<area shape="rect" id="node96" href="$sodaq-sara-sff_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="17649,102,17805,143"/>
+<area shape="rect" id="node97" href="$stk3600_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="17829,102,17985,143"/>
+<area shape="rect" id="node98" href="$stk3700_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="18009,102,18165,143"/>
+<area shape="rect" id="node99" href="$stm32f0discovery_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="18190,102,18358,143"/>
+<area shape="rect" id="node100" href="$stm32f3discovery_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="18382,102,18550,143"/>
+<area shape="rect" id="node101" href="$stm32f429i-disc1_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="18575,102,18739,143"/>
+<area shape="rect" id="node102" href="$stm32f4discovery_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="18763,102,18931,143"/>
+<area shape="rect" id="node103" href="$stm32f723e-disco_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="18955,102,19123,143"/>
+<area shape="rect" id="node104" href="$stm32f769i-disco_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="19148,102,19312,143"/>
+<area shape="rect" id="node105" href="$stm32l0538-disco_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="19336,102,19503,143"/>
+<area shape="rect" id="node106" href="$stm32l476g-disco_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="19527,102,19693,143"/>
+<area shape="rect" id="node107" href="$ublox-c030-u201_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="19718,102,19878,143"/>
+<area shape="rect" id="node108" href="$usb-kw41z_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="19902,102,20075,143"/>
+<area shape="rect" id="node109" href="$usb-kw41z_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="20099,102,20273,143"/>
+<area shape="rect" id="node110" href="$weact-f411ce_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="20297,102,20453,143"/>
+<area shape="rect" id="node111" href="$io1__xplained__params_8h.html" title="Default configuration for IO1 Xplained. " alt="" coords="20477,95,20620,151"/>
+</map>
