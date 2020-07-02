@@ -11,9 +11,9 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="structkw2xrf__params.html" target="_top" xlink:title="Struct holding all params needed for device initialization. ">
+<g id="a_node1"><a xlink:href="structkeccak__state__t.html" target="_top" xlink:title="Context for operations on a sponge with keccak permutation. ">
 <polygon fill="none" stroke="#000000" points="0,-.5 0,-19.5 83,-19.5 83,-.5 0,-.5"/>
-<text text-anchor="middle" x="41.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">kw2xrf_params</text>
+<text text-anchor="middle" x="41.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">keccak_state_t</text>
 </a>
 </g>
 </g>

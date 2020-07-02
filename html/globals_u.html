@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -623,11 +627,11 @@ $(document).ready(function(){initNavTree('globals_u.html','');});
 <li>UDMA_ENASET
 : <a class="el" href="cc2538_8h.html#a864bbe5457eab3890f39e838dd0faebc">cc2538.h</a>
 </li>
-<li>UDMA_ERR_IRQn
-: <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a3422683d3f176ac107eef744cde44648">cc2538.h</a>
-</li>
 <li>UDMA_ERR_IRQN
 : <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a6007aeaeb84bce22386ac55b3aa4640e">cc26xx_cc13xx.h</a>
+</li>
+<li>UDMA_ERR_IRQn
+: <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a3422683d3f176ac107eef744cde44648">cc2538.h</a>
 </li>
 <li>UDMA_ERRCLR
 : <a class="el" href="cc2538_8h.html#a1faac050767fa7399b52d21ecbeace7b">cc2538.h</a>
@@ -901,10 +905,13 @@ $(document).ready(function(){initNavTree('globals_u.html','');});
 : <a class="el" href="cc2538_8h.html#ae9c2ad4379cf37dc2e2ec8f86ae1a6fa">cc2538.h</a>
 </li>
 <li>usb_board_reset_coding_cb()
-: <a class="el" href="group__sys__usb__board__reset.html#gaa7ac353545fd66c84286e9733908129f">usb_board_reset.h</a>
+: <a class="el" href="group__sys__usb__board__reset__internal.html#gaa7ac353545fd66c84286e9733908129f">usb_board_reset_internal.h</a>
 </li>
 <li>usb_board_reset_in_application()
 : <a class="el" href="group__sys__usb__board__reset.html#ga3c191c3707d37d30c4284f26985cf215">usb_board_reset.h</a>
+</li>
+<li>usb_board_reset_in_bootloader()
+: <a class="el" href="group__sys__usb__board__reset.html#gaf64d71aad07429c0ad600615b7c360ab">usb_board_reset.h</a>
 </li>
 <li>USB_CDC_ACM_CODING_PARITY_EVEN
 : <a class="el" href="group__usb__cdc.html#gade365d8e3e55995ffc96698c9bd6b707">cdc.h</a>
@@ -1408,8 +1415,8 @@ $(document).ready(function(){initNavTree('globals_u.html','');});
 : <a class="el" href="group__drivers__periph__usbdev.html#ga359f875644f47ca8bb6844b5b5a0c90e">usbdev.h</a>
 </li>
 <li>USBDEV_NUMOF
-: <a class="el" href="cfg__usb__otg__fs_8h.html#ac12954b79f94ec9a0b6e905a87cd5648">cfg_usb_otg_fs.h</a>
-, <a class="el" href="cfg__usb__otg__hs__fs_8h.html#ac12954b79f94ec9a0b6e905a87cd5648">cfg_usb_otg_hs_fs.h</a>
+: <a class="el" href="cfg__usb__otg__hs__fs_8h.html#ac12954b79f94ec9a0b6e905a87cd5648">cfg_usb_otg_hs_fs.h</a>
+, <a class="el" href="cfg__usb__otg__fs_8h.html#ac12954b79f94ec9a0b6e905a87cd5648">cfg_usb_otg_fs.h</a>
 </li>
 <li>usbdev_set()
 : <a class="el" href="group__drivers__periph__usbdev.html#ga8396006a939075981570f3ae2c1838c7">usbdev.h</a>
@@ -1733,7 +1740,7 @@ $(document).ready(function(){initNavTree('globals_u.html','');});
 : <a class="el" href="msp430__regs_8h.html#abce368ddb44fac9d791613ed84527fae">msp430_regs.h</a>
 </li>
 <li>USE_VREG_BUCK
-: <a class="el" href="boards_2same54-xpro_2include_2periph__conf_8h.html#a9e1238f5985c94a661e836289438d740">periph_conf.h</a>
+: <a class="el" href="boards_2common_2saml1x_2include_2periph__conf_8h.html#a9e1238f5985c94a661e836289438d740">periph_conf.h</a>
 </li>
 <li>USE_XOSC_ONLY
 : <a class="el" href="boards_2same54-xpro_2include_2periph__conf_8h.html#a13ab7a7807fea0ab81b49042b5a57ba1">periph_conf.h</a>
@@ -1792,11 +1799,11 @@ $(document).ready(function(){initNavTree('globals_u.html','');});
 <li>uuid_v4()
 : <a class="el" href="group__sys__uuid.html#gad8cfa3c0efb6e7a36afac1ac96f34605">uuid.h</a>
 </li>
-<li>UUID_V5
-: <a class="el" href="group__sys__uuid.html#ga3ecc5a8a4b0374adc28e3d0431ea70ea">uuid.h</a>
-</li>
 <li>uuid_v5()
 : <a class="el" href="group__sys__uuid.html#gac19d8ca4fd93d805e16028c5a1fc6a9f">uuid.h</a>
+</li>
+<li>UUID_V5
+: <a class="el" href="group__sys__uuid.html#ga3ecc5a8a4b0374adc28e3d0431ea70ea">uuid.h</a>
 </li>
 <li>uuid_version()
 : <a class="el" href="group__sys__uuid.html#ga287a34b17e69df60d4a19c17457dff24">uuid.h</a>
@@ -1806,7 +1813,7 @@ $(document).ready(function(){initNavTree('globals_u.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:09:02 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:32 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

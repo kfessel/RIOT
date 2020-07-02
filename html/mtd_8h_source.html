@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -149,7 +153,7 @@ $(document).ready(function(){initNavTree('mtd_8h_source.html','');});
 <div class="ttc" id="structmtd__dev__t_html_afbb923a3f218ad7a7cb83ccd7a379493"><div class="ttname"><a href="structmtd__dev__t.html#afbb923a3f218ad7a7cb83ccd7a379493">mtd_dev_t::page_size</a></div><div class="ttdeci">uint32_t page_size</div><div class="ttdoc">Size of the pages in the MTD. </div><div class="ttdef"><b>Definition:</b> <a href="mtd_8h_source.html#l00062">mtd.h:62</a></div></div>
 <div class="ttc" id="group__drivers__mtd_html_ga2e588df22ed1a520ba154adbd93b1455"><div class="ttname"><a href="group__drivers__mtd.html#ga2e588df22ed1a520ba154adbd93b1455">mtd_power_state</a></div><div class="ttdeci">mtd_power_state</div><div class="ttdoc">MTD power states. </div><div class="ttdef"><b>Definition:</b> <a href="mtd_8h_source.html#l00038">mtd.h:38</a></div></div>
 <div class="ttc" id="structmtd__dev__t_html"><div class="ttname"><a href="structmtd__dev__t.html">mtd_dev_t</a></div><div class="ttdoc">MTD device descriptor. </div><div class="ttdef"><b>Definition:</b> <a href="mtd_8h_source.html#l00058">mtd.h:58</a></div></div>
-<div class="ttc" id="structvfs__file__ops_html"><div class="ttname"><a href="structvfs__file__ops.html">vfs_file_ops</a></div><div class="ttdoc">Operations on open files. </div><div class="ttdef"><b>Definition:</b> <a href="vfs_8h_source.html#l00256">vfs.h:256</a></div></div>
+<div class="ttc" id="structvfs__file__ops_html"><div class="ttname"><a href="structvfs__file__ops.html">vfs_file_ops</a></div><div class="ttdoc">Operations on open files. </div><div class="ttdef"><b>Definition:</b> <a href="vfs_8h_source.html#l00328">vfs.h:328</a></div></div>
 <div class="ttc" id="structmtd__desc_html_a0e9e45b783e97805755a5ab49e0f92cc"><div class="ttname"><a href="structmtd__desc.html#a0e9e45b783e97805755a5ab49e0f92cc">mtd_desc::read</a></div><div class="ttdeci">int(* read)(mtd_dev_t *dev, void *buff, uint32_t addr, uint32_t size)</div><div class="ttdoc">Read from the Memory Technology Device (MTD) </div><div class="ttdef"><b>Definition:</b> <a href="mtd_8h_source.html#l00099">mtd.h:99</a></div></div>
 <div class="ttc" id="group__drivers__mtd_html_ga74ffca1da0436aada58ef3f18f469e36"><div class="ttname"><a href="group__drivers__mtd.html#ga74ffca1da0436aada58ef3f18f469e36">mtd_read</a></div><div class="ttdeci">int mtd_read(mtd_dev_t *mtd, void *dest, uint32_t addr, uint32_t count)</div><div class="ttdoc">Read data from a MTD device. </div></div>
 <div class="ttc" id="group__drivers__mtd_html_gaf44f35470c2180ebd4b772f3b25d31fc"><div class="ttname"><a href="group__drivers__mtd.html#gaf44f35470c2180ebd4b772f3b25d31fc">mtd_power</a></div><div class="ttdeci">int mtd_power(mtd_dev_t *mtd, enum mtd_power_state power)</div><div class="ttdoc">Set power mode on a MTD device. </div></div>
@@ -159,7 +163,7 @@ $(document).ready(function(){initNavTree('mtd_8h_source.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:08:53 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:23 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

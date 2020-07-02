@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -141,8 +145,8 @@ $(document).ready(function(){initNavTree('fatfs_8h_source.html','');});
 <div class="ttc" id="group__sys__fatfs_html_gaab14929b4866418e088e4283df9a0313"><div class="ttname"><a href="group__sys__fatfs.html#gaab14929b4866418e088e4283df9a0313">fatfs_file_desc_t</a></div><div class="ttdeci">struct fatfs_file_desc fatfs_file_desc_t</div><div class="ttdoc">FatFs file instance descriptor. </div></div>
 <div class="ttc" id="structfatfs__file__desc_html_ac75efbf8d4f52e939f3dfb44446ca4f9"><div class="ttname"><a href="structfatfs__file__desc.html#ac75efbf8d4f52e939f3dfb44446ca4f9">fatfs_file_desc::file</a></div><div class="ttdeci">FIL file</div><div class="ttdoc">FatFs work area for a single file. </div><div class="ttdef"><b>Definition:</b> <a href="fatfs_8h_source.html#l00068">fatfs.h:68</a></div></div>
 <div class="ttc" id="structfatfs__desc_html_a19227baa09030724decbd9592a1cddbb"><div class="ttname"><a href="structfatfs__desc.html#a19227baa09030724decbd9592a1cddbb">fatfs_desc::abs_path_str_buff</a></div><div class="ttdeci">char abs_path_str_buff[FATFS_MAX_ABS_PATH_SIZE]</div><div class="ttdoc">most FatFs file operations need an absolute path. </div><div class="ttdef"><b>Definition:</b> <a href="fatfs_8h_source.html#l00061">fatfs.h:61</a></div></div>
-<div class="ttc" id="group__sys__vfs_html_ga818372246f79e5e859a10eb24517a3df"><div class="ttname"><a href="group__sys__vfs.html#ga818372246f79e5e859a10eb24517a3df">VFS_NAME_MAX</a></div><div class="ttdeci">#define VFS_NAME_MAX</div><div class="ttdoc">Maximum length of the name in a vfs_dirent_t (not including terminating null) </div><div class="ttdef"><b>Definition:</b> <a href="vfs_8h_source.html#l00151">vfs.h:151</a></div></div>
-<div class="ttc" id="structvfs__file__system__t_html"><div class="ttname"><a href="structvfs__file__system__t.html">vfs_file_system_t</a></div><div class="ttdoc">A file system driver. </div><div class="ttdef"><b>Definition:</b> <a href="vfs_8h_source.html#l00184">vfs.h:184</a></div></div>
+<div class="ttc" id="group__sys__vfs_html_ga818372246f79e5e859a10eb24517a3df"><div class="ttname"><a href="group__sys__vfs.html#ga818372246f79e5e859a10eb24517a3df">VFS_NAME_MAX</a></div><div class="ttdeci">#define VFS_NAME_MAX</div><div class="ttdoc">Maximum length of the name in a vfs_dirent_t (not including terminating null) </div><div class="ttdef"><b>Definition:</b> <a href="vfs_8h_source.html#l00223">vfs.h:223</a></div></div>
+<div class="ttc" id="structvfs__file__system__t_html"><div class="ttname"><a href="structvfs__file__system__t.html">vfs_file_system_t</a></div><div class="ttdoc">A file system driver. </div><div class="ttdef"><b>Definition:</b> <a href="vfs_8h_source.html#l00256">vfs.h:256</a></div></div>
 <div class="ttc" id="group__sys__fatfs_html_gac2705d10dbe276b4b760ead6ef7f20e5"><div class="ttname"><a href="group__sys__fatfs.html#gac2705d10dbe276b4b760ead6ef7f20e5">FATFS_MAX_ABS_PATH_SIZE</a></div><div class="ttdeci">#define FATFS_MAX_ABS_PATH_SIZE</div><div class="ttdoc">Size of path buffer for absolute paths. </div><div class="ttdef"><b>Definition:</b> <a href="fatfs_8h_source.html#l00050">fatfs.h:50</a></div></div>
 <div class="ttc" id="group__sys__fatfs_html_ga55339a4dcebd9f1be581de4638b41670"><div class="ttname"><a href="group__sys__fatfs.html#ga55339a4dcebd9f1be581de4638b41670">fatfs_desc_t</a></div><div class="ttdeci">struct fatfs_desc fatfs_desc_t</div><div class="ttdoc">FatFs instance descriptor. </div></div>
 <div class="ttc" id="structfatfs__desc_html"><div class="ttname"><a href="structfatfs__desc.html">fatfs_desc</a></div><div class="ttdoc">FatFs instance descriptor. </div><div class="ttdef"><b>Definition:</b> <a href="fatfs_8h_source.html#l00055">fatfs.h:55</a></div></div>
@@ -150,7 +154,7 @@ $(document).ready(function(){initNavTree('fatfs_8h_source.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:08:54 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:24 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

@@ -27,5 +27,6 @@ var searchData=
   ['bitfields',['Bitfields',['../group__sys__bitfield.html',1,'']]],
   ['bloom_20filter',['Bloom filter',['../group__sys__bloom.html',1,'']]],
   ['bernstein_20hash_20djb2',['Bernstein hash djb2',['../group__sys__hashes__djb2.html',1,'']]],
-  ['board_20reset_20via_20usb_20cdc_20acm',['Board reset via USB CDC ACM',['../group__sys__usb__board__reset.html',1,'']]]
+  ['board_20reset_20via_20usb_20cdc_20acm',['Board reset via USB CDC ACM',['../group__sys__usb__board__reset.html',1,'']]],
+  ['board_20reset_20via_20usb_20cdc_20acm_20internals',['Board reset via USB CDC ACM internals',['../group__sys__usb__board__reset__internal.html',1,'']]]
 ];

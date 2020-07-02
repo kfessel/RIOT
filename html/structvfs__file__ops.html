@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -142,7 +146,7 @@ $(document).ready(function(){initNavTree('structvfs__file__ops.html','');});
 <div class="textblock"><p>Operations on open files. </p>
 <p>Similar, but not equal, to struct file_operations in Linux </p>
 
-<p class="definition">Definition at line <a class="el" href="vfs_8h_source.html#l00256">256</a> of file <a class="el" href="vfs_8h_source.html">vfs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vfs_8h_source.html#l00328">328</a> of file <a class="el" href="vfs_8h_source.html">vfs.h</a>.</p>
 </div>
 <p><code>#include &lt;<a class="el" href="vfs_8h_source.html">vfs.h</a>&gt;</code></p>
 <table class="memberdecls">
@@ -197,7 +201,7 @@ Data Fields</h2></td></tr>
 <dd>
 &lt;0 on error, the file is considered closed anyway </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vfs_8h_source.html#l00275">275</a> of file <a class="el" href="vfs_8h_source.html">vfs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vfs_8h_source.html#l00347">347</a> of file <a class="el" href="vfs_8h_source.html">vfs.h</a>.</p>
 
 </div>
 </div>
@@ -226,7 +230,7 @@ Data Fields</h2></td></tr>
 <dd>
 &lt;0 on error </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vfs_8h_source.html#l00287">287</a> of file <a class="el" href="vfs_8h_source.html">vfs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vfs_8h_source.html#l00359">359</a> of file <a class="el" href="vfs_8h_source.html">vfs.h</a>.</p>
 
 </div>
 </div>
@@ -254,7 +258,7 @@ Data Fields</h2></td></tr>
 <dd>
 &lt;0 on error </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vfs_8h_source.html#l00298">298</a> of file <a class="el" href="vfs_8h_source.html">vfs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vfs_8h_source.html#l00370">370</a> of file <a class="el" href="vfs_8h_source.html">vfs.h</a>.</p>
 
 </div>
 </div>
@@ -289,7 +293,7 @@ Data Fields</h2></td></tr>
 <dd>
 &lt;0 on error </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vfs_8h_source.html#l00317">317</a> of file <a class="el" href="vfs_8h_source.html">vfs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vfs_8h_source.html#l00389">389</a> of file <a class="el" href="vfs_8h_source.html">vfs.h</a>.</p>
 
 </div>
 </div>
@@ -325,7 +329,7 @@ Data Fields</h2></td></tr>
 <dd>
 &lt;0 on error </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vfs_8h_source.html#l00346">346</a> of file <a class="el" href="vfs_8h_source.html">vfs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vfs_8h_source.html#l00418">418</a> of file <a class="el" href="vfs_8h_source.html">vfs.h</a>.</p>
 
 </div>
 </div>
@@ -354,7 +358,7 @@ Data Fields</h2></td></tr>
 <dd>
 &lt;0 on error </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vfs_8h_source.html#l00358">358</a> of file <a class="el" href="vfs_8h_source.html">vfs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vfs_8h_source.html#l00430">430</a> of file <a class="el" href="vfs_8h_source.html">vfs.h</a>.</p>
 
 </div>
 </div>
@@ -383,7 +387,7 @@ Data Fields</h2></td></tr>
 <dd>
 &lt;0 on error </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="vfs_8h_source.html#l00370">370</a> of file <a class="el" href="vfs_8h_source.html">vfs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="vfs_8h_source.html#l00442">442</a> of file <a class="el" href="vfs_8h_source.html">vfs.h</a>.</p>
 
 </div>
 </div>
@@ -394,7 +398,7 @@ Data Fields</h2></td></tr>
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:09:01 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:31 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

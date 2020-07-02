@@ -309,6 +309,7 @@ var annotated_dup =
     [ "fatfs_desc", "structfatfs__desc.html", "structfatfs__desc" ],
     [ "fatfs_file_desc", "structfatfs__file__desc.html", "structfatfs__file__desc" ],
     [ "fcfg_regs_t", "structfcfg__regs__t.html", "structfcfg__regs__t" ],
+    [ "fd_set", "structfd__set.html", "structfd__set" ],
     [ "feetech_reader_t", "structfeetech__reader__t.html", "structfeetech__reader__t" ],
     [ "feetech_t", "structfeetech__t.html", "structfeetech__t" ],
     [ "feetech_writer_t", "structfeetech__writer__t.html", "structfeetech__writer__t" ],

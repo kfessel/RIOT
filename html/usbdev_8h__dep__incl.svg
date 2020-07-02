@@ -144,10 +144,10 @@
 <!-- Node15 -->
 <g id="node7" class="node">
 <title>Node15</title>
-<g id="a_node7"><a xlink:href="usb__board__reset_8h.html" target="_top" xlink:title="sys/include/usb_board\l_reset.h">
+<g id="a_node7"><a xlink:href="usb__board__reset__internal_8h.html" target="_top" xlink:title="sys/include/usb_board\l_reset_internal.h">
 <polygon fill="none" stroke="#000000" points="328.5,-.5 328.5,-30.5 442.5,-30.5 442.5,-.5 328.5,-.5"/>
 <text text-anchor="start" x="336.5" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sys/include/usb_board</text>
-<text text-anchor="middle" x="385.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_reset.h</text>
+<text text-anchor="middle" x="385.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_reset_internal.h</text>
 </a>
 </g>
 </g>

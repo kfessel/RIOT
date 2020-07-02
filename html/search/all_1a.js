@@ -120,7 +120,7 @@ var searchData=
   ['ws281x_5fparam_5fbuf',['WS281X_PARAM_BUF',['../ws281x__params_8h.html#a4e1d71adb3a829ceb2622bff2c839d7d',1,'ws281x_params.h']]],
   ['ws281x_5fparam_5fnumof',['WS281X_PARAM_NUMOF',['../ws281x__params_8h.html#a97cf89b53426d6c27838bf0281d74c83',1,'ws281x_params.h']]],
   ['ws281x_5fparam_5fpin',['WS281X_PARAM_PIN',['../ws281x__params_8h.html#a6bf2b3f1bbdf784782052e029020aef8',1,'ws281x_params.h']]],
-  ['ws281x_5fparams',['WS281X_PARAMS',['../ws281x__params_8h.html#ac89cf2cbf46b3e0ba16d9479e07f02b5',1,'WS281X_PARAMS():&#160;ws281x_params.h'],['../ws281x__params_8h.html#a58bdcc93ed85ba52041b65fef6fc0f71',1,'ws281x_params():&#160;ws281x_params.h']]],
+  ['ws281x_5fparams',['ws281x_params',['../ws281x__params_8h.html#a58bdcc93ed85ba52041b65fef6fc0f71',1,'ws281x_params():&#160;ws281x_params.h'],['../ws281x__params_8h.html#ac89cf2cbf46b3e0ba16d9479e07f02b5',1,'WS281X_PARAMS():&#160;ws281x_params.h']]],
   ['ws281x_5fparams_2eh',['ws281x_params.h',['../ws281x__params_8h.html',1,'']]],
   ['ws281x_5fparams_5ft',['ws281x_params_t',['../structws281x__params__t.html',1,'']]],
   ['ws281x_5fprepare_5ftransmission',['ws281x_prepare_transmission',['../group__drivers__ws281x.html#gab946c1a39cf3a2ebefb8fe0ae12e4bd9',1,'ws281x.h']]],

@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -296,6 +300,9 @@ $(document).ready(function(){initNavTree('globals_func_s.html','');});
 </li>
 <li>sds011_set_working_period()
 : <a class="el" href="group__drivers__sds011.html#ga7321dbac13433de77d5cc967ef8dc9a5">sds011.h</a>
+</li>
+<li>select()
+: <a class="el" href="group__posix__select.html#ga7ffa34f8c9a12e7fd43f5ef65bf889fa">select.h</a>
 </li>
 <li>sem_close()
 : <a class="el" href="group__posix__semaphore.html#gae2fe7304d1e0dbf1462accbcbd1fc1c3">semaphore.h</a>
@@ -1379,8 +1386,8 @@ $(document).ready(function(){initNavTree('globals_func_s.html','');});
 : <a class="el" href="sx127x__internal_8h.html#ab798a11cee6e837d06a4874a45bc5f41">sx127x_internal.h</a>
 </li>
 <li>sx127x_read_rssi()
-: <a class="el" href="group__drivers__sx127x.html#ga67d0a274e3258ea77317bf70a08b72e4">sx127x.h</a>
-, <a class="el" href="sx127x__internal_8h.html#a67d0a274e3258ea77317bf70a08b72e4">sx127x_internal.h</a>
+: <a class="el" href="sx127x__internal_8h.html#a67d0a274e3258ea77317bf70a08b72e4">sx127x_internal.h</a>
+, <a class="el" href="group__drivers__sx127x.html#ga67d0a274e3258ea77317bf70a08b72e4">sx127x.h</a>
 </li>
 <li>sx127x_reg_read()
 : <a class="el" href="sx127x__internal_8h.html#a02acd58a0f5b26964c009eaa1304a970">sx127x_internal.h</a>
@@ -1516,7 +1523,7 @@ $(document).ready(function(){initNavTree('globals_func_s.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:09:02 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:32 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

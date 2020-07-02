@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -177,7 +181,7 @@ $(document).ready(function(){initNavTree('todo.html','');});
 <dd><p class="startdd">add support for <code>JSON CoRE Link Format</code> </p>
 <p class="enddd">add support for 'CBOR CoRE Link Format` </p>
 </dd>
-<dt><a class="anchor" id="_todo000060"></a>Global <a class="el" href="group__posix__sockets.html#gaca8fad60c796fe18d806999ee71236bb">getsockopt</a>  (int socket, int level, int option_name, void *option_value, socklen_t *option_len)</dt>
+<dt><a class="anchor" id="_todo000061"></a>Global <a class="el" href="group__posix__sockets.html#gaca8fad60c796fe18d806999ee71236bb">getsockopt</a>  (int socket, int level, int option_name, void *option_value, socklen_t *option_len)</dt>
 <dd><p class="startdd">implement out these functions</p>
 <p class="enddd"></p>
 </dd>
@@ -234,19 +238,27 @@ $(document).ready(function(){initNavTree('todo.html','');});
 <dd><p class="startdd">Idle modes are enabled by default, deep sleep mode blocked </p>
 <p class="enddd">Idle modes are enabled by default, deep sleep mode blocked  </p>
 </dd>
+<dt><a class="anchor" id="_todo000058"></a>Module <a class="el" href="group__posix__select.html">posix_select</a>  </dt>
+<dd><p class="startdd">Omitted from original specification for now:</p><ul>
+<li>Inclusion of <code>&lt;signal.h&gt;</code>; no POSIX signal handling implemented in RIOT yet</li>
+<li><code>pselect()</code> as it uses <code>sigset_t</code> from <code>&lt;signal.h&gt;</code></li>
+<li>handling of the <code>writefds</code> and <code>errorfds</code> parameters of <code><a class="el" href="group__posix__select.html#ga7ffa34f8c9a12e7fd43f5ef65bf889fa" title="Examines the given file descriptor sets if they are ready for their respective operation. ">select()</a></code> </li>
+</ul>
+<p class="enddd">Currently, only <a class="el" href="group__posix__sockets.html">sockets</a> are supported  </p>
+</dd>
 <dt><a class="anchor" id="_todo000056"></a>Global <a class="el" href="group__posix__semaphore.html#gae2fe7304d1e0dbf1462accbcbd1fc1c3">sem_close</a>  (sem_t *sem)</dt>
 <dd>named semaphore are currently not supported </dd>
 <dt><a class="anchor" id="_todo000055"></a>Global <a class="el" href="group__posix__semaphore.html#ga32ec2fa580100788d68a4f83880f3f24">sem_open</a>  (const char *name, int oflag,...)</dt>
 <dd>named semaphore are currently not supported </dd>
 <dt><a class="anchor" id="_todo000057"></a>Global <a class="el" href="group__posix__semaphore.html#ga3403a59db7cf8a932995b9fa0ffc3097">sem_unlink</a>  (const char *name)</dt>
 <dd>named semaphore are currently not supported </dd>
-<dt><a class="anchor" id="_todo000059"></a>Global <a class="el" href="group__posix__sockets.html#gafdc1acb83fda416a028cfd39ce8e6fe6">sendto</a>  (int socket, const void *buffer, size_t length, int flags, const struct sockaddr *address, socklen_t address_len)</dt>
+<dt><a class="anchor" id="_todo000060"></a>Global <a class="el" href="group__posix__sockets.html#gafdc1acb83fda416a028cfd39ce8e6fe6">sendto</a>  (int socket, const void *buffer, size_t length, int flags, const struct sockaddr *address, socklen_t address_len)</dt>
 <dd>For <a class="el" href="group__net__gnrc.html">Generic (GNRC) network stack</a> any <a class="el" href="group__posix__sockets.html#gafda65dd86aec2cce8aed51127c56833c">recvfrom</a> call that is called to receive an expected response to this send command, must be called from the same thread. This is undesired behavior and will be fixed in upcoming versions of RIOT. </dd>
 <dt><a class="anchor" id="_todo000049"></a>Global <a class="el" href="group__net__sock.html#ga062f5eb3763541ec0ab6e261447b01ca">SOCK_ADDR_ANY_NETIF</a>  </dt>
 <dd>Use an equivalent definition from PR #5511  </dd>
 <dt><a class="anchor" id="_todo000050"></a>Global <a class="el" href="structsock__ip__ep__t.html#a30b82677263d30a8d04dbbae5a4dce45">sock_ip_ep_t::netif</a>  </dt>
 <dd>port to common network interface identifiers in PR #5511. </dd>
-<dt><a class="anchor" id="_todo000058"></a>File <a class="el" href="socket_8h.html">socket.h</a>  </dt>
+<dt><a class="anchor" id="_todo000059"></a>File <a class="el" href="socket_8h.html">socket.h</a>  </dt>
 <dd>Omitted from original specification for now:<ul>
 <li>struct msghdr, struct cmesghdr, and struct linger and all related defines</li>
 <li><a class="el" href="group__posix__sockets.html#gaca8fad60c796fe18d806999ee71236bb">getsockopt()</a>/setsockopt() and all related defines.</li>
@@ -288,7 +300,7 @@ $(document).ready(function(){initNavTree('todo.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:08:58 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:28 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

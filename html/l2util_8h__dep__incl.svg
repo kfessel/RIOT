@@ -2466,10 +2466,10 @@
 <!-- Node134 -->
 <g id="node126" class="node">
 <title>Node134</title>
-<g id="a_node126"><a xlink:href="usb__board__reset_8h.html" target="_top" xlink:title="sys/include/usb_board\l_reset.h">
+<g id="a_node126"><a xlink:href="usb__board__reset__internal_8h.html" target="_top" xlink:title="sys/include/usb_board\l_reset_internal.h">
 <polygon fill="none" stroke="#000000" points="2787.0483,-374 2787.0483,-404 2901.0483,-404 2901.0483,-374 2787.0483,-374"/>
 <text text-anchor="start" x="2795.0483" y="-392" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sys/include/usb_board</text>
-<text text-anchor="middle" x="2844.0483" y="-381" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_reset.h</text>
+<text text-anchor="middle" x="2844.0483" y="-381" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_reset_internal.h</text>
 </a>
 </g>
 </g>

@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -139,33 +143,25 @@ $(document).ready(function(){initNavTree('usb__board__reset_8h.html','');});
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Alexandre Abadie <a href="#" onclick="location.href='mai'+'lto:'+'ale'+'xa'+'ndr'+'e.'+'aba'+'di'+'e@i'+'nr'+'ia.'+'fr'; return false;">alexa<span style="display: none;">.nosp@m.</span>ndre<span style="display: none;">.nosp@m.</span>.abad<span style="display: none;">.nosp@m.</span>ie@i<span style="display: none;">.nosp@m.</span>nria.<span style="display: none;">.nosp@m.</span>fr</a> </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="usb__board__reset_8h_source.html">usb_board_reset.h</a>.</p>
-</div><div class="textblock"><code>#include &lt;<a class="el" href="inttypes_8h_source.html">inttypes.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="acm_8h_source.html">usb/usbus/cdc/acm.h</a>&quot;</code><br />
-</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for usb_board_reset.h:</div>
-<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="usb__board__reset_8h__incl.svg" width="1318" height="575"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
 </div>
 <p><a href="usb__board__reset_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gaa7ac353545fd66c84286e9733908129f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__usb__board__reset.html#gaa7ac353545fd66c84286e9733908129f">usb_board_reset_coding_cb</a> (<a class="el" href="group__usbus__cdc__acm.html#gab8aee4067d283fc8bc170ba8cef552cc">usbus_cdcacm_device_t</a> *cdcacm, uint32_t baud, uint8_t bits, uint8_t parity, uint8_t stop)</td></tr>
-<tr class="memdesc:gaa7ac353545fd66c84286e9733908129f"><td class="mdescLeft">&#160;</td><td class="mdescRight">USB coding callback used to trigger the board reset.  <a href="group__sys__usb__board__reset.html#gaa7ac353545fd66c84286e9733908129f">More...</a><br /></td></tr>
-<tr class="separator:gaa7ac353545fd66c84286e9733908129f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3c191c3707d37d30c4284f26985cf215"><td class="memItemLeft" align="right" valign="top">
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__usb__board__reset.html#ga3c191c3707d37d30c4284f26985cf215">usb_board_reset_in_application</a> (void)</td></tr>
 <tr class="memdesc:ga3c191c3707d37d30c4284f26985cf215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger a simple reset, back to the application. <br /></td></tr>
 <tr class="separator:ga3c191c3707d37d30c4284f26985cf215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf64d71aad07429c0ad600615b7c360ab"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__usb__board__reset.html#gaf64d71aad07429c0ad600615b7c360ab">usb_board_reset_in_bootloader</a> (void)</td></tr>
+<tr class="memdesc:gaf64d71aad07429c0ad600615b7c360ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Trigger a bootloader reset, start the bootloader after reset. <br /></td></tr>
+<tr class="separator:gaf64d71aad07429c0ad600615b7c360ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:08:58 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:28 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

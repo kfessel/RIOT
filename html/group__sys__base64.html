@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -174,19 +178,19 @@ Functions</h2></td></tr>
 <tr class="memitem:ga5327a6f063f4dd025e3aaee87054536e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__base64.html#ga5327a6f063f4dd025e3aaee87054536e">base64_estimate_encode_size</a> (<a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> data_in_size)</td></tr>
 <tr class="memdesc:ga5327a6f063f4dd025e3aaee87054536e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Estimates the length of the resulting string after encoding <code>data_in_size</code> bytes into base64.  <a href="#ga5327a6f063f4dd025e3aaee87054536e">More...</a><br /></td></tr>
 <tr class="separator:ga5327a6f063f4dd025e3aaee87054536e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa3053b97bfcfd5b364dd16784a5dcef0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__base64.html#gaa3053b97bfcfd5b364dd16784a5dcef0">base64_encode</a> (const void *data_in, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> data_in_size, unsigned char *base64_out, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> *base64_out_size)</td></tr>
-<tr class="memdesc:gaa3053b97bfcfd5b364dd16784a5dcef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encodes a given datum to base64 and save the result to the given destination.  <a href="#gaa3053b97bfcfd5b364dd16784a5dcef0">More...</a><br /></td></tr>
-<tr class="separator:gaa3053b97bfcfd5b364dd16784a5dcef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab08353ca0fab46ce9c6c4e3beab8c817"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__base64.html#gab08353ca0fab46ce9c6c4e3beab8c817">base64url_encode</a> (const void *data_in, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> data_in_size, unsigned char *base64_out, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> *base64_out_size)</td></tr>
-<tr class="memdesc:gab08353ca0fab46ce9c6c4e3beab8c817"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encodes a given datum to base64 with URL and Filename Safe Alphabet and save the result to the given destination.  <a href="#gab08353ca0fab46ce9c6c4e3beab8c817">More...</a><br /></td></tr>
-<tr class="separator:gab08353ca0fab46ce9c6c4e3beab8c817"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5418bf5f0e83d5d9d0b998c24f595cc5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__base64.html#ga5418bf5f0e83d5d9d0b998c24f595cc5">base64_decode</a> (const unsigned char *base64_in, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> base64_in_size, void *data_out, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> *data_out_size)</td></tr>
-<tr class="memdesc:ga5418bf5f0e83d5d9d0b998c24f595cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decodes a given base64 string and save the result to the given destination.  <a href="#ga5418bf5f0e83d5d9d0b998c24f595cc5">More...</a><br /></td></tr>
-<tr class="separator:ga5418bf5f0e83d5d9d0b998c24f595cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8f2d558b4d1a330ae3792ac9df9ee259"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__base64.html#ga8f2d558b4d1a330ae3792ac9df9ee259">base64_encode</a> (const void *data_in, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> data_in_size, void *base64_out, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> *base64_out_size)</td></tr>
+<tr class="memdesc:ga8f2d558b4d1a330ae3792ac9df9ee259"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encodes a given datum to base64 and save the result to the given destination.  <a href="#ga8f2d558b4d1a330ae3792ac9df9ee259">More...</a><br /></td></tr>
+<tr class="separator:ga8f2d558b4d1a330ae3792ac9df9ee259"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5373b27225516316665361de10bf0169"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__base64.html#ga5373b27225516316665361de10bf0169">base64url_encode</a> (const void *data_in, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> data_in_size, void *base64_out, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> *base64_out_size)</td></tr>
+<tr class="memdesc:ga5373b27225516316665361de10bf0169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encodes a given datum to base64 with URL and Filename Safe Alphabet and save the result to the given destination.  <a href="#ga5373b27225516316665361de10bf0169">More...</a><br /></td></tr>
+<tr class="separator:ga5373b27225516316665361de10bf0169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3ae43448c50e4ed07b2d34393f669bce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__base64.html#ga3ae43448c50e4ed07b2d34393f669bce">base64_decode</a> (const void *base64_in, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> base64_in_size, void *data_out, <a class="el" href="msp430__types_8h.html#a7c94ea6f8948649f8d181ae55911eeaf">size_t</a> *data_out_size)</td></tr>
+<tr class="memdesc:ga3ae43448c50e4ed07b2d34393f669bce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decodes a given base64 string and save the result to the given destination.  <a href="#ga3ae43448c50e4ed07b2d34393f669bce">More...</a><br /></td></tr>
+<tr class="separator:ga3ae43448c50e4ed07b2d34393f669bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga5418bf5f0e83d5d9d0b998c24f595cc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga5418bf5f0e83d5d9d0b998c24f595cc5">&#9670;&nbsp;</a></span>base64_decode()</h2>
+<a id="ga3ae43448c50e4ed07b2d34393f669bce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3ae43448c50e4ed07b2d34393f669bce">&#9670;&nbsp;</a></span>base64_decode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -194,7 +198,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int base64_decode </td>
           <td>(</td>
-          <td class="paramtype">const unsigned char *&#160;</td>
+          <td class="paramtype">const void *&#160;</td>
           <td class="paramname"><em>base64_in</em>, </td>
         </tr>
         <tr>
@@ -237,8 +241,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gaa3053b97bfcfd5b364dd16784a5dcef0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gaa3053b97bfcfd5b364dd16784a5dcef0">&#9670;&nbsp;</a></span>base64_encode()</h2>
+<a id="ga8f2d558b4d1a330ae3792ac9df9ee259"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8f2d558b4d1a330ae3792ac9df9ee259">&#9670;&nbsp;</a></span>base64_encode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -258,7 +262,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned char *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>base64_out</em>, </td>
         </tr>
         <tr>
@@ -363,8 +367,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="gab08353ca0fab46ce9c6c4e3beab8c817"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab08353ca0fab46ce9c6c4e3beab8c817">&#9670;&nbsp;</a></span>base64url_encode()</h2>
+<a id="ga5373b27225516316665361de10bf0169"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5373b27225516316665361de10bf0169">&#9670;&nbsp;</a></span>base64url_encode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -384,7 +388,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned char *&#160;</td>
+          <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>base64_out</em>, </td>
         </tr>
         <tr>
@@ -421,7 +425,7 @@ Functions</h2></td></tr>
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:08:59 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:29 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

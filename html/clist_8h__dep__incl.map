@@ -29,7 +29,7 @@
 <area shape="rect" id="node29" href="$ecm_8h.html" title="Interface and definitions for USB CDC ECM type interfaces. " alt="" coords="2102,259,2254,300"/>
 <area shape="rect" id="node30" href="$control_8h.html" title="USBUS control endpoint module. " alt="" coords="2127,169,2279,211"/>
 <area shape="rect" id="node31" href="$usb_2usbus_2fmt_8h.html" title="USBUS descriptor formatter functions. " alt="" coords="2303,169,2455,211"/>
-<area shape="rect" id="node28" href="$usb__board__reset_8h.html" title="sys/include/usb_board\l_reset.h" alt="" coords="1901,259,2053,300"/>
+<area shape="rect" id="node28" href="$usb__board__reset__internal_8h.html" title="sys/include/usb_board\l_reset_internal.h" alt="" coords="1901,259,2053,300"/>
 <area shape="rect" id="node33" href="$random-vfs_8h.html" title="Random backends for devfs. " alt="" coords="3413,169,3554,211"/>
 <area shape="rect" id="node34" href="$constfs_8h.html" title="ConstFS public API. " alt="" coords="3579,177,3740,203"/>
 <area shape="rect" id="node35" href="$fatfs_8h.html" title="FatFs integration for vfs. " alt="" coords="2655,177,2799,203"/>

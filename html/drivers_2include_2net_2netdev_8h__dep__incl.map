@@ -196,7 +196,7 @@
 <area shape="rect" id="node178" href="$acm_8h.html" title="Interface and definitions for USB CDC ACM type interfaces in USBUS. " alt="" coords="10386,1025,10538,1066"/>
 <area shape="rect" id="node181" href="$control_8h.html" title="USBUS control endpoint module. " alt="" coords="10613,1025,10765,1066"/>
 <area shape="rect" id="node182" href="$usb_2usbus_2fmt_8h.html" title="USBUS descriptor formatter functions. " alt="" coords="10210,1025,10362,1066"/>
-<area shape="rect" id="node179" href="$usb__board__reset_8h.html" title="sys/include/usb_board\l_reset.h" alt="" coords="10386,1129,10538,1170"/>
+<area shape="rect" id="node179" href="$usb__board__reset__internal_8h.html" title="sys/include/usb_board\l_reset_internal.h" alt="" coords="10386,1129,10538,1170"/>
 <area shape="rect" id="node184" href="$pthread_8h.html" title="POSIX conforming multi&#45;threading features. " alt="" coords="10015,1025,10186,1066"/>
 <area shape="rect" id="node189" href="$util_8h.html" title="sock utility function definitions " alt="" coords="8655,749,8797,791"/>
 <area shape="rect" id="node191" href="$sock__dtls__types_8h.html" title="tinydtls&#45;specific types and functions definitions " alt="" coords="8924,749,9059,791"/>

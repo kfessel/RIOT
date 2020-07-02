@@ -126,7 +126,7 @@
 <area shape="rect" id="node92" href="$ecm_8h.html" title="Interface and definitions for USB CDC ECM type interfaces. " alt="" coords="6907,853,7059,895"/>
 <area shape="rect" id="node93" href="$control_8h.html" title="USBUS control endpoint module. " alt="" coords="6964,757,7116,798"/>
 <area shape="rect" id="node94" href="$usb_2usbus_2fmt_8h.html" title="USBUS descriptor formatter functions. " alt="" coords="7140,757,7292,798"/>
-<area shape="rect" id="node91" href="$usb__board__reset_8h.html" title="sys/include/usb_board\l_reset.h" alt="" coords="7316,853,7468,895"/>
+<area shape="rect" id="node91" href="$usb__board__reset__internal_8h.html" title="sys/include/usb_board\l_reset_internal.h" alt="" coords="7316,853,7468,895"/>
 <area shape="rect" id="node98" href="$sntp_8h.html" title="SNTP definitions. " alt="" coords="5027,467,5178,493"/>
 <area shape="rect" id="node102" href="$dll_8h.html" title="Definitions of low&#45;level CAN DLL interface. " alt="" coords="12905,281,13047,307"/>
 <area shape="rect" id="node105" href="$net_2gnrc_2mac_2timeout_8h.html" title="Timeout APIs used by GNRC_MAC. " alt="" coords="7364,1047,7503,1088"/>

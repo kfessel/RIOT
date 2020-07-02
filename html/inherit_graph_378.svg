@@ -11,10 +11,10 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="structgnrc__sixlowpan__frag__rb__base__t.html" target="_top" xlink:title="Base class for both reassembly buffer and virtual reassembly buffer. ">
+<g id="a_node1"><a xlink:href="structgnrc__sixlowpan__frag__hint__t.html" target="_top" xlink:title="A fragment size hint. ">
 <polygon fill="none" stroke="#000000" points="0,-.5 0,-30.5 106,-30.5 106,-.5 0,-.5"/>
 <text text-anchor="start" x="8" y="-18.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">gnrc_sixlowpan_frag</text>
-<text text-anchor="middle" x="53" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_rb_base_t</text>
+<text text-anchor="middle" x="53" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">_hint_t</text>
 </a>
 </g>
 </g>

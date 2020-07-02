@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -840,11 +844,11 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 <li>gnrc_ipv6_ext_frag_rbuf_free()
 : <a class="el" href="group__net__gnrc__ipv6__ext__frag.html#ga5cdab1f55db94b508aed236628fdd8b8">frag.h</a>
 </li>
-<li>gnrc_ipv6_ext_frag_rbuf_gc()
-: <a class="el" href="group__net__gnrc__ipv6__ext__frag.html#gade0c75801208e8c73978c72d140899e0">frag.h</a>
-</li>
 <li>GNRC_IPV6_EXT_FRAG_RBUF_GC
 : <a class="el" href="group__net__gnrc__ipv6__ext__frag.html#gad59b693d790bc5797733973dcfcfce47">frag.h</a>
+</li>
+<li>gnrc_ipv6_ext_frag_rbuf_gc()
+: <a class="el" href="group__net__gnrc__ipv6__ext__frag.html#gade0c75801208e8c73978c72d140899e0">frag.h</a>
 </li>
 <li>gnrc_ipv6_ext_frag_rbuf_get()
 : <a class="el" href="group__net__gnrc__ipv6__ext__frag.html#ga07c3cea6235686c7395ff7c7bc254d83">frag.h</a>
@@ -4053,11 +4057,11 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 <li>GPTIMER_3A_IRQn
 : <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a7fe9eabbcd5f0be5618c1b4e93003fa9">cc2538.h</a>
 </li>
-<li>GPTIMER_3B_IRQN
-: <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a5ba575acbc1934c04ee9586d4d1e46ac">cc26xx_cc13xx.h</a>
-</li>
 <li>GPTIMER_3B_IRQn
 : <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083afab214cc2ec46aa1fb14ef124ea98908">cc2538.h</a>
+</li>
+<li>GPTIMER_3B_IRQN
+: <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a5ba575acbc1934c04ee9586d4d1e46ac">cc26xx_cc13xx.h</a>
 </li>
 <li>GPTIMER_CAPTURE_MODE
 : <a class="el" href="group__cpu__cc2538__gptimer.html#gga05589fbab0657f08285ebdfe93f5ec9ea0d70b2c180ce88bed3760eee738b4e60">cc2538_gptimer.h</a>
@@ -4124,7 +4128,7 @@ $(document).ready(function(){initNavTree('globals_g.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:09:02 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:32 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

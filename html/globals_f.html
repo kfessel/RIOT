@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -150,6 +154,9 @@ $(document).ready(function(){initNavTree('globals_f.html','');});
 <li>FATFS_MOUNT_OPT
 : <a class="el" href="group__sys__fatfs.html#ga7ef4d049a02926687d3e3ff7ec2da937">fatfs.h</a>
 </li>
+<li>FATFS_VFS_DIR_BUFFER_SIZE
+: <a class="el" href="group__sys__vfs.html#gaf168cd5f6f5766b34d6be9b9c1ce9f26">vfs.h</a>
+</li>
 <li>FATFS_YEAR_OFFSET
 : <a class="el" href="group__sys__fatfs.html#ga91e6a88e878df2c8d1ecd3065d92dfa7">fatfs.h</a>
 </li>
@@ -163,6 +170,21 @@ $(document).ready(function(){initNavTree('globals_f.html','');});
 <li>FCFG_BASE
 : <a class="el" href="group__cpu__specific__peripheral__memory__map.html#ga20ab91625bf7a1402820586eeec74b6b">cc26x0_fcfg.h</a>
 , <a class="el" href="group__cpu__specific__peripheral__memory__map.html#ga20ab91625bf7a1402820586eeec74b6b">cc26x2_cc13x2_fcfg.h</a>
+</li>
+<li>FD_CLR()
+: <a class="el" href="group__posix__select.html#gaeb43896a587535999ccc5210c3c715e7">select.h</a>
+</li>
+<li>FD_ISSET()
+: <a class="el" href="group__posix__select.html#ga1bd5fc9b86e2774071fd01b790204820">select.h</a>
+</li>
+<li>FD_SET()
+: <a class="el" href="group__posix__select.html#ga24d7c57d92f55a9604000df4d4aa319f">select.h</a>
+</li>
+<li>FD_SETSIZE
+: <a class="el" href="group__posix__select.html#ga86c5dbf5a99358e288f573d6a1e0873f">select.h</a>
+</li>
+<li>FD_ZERO()
+: <a class="el" href="group__posix__select.html#ga7650b004c963c7c008eb2de9a33b0380">select.h</a>
 </li>
 <li>feetech_addr_t
 : <a class="el" href="group__drivers__feetech.html#ga322f15f6931863d5f75fa9a9a9946814">feetech.h</a>
@@ -438,8 +460,8 @@ $(document).ready(function(){initNavTree('globals_f.html','');});
 : <a class="el" href="cc26xx__cc13xx__vims_8h.html#a844ea28ba1e0a5a0e497f16b61ea306b">cc26xx_cc13xx_vims.h</a>
 </li>
 <li>FLASH_BASE
-: <a class="el" href="group__cpu__specific__Peripheral__memory__map.html#ga23a9099a5f8fc9c6e253c0eecb2be8db">cc2538.h</a>
-, <a class="el" href="group__cpu__specific__peripheral__memory__map.html#ga23a9099a5f8fc9c6e253c0eecb2be8db">cc26xx_cc13xx.h</a>
+: <a class="el" href="group__cpu__specific__peripheral__memory__map.html#ga23a9099a5f8fc9c6e253c0eecb2be8db">cc26xx_cc13xx.h</a>
+, <a class="el" href="group__cpu__specific__Peripheral__memory__map.html#ga23a9099a5f8fc9c6e253c0eecb2be8db">cc2538.h</a>
 </li>
 <li>FLASH_BASEADDR
 : <a class="el" href="group__cpu__specific__peripheral__memory__map.html#gaf6863e7094aca292453684fa2af16686">cc26xx_cc13xx_vims.h</a>
@@ -503,7 +525,7 @@ $(document).ready(function(){initNavTree('globals_f.html','');});
 : <a class="el" href="group__drivers__periph__flashpage.html#ga0c54494884ad395b16887f345e13b6c5">flashpage.h</a>
 </li>
 <li>FLASHPAGE_SIZE
-: <a class="el" href="group__cpu__nrf51.html#gafce96cb577e50c76434ba92363ca20e8">cpu_conf.h</a>
+: <a class="el" href="efm32_2include_2cpu__conf_8h.html#afce96cb577e50c76434ba92363ca20e8">cpu_conf.h</a>
 </li>
 <li>flashpage_verify()
 : <a class="el" href="group__drivers__periph__flashpage.html#ga35d3fafa77af19a6542f2369313b94fa">flashpage.h</a>
@@ -720,7 +742,7 @@ $(document).ready(function(){initNavTree('globals_f.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:09:02 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:32 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

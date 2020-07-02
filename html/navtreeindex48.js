@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"globals_8h.html#af49a37795a7b3e44573d1b77c515cae7":[20,0,5,8,1,2,0,0,0,0],
 "globals_8h_source.html":[20,0,5,8,1,2,0,0,0],
 "globals_a.html":[20,1,0,1],
 "globals_b.html":[20,1,0,2],
@@ -33,8 +34,8 @@ var NAVTREEINDEX48 =
 "globals_defs_x.html":[20,1,6,24],
 "globals_defs_z.html":[20,1,6,25],
 "globals_e.html":[20,1,0,5],
-"globals_enum.html":[20,1,4,0],
 "globals_enum.html":[20,1,4],
+"globals_enum.html":[20,1,4,0],
 "globals_enum_b.html":[20,1,4,1],
 "globals_enum_c.html":[20,1,4,2],
 "globals_enum_d.html":[20,1,4,3],
@@ -121,8 +122,8 @@ var NAVTREEINDEX48 =
 "globals_r.html":[20,1,0,18],
 "globals_s.html":[20,1,0,19],
 "globals_t.html":[20,1,0,20],
-"globals_type.html":[20,1,3,0],
 "globals_type.html":[20,1,3],
+"globals_type.html":[20,1,3,0],
 "globals_type_a.html":[20,1,3,1],
 "globals_type_b.html":[20,1,3,2],
 "globals_type_c.html":[20,1,3,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "gnrc__lorawan__internal_8h.html#a69da2b0cfddaa84d4c5624aabd05ca17":[20,0,5,8,1,0,1,0,0,69],
 "gnrc__lorawan__internal_8h.html#a6b95e247978753acae019efd9bb2d2ba":[20,0,5,8,1,0,1,0,0,49],
 "gnrc__lorawan__internal_8h.html#a70a63d4ec9d9a0df597dede6c6c3c38e":[20,0,5,8,1,0,1,0,0,60],
-"gnrc__lorawan__internal_8h.html#a715842c2a8e3da769a248223d8d13932":[20,0,5,8,1,0,1,0,0,19],
-"gnrc__lorawan__internal_8h.html#a733ce1a11c14ee56208977aa3466fb01":[20,0,5,8,1,0,1,0,0,26]
+"gnrc__lorawan__internal_8h.html#a715842c2a8e3da769a248223d8d13932":[20,0,5,8,1,0,1,0,0,19]
 };

@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -143,14 +147,14 @@ $(document).ready(function(){initNavTree('devfs_8h_source.html','');});
 <div class="ttc" id="structdevfs_html_a50757d0ccef0e9304b8daa54f029201d"><div class="ttname"><a href="structdevfs.html#a50757d0ccef0e9304b8daa54f029201d">devfs::private_data</a></div><div class="ttdeci">void * private_data</div><div class="ttdoc">Pointer to device driver specific data. </div><div class="ttdef"><b>Definition:</b> <a href="devfs_8h_source.html#l00049">devfs.h:49</a></div></div>
 <div class="ttc" id="structlist__node_html"><div class="ttname"><a href="structlist__node.html">list_node</a></div><div class="ttdoc">List node structure. </div><div class="ttdef"><b>Definition:</b> <a href="list_8h_source.html#l00040">list.h:40</a></div></div>
 <div class="ttc" id="structdevfs_html_accee9ad266163e072cd40fc0413b9d99"><div class="ttname"><a href="structdevfs.html#accee9ad266163e072cd40fc0413b9d99">devfs::path</a></div><div class="ttdeci">const char * path</div><div class="ttdoc">File system relative path to this node. </div><div class="ttdef"><b>Definition:</b> <a href="devfs_8h_source.html#l00047">devfs.h:47</a></div></div>
-<div class="ttc" id="structvfs__file__ops_html"><div class="ttname"><a href="structvfs__file__ops.html">vfs_file_ops</a></div><div class="ttdoc">Operations on open files. </div><div class="ttdef"><b>Definition:</b> <a href="vfs_8h_source.html#l00256">vfs.h:256</a></div></div>
+<div class="ttc" id="structvfs__file__ops_html"><div class="ttname"><a href="structvfs__file__ops.html">vfs_file_ops</a></div><div class="ttdoc">Operations on open files. </div><div class="ttdef"><b>Definition:</b> <a href="vfs_8h_source.html#l00328">vfs.h:328</a></div></div>
 <div class="ttc" id="clist_8h_html"><div class="ttname"><a href="clist_8h.html">clist.h</a></div><div class="ttdoc">Circular linked list. </div></div>
-<div class="ttc" id="structvfs__file__system__t_html"><div class="ttname"><a href="structvfs__file__system__t.html">vfs_file_system_t</a></div><div class="ttdoc">A file system driver. </div><div class="ttdef"><b>Definition:</b> <a href="vfs_8h_source.html#l00184">vfs.h:184</a></div></div>
+<div class="ttc" id="structvfs__file__system__t_html"><div class="ttname"><a href="structvfs__file__system__t.html">vfs_file_system_t</a></div><div class="ttdoc">A file system driver. </div><div class="ttdef"><b>Definition:</b> <a href="vfs_8h_source.html#l00256">vfs.h:256</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:08:54 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:24 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

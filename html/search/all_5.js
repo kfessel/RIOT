@@ -22,8 +22,8 @@ var searchData=
   ['bank',['bank',['../structmtd__jedec__id__t.html#a8526c01842b574c90266fd284e447ff4',1,'mtd_jedec_id_t']]],
   ['banks',['banks',['../structsam0__common__usb__t.html#a146cbd028026deb81101f4d15cfc4b79',1,'sam0_common_usb_t']]],
   ['base',['base',['../structuart__conf__t.html#a280ad674a7ef1492bb24b52204cc0ff6',1,'uart_conf_t::base()'],['../structmtd__at25xxx__t.html#a6748ea19fd16398bcb45bbf06cf72338',1,'mtd_at25xxx_t::base()'],['../structmtd__at24cxxx__t.html#a022906e2acbf4eab3c313b473701402a',1,'mtd_at24cxxx_t::base()'],['../structmtd__sdcard__t.html#a5031f36eda4f6a2d654e525fde1e63f6',1,'mtd_sdcard_t::base()'],['../structmtd__spi__nor__t.html#a5e7566a79757a8b3ae3bc010cce63d6e',1,'mtd_spi_nor_t::base()'],['../structsock__ip.html#a704d3f4d04d9658ab189e60f46757039',1,'sock_ip::base()'],['../structsock__tcp.html#a4129134dd2004fba1b4806525766f811',1,'sock_tcp::base()'],['../structsock__tcp__queue.html#a385837f6726f38935e465074a495bf27',1,'sock_tcp_queue::base()'],['../structsock__udp.html#aa4af66cc4e5f6b2ab327e7958013cb0e',1,'sock_udp::base()'],['../structsixlowpan__sfr__rfrag__t.html#a24b2aaf9f19e38323d14d7b9230a3656',1,'sixlowpan_sfr_rfrag_t::base()'],['../structsixlowpan__sfr__ack__t.html#a0db410aaedbfab45b4910b4652ff7647',1,'sixlowpan_sfr_ack_t::base()'],['../structztimer__t.html#ab47dbc435e6337c35cb1102796167be8',1,'ztimer_t::base()']]],
-  ['base64_5fdecode',['base64_decode',['../group__sys__base64.html#ga5418bf5f0e83d5d9d0b998c24f595cc5',1,'base64.h']]],
-  ['base64_5fencode',['base64_encode',['../group__sys__base64.html#gaa3053b97bfcfd5b364dd16784a5dcef0',1,'base64.h']]],
+  ['base64_5fdecode',['base64_decode',['../group__sys__base64.html#ga3ae43448c50e4ed07b2d34393f669bce',1,'base64.h']]],
+  ['base64_5fencode',['base64_encode',['../group__sys__base64.html#ga8f2d558b4d1a330ae3792ac9df9ee259',1,'base64.h']]],
   ['base64_5ferror_5fbuffer_5fout',['BASE64_ERROR_BUFFER_OUT',['../group__sys__base64.html#gae646aab626d4ef1b3395eea423cf42c7',1,'base64.h']]],
   ['base64_5ferror_5fbuffer_5fout_5fsize',['BASE64_ERROR_BUFFER_OUT_SIZE',['../group__sys__base64.html#ga5b70cb0c970ac841836a531a53748a15',1,'base64.h']]],
   ['base64_5ferror_5fdata_5fin',['BASE64_ERROR_DATA_IN',['../group__sys__base64.html#ga8082593ed83303d1b65aa39bba0352da',1,'base64.h']]],
@@ -31,7 +31,7 @@ var searchData=
   ['base64_5festimate_5fdecode_5fsize',['base64_estimate_decode_size',['../group__sys__base64.html#gab6b78333f9a24f27ebc6f9b8c0673ab9',1,'base64.h']]],
   ['base64_5festimate_5fencode_5fsize',['base64_estimate_encode_size',['../group__sys__base64.html#ga5327a6f063f4dd025e3aaee87054536e',1,'base64.h']]],
   ['base64_5fsuccess',['BASE64_SUCCESS',['../group__sys__base64.html#ga10cff8934cbee0005581d1ca63220eef',1,'base64.h']]],
-  ['base64url_5fencode',['base64url_encode',['../group__sys__base64.html#gab08353ca0fab46ce9c6c4e3beab8c817',1,'base64.h']]],
+  ['base64url_5fencode',['base64url_encode',['../group__sys__base64.html#ga5373b27225516316665361de10bf0169',1,'base64.h']]],
   ['base_5faddr',['base_addr',['../structlittlefs__desc__t.html#ac01d5640194e4296b35060ad8586b619',1,'littlefs_desc_t::base_addr()'],['../structspiffs__desc.html#acb1d5219db11e4dc5f30243af4f40a72',1,'spiffs_desc::base_addr()']]],
   ['base_5ffreq',['base_freq',['../structcc110x__config__t.html#a099e89a5553c0b554dec9e6396fe793d',1,'cc110x_config_t']]],
   ['basic_5fstate',['basic_state',['../structgomach.html#a456be7c21d1031ea993f3187a6f710c8',1,'gomach']]],
@@ -130,7 +130,7 @@ var searchData=
   ['bitband_5faddr',['bitband_addr',['../bit_8h.html#a10ec0cd7d6246f7ed667903af96ed8df',1,'bit.h']]],
   ['bitband_5ffunctions_5fprovided',['BITBAND_FUNCTIONS_PROVIDED',['../group__cpu__kinetis__bme.html#ga06145299a2769dfe171ac948a6c156c8',1,'bme.h']]],
   ['bitcounter',['bitCounter',['../structdcf77.html#a8e1a74834c70f95f97b99933658f4157',1,'dcf77']]],
-  ['bitfield',['BITFIELD',['../structsixlowpan__sfr__ack__t.html#a9a491edc42dfafb1d7638c7759d2241f',1,'sixlowpan_sfr_ack_t::BITFIELD()'],['../struct__nib__abr__entry__t.html#a4a0866881e67c75e80247751f086d0c1',1,'_nib_abr_entry_t::BITFIELD(pfxs, CONFIG_GNRC_IPV6_NIB_OFFL_NUMOF)'],['../struct__nib__abr__entry__t.html#a86a5da0f0082565dd7a1c8f2b9d4b5b4',1,'_nib_abr_entry_t::BITFIELD(ctxs, GNRC_SIXLOWPAN_CTX_SIZE)'],['../bitfield_8h.html#a8c5af51c62a0d3ee392d7daa3a967358',1,'BITFIELD():&#160;bitfield.h']]],
+  ['bitfield',['BITFIELD',['../structsixlowpan__sfr__ack__t.html#a9a491edc42dfafb1d7638c7759d2241f',1,'sixlowpan_sfr_ack_t::BITFIELD()'],['../struct__nib__abr__entry__t.html#a4a0866881e67c75e80247751f086d0c1',1,'_nib_abr_entry_t::BITFIELD(pfxs, CONFIG_GNRC_IPV6_NIB_OFFL_NUMOF)'],['../struct__nib__abr__entry__t.html#a86a5da0f0082565dd7a1c8f2b9d4b5b4',1,'_nib_abr_entry_t::BITFIELD(ctxs, GNRC_SIXLOWPAN_CTX_SIZE)'],['../structfd__set.html#a1709d2e6a9802f7f8ab54fb7b2862d64',1,'fd_set::BITFIELD()'],['../bitfield_8h.html#a8c5af51c62a0d3ee392d7daa3a967358',1,'BITFIELD():&#160;bitfield.h']]],
   ['bitfield_2eh',['bitfield.h',['../bitfield_8h.html',1,'']]],
   ['bitmode',['bitmode',['../structtimer__conf__t.html#a576c90d916a10dffb6de9d2418b9acfc',1,'timer_conf_t']]],
   ['bitrate',['bitrate',['../structcan__conf__t.html#a819a8110fc5dbf8f420a4a2f8cafc2e7',1,'can_conf_t::bitrate()'],['../structcan__bittiming.html#a663bbedb0322b1fc3e86fab66fc03dce',1,'can_bittiming::bitrate()']]],
@@ -588,5 +588,6 @@ var searchData=
   ['bitfields',['Bitfields',['../group__sys__bitfield.html',1,'']]],
   ['bloom_20filter',['Bloom filter',['../group__sys__bloom.html',1,'']]],
   ['bernstein_20hash_20djb2',['Bernstein hash djb2',['../group__sys__hashes__djb2.html',1,'']]],
-  ['board_20reset_20via_20usb_20cdc_20acm',['Board reset via USB CDC ACM',['../group__sys__usb__board__reset.html',1,'']]]
+  ['board_20reset_20via_20usb_20cdc_20acm',['Board reset via USB CDC ACM',['../group__sys__usb__board__reset.html',1,'']]],
+  ['board_20reset_20via_20usb_20cdc_20acm_20internals',['Board reset via USB CDC ACM internals',['../group__sys__usb__board__reset__internal.html',1,'']]]
 ];

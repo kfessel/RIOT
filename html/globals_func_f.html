@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -132,6 +136,18 @@ $(document).ready(function(){initNavTree('globals_func_f.html','');});
 &#160;
 
 <h3><a id="index_f"></a>- f -</h3><ul>
+<li>FD_CLR()
+: <a class="el" href="group__posix__select.html#gaeb43896a587535999ccc5210c3c715e7">select.h</a>
+</li>
+<li>FD_ISSET()
+: <a class="el" href="group__posix__select.html#ga1bd5fc9b86e2774071fd01b790204820">select.h</a>
+</li>
+<li>FD_SET()
+: <a class="el" href="group__posix__select.html#ga24d7c57d92f55a9604000df4d4aa319f">select.h</a>
+</li>
+<li>FD_ZERO()
+: <a class="el" href="group__posix__select.html#ga7650b004c963c7c008eb2de9a33b0380">select.h</a>
+</li>
 <li>feetech_init()
 : <a class="el" href="group__drivers__feetech.html#ga11ab2f988a92f4074efb177a22949d5b">feetech.h</a>
 </li>
@@ -500,7 +516,7 @@ $(document).ready(function(){initNavTree('globals_func_f.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:09:02 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:32 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

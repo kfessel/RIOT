@@ -16,6 +16,7 @@ var group__config =
     [ "NanoCBOR configuration header", "group__nanocbor__config.html", null ],
     [ "Nanocoap compile configurations", "group__net__nanocoap__conf.html", "group__net__nanocoap__conf" ],
     [ "Network Device Configurations", "group__config__drivers__netdev.html", "group__config__drivers__netdev" ],
+    [ "POSIX wrapper compile configurations", "group__config__posix.html", "group__config__posix" ],
     [ "SOCK utility functions compile configurations", "group__net__sock__util__conf.html", "group__net__sock__util__conf" ],
     [ "Sensor Device Configurations", "group__config__drivers__sensors.html", "group__config__drivers__sensors" ],
     [ "Soft Peripheral Configurations", "group__config__drivers__soft__periph.html", "group__config__drivers__soft__periph" ],

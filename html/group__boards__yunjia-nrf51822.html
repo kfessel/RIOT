@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -204,7 +208,7 @@ $(document).ready(function(){initNavTree('group__boards__yunjia-nrf51822.html','
 <p>Alternatively you can configure your IDE (e.g. eclipse or similar) to connect directly to the GDB server. <a href="https://github.com/RIOT-OS/RIOT/wiki/Using-the-Eclipse-IDE-for-C-and-CPP-Developers,-Howto">See here for more information on how to configureEclipse</a></p>
 <h3>Program the device manually</h3>
 <p>For OpenOCD to work correctly, you need the following configuration file (which you can also find in <code>RIOTDIR/boards/yunjia-nrf51822/dist/openocd.cfg</code>:</p>
-<div class="fragment"><div class="line"> $ cat RIOTDIR/boards/yunjia-nrf51822/openocd.cfg</div><div class="line"><span class="preprocessor"># nRF51822 Target</span></div><div class="line">source [find interface/stlink-v2.cfg]</div><div class="line"></div><div class="line">transport select hla_swd</div><div class="line"></div><div class="line"><span class="keyword">set</span> WORKAREASIZE 0x4000</div><div class="line">source [find target/nrf51.cfg]</div><div class="line"></div><div class="line"><span class="preprocessor"># use hardware reset, connect under reset</span></div><div class="line"><span class="preprocessor">#reset_config srst_only srst_nogate</span></div></div><!-- fragment --><p>You can now program your device by doing the following:</p>
+<div class="fragment"><div class="line"> $ cat RIOTDIR/boards/yunjia-nrf51822/openocd.cfg</div><div class="line"><span class="preprocessor"># nRF51822 Target</span></div><div class="line">source [find interface/stlink-v2.cfg]</div><div class="line"></div><div class="line">transport <a class="code" href="group__posix__select.html#ga7ffa34f8c9a12e7fd43f5ef65bf889fa">select</a> hla_swd</div><div class="line"></div><div class="line"><span class="keyword">set</span> WORKAREASIZE 0x4000</div><div class="line">source [find target/nrf51.cfg]</div><div class="line"></div><div class="line"><span class="preprocessor"># use hardware reset, connect under reset</span></div><div class="line"><span class="preprocessor">#reset_config srst_only srst_nogate</span></div></div><!-- fragment --><p>You can now program your device by doing the following:</p>
 <ol type="1">
 <li>start openocd with: <code>openocd -d3 -f RIOTDIR/boards/yunjia- nrf51822/dist/openocd.cfg</code></li>
 <li>open a new terminal an connect with telnet: <code>telnet 127.0.0.1 4444</code></li>
@@ -241,7 +245,7 @@ Files</h2></td></tr>
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:08:59 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:29 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

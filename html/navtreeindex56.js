@@ -1,5 +1,13 @@
 var NAVTREEINDEX56 =
 {
+"group__core__thread.html#ga76c8b55efc2c693fc6e2c6acd9ca2ddb":[18,4,9,38],
+"group__core__thread.html#ga76c8b55efc2c693fc6e2c6acd9ca2ddb":[20,0,1,0,25,36],
+"group__core__thread.html#ga7ce2b0b9af6fd608f8135076aeaff674":[18,4,9,26],
+"group__core__thread.html#ga7ce2b0b9af6fd608f8135076aeaff674":[20,0,1,0,25,24],
+"group__core__thread.html#ga7d49bed9a012215e798f4ec4027bd4cd":[18,4,9,25],
+"group__core__thread.html#ga7d49bed9a012215e798f4ec4027bd4cd":[20,0,1,0,25,23],
+"group__core__thread.html#ga7e0403a9aa86ce0ec136f6b069d4434a":[18,4,9,20],
+"group__core__thread.html#ga7e0403a9aa86ce0ec136f6b069d4434a":[20,0,1,0,25,18],
 "group__core__thread.html#ga7fd6618f65f13fd9a023b79da69545b1":[18,4,9,27],
 "group__core__thread.html#ga7fd6618f65f13fd9a023b79da69545b1":[20,0,1,0,25,25],
 "group__core__thread.html#ga862dec3a65ad85c3b18bdf2d5450880e":[18,4,9,29],
@@ -135,8 +143,8 @@ var NAVTREEINDEX56 =
 "group__cpu__atmega__common.html#ga09e189d2214d9fe2847d27bf270ca1d7":[18,1,2,83],
 "group__cpu__atmega__common.html#ga0a3bef9e5c47e42917692b5dae3b5498":[20,0,2,8,0,0,1,19],
 "group__cpu__atmega__common.html#ga0a3bef9e5c47e42917692b5dae3b5498":[18,1,2,27],
-"group__cpu__atmega__common.html#ga0e416d3478cf030e37e90c55d68ad97a":[18,1,2,24],
 "group__cpu__atmega__common.html#ga0e416d3478cf030e37e90c55d68ad97a":[20,0,2,8,0,0,1,16],
+"group__cpu__atmega__common.html#ga0e416d3478cf030e37e90c55d68ad97a":[18,1,2,24],
 "group__cpu__atmega__common.html#ga0e42d4f9fecdcf5fcca2b333252173c3":[20,0,2,8,0,0,1,73],
 "group__cpu__atmega__common.html#ga0e42d4f9fecdcf5fcca2b333252173c3":[18,1,2,81],
 "group__cpu__atmega__common.html#ga164ca8549da7a385e2fe1cba823b9eaf":[20,0,2,8,0,0,1,29],
@@ -241,13 +249,5 @@ var NAVTREEINDEX56 =
 "group__cpu__atmega__common.html#gaaed12e82224923d599b6f1939c8e0971":[18,1,2,86],
 "group__cpu__atmega__common.html#gab59cf3c65eaf836d5c647fa2a24ca649":[20,0,2,8,0,0,1,76],
 "group__cpu__atmega__common.html#gab59cf3c65eaf836d5c647fa2a24ca649":[18,1,2,84],
-"group__cpu__atmega__common.html#gab9b8cc17d1947160d13faaba7a18d6d1":[20,0,2,8,0,0,1,43],
-"group__cpu__atmega__common.html#gab9b8cc17d1947160d13faaba7a18d6d1":[18,1,2,51],
-"group__cpu__atmega__common.html#gaba38357387a474f439428dee1984fc5a":[20,0,2,8,0,0,2,3],
-"group__cpu__atmega__common.html#gaba38357387a474f439428dee1984fc5a":[18,1,2,92],
-"group__cpu__atmega__common.html#gaba8481985c201ff726f349d7f2d09895":[18,1,2,8],
-"group__cpu__atmega__common.html#gaba8481985c201ff726f349d7f2d09895":[20,0,2,8,0,0,1,0],
-"group__cpu__atmega__common.html#gac2a2e9fa555401f94478f74e01868032":[18,1,2,9],
-"group__cpu__atmega__common.html#gac2a2e9fa555401f94478f74e01868032":[20,0,2,8,0,0,1,1],
-"group__cpu__atmega__common.html#gac3daf409082bb528032f4452a81e1034":[20,0,2,8,0,0,1,61]
+"group__cpu__atmega__common.html#gab9b8cc17d1947160d13faaba7a18d6d1":[20,0,2,8,0,0,1,43]
 };

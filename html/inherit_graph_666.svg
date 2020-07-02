@@ -11,9 +11,9 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="structsd__status__t.html" target="_top" xlink:title="SD status register (see section 4.10.2 in SD&#45;Spec v5.00) ">
+<g id="a_node1"><a xlink:href="structschedstat__t.html" target="_top" xlink:title="Scheduler statistics. ">
 <polygon fill="none" stroke="#000000" points="0,-.5 0,-19.5 68,-19.5 68,-.5 0,-.5"/>
-<text text-anchor="middle" x="34" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">sd_status_t</text>
+<text text-anchor="middle" x="34" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">schedstat_t</text>
 </a>
 </g>
 </g>

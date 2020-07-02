@@ -1,5 +1,15 @@
 var vfs_8h =
 [
+    [ "_MAX", "group__sys__vfs.html#ga7a7cae471ca91e09f2432b2c13a8bb45", null ],
+    [ "FATFS_VFS_DIR_BUFFER_SIZE", "group__sys__vfs.html#gaf168cd5f6f5766b34d6be9b9c1ce9f26", null ],
+    [ "FATFS_VFS_FILE_BUFFER_SIZE", "group__sys__vfs.html#ga069e70ed819eb2071c355529c933a65b", null ],
+    [ "LITTLEFS2_VFS_DIR_BUFFER_SIZE", "group__sys__vfs.html#ga8bb076eda1b8d4f5176fec79314a020b", null ],
+    [ "LITTLEFS2_VFS_FILE_BUFFER_SIZE", "group__sys__vfs.html#ga73c894ae1c52a2c875b977280418feae", null ],
+    [ "LITTLEFS_VFS_DIR_BUFFER_SIZE", "group__sys__vfs.html#ga39a3ce949009b07b680210b57ace4650", null ],
+    [ "LITTLEFS_VFS_FILE_BUFFER_SIZE", "group__sys__vfs.html#ga2a299d759966f4be9e60473b85844db5", null ],
+    [ "MAX4", "group__sys__vfs.html#gacf9c1f64129f8817d22f83b96f6ed466", null ],
+    [ "SPIFFS_VFS_DIR_BUFFER_SIZE", "group__sys__vfs.html#ga0def0df1a3ac093ececed5dc59873b62", null ],
+    [ "SPIFFS_VFS_FILE_BUFFER_SIZE", "group__sys__vfs.html#ga43f70b723645183965add3e54025452a", null ],
     [ "VFS_ANY_FD", "group__sys__vfs.html#ga2033ea53eb6551b0de53412ab38d0f41", null ],
     [ "VFS_DIR_BUFFER_SIZE", "group__sys__vfs.html#ga0e3cb874e1e5f6a49f33151d89f0aaef", null ],
     [ "VFS_FILE_BUFFER_SIZE", "group__sys__vfs.html#ga6d9a9dcf98b4d4e4372cc476b8fe8eba", null ],
@@ -14,6 +24,7 @@ var vfs_8h =
     [ "vfs_close", "group__sys__vfs.html#ga60d1dba40888b0dadfbb4f0a30e1cb89", null ],
     [ "vfs_closedir", "group__sys__vfs.html#gaf3ffccb04f73042f1b1bdb63ca770e73", null ],
     [ "vfs_fcntl", "group__sys__vfs.html#gacfac67f4d58f160ca165336b95e14c76", null ],
+    [ "vfs_file_get", "group__sys__vfs.html#gaa717194c0d9d055711196323dd5cb8aa", null ],
     [ "vfs_format", "group__sys__vfs.html#ga85c6c8cab631ccd9ad61badb54d8ba10", null ],
     [ "vfs_fstat", "group__sys__vfs.html#gad4649a984a7aa0643d157f8467d9c4ee", null ],
     [ "vfs_fstatvfs", "group__sys__vfs.html#gaf67facc4f466ae49d9eef46437a47581", null ],

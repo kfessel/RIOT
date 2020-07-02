@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -268,10 +272,13 @@ $(document).ready(function(){initNavTree('globals_func_u.html','');});
 : <a class="el" href="group__CC2538__cmsis.html#ga1d98923de2ed6b7309b66f9ba2971647">cc2538.h</a>
 </li>
 <li>usb_board_reset_coding_cb()
-: <a class="el" href="group__sys__usb__board__reset.html#gaa7ac353545fd66c84286e9733908129f">usb_board_reset.h</a>
+: <a class="el" href="group__sys__usb__board__reset__internal.html#gaa7ac353545fd66c84286e9733908129f">usb_board_reset_internal.h</a>
 </li>
 <li>usb_board_reset_in_application()
 : <a class="el" href="group__sys__usb__board__reset.html#ga3c191c3707d37d30c4284f26985cf215">usb_board_reset.h</a>
+</li>
+<li>usb_board_reset_in_bootloader()
+: <a class="el" href="group__sys__usb__board__reset.html#gaf64d71aad07429c0ad600615b7c360ab">usb_board_reset.h</a>
 </li>
 <li>usb_setup_is_read()
 : <a class="el" href="group__usb__descriptor.html#ga838e0bfd2b2e99a7ee46d3bfef7018ff">descriptor.h</a>
@@ -419,7 +426,7 @@ $(document).ready(function(){initNavTree('globals_func_u.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:09:02 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:32 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structsixlowpan__sfr__ack__t.html" title="Recoverable fragment (RFRAG) acknowledgment header. " alt="" coords="5,5,147,32"/>
+<area shape="rect" id="node1" href="$structsixlowpan__frag__t.html" title="General and 1st 6LoWPAN fragmentation header. " alt="" coords="5,5,125,32"/>
+<area shape="rect" id="node2" href="$structsixlowpan__frag__n__t.html" title="Subsequent 6LoWPAN fragmentation header. " alt="" coords="173,5,308,32"/>
 </map>

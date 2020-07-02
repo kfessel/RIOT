@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -152,14 +156,14 @@ $(document).ready(function(){initNavTree('spiffs__fs_8h_source.html','');});
 <div class="ttc" id="structmtd__dev__t_html"><div class="ttname"><a href="structmtd__dev__t.html">mtd_dev_t</a></div><div class="ttdoc">MTD device descriptor. </div><div class="ttdef"><b>Definition:</b> <a href="mtd_8h_source.html#l00058">mtd.h:58</a></div></div>
 <div class="ttc" id="structspiffs__desc_html"><div class="ttname"><a href="structspiffs__desc.html">spiffs_desc</a></div><div class="ttdoc">This contains everything needed to run an instance of SPIFFS. </div><div class="ttdef"><b>Definition:</b> <a href="spiffs__fs_8h_source.html#l00106">spiffs_fs.h:106</a></div></div>
 <div class="ttc" id="structspiffs__desc_html_ad19efa5f75d512c0fbbb628980a55eb1"><div class="ttname"><a href="structspiffs__desc.html#ad19efa5f75d512c0fbbb628980a55eb1">spiffs_desc::fd_space</a></div><div class="ttdeci">uint8_t fd_space[SPIFFS_FS_FD_SPACE_SIZE]</div><div class="ttdoc">SPIFFS file descriptor cache. </div><div class="ttdef"><b>Definition:</b> <a href="spiffs__fs_8h_source.html#l00109">spiffs_fs.h:109</a></div></div>
-<div class="ttc" id="structvfs__file__system__t_html"><div class="ttname"><a href="structvfs__file__system__t.html">vfs_file_system_t</a></div><div class="ttdoc">A file system driver. </div><div class="ttdef"><b>Definition:</b> <a href="vfs_8h_source.html#l00184">vfs.h:184</a></div></div>
+<div class="ttc" id="structvfs__file__system__t_html"><div class="ttname"><a href="structvfs__file__system__t.html">vfs_file_system_t</a></div><div class="ttdoc">A file system driver. </div><div class="ttdef"><b>Definition:</b> <a href="vfs_8h_source.html#l00256">vfs.h:256</a></div></div>
 <div class="ttc" id="structmutex__t_html"><div class="ttname"><a href="structmutex__t.html">mutex_t</a></div><div class="ttdoc">Mutex structure. </div><div class="ttdef"><b>Definition:</b> <a href="mutex_8h_source.html#l00037">mutex.h:37</a></div></div>
 <div class="ttc" id="group__sys__spiffs_html_gacb13b7b0bdecb7709499d1410cf37aa9"><div class="ttname"><a href="group__sys__spiffs.html#gacb13b7b0bdecb7709499d1410cf37aa9">spiffs_desc_t</a></div><div class="ttdeci">struct spiffs_desc spiffs_desc_t</div><div class="ttdoc">This contains everything needed to run an instance of SPIFFS. </div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:08:54 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:24 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

@@ -11,6 +11,7 @@ var searchData=
   ['vfs_5fclose',['vfs_close',['../group__sys__vfs.html#ga60d1dba40888b0dadfbb4f0a30e1cb89',1,'vfs.h']]],
   ['vfs_5fclosedir',['vfs_closedir',['../group__sys__vfs.html#gaf3ffccb04f73042f1b1bdb63ca770e73',1,'vfs.h']]],
   ['vfs_5ffcntl',['vfs_fcntl',['../group__sys__vfs.html#gacfac67f4d58f160ca165336b95e14c76',1,'vfs.h']]],
+  ['vfs_5ffile_5fget',['vfs_file_get',['../group__sys__vfs.html#gaa717194c0d9d055711196323dd5cb8aa',1,'vfs.h']]],
   ['vfs_5fformat',['vfs_format',['../group__sys__vfs.html#ga85c6c8cab631ccd9ad61badb54d8ba10',1,'vfs.h']]],
   ['vfs_5ffstat',['vfs_fstat',['../group__sys__vfs.html#gad4649a984a7aa0643d157f8467d9c4ee',1,'vfs.h']]],
   ['vfs_5ffstatvfs',['vfs_fstatvfs',['../group__sys__vfs.html#gaf67facc4f466ae49d9eef46437a47581',1,'vfs.h']]],

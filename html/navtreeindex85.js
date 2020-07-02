@@ -1,5 +1,13 @@
 var NAVTREEINDEX85 =
 {
+"group__drivers__periph__qdec.html":[18,3,5,13],
+"group__drivers__periph__qdec.html#ga02c82a47f6e4c59e0e35798eeb89e237":[20,0,3,44,3,14,1],
+"group__drivers__periph__qdec.html#ga02c82a47f6e4c59e0e35798eeb89e237":[18,3,5,13,3],
+"group__drivers__periph__qdec.html#ga101d07334a21ae81666572f918f47cf0":[20,0,3,44,3,14,0],
+"group__drivers__periph__qdec.html#ga101d07334a21ae81666572f918f47cf0":[18,3,5,13,2],
+"group__drivers__periph__qdec.html#ga275b018dc17a3dc56b687c02c0ce4e7c":[20,0,3,44,3,14,3],
+"group__drivers__periph__qdec.html#ga275b018dc17a3dc56b687c02c0ce4e7c":[18,3,5,13,5],
+"group__drivers__periph__qdec.html#ga48141338d4307bca6d31830b2d0d188d":[20,0,3,44,3,14,5],
 "group__drivers__periph__qdec.html#ga48141338d4307bca6d31830b2d0d188d":[18,3,5,13,7],
 "group__drivers__periph__qdec.html#ga52233ed888a0c247712ea515871231c5":[20,0,3,44,3,14,7],
 "group__drivers__periph__qdec.html#ga52233ed888a0c247712ea515871231c5":[18,3,5,13,9],
@@ -76,8 +84,8 @@ var NAVTREEINDEX85 =
 "group__drivers__periph__rtt.html#gac6777c08b04548b02659dc65986c15f2":[18,3,5,15,9],
 "group__drivers__periph__rtt.html#gac819760a14e55325c2ee901bf92b6d83":[20,0,3,44,3,16,12],
 "group__drivers__periph__rtt.html#gac819760a14e55325c2ee901bf92b6d83":[18,3,5,15,13],
-"group__drivers__periph__rtt.html#gad34d7bc806339ce586e8a942913cdb6f":[18,3,5,15,3],
 "group__drivers__periph__rtt.html#gad34d7bc806339ce586e8a942913cdb6f":[20,0,3,44,3,16,2],
+"group__drivers__periph__rtt.html#gad34d7bc806339ce586e8a942913cdb6f":[18,3,5,15,3],
 "group__drivers__periph__rtt.html#gadf40fd557943deb0d5a977ed3d77edef":[20,0,3,44,3,16,6],
 "group__drivers__periph__rtt.html#gadf40fd557943deb0d5a977ed3d77edef":[18,3,5,15,7],
 "group__drivers__periph__rtt.html#gae653b0039b81d7c774c370f1e35e7232":[20,0,3,44,3,16,9],
@@ -241,13 +249,5 @@ var NAVTREEINDEX85 =
 "group__drivers__periph__uart.html#ggac1351f3e26da80ee24b2888ecc68fca6a6608baae54141f9335c1c735c5bca620":[18,3,5,18,5,3],
 "group__drivers__periph__uart.html#ggac1351f3e26da80ee24b2888ecc68fca6a941021a8f99c1bb1ffbcb511ff4ce3f2":[20,0,3,44,3,19,8],
 "group__drivers__periph__uart.html#ggac1351f3e26da80ee24b2888ecc68fca6a941021a8f99c1bb1ffbcb511ff4ce3f2":[18,3,5,18,5,4],
-"group__drivers__periph__uart.html#ggadc68b8fd9ded3990f84129df23fee798a12ee42f7fd9804e1315391151603d405":[20,0,3,44,3,19,9,1],
-"group__drivers__periph__uart.html#ggadc68b8fd9ded3990f84129df23fee798a12ee42f7fd9804e1315391151603d405":[18,3,5,18,6,1],
-"group__drivers__periph__uart.html#ggadc68b8fd9ded3990f84129df23fee798a20932d2daf15a9ac33d71d9d91550e01":[20,0,3,44,3,19,9,0],
-"group__drivers__periph__uart.html#ggadc68b8fd9ded3990f84129df23fee798a20932d2daf15a9ac33d71d9d91550e01":[18,3,5,18,6,0],
-"group__drivers__periph__uart.html#ggadc68b8fd9ded3990f84129df23fee798a317e473e32315f1632829d176fbfd545":[20,0,3,44,3,19,9,2],
-"group__drivers__periph__uart.html#ggadc68b8fd9ded3990f84129df23fee798a317e473e32315f1632829d176fbfd545":[18,3,5,18,6,2],
-"group__drivers__periph__uart.html#ggadc68b8fd9ded3990f84129df23fee798ad768185f3773e2d5953b28f3345561db":[20,0,3,44,3,19,9,3],
-"group__drivers__periph__uart.html#ggadc68b8fd9ded3990f84129df23fee798ad768185f3773e2d5953b28f3345561db":[18,3,5,18,6,3],
-"group__drivers__periph__usbdev.html":[18,3,5,20]
+"group__drivers__periph__uart.html#ggadc68b8fd9ded3990f84129df23fee798a12ee42f7fd9804e1315391151603d405":[20,0,3,44,3,19,9,1]
 };

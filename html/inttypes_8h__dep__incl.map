@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="6823,95,6953,136"/>
 <area shape="rect" id="node61" href="$gnrc_2sixlowpan_2frag_8h.html" title="6LoWPAN Fragmentation definitions " alt="" coords="9483,660,9621,701"/>
 <area shape="rect" id="node72" href="$echo_8h.html" title="ICMPv6 echo message definitions. " alt="" coords="12987,459,13125,501"/>
-<area shape="rect" id="node89" href="$usb__board__reset_8h.html" title="sys/include/usb_board\l_reset.h" alt="" coords="5165,459,5317,501"/>
+<area shape="rect" id="node89" href="$usb__board__reset__internal_8h.html" title="sys/include/usb_board\l_reset_internal.h" alt="" coords="5165,459,5317,501"/>
 <area shape="rect" id="node109" href="$ata8520e_8h.html" title="Device driver for Microchip ATA8520E transceiver (Sigfox) " alt="" coords="9526,370,9701,397"/>
 <area shape="rect" id="node111" href="$dcf77_8h.html" title="Interface definition for the dcf77 sensor driver. " alt="" coords="2158,370,2311,397"/>
 <area shape="rect" id="node119" href="$sx127x__internal_8h.html" title="Semtech SX127X internal functions. " alt="" coords="6352,459,6504,501"/>

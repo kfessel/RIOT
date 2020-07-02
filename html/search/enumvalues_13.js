@@ -46,7 +46,7 @@ var searchData=
   ['uart_5fstop_5fbits_5f1',['UART_STOP_BITS_1',['../group__drivers__periph__uart.html#gga6da57a73bbdbf830b845d4116f8341d7a44b3bfbe90aebe2b23227f5c011f41cc',1,'uart.h']]],
   ['uart_5fstop_5fbits_5f2',['UART_STOP_BITS_2',['../group__drivers__periph__uart.html#gga6da57a73bbdbf830b845d4116f8341d7a00c73c92b3d624bc86cfa63636dd99b3',1,'uart.h']]],
   ['uart_5fundefined',['UART_UNDEFINED',['../dev__enums_8h.html#aa35bbc7be42569ff9ba436cf05942ce6af3958b4808716f8835afef0eae085259',1,'dev_enums.h']]],
-  ['udma_5ferr_5firqn',['UDMA_ERR_IRQn',['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a3422683d3f176ac107eef744cde44648',1,'UDMA_ERR_IRQn():&#160;cc2538.h'],['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a6007aeaeb84bce22386ac55b3aa4640e',1,'UDMA_ERR_IRQN():&#160;cc26xx_cc13xx.h']]],
+  ['udma_5ferr_5firqn',['UDMA_ERR_IRQN',['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a6007aeaeb84bce22386ac55b3aa4640e',1,'UDMA_ERR_IRQN():&#160;cc26xx_cc13xx.h'],['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a3422683d3f176ac107eef744cde44648',1,'UDMA_ERR_IRQn():&#160;cc2538.h']]],
   ['udma_5firqn',['UDMA_IRQn',['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a0637125132f84f80c98f43d82213d948',1,'UDMA_IRQn():&#160;cc2538.h'],['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a97c25aea01e6fffda490f6bec8cad759',1,'UDMA_IRQN():&#160;cc26xx_cc13xx.h']]],
   ['uhcp_5fpush',['UHCP_PUSH',['../group__net__uhcp.html#gga9a49b7c901cf974aec64990d6f499ae4aab4ff4e49cdea88d48bca529ffdad7a4',1,'uhcp.h']]],
   ['uhcp_5freq',['UHCP_REQ',['../group__net__uhcp.html#gga9a49b7c901cf974aec64990d6f499ae4a23525e73a3d45c1d22a25c4a6c326e67',1,'uhcp.h']]],

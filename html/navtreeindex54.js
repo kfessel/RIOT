@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"group__boards__hifive1.html#gac6468b1df4dfabcca0bb142044d6f976":[20,0,0,57,0,0,8],
 "group__boards__hifive1.html#gacd16785845ce7004334b91a98707f8eb":[20,0,0,57,0,0,11],
 "group__boards__hifive1.html#gaebc6389533d9fc8dcbe4d2129a4d5a45":[20,0,0,57,0,0,3],
 "group__boards__hifive1.html#gaef2e39b9fd343d0e437fac0463f3e02d":[20,0,0,57,0,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "group__boards__ublox-c030-u201.html#ga40f0f4b5ae7ea50d341105ddc740101e":[20,0,0,177,0,1,12],
 "group__boards__ublox-c030-u201.html#ga41cbf87bcb5db3d76e7bce9db6718437":[20,0,0,177,0,1,23],
 "group__boards__ublox-c030-u201.html#ga5d48569fb4855ae3e61c38a63779c730":[20,0,0,177,0,1,17],
-"group__boards__ublox-c030-u201.html#ga669ed6e073140d069b30442bf4c08842":[20,0,0,177,0,1,7],
-"group__boards__ublox-c030-u201.html#ga916f2adc2080b4fe88034086d107a8dc":[18,0,130,5]
+"group__boards__ublox-c030-u201.html#ga669ed6e073140d069b30442bf4c08842":[20,0,0,177,0,1,7]
 };

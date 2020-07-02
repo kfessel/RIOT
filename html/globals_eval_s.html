@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -954,11 +958,11 @@ $(document).ready(function(){initNavTree('globals_eval_s.html','');});
 <li>SSI0_FSS_OUT
 : <a class="el" href="group__cpu__cc2538__gpio.html#ggac1106d64db85a24c22c2fe4cd7e28f9aa433c3fc2eebeacd85817ef9fffb201eb">cc2538_gpio.h</a>
 </li>
-<li>SSI0_IRQn
-: <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a000550a0ffe3c6120a93a0746a8f8136">cc2538.h</a>
-</li>
 <li>SSI0_IRQN
 : <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083adba67235f2c196fe13f1fff046d60bb1">cc26xx_cc13xx.h</a>
+</li>
+<li>SSI0_IRQn
+: <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a000550a0ffe3c6120a93a0746a8f8136">cc2538.h</a>
 </li>
 <li>SSI0_RXD
 : <a class="el" href="group__cpu__cc2538__gpio.html#gga81616fb2c35cba2e374ca3b37e3f2663a5145c08eeb52ec73b9c3a5c15b746cf3">cc2538_gpio.h</a>
@@ -1162,7 +1166,7 @@ $(document).ready(function(){initNavTree('globals_eval_s.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:09:02 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:32 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

@@ -289,6 +289,7 @@ var hierarchy =
     [ "fatfs_desc", "structfatfs__desc.html", null ],
     [ "fatfs_file_desc", "structfatfs__file__desc.html", null ],
     [ "fcfg_regs_t", "structfcfg__regs__t.html", null ],
+    [ "fd_set", "structfd__set.html", null ],
     [ "feetech_reader_t", "structfeetech__reader__t.html", null ],
     [ "feetech_t", "structfeetech__t.html", null ],
     [ "feetech_writer_t", "structfeetech__writer__t.html", null ],

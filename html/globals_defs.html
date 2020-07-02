@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -162,8 +166,8 @@ $(document).ready(function(){initNavTree('globals_defs.html','');});
 , <a class="el" href="group__CC13x2__cmsis.html#gae3fe3587d5100c787e02102ce3944460">cc26xx_cc13xx.h</a>
 </li>
 <li>__Vendor_SysTickConfig
-: <a class="el" href="group__CC13x2__cmsis.html#gab58771b4ec03f9bdddc84770f7c95c68">cc26xx_cc13xx.h</a>
-, <a class="el" href="group__CC2538__cmsis.html#gab58771b4ec03f9bdddc84770f7c95c68">cc2538.h</a>
+: <a class="el" href="group__CC2538__cmsis.html#gab58771b4ec03f9bdddc84770f7c95c68">cc2538.h</a>
+, <a class="el" href="group__CC13x2__cmsis.html#gab58771b4ec03f9bdddc84770f7c95c68">cc26xx_cc13xx.h</a>
 </li>
 <li>_ADDR_REG_STATUS_IGNORE
 : <a class="el" href="__nib-6ln_8h.html#aaf3f8ee0e44ae2cefccaf787f3f8c536">_nib-6ln.h</a>
@@ -177,12 +181,15 @@ $(document).ready(function(){initNavTree('globals_defs.html','');});
 <li>_byteorder_swap
 : <a class="el" href="byteorder_8h.html#afb16da7687ec8edb2290c557a4da0643">byteorder.h</a>
 </li>
+<li>_MAX
+: <a class="el" href="group__sys__vfs.html#ga7a7cae471ca91e09f2432b2c13a8bb45">vfs.h</a>
+</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:09:02 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:32 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

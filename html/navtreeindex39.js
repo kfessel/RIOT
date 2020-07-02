@@ -105,14 +105,15 @@ var NAVTREEINDEX39 =
 "driver-guide.html#driver-guide-config":[8,1,2],
 "driver-guide.html#driver-guide-design-objectives":[8,0],
 "driver-guide.html#driver-guide-doc":[8,1,0],
+"driver-guide.html#driver-guide-doxygen":[8,1,3],
 "driver-guide.html#driver-guide-general":[8,1],
-"driver-guide.html#driver-guide-general-checklist":[8,1,5],
-"driver-guide.html#driver-guide-initialization":[8,1,3],
+"driver-guide.html#driver-guide-general-checklist":[8,1,6],
+"driver-guide.html#driver-guide-initialization":[8,1,4],
 "driver-guide.html#driver-guide-netdev":[8,3],
 "driver-guide.html#driver-guide-netdev-checklist":[8,3,2],
 "driver-guide.html#driver-guide-netdev-init":[8,3,0],
 "driver-guide.html#driver-guide-netdev-interface":[8,3,1],
-"driver-guide.html#driver-guide-return-values":[8,1,4],
+"driver-guide.html#driver-guide-return-values":[8,1,5],
 "driver-guide.html#driver-guide-saul":[8,2,0],
 "driver-guide.html#driver-guide-sensor-checklist":[8,2,3],
 "driver-guide.html#driver-guide-sensor-initialization":[8,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "ds3234__regs_8h.html#a10e74d65d7876276a8f6061c71dcf469ab55d930322abf1dbcfba306b7b8c7ad1":[20,0,3,28,0,1,26],
 "ds3234__regs_8h.html#a10e74d65d7876276a8f6061c71dcf469ac47812e2318c742fa9b51206432567e6":[20,0,3,28,0,1,19],
 "ds3234__regs_8h.html#a10e74d65d7876276a8f6061c71dcf469acdc10e13c9b13da9c276e846648f35b1":[20,0,3,28,0,1,21],
-"ds3234__regs_8h.html#a10e74d65d7876276a8f6061c71dcf469ad3df64653980f8cf51954ea330f8486e":[20,0,3,28,0,1,11],
-"ds3234__regs_8h.html#a10e74d65d7876276a8f6061c71dcf469ad5283fc32be0274e9b72034cdfd75752":[20,0,3,28,0,1,15]
+"ds3234__regs_8h.html#a10e74d65d7876276a8f6061c71dcf469ad3df64653980f8cf51954ea330f8486e":[20,0,3,28,0,1,11]
 };

@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -141,6 +145,9 @@ $(document).ready(function(){initNavTree('globals_defs_f.html','');});
 <li>FATFS_MOUNT_OPT
 : <a class="el" href="group__sys__fatfs.html#ga7ef4d049a02926687d3e3ff7ec2da937">fatfs.h</a>
 </li>
+<li>FATFS_VFS_DIR_BUFFER_SIZE
+: <a class="el" href="group__sys__vfs.html#gaf168cd5f6f5766b34d6be9b9c1ce9f26">vfs.h</a>
+</li>
 <li>FATFS_YEAR_OFFSET
 : <a class="el" href="group__sys__fatfs.html#ga91e6a88e878df2c8d1ecd3065d92dfa7">fatfs.h</a>
 </li>
@@ -154,6 +161,9 @@ $(document).ready(function(){initNavTree('globals_defs_f.html','');});
 <li>FCFG_BASE
 : <a class="el" href="group__cpu__specific__peripheral__memory__map.html#ga20ab91625bf7a1402820586eeec74b6b">cc26x0_fcfg.h</a>
 , <a class="el" href="group__cpu__specific__peripheral__memory__map.html#ga20ab91625bf7a1402820586eeec74b6b">cc26x2_cc13x2_fcfg.h</a>
+</li>
+<li>FD_SETSIZE
+: <a class="el" href="group__posix__select.html#ga86c5dbf5a99358e288f573d6a1e0873f">select.h</a>
 </li>
 <li>FIB_FLAG_NET_PREFIX_MASK
 : <a class="el" href="group__net__fib.html#gac1e07b8040a5c63c56d3cadf8ce61a59">fib.h</a>
@@ -235,8 +245,8 @@ $(document).ready(function(){initNavTree('globals_defs_f.html','');});
 : <a class="el" href="group__drivers__periph__flashpage.html#gac2d27fbc1ae5ae8cb86479626cd4a3a6">flashpage.h</a>
 </li>
 <li>FLASHPAGE_RAW_BLOCKSIZE
-: <a class="el" href="group__drivers__periph__flashpage.html#ga782282047494538d13e2b3913bbc94f8">flashpage.h</a>
-, <a class="el" href="group__cpu__nrf52.html#ga782282047494538d13e2b3913bbc94f8">cpu_conf.h</a>
+: <a class="el" href="group__cpu__nrf52.html#ga782282047494538d13e2b3913bbc94f8">cpu_conf.h</a>
+, <a class="el" href="group__drivers__periph__flashpage.html#ga782282047494538d13e2b3913bbc94f8">flashpage.h</a>
 </li>
 <li>FLASHPAGE_SIZE
 : <a class="el" href="group__cpu__nrf51.html#gafce96cb577e50c76434ba92363ca20e8">cpu_conf.h</a>
@@ -282,7 +292,7 @@ $(document).ready(function(){initNavTree('globals_defs_f.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:09:02 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:32 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

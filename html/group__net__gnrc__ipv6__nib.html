@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -661,7 +665,7 @@ Timer event message types</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="gga456ac33d49271d3e2c371351cd1d6371a5196accace67c663b23a35f9654e5485"></a>GNRC_IPV6_NIB_ROUTE_INFO_TYPE_NSC&#160;</td><td class="fielddoc"><p>neighbor state change </p>
 <p>A neighbor state change is issued when ever the NUD state of a neighbor changes. A routing protocol can use this call to update its information on routes via this neighbor.</p>
-<p>The <code>ctx_addr</code> is the address of the neighbor, <code>ctx</code> is a value equal to the new NUD state as defined in [the NC info flags](<a class="el" href="group__net__gnrc__ipv6__nib__nc.html#net_gnrc_ipv6_nib_nc_info">net_gnrc_ipv6_nib_nc_info</a>). If the entry is deleted, <code>ctx</code> will be set to <a class="el" href="group__net__gnrc__ipv6__nib__nc.html#gadbeaa7647b8f49fef2f38003b2a3ba76">GNRC_IPV6_NIB_NC_INFO_NUD_STATE_UNREACHABLE</a> (except if it was already in the <code>UNREACHABLE</code> state). This does not include cache-outs, since they give no information about the neighbor's reachability (you might however get an INCOMPLETE or STALE notification due to that, as soon as the neighbor enters the neighbor cache again).</p>
+<p>The <code>ctx_addr</code> is the address of the neighbor, <code>ctx</code> is a value equal to the new NUD state as defined in <a class="el" href="group__net__gnrc__ipv6__nib__nc.html#net_gnrc_ipv6_nib_nc_info">the NC info flags</a>. If the entry is deleted, <code>ctx</code> will be set to <a class="el" href="group__net__gnrc__ipv6__nib__nc.html#gadbeaa7647b8f49fef2f38003b2a3ba76">GNRC_IPV6_NIB_NC_INFO_NUD_STATE_UNREACHABLE</a> (except if it was already in the <code>UNREACHABLE</code> state). This does not include cache-outs, since they give no information about the neighbor's reachability (you might however get an INCOMPLETE or STALE notification due to that, as soon as the neighbor enters the neighbor cache again).</p>
 <p>Be advised to only use <code>ctx_addr</code> in the context of the callback, since it might be overwritten, after the callback was left. </p>
 </td></tr>
 </table>
@@ -1020,7 +1024,7 @@ Timer event message types</h2></td></tr>
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:09:00 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:30 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

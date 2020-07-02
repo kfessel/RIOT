@@ -175,7 +175,7 @@
 <area shape="rect" id="node137" href="$dedup_8h.html" title="sys/include/net/gnrc\l/netif/dedup.h" alt="" coords="5593,1278,5732,1319"/>
 <area shape="rect" id="node143" href="$acm_8h.html" title="Interface and definitions for USB CDC ACM type interfaces in USBUS. " alt="" coords="8149,1278,8301,1319"/>
 <area shape="rect" id="node146" href="$control_8h.html" title="USBUS control endpoint module. " alt="" coords="8325,1278,8477,1319"/>
-<area shape="rect" id="node144" href="$usb__board__reset_8h.html" title="sys/include/usb_board\l_reset.h" alt="" coords="8149,1382,8301,1423"/>
+<area shape="rect" id="node144" href="$usb__board__reset__internal_8h.html" title="sys/include/usb_board\l_reset_internal.h" alt="" coords="8149,1382,8301,1423"/>
 <area shape="rect" id="node153" href="$util_8h.html" title="sock utility function definitions " alt="" coords="7023,913,7166,955"/>
 <area shape="rect" id="node155" href="$sock__dtls__types_8h.html" title="tinydtls&#45;specific types and functions definitions " alt="" coords="7242,913,7377,955"/>
 <area shape="rect" id="node157" href="$ep_8h.html" title="CoRE Resource Directory endpoint interface. " alt="" coords="7452,921,7620,947"/>

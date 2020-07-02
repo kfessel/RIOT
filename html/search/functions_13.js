@@ -56,6 +56,7 @@ var searchData=
   ['sds011_5fset_5fworking_5fmode',['sds011_set_working_mode',['../group__drivers__sds011.html#ga9514540697308f4892cebfc5db9669af',1,'sds011.h']]],
   ['sds011_5fset_5fworking_5fperiod',['sds011_set_working_period',['../group__drivers__sds011.html#ga7321dbac13433de77d5cc967ef8dc9a5',1,'sds011.h']]],
   ['seconds',['seconds',['../classriot_1_1time__point.html#aca0d5df04e54c0367bc96317e3e9a34e',1,'riot::time_point']]],
+  ['select',['select',['../group__posix__select.html#ga7ffa34f8c9a12e7fd43f5ef65bf889fa',1,'select.h']]],
   ['sem_5fclose',['sem_close',['../group__posix__semaphore.html#gae2fe7304d1e0dbf1462accbcbd1fc1c3',1,'semaphore.h']]],
   ['sem_5fdestroy',['sem_destroy',['../group__posix__semaphore.html#gaac8f466c14e0978adb70837cd596ff54',1,'semaphore.h']]],
   ['sem_5fgetvalue',['sem_getvalue',['../group__posix__semaphore.html#ga58ebf139e806c7a25fe385ec657208d8',1,'semaphore.h']]],

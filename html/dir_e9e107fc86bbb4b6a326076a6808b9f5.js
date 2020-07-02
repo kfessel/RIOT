@@ -74,6 +74,7 @@ var dir_e9e107fc86bbb4b6a326076a6808b9f5 =
     [ "uri_parser.h", "uri__parser_8h_source.html", null ],
     [ "usb.h", "usb_8h.html", "usb_8h" ],
     [ "usb_board_reset.h", "usb__board__reset_8h.html", "usb__board__reset_8h" ],
+    [ "usb_board_reset_internal.h", "usb__board__reset__internal_8h.html", "usb__board__reset__internal_8h" ],
     [ "utlist.h", "utlist_8h.html", "utlist_8h" ],
     [ "uuid.h", "uuid_8h.html", "uuid_8h" ],
     [ "vfs.h", "vfs_8h.html", "vfs_8h" ],

@@ -11,9 +11,9 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="structgnrc__lorawan__mlme__t.html" target="_top" xlink:title="MLME service access point descriptor. ">
+<g id="a_node1"><a xlink:href="structgnrc__lorawan__mcps__t.html" target="_top" xlink:title="MCPS service access point descriptor. ">
 <polygon fill="none" stroke="#000000" points="0,-.5 0,-19.5 112,-19.5 112,-.5 0,-.5"/>
-<text text-anchor="middle" x="56" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">gnrc_lorawan_mlme_t</text>
+<text text-anchor="middle" x="56" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">gnrc_lorawan_mcps_t</text>
 </a>
 </g>
 </g>

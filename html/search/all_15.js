@@ -565,7 +565,7 @@ var searchData=
   ['ringbuffer_5fget',['ringbuffer_get',['../ringbuffer_8h.html#ae144f5b2cc738fc53101051308548abb',1,'ringbuffer.h']]],
   ['ringbuffer_5fget_5ffree',['ringbuffer_get_free',['../ringbuffer_8h.html#a51320c4fe50310af1ad62bfd83de0d1f',1,'ringbuffer.h']]],
   ['ringbuffer_5fget_5fone',['ringbuffer_get_one',['../ringbuffer_8h.html#a2efc83d357b31df7e809d16251e7753a',1,'ringbuffer.h']]],
-  ['ringbuffer_5finit',['ringbuffer_init',['../ringbuffer_8h.html#a329073139454be9ec6c93124540a1bfd',1,'ringbuffer_init(ringbuffer_t *__restrict rb, char *buffer, unsigned bufsize):&#160;ringbuffer.h'],['../ringbuffer_8h.html#ad1dc69a30892920af0d4185637bfd69f',1,'RINGBUFFER_INIT():&#160;ringbuffer.h']]],
+  ['ringbuffer_5finit',['RINGBUFFER_INIT',['../ringbuffer_8h.html#ad1dc69a30892920af0d4185637bfd69f',1,'RINGBUFFER_INIT():&#160;ringbuffer.h'],['../ringbuffer_8h.html#a329073139454be9ec6c93124540a1bfd',1,'ringbuffer_init(ringbuffer_t *__restrict rb, char *buffer, unsigned bufsize):&#160;ringbuffer.h']]],
   ['ringbuffer_5fpeek',['ringbuffer_peek',['../ringbuffer_8h.html#a030fe0cd55b9320860aa4ac7011451c2',1,'ringbuffer.h']]],
   ['ringbuffer_5fpeek_5fone',['ringbuffer_peek_one',['../ringbuffer_8h.html#ac0a1422e34b97577d0ca5c02175dcd88',1,'ringbuffer.h']]],
   ['ringbuffer_5fremove',['ringbuffer_remove',['../ringbuffer_8h.html#af97cc01cb49ebbf9d1da67893edf2ac8',1,'ringbuffer.h']]],

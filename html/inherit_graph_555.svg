@@ -11,9 +11,9 @@
 <!-- Node0 -->
 <g id="node1" class="node">
 <title>Node0</title>
-<g id="a_node1"><a xlink:href="structnetdev__ble__pkt__t.html" target="_top" xlink:title="BLE packet structure (as defined by the BLE standard) ">
+<g id="a_node1"><a xlink:href="structnetdev__ble__ctx__t.html" target="_top" xlink:title="Radio context. ">
 <polygon fill="none" stroke="#000000" points="0,-.5 0,-19.5 91,-19.5 91,-.5 0,-.5"/>
-<text text-anchor="middle" x="45.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">netdev_ble_pkt_t</text>
+<text text-anchor="middle" x="45.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">netdev_ble_ctx_t</text>
 </a>
 </g>
 </g>

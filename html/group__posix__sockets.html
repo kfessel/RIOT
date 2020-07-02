@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -1479,7 +1483,7 @@ any other value otherwise. </dd></dl>
   </tr>
 </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000060">Todo:</a></b></dt><dd>implement out these functions</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000061">Todo:</a></b></dt><dd>implement out these functions</dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="socket_8h_source.html#l00483">483</a> of file <a class="el" href="socket_8h_source.html">socket.h</a>.</p>
 
@@ -1892,7 +1896,7 @@ NULL, if <code>src</code> or <code>dst</code> was NULL </dd></dl>
   </dd>
 </dl>
 <dl class="section post"><dt>Postcondition</dt><dd>The socket will implicitly be bound to the unspecified address and a random port, in case it is not already bound. Rationale: A client should not require to explicitly call <a class="el" href="group__posix__sockets.html#ga55b3c1572b4e86ca0702ecdeb7e43997" title="Bind a name to a socket. ">bind()</a> to receive packets, but is expected to receive replies sent to the ephemeral port that was selected as a source port by the UDP implementation.</dd></dl>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000059">Todo:</a></b></dt><dd>For <a class="el" href="group__net__gnrc.html">Generic (GNRC) network stack</a> any <a class="el" href="group__posix__sockets.html#gafda65dd86aec2cce8aed51127c56833c">recvfrom</a> call that is called to receive an expected response to this send command, must be called from the same thread. This is undesired behavior and will be fixed in upcoming versions of RIOT.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000060">Todo:</a></b></dt><dd>For <a class="el" href="group__net__gnrc.html">Generic (GNRC) network stack</a> any <a class="el" href="group__posix__sockets.html#gafda65dd86aec2cce8aed51127c56833c">recvfrom</a> call that is called to receive an expected response to this send command, must be called from the same thread. This is undesired behavior and will be fixed in upcoming versions of RIOT.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Upon successful completion, <a class="el" href="group__posix__sockets.html#ga3ed135eb9019c8945718d03da23546c9" title="Send a message on a socket. ">send()</a> shall return the number of bytes sent. Otherwise, -1 shall be returned and errno set to indicate the error. </dd></dl>
 
 </div>
@@ -1947,7 +1951,7 @@ NULL, if <code>src</code> or <code>dst</code> was NULL </dd></dl>
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:09:00 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:30 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

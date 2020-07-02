@@ -1,5 +1,6 @@
 var NAVTREEINDEX42 =
 {
+"enc28j60__regs_8h.html#af21ad0501fa3de9d535d42a769b949a9":[20,0,3,32,0,1,68],
 "enc28j60__regs_8h.html#af22d9ed047710a75f3226e12945e7014":[20,0,3,32,0,1,52],
 "enc28j60__regs_8h.html#af23e1e1ac183e0938fcda6a443b1be46":[20,0,3,32,0,1,127],
 "enc28j60__regs_8h.html#af2966ecb11b3dccc4a6eead5321b268d":[20,0,3,32,0,1,76],
@@ -248,6 +249,5 @@ var NAVTREEINDEX42 =
 "esp32-olimex-evb_2include_2arduino__pinmap_8h.html#ae24f35895db78170d5201e14fb8d8a0f":[20,0,0,40,0,1,17],
 "esp32-olimex-evb_2include_2arduino__pinmap_8h.html#ae52d466203b1be7d2a8b52a05efa0c49":[20,0,0,40,0,1,7],
 "esp32-olimex-evb_2include_2arduino__pinmap_8h_source.html":[20,0,0,40,0,1],
-"esp32-olimex-evb_2include_2board_8h.html":[20,0,0,40,0,2],
-"esp32-olimex-evb_2include_2board_8h.html#a1a3384f0b2d8bfe5c9a7439d45e84df3":[20,0,0,40,0,2,6]
+"esp32-olimex-evb_2include_2board_8h.html":[20,0,0,40,0,2]
 };

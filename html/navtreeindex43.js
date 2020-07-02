@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"esp32-olimex-evb_2include_2board_8h.html#a1a3384f0b2d8bfe5c9a7439d45e84df3":[20,0,0,40,0,2,6],
 "esp32-olimex-evb_2include_2board_8h.html#a1b39ba3680695d6a0197bf66295fb7ec":[20,0,0,40,0,2,14],
 "esp32-olimex-evb_2include_2board_8h.html#a310f30aa4d25f868559b683ac025ad8a":[20,0,0,40,0,2,10],
 "esp32-olimex-evb_2include_2board_8h.html#a403c6f217a1c2507e1438c827a6e01c2":[20,0,0,40,0,2,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "esp32_2include_2periph__conf__common_8h.html#aa9dcbfbe7aa5baf027d834e5bca62a47":[20,0,0,33,7,0,2,12],
 "esp32_2include_2periph__conf__common_8h.html#ab35a2b79568128efef74adf1ba1910a8":[20,0,0,33,7,0,2,6],
 "esp32_2include_2periph__conf__common_8h.html#abce62e16a6e3b3205801fed93c51692d":[20,0,0,33,7,0,2,4],
-"esp32_2include_2periph__conf__common_8h.html#ac93ef90877386721589730c2219fde48":[20,0,0,33,7,0,2,0],
-"esp32_2include_2periph__conf__common_8h.html#add71a59fa12734b27043cabf5546d176":[20,0,0,33,7,0,2,8]
+"esp32_2include_2periph__conf__common_8h.html#ac93ef90877386721589730c2219fde48":[20,0,0,33,7,0,2,0]
 };

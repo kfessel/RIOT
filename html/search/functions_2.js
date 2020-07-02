@@ -1,11 +1,11 @@
 var searchData=
 [
   ['backtrace_5fprint',['backtrace_print',['../group__backtrace.html#ga14cd358468453431fdcddb57d65dcd46',1,'backtrace.h']]],
-  ['base64_5fdecode',['base64_decode',['../group__sys__base64.html#ga5418bf5f0e83d5d9d0b998c24f595cc5',1,'base64.h']]],
-  ['base64_5fencode',['base64_encode',['../group__sys__base64.html#gaa3053b97bfcfd5b364dd16784a5dcef0',1,'base64.h']]],
+  ['base64_5fdecode',['base64_decode',['../group__sys__base64.html#ga3ae43448c50e4ed07b2d34393f669bce',1,'base64.h']]],
+  ['base64_5fencode',['base64_encode',['../group__sys__base64.html#ga8f2d558b4d1a330ae3792ac9df9ee259',1,'base64.h']]],
   ['base64_5festimate_5fdecode_5fsize',['base64_estimate_decode_size',['../group__sys__base64.html#gab6b78333f9a24f27ebc6f9b8c0673ab9',1,'base64.h']]],
   ['base64_5festimate_5fencode_5fsize',['base64_estimate_encode_size',['../group__sys__base64.html#ga5327a6f063f4dd025e3aaee87054536e',1,'base64.h']]],
-  ['base64url_5fencode',['base64url_encode',['../group__sys__base64.html#gab08353ca0fab46ce9c6c4e3beab8c817',1,'base64.h']]],
+  ['base64url_5fencode',['base64url_encode',['../group__sys__base64.html#ga5373b27225516316665361de10bf0169',1,'base64.h']]],
   ['bc_5finit',['bc_init',['../group__boards__common__silabs__drivers__bc.html#ga4d0f08a664bdc2053e38345d472ea1a2',1,'bc.h']]],
   ['bcd_5ffrom_5fbyte',['bcd_from_byte',['../group__sys__bcd.html#gab45d652e5be4ad8abde042a9f3d65820',1,'bcd.h']]],
   ['bcd_5fto_5fbyte',['bcd_to_byte',['../group__sys__bcd.html#ga6657ea853241538780eca8dbafc60f75',1,'bcd.h']]],
@@ -34,7 +34,7 @@ var searchData=
   ['bitarithm_5flsb',['bitarithm_lsb',['../bitarithm_8h.html#a29ff221e39c33a890123d496d9b905b8',1,'bitarithm.h']]],
   ['bitarithm_5fmsb',['bitarithm_msb',['../bitarithm_8h.html#ae46b870f744cf8a090b92cc0ccdffd57',1,'bitarithm.h']]],
   ['bitband_5faddr',['bitband_addr',['../bit_8h.html#a10ec0cd7d6246f7ed667903af96ed8df',1,'bit.h']]],
-  ['bitfield',['BITFIELD',['../structsixlowpan__sfr__ack__t.html#a9a491edc42dfafb1d7638c7759d2241f',1,'sixlowpan_sfr_ack_t::BITFIELD()'],['../struct__nib__abr__entry__t.html#a4a0866881e67c75e80247751f086d0c1',1,'_nib_abr_entry_t::BITFIELD(pfxs, CONFIG_GNRC_IPV6_NIB_OFFL_NUMOF)'],['../struct__nib__abr__entry__t.html#a86a5da0f0082565dd7a1c8f2b9d4b5b4',1,'_nib_abr_entry_t::BITFIELD(ctxs, GNRC_SIXLOWPAN_CTX_SIZE)']]],
+  ['bitfield',['BITFIELD',['../structsixlowpan__sfr__ack__t.html#a9a491edc42dfafb1d7638c7759d2241f',1,'sixlowpan_sfr_ack_t::BITFIELD()'],['../struct__nib__abr__entry__t.html#a4a0866881e67c75e80247751f086d0c1',1,'_nib_abr_entry_t::BITFIELD(pfxs, CONFIG_GNRC_IPV6_NIB_OFFL_NUMOF)'],['../struct__nib__abr__entry__t.html#a86a5da0f0082565dd7a1c8f2b9d4b5b4',1,'_nib_abr_entry_t::BITFIELD(ctxs, GNRC_SIXLOWPAN_CTX_SIZE)'],['../structfd__set.html#a1709d2e6a9802f7f8ab54fb7b2862d64',1,'fd_set::BITFIELD()']]],
   ['ble_5fadvertising_5finit',['ble_advertising_init',['../group__nrf52832-ble.html#ga7f8b91d415d9530a1e7b54e6578786c0',1,'ble-core.h']]],
   ['ble_5fadvertising_5fstart',['ble_advertising_start',['../group__nrf52832-ble.html#gad40dbc7d063e789101f63d9239506e55',1,'ble-core.h']]],
   ['ble_5feui48',['ble_eui48',['../ble-mac_8h.html#aab81bfab489d74697bf073fc7dc6dc73',1,'ble-mac.h']]],

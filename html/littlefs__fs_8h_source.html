@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -141,14 +145,14 @@ $(document).ready(function(){initNavTree('littlefs__fs_8h_source.html','');});
 <div class="ttc" id="structlittlefs__desc__t_html"><div class="ttname"><a href="structlittlefs__desc__t.html">littlefs_desc_t</a></div><div class="ttdoc">littlefs descriptor for vfs integration </div><div class="ttdef"><b>Definition:</b> <a href="littlefs2__fs_8h_source.html#l00082">littlefs2_fs.h:82</a></div></div>
 <div class="ttc" id="mutex_8h_html"><div class="ttname"><a href="mutex_8h.html">mutex.h</a></div><div class="ttdoc">Mutex for thread synchronization. </div></div>
 <div class="ttc" id="structmtd__dev__t_html"><div class="ttname"><a href="structmtd__dev__t.html">mtd_dev_t</a></div><div class="ttdoc">MTD device descriptor. </div><div class="ttdef"><b>Definition:</b> <a href="mtd_8h_source.html#l00058">mtd.h:58</a></div></div>
-<div class="ttc" id="structvfs__file__system__t_html"><div class="ttname"><a href="structvfs__file__system__t.html">vfs_file_system_t</a></div><div class="ttdoc">A file system driver. </div><div class="ttdef"><b>Definition:</b> <a href="vfs_8h_source.html#l00184">vfs.h:184</a></div></div>
+<div class="ttc" id="structvfs__file__system__t_html"><div class="ttname"><a href="structvfs__file__system__t.html">vfs_file_system_t</a></div><div class="ttdoc">A file system driver. </div><div class="ttdef"><b>Definition:</b> <a href="vfs_8h_source.html#l00256">vfs.h:256</a></div></div>
 <div class="ttc" id="structmutex__t_html"><div class="ttname"><a href="structmutex__t.html">mutex_t</a></div><div class="ttdoc">Mutex structure. </div><div class="ttdef"><b>Definition:</b> <a href="mutex_8h_source.html#l00037">mutex.h:37</a></div></div>
 <div class="ttc" id="group__sys__littlefs_html_gaa84c1f5d55f1f8d17bd8f7037571202b"><div class="ttname"><a href="group__sys__littlefs.html#gaa84c1f5d55f1f8d17bd8f7037571202b">LITTLEFS_PROG_BUFFER_SIZE</a></div><div class="ttdeci">#define LITTLEFS_PROG_BUFFER_SIZE</div><div class="ttdoc">Prog buffer size, if 0, dynamic allocation is used. </div><div class="ttdef"><b>Definition:</b> <a href="littlefs__fs_8h_source.html#l00059">littlefs_fs.h:59</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:08:54 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:24 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

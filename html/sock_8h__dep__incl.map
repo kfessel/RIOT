@@ -146,6 +146,6 @@
 <area shape="rect" id="node144" href="$ecm_8h.html" title="Interface and definitions for USB CDC ECM type interfaces. " alt="" coords="8362,534,8514,575"/>
 <area shape="rect" id="node145" href="$control_8h.html" title="USBUS control endpoint module. " alt="" coords="8435,437,8587,479"/>
 <area shape="rect" id="node146" href="$usb_2usbus_2fmt_8h.html" title="USBUS descriptor formatter functions. " alt="" coords="8209,437,8361,479"/>
-<area shape="rect" id="node143" href="$usb__board__reset_8h.html" title="sys/include/usb_board\l_reset.h" alt="" coords="8033,534,8185,575"/>
+<area shape="rect" id="node143" href="$usb__board__reset__internal_8h.html" title="sys/include/usb_board\l_reset_internal.h" alt="" coords="8033,534,8185,575"/>
 <area shape="rect" id="node148" href="$pthread_8h.html" title="POSIX conforming multi&#45;threading features. " alt="" coords="222,437,393,479"/>
 </map>

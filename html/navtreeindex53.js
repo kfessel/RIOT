@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"group__boards__common__frdm.html":[18,0,34,10],
 "group__boards__common__iotlab.html":[18,0,34,6],
 "group__boards__common__iotlab.html#ga0da89da11cd4268db8298bae9fbe1d85":[20,0,0,33,9,0,0,5],
 "group__boards__common__iotlab.html#ga1e48dc02333bfc2e6ad3e5bd466eecd4":[20,0,0,33,9,0,0,9],
@@ -48,8 +49,8 @@ var NAVTREEINDEX53 =
 "group__boards__common__msb-430.html#gafea1be2406d45b8fbb1dca1a318ac2dc":[20,0,0,33,11,0,0,8],
 "group__boards__common__nrf51.html":[18,0,34,9],
 "group__boards__common__nrf51.html#ga370b9e9a079c4cb4f54fd947b67b9f41":[20,0,0,33,13,0,0,0],
-"group__boards__common__nrf51.html#ga916f2adc2080b4fe88034086d107a8dc":[18,0,34,9,6],
 "group__boards__common__nrf51.html#ga916f2adc2080b4fe88034086d107a8dc":[20,0,0,33,13,0,0,2],
+"group__boards__common__nrf51.html#ga916f2adc2080b4fe88034086d107a8dc":[18,0,34,9,6],
 "group__boards__common__nrf51.html#gafea1be2406d45b8fbb1dca1a318ac2dc":[20,0,0,33,13,0,0,1],
 "group__boards__common__nrf52.html":[18,0,34,18],
 "group__boards__common__nrf52xxxdk.html":[18,0,34,18,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX53 =
 "group__boards__hifive1.html#ga916f2adc2080b4fe88034086d107a8dc":[20,0,0,57,0,0,13],
 "group__boards__hifive1.html#ga916f2adc2080b4fe88034086d107a8dc":[18,0,111,2],
 "group__boards__hifive1.html#gaadd4c7ae0cd4e9bbb17f7055dd51fe08":[20,0,0,57,0,0,5],
-"group__boards__hifive1.html#gab55f588eb2c5177d3f7806e60d379fba":[20,0,0,57,0,0,9],
-"group__boards__hifive1.html#gac6468b1df4dfabcca0bb142044d6f976":[20,0,0,57,0,0,8]
+"group__boards__hifive1.html#gab55f588eb2c5177d3f7806e60d379fba":[20,0,0,57,0,0,9]
 };

@@ -73,8 +73,12 @@
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
                        <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;">
+                              var r=document.getElementById('MSearchResultsWindow');
+                              if(parseInt(r.style.left)<0)r.style.left=0;
+                              var x=document.getElementById('MSearchResults');
+                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                              var f=document.getElementById('riot-searchform');
+                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -606,11 +610,11 @@ $(document).ready(function(){initNavTree('globals_p.html','');});
 <li>PCA9685_RESOLUTION
 : <a class="el" href="group__drivers__pca9685.html#ga6d38c6c9a13df01a8454be525c3ebf7e">pca9685.h</a>
 </li>
-<li>PCA9685_SAUL_PWM_PARAMS
-: <a class="el" href="pca9685__params_8h.html#a99017052e7b721b0f062c0a0e46718de">pca9685_params.h</a>
-</li>
 <li>pca9685_saul_pwm_params
 : <a class="el" href="pca9685__params_8h.html#a2d6e9e36ca4937438c592125a20029aa">pca9685_params.h</a>
+</li>
+<li>PCA9685_SAUL_PWM_PARAMS
+: <a class="el" href="pca9685__params_8h.html#a99017052e7b721b0f062c0a0e46718de">pca9685_params.h</a>
 </li>
 <li>PCA9685_TOTEM_POLE
 : <a class="el" href="group__drivers__pca9685.html#gga5515d408b1527279a0de586363ca79e2ac1e49091aceb0392ce1aae7028781b3f">pca9685.h</a>
@@ -1267,6 +1271,9 @@ $(document).ready(function(){initNavTree('globals_p.html','');});
 <li>PORT_UNSPEC
 : <a class="el" href="net_2gnrc_2transport__layer_2tcp_2internal_2common_8h.html#a651c7cba24e0ef829759a13e5931b3b1">common.h</a>
 </li>
+<li>POSIX_SELECT_THREAD_FLAG
+: <a class="el" href="group__posix__select.html#gab6130e236a85cc111cabe28776f2ce82">select.h</a>
+</li>
 <li>power_clock_disable_uart()
 : <a class="el" href="cc26xx__cc13xx__power_8h.html#a90f514570e720d08fd10e09e04517726">cc26xx_cc13xx_power.h</a>
 </li>
@@ -1340,8 +1347,8 @@ $(document).ready(function(){initNavTree('globals_p.html','');});
 , <a class="el" href="group__cpu__specific__peripheral__memory__map.html#ga3bd6361f5594f825e030d77ed3758742">cc26x2_cc13x2_prcm.h</a>
 </li>
 <li>PRCM_NONBUF
-: <a class="el" href="cc26x0__prcm_8h.html#aae072130ff8a8b76c0c713ea7a298021">cc26x0_prcm.h</a>
-, <a class="el" href="cc26x2__cc13x2__prcm_8h.html#aae072130ff8a8b76c0c713ea7a298021">cc26x2_cc13x2_prcm.h</a>
+: <a class="el" href="cc26x2__cc13x2__prcm_8h.html#aae072130ff8a8b76c0c713ea7a298021">cc26x2_cc13x2_prcm.h</a>
+, <a class="el" href="cc26x0__prcm_8h.html#aae072130ff8a8b76c0c713ea7a298021">cc26x0_prcm.h</a>
 </li>
 <li>PRId64
 : <a class="el" href="group__cpu__atmega__common.html#gae372e90b62c1e8b51dc5d95bf7f5ba48">inttypes.h</a>
@@ -1400,11 +1407,11 @@ $(document).ready(function(){initNavTree('globals_p.html','');});
 <li>priority_queue_add()
 : <a class="el" href="priority__queue_8h.html#adb24278777be0ab8a954235b957af98d">priority_queue.h</a>
 </li>
-<li>PRIORITY_QUEUE_INIT
-: <a class="el" href="priority__queue_8h.html#a08b66bc9494298795af656fc1dce8e34">priority_queue.h</a>
-</li>
 <li>priority_queue_init()
 : <a class="el" href="priority__queue_8h.html#a5d3cc838f96d979f5cba9f53102c7585">priority_queue.h</a>
+</li>
+<li>PRIORITY_QUEUE_INIT
+: <a class="el" href="priority__queue_8h.html#a08b66bc9494298795af656fc1dce8e34">priority_queue.h</a>
 </li>
 <li>priority_queue_node_init()
 : <a class="el" href="priority__queue_8h.html#ae617c3af6aa86b1eed6849d910f9f4ab">priority_queue.h</a>
@@ -2265,8 +2272,8 @@ $(document).ready(function(){initNavTree('globals_p.html','');});
 : <a class="el" href="emcute__internal_8h.html#a6813be44df52c18b08debbebca7d09a8ad6c983841148fc8d12e721038df5bb85">emcute_internal.h</a>
 </li>
 <li>PUF_SRAM_ATTRIBUTES
-: <a class="el" href="atmega__common_2include_2cpu__conf_8h.html#a5821c413a94831dfa3f1b57000f9713e">cpu_conf.h</a>
-, <a class="el" href="cortexm__common_2include_2cpu__conf__common_8h.html#a5821c413a94831dfa3f1b57000f9713e">cpu_conf_common.h</a>
+: <a class="el" href="cortexm__common_2include_2cpu__conf__common_8h.html#a5821c413a94831dfa3f1b57000f9713e">cpu_conf_common.h</a>
+, <a class="el" href="atmega__common_2include_2cpu__conf_8h.html#a5821c413a94831dfa3f1b57000f9713e">cpu_conf.h</a>
 </li>
 <li>puf_sram_generate()
 : <a class="el" href="group__sys__puf__sram.html#ga760b51e9e3830d2f79ab2db24f8bb7f2">puf_sram.h</a>
@@ -2314,14 +2321,14 @@ $(document).ready(function(){initNavTree('globals_p.html','');});
 : <a class="el" href="esp8266_2include_2periph__conf__common_8h.html#a0e0d9031faca000d2b27a8e3c658d378">periph_conf_common.h</a>
 </li>
 <li>PWM0_GPIOS
-: <a class="el" href="boards_2esp8266-olimex-mod_2include_2periph__conf_8h.html#a6d98f0e073d8b7dee809df091e612d0e">periph_conf.h</a>
+: <a class="el" href="boards_2esp8266-sparkfun-thing_2include_2periph__conf_8h.html#a6d98f0e073d8b7dee809df091e612d0e">periph_conf.h</a>
 </li>
 <li>PWM1_GPIOS
-: <a class="el" href="boards_2esp32-wrover-kit_2include_2periph__conf_8h.html#ad313547a91faf4f9aa5e57e188accb7d">periph_conf.h</a>
+: <a class="el" href="boards_2esp32-olimex-evb_2include_2periph__conf_8h.html#ad313547a91faf4f9aa5e57e188accb7d">periph_conf.h</a>
 </li>
 <li>PWM_CENTER
-: <a class="el" href="group__drivers__periph__pwm.html#gga562b5946a0edd6f5eebb63db7d154d56aa702c2d37cded311e8770035242e2ed3">periph_cpu.h</a>
-, <a class="el" href="group__drivers__periph__pwm.html#gga562b5946a0edd6f5eebb63db7d154d56aa702c2d37cded311e8770035242e2ed3">periph_conf.h</a>
+: <a class="el" href="group__drivers__periph__pwm.html#gga562b5946a0edd6f5eebb63db7d154d56aa702c2d37cded311e8770035242e2ed3">periph_conf.h</a>
+, <a class="el" href="group__drivers__periph__pwm.html#gga562b5946a0edd6f5eebb63db7d154d56aa702c2d37cded311e8770035242e2ed3">periph_cpu.h</a>
 </li>
 <li>PWM_CENTER_INV
 : <a class="el" href="group__drivers__periph__pwm.html#gga562b5946a0edd6f5eebb63db7d154d56a6ee64b338aef03e37588787db9e72526">periph_cpu.h</a>
@@ -2348,13 +2355,13 @@ $(document).ready(function(){initNavTree('globals_p.html','');});
 : <a class="el" href="group__drivers__periph__pwm.html#ga205eedf5331e5646b330d986f2b691f9">pwm.h</a>
 </li>
 <li>PWM_LEFT
-: <a class="el" href="group__drivers__periph__pwm.html#gga562b5946a0edd6f5eebb63db7d154d56ae55d6c4908a2d9ee818e546ebabd35ba">periph_conf.h</a>
-, <a class="el" href="group__drivers__periph__pwm.html#gga562b5946a0edd6f5eebb63db7d154d56ae55d6c4908a2d9ee818e546ebabd35ba">periph_cpu.h</a>
+: <a class="el" href="group__drivers__periph__pwm.html#gga562b5946a0edd6f5eebb63db7d154d56ae55d6c4908a2d9ee818e546ebabd35ba">periph_cpu.h</a>
+, <a class="el" href="group__drivers__periph__pwm.html#gga562b5946a0edd6f5eebb63db7d154d56ae55d6c4908a2d9ee818e546ebabd35ba">periph_conf.h</a>
 </li>
 <li>pwm_mode_t
-: <a class="el" href="boards_2openlabs-kw41z-mini_2include_2periph__conf_8h.html#a562b5946a0edd6f5eebb63db7d154d56">periph_conf.h</a>
-, <a class="el" href="nrf52_2include_2periph__cpu_8h.html#a562b5946a0edd6f5eebb63db7d154d56">periph_cpu.h</a>
+: <a class="el" href="nrf52_2include_2periph__cpu_8h.html#a562b5946a0edd6f5eebb63db7d154d56">periph_cpu.h</a>
 , <a class="el" href="group__drivers__periph__pwm.html#ga562b5946a0edd6f5eebb63db7d154d56">pwm.h</a>
+, <a class="el" href="boards_2openlabs-kw41z-mini_2include_2periph__conf_8h.html#a562b5946a0edd6f5eebb63db7d154d56">periph_conf.h</a>
 </li>
 <li>PWM_NUMOF
 : <a class="el" href="esp8266_2include_2periph__conf__common_8h.html#a44adbd579bb180f3cfe8ec78932eb7a1">periph_conf_common.h</a>
@@ -2389,7 +2396,7 @@ $(document).ready(function(){initNavTree('globals_p.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Wed Jul 1 2020 17:09:02 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Thu Jul 2 2020 15:49:32 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>
