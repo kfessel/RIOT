@@ -1,9 +1,9 @@
 var NAVTREEINDEX149 =
 {
+"ruuvitag_2include_2board_8h.html#aadd4c7ae0cd4e9bbb17f7055dd51fe08":[20,0,0,143,0,0,11],
 "ruuvitag_2include_2board_8h.html#abfabde35a3e8b7ab50146a5e223bfead":[20,0,0,143,0,0,4],
 "ruuvitag_2include_2board_8h.html#ad0185c3b7ae6f736dffa8e86b972625f":[20,0,0,143,0,0,0],
 "ruuvitag_2include_2board_8h.html#ad0d0bdd5242aaa7aa76f00d47799d0ae":[20,0,0,143,0,0,14],
-"ruuvitag_2include_2board_8h.html#ae622d6e16fdd518b06b19bf42308c534":[20,0,0,143,0,0,18],
 "ruuvitag_2include_2board_8h.html#aebc6389533d9fc8dcbe4d2129a4d5a45":[20,0,0,143,0,0,8],
 "ruuvitag_2include_2board_8h.html#aef2e39b9fd343d0e437fac0463f3e02d":[20,0,0,143,0,0,5],
 "ruuvitag_2include_2board_8h_source.html":[20,0,0,143,0,0],

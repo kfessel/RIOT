@@ -37,11 +37,24 @@
     <![endif]-->
         <script>
             function displaySR(){
+            searchBox.Search();
             var rhtml=(document.getElementById('MSearchResults').contentWindow.document.body.innerHTML).replace(/href=\"\.\.\//g,'href="');
             document.getElementById('MSearchResultsWindow').style.display='none';
             document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
             document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
             document.getElementById('doc-content').innerHTML=rhtml;
+            }
+            function modSearch(){
+            if(!searchBox.doxySearch){
+                searchBox.doxySearch=searchBox.Search
+                searchBox.Search= function(){this.doxySearch();
+                var r=document.getElementById('MSearchResultsWindow');console.log(r.style);
+                if(parseInt(r.style.left)<0)r.style.left=0;
+                var x=document.getElementById('MSearchResults');
+                if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                var f=document.getElementById('riot-searchform');
+                if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';}
+            }
             }
         </script>
   </head>
@@ -64,7 +77,6 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
               <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
               <ul id="riot-navlist" class="nav navbar-nav"></ul>
-              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
               <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
                     onsubmit="try{
                         displaySR();
@@ -77,13 +89,7 @@
                        <div class="input-group-addon">
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
-                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              var r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;
-                              var x=document.getElementById('MSearchResults');
-                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
-                              var f=document.getElementById('riot-searchform');
-                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event); modSearch();">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -229,10 +235,10 @@ $(document).ready(function(){initNavTree('globals_func_s.html','');});
 : <a class="el" href="sdcard__spi__internal_8h.html#a22d0936e2c38ab8b86dc6848d60bca2c">sdcard_spi_internal.h</a>
 </li>
 <li>sdcard_spi_send_acmd()
-: <a class="el" href="sdcard__spi__internal_8h.html#aae334c86f6f37e9057a980b7d866d304">sdcard_spi_internal.h</a>
+: <a class="el" href="sdcard__spi__internal_8h.html#a113db1d91a7246f5b0769aebadab62fd">sdcard_spi_internal.h</a>
 </li>
 <li>sdcard_spi_send_cmd()
-: <a class="el" href="sdcard__spi__internal_8h.html#af51806eb48b3b392e7542e27eb4a0020">sdcard_spi_internal.h</a>
+: <a class="el" href="sdcard__spi__internal_8h.html#a0e94cee775b723f0086b014ff2e095ed">sdcard_spi_internal.h</a>
 </li>
 <li>sdcard_spi_write_blocks()
 : <a class="el" href="group__drivers__sdcard__spi.html#ga03b3e6c6462e0b4277128ab4eaabfebb">sdcard_spi.h</a>
@@ -1528,7 +1534,7 @@ $(document).ready(function(){initNavTree('globals_func_s.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Fri Jul 3 2020 13:27:58 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Fri Jul 3 2020 23:49:42 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

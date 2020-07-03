@@ -37,11 +37,24 @@
     <![endif]-->
         <script>
             function displaySR(){
+            searchBox.Search();
             var rhtml=(document.getElementById('MSearchResults').contentWindow.document.body.innerHTML).replace(/href=\"\.\.\//g,'href="');
             document.getElementById('MSearchResultsWindow').style.display='none';
             document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
             document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
             document.getElementById('doc-content').innerHTML=rhtml;
+            }
+            function modSearch(){
+            if(!searchBox.doxySearch){
+                searchBox.doxySearch=searchBox.Search
+                searchBox.Search= function(){this.doxySearch();
+                var r=document.getElementById('MSearchResultsWindow');console.log(r.style);
+                if(parseInt(r.style.left)<0)r.style.left=0;
+                var x=document.getElementById('MSearchResults');
+                if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                var f=document.getElementById('riot-searchform');
+                if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';}
+            }
             }
         </script>
   </head>
@@ -64,7 +77,6 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
               <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
               <ul id="riot-navlist" class="nav navbar-nav"></ul>
-              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
               <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
                     onsubmit="try{
                         displaySR();
@@ -77,13 +89,7 @@
                        <div class="input-group-addon">
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
-                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              var r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;
-                              var x=document.getElementById('MSearchResults');
-                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
-                              var f=document.getElementById('riot-searchform');
-                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event); modSearch();">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -141,6 +147,9 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 <div class="textblock">Here is a list of all documented functions, variables, defines, enums, and typedefs with links to the documentation:</div>
 
 <h3><a id="index_r"></a>- r -</h3><ul>
+<li>R1_POLLING_RETRY_US
+: <a class="el" href="sdcard__spi__internal_8h.html#a7e38c9a92f415ff8585860cb69a1e404">sdcard_spi_internal.h</a>
+</li>
 <li>random_bytes()
 : <a class="el" href="group__sys__random.html#gad493cfd7557281b54e97b21501ee76ad">random.h</a>
 </li>
@@ -889,11 +898,11 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 <li>ringbuffer_get_one()
 : <a class="el" href="ringbuffer_8h.html#a2efc83d357b31df7e809d16251e7753a">ringbuffer.h</a>
 </li>
-<li>RINGBUFFER_INIT
-: <a class="el" href="ringbuffer_8h.html#ad1dc69a30892920af0d4185637bfd69f">ringbuffer.h</a>
-</li>
 <li>ringbuffer_init()
 : <a class="el" href="ringbuffer_8h.html#a329073139454be9ec6c93124540a1bfd">ringbuffer.h</a>
+</li>
+<li>RINGBUFFER_INIT
+: <a class="el" href="ringbuffer_8h.html#ad1dc69a30892920af0d4185637bfd69f">ringbuffer.h</a>
 </li>
 <li>ringbuffer_peek()
 : <a class="el" href="ringbuffer_8h.html#a030fe0cd55b9320860aa4ac7011451c2">ringbuffer.h</a>
@@ -982,11 +991,11 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 <li>RMSR_8KB_TO_S0
 : <a class="el" href="w5100__regs_8h.html#ae1f03c0115cf02845ef8c8ab99680c13">w5100_regs.h</a>
 </li>
-<li>rmutex_init()
-: <a class="el" href="group__core__sync__rmutex.html#gab0563169f0da3da545760ee00605b365">rmutex.h</a>
-</li>
 <li>RMUTEX_INIT
 : <a class="el" href="group__core__sync__rmutex.html#ga1a46c7063d2da67c6182b5477e203c54">rmutex.h</a>
+</li>
+<li>rmutex_init()
+: <a class="el" href="group__core__sync__rmutex.html#gab0563169f0da3da545760ee00605b365">rmutex.h</a>
 </li>
 <li>rmutex_lock()
 : <a class="el" href="group__core__sync__rmutex.html#ga040f8c00f62db3d8140e0e9106338d2d">rmutex.h</a>
@@ -1449,9 +1458,9 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 : <a class="el" href="group__drivers__periph__rtt.html#ga3e16bf1873240a35b0cb2791ae90aeaf">rtt.h</a>
 </li>
 <li>RTT_MAX_VALUE
-: <a class="el" href="esp32_2include_2periph__cpu_8h.html#a57f384110fe2e8f4b3c4b9ba246517c6">periph_cpu.h</a>
+: <a class="el" href="sam3_2include_2periph__cpu_8h.html#a57f384110fe2e8f4b3c4b9ba246517c6">periph_cpu.h</a>
 , <a class="el" href="group__drivers__periph__rtt.html#ga57f384110fe2e8f4b3c4b9ba246517c6">rtt.h</a>
-, <a class="el" href="sam3_2include_2periph__cpu_8h.html#a57f384110fe2e8f4b3c4b9ba246517c6">periph_cpu.h</a>
+, <a class="el" href="esp32_2include_2periph__cpu_8h.html#a57f384110fe2e8f4b3c4b9ba246517c6">periph_cpu.h</a>
 </li>
 <li>RTT_MIN_OFFSET
 : <a class="el" href="group__drivers__periph__rtt.html#gad34d7bc806339ce586e8a942913cdb6f">rtt.h</a>
@@ -1527,7 +1536,7 @@ $(document).ready(function(){initNavTree('globals_r.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Fri Jul 3 2020 13:27:58 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Fri Jul 3 2020 23:49:42 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

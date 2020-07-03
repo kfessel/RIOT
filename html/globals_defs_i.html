@@ -37,11 +37,24 @@
     <![endif]-->
         <script>
             function displaySR(){
+            searchBox.Search();
             var rhtml=(document.getElementById('MSearchResults').contentWindow.document.body.innerHTML).replace(/href=\"\.\.\//g,'href="');
             document.getElementById('MSearchResultsWindow').style.display='none';
             document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
             document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
             document.getElementById('doc-content').innerHTML=rhtml;
+            }
+            function modSearch(){
+            if(!searchBox.doxySearch){
+                searchBox.doxySearch=searchBox.Search
+                searchBox.Search= function(){this.doxySearch();
+                var r=document.getElementById('MSearchResultsWindow');console.log(r.style);
+                if(parseInt(r.style.left)<0)r.style.left=0;
+                var x=document.getElementById('MSearchResults');
+                if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                var f=document.getElementById('riot-searchform');
+                if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';}
+            }
             }
         </script>
   </head>
@@ -64,7 +77,6 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
               <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
               <ul id="riot-navlist" class="nav navbar-nav"></ul>
-              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
               <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
                     onsubmit="try{
                         displaySR();
@@ -77,13 +89,7 @@
                        <div class="input-group-addon">
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
-                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              var r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;
-                              var x=document.getElementById('MSearchResults');
-                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
-                              var f=document.getElementById('riot-searchform');
-                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event); modSearch();">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -828,6 +834,12 @@ $(document).ready(function(){initNavTree('globals_defs_i.html','');});
 <li>INFOMEM
 : <a class="el" href="group__boards__common__msb-430.html#gaf7c03cea4b136269f027b8782207ba38">board_common.h</a>
 </li>
+<li>INIT_CMD0_RETRY_US
+: <a class="el" href="sdcard__spi__internal_8h.html#a367d68b65f6c8115258e1a3dfa120dab">sdcard_spi_internal.h</a>
+</li>
+<li>INIT_CMD_RETRY_US
+: <a class="el" href="sdcard__spi__internal_8h.html#aa598d0e27690bd6ca601247200a483ac">sdcard_spi_internal.h</a>
+</li>
 <li>INSIDE_WND
 : <a class="el" href="net_2gnrc_2transport__layer_2tcp_2internal_2common_8h.html#a7aee945a11ee7207709773ae03ba0e1c">common.h</a>
 </li>
@@ -1476,9 +1488,8 @@ $(document).ready(function(){initNavTree('globals_defs_i.html','');});
 : <a class="el" href="w5100__regs_8h.html#a2ef28438624a18d989e0cdfd633585a3">w5100_regs.h</a>
 </li>
 <li>IRQ_API_INLINED
-: <a class="el" href="fe310_2include_2cpu__conf_8h.html#a0b53cd12bd56eb7c3da020e23b9803b9">cpu_conf.h</a>
+: <a class="el" href="lpc2387_2include_2cpu__conf_8h.html#a0b53cd12bd56eb7c3da020e23b9803b9">cpu_conf.h</a>
 , <a class="el" href="cortexm__common_2include_2cpu__conf__common_8h.html#a0b53cd12bd56eb7c3da020e23b9803b9">cpu_conf_common.h</a>
-, <a class="el" href="lpc2387_2include_2cpu__conf_8h.html#a0b53cd12bd56eb7c3da020e23b9803b9">cpu_conf.h</a>
 </li>
 <li>IRQ_EVENT_INIT
 : <a class="el" href="group__sys__irq__handler.html#gacaccf343e311d824395ba6f0dfc79cc5">irq_handler.h</a>
@@ -1505,9 +1516,9 @@ $(document).ready(function(){initNavTree('globals_defs_i.html','');});
 : <a class="el" href="group__cpu__msp430__common.html#ga7b95d35c813eaa3d8a27cd007c692a49">cpu.h</a>
 </li>
 <li>ISR_STACKSIZE
-: <a class="el" href="cortexm__common_2include_2cpu__conf__common_8h.html#aa9a78f0a8d308d2d145cfe671c36ec8e">cpu_conf_common.h</a>
+: <a class="el" href="xtensa__conf_8h.html#aa9a78f0a8d308d2d145cfe671c36ec8e">xtensa_conf.h</a>
+, <a class="el" href="cortexm__common_2include_2cpu__conf__common_8h.html#aa9a78f0a8d308d2d145cfe671c36ec8e">cpu_conf_common.h</a>
 , <a class="el" href="lpc2387_2include_2cpu__conf_8h.html#aa9a78f0a8d308d2d145cfe671c36ec8e">cpu_conf.h</a>
-, <a class="el" href="xtensa__conf_8h.html#aa9a78f0a8d308d2d145cfe671c36ec8e">xtensa_conf.h</a>
 </li>
 <li>ISR_VECTOR
 : <a class="el" href="vectors__cortexm_8h.html#abb1ee40e814c2192f58404defaceea22">vectors_cortexm.h</a>
@@ -1580,7 +1591,7 @@ $(document).ready(function(){initNavTree('globals_defs_i.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Fri Jul 3 2020 13:27:58 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Fri Jul 3 2020 23:49:42 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

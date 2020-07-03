@@ -315,7 +315,7 @@ var NAVTREEINDEX =
 "ph__oem__regs_8h.html#ae7fbcf4a00512be94584cbcb17ceb534a7e26d014067066274299fd88b3f830e3",
 "pthread__barrier_8h.html#a443f2f512de9324bf77625041ecb04f4",
 "reel_2include_2board_8h.html#a704a3a7b5b9b5aa680a1dafe7157c02c",
-"ruuvitag_2include_2board_8h.html#abfabde35a3e8b7ab50146a5e223bfead",
+"ruuvitag_2include_2board_8h.html#aadd4c7ae0cd4e9bbb17f7055dd51fe08",
 "saml1x_2include_2periph__cpu_8h.html#a3d1931627629f3c43bd898da0be6075b",
 "sds011__internal_8h.html#a15505700812fbd059dafc5186793d9cd",
 "serpente_2include_2board_8h.html#a40f0f4b5ae7ea50d341105ddc740101e",

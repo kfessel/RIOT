@@ -288,7 +288,7 @@ var searchData=
   ['gnrc_5fipv6_5fext_5ffrag_5flimits_5ft',['gnrc_ipv6_ext_frag_limits_t',['../group__net__gnrc__ipv6__ext__frag.html#ga98249d4599f2aaacb3af0a419b479ee4',1,'frag.h']]],
   ['gnrc_5fipv6_5fext_5ffrag_5frbuf_5fdel',['gnrc_ipv6_ext_frag_rbuf_del',['../group__net__gnrc__ipv6__ext__frag.html#ga600d976443174549e48c7a2a5ca7bb09',1,'frag.h']]],
   ['gnrc_5fipv6_5fext_5ffrag_5frbuf_5ffree',['gnrc_ipv6_ext_frag_rbuf_free',['../group__net__gnrc__ipv6__ext__frag.html#ga5cdab1f55db94b508aed236628fdd8b8',1,'frag.h']]],
-  ['gnrc_5fipv6_5fext_5ffrag_5frbuf_5fgc',['GNRC_IPV6_EXT_FRAG_RBUF_GC',['../group__net__gnrc__ipv6__ext__frag.html#gad59b693d790bc5797733973dcfcfce47',1,'GNRC_IPV6_EXT_FRAG_RBUF_GC():&#160;frag.h'],['../group__net__gnrc__ipv6__ext__frag.html#gade0c75801208e8c73978c72d140899e0',1,'gnrc_ipv6_ext_frag_rbuf_gc(void):&#160;frag.h']]],
+  ['gnrc_5fipv6_5fext_5ffrag_5frbuf_5fgc',['gnrc_ipv6_ext_frag_rbuf_gc',['../group__net__gnrc__ipv6__ext__frag.html#gade0c75801208e8c73978c72d140899e0',1,'gnrc_ipv6_ext_frag_rbuf_gc(void):&#160;frag.h'],['../group__net__gnrc__ipv6__ext__frag.html#gad59b693d790bc5797733973dcfcfce47',1,'GNRC_IPV6_EXT_FRAG_RBUF_GC():&#160;frag.h']]],
   ['gnrc_5fipv6_5fext_5ffrag_5frbuf_5fget',['gnrc_ipv6_ext_frag_rbuf_get',['../group__net__gnrc__ipv6__ext__frag.html#ga07c3cea6235686c7395ff7c7bc254d83',1,'frag.h']]],
   ['gnrc_5fipv6_5fext_5ffrag_5frbuf_5ft',['gnrc_ipv6_ext_frag_rbuf_t',['../structgnrc__ipv6__ext__frag__rbuf__t.html',1,'']]],
   ['gnrc_5fipv6_5fext_5ffrag_5freass',['gnrc_ipv6_ext_frag_reass',['../group__net__gnrc__ipv6__ext__frag.html#ga9554cdcb2ab792d572275afbc8e35fd7',1,'frag.h']]],

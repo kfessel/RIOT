@@ -37,11 +37,24 @@
     <![endif]-->
         <script>
             function displaySR(){
+            searchBox.Search();
             var rhtml=(document.getElementById('MSearchResults').contentWindow.document.body.innerHTML).replace(/href=\"\.\.\//g,'href="');
             document.getElementById('MSearchResultsWindow').style.display='none';
             document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
             document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
             document.getElementById('doc-content').innerHTML=rhtml;
+            }
+            function modSearch(){
+            if(!searchBox.doxySearch){
+                searchBox.doxySearch=searchBox.Search
+                searchBox.Search= function(){this.doxySearch();
+                var r=document.getElementById('MSearchResultsWindow');console.log(r.style);
+                if(parseInt(r.style.left)<0)r.style.left=0;
+                var x=document.getElementById('MSearchResults');
+                if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                var f=document.getElementById('riot-searchform');
+                if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';}
+            }
             }
         </script>
   </head>
@@ -64,7 +77,6 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
               <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
               <ul id="riot-navlist" class="nav navbar-nav"></ul>
-              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
               <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
                     onsubmit="try{
                         displaySR();
@@ -77,13 +89,7 @@
                        <div class="input-group-addon">
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
-                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              var r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;
-                              var x=document.getElementById('MSearchResults');
-                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
-                              var f=document.getElementById('riot-searchform');
-                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event); modSearch();">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -1412,11 +1418,11 @@ $(document).ready(function(){initNavTree('globals_p.html','');});
 <li>priority_queue_add()
 : <a class="el" href="priority__queue_8h.html#adb24278777be0ab8a954235b957af98d">priority_queue.h</a>
 </li>
-<li>priority_queue_init()
-: <a class="el" href="priority__queue_8h.html#a5d3cc838f96d979f5cba9f53102c7585">priority_queue.h</a>
-</li>
 <li>PRIORITY_QUEUE_INIT
 : <a class="el" href="priority__queue_8h.html#a08b66bc9494298795af656fc1dce8e34">priority_queue.h</a>
+</li>
+<li>priority_queue_init()
+: <a class="el" href="priority__queue_8h.html#a5d3cc838f96d979f5cba9f53102c7585">priority_queue.h</a>
 </li>
 <li>priority_queue_node_init()
 : <a class="el" href="priority__queue_8h.html#ae617c3af6aa86b1eed6849d910f9f4ab">priority_queue.h</a>
@@ -2401,7 +2407,7 @@ $(document).ready(function(){initNavTree('globals_p.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Fri Jul 3 2020 13:27:58 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Fri Jul 3 2020 23:49:42 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

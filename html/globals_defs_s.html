@@ -37,11 +37,24 @@
     <![endif]-->
         <script>
             function displaySR(){
+            searchBox.Search();
             var rhtml=(document.getElementById('MSearchResults').contentWindow.document.body.innerHTML).replace(/href=\"\.\.\//g,'href="');
             document.getElementById('MSearchResultsWindow').style.display='none';
             document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
             document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
             document.getElementById('doc-content').innerHTML=rhtml;
+            }
+            function modSearch(){
+            if(!searchBox.doxySearch){
+                searchBox.doxySearch=searchBox.Search
+                searchBox.Search= function(){this.doxySearch();
+                var r=document.getElementById('MSearchResultsWindow');console.log(r.style);
+                if(parseInt(r.style.left)<0)r.style.left=0;
+                var x=document.getElementById('MSearchResults');
+                if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                var f=document.getElementById('riot-searchform');
+                if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';}
+            }
             }
         </script>
   </head>
@@ -64,7 +77,6 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
               <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
               <ul id="riot-navlist" class="nav navbar-nav"></ul>
-              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
               <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
                     onsubmit="try{
                         displaySR();
@@ -77,13 +89,7 @@
                        <div class="input-group-addon">
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
-                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              var r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;
-                              var x=document.getElementById('MSearchResults');
-                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
-                              var f=document.getElementById('riot-searchform');
-                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event); modSearch();">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -267,6 +273,30 @@ $(document).ready(function(){initNavTree('globals_defs_s.html','');});
 <li>SCHED_PRIO_LEVELS
 : <a class="el" href="group__core__sched.html#ga1868da7c35ae4ff66fc899793d283dd6">sched.h</a>
 </li>
+<li>SD_BLOCK_READ_CMD_RETRY_US
+: <a class="el" href="sdcard__spi__internal_8h.html#a6f0709441ab4d831d91e251cf190b8a1">sdcard_spi_internal.h</a>
+</li>
+<li>SD_BLOCK_WRITE_CMD_RETRY_US
+: <a class="el" href="sdcard__spi__internal_8h.html#aa750711637616908f74021d93bd8ae1f">sdcard_spi_internal.h</a>
+</li>
+<li>SD_CARD_DUMMY_BYTE
+: <a class="el" href="sdcard__spi__internal_8h.html#a4c8e251f0a1a5d4e427546bac037b42a">sdcard_spi_internal.h</a>
+</li>
+<li>SD_CARD_SPI_MODE
+: <a class="el" href="sdcard__spi__internal_8h.html#ac90f91bc9f3401401391c71d560a0b80">sdcard_spi_internal.h</a>
+</li>
+<li>SD_CARD_SPI_SPEED_POSTINIT
+: <a class="el" href="sdcard__spi__internal_8h.html#a4a9b557ee70d4b80e5b3a0c382b9926a">sdcard_spi_internal.h</a>
+</li>
+<li>SD_CARD_SPI_SPEED_PREINIT
+: <a class="el" href="sdcard__spi__internal_8h.html#a0a512c547ab797deb85552b6a7642c3f">sdcard_spi_internal.h</a>
+</li>
+<li>SD_CSD_V2_C_SIZE_BLOCK_MULT
+: <a class="el" href="sdcard__spi__internal_8h.html#a354b7eedf150a4f154865f1a6cf0f3b5">sdcard_spi_internal.h</a>
+</li>
+<li>SD_DATA_TOKEN_RETRY_US
+: <a class="el" href="sdcard__spi__internal_8h.html#a77a1681f8ba45fbf37bde01a03bddb3a">sdcard_spi_internal.h</a>
+</li>
 <li>SD_HC_BLOCK_SIZE
 : <a class="el" href="group__drivers__sdcard__spi.html#gaff1b9bbba19db3b42693524d43fb4601">sdcard_spi.h</a>
 </li>
@@ -275,6 +305,12 @@ $(document).ready(function(){initNavTree('globals_defs_s.html','');});
 </li>
 <li>SD_SIZE_OF_PNM
 : <a class="el" href="group__drivers__sdcard__spi.html#gafa0f65085d31e5e121c9fb247c800cca">sdcard_spi.h</a>
+</li>
+<li>SD_WAIT_FOR_NOT_BUSY_US
+: <a class="el" href="sdcard__spi__internal_8h.html#a350c2bc4c465220285d79baa1f4cd086">sdcard_spi_internal.h</a>
+</li>
+<li>SDCARD_SPI_IEC_KIBI
+: <a class="el" href="sdcard__spi__internal_8h.html#a82730224316f07a61c99f85d1a7d5800">sdcard_spi_internal.h</a>
 </li>
 <li>SDCARD_SPI_INIT_ERROR
 : <a class="el" href="group__drivers__sdcard__spi.html#gac2ed9af357c08f608fd37924c31c37a5">sdcard_spi.h</a>
@@ -303,12 +339,15 @@ $(document).ready(function(){initNavTree('globals_defs_s.html','');});
 , <a class="el" href="esp32-wrover-kit_2include_2board_8h.html#a1b39ba3680695d6a0197bf66295fb7ec">board.h</a>
 </li>
 <li>SDCARD_SPI_PARAM_POWER_AH
-: <a class="el" href="boards_2common_2arduino-due_2include_2sdcard__spi__params_8h.html#ac519e2e5309f85391ecd5b5f8394ae77">sdcard_spi_params.h</a>
-, <a class="el" href="arduino-mkrzero_2include_2board_8h.html#ac519e2e5309f85391ecd5b5f8394ae77">board.h</a>
+: <a class="el" href="arduino-mkrzero_2include_2board_8h.html#ac519e2e5309f85391ecd5b5f8394ae77">board.h</a>
+, <a class="el" href="boards_2common_2arduino-due_2include_2sdcard__spi__params_8h.html#ac519e2e5309f85391ecd5b5f8394ae77">sdcard_spi_params.h</a>
 </li>
 <li>SDCARD_SPI_PARAM_SPI
 : <a class="el" href="common_2esp8266_2include_2board__modules_8h.html#a41cbf87bcb5db3d76e7bce9db6718437">board_modules.h</a>
 , <a class="el" href="esp32-wrover-kit_2include_2board_8h.html#a41cbf87bcb5db3d76e7bce9db6718437">board.h</a>
+</li>
+<li>SDCARD_SPI_SI_KILO
+: <a class="el" href="sdcard__spi__internal_8h.html#a21cda76701d82a2528a4fa237bf87897">sdcard_spi_internal.h</a>
 </li>
 <li>SDP3X_FLAG_AVERAGE
 : <a class="el" href="sdp3x_8h.html#a431059b306e2cf86629cdb395ad162ed">sdp3x.h</a>
@@ -919,10 +958,10 @@ $(document).ready(function(){initNavTree('globals_defs_s.html','');});
 : <a class="el" href="esp32_2include_2board__common_8h.html#af3f4547c4a12fa24af7dd7e286aa9f27">board_common.h</a>
 </li>
 <li>SPI_HWCS
-: <a class="el" href="samd21_2include_2periph__cpu_8h.html#a292c9a0a5b03329a153ad28343ff2e09">periph_cpu.h</a>
+: <a class="el" href="samd5x_2include_2periph__cpu_8h.html#a292c9a0a5b03329a153ad28343ff2e09">periph_cpu.h</a>
 , <a class="el" href="cpu_2native_2include_2periph__conf_8h.html#a292c9a0a5b03329a153ad28343ff2e09">periph_conf.h</a>
 , <a class="el" href="nrf5x__common_2include_2periph__cpu__common_8h.html#a292c9a0a5b03329a153ad28343ff2e09">periph_cpu_common.h</a>
-, <a class="el" href="samd5x_2include_2periph__cpu_8h.html#a292c9a0a5b03329a153ad28343ff2e09">periph_cpu.h</a>
+, <a class="el" href="samd21_2include_2periph__cpu_8h.html#a292c9a0a5b03329a153ad28343ff2e09">periph_cpu.h</a>
 , <a class="el" href="group__drivers__periph__spi.html#ga292c9a0a5b03329a153ad28343ff2e09">spi.h</a>
 </li>
 <li>SPI_HWCS_MASK
@@ -957,7 +996,7 @@ $(document).ready(function(){initNavTree('globals_defs_s.html','');});
 , <a class="el" href="esp32_2include_2periph__conf__common_8h.html#ab35a2b79568128efef74adf1ba1910a8">periph_conf_common.h</a>
 </li>
 <li>SPI_NUMOF_MAX
-: <a class="el" href="esp32_2include_2periph__cpu_8h.html#a4ca218aaab0f949219155ba184ee0ecf">periph_cpu.h</a>
+: <a class="el" href="esp8266_2include_2periph__cpu_8h.html#a4ca218aaab0f949219155ba184ee0ecf">periph_cpu.h</a>
 </li>
 <li>SPI_SCKSEL
 : <a class="el" href="nrf52_2include_2periph__cpu_8h.html#a69c3487da96722898ad0abf562158743">periph_cpu.h</a>
@@ -1152,17 +1191,17 @@ $(document).ready(function(){initNavTree('globals_defs_s.html','');});
 : <a class="el" href="group__sys__stdio__semihosting.html#ga9fd1a2194c1d39034c91b5c814be48ba">stdio_semihosting.h</a>
 </li>
 <li>STDIO_UART_BAUDRATE
-: <a class="el" href="esp32_2include_2board__common_8h.html#ab2f12549369d69d3db8f38d49c8ca507">board_common.h</a>
-, <a class="el" href="waspmote-pro_2include_2board_8h.html#ab2f12549369d69d3db8f38d49c8ca507">board.h</a>
-, <a class="el" href="group__sys__stdio__uart.html#gab2f12549369d69d3db8f38d49c8ca507">stdio_uart.h</a>
+: <a class="el" href="waspmote-pro_2include_2board_8h.html#ab2f12549369d69d3db8f38d49c8ca507">board.h</a>
+, <a class="el" href="esp32_2include_2board__common_8h.html#ab2f12549369d69d3db8f38d49c8ca507">board_common.h</a>
 , <a class="el" href="microduino-corerf_2include_2board_8h.html#ab2f12549369d69d3db8f38d49c8ca507">board.h</a>
+, <a class="el" href="group__sys__stdio__uart.html#gab2f12549369d69d3db8f38d49c8ca507">stdio_uart.h</a>
 </li>
 <li>STDIO_UART_DEV
-: <a class="el" href="atmega256rfr2-xpro_2include_2board_8h.html#a81935d479349dc2ce0a416bcb0e6beda">board.h</a>
-, <a class="el" href="openwsn__uart_8h.html#a81935d479349dc2ce0a416bcb0e6beda">openwsn_uart.h</a>
-, <a class="el" href="maple-mini_2include_2board_8h.html#a81935d479349dc2ce0a416bcb0e6beda">board.h</a>
-, <a class="el" href="group__sys__stdio__uart.html#ga81935d479349dc2ce0a416bcb0e6beda">stdio_uart.h</a>
+: <a class="el" href="maple-mini_2include_2board_8h.html#a81935d479349dc2ce0a416bcb0e6beda">board.h</a>
 , <a class="el" href="blxxxpill_2include_2board__common_8h.html#a81935d479349dc2ce0a416bcb0e6beda">board_common.h</a>
+, <a class="el" href="mulle_2include_2board_8h.html#a81935d479349dc2ce0a416bcb0e6beda">board.h</a>
+, <a class="el" href="openwsn__uart_8h.html#a81935d479349dc2ce0a416bcb0e6beda">openwsn_uart.h</a>
+, <a class="el" href="group__sys__stdio__uart.html#ga81935d479349dc2ce0a416bcb0e6beda">stdio_uart.h</a>
 </li>
 <li>STDIO_UART_RX_BUFSIZE
 : <a class="el" href="group__sys__stdio__uart.html#ga6b6fd0a277e1c7c05978d7636c54234c">stdio_uart.h</a>
@@ -1754,7 +1793,7 @@ $(document).ready(function(){initNavTree('globals_defs_s.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Fri Jul 3 2020 13:27:58 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Fri Jul 3 2020 23:49:42 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

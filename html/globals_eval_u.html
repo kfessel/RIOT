@@ -37,11 +37,24 @@
     <![endif]-->
         <script>
             function displaySR(){
+            searchBox.Search();
             var rhtml=(document.getElementById('MSearchResults').contentWindow.document.body.innerHTML).replace(/href=\"\.\.\//g,'href="');
             document.getElementById('MSearchResultsWindow').style.display='none';
             document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
             document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
             document.getElementById('doc-content').innerHTML=rhtml;
+            }
+            function modSearch(){
+            if(!searchBox.doxySearch){
+                searchBox.doxySearch=searchBox.Search
+                searchBox.Search= function(){this.doxySearch();
+                var r=document.getElementById('MSearchResultsWindow');console.log(r.style);
+                if(parseInt(r.style.left)<0)r.style.left=0;
+                var x=document.getElementById('MSearchResults');
+                if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                var f=document.getElementById('riot-searchform');
+                if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';}
+            }
             }
         </script>
   </head>
@@ -64,7 +77,6 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
               <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
               <ul id="riot-navlist" class="nav navbar-nav"></ul>
-              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
               <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
                     onsubmit="try{
                         displaySR();
@@ -77,13 +89,7 @@
                        <div class="input-group-addon">
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
-                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              var r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;
-                              var x=document.getElementById('MSearchResults');
-                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
-                              var f=document.getElementById('riot-searchform');
-                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event); modSearch();">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -141,11 +147,11 @@ $(document).ready(function(){initNavTree('globals_eval_u.html','');});
 &#160;
 
 <h3><a id="index_u"></a>- u -</h3><ul>
-<li>UART0_IRQN
-: <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a07cd15767db464bed09ba2bf661c5c94">cc26xx_cc13xx.h</a>
-</li>
 <li>UART0_IRQn
 : <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083ae9122b85b58f7c24033a8515615a7b74">cc2538.h</a>
+</li>
+<li>UART0_IRQN
+: <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a07cd15767db464bed09ba2bf661c5c94">cc26xx_cc13xx.h</a>
 </li>
 <li>UART0_RXD
 : <a class="el" href="group__cpu__cc2538__gpio.html#gga81616fb2c35cba2e374ca3b37e3f2663abdc7e2f9ea75a3f949270037cb24d451">cc2538_gpio.h</a>
@@ -282,11 +288,11 @@ $(document).ready(function(){initNavTree('globals_eval_u.html','');});
 <li>UART_UNDEFINED
 : <a class="el" href="dev__enums_8h.html#aa35bbc7be42569ff9ba436cf05942ce6af3958b4808716f8835afef0eae085259">dev_enums.h</a>
 </li>
-<li>UDMA_ERR_IRQN
-: <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a6007aeaeb84bce22386ac55b3aa4640e">cc26xx_cc13xx.h</a>
-</li>
 <li>UDMA_ERR_IRQn
 : <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a3422683d3f176ac107eef744cde44648">cc2538.h</a>
+</li>
+<li>UDMA_ERR_IRQN
+: <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a6007aeaeb84bce22386ac55b3aa4640e">cc26xx_cc13xx.h</a>
 </li>
 <li>UDMA_IRQn
 : <a class="el" href="group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a0637125132f84f80c98f43d82213d948">cc2538.h</a>
@@ -576,7 +582,7 @@ $(document).ready(function(){initNavTree('globals_eval_u.html','');});
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Fri Jul 3 2020 13:27:58 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Fri Jul 3 2020 23:49:42 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

@@ -237,7 +237,6 @@ var NAVTREEINDEX148 =
 "running-and-creating-tests.html":[10],
 "ruuvitag_2include_2board_8h.html":[20,0,0,143,0,0],
 "ruuvitag_2include_2board_8h.html#a08f249dcc1ccdb466445e23ac72be1c7":[20,0,0,143,0,0,16],
-"ruuvitag_2include_2board_8h.html#a0f3945d2265fbbb673bc170ddaf5ce3c":[20,0,0,143,0,0,17],
 "ruuvitag_2include_2board_8h.html#a1e48dc02333bfc2e6ad3e5bd466eecd4":[20,0,0,143,0,0,6],
 "ruuvitag_2include_2board_8h.html#a267fdbba1d750146b73da35c1731fd17":[20,0,0,143,0,0,13],
 "ruuvitag_2include_2board_8h.html#a318aa17e5d40e2132d2c7f6269ce7f51":[20,0,0,143,0,0,12],
@@ -245,9 +244,10 @@ var NAVTREEINDEX148 =
 "ruuvitag_2include_2board_8h.html#a3fc522fda449d6edde717d6a857429cf":[20,0,0,143,0,0,7],
 "ruuvitag_2include_2board_8h.html#a663daa01e565aee93c6f20c5845b90b4":[20,0,0,143,0,0,15],
 "ruuvitag_2include_2board_8h.html#a669ed6e073140d069b30442bf4c08842":[20,0,0,143,0,0,9],
+"ruuvitag_2include_2board_8h.html#a74841d907a80bbdb24f68ffd8ac92fb8":[20,0,0,143,0,0,17],
 "ruuvitag_2include_2board_8h.html#a904884feea8e03c30c9a85ca6d7a8e5c":[20,0,0,143,0,0,1],
 "ruuvitag_2include_2board_8h.html#a916f2adc2080b4fe88034086d107a8dc":[20,0,0,143,0,0,19],
+"ruuvitag_2include_2board_8h.html#aa9123e22e1b1e1d28827494f17de81d2":[20,0,0,143,0,0,18],
 "ruuvitag_2include_2board_8h.html#aaaed7fd5d188f662cf651f6efc9b472f":[20,0,0,143,0,0,3],
-"ruuvitag_2include_2board_8h.html#aab5c3eca54046333af52593b9e360270":[20,0,0,143,0,0,2],
-"ruuvitag_2include_2board_8h.html#aadd4c7ae0cd4e9bbb17f7055dd51fe08":[20,0,0,143,0,0,11]
+"ruuvitag_2include_2board_8h.html#aab5c3eca54046333af52593b9e360270":[20,0,0,143,0,0,2]
 };

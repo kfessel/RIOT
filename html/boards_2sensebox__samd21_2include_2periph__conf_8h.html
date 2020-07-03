@@ -37,11 +37,24 @@
     <![endif]-->
         <script>
             function displaySR(){
+            searchBox.Search();
             var rhtml=(document.getElementById('MSearchResults').contentWindow.document.body.innerHTML).replace(/href=\"\.\.\//g,'href="');
             document.getElementById('MSearchResultsWindow').style.display='none';
             document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
             document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
             document.getElementById('doc-content').innerHTML=rhtml;
+            }
+            function modSearch(){
+            if(!searchBox.doxySearch){
+                searchBox.doxySearch=searchBox.Search
+                searchBox.Search= function(){this.doxySearch();
+                var r=document.getElementById('MSearchResultsWindow');console.log(r.style);
+                if(parseInt(r.style.left)<0)r.style.left=0;
+                var x=document.getElementById('MSearchResults');
+                if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                var f=document.getElementById('riot-searchform');
+                if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';}
+            }
             }
         </script>
   </head>
@@ -64,7 +77,6 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
               <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
               <ul id="riot-navlist" class="nav navbar-nav"></ul>
-              <!--BEGIN SEARCHENGINE hidden-sm hidden-xs"-->
               <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
                     onsubmit="try{
                         displaySR();
@@ -77,13 +89,7 @@
                        <div class="input-group-addon">
                          <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
                        </div>
-                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event);
-                              var r=document.getElementById('MSearchResultsWindow');
-                              if(parseInt(r.style.left)<0)r.style.left=0;
-                              var x=document.getElementById('MSearchResults');
-                              if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
-                              var f=document.getElementById('riot-searchform');
-                              if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';">
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event); modSearch();">
                        <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
                          <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
                        </a>
@@ -248,10 +254,10 @@ I2C configuration</h2></td></tr>
 <tr class="separator:aa9dcbfbe7aa5baf027d834e5bca62a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
-RTC configuration</h2></td></tr>
-<tr class="memitem:acf6c2376af572a7de1e5cd5a2e916f9d"><td class="memItemLeft" align="right" valign="top"><a id="acf6c2376af572a7de1e5cd5a2e916f9d"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><b>RTC_DEV</b>&#160;&#160;&#160;RTC-&gt;MODE2</td></tr>
-<tr class="separator:acf6c2376af572a7de1e5cd5a2e916f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+RTT configuration</h2></td></tr>
+<tr class="memitem:afec7c948b8c70db3c9394fc3dc145a99"><td class="memItemLeft" align="right" valign="top"><a id="afec7c948b8c70db3c9394fc3dc145a99"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><b>RTT_FREQUENCY</b>&#160;&#160;&#160;(32768U)    /* in Hz. For changes see `rtc_rtt.c` */</td></tr>
+<tr class="separator:afec7c948b8c70db3c9394fc3dc145a99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 ADC configuration</h2></td></tr>
@@ -301,7 +307,7 @@ USB peripheral configuration</h2></td></tr>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    </div><div class="line">    { <a class="code" href="atmega1284p_2include_2periph__cpu_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a>(<a class="code" href="ezr32wg_2include_2periph__cpu_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aae3d8a811f3bf7196f361be4104db68db">PA</a>, 4), ADC_INPUTCTRL_MUXPOS_PIN4 },     </div><div class="line">    { <a class="code" href="atmega1284p_2include_2periph__cpu_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a>(<a class="code" href="ezr32wg_2include_2periph__cpu_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aae3d8a811f3bf7196f361be4104db68db">PA</a>, 5), ADC_INPUTCTRL_MUXPOS_PIN5 },     </div><div class="line">    { <a class="code" href="atmega1284p_2include_2periph__cpu_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a>(<a class="code" href="ezr32wg_2include_2periph__cpu_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aae3d8a811f3bf7196f361be4104db68db">PA</a>, 6), ADC_INPUTCTRL_MUXPOS_PIN6 },     </div><div class="line">    { <a class="code" href="atmega1284p_2include_2periph__cpu_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a>(<a class="code" href="ezr32wg_2include_2periph__cpu_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aae3d8a811f3bf7196f361be4104db68db">PA</a>, 7), ADC_INPUTCTRL_MUXPOS_PIN7 },     </div><div class="line">    { <a class="code" href="atmega1284p_2include_2periph__cpu_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a>(<a class="code" href="ezr32wg_2include_2periph__cpu_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aae3d8a811f3bf7196f361be4104db68db">PA</a>, 3), ADC_INPUTCTRL_MUXPOS_PIN1 },     </div><div class="line">    { <a class="code" href="atmega1284p_2include_2periph__cpu_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a>(<a class="code" href="ezr32wg_2include_2periph__cpu_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aae3d8a811f3bf7196f361be4104db68db">PA</a>, 2), ADC_INPUTCTRL_MUXPOS_PIN0 },     </div><div class="line">}</div><div class="ttc" id="ezr32wg_2include_2periph__cpu_8h_html_ad63240694c6dc2a28c24bfc2db90ad7aae3d8a811f3bf7196f361be4104db68db"><div class="ttname"><a href="ezr32wg_2include_2periph__cpu_8h.html#ad63240694c6dc2a28c24bfc2db90ad7aae3d8a811f3bf7196f361be4104db68db">PA</a></div><div class="ttdoc">port A </div><div class="ttdef"><b>Definition:</b> <a href="ezr32wg_2include_2periph__cpu_8h_source.html#l00092">periph_cpu.h:92</a></div></div>
 <div class="ttc" id="atmega1284p_2include_2periph__cpu_8h_html_ae29846b3ecd19a0b7c44ff80a37ae7c1"><div class="ttname"><a href="atmega1284p_2include_2periph__cpu_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a></div><div class="ttdeci">#define GPIO_PIN(x, y)</div><div class="ttdoc">Define a CPU specific GPIO pin generator macro. </div><div class="ttdef"><b>Definition:</b> <a href="atmega1284p_2include_2periph__cpu_8h_source.html#l00035">periph_cpu.h:35</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="boards_2sensebox__samd21_2include_2periph__conf_8h_source.html#l00233">233</a> of file <a class="el" href="boards_2sensebox__samd21_2include_2periph__conf_8h_source.html">periph_conf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="boards_2sensebox__samd21_2include_2periph__conf_8h_source.html#l00234">234</a> of file <a class="el" href="boards_2sensebox__samd21_2include_2periph__conf_8h_source.html">periph_conf.h</a>.</p>
 
 </div>
 </div>
@@ -359,7 +365,7 @@ USB peripheral configuration</h2></td></tr>
 <div class="ttc" id="sam0__common_2include_2periph__cpu__common_8h_html_ac86e130e5617ffe35f2aa1169d8a67c0a72b834876d72c168f46f3c240a217a34"><div class="ttname"><a href="sam0__common_2include_2periph__cpu__common_8h.html#ac86e130e5617ffe35f2aa1169d8a67c0a72b834876d72c168f46f3c240a217a34">GPIO_MUX_G</a></div><div class="ttdoc">select peripheral function G </div><div class="ttdef"><b>Definition:</b> <a href="sam0__common_2include_2periph__cpu__common_8h_source.html#l00139">periph_cpu_common.h:139</a></div></div>
 <div class="ttc" id="atmega1284p_2include_2periph__cpu_8h_html_ae29846b3ecd19a0b7c44ff80a37ae7c1"><div class="ttname"><a href="atmega1284p_2include_2periph__cpu_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1">GPIO_PIN</a></div><div class="ttdeci">#define GPIO_PIN(x, y)</div><div class="ttdoc">Define a CPU specific GPIO pin generator macro. </div><div class="ttdef"><b>Definition:</b> <a href="atmega1284p_2include_2periph__cpu_8h_source.html#l00035">periph_cpu.h:35</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="boards_2sensebox__samd21_2include_2periph__conf_8h_source.html#l00250">250</a> of file <a class="el" href="boards_2sensebox__samd21_2include_2periph__conf_8h_source.html">periph_conf.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="boards_2sensebox__samd21_2include_2periph__conf_8h_source.html#l00251">251</a> of file <a class="el" href="boards_2sensebox__samd21_2include_2periph__conf_8h_source.html">periph_conf.h</a>.</p>
 
 </div>
 </div>
@@ -455,7 +461,7 @@ USB peripheral configuration</h2></td></tr>
 </div><!-- doc-content -->
     <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
         <ul>
-            <li class="footer">Generated on Fri Jul 3 2020 13:27:51 by <a href="http://www.doxygen.org/index.html">
+            <li class="footer">Generated on Fri Jul 3 2020 23:49:34 by <a href="http://www.doxygen.org/index.html">
                        <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.13</li>
         </ul>
     </div>

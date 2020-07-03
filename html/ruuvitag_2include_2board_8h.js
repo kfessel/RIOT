@@ -17,7 +17,7 @@ var ruuvitag_2include_2board_8h =
     [ "LED_MASK", "ruuvitag_2include_2board_8h.html#ad0d0bdd5242aaa7aa76f00d47799d0ae", null ],
     [ "LED_PORT", "ruuvitag_2include_2board_8h.html#a663daa01e565aee93c6f20c5845b90b4", null ],
     [ "LIS2DH12_PARAM_CS", "ruuvitag_2include_2board_8h.html#a08f249dcc1ccdb466445e23ac72be1c7", null ],
-    [ "LIS2DH12_PARAM_INT1", "ruuvitag_2include_2board_8h.html#a0f3945d2265fbbb673bc170ddaf5ce3c", null ],
-    [ "LIS2DH12_PARAM_INT2", "ruuvitag_2include_2board_8h.html#ae622d6e16fdd518b06b19bf42308c534", null ],
+    [ "LIS2DH12_PARAM_INT_PIN1", "ruuvitag_2include_2board_8h.html#a74841d907a80bbdb24f68ffd8ac92fb8", null ],
+    [ "LIS2DH12_PARAM_INT_PIN2", "ruuvitag_2include_2board_8h.html#aa9123e22e1b1e1d28827494f17de81d2", null ],
     [ "board_init", "ruuvitag_2include_2board_8h.html#a916f2adc2080b4fe88034086d107a8dc", null ]
 ];

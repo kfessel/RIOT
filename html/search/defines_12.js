@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['r1_5fpolling_5fretry_5fus',['R1_POLLING_RETRY_US',['../sdcard__spi__internal_8h.html#a7e38c9a92f415ff8585860cb69a1e404',1,'sdcard_spi_internal.h']]],
   ['raw_5fcan_5fdev_5fundef',['RAW_CAN_DEV_UNDEF',['../can_2raw_8h.html#a80db4a1d59e06b6faf2861f510bd6b4b',1,'raw.h']]],
   ['rcosc16m_5ffreq',['RCOSC16M_FREQ',['../cc2538_8h.html#ab967751bbc50aacdfd19d927d0ed3811',1,'cc2538.h']]],
   ['rcosc32k_5ffreq',['RCOSC32K_FREQ',['../cc2538_8h.html#a6b2eb97f48f72c1f26a2babe2ecba14a',1,'cc2538.h']]],

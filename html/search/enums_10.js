@@ -2,6 +2,7 @@ var searchData=
 [
   ['sam0_5fsupc_5ft',['sam0_supc_t',['../sam0__common_2include_2periph__cpu__common_8h.html#af734ec0eb8f02ea6acd32e1efda0dfed',1,'periph_cpu_common.h']]],
   ['saul_5fgpio_5fflags_5ft',['saul_gpio_flags_t',['../periph_8h.html#a67c936922c075feb1c954a9da4e42410',1,'periph.h']]],
+  ['sd_5finit_5ffsm_5fstate_5ft',['sd_init_fsm_state_t',['../sdcard__spi__internal_8h.html#af0620f9c12a5a889f13fd23be03a9f50',1,'sdcard_spi_internal.h']]],
   ['sd_5frw_5fresponse_5ft',['sd_rw_response_t',['../group__drivers__sdcard__spi.html#ga80c23a4db4f9950391ae7718a49a5172',1,'sdcard_spi.h']]],
   ['sd_5fversion_5ft',['sd_version_t',['../group__drivers__sdcard__spi.html#ga0fc206d1dcbc265c9672c6ec0b24ee14',1,'sdcard_spi.h']]],
   ['sds011_5freporting_5fmode',['sds011_reporting_mode',['../group__drivers__sds011.html#ga37a5c94f15aac2c47cacdb93659c271e',1,'sds011.h']]],

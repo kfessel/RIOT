@@ -10,7 +10,7 @@ var boards_2sensebox__samd21_2include_2periph__conf_8h =
     [ "CLOCK_PLL_MUL", "boards_2sensebox__samd21_2include_2periph__conf_8h.html#a902a38d6dfe9bc80271132ace0d1ca69", null ],
     [ "CLOCK_USE_PLL", "boards_2sensebox__samd21_2include_2periph__conf_8h.html#a8dc6f59497ff407016c464fb10f9ece8", null ],
     [ "I2C_NUMOF", "boards_2sensebox__samd21_2include_2periph__conf_8h.html#abce62e16a6e3b3205801fed93c51692d", null ],
-    [ "RTC_DEV", "boards_2sensebox__samd21_2include_2periph__conf_8h.html#acf6c2376af572a7de1e5cd5a2e916f9d", null ],
+    [ "RTT_FREQUENCY", "boards_2sensebox__samd21_2include_2periph__conf_8h.html#afec7c948b8c70db3c9394fc3dc145a99", null ],
     [ "SPI_NUMOF", "boards_2sensebox__samd21_2include_2periph__conf_8h.html#ab35a2b79568128efef74adf1ba1910a8", null ],
     [ "TIMER_0_ISR", "boards_2sensebox__samd21_2include_2periph__conf_8h.html#a4c490d334538c05373718609ca5fe2d4", null ],
     [ "TIMER_0_MAX_VALUE", "boards_2sensebox__samd21_2include_2periph__conf_8h.html#ab43cbb6f07f99fddc0e0f6a710160654", null ],

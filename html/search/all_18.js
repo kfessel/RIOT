@@ -43,7 +43,7 @@ var searchData=
   ['uart0_5fifls',['UART0_IFLS',['../cc2538_8h.html#ad72d21130d5a78debe12849c22c284b3',1,'cc2538.h']]],
   ['uart0_5filpr',['UART0_ILPR',['../cc2538_8h.html#ade05b85027deb2f82d7c7fbbde57b28d',1,'cc2538.h']]],
   ['uart0_5fim',['UART0_IM',['../cc2538_8h.html#adde050cb63e0f9156e3f22cd55971156',1,'cc2538.h']]],
-  ['uart0_5firqn',['UART0_IRQN',['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a07cd15767db464bed09ba2bf661c5c94',1,'UART0_IRQN():&#160;cc26xx_cc13xx.h'],['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083ae9122b85b58f7c24033a8515615a7b74',1,'UART0_IRQn():&#160;cc2538.h']]],
+  ['uart0_5firqn',['UART0_IRQn',['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083ae9122b85b58f7c24033a8515615a7b74',1,'UART0_IRQn():&#160;cc2538.h'],['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a07cd15767db464bed09ba2bf661c5c94',1,'UART0_IRQN():&#160;cc26xx_cc13xx.h']]],
   ['uart0_5flcrh',['UART0_LCRH',['../cc2538_8h.html#ac4cc0d28286e1e9d556fd21570a9d092',1,'cc2538.h']]],
   ['uart0_5flctl',['UART0_LCTL',['../cc2538_8h.html#a86fa8117a3f1cd83d536616666fb9362',1,'cc2538.h']]],
   ['uart0_5flss',['UART0_LSS',['../cc2538_8h.html#a279a26f1dd8a7416b3be020108af8f84',1,'cc2538.h']]],
@@ -200,7 +200,7 @@ var searchData=
   ['udma_5fctlbase',['UDMA_CTLBASE',['../cc2538_8h.html#adaa31653cc45c57d88b97a67c25ca7ab',1,'cc2538.h']]],
   ['udma_5fenaclr',['UDMA_ENACLR',['../cc2538_8h.html#ad6083ee9273019db8454bc298c3673e0',1,'cc2538.h']]],
   ['udma_5fenaset',['UDMA_ENASET',['../cc2538_8h.html#a864bbe5457eab3890f39e838dd0faebc',1,'cc2538.h']]],
-  ['udma_5ferr_5firqn',['UDMA_ERR_IRQN',['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a6007aeaeb84bce22386ac55b3aa4640e',1,'UDMA_ERR_IRQN():&#160;cc26xx_cc13xx.h'],['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a3422683d3f176ac107eef744cde44648',1,'UDMA_ERR_IRQn():&#160;cc2538.h']]],
+  ['udma_5ferr_5firqn',['UDMA_ERR_IRQn',['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a3422683d3f176ac107eef744cde44648',1,'UDMA_ERR_IRQn():&#160;cc2538.h'],['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a6007aeaeb84bce22386ac55b3aa4640e',1,'UDMA_ERR_IRQN():&#160;cc26xx_cc13xx.h']]],
   ['udma_5ferrclr',['UDMA_ERRCLR',['../cc2538_8h.html#a1faac050767fa7399b52d21ecbeace7b',1,'cc2538.h']]],
   ['udma_5firqn',['UDMA_IRQn',['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a0637125132f84f80c98f43d82213d948',1,'UDMA_IRQn():&#160;cc2538.h'],['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a97c25aea01e6fffda490f6bec8cad759',1,'UDMA_IRQN():&#160;cc26xx_cc13xx.h']]],
   ['udma_5fprioclr',['UDMA_PRIOCLR',['../cc2538_8h.html#a4551274bc3f8c607d10e7407030a043d',1,'cc2538.h']]],
@@ -696,7 +696,7 @@ var searchData=
   ['uuid_5fv1',['UUID_V1',['../group__sys__uuid.html#ga2fefa1395e5416784ad46d78aa894600',1,'uuid.h']]],
   ['uuid_5fv2',['UUID_V2',['../group__sys__uuid.html#ga9ec5ebf84e71f4fe001450b10e5ce4bd',1,'uuid.h']]],
   ['uuid_5fv3',['uuid_v3',['../group__sys__uuid.html#ga0297d3ca74708e40a8bc30afae51b453',1,'uuid_v3(uuid_t *uuid, const uuid_t *ns, const uint8_t *name, size_t len):&#160;uuid.h'],['../group__sys__uuid.html#ga39dc66d1d4cbeca48671680567c9060d',1,'UUID_V3():&#160;uuid.h']]],
-  ['uuid_5fv4',['UUID_V4',['../group__sys__uuid.html#ga7fce43c7ad96cdc6c27c9d8efa2de91f',1,'UUID_V4():&#160;uuid.h'],['../group__sys__uuid.html#gad8cfa3c0efb6e7a36afac1ac96f34605',1,'uuid_v4(uuid_t *uuid):&#160;uuid.h']]],
-  ['uuid_5fv5',['UUID_V5',['../group__sys__uuid.html#ga3ecc5a8a4b0374adc28e3d0431ea70ea',1,'UUID_V5():&#160;uuid.h'],['../group__sys__uuid.html#gac19d8ca4fd93d805e16028c5a1fc6a9f',1,'uuid_v5(uuid_t *uuid, const uuid_t *ns, const uint8_t *name, size_t len):&#160;uuid.h']]],
+  ['uuid_5fv4',['uuid_v4',['../group__sys__uuid.html#gad8cfa3c0efb6e7a36afac1ac96f34605',1,'uuid_v4(uuid_t *uuid):&#160;uuid.h'],['../group__sys__uuid.html#ga7fce43c7ad96cdc6c27c9d8efa2de91f',1,'UUID_V4():&#160;uuid.h']]],
+  ['uuid_5fv5',['uuid_v5',['../group__sys__uuid.html#gac19d8ca4fd93d805e16028c5a1fc6a9f',1,'uuid_v5(uuid_t *uuid, const uuid_t *ns, const uint8_t *name, size_t len):&#160;uuid.h'],['../group__sys__uuid.html#ga3ecc5a8a4b0374adc28e3d0431ea70ea',1,'UUID_V5():&#160;uuid.h']]],
   ['uuid_5fversion',['uuid_version',['../group__sys__uuid.html#ga287a34b17e69df60d4a19c17457dff24',1,'uuid.h']]]
 ];
