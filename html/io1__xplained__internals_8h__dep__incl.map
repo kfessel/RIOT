@@ -1,3 +1,4 @@
 <map id="drivers/io1_xplained/include/io1_xplained_internals.h" name="drivers/io1_xplained/include/io1_xplained_internals.h">
-<area shape="rect" id="node2" href="$io1__xplained__params_8h.html" title="Default configuration for IO1 Xplained. " alt="" coords="5,109,148,165"/>
+<area shape="rect" id="node1" title="Internal addresses, constants for the IO1 Xplained extension." alt="" coords="5,5,165,61"/>
+<area shape="rect" id="node2" href="$io1__xplained__params_8h.html" title="Default configuration for IO1 Xplained." alt="" coords="5,109,165,165"/>
 </map>

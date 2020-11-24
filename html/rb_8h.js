@@ -1,7 +1,7 @@
 var rb_8h =
 [
     [ "GNRC_SIXLOWPAN_FRAG_RB_GC_MSG", "group__net__gnrc__sixlowpan__frag__rb.html#ga1a2174329892f04bd59c1414a2cb132a", null ],
-    [ "gnrc_sixlowpan_frag_rb_int_t", "group__net__gnrc__sixlowpan__frag__rb.html#ga62c090cbb57f28ec0176e61ae04abd06", null ],
+    [ "gnrc_sixlowpan_frag_rb_int_t", "group__net__gnrc__sixlowpan__frag__rb.html#gad58d5cb81fd53e54e72e367529d3dc5f", null ],
     [ "gnrc_sixlowpan_frag_rb_add", "group__net__gnrc__sixlowpan__frag__rb.html#ga0679e4d25cef6dbe7080a6f9ef4f90da", null ],
     [ "gnrc_sixlowpan_frag_rb_array", "group__net__gnrc__sixlowpan__frag__rb.html#ga6ad057610d3666e6bc05ea53740551f4", null ],
     [ "gnrc_sixlowpan_frag_rb_base_rm", "group__net__gnrc__sixlowpan__frag__rb.html#ga9cd39101df2fcbc409d9a2069105fd23", null ],

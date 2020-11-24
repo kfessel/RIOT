@@ -1,3 +1,4 @@
 <map id="boards/sodaq&#45;explorer/include/board.h" name="boards/sodaq&#45;explorer/include/board.h">
-<area shape="rect" id="node2" href="$sodaq-explorer_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,95,161,136"/>
+<area shape="rect" id="node1" title="Board specific definitions for the SODAQ ExpLoRer board." alt="" coords="8,5,176,47"/>
+<area shape="rect" id="node2" href="$sodaq-explorer_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,95,179,136"/>
 </map>

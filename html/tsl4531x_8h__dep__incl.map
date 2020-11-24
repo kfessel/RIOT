@@ -1,3 +1,4 @@
 <map id="drivers/include/tsl4531x.h" name="drivers/include/tsl4531x.h">
-<area shape="rect" id="node2" href="$tsl4531x__params_8h.html" title="Default configuration for tsl4531x light sensor. " alt="" coords="11,80,170,121"/>
+<area shape="rect" id="node1" title="Device driver for the AMS TSL4531 sensor." alt="" coords="5,5,196,32"/>
+<area shape="rect" id="node2" href="$tsl4531x__params_8h.html" title="Default configuration for tsl4531x light sensor." alt="" coords="11,80,190,121"/>
 </map>

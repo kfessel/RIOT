@@ -1,4 +1,5 @@
 <map id="sys/include/net/gnrc/icmpv6/echo.h" name="sys/include/net/gnrc/icmpv6/echo.h">
-<area shape="rect" id="node2" href="$gnrc_2icmpv6_8h.html" title="Definitions for GNRC&#39;s ICMPv6 implementation. " alt="" coords="5,95,144,136"/>
-<area shape="rect" id="node3" href="$validation_8h.html" title="RPL control message validation functions. " alt="" coords="5,184,144,240"/>
+<area shape="rect" id="node1" title="ICMPv6 echo message definitions." alt="" coords="7,5,159,47"/>
+<area shape="rect" id="node2" href="$gnrc_2icmpv6_8h.html" title="Definitions for GNRC&#39;s ICMPv6 implementation." alt="" coords="7,95,159,136"/>
+<area shape="rect" id="node3" href="$validation_8h.html" title="RPL control message validation functions." alt="" coords="5,184,161,240"/>
 </map>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['writing_20a_20device_20driver_20in_20riot',['Writing a Device Driver in RIOT',['../driver-guide.html',1,'']]]
+  ['using_20c_2b_2b_20in_20riot_37054',['Using C++ in RIOT',['../using-cpp.html',1,'']]]
 ];

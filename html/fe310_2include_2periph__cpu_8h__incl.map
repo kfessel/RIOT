@@ -1,4 +1,9 @@
 <map id="cpu/fe310/include/periph_cpu.h" name="cpu/fe310/include/periph_cpu.h">
-<area shape="rect" id="node2" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="30,95,109,121"/>
-<area shape="rect" id="node3" href="$fe310_2include_2cpu_8h.html" title="Basic definitions for the RISC&#45;V common module. " alt="" coords="133,95,187,121"/>
+<area shape="rect" id="node1" title="CPU specific definitions for internal peripheral handling." alt="" coords="101,5,284,47"/>
+<area shape="rect" id="node2" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="101,95,188,121"/>
+<area shape="rect" id="node3" href="$fe310_2include_2cpu_8h.html" title="Basic definitions for the RISC&#45;V common module." alt="" coords="212,95,269,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,169,81,196"/>
+<area shape="rect" id="node5" href="$units_8h.html" title="Unit helper macros." alt="" coords="105,169,224,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="249,169,387,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="412,169,563,196"/>
 </map>

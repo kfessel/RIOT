@@ -1,23 +1,13 @@
 var searchData=
 [
-  ['can_5fmsg',['can_msg',['../group__sys__can__common.html#ga75d2f383907ae290f3ea00d87eb6227a',1,'common.h']]],
-  ['can_5freg_5ftype_5ft',['can_reg_type_t',['../group__sys__can__common.html#ga8b4ee893ca2dcea887ede0c3b245ad84',1,'common.h']]],
-  ['can_5fstate',['can_state',['../group__sys__can__dll.html#gac7ec472c26c564dd7067c49f67c8d2f7',1,'can.h']]],
-  ['can_5ftrx_5fmode_5ft',['can_trx_mode_t',['../group__drivers__can__trx.html#ga5cb1cf6e503df156a726a4ff71e7ca40',1,'can_trx.h']]],
-  ['candev_5fevent_5ft',['candev_event_t',['../group__drivers__candev.html#gaa6988ac26d11c95f4c96dce4e2276e58',1,'candev.h']]],
-  ['canopt_5fstate_5ft',['canopt_state_t',['../group__sys__can__common.html#ga195953bb16685f4a8a4a90fc5ef78dc6',1,'common.h']]],
-  ['canopt_5ft',['canopt_t',['../group__sys__can__common.html#ga5db7a9bc391348311eeba0733dd97d55',1,'common.h']]],
-  ['cc110x_5fstate_5ft',['cc110x_state_t',['../group__drivers__cc110x.html#ga11315ca57b89a5c68af4c57d9f92a547',1,'cc110x.h']]],
-  ['cc110x_5ftx_5fpower_5ft',['cc110x_tx_power_t',['../group__drivers__cc110x.html#ga1928e3385efe9717d9b4d256d4ee5ac9',1,'cc110x.h']]],
-  ['cc2538_5fioc_5fover_5ft',['cc2538_ioc_over_t',['../group__cpu__cc2538__gpio.html#gab1b9ad7bc05b4b2a267f544fee59a362',1,'cc2538_gpio.h']]],
-  ['cc2538_5fioc_5fpin_5ft',['cc2538_ioc_pin_t',['../group__cpu__cc2538__gpio.html#ga81616fb2c35cba2e374ca3b37e3f2663',1,'cc2538_gpio.h']]],
-  ['cc2538_5fioc_5fsel_5ft',['cc2538_ioc_sel_t',['../group__cpu__cc2538__gpio.html#gac1106d64db85a24c22c2fe4cd7e28f9a',1,'cc2538_gpio.h']]],
-  ['ccs811_5ferror_5fcodes_5ft',['ccs811_error_codes_t',['../ccs811_8h.html#a681f09a12b30f0b0d73aa7a5e94a0abe',1,'ccs811.h']]],
-  ['ccs811_5fint_5fmode_5ft',['ccs811_int_mode_t',['../ccs811_8h.html#a7fff180e6cfaa9cd97ac03a1cb2385af',1,'ccs811.h']]],
-  ['ccs811_5fmode_5ft',['ccs811_mode_t',['../ccs811_8h.html#add4cd91ac7b3efa8b16a12d6d00e54e6',1,'ccs811.h']]],
-  ['clif_5fattr_5ftype_5ft',['clif_attr_type_t',['../group__sys__clif.html#ga3ef132533546b0080d61fe16051b2219',1,'clif.h']]],
-  ['cord_5fep_5fstandalone_5fevent_5ft',['cord_ep_standalone_event_t',['../group__net__cord__ep__standalone.html#gad8845b3c5a8e9c0ce5c0a2d8b9b7d171',1,'ep_standalone.h']]],
-  ['core_5fpanic_5ft',['core_panic_t',['../panic_8h.html#afc1f32803e42d93e9fb4b9c19fa1b6e6',1,'panic.h']]],
-  ['credman_5ftype_5ft',['credman_type_t',['../group__net__credman.html#ga9b3a1809012813b046937832b80a4ffd',1,'credman.h']]],
-  ['cv_5fstatus',['cv_status',['../condition__variable_8hpp.html#a9c1aa2d1a730c5da48b0f9b86454fd6f',1,'riot']]]
+  ['bmp180_5foversampling_5fmode_5ft_29929',['bmp180_oversampling_mode_t',['../group__drivers__bmp180.html#gaf44bc15e331d3bcc27fb0536c4c1d7a4',1,'bmp180.h']]],
+  ['bmx055_5facc_5frange_5ft_29930',['bmx055_acc_range_t',['../group__drivers__bmx055.html#ga411daa33422a4d555cf28c1969d67ad2',1,'bmx055.h']]],
+  ['bmx055_5fgyro_5fscale_5ft_29931',['bmx055_gyro_scale_t',['../group__drivers__bmx055.html#ga13216a6a0deff8e2be640c8af9489ad4',1,'bmx055.h']]],
+  ['bmx055_5fmag_5frate_5ft_29932',['bmx055_mag_rate_t',['../group__drivers__bmx055.html#ga77a5b0018b451dc09ff04d0ee658bdc0',1,'bmx055.h']]],
+  ['bmx280_5ffilter_5ft_29933',['bmx280_filter_t',['../group__drivers__bmx280.html#gaf0194620d1e46c8b30f340320121c24a',1,'bmx280.h']]],
+  ['bmx280_5fmode_5ft_29934',['bmx280_mode_t',['../group__drivers__bmx280.html#gaac1b0c55f8eddf04811f7c996b6d9dc9',1,'bmx280.h']]],
+  ['bmx280_5fosrs_5ft_29935',['bmx280_osrs_t',['../group__drivers__bmx280.html#ga34a2512229772c04fdeed5aef28b703b',1,'bmx280.h']]],
+  ['bmx280_5ft_5fsb_5ft_29936',['bmx280_t_sb_t',['../group__drivers__bmx280.html#gadeee9ddfa4006747352b2df38e5322fe',1,'bmx280.h']]],
+  ['board_5fnrfantenna_5fselection_29937',['board_nrfantenna_selection',['../common_2particle-mesh_2include_2board_8h.html#a57bf63dee096cf6baa4c8c0952ad8c47',1,'board.h']]],
+  ['bus_5ft_29938',['bus_t',['../stm32_2include_2periph__cpu_8h.html#afcbe9c50af707480e7b3e6e9058cedc8',1,'periph_cpu.h']]]
 ];

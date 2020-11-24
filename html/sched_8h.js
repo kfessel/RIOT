@@ -1,8 +1,14 @@
 var sched_8h =
 [
+    [ "KERNEL_PID_FIRST", "group__core__sched.html#gafc10ebb77be0d463f6f04e29f066ec9d", null ],
+    [ "KERNEL_PID_LAST", "group__core__sched.html#ga8328107b84cbf548fa267bffd8a0496c", null ],
+    [ "KERNEL_PID_UNDEF", "group__core__sched.html#gab4fb52da047cf9af9626b9c408704384", null ],
+    [ "MAXTHREADS", "group__core__sched.html#gab9eade334fd8a98c128802aec7e9191c", null ],
+    [ "PRIkernel_pid", "group__core__sched.html#gacbdb91f768b6240701dcb6cfaf0216ac", null ],
     [ "SCHED_PRIO_LEVELS", "group__core__sched.html#ga1868da7c35ae4ff66fc899793d283dd6", null ],
     [ "STATUS_NOT_FOUND", "group__core__sched.html#gac345972a587e6779b3c5d40874080e51", null ],
     [ "STATUS_ON_RUNQUEUE", "group__core__sched.html#gaf4e431441709328f9355dfb7e21a0eb9", null ],
+    [ "kernel_pid_t", "group__core__sched.html#ga8375139300d7cbf23bd8bd89ddddbe84", null ],
     [ "sched_callback_t", "group__core__sched.html#ga7ce70cd86509c7177f414edcd58b6a0a", null ],
     [ "thread_t", "group__core__sched.html#ga072d60b1771a699e43ff01970e92bb00", null ],
     [ "thread_status_t", "group__core__sched.html#gac528c02d3cccfb103d539b26ccdba6b2", [
@@ -22,14 +28,13 @@ var sched_8h =
       [ "STATUS_NUMOF", "group__core__sched.html#ggac528c02d3cccfb103d539b26ccdba6b2a7967977f89eba0819e56042f60d9f2ff", null ]
     ] ],
     [ "cpu_switch_context_exit", "group__core__sched.html#gaeac07988fcc9ba2861d1360381aa9ad8", null ],
+    [ "pid_is_valid", "group__core__sched.html#ga512e493d9d773ddd21c3370ad14b8aaa", null ],
     [ "sched_arch_idle", "group__core__sched.html#ga3e8a24fa6f2d4006c7dc623bb58aac50", null ],
     [ "sched_register_cb", "group__core__sched.html#ga3e0e1ccd1bb98c631abfe9ee51059c1b", null ],
-    [ "sched_run", "group__core__sched.html#gab6e1ab844b0a0f33258fe60fd13c8519", null ],
+    [ "sched_run", "group__core__sched.html#gacda65ff85439d041a78e904b3cd8f10c", null ],
     [ "sched_set_status", "group__core__sched.html#gaa83cd489d0c50f49f53cf029bc89e167", null ],
     [ "sched_switch", "group__core__sched.html#gaa6eb537182eece1d6956ec847cd12b25", null ],
     [ "sched_task_exit", "group__core__sched.html#gaace030b4c5b7a4b1021cdbc29683d04c", null ],
-    [ "sched_active_pid", "group__core__sched.html#ga4a646bb2ea6be02c6c4a554bf8778a69", null ],
-    [ "sched_active_thread", "group__core__sched.html#ga5aed9d30fb31c14c7ddff73c35f85818", null ],
     [ "sched_context_switch_request", "group__core__sched.html#gaa07e4e5c8c3a066188f8e833d2b9c276", null ],
     [ "sched_num_threads", "group__core__sched.html#ga5e05aba921ea3e5184ac04df37d311ad", null ],
     [ "sched_runqueues", "group__core__sched.html#gafdebe7416e6cf12c1fc32b1830e796da", null ],

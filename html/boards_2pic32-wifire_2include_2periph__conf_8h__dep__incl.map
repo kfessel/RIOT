@@ -1,4 +1,5 @@
 <map id="boards/pic32&#45;wifire/include/periph_conf.h" name="boards/pic32&#45;wifire/include/periph_conf.h">
-<area shape="rect" id="node2" href="$pic32-wifire_2include_2board_8h.html" title="board configuration for the Digilent PIC32 WiFire " alt="" coords="18,95,149,136"/>
-<area shape="rect" id="node3" href="$pic32-wifire_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="5,184,161,225"/>
+<area shape="rect" id="node1" title="peripheral configuration for the Digilent PIC32 WiFire" alt="" coords="10,5,174,47"/>
+<area shape="rect" id="node2" href="$pic32-wifire_2include_2board_8h.html" title="board configuration for the Digilent PIC32 WiFire" alt="" coords="19,95,165,136"/>
+<area shape="rect" id="node3" href="$pic32-wifire_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins." alt="" coords="5,184,179,225"/>
 </map>

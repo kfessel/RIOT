@@ -1,4 +1,4 @@
 var group__sys__riotboot__flashwrite =
 [
-    [ "flashwrite.h", "flashwrite_8h.html", null ]
+    [ "flashwrite.h", "riotboot_2flashwrite_8h.html", null ]
 ];

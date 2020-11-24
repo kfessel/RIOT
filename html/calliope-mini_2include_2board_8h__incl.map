@@ -1,2 +1,4 @@
 <map id="boards/calliope&#45;mini/include/board.h" name="boards/calliope&#45;mini/include/board.h">
+<area shape="rect" id="node1" title="Board specific configuration for the Calliope mini." alt="" coords="5,5,160,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="15,95,150,121"/>
 </map>

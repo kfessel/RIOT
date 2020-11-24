@@ -1,6 +1,16 @@
 <map id="boards/nucleo&#45;f746zg/include/periph_conf.h" name="boards/nucleo&#45;f746zg/include/periph_conf.h">
-<area shape="rect" id="node3" href="$cfg__clock__216__8__1_8h.html" title="Configure STM32F7 clock to 216MHz and 8MHz HSE using PLL with LSE. " alt="" coords="23,95,183,121"/>
-<area shape="rect" id="node4" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C. " alt="" coords="207,95,346,121"/>
-<area shape="rect" id="node6" href="$cfg__timer__tim2_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM2. " alt="" coords="510,95,629,121"/>
-<area shape="rect" id="node7" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="654,95,776,121"/>
+<area shape="rect" id="node1" title="Peripheral MCU configuration for the nucleo&#45;f746zg board." alt="" coords="531,5,695,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="581,184,687,211"/>
+<area shape="rect" id="node3" href="$cfg__clock__default__216_8h.html" title="Default STM32F7 clock configuration for 216MHz boards." alt="" coords="119,95,298,136"/>
+<area shape="rect" id="node6" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C." alt="" coords="373,102,524,129"/>
+<area shape="rect" id="node7" title=" " alt="" coords="548,102,677,129"/>
+<area shape="rect" id="node8" href="$cfg__timer__tim2_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM2." alt="" coords="702,102,835,129"/>
+<area shape="rect" id="node9" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral." alt="" coords="859,102,990,129"/>
+<area shape="rect" id="node10" href="$mii_8h.html" title="Interface definition for MII/RMII h." alt="" coords="1015,102,1069,129"/>
+<area shape="rect" id="node4" href="$f2f4f7_2cfg__clock__common_8h.html" title="Base STM32F4 clock configuration." alt="" coords="218,184,421,211"/>
+<area shape="rect" id="node5" href="$f2f4f7_2cfg__clock__values_8h.html" title="STM32F4 clock values definitions." alt="" coords="5,184,193,211"/>
+<area shape="rect" id="node11" title=" " alt="" coords="922,184,1005,211"/>
+<area shape="rect" id="node12" title=" " alt="" coords="1007,259,1077,285"/>
+<area shape="rect" id="node13" href="$bitarithm_8h.html" title="Helper functions for bit arithmetic." alt="" coords="1080,184,1175,211"/>
+<area shape="rect" id="node14" title=" " alt="" coords="1102,259,1193,285"/>
 </map>

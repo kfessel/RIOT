@@ -1,7 +1,7 @@
 var pkg_2semtech_loramac_2include_2semtech_loramac_2timer_8h =
 [
     [ "TimerEvent_s", "structTimerEvent__s.html", "structTimerEvent__s" ],
-    [ "TimerEvent_t", "pkg_2semtech-loramac_2include_2semtech-loramac_2timer_8h.html#ae706369dabb8aa6c6075f25119b052a5", null ],
+    [ "TimerEvent_t", "pkg_2semtech-loramac_2include_2semtech-loramac_2timer_8h.html#a885fbcaee987d8332d6b62add3d547ac", null ],
     [ "TimerTime_t", "pkg_2semtech-loramac_2include_2semtech-loramac_2timer_8h.html#a4215ca43d3e953099ea758ce428599d0", null ],
     [ "TimerGetCurrentTime", "pkg_2semtech-loramac_2include_2semtech-loramac_2timer_8h.html#a2b801c1a13b71247424701f9a034f7ca", null ],
     [ "TimerGetElapsedTime", "pkg_2semtech-loramac_2include_2semtech-loramac_2timer_8h.html#adfc25c9859eaa58702cabf20010f8a50", null ],

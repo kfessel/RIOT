@@ -1,2 +1,6 @@
 <map id="cpu/stm32/include/periph_cpu.h" name="cpu/stm32/include/periph_cpu.h">
+<area shape="rect" id="node1" title="Shared CPU specific definitions for the STM32 family." alt="" coords="35,5,222,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,95,157,121"/>
+<area shape="rect" id="node4" href="$units_8h.html" title="Unit helper macros." alt="" coords="181,95,300,121"/>
 </map>

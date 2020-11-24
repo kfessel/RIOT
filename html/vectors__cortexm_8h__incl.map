@@ -1,2 +1,4 @@
 <map id="cpu/cortexm_common/include/vectors_cortexm.h" name="cpu/cortexm_common/include/vectors_cortexm.h">
+<area shape="rect" id="node1" title="Default interrupt vectors shared by Cortex&#45;M based CPUs." alt="" coords="5,5,204,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="59,95,150,121"/>
 </map>

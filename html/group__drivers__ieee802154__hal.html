@@ -1,0 +1,1878 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>IEEE802.15.4 Radio Hardware Abstraction Layer</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.powertip.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+    <script src="doxy-jquery.js"></script>
+    <script src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <!-- Bootstrap -->
+    <link href="doxygen.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="riot.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <script>
+            function displaySR(){
+            searchBox.Search();
+            var rhtml=(document.getElementById('MSearchResults').contentWindow.document.body.innerHTML).replace(/href=\"\.\.\//g,'href="');
+            document.getElementById('MSearchResultsWindow').style.display='none';
+            document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
+            document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
+            document.getElementById('doc-content').innerHTML=rhtml;
+            }
+            function modSearch(){
+            if(!searchBox.doxySearch){
+                searchBox.doxySearch=searchBox.Search
+                searchBox.Search= function(){this.doxySearch();
+                var r=document.getElementById('MSearchResultsWindow');console.log(r.style);
+                if(parseInt(r.style.left)<0)r.style.left=0;
+                var x=document.getElementById('MSearchResults');
+                if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                var f=document.getElementById('riot-searchform');
+                if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';}
+            }
+            }
+        </script>
+  </head>
+  <body>
+      <div id="top">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" id="brand-logo" href="http://riot-os.org"><img height="40px" src="riot-logo.svg" /></a>
+              <p class="navbar-text text-center visible-xs">Documentation</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
+              <ul id="riot-navlist" class="nav navbar-nav"></ul>
+              <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
+                    onsubmit="try{
+                        displaySR();
+                    }finally{
+                            return false;
+                    }">
+                 <div class="form-group">
+                   <div id="MSearchBox" class="MSearchBoxActive">
+                     <div class="input-group">
+                       <div class="input-group-addon">
+                         <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
+                       </div>
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event); modSearch();">
+                       <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
+                         <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+<!-- Generated by Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('group__drivers__ieee802154__hal.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle">
+<div class="title">IEEE802.15.4 Radio Hardware Abstraction Layer<div class="ingroups"><a class="el" href="group__drivers.html">Drivers</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>This is a Hardware Abstraction Layer for IEEE802.15.4 compatible radios.  
+<a href="#details">More...</a></p>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>This is a Hardware Abstraction Layer for IEEE802.15.4 compatible radios. </p>
+<dl class="section warning"><dt>Warning</dt><dd><b class="text-danger">This feature is experimental!</b><br  />
+ This API is experimental and in an early state - expect changes!</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>José I. Alamos <a href="#" onclick="location.href='mai'+'lto:'+'jos'+'e.'+'ala'+'mo'+'s@h'+'aw'+'-ha'+'mb'+'urg'+'.d'+'e'; return false;">jose.<span style="display: none;">.nosp@m.</span>alam<span style="display: none;">.nosp@m.</span>os@ha<span style="display: none;">.nosp@m.</span>w-ha<span style="display: none;">.nosp@m.</span>mburg<span style="display: none;">.nosp@m.</span>.de</a> </dd></dl>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structieee802154__csma__be__t.html">ieee802154_csma_be_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">CSMA-CA exponential backoff parameters.  <a href="structieee802154__csma__be__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structieee802154__rx__info__t.html">ieee802154_rx_info_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">RX information associated to a frame.  <a href="structieee802154__rx__info__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structieee802154__tx__info__t.html">ieee802154_tx_info_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">TX information of the last transmitted frame.  <a href="structieee802154__tx__info__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structieee802154__dev.html">ieee802154_dev</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">the IEEE802.15.4 device descriptor  <a href="structieee802154__dev.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structieee802154__phy__conf__t.html">ieee802154_phy_conf_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holder of the PHY configuration.  <a href="structieee802154__phy__conf__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structieee802154__radio__ops.html">ieee802154_radio_ops</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Radio ops struct declaration.  <a href="structieee802154__radio__ops.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga42736af1931b03b2a76adbc361a5ef4f"><td class="memItemLeft" align="right" valign="top"><a id="ga42736af1931b03b2a76adbc361a5ef4f"></a>
+typedef struct <a class="el" href="structieee802154__radio__ops.html">ieee802154_radio_ops</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga42736af1931b03b2a76adbc361a5ef4f">ieee802154_radio_ops_t</a></td></tr>
+<tr class="memdesc:ga42736af1931b03b2a76adbc361a5ef4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward declaration of the radio ops structure. <br /></td></tr>
+<tr class="separator:ga42736af1931b03b2a76adbc361a5ef4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4715febafac1cf09aab1cc3cdeb1460e"><td class="memItemLeft" align="right" valign="top"><a id="ga4715febafac1cf09aab1cc3cdeb1460e"></a>
+typedef struct <a class="el" href="structieee802154__dev.html">ieee802154_dev</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a></td></tr>
+<tr class="memdesc:ga4715febafac1cf09aab1cc3cdeb1460e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forward declaration of the IEEE802.15.4 device descriptor. <br /></td></tr>
+<tr class="separator:ga4715febafac1cf09aab1cc3cdeb1460e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa81ef0b477b03e4ec72bd829756aa4f1"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#gaa81ef0b477b03e4ec72bd829756aa4f1">ieee802154_cb_t</a>) (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev, <a class="el" href="group__drivers__ieee802154__hal.html#ga6d79cb0254fffa7d10d27a3a5b9836b5">ieee802154_trx_ev_t</a> status)</td></tr>
+<tr class="memdesc:gaa81ef0b477b03e4ec72bd829756aa4f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prototype of the IEEE802.15.4 device event callback.  <a href="group__drivers__ieee802154__hal.html#gaa81ef0b477b03e4ec72bd829756aa4f1">More...</a><br /></td></tr>
+<tr class="separator:gaa81ef0b477b03e4ec72bd829756aa4f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga512d8adef7d00aa02cbac68a17d71bd6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga512d8adef7d00aa02cbac68a17d71bd6">ieee802154_rf_caps_t</a> { <br />
+&#160;&#160;<a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a3758092412c9de2d5b2e58decc7aa969">IEEE802154_CAP_FRAME_RETRANS</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6aa8eba6a87ac5111cf16dfff2520a1206">IEEE802154_CAP_AUTO_CSMA</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a564badc819bf29ae73f68cb52d3893e6">IEEE802154_CAP_IRQ_ACK_TIMEOUT</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6af0118db354f16f0c08e205a08c193566">IEEE802154_CAP_24_GHZ</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6ab694e4b7c9e6857414a6675250c409b7">IEEE802154_CAP_SUB_GHZ</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a7d890486a73c205a3b3493148d13edf6">IEEE802154_CAP_IRQ_TX_DONE</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a37acb02778c96f9742bba3754613ec60">IEEE802154_CAP_IRQ_RX_START</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6ac24f6ab4c1bac6c784d2eeef517627b5">IEEE802154_CAP_IRQ_TX_START</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6ae61453db7e2cfe78804e5ede799b78f2">IEEE802154_CAP_IRQ_CCA_DONE</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a14edfcfc633c4eaa132c35a2c44e1341">IEEE802154_CAP_FRAME_RETRANS_INFO</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a8e9c5ecf87996cbbbb9f64f8ec7f8d9f">IEEE802154_CAP_REG_RETENTION</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:ga512d8adef7d00aa02cbac68a17d71bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">IEEE802.15.4 Radio capabilities.  <a href="group__drivers__ieee802154__hal.html#ga512d8adef7d00aa02cbac68a17d71bd6">More...</a><br /></td></tr>
+<tr class="separator:ga512d8adef7d00aa02cbac68a17d71bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga898bab69c901640ee26477caded68446"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga898bab69c901640ee26477caded68446">ieee802154_tx_status_t</a> { <a class="el" href="group__drivers__ieee802154__hal.html#gga898bab69c901640ee26477caded68446aafa0016af30d70c19b36cf03e9ebc556">TX_STATUS_SUCCESS</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga898bab69c901640ee26477caded68446a714ea288b3a6fdae82e9ec73460d29a7">TX_STATUS_FRAME_PENDING</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga898bab69c901640ee26477caded68446afe67ef3e81431e092b788a35a2e6dac2">TX_STATUS_NO_ACK</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga898bab69c901640ee26477caded68446aeb16850188f1cc4168d79be90798c90f">TX_STATUS_MEDIUM_BUSY</a>
+ }</td></tr>
+<tr class="memdesc:ga898bab69c901640ee26477caded68446"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmission status.  <a href="group__drivers__ieee802154__hal.html#ga898bab69c901640ee26477caded68446">More...</a><br /></td></tr>
+<tr class="separator:ga898bab69c901640ee26477caded68446"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga09bf61358f5f6f80438fb7335a512c17"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga09bf61358f5f6f80438fb7335a512c17">ieee802154_trx_state_t</a> { <a class="el" href="group__drivers__ieee802154__hal.html#gga09bf61358f5f6f80438fb7335a512c17a5e67910b2e06542cc7491491694c5b68">IEEE802154_TRX_STATE_TRX_OFF</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga09bf61358f5f6f80438fb7335a512c17a6158fa2d2bf6eac81aab224c9cdd12a7">IEEE802154_TRX_STATE_RX_ON</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga09bf61358f5f6f80438fb7335a512c17a8593aa88b248cce6189d70951eae09a2">IEEE802154_TRX_STATE_TX_ON</a>
+ }</td></tr>
+<tr class="memdesc:ga09bf61358f5f6f80438fb7335a512c17"><td class="mdescLeft">&#160;</td><td class="mdescRight">IEEE802.15.4 transceiver states (not to confuse with device states)  <a href="group__drivers__ieee802154__hal.html#ga09bf61358f5f6f80438fb7335a512c17">More...</a><br /></td></tr>
+<tr class="separator:ga09bf61358f5f6f80438fb7335a512c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6d79cb0254fffa7d10d27a3a5b9836b5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga6d79cb0254fffa7d10d27a3a5b9836b5">ieee802154_trx_ev_t</a> { <br />
+&#160;&#160;<a class="el" href="group__drivers__ieee802154__hal.html#gga6d79cb0254fffa7d10d27a3a5b9836b5a9b46d6b089275a695ab8ee86a6629265">IEEE802154_RADIO_INDICATION_RX_START</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga6d79cb0254fffa7d10d27a3a5b9836b5a53c93f0c95acd9b8cddb446e6a9c4d34">IEEE802154_RADIO_INDICATION_TX_START</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga6d79cb0254fffa7d10d27a3a5b9836b5ac4f6b736e071dbd6b89769efd3e0edc6">IEEE802154_RADIO_INDICATION_RX_DONE</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga6d79cb0254fffa7d10d27a3a5b9836b5af227ca64018dd0c7a526cd9dc4fb1651">IEEE802154_RADIO_CONFIRM_TX_DONE</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__drivers__ieee802154__hal.html#gga6d79cb0254fffa7d10d27a3a5b9836b5a852192a298ea6b5409a5be1caf25a3fb">IEEE802154_RADIO_CONFIRM_CCA</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:ga6d79cb0254fffa7d10d27a3a5b9836b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">IEEE802.15.4 Radio HAL events.  <a href="group__drivers__ieee802154__hal.html#ga6d79cb0254fffa7d10d27a3a5b9836b5">More...</a><br /></td></tr>
+<tr class="separator:ga6d79cb0254fffa7d10d27a3a5b9836b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga23dd5fe27f31b7565b0e27d6cb97567e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga23dd5fe27f31b7565b0e27d6cb97567e">ieee802154_cca_mode_t</a> { <a class="el" href="group__drivers__ieee802154__hal.html#gga23dd5fe27f31b7565b0e27d6cb97567ea4c42a7a063f1cb5fa06f68e2fc4155cd">IEEE802154_CCA_MODE_ED_THRESHOLD</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga23dd5fe27f31b7565b0e27d6cb97567eaf79ab9f12fe835f0ea7d3c56ce5bd49f">IEEE802154_CCA_MODE_CARRIER_SENSING</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga23dd5fe27f31b7565b0e27d6cb97567eaaee0b5abf4460ca6255e3e17f6ee5bd9">IEEE802154_CCA_MODE_ED_THRESH_AND_CS</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#gga23dd5fe27f31b7565b0e27d6cb97567ea545f5109074a5f89bbcea557f5f7eba9">IEEE802154_CCA_MODE_ED_THRESH_OR_CS</a>
+ }</td></tr>
+<tr class="memdesc:ga23dd5fe27f31b7565b0e27d6cb97567e"><td class="mdescLeft">&#160;</td><td class="mdescRight">IEEE802.15.4 CCA modes.  <a href="group__drivers__ieee802154__hal.html#ga23dd5fe27f31b7565b0e27d6cb97567e">More...</a><br /></td></tr>
+<tr class="separator:ga23dd5fe27f31b7565b0e27d6cb97567e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabab1d0397934422e1baa86e84bae3a9b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#gabab1d0397934422e1baa86e84bae3a9b">ieee802154_rx_mode_t</a> { <br />
+&#160;&#160;<a class="el" href="group__drivers__ieee802154__hal.html#ggabab1d0397934422e1baa86e84bae3a9bac2d2dc0b0d2c17bfc1d340228cd385b8">IEEE802154_RX_AACK_DISABLED</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#ggabab1d0397934422e1baa86e84bae3a9bad58a4c5c2681a333a37f2ebb78796d98">IEEE802154_RX_AACK_ENABLED</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#ggabab1d0397934422e1baa86e84bae3a9baae3555efb31db9921abf8fd949862c53">IEEE802154_RX_AACK_FRAME_PENDING</a>, 
+<a class="el" href="group__drivers__ieee802154__hal.html#ggabab1d0397934422e1baa86e84bae3a9ba81b58829ede53fe5cedbf3fc79921f34">IEEE802154_RX_PROMISC</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__drivers__ieee802154__hal.html#ggabab1d0397934422e1baa86e84bae3a9ba5fa6e4750c8455aa0e6dd32a0462851d">IEEE802154_RX_WAIT_FOR_ACK</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:gabab1d0397934422e1baa86e84bae3a9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">RX mode configuration.  <a href="group__drivers__ieee802154__hal.html#gabab1d0397934422e1baa86e84bae3a9b">More...</a><br /></td></tr>
+<tr class="separator:gabab1d0397934422e1baa86e84bae3a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga99578966f98f74192d117002fc300cae"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga99578966f98f74192d117002fc300cae">ieee802154_radio_write</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev, const <a class="el" href="group__sys__iolist.html#gaa17f91ef26edec149cd806d8457aa3a0">iolist_t</a> *psdu)</td></tr>
+<tr class="memdesc:ga99578966f98f74192d117002fc300cae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#a5f3b71f1366bc741e455db968db06ea8">ieee802154_radio_ops::write</a>.  <a href="group__drivers__ieee802154__hal.html#ga99578966f98f74192d117002fc300cae">More...</a><br /></td></tr>
+<tr class="separator:ga99578966f98f74192d117002fc300cae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga827a1a8ecad16114147f4578962a9133"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga827a1a8ecad16114147f4578962a9133">ieee802154_radio_request_transmit</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:ga827a1a8ecad16114147f4578962a9133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#a67c1e6012ba13e09c75c42fa9d2474be">ieee802154_radio_ops::request_transmit</a>.  <a href="group__drivers__ieee802154__hal.html#ga827a1a8ecad16114147f4578962a9133">More...</a><br /></td></tr>
+<tr class="separator:ga827a1a8ecad16114147f4578962a9133"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga39dad839404d7f82a7c87e2ecd2e39d3"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga39dad839404d7f82a7c87e2ecd2e39d3">ieee802154_radio_confirm_transmit</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev, <a class="el" href="structieee802154__tx__info__t.html">ieee802154_tx_info_t</a> *info)</td></tr>
+<tr class="memdesc:ga39dad839404d7f82a7c87e2ecd2e39d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#ad75af089f0a2663a96e04f0f3ae85f26">ieee802154_radio_ops::confirm_transmit</a>.  <a href="group__drivers__ieee802154__hal.html#ga39dad839404d7f82a7c87e2ecd2e39d3">More...</a><br /></td></tr>
+<tr class="separator:ga39dad839404d7f82a7c87e2ecd2e39d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8cd677612e97334162a4a4145ae0de52"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga8cd677612e97334162a4a4145ae0de52">ieee802154_radio_len</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:ga8cd677612e97334162a4a4145ae0de52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#a7befa94d70f476b83ed10f15945ccbcb">ieee802154_radio_ops::len</a>.  <a href="group__drivers__ieee802154__hal.html#ga8cd677612e97334162a4a4145ae0de52">More...</a><br /></td></tr>
+<tr class="separator:ga8cd677612e97334162a4a4145ae0de52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga22f955336ceeae87cb376be82a2f3da9"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga22f955336ceeae87cb376be82a2f3da9">ieee802154_radio_read</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev, void *buf, size_t size, <a class="el" href="structieee802154__rx__info__t.html">ieee802154_rx_info_t</a> *info)</td></tr>
+<tr class="memdesc:ga22f955336ceeae87cb376be82a2f3da9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#a99394547c65c7872bff808bba1d69c46">ieee802154_radio_ops::read</a>.  <a href="group__drivers__ieee802154__hal.html#ga22f955336ceeae87cb376be82a2f3da9">More...</a><br /></td></tr>
+<tr class="separator:ga22f955336ceeae87cb376be82a2f3da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9cfae95bf22e74520309491ef939563e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga9cfae95bf22e74520309491ef939563e">ieee802154_radio_set_cca_threshold</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev, int8_t threshold)</td></tr>
+<tr class="memdesc:ga9cfae95bf22e74520309491ef939563e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#a2883b1827e288e3b90113b1f7cc2049c">ieee802154_radio_ops::set_cca_threshold</a>.  <a href="group__drivers__ieee802154__hal.html#ga9cfae95bf22e74520309491ef939563e">More...</a><br /></td></tr>
+<tr class="separator:ga9cfae95bf22e74520309491ef939563e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4f678669a049ebac6f1f59eedd2b253a"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga4f678669a049ebac6f1f59eedd2b253a">ieee802154_radio_set_cca_mode</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev, <a class="el" href="group__drivers__ieee802154__hal.html#ga23dd5fe27f31b7565b0e27d6cb97567e">ieee802154_cca_mode_t</a> mode)</td></tr>
+<tr class="memdesc:ga4f678669a049ebac6f1f59eedd2b253a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#a0cb1aa6cf71d5bf80ae60a2c3eaa6be4">ieee802154_radio_ops::set_cca_mode</a>.  <a href="group__drivers__ieee802154__hal.html#ga4f678669a049ebac6f1f59eedd2b253a">More...</a><br /></td></tr>
+<tr class="separator:ga4f678669a049ebac6f1f59eedd2b253a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga242306e17a92baae899013f436cf5c84"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga242306e17a92baae899013f436cf5c84">ieee802154_radio_config_phy</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev, const <a class="el" href="structieee802154__phy__conf__t.html">ieee802154_phy_conf_t</a> *conf)</td></tr>
+<tr class="memdesc:ga242306e17a92baae899013f436cf5c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#a56f9ed549fc0b30e82e52b63fb6083f6">ieee802154_radio_ops::config_phy</a>.  <a href="group__drivers__ieee802154__hal.html#ga242306e17a92baae899013f436cf5c84">More...</a><br /></td></tr>
+<tr class="separator:ga242306e17a92baae899013f436cf5c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga532db88525c5313670b9858b0611b0da"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga532db88525c5313670b9858b0611b0da">ieee802154_radio_off</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:ga532db88525c5313670b9858b0611b0da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#a5bfb83c865dae5ca0bfeaf14e82012f6">ieee802154_radio_ops::off</a>.  <a href="group__drivers__ieee802154__hal.html#ga532db88525c5313670b9858b0611b0da">More...</a><br /></td></tr>
+<tr class="separator:ga532db88525c5313670b9858b0611b0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa462808d66b9850b960c9929eb8c1988"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#gaa462808d66b9850b960c9929eb8c1988">ieee802154_radio_set_hw_addr_filter</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev, const <a class="el" href="byteorder_8h.html#a639ad79c8926cb896d5a8f12b14d49e3">network_uint16_t</a> *short_addr, const <a class="el" href="unioneui64__t.html">eui64_t</a> *ext_addr, const uint16_t *pan_id)</td></tr>
+<tr class="memdesc:gaa462808d66b9850b960c9929eb8c1988"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#a3ac83f01a7248c691816a14778932b47">ieee802154_radio_ops::set_hw_addr_filter</a>.  <a href="group__drivers__ieee802154__hal.html#gaa462808d66b9850b960c9929eb8c1988">More...</a><br /></td></tr>
+<tr class="separator:gaa462808d66b9850b960c9929eb8c1988"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac2962cb5dd59b6bd4a1040596305df56"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#gac2962cb5dd59b6bd4a1040596305df56">ieee802154_radio_set_frame_retrans</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev, uint8_t retrans)</td></tr>
+<tr class="memdesc:gac2962cb5dd59b6bd4a1040596305df56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#ae40bdeb7222684633b80a6219397b08e">ieee802154_radio_ops::set_frame_retrans</a>.  <a href="group__drivers__ieee802154__hal.html#gac2962cb5dd59b6bd4a1040596305df56">More...</a><br /></td></tr>
+<tr class="separator:gac2962cb5dd59b6bd4a1040596305df56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2d30d55048f3363b9dd700ece0890343"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga2d30d55048f3363b9dd700ece0890343">ieee802154_radio_set_csma_params</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev, const <a class="el" href="structieee802154__csma__be__t.html">ieee802154_csma_be_t</a> *bd, int8_t retries)</td></tr>
+<tr class="memdesc:ga2d30d55048f3363b9dd700ece0890343"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#a3577e34e95e01f0c967c2021a232ff9f">ieee802154_radio_ops::set_csma_params</a>.  <a href="group__drivers__ieee802154__hal.html#ga2d30d55048f3363b9dd700ece0890343">More...</a><br /></td></tr>
+<tr class="separator:ga2d30d55048f3363b9dd700ece0890343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9049ba6b535eccd2d8ef317a24a73d96"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga9049ba6b535eccd2d8ef317a24a73d96">ieee802154_radio_request_on</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:ga9049ba6b535eccd2d8ef317a24a73d96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#ab35cda57054a4e20894798e91dc598ea">ieee802154_radio_ops::request_on</a>.  <a href="group__drivers__ieee802154__hal.html#ga9049ba6b535eccd2d8ef317a24a73d96">More...</a><br /></td></tr>
+<tr class="separator:ga9049ba6b535eccd2d8ef317a24a73d96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga06cbd2c0b3ddd50bd53aeb8d3b204aff"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga06cbd2c0b3ddd50bd53aeb8d3b204aff">ieee802154_radio_confirm_on</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:ga06cbd2c0b3ddd50bd53aeb8d3b204aff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#a1e4e7c686c646ce82b9f8b5ffe6246d4">ieee802154_radio_ops::confirm_on</a>.  <a href="group__drivers__ieee802154__hal.html#ga06cbd2c0b3ddd50bd53aeb8d3b204aff">More...</a><br /></td></tr>
+<tr class="separator:ga06cbd2c0b3ddd50bd53aeb8d3b204aff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaef88b6dd794bac3db0a1a6bc3128f7f4"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#gaef88b6dd794bac3db0a1a6bc3128f7f4">ieee802154_radio_request_set_trx_state</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev, <a class="el" href="group__drivers__ieee802154__hal.html#ga09bf61358f5f6f80438fb7335a512c17">ieee802154_trx_state_t</a> state)</td></tr>
+<tr class="memdesc:gaef88b6dd794bac3db0a1a6bc3128f7f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#a790708ea9a65f032ebcf8871d9dabfe2">ieee802154_radio_ops::request_set_trx_state</a>.  <a href="group__drivers__ieee802154__hal.html#gaef88b6dd794bac3db0a1a6bc3128f7f4">More...</a><br /></td></tr>
+<tr class="separator:gaef88b6dd794bac3db0a1a6bc3128f7f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga607a7c14075b5d7ad3ffbf5cc977ebb8"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga607a7c14075b5d7ad3ffbf5cc977ebb8">ieee802154_radio_confirm_set_trx_state</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:ga607a7c14075b5d7ad3ffbf5cc977ebb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#a859a77dd3cf959ec55cb468aaa93dcd7">ieee802154_radio_ops::confirm_set_trx_state</a>.  <a href="group__drivers__ieee802154__hal.html#ga607a7c14075b5d7ad3ffbf5cc977ebb8">More...</a><br /></td></tr>
+<tr class="separator:ga607a7c14075b5d7ad3ffbf5cc977ebb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6239c5fb669290a642fd226f366ec19b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga6239c5fb669290a642fd226f366ec19b">ieee802154_radio_request_cca</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:ga6239c5fb669290a642fd226f366ec19b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#a8cb1e9bdda7f42d5e15c85351fbef3e1">ieee802154_radio_ops::request_cca</a>.  <a href="group__drivers__ieee802154__hal.html#ga6239c5fb669290a642fd226f366ec19b">More...</a><br /></td></tr>
+<tr class="separator:ga6239c5fb669290a642fd226f366ec19b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2cd76d1fb6e3af46892f5d56b033e5fb"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga2cd76d1fb6e3af46892f5d56b033e5fb">ieee802154_radio_confirm_cca</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:ga2cd76d1fb6e3af46892f5d56b033e5fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#ae4e2347bb2522eb7a8298b727c1056e1">ieee802154_radio_ops::confirm_cca</a>.  <a href="group__drivers__ieee802154__hal.html#ga2cd76d1fb6e3af46892f5d56b033e5fb">More...</a><br /></td></tr>
+<tr class="separator:ga2cd76d1fb6e3af46892f5d56b033e5fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5acfa5359f823896b63a48b0af59acfc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga5acfa5359f823896b63a48b0af59acfc">ieee802154_radio_has_irq_ack_timeout</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:ga5acfa5359f823896b63a48b0af59acfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the device supports ACK timeout.  <a href="group__drivers__ieee802154__hal.html#ga5acfa5359f823896b63a48b0af59acfc">More...</a><br /></td></tr>
+<tr class="separator:ga5acfa5359f823896b63a48b0af59acfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad92c5e680f4e83a33d8af42d87d64565"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#gad92c5e680f4e83a33d8af42d87d64565">ieee802154_radio_has_frame_retrans</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:gad92c5e680f4e83a33d8af42d87d64565"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the device supports frame retransmissions (with CSMA-CA).  <a href="group__drivers__ieee802154__hal.html#gad92c5e680f4e83a33d8af42d87d64565">More...</a><br /></td></tr>
+<tr class="separator:gad92c5e680f4e83a33d8af42d87d64565"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad654a2b9010816c4e719894d1a915eac"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#gad654a2b9010816c4e719894d1a915eac">ieee802154_radio_has_auto_csma</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:gad654a2b9010816c4e719894d1a915eac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the device supports Auto CSMA-CA for transmissions.  <a href="group__drivers__ieee802154__hal.html#gad654a2b9010816c4e719894d1a915eac">More...</a><br /></td></tr>
+<tr class="separator:gad654a2b9010816c4e719894d1a915eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga815e40e0aa4f2124227264a76f2727d1"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga815e40e0aa4f2124227264a76f2727d1">ieee802154_radio_has_sub_ghz</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:ga815e40e0aa4f2124227264a76f2727d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the device supports the IEEE802.15.4 Sub-GHz band.  <a href="group__drivers__ieee802154__hal.html#ga815e40e0aa4f2124227264a76f2727d1">More...</a><br /></td></tr>
+<tr class="separator:ga815e40e0aa4f2124227264a76f2727d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga49e0cd8ccbcfb26f25173a4ac0276ae0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga49e0cd8ccbcfb26f25173a4ac0276ae0">ieee802154_radio_has_24_ghz</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:ga49e0cd8ccbcfb26f25173a4ac0276ae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the device supports the IEEE802.15.4 2.4 GHz band.  <a href="group__drivers__ieee802154__hal.html#ga49e0cd8ccbcfb26f25173a4ac0276ae0">More...</a><br /></td></tr>
+<tr class="separator:ga49e0cd8ccbcfb26f25173a4ac0276ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0fbdc8f1bedd8d5c7567d33ed310fdc9"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga0fbdc8f1bedd8d5c7567d33ed310fdc9">ieee802154_radio_has_irq_tx_done</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:ga0fbdc8f1bedd8d5c7567d33ed310fdc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the device supports TX done interrupt.  <a href="group__drivers__ieee802154__hal.html#ga0fbdc8f1bedd8d5c7567d33ed310fdc9">More...</a><br /></td></tr>
+<tr class="separator:ga0fbdc8f1bedd8d5c7567d33ed310fdc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5cae53655e82f454a72a7a98fdd6db65"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga5cae53655e82f454a72a7a98fdd6db65">ieee802154_radio_has_irq_rx_start</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:ga5cae53655e82f454a72a7a98fdd6db65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the device supports RX start interrupt.  <a href="group__drivers__ieee802154__hal.html#ga5cae53655e82f454a72a7a98fdd6db65">More...</a><br /></td></tr>
+<tr class="separator:ga5cae53655e82f454a72a7a98fdd6db65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga864889ce5591b63847f773c1c8f02151"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga864889ce5591b63847f773c1c8f02151">ieee802154_radio_has_irq_tx_start</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:ga864889ce5591b63847f773c1c8f02151"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the device supports TX start interrupt.  <a href="group__drivers__ieee802154__hal.html#ga864889ce5591b63847f773c1c8f02151">More...</a><br /></td></tr>
+<tr class="separator:ga864889ce5591b63847f773c1c8f02151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga88155c9ee1f99c6fc708104be1c846fa"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga88155c9ee1f99c6fc708104be1c846fa">ieee802154_radio_has_irq_cca_done</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:ga88155c9ee1f99c6fc708104be1c846fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the device supports CCA done interrupt.  <a href="group__drivers__ieee802154__hal.html#ga88155c9ee1f99c6fc708104be1c846fa">More...</a><br /></td></tr>
+<tr class="separator:ga88155c9ee1f99c6fc708104be1c846fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga765eaa73f5641c779fad0c0d8ba22605"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#ga765eaa73f5641c779fad0c0d8ba22605">ieee802154_radio_has_frame_retrans_info</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev)</td></tr>
+<tr class="memdesc:ga765eaa73f5641c779fad0c0d8ba22605"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the device reports the number of retransmissions of the last TX procedure.  <a href="group__drivers__ieee802154__hal.html#ga765eaa73f5641c779fad0c0d8ba22605">More...</a><br /></td></tr>
+<tr class="separator:ga765eaa73f5641c779fad0c0d8ba22605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa0f697f1ee467f3866de192948d9080c"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__drivers__ieee802154__hal.html#gaa0f697f1ee467f3866de192948d9080c">ieee802154_radio_set_rx_mode</a> (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev, <a class="el" href="group__drivers__ieee802154__hal.html#gabab1d0397934422e1baa86e84bae3a9b">ieee802154_rx_mode_t</a> mode)</td></tr>
+<tr class="memdesc:gaa0f697f1ee467f3866de192948d9080c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shortcut to <a class="el" href="structieee802154__radio__ops.html#accfa6650648a84ae55d88865fbf74ff6">ieee802154_radio_ops::set_rx_mode</a>.  <a href="group__drivers__ieee802154__hal.html#gaa0f697f1ee467f3866de192948d9080c">More...</a><br /></td></tr>
+<tr class="separator:gaa0f697f1ee467f3866de192948d9080c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="gaa81ef0b477b03e4ec72bd829756aa4f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa81ef0b477b03e4ec72bd829756aa4f1">&#9670;&nbsp;</a></span>ieee802154_cb_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* ieee802154_cb_t) (<a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *dev, <a class="el" href="group__drivers__ieee802154__hal.html#ga6d79cb0254fffa7d10d27a3a5b9836b5">ieee802154_trx_ev_t</a> status)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prototype of the IEEE802.15.4 device event callback. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">status</td><td>the status </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00279">279</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ga23dd5fe27f31b7565b0e27d6cb97567e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga23dd5fe27f31b7565b0e27d6cb97567e">&#9670;&nbsp;</a></span>ieee802154_cca_mode_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__drivers__ieee802154__hal.html#ga23dd5fe27f31b7565b0e27d6cb97567e">ieee802154_cca_mode_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IEEE802.15.4 CCA modes. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga23dd5fe27f31b7565b0e27d6cb97567ea4c42a7a063f1cb5fa06f68e2fc4155cd"></a>IEEE802154_CCA_MODE_ED_THRESHOLD&#160;</td><td class="fielddoc"><p>CCA using first mode (energy detection) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga23dd5fe27f31b7565b0e27d6cb97567eaf79ab9f12fe835f0ea7d3c56ce5bd49f"></a>IEEE802154_CCA_MODE_CARRIER_SENSING&#160;</td><td class="fielddoc"><p>CCA using second mode (carrier sensing) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga23dd5fe27f31b7565b0e27d6cb97567eaaee0b5abf4460ca6255e3e17f6ee5bd9"></a>IEEE802154_CCA_MODE_ED_THRESH_AND_CS&#160;</td><td class="fielddoc"><p>CCA using third mode (energy detection AND carrier sensing) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga23dd5fe27f31b7565b0e27d6cb97567ea545f5109074a5f89bbcea557f5f7eba9"></a>IEEE802154_CCA_MODE_ED_THRESH_OR_CS&#160;</td><td class="fielddoc"><p>CCA using third mode (energy detection OR carrier sensing) </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00303">303</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga512d8adef7d00aa02cbac68a17d71bd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga512d8adef7d00aa02cbac68a17d71bd6">&#9670;&nbsp;</a></span>ieee802154_rf_caps_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__drivers__ieee802154__hal.html#ga512d8adef7d00aa02cbac68a17d71bd6">ieee802154_rf_caps_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IEEE802.15.4 Radio capabilities. </p>
+<p>These flags represent the hardware capabilities of a given device. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga512d8adef7d00aa02cbac68a17d71bd6a3758092412c9de2d5b2e58decc7aa969"></a>IEEE802154_CAP_FRAME_RETRANS&#160;</td><td class="fielddoc"><p>the device supports frame retransmissions with CSMA-CA </p>
+<p>The device supports sending with CSMA-CA and retransmissions. If the CSMA-CA fails, the device reports a <a class="el" href="group__drivers__ieee802154__hal.html#gga898bab69c901640ee26477caded68446aeb16850188f1cc4168d79be90798c90f">TX_STATUS_MEDIUM_BUSY</a> when calling <a class="el" href="structieee802154__radio__ops.html#ad75af089f0a2663a96e04f0f3ae85f26">ieee802154_radio_ops::confirm_transmit</a>. In case CSMA-CA succeeds and the ACK frame is expected, the device reports a <a class="el" href="group__drivers__ieee802154__hal.html#gga898bab69c901640ee26477caded68446aafa0016af30d70c19b36cf03e9ebc556">TX_STATUS_SUCCESS</a> if the ACK frame is received during any retransmission attempt. Otherwise, it reports a <a class="el" href="group__drivers__ieee802154__hal.html#gga898bab69c901640ee26477caded68446afe67ef3e81431e092b788a35a2e6dac2">TX_STATUS_NO_ACK</a></p>
+<p>ACK frames are not indicated to the upper layer.</p>
+<dl class="section note"><dt>Note</dt><dd>it's implicit that a radio supports <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6aa8eba6a87ac5111cf16dfff2520a1206">IEEE802154_CAP_AUTO_CSMA</a> if this cap is available </dd></dl>
+</td></tr>
+<tr><td class="fieldname"><a id="gga512d8adef7d00aa02cbac68a17d71bd6aa8eba6a87ac5111cf16dfff2520a1206"></a>IEEE802154_CAP_AUTO_CSMA&#160;</td><td class="fielddoc"><p>the device supports Auto CSMA-CA </p>
+<p>The device supports performing CSMA-CA before transmitting a frame. If CSMA-CA procedure succeeds, the device sends the frame and reports a <a class="el" href="group__drivers__ieee802154__hal.html#gga898bab69c901640ee26477caded68446aafa0016af30d70c19b36cf03e9ebc556">TX_STATUS_SUCCESS</a> when calling <a class="el" href="structieee802154__radio__ops.html#ad75af089f0a2663a96e04f0f3ae85f26">ieee802154_radio_ops::confirm_transmit</a>. If it fails, the device reports <a class="el" href="group__drivers__ieee802154__hal.html#gga898bab69c901640ee26477caded68446aeb16850188f1cc4168d79be90798c90f">TX_STATUS_MEDIUM_BUSY</a>. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga512d8adef7d00aa02cbac68a17d71bd6a564badc819bf29ae73f68cb52d3893e6"></a>IEEE802154_CAP_IRQ_ACK_TIMEOUT&#160;</td><td class="fielddoc"><p>the device support ACK timeout interrupt </p>
+<p>The device will automatically attempt to receive and handle the ACK frame if expected. If the ACK frame is not received, the device reports <a class="el" href="group__drivers__ieee802154__hal.html#gga898bab69c901640ee26477caded68446afe67ef3e81431e092b788a35a2e6dac2">TX_STATUS_NO_ACK</a> when calling <a class="el" href="structieee802154__radio__ops.html#ad75af089f0a2663a96e04f0f3ae85f26">ieee802154_radio_ops::confirm_transmit</a>. Otherwise, it reports <a class="el" href="group__drivers__ieee802154__hal.html#gga898bab69c901640ee26477caded68446aafa0016af30d70c19b36cf03e9ebc556">TX_STATUS_SUCCESS</a>.</p>
+<p>The ACK frame is not indicated to the upper layer. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga512d8adef7d00aa02cbac68a17d71bd6af0118db354f16f0c08e205a08c193566"></a>IEEE802154_CAP_24_GHZ&#160;</td><td class="fielddoc"><p>the device supports the IEEE802.15.4 2.4 GHz band </p>
+<p>It's assumed that <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a7d890486a73c205a3b3493148d13edf6">IEEE802154_CAP_IRQ_TX_DONE</a> is present. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga512d8adef7d00aa02cbac68a17d71bd6ab694e4b7c9e6857414a6675250c409b7"></a>IEEE802154_CAP_SUB_GHZ&#160;</td><td class="fielddoc"><p>the device support the IEEE802.15.4 Sub GHz band </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga512d8adef7d00aa02cbac68a17d71bd6a7d890486a73c205a3b3493148d13edf6"></a>IEEE802154_CAP_IRQ_TX_DONE&#160;</td><td class="fielddoc"><p>the device reports when the transmission is done </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga512d8adef7d00aa02cbac68a17d71bd6a37acb02778c96f9742bba3754613ec60"></a>IEEE802154_CAP_IRQ_RX_START&#160;</td><td class="fielddoc"><p>the device reports the start of a frame (SFD) when received. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga512d8adef7d00aa02cbac68a17d71bd6ac24f6ab4c1bac6c784d2eeef517627b5"></a>IEEE802154_CAP_IRQ_TX_START&#160;</td><td class="fielddoc"><p>the device reports the start of a frame (SFD) was sent. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga512d8adef7d00aa02cbac68a17d71bd6ae61453db7e2cfe78804e5ede799b78f2"></a>IEEE802154_CAP_IRQ_CCA_DONE&#160;</td><td class="fielddoc"><p>the device reports the end of the CCA procedure </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga512d8adef7d00aa02cbac68a17d71bd6a14edfcfc633c4eaa132c35a2c44e1341"></a>IEEE802154_CAP_FRAME_RETRANS_INFO&#160;</td><td class="fielddoc"><p>the device provides the number of retransmissions </p>
+<p>It's assumed that <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a3758092412c9de2d5b2e58decc7aa969">IEEE802154_CAP_FRAME_RETRANS</a> is present. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga512d8adef7d00aa02cbac68a17d71bd6a8e9c5ecf87996cbbbb9f64f8ec7f8d9f"></a>IEEE802154_CAP_REG_RETENTION&#160;</td><td class="fielddoc"><p>the device retains all register values when off. </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00045">45</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="gabab1d0397934422e1baa86e84bae3a9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabab1d0397934422e1baa86e84bae3a9b">&#9670;&nbsp;</a></span>ieee802154_rx_mode_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__drivers__ieee802154__hal.html#gabab1d0397934422e1baa86e84bae3a9b">ieee802154_rx_mode_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>RX mode configuration. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ggabab1d0397934422e1baa86e84bae3a9bac2d2dc0b0d2c17bfc1d340228cd385b8"></a>IEEE802154_RX_AACK_DISABLED&#160;</td><td class="fielddoc"><p>Auto ACK is disabled. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggabab1d0397934422e1baa86e84bae3a9bad58a4c5c2681a333a37f2ebb78796d98"></a>IEEE802154_RX_AACK_ENABLED&#160;</td><td class="fielddoc"><p>Auto ACK is enabled. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggabab1d0397934422e1baa86e84bae3a9baae3555efb31db9921abf8fd949862c53"></a>IEEE802154_RX_AACK_FRAME_PENDING&#160;</td><td class="fielddoc"><p>Auto ACK is enabled and frame pending bit set in the next ACK frame. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggabab1d0397934422e1baa86e84bae3a9ba81b58829ede53fe5cedbf3fc79921f34"></a>IEEE802154_RX_PROMISC&#160;</td><td class="fielddoc"><p>Radio is in promiscuous mode. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="ggabab1d0397934422e1baa86e84bae3a9ba5fa6e4750c8455aa0e6dd32a0462851d"></a>IEEE802154_RX_WAIT_FOR_ACK&#160;</td><td class="fielddoc"><p>Radio is ready to receive ACK frames. </p>
+<p>This mode is optional. If a radio decides to implement it, the radio should allow ACK frames (and block ACK frames in all other RX modes). Note that this mode cannot guarantee that only ACK frames will be received.</p>
+<p>Expected to be implemented when either <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a3758092412c9de2d5b2e58decc7aa969">IEEE802154_CAP_FRAME_RETRANS</a> or <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a564badc819bf29ae73f68cb52d3893e6">IEEE802154_CAP_IRQ_ACK_TIMEOUT</a> is not there. </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00325">325</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga6d79cb0254fffa7d10d27a3a5b9836b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6d79cb0254fffa7d10d27a3a5b9836b5">&#9670;&nbsp;</a></span>ieee802154_trx_ev_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__drivers__ieee802154__hal.html#ga6d79cb0254fffa7d10d27a3a5b9836b5">ieee802154_trx_ev_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IEEE802.15.4 Radio HAL events. </p>
+<p>To follow the IEEE802.15.4 convention, an event that responds to a Request is a confirmation (Confirm). Otherwise an Indication. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga6d79cb0254fffa7d10d27a3a5b9836b5a9b46d6b089275a695ab8ee86a6629265"></a>IEEE802154_RADIO_INDICATION_RX_START&#160;</td><td class="fielddoc"><p>the transceiver detected a valid SFD </p>
+<p>This event is present if radio has <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a37acb02778c96f9742bba3754613ec60">IEEE802154_CAP_IRQ_RX_START</a> cap. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga6d79cb0254fffa7d10d27a3a5b9836b5a53c93f0c95acd9b8cddb446e6a9c4d34"></a>IEEE802154_RADIO_INDICATION_TX_START&#160;</td><td class="fielddoc"><p>the transceiver sent out a valid SFD </p>
+<p>This event is present if radio has <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6ac24f6ab4c1bac6c784d2eeef517627b5">IEEE802154_CAP_IRQ_TX_START</a> cap.</p>
+<dl class="section note"><dt>Note</dt><dd>The SFD of an outgoing ACK (AUTOACK) should not be indicated </dd></dl>
+</td></tr>
+<tr><td class="fieldname"><a id="gga6d79cb0254fffa7d10d27a3a5b9836b5ac4f6b736e071dbd6b89769efd3e0edc6"></a>IEEE802154_RADIO_INDICATION_RX_DONE&#160;</td><td class="fielddoc"><p>the transceiver received a frame and lies in the internal framebuffer. </p>
+<p>This indication should be generated only if CRC is valid and the frame passes the address matching filter (this includes ACK and Beacon frames). The latter only applies if the radio is not in promiscuous mode.</p>
+<p>The transceiver or driver MUST handle the ACK reply if the Ack Request bit is set in the received frame and promiscuous mode is disabled.</p>
+<p>The transceiver will be in a "FB Lock" state where no more frames are received. This is done in order to avoid overwriting the Frame Buffer with new frame arrivals. In order to leave this state, the upper layer must set the transceiver state (<a class="el" href="structieee802154__radio__ops.html#a790708ea9a65f032ebcf8871d9dabfe2">ieee802154_radio_ops::request_set_trx_state</a>). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga6d79cb0254fffa7d10d27a3a5b9836b5af227ca64018dd0c7a526cd9dc4fb1651"></a>IEEE802154_RADIO_CONFIRM_TX_DONE&#160;</td><td class="fielddoc"><p>the transceiver either finished sending a frame, the retransmission procedure or the channel activity detection prior transmission. </p>
+<p>This event is present if radio has <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a7d890486a73c205a3b3493148d13edf6">IEEE802154_CAP_IRQ_TX_DONE</a> cap. The upper layer should immediately call <a class="el" href="structieee802154__radio__ops.html#ad75af089f0a2663a96e04f0f3ae85f26">ieee802154_radio_ops::confirm_transmit</a> when on this event. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga6d79cb0254fffa7d10d27a3a5b9836b5a852192a298ea6b5409a5be1caf25a3fb"></a>IEEE802154_RADIO_CONFIRM_CCA&#160;</td><td class="fielddoc"><p>the CCA procedure finished </p>
+<p>This event is present if radio has <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6ae61453db7e2cfe78804e5ede799b78f2">IEEE802154_CAP_IRQ_CCA_DONE</a>. </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00185">185</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga09bf61358f5f6f80438fb7335a512c17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga09bf61358f5f6f80438fb7335a512c17">&#9670;&nbsp;</a></span>ieee802154_trx_state_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__drivers__ieee802154__hal.html#ga09bf61358f5f6f80438fb7335a512c17">ieee802154_trx_state_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>IEEE802.15.4 transceiver states (not to confuse with device states) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga09bf61358f5f6f80438fb7335a512c17a5e67910b2e06542cc7491491694c5b68"></a>IEEE802154_TRX_STATE_TRX_OFF&#160;</td><td class="fielddoc"><p>the transceiver state is off </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga09bf61358f5f6f80438fb7335a512c17a6158fa2d2bf6eac81aab224c9cdd12a7"></a>IEEE802154_TRX_STATE_RX_ON&#160;</td><td class="fielddoc"><p>the transceiver is ready to receive/receiving frames </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga09bf61358f5f6f80438fb7335a512c17a8593aa88b248cce6189d70951eae09a2"></a>IEEE802154_TRX_STATE_TX_ON&#160;</td><td class="fielddoc"><p>the transceiver is ready to transmit/transmitting a frame </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00164">164</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga898bab69c901640ee26477caded68446"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga898bab69c901640ee26477caded68446">&#9670;&nbsp;</a></span>ieee802154_tx_status_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__drivers__ieee802154__hal.html#ga898bab69c901640ee26477caded68446">ieee802154_tx_status_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transmission status. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga898bab69c901640ee26477caded68446aafa0016af30d70c19b36cf03e9ebc556"></a>TX_STATUS_SUCCESS&#160;</td><td class="fielddoc"><p>the transceiver successfully sent a frame. </p>
+<p>Depending of the type of transmissions and available caps, this could mean one of the following:</p>
+<p>If the device supports <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a3758092412c9de2d5b2e58decc7aa969">IEEE802154_CAP_FRAME_RETRANS</a> or <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a564badc819bf29ae73f68cb52d3893e6">IEEE802154_CAP_IRQ_ACK_TIMEOUT</a> this means either:</p><ul>
+<li>The frame was sent without ACK Req bit</li>
+<li>The frame was sent with the ACK Req bit and a valid ACK was received.</li>
+</ul>
+<p>Otherwise, this notifies that a frame was sent. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga898bab69c901640ee26477caded68446a714ea288b3a6fdae82e9ec73460d29a7"></a>TX_STATUS_FRAME_PENDING&#160;</td><td class="fielddoc"><p>the transceiver received a valid ACK with the frame pending bit </p>
+<p>This status is present only if the device supports <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a3758092412c9de2d5b2e58decc7aa969">IEEE802154_CAP_FRAME_RETRANS</a> or <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a564badc819bf29ae73f68cb52d3893e6">IEEE802154_CAP_IRQ_ACK_TIMEOUT</a>. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga898bab69c901640ee26477caded68446afe67ef3e81431e092b788a35a2e6dac2"></a>TX_STATUS_NO_ACK&#160;</td><td class="fielddoc"><p>the transceiver ran out of retransmission </p>
+<p>This status is present only if the device supports <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a3758092412c9de2d5b2e58decc7aa969">IEEE802154_CAP_FRAME_RETRANS</a> or <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a564badc819bf29ae73f68cb52d3893e6">IEEE802154_CAP_IRQ_ACK_TIMEOUT</a>. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga898bab69c901640ee26477caded68446aeb16850188f1cc4168d79be90798c90f"></a>TX_STATUS_MEDIUM_BUSY&#160;</td><td class="fielddoc"><p>the CSMA-CA algorithm or CCA failed to measure a clear channel </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00126">126</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga242306e17a92baae899013f436cf5c84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga242306e17a92baae899013f436cf5c84">&#9670;&nbsp;</a></span>ieee802154_radio_config_phy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_config_phy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structieee802154__phy__conf__t.html">ieee802154_phy_conf_t</a> *&#160;</td>
+          <td class="paramname"><em>conf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#a56f9ed549fc0b30e82e52b63fb6083f6">ieee802154_radio_ops::config_phy</a>. </p>
+<dl class="section pre"><dt>Precondition</dt><dd>the transceiver state is <a class="el" href="group__drivers__ieee802154__hal.html#gga09bf61358f5f6f80438fb7335a512c17a5e67910b2e06542cc7491491694c5b68">IEEE802154_TRX_STATE_TRX_OFF</a></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">conf</td><td>the PHY configuration</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#a56f9ed549fc0b30e82e52b63fb6083f6">ieee802154_radio_ops::config_phy</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00827">827</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga2cd76d1fb6e3af46892f5d56b033e5fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2cd76d1fb6e3af46892f5d56b033e5fb">&#9670;&nbsp;</a></span>ieee802154_radio_confirm_cca()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_confirm_cca </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#ae4e2347bb2522eb7a8298b727c1056e1">ieee802154_radio_ops::confirm_cca</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#ae4e2347bb2522eb7a8298b727c1056e1">ieee802154_radio_ops::confirm_cca</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00977">977</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga06cbd2c0b3ddd50bd53aeb8d3b204aff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga06cbd2c0b3ddd50bd53aeb8d3b204aff">&#9670;&nbsp;</a></span>ieee802154_radio_confirm_on()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_confirm_on </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#a1e4e7c686c646ce82b9f8b5ffe6246d4">ieee802154_radio_ops::confirm_on</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#a1e4e7c686c646ce82b9f8b5ffe6246d4">ieee802154_radio_ops::confirm_on</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00927">927</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga607a7c14075b5d7ad3ffbf5cc977ebb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga607a7c14075b5d7ad3ffbf5cc977ebb8">&#9670;&nbsp;</a></span>ieee802154_radio_confirm_set_trx_state()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_confirm_set_trx_state </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#a859a77dd3cf959ec55cb468aaa93dcd7">ieee802154_radio_ops::confirm_set_trx_state</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#a859a77dd3cf959ec55cb468aaa93dcd7">ieee802154_radio_ops::confirm_set_trx_state</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00953">953</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga39dad839404d7f82a7c87e2ecd2e39d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga39dad839404d7f82a7c87e2ecd2e39d3">&#9670;&nbsp;</a></span>ieee802154_radio_confirm_transmit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_confirm_transmit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structieee802154__tx__info__t.html">ieee802154_tx_info_t</a> *&#160;</td>
+          <td class="paramname"><em>info</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#ad75af089f0a2663a96e04f0f3ae85f26">ieee802154_radio_ops::confirm_transmit</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">info</td><td>the TX information</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#ad75af089f0a2663a96e04f0f3ae85f26">ieee802154_radio_ops::confirm_transmit</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00752">752</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga49e0cd8ccbcfb26f25173a4ac0276ae0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga49e0cd8ccbcfb26f25173a4ac0276ae0">&#9670;&nbsp;</a></span>ieee802154_radio_has_24_ghz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ieee802154_radio_has_24_ghz </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the device supports the IEEE802.15.4 2.4 GHz band. </p>
+<p>Internally this function calls <a class="el" href="structieee802154__radio__ops.html#a139e3c62895fc66505ebe1e6cb0d4473" title="Get a cap from the radio.">ieee802154_radio_ops::get_cap</a> with <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6af0118db354f16f0c08e205a08c193566">IEEE802154_CAP_24_GHZ</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the device has support </dd>
+<dd>
+false otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l01057">1057</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="gad654a2b9010816c4e719894d1a915eac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad654a2b9010816c4e719894d1a915eac">&#9670;&nbsp;</a></span>ieee802154_radio_has_auto_csma()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ieee802154_radio_has_auto_csma </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the device supports Auto CSMA-CA for transmissions. </p>
+<p>Internally this function calls <a class="el" href="structieee802154__radio__ops.html#a139e3c62895fc66505ebe1e6cb0d4473" title="Get a cap from the radio.">ieee802154_radio_ops::get_cap</a> with <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6aa8eba6a87ac5111cf16dfff2520a1206">IEEE802154_CAP_AUTO_CSMA</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the device has support </dd>
+<dd>
+false otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l01025">1025</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="gad92c5e680f4e83a33d8af42d87d64565"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad92c5e680f4e83a33d8af42d87d64565">&#9670;&nbsp;</a></span>ieee802154_radio_has_frame_retrans()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ieee802154_radio_has_frame_retrans </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the device supports frame retransmissions (with CSMA-CA). </p>
+<p>Internally this function calls <a class="el" href="structieee802154__radio__ops.html#a139e3c62895fc66505ebe1e6cb0d4473" title="Get a cap from the radio.">ieee802154_radio_ops::get_cap</a> with <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a3758092412c9de2d5b2e58decc7aa969">IEEE802154_CAP_FRAME_RETRANS</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the device has support </dd>
+<dd>
+false otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l01009">1009</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga765eaa73f5641c779fad0c0d8ba22605"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga765eaa73f5641c779fad0c0d8ba22605">&#9670;&nbsp;</a></span>ieee802154_radio_has_frame_retrans_info()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ieee802154_radio_has_frame_retrans_info </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the device reports the number of retransmissions of the last TX procedure. </p>
+<p>Internally this function calls <a class="el" href="structieee802154__radio__ops.html#a139e3c62895fc66505ebe1e6cb0d4473" title="Get a cap from the radio.">ieee802154_radio_ops::get_cap</a> with <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a14edfcfc633c4eaa132c35a2c44e1341">IEEE802154_CAP_FRAME_RETRANS_INFO</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the device has support </dd>
+<dd>
+false otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l01138">1138</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga5acfa5359f823896b63a48b0af59acfc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5acfa5359f823896b63a48b0af59acfc">&#9670;&nbsp;</a></span>ieee802154_radio_has_irq_ack_timeout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ieee802154_radio_has_irq_ack_timeout </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the device supports ACK timeout. </p>
+<p>Internally this function calls <a class="el" href="structieee802154__radio__ops.html#a139e3c62895fc66505ebe1e6cb0d4473" title="Get a cap from the radio.">ieee802154_radio_ops::get_cap</a> with <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a564badc819bf29ae73f68cb52d3893e6">IEEE802154_CAP_IRQ_ACK_TIMEOUT</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the device has support </dd>
+<dd>
+false otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00993">993</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga88155c9ee1f99c6fc708104be1c846fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga88155c9ee1f99c6fc708104be1c846fa">&#9670;&nbsp;</a></span>ieee802154_radio_has_irq_cca_done()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ieee802154_radio_has_irq_cca_done </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the device supports CCA done interrupt. </p>
+<p>Internally this function calls <a class="el" href="structieee802154__radio__ops.html#a139e3c62895fc66505ebe1e6cb0d4473" title="Get a cap from the radio.">ieee802154_radio_ops::get_cap</a> with <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6ae61453db7e2cfe78804e5ede799b78f2">IEEE802154_CAP_IRQ_CCA_DONE</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the device has support </dd>
+<dd>
+false otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l01121">1121</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga5cae53655e82f454a72a7a98fdd6db65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5cae53655e82f454a72a7a98fdd6db65">&#9670;&nbsp;</a></span>ieee802154_radio_has_irq_rx_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ieee802154_radio_has_irq_rx_start </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the device supports RX start interrupt. </p>
+<p>Internally this function calls <a class="el" href="structieee802154__radio__ops.html#a139e3c62895fc66505ebe1e6cb0d4473" title="Get a cap from the radio.">ieee802154_radio_ops::get_cap</a> with <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a37acb02778c96f9742bba3754613ec60">IEEE802154_CAP_IRQ_RX_START</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the device has support </dd>
+<dd>
+false otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l01089">1089</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga0fbdc8f1bedd8d5c7567d33ed310fdc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0fbdc8f1bedd8d5c7567d33ed310fdc9">&#9670;&nbsp;</a></span>ieee802154_radio_has_irq_tx_done()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ieee802154_radio_has_irq_tx_done </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the device supports TX done interrupt. </p>
+<p>Internally this function calls <a class="el" href="structieee802154__radio__ops.html#a139e3c62895fc66505ebe1e6cb0d4473" title="Get a cap from the radio.">ieee802154_radio_ops::get_cap</a> with <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6a7d890486a73c205a3b3493148d13edf6">IEEE802154_CAP_IRQ_TX_DONE</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the device has support </dd>
+<dd>
+false otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l01073">1073</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga864889ce5591b63847f773c1c8f02151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga864889ce5591b63847f773c1c8f02151">&#9670;&nbsp;</a></span>ieee802154_radio_has_irq_tx_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ieee802154_radio_has_irq_tx_start </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the device supports TX start interrupt. </p>
+<p>Internally this function calls <a class="el" href="structieee802154__radio__ops.html#a139e3c62895fc66505ebe1e6cb0d4473" title="Get a cap from the radio.">ieee802154_radio_ops::get_cap</a> with <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6ac24f6ab4c1bac6c784d2eeef517627b5">IEEE802154_CAP_IRQ_TX_START</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the device has support </dd>
+<dd>
+false otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l01105">1105</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga815e40e0aa4f2124227264a76f2727d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga815e40e0aa4f2124227264a76f2727d1">&#9670;&nbsp;</a></span>ieee802154_radio_has_sub_ghz()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ieee802154_radio_has_sub_ghz </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the device supports the IEEE802.15.4 Sub-GHz band. </p>
+<p>Internally this function calls <a class="el" href="structieee802154__radio__ops.html#a139e3c62895fc66505ebe1e6cb0d4473" title="Get a cap from the radio.">ieee802154_radio_ops::get_cap</a> with <a class="el" href="group__drivers__ieee802154__hal.html#gga512d8adef7d00aa02cbac68a17d71bd6ab694e4b7c9e6857414a6675250c409b7">IEEE802154_CAP_SUB_GHZ</a>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the device has support </dd>
+<dd>
+false otherwise </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l01041">1041</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga8cd677612e97334162a4a4145ae0de52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8cd677612e97334162a4a4145ae0de52">&#9670;&nbsp;</a></span>ieee802154_radio_len()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_len </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#a7befa94d70f476b83ed10f15945ccbcb">ieee802154_radio_ops::len</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#a7befa94d70f476b83ed10f15945ccbcb">ieee802154_radio_ops::len</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00765">765</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga532db88525c5313670b9858b0611b0da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga532db88525c5313670b9858b0611b0da">&#9670;&nbsp;</a></span>ieee802154_radio_off()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_off </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#a5bfb83c865dae5ca0bfeaf14e82012f6">ieee802154_radio_ops::off</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section post"><dt>Postcondition</dt><dd>the transceiver state is <a class="el" href="group__drivers__ieee802154__hal.html#gga09bf61358f5f6f80438fb7335a512c17a5e67910b2e06542cc7491491694c5b68">IEEE802154_TRX_STATE_TRX_OFF</a></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#a5bfb83c865dae5ca0bfeaf14e82012f6">ieee802154_radio_ops::off</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00842">842</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga22f955336ceeae87cb376be82a2f3da9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga22f955336ceeae87cb376be82a2f3da9">&#9670;&nbsp;</a></span>ieee802154_radio_read()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_read </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structieee802154__rx__info__t.html">ieee802154_rx_info_t</a> *&#160;</td>
+          <td class="paramname"><em>info</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#a99394547c65c7872bff808bba1d69c46">ieee802154_radio_ops::read</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">buf</td><td>buffer to write the received frame into. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>size of <code>buf</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td>information of the received frame (LQI, RSSI). Can be NULL if this information is not needed.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#a99394547c65c7872bff808bba1d69c46">ieee802154_radio_ops::read</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00781">781</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga6239c5fb669290a642fd226f366ec19b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6239c5fb669290a642fd226f366ec19b">&#9670;&nbsp;</a></span>ieee802154_radio_request_cca()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_request_cca </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#a8cb1e9bdda7f42d5e15c85351fbef3e1">ieee802154_radio_ops::request_cca</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#a8cb1e9bdda7f42d5e15c85351fbef3e1">ieee802154_radio_ops::request_cca</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00965">965</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga9049ba6b535eccd2d8ef317a24a73d96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9049ba6b535eccd2d8ef317a24a73d96">&#9670;&nbsp;</a></span>ieee802154_radio_request_on()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_request_on </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#ab35cda57054a4e20894798e91dc598ea">ieee802154_radio_ops::request_on</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#ab35cda57054a4e20894798e91dc598ea">ieee802154_radio_ops::request_on</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00915">915</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="gaef88b6dd794bac3db0a1a6bc3128f7f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaef88b6dd794bac3db0a1a6bc3128f7f4">&#9670;&nbsp;</a></span>ieee802154_radio_request_set_trx_state()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_request_set_trx_state </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga09bf61358f5f6f80438fb7335a512c17">ieee802154_trx_state_t</a>&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#a790708ea9a65f032ebcf8871d9dabfe2">ieee802154_radio_ops::request_set_trx_state</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>the new state</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#a790708ea9a65f032ebcf8871d9dabfe2">ieee802154_radio_ops::request_set_trx_state</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00940">940</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga827a1a8ecad16114147f4578962a9133"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga827a1a8ecad16114147f4578962a9133">&#9670;&nbsp;</a></span>ieee802154_radio_request_transmit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_request_transmit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#a67c1e6012ba13e09c75c42fa9d2474be">ieee802154_radio_ops::request_transmit</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#a67c1e6012ba13e09c75c42fa9d2474be">ieee802154_radio_ops::request_transmit</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00739">739</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga4f678669a049ebac6f1f59eedd2b253a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4f678669a049ebac6f1f59eedd2b253a">&#9670;&nbsp;</a></span>ieee802154_radio_set_cca_mode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_set_cca_mode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga23dd5fe27f31b7565b0e27d6cb97567e">ieee802154_cca_mode_t</a>&#160;</td>
+          <td class="paramname"><em>mode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#a0cb1aa6cf71d5bf80ae60a2c3eaa6be4">ieee802154_radio_ops::set_cca_mode</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>the CCA mode</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#a0cb1aa6cf71d5bf80ae60a2c3eaa6be4">ieee802154_radio_ops::set_cca_mode</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00811">811</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga9cfae95bf22e74520309491ef939563e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9cfae95bf22e74520309491ef939563e">&#9670;&nbsp;</a></span>ieee802154_radio_set_cca_threshold()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_set_cca_threshold </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>threshold</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#a2883b1827e288e3b90113b1f7cc2049c">ieee802154_radio_ops::set_cca_threshold</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">threshold</td><td>the threshold in dBm</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#a2883b1827e288e3b90113b1f7cc2049c">ieee802154_radio_ops::set_cca_threshold</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00797">797</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga2d30d55048f3363b9dd700ece0890343"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2d30d55048f3363b9dd700ece0890343">&#9670;&nbsp;</a></span>ieee802154_radio_set_csma_params()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_set_csma_params </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="structieee802154__csma__be__t.html">ieee802154_csma_be_t</a> *&#160;</td>
+          <td class="paramname"><em>bd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>retries</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#a3577e34e95e01f0c967c2021a232ff9f">ieee802154_radio_ops::set_csma_params</a>. </p>
+<dl class="section pre"><dt>Precondition</dt><dd>the device is on </dd>
+<dd>
+the device supports frame retransmissions (<a class="el" href="group__drivers__ieee802154__hal.html#gad92c5e680f4e83a33d8af42d87d64565">ieee802154_radio_has_frame_retrans()</a> == true)</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bd</td><td>parameters of the exponential backoff </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">retries</td><td>number of CSMA-CA retries. If <code>restries</code> &lt; 0, retransmissions with CSMA-CA are disabled</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#a3577e34e95e01f0c967c2021a232ff9f">ieee802154_radio_ops::set_csma_params</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00901">901</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="gac2962cb5dd59b6bd4a1040596305df56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac2962cb5dd59b6bd4a1040596305df56">&#9670;&nbsp;</a></span>ieee802154_radio_set_frame_retrans()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_set_frame_retrans </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>retrans</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#ae40bdeb7222684633b80a6219397b08e">ieee802154_radio_ops::set_frame_retrans</a>. </p>
+<dl class="section pre"><dt>Precondition</dt><dd>the device is on </dd>
+<dd>
+the device supports frame retransmissions (<a class="el" href="group__drivers__ieee802154__hal.html#gad92c5e680f4e83a33d8af42d87d64565">ieee802154_radio_has_frame_retrans()</a> == true)</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">retrans</td><td>the number of retransmissions</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#ae40bdeb7222684633b80a6219397b08e">ieee802154_radio_ops::set_frame_retrans</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00881">881</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="gaa462808d66b9850b960c9929eb8c1988"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa462808d66b9850b960c9929eb8c1988">&#9670;&nbsp;</a></span>ieee802154_radio_set_hw_addr_filter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_set_hw_addr_filter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="byteorder_8h.html#a639ad79c8926cb896d5a8f12b14d49e3">network_uint16_t</a> *&#160;</td>
+          <td class="paramname"><em>short_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="unioneui64__t.html">eui64_t</a> *&#160;</td>
+          <td class="paramname"><em>ext_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint16_t *&#160;</td>
+          <td class="paramname"><em>pan_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#a3ac83f01a7248c691816a14778932b47">ieee802154_radio_ops::set_hw_addr_filter</a>. </p>
+<dl class="section pre"><dt>Precondition</dt><dd>the device is on</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">short_addr</td><td>the IEEE802.15.4 short address. If NULL, the short address is not altered.. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ext_addr</td><td>the IEEE802.15.4 extended address (<a class="el" href="structNetwork.html" title="Network struct within mqtt paho.">Network</a> Byte Order). If NULL, the extended address is not altered. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">pan_id</td><td>the IEEE802.15.4 PAN ID. If NULL, the PAN ID is not altered.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#a3ac83f01a7248c691816a14778932b47">ieee802154_radio_ops::set_hw_addr_filter</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00861">861</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="gaa0f697f1ee467f3866de192948d9080c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa0f697f1ee467f3866de192948d9080c">&#9670;&nbsp;</a></span>ieee802154_radio_set_rx_mode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_set_rx_mode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#gabab1d0397934422e1baa86e84bae3a9b">ieee802154_rx_mode_t</a>&#160;</td>
+          <td class="paramname"><em>mode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#accfa6650648a84ae55d88865fbf74ff6">ieee802154_radio_ops::set_rx_mode</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>RX mode</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#accfa6650648a84ae55d88865fbf74ff6">ieee802154_radio_ops::set_rx_mode</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l01152">1152</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+<a id="ga99578966f98f74192d117002fc300cae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga99578966f98f74192d117002fc300cae">&#9670;&nbsp;</a></span>ieee802154_radio_write()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_radio_write </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__drivers__ieee802154__hal.html#ga4715febafac1cf09aab1cc3cdeb1460e">ieee802154_dev_t</a> *&#160;</td>
+          <td class="paramname"><em>dev</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__sys__iolist.html#gaa17f91ef26edec149cd806d8457aa3a0">iolist_t</a> *&#160;</td>
+          <td class="paramname"><em>psdu</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shortcut to <a class="el" href="structieee802154__radio__ops.html#a5f3b71f1366bc741e455db968db06ea8">ieee802154_radio_ops::write</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dev</td><td>IEEE802.15.4 device descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">psdu</td><td>PSDU frame to be sent</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>result of <a class="el" href="structieee802154__radio__ops.html#a5f3b71f1366bc741e455db968db06ea8">ieee802154_radio_ops::write</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="radio_8h_source.html#l00727">727</a> of file <a class="el" href="radio_8h_source.html">radio.h</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+    <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+        <ul>
+            <li class="footer">Generated on Tue Nov 24 2020 19:47:02 by <a href="http://www.doxygen.org/index.html">
+                       <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.17</li>
+        </ul>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.smartmenus.min.js"></script>
+    <script src="jquery.smartmenus.bootstrap.min.js"></script>
+    <script src="riot-doxy.js"></script>
+  </body>
+</html>

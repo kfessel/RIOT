@@ -1,38 +1,59 @@
 <map id="drivers/cc110x/include/cc110x_communication.h" name="drivers/cc110x/include/cc110x_communication.h">
-<area shape="rect" id="node2" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="5,468,101,495"/>
-<area shape="rect" id="node6" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="363,393,453,420"/>
-<area shape="rect" id="node10" href="$cc110x_8h.html" title="Interface definition for the CC1100/CC1101 driver. " alt="" coords="464,95,539,121"/>
-<area shape="rect" id="node49" href="$cc110x__constants_8h.html" title="Constants for the CC1100/CC1101 driver. " alt="" coords="563,95,701,121"/>
-<area shape="rect" id="node11" href="$cc1xxx__common_8h.html" title="CC110x/CC1200 adaption for Network interface API. " alt="" coords="1070,169,1202,196"/>
-<area shape="rect" id="node25" href="$nettype_8h.html" title="Protocol type definitions. " alt="" coords="693,468,819,495"/>
-<area shape="rect" id="node39" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="2515,319,2610,345"/>
-<area shape="rect" id="node45" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="2321,468,2391,495"/>
-<area shape="rect" id="node48" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="176,468,269,495"/>
-<area shape="rect" id="node12" href="$gnrc_2netif_8h.html" title="Definition for GNRC&#39;s network interfaces. " alt="" coords="1552,244,1661,271"/>
-<area shape="rect" id="node13" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="983,468,1089,495"/>
-<area shape="rect" id="node16" href="$msg_8h.html" title="Messaging API for inter process communication. " alt="" coords="1577,393,1636,420"/>
-<area shape="rect" id="node18" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses. " alt="" coords="1963,393,2071,420"/>
-<area shape="rect" id="node22" href="$netapi_8h.html" title="Generic interface to communicate with GNRC modules. " alt="" coords="1373,319,1491,345"/>
-<area shape="rect" id="node24" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="2281,393,2372,420"/>
-<area shape="rect" id="node29" href="$include_2net_2gnrc_2pkt_8h.html" title="General definitions for network packets and their helper functions. " alt="" coords="939,393,1042,420"/>
-<area shape="rect" id="node32" href="$netif_2conf_8h.html" title="Configuration macros for Network interface API. " alt="" coords="1205,319,1344,345"/>
-<area shape="rect" id="node37" href="$flags_8h.html" title="Flag definitions for Network interface API. " alt="" coords="933,319,1075,345"/>
-<area shape="rect" id="node38" href="$ndp_8h.html" title="IPv6 neighbor discovery message type definitions. " alt="" coords="1997,319,2073,345"/>
-<area shape="rect" id="node43" href="$rmutex_8h.html" title="Recursive Mutex for thread synchronization. " alt="" coords="1687,393,1761,420"/>
-<area shape="rect" id="node47" href="$netif_8h.html" title="Common network interface API definitions. " alt="" coords="2340,319,2420,345"/>
-<area shape="rect" id="node14" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="1045,543,1123,569"/>
-<area shape="rect" id="node20" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="1466,543,1553,569"/>
-<area shape="rect" id="node21" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions. " alt="" coords="1946,468,2054,495"/>
-<area shape="rect" id="node26" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="547,543,664,569"/>
-<area shape="rect" id="node27" href="$ethertype_8h.html" title="Ether type definitions. " alt="" coords="816,543,925,569"/>
-<area shape="rect" id="node28" href="$protnum_8h.html" title="Protocol number definitions. " alt="" coords="689,543,791,569"/>
-<area shape="rect" id="node30" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="844,468,908,495"/>
-<area shape="rect" id="node31" href="$malloc_8h.html" title="malloc.h" alt="" coords="950,543,1021,569"/>
-<area shape="rect" id="node33" href="$sys_2include_2net_2ieee802154_8h.html" title="IEEE 802.15.4 header definitions. " alt="" coords="1251,393,1373,420"/>
-<area shape="rect" id="node35" href="$net_2ethernet_2hdr_8h.html" title="Ethernet header definitions. " alt="" coords="1114,468,1238,495"/>
-<area shape="rect" id="node36" href="$ipv6_2nib_2conf_8h.html" title="Configuration macro definitions for neighbor information base. " alt="" coords="697,393,855,420"/>
-<area shape="rect" id="node34" href="$eui64_8h.html" title="EUI&#45;64 data type definition. " alt="" coords="1314,468,1401,495"/>
-<area shape="rect" id="node40" href="$errno_8h.html" title="errno.h" alt="" coords="2549,393,2611,420"/>
-<area shape="rect" id="node41" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="2635,393,2695,420"/>
-<area shape="rect" id="node46" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="2423,543,2473,569"/>
+<area shape="rect" id="node1" title="Functions to communicate with the CC1100/CC1101 transceiver." alt="" coords="332,5,524,47"/>
+<area shape="rect" id="node2" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="44,244,150,271"/>
+<area shape="rect" id="node6" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition." alt="" coords="332,169,430,196"/>
+<area shape="rect" id="node10" href="$cc110x_8h.html" title="Interface definition for the CC1100/CC1101 driver." alt="" coords="453,95,533,121"/>
+<area shape="rect" id="node57" href="$cc110x__constants_8h.html" title="Constants for the CC1100/CC1101 driver." alt="" coords="558,95,708,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="46,319,116,345"/>
+<area shape="rect" id="node4" title=" " alt="" coords="140,319,246,345"/>
+<area shape="rect" id="node5" title=" " alt="" coords="321,319,430,345"/>
+<area shape="rect" id="node7" title=" " alt="" coords="468,617,550,644"/>
+<area shape="rect" id="node8" title=" " alt="" coords="2040,841,2114,868"/>
+<area shape="rect" id="node9" title=" " alt="" coords="731,841,802,868"/>
+<area shape="rect" id="node11" href="$cc1xxx__common_8h.html" title="CC110x/CC1200 adaption for Network interface API." alt="" coords="982,169,1126,196"/>
+<area shape="rect" id="node29" href="$nettype_8h.html" title="Protocol type definitions." alt="" coords="2413,617,2554,644"/>
+<area shape="rect" id="node41" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface." alt="" coords="1118,543,1220,569"/>
+<area shape="rect" id="node48" href="$mutex_8h.html" title="Mutex for thread synchronization." alt="" coords="1951,393,2027,420"/>
+<area shape="rect" id="node56" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="276,244,379,271"/>
+<area shape="rect" id="node12" href="$gnrc_2netif_8h.html" title="Definition for GNRC&#39;s network interfaces." alt="" coords="1318,244,1438,271"/>
+<area shape="rect" id="node13" href="$sched_8h.html" title="Scheduler API definition." alt="" coords="2092,617,2164,644"/>
+<area shape="rect" id="node19" href="$msg_8h.html" title="Messaging API for inter process communication." alt="" coords="1267,543,1330,569"/>
+<area shape="rect" id="node20" title=" " alt="" coords="1518,319,1588,345"/>
+<area shape="rect" id="node21" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses." alt="" coords="385,468,505,495"/>
+<area shape="rect" id="node26" href="$netapi_8h.html" title="Generic interface to communicate with GNRC modules." alt="" coords="2314,468,2446,495"/>
+<area shape="rect" id="node28" href="$netopt_8h.html" title="Definition of global configuration options." alt="" coords="1429,617,1530,644"/>
+<area shape="rect" id="node32" href="$net_2gnrc_2pkt_8h.html" title="General definitions for network packets and their helper functions." alt="" coords="2320,543,2432,569"/>
+<area shape="rect" id="node34" href="$netif_2conf_8h.html" title="Configuration macros for Network interface API." alt="" coords="1672,468,1824,495"/>
+<area shape="rect" id="node39" href="$flags_8h.html" title="Flag definitions for Network interface API." alt="" coords="1082,319,1240,345"/>
+<area shape="rect" id="node40" href="$ndp_8h.html" title="IPv6 neighbor discovery message type definitions." alt="" coords="320,393,402,420"/>
+<area shape="rect" id="node46" href="$rmutex_8h.html" title="Recursive Mutex for thread synchronization." alt="" coords="1707,319,1788,345"/>
+<area shape="rect" id="node55" href="$netif_8h.html" title="Common network interface API definitions." alt="" coords="1354,543,1442,569"/>
+<area shape="rect" id="node14" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="2200,692,2287,719"/>
+<area shape="rect" id="node15" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="1623,767,1752,793"/>
+<area shape="rect" id="node16" href="$native__sched_8h.html" title="Add definitions required on the native board." alt="" coords="1920,692,2040,719"/>
+<area shape="rect" id="node17" href="$clist_8h.html" title="Circular linked list." alt="" coords="2114,692,2176,719"/>
+<area shape="rect" id="node18" href="$list_8h.html" title="Intrusive linked list." alt="" coords="2260,767,2315,793"/>
+<area shape="rect" id="node22" title=" " alt="" coords="562,543,632,569"/>
+<area shape="rect" id="node23" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="459,692,556,719"/>
+<area shape="rect" id="node25" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions." alt="" coords="366,543,486,569"/>
+<area shape="rect" id="node24" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="502,767,601,793"/>
+<area shape="rect" id="node27" title=" " alt="" coords="1836,543,1912,569"/>
+<area shape="rect" id="node30" href="$ethertype_8h.html" title="Ether type definitions." alt="" coords="2552,692,2674,719"/>
+<area shape="rect" id="node31" href="$protnum_8h.html" title="Protocol number definitions." alt="" coords="2413,692,2528,719"/>
+<area shape="rect" id="node33" title=" " alt="" coords="948,617,1019,644"/>
+<area shape="rect" id="node35" href="$sys_2include_2net_2ieee802154_8h.html" title="IEEE 802.15.4 header definitions." alt="" coords="860,543,995,569"/>
+<area shape="rect" id="node37" href="$net_2ethernet_2hdr_8h.html" title="Ethernet header definitions." alt="" coords="1605,617,1744,644"/>
+<area shape="rect" id="node38" href="$ipv6_2nib_2conf_8h.html" title="Configuration macro definitions for neighbor information base." alt="" coords="1424,692,1599,719"/>
+<area shape="rect" id="node36" href="$eui64_8h.html" title="EUI&#45;64 data type definition." alt="" coords="676,617,771,644"/>
+<area shape="rect" id="node42" href="$errno_8h.html" title=" " alt="" coords="1043,617,1111,644"/>
+<area shape="rect" id="node43" href="$iolist_8h.html" title="iolist scatter / gather IO" alt="" coords="1136,617,1202,644"/>
+<area shape="rect" id="node44" href="$unistd_8h_source.html" title=" " alt="" coords="1224,692,1298,719"/>
+<area shape="rect" id="node45" href="$cpu_2atmega__common_2avr__libc__extra_2include_2sys_2types_8h_source.html" title=" " alt="" coords="1274,767,1370,793"/>
+<area shape="rect" id="node47" title=" " alt="" coords="1698,393,1797,420"/>
+<area shape="rect" id="node49" href="$irq_8h.html" title="IRQ driver interface." alt="" coords="1597,468,1648,495"/>
+<area shape="rect" id="node51" href="$core_2include_2thread_8h.html" title="Threading API." alt="" coords="1988,468,2064,495"/>
+<area shape="rect" id="node50" title=" " alt="" coords="1620,543,1710,569"/>
+<area shape="rect" id="node52" href="$cib_8h.html" title="Circular integer buffer interface." alt="" coords="1988,543,2041,569"/>
+<area shape="rect" id="node53" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="1976,617,2050,644"/>
+<area shape="rect" id="node54" href="$panic_8h.html" title="Crash handling header." alt="" coords="1725,692,1794,719"/>
 </map>

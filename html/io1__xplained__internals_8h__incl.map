@@ -1,5 +1,13 @@
 <map id="drivers/io1_xplained/include/io1_xplained_internals.h" name="drivers/io1_xplained/include/io1_xplained_internals.h">
-<area shape="rect" id="node4" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="599,184,693,211"/>
-<area shape="rect" id="node8" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="186,184,282,211"/>
-<area shape="rect" id="node9" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="332,109,421,136"/>
+<area shape="rect" id="node1" title="Internal addresses, constants for the IO1 Xplained extension." alt="" coords="162,5,322,61"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,109,63,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="144,259,249,285"/>
+<area shape="rect" id="node4" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="627,184,729,211"/>
+<area shape="rect" id="node8" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="189,184,295,211"/>
+<area shape="rect" id="node9" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition." alt="" coords="345,109,443,136"/>
+<area shape="rect" id="node5" title=" " alt="" coords="553,259,624,285"/>
+<area shape="rect" id="node6" title=" " alt="" coords="689,259,760,285"/>
+<area shape="rect" id="node7" title=" " alt="" coords="377,259,486,285"/>
+<area shape="rect" id="node10" title=" " alt="" coords="469,184,551,211"/>
+<area shape="rect" id="node11" title=" " alt="" coords="319,184,394,211"/>
 </map>

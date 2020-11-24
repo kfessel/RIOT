@@ -1,8 +1,8 @@
 var ph__oem_8h =
 [
     [ "ph_oem_interrupt_pin_cb_t", "group__drivers__ph__oem.html#ga46905a646ccbf3030706c31a3c755ab2", null ],
-    [ "ph_oem_params_t", "group__drivers__ph__oem.html#ga4fcde69663e37f3edc7e2d0b21ab027b", null ],
-    [ "ph_oem_t", "group__drivers__ph__oem.html#ga12c144b3f848cf361157814fd5d0acd4", null ],
+    [ "ph_oem_params_t", "group__drivers__ph__oem.html#ga6d8a51371443cba0c02b3e20f06bb7b7", null ],
+    [ "ph_oem_t", "group__drivers__ph__oem.html#gaea361c1d046340542397933bfc69aa66", null ],
     [ "ph_oem_calibration_option_t", "group__drivers__ph__oem.html#gaf859a7a988d4650f5c6d449633667673", [
       [ "PH_OEM_CALIBRATE_LOW_POINT", "group__drivers__ph__oem.html#ggaf859a7a988d4650f5c6d449633667673a3d1cfde14521375cdf8f8352dd57f035", null ],
       [ "PH_OEM_CALIBRATE_MID_POINT", "group__drivers__ph__oem.html#ggaf859a7a988d4650f5c6d449633667673acb61f4b3120d133c93615c6a13bd349f", null ],

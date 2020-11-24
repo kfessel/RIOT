@@ -1,3 +1,9 @@
 <map id="boards/common/iotlab/include/board_common.h" name="boards/common/iotlab/include/board_common.h">
-<area shape="rect" id="node5" href="$iotlab_2include_2periph__conf__common_8h.html" title="Peripheral MCU configuration for the iotlab&#45;m3 board. " alt="" coords="298,95,455,121"/>
+<area shape="rect" id="node1" title="Board specific definitions for the iotlab&#45;m3 board." alt="" coords="87,5,277,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,95,157,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="182,95,291,121"/>
+<area shape="rect" id="node5" href="$iotlab_2include_2periph__conf__common_8h.html" title="Peripheral MCU configuration for the iotlab&#45;m3 board." alt="" coords="316,95,491,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="291,169,396,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="420,169,507,196"/>
 </map>

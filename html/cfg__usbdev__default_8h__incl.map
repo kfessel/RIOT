@@ -1,2 +1,6 @@
 <map id="boards/common/sodaq/include/cfg_usbdev_default.h" name="boards/common/sodaq/include/cfg_usbdev_default.h">
+<area shape="rect" id="node1" title="Default usbdev configuration for SODAQ boards." alt="" coords="43,5,214,61"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,109,76,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,109,157,136"/>
+<area shape="rect" id="node4" title=" " alt="" coords="181,109,287,136"/>
 </map>

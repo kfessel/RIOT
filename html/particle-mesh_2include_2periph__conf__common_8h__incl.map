@@ -1,3 +1,11 @@
 <map id="boards/common/particle&#45;mesh/include/periph_conf_common.h" name="boards/common/particle&#45;mesh/include/periph_conf_common.h">
-<area shape="rect" id="node3" href="$cfg__clock__32__1_8h.html" title="Common clock configuration for the nRF52 based boards. " alt="" coords="126,109,250,136"/>
+<area shape="rect" id="node1" title="Common peripheral configuration for the Particle Mesh." alt="" coords="339,5,534,61"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,109,111,136"/>
+<area shape="rect" id="node3" href="$cfg__clock__32__1_8h.html" title="Common clock configuration for the nRF52 based boards." alt="" coords="135,109,269,136"/>
+<area shape="rect" id="node4" title=" " alt="" coords="293,109,426,136"/>
+<area shape="rect" id="node5" title=" " alt="" coords="451,109,580,136"/>
+<area shape="rect" id="node6" title=" " alt="" coords="605,109,754,136"/>
+<area shape="rect" id="node7" href="$common_2particle-mesh_2include_2board_8h.html" title="Common board specific configuration for the Particle Mesh." alt="" coords="779,109,849,136"/>
+<area shape="rect" id="node8" title=" " alt="" coords="725,184,783,211"/>
+<area shape="rect" id="node9" title=" " alt="" coords="807,184,941,211"/>
 </map>

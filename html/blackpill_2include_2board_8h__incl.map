@@ -1,2 +1,4 @@
 <map id="boards/blackpill/include/board.h" name="boards/blackpill/include/board.h">
+<area shape="rect" id="node1" title="Support for the stm32f103c8 based Black pill." alt="" coords="5,5,181,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="26,95,161,121"/>
 </map>

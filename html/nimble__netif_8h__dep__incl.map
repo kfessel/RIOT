@@ -1,4 +1,6 @@
 <map id="pkg/nimble/netif/include/nimble_netif.h" name="pkg/nimble/netif/include/nimble_netif.h">
-<area shape="rect" id="node2" href="$nimble__autoconn_8h.html" title="Simple automated connection manager for NimBLE netif. " alt="" coords="5,95,185,136"/>
-<area shape="rect" id="node3" href="$nimble__netif__conn_8h.html" title="Connection allocation and maintenance for NimBLE netif. " alt="" coords="209,95,368,136"/>
+<area shape="rect" id="node1" title="GNRC netif implementation for NimBLE." alt="" coords="231,5,411,47"/>
+<area shape="rect" id="node2" href="$nimble__autoconn_8h.html" title="Simple automated connection manager for NimBLE netif." alt="" coords="5,95,207,136"/>
+<area shape="rect" id="node3" href="$nimble__netif__conn_8h.html" title="Connection allocation and maintenance for NimBLE netif." alt="" coords="231,95,411,136"/>
+<area shape="rect" id="node4" href="$nimble__statconn_8h.html" title="Simple static connection manager for NimBLE netif." alt="" coords="435,95,633,136"/>
 </map>

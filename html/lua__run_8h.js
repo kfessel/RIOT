@@ -41,6 +41,6 @@ var lua__run_8h =
     [ "lua_riot_do_module", "lua__run_8h.html#acebf773ea344a2c18ad3bdfca0cccd36", null ],
     [ "lua_riot_newstate", "lua__run_8h.html#a0a23a22a064ea267c51ae715f899cd15", null ],
     [ "lua_riot_openlibs", "lua__run_8h.html#ac7741afd0ccf1b036efa3c4badc0137a", null ],
-    [ "lua_riot_strerror", "lua__run_8h.html#af9b4442fa379b946a60adadf3a531ab0", null ],
+    [ "lua_riot_strerror", "lua__run_8h.html#a1513dc6d4f244f5f59bb79c3c2344948", null ],
     [ "lua_riot_str_errors", "lua__run_8h.html#af6013575497c1fa658376a4e5ef8be44", null ]
 ];

@@ -1,3 +1,4 @@
 <map id="drivers/include/sht2x.h" name="drivers/include/sht2x.h">
-<area shape="rect" id="node2" href="$sht2x__params_8h.html" title="Default configuration for SHT2X. " alt="" coords="11,80,153,121"/>
+<area shape="rect" id="node1" title="Device driver implementation for the SHT2x temperature and humidity sensor." alt="" coords="5,5,176,32"/>
+<area shape="rect" id="node2" href="$sht2x__params_8h.html" title="Default configuration for SHT2X." alt="" coords="11,80,170,121"/>
 </map>

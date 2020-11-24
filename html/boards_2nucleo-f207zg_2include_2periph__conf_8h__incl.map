@@ -1,5 +1,12 @@
 <map id="boards/nucleo&#45;f207zg/include/periph_conf.h" name="boards/nucleo&#45;f207zg/include/periph_conf.h">
-<area shape="rect" id="node3" href="$cfg__clock__120__8__1_8h.html" title="Configure STM32F2 clock to 120MHz using PLL. " alt="" coords="26,95,186,121"/>
-<area shape="rect" id="node4" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C. " alt="" coords="210,95,349,121"/>
-<area shape="rect" id="node5" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="373,95,496,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="131,5,295,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="160,169,266,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="27,95,114,121"/>
+<area shape="rect" id="node4" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C." alt="" coords="138,95,288,121"/>
+<area shape="rect" id="node5" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral." alt="" coords="313,95,444,121"/>
+<area shape="rect" id="node6" href="$mii_8h.html" title="Interface definition for MII/RMII h." alt="" coords="468,95,523,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="376,169,458,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="460,244,531,271"/>
+<area shape="rect" id="node9" href="$bitarithm_8h.html" title="Helper functions for bit arithmetic." alt="" coords="534,169,628,196"/>
+<area shape="rect" id="node10" title=" " alt="" coords="556,244,646,271"/>
 </map>

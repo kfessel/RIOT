@@ -1,3 +1,8 @@
 <map id="drivers/include/periph/uart.h" name="drivers/include/periph/uart.h">
-<area shape="rect" id="node7" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="448,95,587,121"/>
+<area shape="rect" id="node1" title="Low&#45;level UART peripheral driver interface definition." alt="" coords="153,5,316,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,80,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="105,95,175,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="199,95,270,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="294,95,399,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="424,95,533,121"/>
 </map>

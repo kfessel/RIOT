@@ -1,3 +1,8 @@
 <map id="boards/usb&#45;kw41z/include/board.h" name="boards/usb&#45;kw41z/include/board.h">
-<area shape="rect" id="node4" href="$boards_2usb-kw41z_2include_2periph__conf_8h.html" title="periph_conf.h" alt="" coords="232,95,332,121"/>
+<area shape="rect" id="node1" title="Board specific definitions for the USB&#45;KW41Z." alt="" coords="59,5,249,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,63,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="87,95,221,121"/>
+<area shape="rect" id="node4" href="$boards_2usb-kw41z_2include_2periph__conf_8h.html" title=" " alt="" coords="246,95,355,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="165,169,271,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="295,169,469,196"/>
 </map>

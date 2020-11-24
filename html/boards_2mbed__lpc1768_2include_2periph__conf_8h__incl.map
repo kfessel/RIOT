@@ -1,0 +1,5 @@
+<map id="boards/mbed_lpc1768/include/periph_conf.h" name="boards/mbed_lpc1768/include/periph_conf.h">
+<area shape="rect" id="node1" title="Peripheral MCU configuration for the mbed LPC1768 board." alt="" coords="42,5,207,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,111,121"/>
+<area shape="rect" id="node3" href="$mbed__lpc1768_2include_2vendor__conf_8h.html" title="CMSIS Cortex&#45;M3 Device Peripheral Access Layer Source File for the NXP LPC17xx Device Series." alt="" coords="135,95,248,121"/>
+</map>

@@ -1,7 +1,26 @@
 <map id="drivers/soft_spi/include/soft_spi_params.h" name="drivers/soft_spi/include/soft_spi_params.h">
-<area shape="rect" id="node2" href="$soft__spi_8h.html" title="Software SPI port descriptor definition. " alt="" coords="223,95,302,121"/>
-<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="79,244,175,271"/>
-<area shape="rect" id="node7" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="218,169,307,196"/>
-<area shape="rect" id="node11" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="443,169,512,196"/>
-<area shape="rect" id="node12" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="583,244,633,271"/>
+<area shape="rect" id="node1" title="Software SPI configuration." alt="" coords="226,5,399,47"/>
+<area shape="rect" id="node2" href="$soft__spi_8h.html" title="Software SPI port descriptor definition." alt="" coords="270,95,355,121"/>
+<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="118,393,225,420"/>
+<area shape="rect" id="node7" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition." alt="" coords="263,319,362,345"/>
+<area shape="rect" id="node11" href="$mutex_8h.html" title="Mutex for thread synchronization." alt="" coords="588,169,664,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,468,76,495"/>
+<area shape="rect" id="node5" title=" " alt="" coords="100,468,205,495"/>
+<area shape="rect" id="node6" title=" " alt="" coords="230,468,339,495"/>
+<area shape="rect" id="node8" title=" " alt="" coords="566,393,649,420"/>
+<area shape="rect" id="node9" title=" " alt="" coords="993,617,1067,644"/>
+<area shape="rect" id="node10" title=" " alt="" coords="468,617,539,644"/>
+<area shape="rect" id="node12" href="$irq_8h.html" title="IRQ driver interface." alt="" coords="601,244,651,271"/>
+<area shape="rect" id="node14" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="617,543,747,569"/>
+<area shape="rect" id="node15" href="$list_8h.html" title="Intrusive linked list." alt="" coords="1123,543,1177,569"/>
+<area shape="rect" id="node16" href="$core_2include_2thread_8h.html" title="Threading API." alt="" coords="767,244,843,271"/>
+<area shape="rect" id="node13" title=" " alt="" coords="617,319,707,345"/>
+<area shape="rect" id="node17" href="$clist_8h.html" title="Circular linked list." alt="" coords="1067,468,1129,495"/>
+<area shape="rect" id="node18" href="$cib_8h.html" title="Circular integer buffer interface." alt="" coords="819,319,873,345"/>
+<area shape="rect" id="node21" href="$msg_8h.html" title="Messaging API for inter process communication." alt="" coords="732,319,795,345"/>
+<area shape="rect" id="node22" href="$sched_8h.html" title="Scheduler API definition." alt="" coords="874,393,946,420"/>
+<area shape="rect" id="node19" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="750,393,825,420"/>
+<area shape="rect" id="node20" href="$panic_8h.html" title="Crash handling header." alt="" coords="617,468,686,495"/>
+<area shape="rect" id="node23" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="761,468,848,495"/>
+<area shape="rect" id="node24" href="$native__sched_8h.html" title="Add definitions required on the native board." alt="" coords="873,468,993,495"/>
 </map>

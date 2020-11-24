@@ -1,3 +1,4 @@
 <map id="sys/include/crypto/poly1305.h" name="sys/include/crypto/poly1305.h">
-<area shape="rect" id="node2" href="$chacha20poly1305_8h.html" title="Chacha20poly1305 functions. " alt="" coords="5,95,151,136"/>
+<area shape="rect" id="node1" title="Poly1305 MAC interface." alt="" coords="15,5,155,47"/>
+<area shape="rect" id="node2" href="$chacha20poly1305_8h.html" title="Chacha20poly1305 functions." alt="" coords="5,95,165,136"/>
 </map>

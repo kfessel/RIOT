@@ -26,6 +26,5 @@ var dir_c95ba9ba7fbc2fbce23d1bdfa8cd1c6b =
     [ "silabs", "dir_7fd057c5ce6d076380797e8c0fb5f80d.html", "dir_7fd057c5ce6d076380797e8c0fb5f80d" ],
     [ "slwstk6000b", "dir_caee97ee9b2423f641c572eb676c9a00.html", "dir_caee97ee9b2423f641c572eb676c9a00" ],
     [ "sodaq", "dir_c51c3a40a3e436895f92949b4be3ff04.html", "dir_c51c3a40a3e436895f92949b4be3ff04" ],
-    [ "stm32", "dir_1cac9a4e0dc74558a941939c7036f508.html", "dir_1cac9a4e0dc74558a941939c7036f508" ],
-    [ "wsn430", "dir_5574230266d575ce475db93ef79e6cf0.html", "dir_5574230266d575ce475db93ef79e6cf0" ]
+    [ "stm32", "dir_1cac9a4e0dc74558a941939c7036f508.html", "dir_1cac9a4e0dc74558a941939c7036f508" ]
 ];

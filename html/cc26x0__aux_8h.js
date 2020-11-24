@@ -19,7 +19,7 @@ var cc26x0__aux_8h =
     [ "AUX_ANAIF_BASE", "group__cpu__specific__peripheral__memory__map.html#ga7a251bfa5bcb41eb55d31b223ea67645", null ],
     [ "AUX_EVCTL", "cc26x0__aux_8h.html#a73ebf0fe31ebfcca037758b16e59fd8b", null ],
     [ "AUX_EVCTL_BASE", "group__cpu__specific__peripheral__memory__map.html#ga541d8e0d4ecb34ad0707bf7f8d9d70f6", null ],
-    [ "AUX_SMPH", "cc26x0__aux_8h.html#aa3fe80dd9d6246362d13145a86fc8f40", null ],
+    [ "AUX_SMPH", "group__cpu__specific__peripheral__memory__map.html#gaa3fe80dd9d6246362d13145a86fc8f40", null ],
     [ "AUX_SMPH_BASE", "group__cpu__specific__peripheral__memory__map.html#ga4b59352af6b92cc2deb2b432939f8e68", null ],
     [ "AUX_TDC", "cc26x0__aux_8h.html#adef70433101b7398fae594437035b522", null ],
     [ "AUX_TDC_BASE", "group__cpu__specific__peripheral__memory__map.html#ga8dc76e17830030a637a8f7b11f5aac85", null ],

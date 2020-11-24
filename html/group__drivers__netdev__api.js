@@ -2,6 +2,7 @@ var group__drivers__netdev__api =
 [
     [ "802.15.4 radio drivers", "group__drivers__netdev__ieee802154.html", "group__drivers__netdev__ieee802154" ],
     [ "Ethernet drivers", "group__drivers__netdev__eth.html", "group__drivers__netdev__eth" ],
+    [ "IEEE802.15.4 SubMAC netdev layer", "group__drivers__netdev__ieee802154__submac.html", "group__drivers__netdev__ieee802154__submac" ],
     [ "LoRa drivers", "group__drivers__netdev__lora.html", "group__drivers__netdev__lora" ],
     [ "netdev BLE mode", "group__drivers__netdev__ble.html", "group__drivers__netdev__ble" ],
     [ "layer.h", "layer_8h.html", null ],
@@ -23,7 +24,7 @@ var group__drivers__netdev__api =
       [ "send", "structnetdev__driver.html#a39585137953a92c1c58b5e0ad3262096", null ],
       [ "set", "structnetdev__driver.html#ad5c8c409276a702877ad50ad09e87a58", null ]
     ] ],
-    [ "netdev_driver_t", "group__drivers__netdev__api.html#ga4cb47b21edc35315143091dfa97652e4", null ],
+    [ "netdev_driver_t", "group__drivers__netdev__api.html#gace9c281c047e2e2a985730d8f649b001", null ],
     [ "netdev_event_cb_t", "group__drivers__netdev__api.html#gad323355be0487ba68c16dea102740275", null ],
     [ "netdev_t", "group__drivers__netdev__api.html#ga14012f723b7591ad2fa42ace34601ac4", null ],
     [ "netdev_event_t", "group__drivers__netdev__api.html#gaef91a5201cb4a25d1c3ef41b783a395b", [
@@ -43,7 +44,11 @@ var group__drivers__netdev__api =
       [ "NETDEV_EVENT_FHSS_CHANGE_CHANNEL", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395ba78ad65eb223df7bc239fa7b8802611c3", null ],
       [ "NETDEV_EVENT_CAD_DONE", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395bafc1fd5cc76d7fb9a42eb45042dbdeca0", null ]
     ] ],
+    [ "netdev_type_t", "group__drivers__netdev__api.html#gabf6e398293fe72dc6936cf7e828841fb", [
+      [ "NETDEV_ANY", "group__drivers__netdev__api.html#ggabf6e398293fe72dc6936cf7e828841fba8c6ddb6ad8b83296e833f14d8ec2574d", null ]
+    ] ],
     [ "netdev_get_notsup", "group__drivers__netdev__api.html#ga33bcec35f10a62c91e7371018f438e2f", null ],
+    [ "netdev_register", "group__drivers__netdev__api.html#ga969385cab163f1626f6072c2636a252b", null ],
     [ "netdev_set_notsup", "group__drivers__netdev__api.html#gae883bf801aea28c6a11b59929cb8d419", null ],
     [ "netdev_trigger_event_isr", "group__drivers__netdev__api.html#ga0404e4d821b66ea54cb09e16dd93379c", null ]
 ];

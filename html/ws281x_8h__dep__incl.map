@@ -1,3 +1,4 @@
 <map id="drivers/include/ws281x.h" name="drivers/include/ws281x.h">
-<area shape="rect" id="node2" href="$ws281x__params_8h.html" title="Default configuration for WS2812/SK6812 RGB LEDs. " alt="" coords="11,80,166,121"/>
+<area shape="rect" id="node1" title="WS2812/SK6812 RGB LED Driver." alt="" coords="5,5,189,32"/>
+<area shape="rect" id="node2" href="$ws281x__params_8h.html" title="Default configuration for WS2812/SK6812 RGB LEDs." alt="" coords="11,80,183,121"/>
 </map>

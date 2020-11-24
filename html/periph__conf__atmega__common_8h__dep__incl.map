@@ -1,14 +1,15 @@
 <map id="boards/common/atmega/include/periph_conf_atmega_common.h" name="boards/common/atmega/include/periph_conf_atmega_common.h">
-<area shape="rect" id="node2" href="$boards_2atmega1284p_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the ATmega1284p standalone &quot;board&quot;. " alt="" coords="5,117,155,158"/>
-<area shape="rect" id="node4" href="$boards_2atmega256rfr2-xpro_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Atmega256RFR2 Xplained Pro. " alt="" coords="179,109,327,165"/>
-<area shape="rect" id="node5" href="$boards_2atmega328p_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the ATmega328p standalone &quot;board&quot;. " alt="" coords="352,117,533,158"/>
-<area shape="rect" id="node7" href="$boards_2avr-rss2_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the rss2 AtMega256rfr2 board. " alt="" coords="557,117,715,158"/>
-<area shape="rect" id="node8" href="$boards_2common_2arduino-atmega_2include_2periph__conf_8h.html" title="Common configuration of MCU periphery for Arduino Atmega boards. " alt="" coords="739,109,901,165"/>
-<area shape="rect" id="node9" href="$boards_2derfmega128_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the deRFmega128 module. " alt="" coords="925,117,1075,158"/>
-<area shape="rect" id="node10" href="$boards_2derfmega256_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the deRFmega256 module. " alt="" coords="1099,117,1248,158"/>
-<area shape="rect" id="node11" href="$boards_2mega-xplained_2include_2periph__conf_8h.html" title="Common configuration of MCU periphery for Mega Xplained. " alt="" coords="1272,117,1421,158"/>
-<area shape="rect" id="node12" href="$boards_2microduino-corerf_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Microduino CoreRF board. " alt="" coords="1445,117,1611,158"/>
-<area shape="rect" id="node13" href="$boards_2waspmote-pro_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Waspmote PRO v1.2 board. " alt="" coords="1635,117,1784,158"/>
-<area shape="rect" id="node3" href="$atmega1284p_2include_2board_8h.html" title="Board specific definitions for the standalone ATmega1284P &quot;board&quot;. " alt="" coords="9,213,151,255"/>
-<area shape="rect" id="node6" href="$atmega328p_2include_2board_8h.html" title="Board specific definitions for the standalone ATmega328p &quot;board&quot;. " alt="" coords="352,213,533,255"/>
+<area shape="rect" id="node1" title="Common configuration of MCU periphery for ATmega boards." alt="" coords="906,5,1087,61"/>
+<area shape="rect" id="node2" href="$boards_2atmega1284p_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the ATmega1284p standalone &quot;board&quot;." alt="" coords="5,117,169,158"/>
+<area shape="rect" id="node4" href="$boards_2atmega256rfr2-xpro_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Atmega256RFR2 Xplained Pro." alt="" coords="193,109,360,165"/>
+<area shape="rect" id="node5" href="$boards_2atmega328p_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the ATmega328p standalone &quot;board&quot;." alt="" coords="385,117,587,158"/>
+<area shape="rect" id="node7" href="$boards_2avr-rss2_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the rss2 AtMega256rfr2 board." alt="" coords="611,117,785,158"/>
+<area shape="rect" id="node8" href="$boards_2common_2arduino-atmega_2include_2periph__conf_8h.html" title="Common configuration of MCU periphery for Arduino Atmega boards." alt="" coords="809,109,989,165"/>
+<area shape="rect" id="node9" href="$boards_2derfmega128_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the deRFmega128 module." alt="" coords="1013,117,1177,158"/>
+<area shape="rect" id="node10" href="$boards_2derfmega256_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the deRFmega256 module." alt="" coords="1201,117,1365,158"/>
+<area shape="rect" id="node11" href="$boards_2mega-xplained_2include_2periph__conf_8h.html" title="Common configuration of MCU periphery for Mega Xplained." alt="" coords="1390,117,1558,158"/>
+<area shape="rect" id="node12" href="$boards_2microduino-corerf_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Microduino CoreRF board." alt="" coords="1582,117,1769,158"/>
+<area shape="rect" id="node13" href="$boards_2waspmote-pro_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Waspmote PRO v1.2 board." alt="" coords="1793,117,1957,158"/>
+<area shape="rect" id="node3" href="$atmega1284p_2include_2board_8h.html" title="Board specific definitions for the standalone ATmega1284P &quot;board&quot;." alt="" coords="7,213,167,255"/>
+<area shape="rect" id="node6" href="$atmega328p_2include_2board_8h.html" title="Board specific definitions for the standalone ATmega328p &quot;board&quot;." alt="" coords="385,213,587,255"/>
 </map>

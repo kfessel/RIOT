@@ -1,3 +1,4 @@
 <map id="drivers/include/mma7660.h" name="drivers/include/mma7660.h">
-<area shape="rect" id="node2" href="$mma7660__params_8h.html" title="Default configuration for MMA7660 accelerometer. " alt="" coords="11,80,178,121"/>
+<area shape="rect" id="node1" title="Interface definition for the MMA7660 accelerometer driver." alt="" coords="5,5,205,32"/>
+<area shape="rect" id="node2" href="$mma7660__params_8h.html" title="Default configuration for MMA7660 accelerometer." alt="" coords="11,80,199,121"/>
 </map>

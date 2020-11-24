@@ -1,4 +1,11 @@
 <map id="boards/sodaq&#45;sara&#45;sff/include/periph_conf.h" name="boards/sodaq&#45;sara&#45;sff/include/periph_conf.h">
-<area shape="rect" id="node6" href="$cfg__rtc__default_8h.html" title="Default RTC configuration for SODAQ boards. " alt="" coords="25,95,143,121"/>
-<area shape="rect" id="node9" href="$cfg__usbdev__default_8h.html" title="Default usbdev configuration for SODAQ boards. " alt="" coords="168,95,315,121"/>
+<area shape="rect" id="node1" title="Configuration of CPU peripherals for the SODAQ SARA SFF board." alt="" coords="322,5,486,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="195,169,266,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="290,169,347,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="36,169,142,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="467,95,615,121"/>
+<area shape="rect" id="node6" href="$cfg__rtc__default_8h.html" title="Default RTC configuration for SODAQ boards." alt="" coords="24,95,154,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="639,95,768,121"/>
+<area shape="rect" id="node8" title=" " alt="" coords="793,95,942,121"/>
+<area shape="rect" id="node9" href="$cfg__usbdev__default_8h.html" title="Default usbdev configuration for SODAQ boards." alt="" coords="179,95,340,121"/>
 </map>

@@ -1,4 +1,4 @@
 var dir_24ebfd555be8aa65e885675d1a17e8c4 =
 [
-    [ "clk_conf.h", "clk__conf_8h_source.html", null ]
+    [ "clk_conf.h", "dist_2clk__conf_2clk__conf_8h_source.html", null ]
 ];

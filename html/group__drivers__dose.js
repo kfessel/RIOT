@@ -48,5 +48,5 @@ var group__drivers__dose =
       [ "DOSE_STATE_SEND", "group__drivers__dose.html#ggadce3cc3a69672e85d98942f947ee2794a898fa3d862f8e75d750cc8a940b5fe12", null ],
       [ "DOSE_STATE_ANY", "group__drivers__dose.html#ggadce3cc3a69672e85d98942f947ee2794ac3232f031952e266d6d6935165eab404", null ]
     ] ],
-    [ "dose_setup", "group__drivers__dose.html#gacba3b6a21593c1a87463c7dd073206ff", null ]
+    [ "dose_setup", "group__drivers__dose.html#gacb1b2c66e5d957612fd95616346da66b", null ]
 ];

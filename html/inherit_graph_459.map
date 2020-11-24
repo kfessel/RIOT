@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structlis3mdl__3d__data__t.html" title="3d data container of the LIS3MDL sensor " alt="" coords="5,5,132,32"/>
+<area shape="rect" id="node1" href="$structipv6__ext__t.html" title="IPv6 extension headers." alt="" coords="5,5,96,32"/>
+<area shape="rect" id="node2" href="$structipv6__ext__rh__t.html" title="IPv6 routing extension header." alt="" coords="144,5,255,32"/>
+<area shape="rect" id="node3" href="$structgnrc__rpl__srh__t.html" title="The RPL Source routing header." alt="" coords="303,5,416,32"/>
 </map>

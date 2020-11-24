@@ -36,8 +36,10 @@ var group__drivers__sps30 =
     [ "sps30_read_measurement", "group__drivers__sps30.html#gac86421ada8136f7b1b8f09792a284294", null ],
     [ "sps30_read_serial_number", "group__drivers__sps30.html#ga9e4a0ec59e0b0a093ec41fc2ba3139e0", null ],
     [ "sps30_reset", "group__drivers__sps30.html#ga88e1af0472df5b7130e620feda92f534", null ],
+    [ "sps30_sleep", "group__drivers__sps30.html#ga92cc221536f1ecb1215da4aa6f25edca", null ],
     [ "sps30_start_fan_clean", "group__drivers__sps30.html#ga4847c76a989b2faafa0e9fcf2269881f", null ],
     [ "sps30_start_measurement", "group__drivers__sps30.html#ga467ccf24f4e41d66708eeb1f8f80840d", null ],
     [ "sps30_stop_measurement", "group__drivers__sps30.html#gad5a11aca9d6eb67db51d3b562c15dc0f", null ],
+    [ "sps30_wakeup", "group__drivers__sps30.html#gaac39de1faef87bc8d2984ab94630c5ae", null ],
     [ "sps30_write_ac_interval", "group__drivers__sps30.html#gaa61d5ddb1f82bd3601a2109e125ba4f2", null ]
 ];

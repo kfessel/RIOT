@@ -1,3 +1,4 @@
 <map id="boards/maple&#45;mini/include/board.h" name="boards/maple&#45;mini/include/board.h">
-<area shape="rect" id="node2" href="$maple-mini_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,95,179,136"/>
+<area shape="rect" id="node1" title="Board specific definitions for the maple&#45;mini board." alt="" coords="5,5,201,47"/>
+<area shape="rect" id="node2" href="$maple-mini_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,95,201,136"/>
 </map>

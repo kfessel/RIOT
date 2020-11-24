@@ -1,3 +1,4 @@
 <map id="drivers/include/sht1x.h" name="drivers/include/sht1x.h">
-<area shape="rect" id="node2" href="$sht1x__params_8h.html" title="Default configuration for SHT10/SHT11/SHT15 devices. " alt="" coords="11,80,153,121"/>
+<area shape="rect" id="node1" title="SHT10/SHT11/SHT15 Device Driver." alt="" coords="5,5,176,32"/>
+<area shape="rect" id="node2" href="$sht1x__params_8h.html" title="Default configuration for SHT10/SHT11/SHT15 devices." alt="" coords="11,80,170,121"/>
 </map>

@@ -1,3 +1,4 @@
 <map id="boards/hamilton/include/board.h" name="boards/hamilton/include/board.h">
-<area shape="rect" id="node2" href="$hamilton_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,95,164,136"/>
+<area shape="rect" id="node1" title="Board specific definitions for the Hamilton board." alt="" coords="5,5,184,47"/>
+<area shape="rect" id="node2" href="$hamilton_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,95,184,136"/>
 </map>

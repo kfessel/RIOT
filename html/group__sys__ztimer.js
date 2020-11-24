@@ -7,6 +7,7 @@ var group__sys__ztimer =
     [ "ztimer periph/rtt backend", "group__sys__ztimer__periph__rtt.html", "group__sys__ztimer__periph__rtt" ],
     [ "ztimer periph/timer backend", "group__sys__ztimer__periph__timer.html", "group__sys__ztimer__periph__timer" ],
     [ "config.h", "sys_2include_2ztimer_2config_8h.html", null ],
+    [ "periodic.h", "periodic_8h.html", null ],
     [ "ztimer.h", "ztimer_8h.html", null ],
     [ "ztimer_base", "structztimer__base.html", [
       [ "next", "structztimer__base.html#af9ca0bd6f1090b707305dbe5bf0e4248", null ],
@@ -23,7 +24,8 @@ var group__sys__ztimer =
       [ "set", "structztimer__ops__t.html#ab342807fdefc48319eb4f7e10e45f89d", null ]
     ] ],
     [ "ztimer_clock", "structztimer__clock.html", [
-      [ "adjust", "structztimer__clock.html#ab090c9d7d8e551fa5a812acd332e809c", null ],
+      [ "adjust_set", "structztimer__clock.html#adadb01ab9076c3f88d5a505fd323eaec", null ],
+      [ "adjust_sleep", "structztimer__clock.html#a3851442c485d3f761205a89854231bc5", null ],
       [ "checkpoint", "structztimer__clock.html#a637ef98236482db411ab9aa2f22e610a", null ],
       [ "last", "structztimer__clock.html#a6bebc8a5498e3ff4f316e13e05655307", null ],
       [ "list", "structztimer__clock.html#a8506de4fcdf3199fbf0da0cc698ee097", null ],
@@ -50,6 +52,7 @@ var group__sys__ztimer =
     [ "ztimer_set_timeout_flag", "group__sys__ztimer.html#gaf3b87b65d13b41cdaacde7385afd4a60", null ],
     [ "ztimer_set_wakeup", "group__sys__ztimer.html#ga50b1929e8ff4a920020e3111bbd8050e", null ],
     [ "ztimer_sleep", "group__sys__ztimer.html#gade98636e198f2d571c8acd861d29d360", null ],
+    [ "ztimer_spin", "group__sys__ztimer.html#ga9de3d9e3290746b856bb23eb2dccaa7c", null ],
     [ "ztimer_update_head_offset", "group__sys__ztimer.html#ga1a0d5d3e93aae8f37e46b357a52c74fa", null ],
     [ "ZTIMER_MSEC", "group__sys__ztimer.html#gaf89aa36047e5e6859e5b08c9bacd1c3e", null ],
     [ "ZTIMER_MSEC_BASE", "group__sys__ztimer.html#ga5adbd6f8c80cee6a72e346e176e8ead7", null ],

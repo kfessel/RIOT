@@ -1,0 +1,12 @@
+<map id="pkg/uwb&#45;core/include/dpl/dpl_types.h" name="pkg/uwb&#45;core/include/dpl/dpl_types.h">
+<area shape="rect" id="node1" title="uwb&#45;core DPL (Decawave Porting Layer) types" alt="" coords="273,5,434,47"/>
+<area shape="rect" id="node2" href="$dpl_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="273,273,434,315"/>
+<area shape="rect" id="node4" href="$dpl__callout_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) callout abstraction" alt="" coords="35,184,197,225"/>
+<area shape="rect" id="node5" href="$dpl__eventq_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) event queue wrappers" alt="" coords="154,95,315,136"/>
+<area shape="rect" id="node6" href="$dpl__mutex_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) mutex wrappers" alt="" coords="273,184,434,225"/>
+<area shape="rect" id="node7" href="$dpl__os_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) error types" alt="" coords="458,184,619,225"/>
+<area shape="rect" id="node8" href="$dpl__sem_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) semapahore wrappers" alt="" coords="577,95,738,136"/>
+<area shape="rect" id="node10" href="$dpl__tasks_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) thread/task wrappers" alt="" coords="798,95,959,136"/>
+<area shape="rect" id="node3" href="$os__dev_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="273,363,434,404"/>
+<area shape="rect" id="node9" href="$uwb__dw1000__params_8h.html" title="Default configuration." alt="" coords="695,184,879,225"/>
+</map>

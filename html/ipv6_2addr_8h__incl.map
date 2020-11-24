@@ -1,4 +1,10 @@
 <map id="sys/include/net/ipv6/addr.h" name="sys/include/net/ipv6/addr.h">
-<area shape="rect" id="node4" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="209,169,295,196"/>
-<area shape="rect" id="node6" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions. " alt="" coords="117,95,225,121"/>
+<area shape="rect" id="node1" title="Definitions for IPv6 addresses." alt="" coords="109,5,261,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,169,88,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="319,95,390,121"/>
+<area shape="rect" id="node4" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="113,169,210,196"/>
+<area shape="rect" id="node7" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions." alt="" coords="175,95,295,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="162,319,233,345"/>
+<area shape="rect" id="node6" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="61,244,160,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="285,169,360,196"/>
 </map>

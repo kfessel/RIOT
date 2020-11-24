@@ -1,5 +1,6 @@
 var group__sys__random =
 [
+    [ "SHAX random number generator", "group__sys__random__shaxprng.html", null ],
     [ "random.h", "random_8h.html", null ],
     [ "PRNG_FLOAT", "group__sys__random.html#ga27cf0bd7f3f0328b7bc4f40acf9a6262", null ],
     [ "RANDOM_SEED_DEFAULT", "group__sys__random.html#gad7d1f7aa06b6854cbf4ed3def1f5eabd", null ],

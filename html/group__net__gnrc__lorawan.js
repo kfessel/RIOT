@@ -26,7 +26,7 @@ var group__net__gnrc__lorawan =
       [ "type", "structmlme__confirm__t.html#a3d362d3be7d1b26ddfabb5367fb6f61f", null ]
     ] ],
     [ "mcps_confirm_t", "structmcps__confirm__t.html", [
-      [ "data", "structmcps__confirm__t.html#a49df548ab0cbd2d655301cf1216d1234", null ],
+      [ "msdu", "structmcps__confirm__t.html#a9399d88608f79e80455988c14d95fd23", null ],
       [ "status", "structmcps__confirm__t.html#a6a1372a21395bc5728b92dbe429a7fb1", null ],
       [ "type", "structmcps__confirm__t.html#aec6428c3b83d15fabc910cc3304c9e29", null ]
     ] ],
@@ -41,8 +41,7 @@ var group__net__gnrc__lorawan =
     [ "GNRC_LORAWAN_REQ_STATUS_SUCCESS", "group__net__gnrc__lorawan.html#ga0cd52bc349c990d0013a0b2b4f62c461", null ],
     [ "mcps_event_t", "group__net__gnrc__lorawan.html#ga1a52aa334cfeb6520eea5c8329a01182", [
       [ "MCPS_EVENT_RX", "group__net__gnrc__lorawan.html#gga1a52aa334cfeb6520eea5c8329a01182aee9bbdea2466c37495a4872622f7882b", null ],
-      [ "MCPS_EVENT_NO_RX", "group__net__gnrc__lorawan.html#gga1a52aa334cfeb6520eea5c8329a01182affd95c71725b757429630c91c9c26c99", null ],
-      [ "MCPS_EVENT_ACK_TIMEOUT", "group__net__gnrc__lorawan.html#gga1a52aa334cfeb6520eea5c8329a01182a5fb9af992da84c51e07b7aa155ae564a", null ]
+      [ "MCPS_EVENT_NO_RX", "group__net__gnrc__lorawan.html#gga1a52aa334cfeb6520eea5c8329a01182affd95c71725b757429630c91c9c26c99", null ]
     ] ],
     [ "mcps_type_t", "group__net__gnrc__lorawan.html#gaa9b3684dffd361db2ac3bb19f45c7c77", [
       [ "MCPS_CONFIRMED", "group__net__gnrc__lorawan.html#ggaa9b3684dffd361db2ac3bb19f45c7c77a5eb18aef0f2abda0d56add7e868b8546", null ],
@@ -66,8 +65,6 @@ var group__net__gnrc__lorawan =
       [ "MLME_GET", "group__net__gnrc__lorawan.html#gga36800c54d632dbf42cde55f931abe9dfa0a055a2d26407320d1f1016955cb4be7", null ],
       [ "MLME_SCHEDULE_UPLINK", "group__net__gnrc__lorawan.html#gga36800c54d632dbf42cde55f931abe9dfada36c2ddbd1f26a8ff146b348dd30e96", null ]
     ] ],
-    [ "gnrc_lorawan_event_timeout", "group__net__gnrc__lorawan.html#gaf1961ac80a0826d7696edd9137c06805", null ],
-    [ "gnrc_lorawan_event_tx_complete", "group__net__gnrc__lorawan.html#ga616a7b06d8ecac76a9c9f5eef46cf24d", null ],
     [ "gnrc_lorawan_get_netdev", "group__net__gnrc__lorawan.html#ga57f98673e58d1d6eeda8da46fe89563a", null ],
     [ "gnrc_lorawan_init", "group__net__gnrc__lorawan.html#gaf797ae44139795583716a1070a89dbc4", null ],
     [ "gnrc_lorawan_mcps_confirm", "group__net__gnrc__lorawan.html#ga5bbef9c9c22db8945b1ecb93a9a5c405", null ],
@@ -76,5 +73,7 @@ var group__net__gnrc__lorawan =
     [ "gnrc_lorawan_mlme_confirm", "group__net__gnrc__lorawan.html#gac85c5406c771b5d8cc9401993e31e714", null ],
     [ "gnrc_lorawan_mlme_indication", "group__net__gnrc__lorawan.html#ga081ef52e0242fb797f7c39b6546f52cf", null ],
     [ "gnrc_lorawan_mlme_request", "group__net__gnrc__lorawan.html#ga4b5900e71db9ec5ea55b6e320a824a2e", null ],
-    [ "gnrc_lorawan_recv", "group__net__gnrc__lorawan.html#gab1b8c0245538a4acb2264c122a87d360", null ]
+    [ "gnrc_lorawan_radio_rx_done_cb", "group__net__gnrc__lorawan.html#gae664bfdfce721f9ee892e0cff473e3b1", null ],
+    [ "gnrc_lorawan_radio_rx_timeout_cb", "group__net__gnrc__lorawan.html#ga9c5c6db69cfc9b9c22e472657c2956a9", null ],
+    [ "gnrc_lorawan_radio_tx_done_cb", "group__net__gnrc__lorawan.html#gacf4f019f40bc3773a81bd854874f8bb3", null ]
 ];

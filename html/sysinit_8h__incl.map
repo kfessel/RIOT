@@ -1,0 +1,8 @@
+<map id="pkg/uwb&#45;core/include/sysinit/sysinit.h" name="pkg/uwb&#45;core/include/sysinit/sysinit.h">
+<area shape="rect" id="node1" title="sysinit abstraction layer for RIOT adaption" alt="" coords="10,5,171,47"/>
+<area shape="rect" id="node2" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="53,95,128,121"/>
+<area shape="rect" id="node3" href="$panic_8h.html" title="Crash handling header." alt="" coords="56,169,125,196"/>
+<area shape="rect" id="node4" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="26,244,155,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,319,80,345"/>
+<area shape="rect" id="node6" title=" " alt="" coords="105,319,175,345"/>
+</map>

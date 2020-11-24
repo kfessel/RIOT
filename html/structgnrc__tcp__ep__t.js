@@ -1,6 +1,6 @@
 var structgnrc__tcp__ep__t =
 [
-    [ "addr", "structgnrc__tcp__ep__t.html#afccf8006482cdac734de408eab0ef569", null ],
+    [ "addr", "structgnrc__tcp__ep__t.html#aa488db00bf7cfe400e7332f3187052da", null ],
     [ "dummy", "structgnrc__tcp__ep__t.html#aecd9d300507bc830b999d9f86400c1f6", null ],
     [ "family", "structgnrc__tcp__ep__t.html#a40f51ca3cf7744e90a370091497c62c8", null ],
     [ "ipv6", "structgnrc__tcp__ep__t.html#a10fb17a4e8ab05e39f380beb90a8b0ac", null ],

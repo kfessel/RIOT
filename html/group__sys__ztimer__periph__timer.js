@@ -6,5 +6,5 @@ var group__sys__ztimer__periph__timer =
       [ "min", "structztimer__periph__timer__t.html#a1852d98a985f1959dc2c60489bf5ac0d", null ],
       [ "super", "structztimer__periph__timer__t.html#a4fffd601c5700342c985873b223cf086", null ]
     ] ],
-    [ "ztimer_periph_timer_init", "group__sys__ztimer__periph__timer.html#ga886f48d4bc367087681d31e1c24499da", null ]
+    [ "ztimer_periph_timer_init", "group__sys__ztimer__periph__timer.html#gabe9575e40a44642a4ce743ed4b563fef", null ]
 ];

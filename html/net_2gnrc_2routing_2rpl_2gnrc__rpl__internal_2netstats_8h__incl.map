@@ -1,3 +1,5 @@
 <map id="sys/net/gnrc/routing/rpl/gnrc_rpl_internal/netstats.h" name="sys/net/gnrc/routing/rpl/gnrc_rpl_internal/netstats.h">
-<area shape="rect" id="node2" href="$rpl__netstats_8h.html" title="Definition of RPL related packet statistics. " alt="" coords="5,109,147,136"/>
+<area shape="rect" id="node1" title="RPL control message statistics functions." alt="" coords="6,5,162,61"/>
+<area shape="rect" id="node2" href="$rpl__netstats_8h.html" title="Definition of RPL related packet statistics." alt="" coords="5,109,163,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="49,184,119,211"/>
 </map>

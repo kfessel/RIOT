@@ -15,5 +15,5 @@ var group__drivers__enc28j60 =
       [ "p", "structenc28j60__t.html#ae5c137ccdd3e298135cd39780ff3f685", null ],
       [ "tx_time", "structenc28j60__t.html#a22ec488ccaa22d486378170f939f3983", null ]
     ] ],
-    [ "enc28j60_setup", "group__drivers__enc28j60.html#ga03ed6ecdf365accb8036b5bbe723d21c", null ]
+    [ "enc28j60_setup", "group__drivers__enc28j60.html#gae87ec196bb371fed9e3f5edc4129ec97", null ]
 ];

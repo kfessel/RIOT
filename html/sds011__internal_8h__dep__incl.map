@@ -1,4 +1,5 @@
 <map id="drivers/sds011/include/sds011_internal.h" name="drivers/sds011/include/sds011_internal.h">
-<area shape="rect" id="node2" href="$sds011_8h.html" title="Interface for controlling SDS011 Laser Dust Sensor. " alt="" coords="5,95,168,121"/>
-<area shape="rect" id="node3" href="$sds011__params_8h.html" title="SDS011 sensor specific configuration. " alt="" coords="11,169,163,211"/>
+<area shape="rect" id="node1" title="Internal constants etc. for the SDS011 laser dust sensor." alt="" coords="11,5,179,47"/>
+<area shape="rect" id="node2" href="$sds011_8h.html" title="Interface for controlling SDS011 Laser Dust Sensor." alt="" coords="5,95,185,121"/>
+<area shape="rect" id="node3" href="$sds011__params_8h.html" title="SDS011 sensor specific configuration." alt="" coords="11,169,179,211"/>
 </map>

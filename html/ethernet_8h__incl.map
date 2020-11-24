@@ -1,6 +1,9 @@
 <map id="sys/include/net/ethernet.h" name="sys/include/net/ethernet.h">
-<area shape="rect" id="node3" href="$net_2ethernet_2hdr_8h.html" title="Ethernet header definitions. " alt="" coords="35,80,159,107"/>
-<area shape="rect" id="node6" href="$eui64_8h.html" title="EUI&#45;64 data type definition. " alt="" coords="183,80,270,107"/>
-<area shape="rect" id="node4" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="35,155,114,181"/>
-<area shape="rect" id="node5" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="138,155,224,181"/>
+<area shape="rect" id="node1" title="Definitions for Ethernet." alt="" coords="5,5,196,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="112,304,183,331"/>
+<area shape="rect" id="node3" href="$net_2ethernet_2hdr_8h.html" title="Ethernet header definitions." alt="" coords="31,80,170,107"/>
+<area shape="rect" id="node7" href="$eui64_8h.html" title="EUI&#45;64 data type definition." alt="" coords="195,80,289,107"/>
+<area shape="rect" id="node4" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="32,155,119,181"/>
+<area shape="rect" id="node5" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="143,155,240,181"/>
+<area shape="rect" id="node6" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="142,229,241,256"/>
 </map>

@@ -45,11 +45,11 @@ var group__drivers__bme680 =
     [ "BME680_SENSOR", "group__drivers__bme680.html#gaf6ed7c0d8e8c6ac8be6a904d45809bfc", null ],
     [ "bme680_dev_t", "group__drivers__bme680.html#gade8a38f516220fbc37fc4dd6ed93d0a5", null ],
     [ "bme680_field_data_t", "group__drivers__bme680.html#gae1d3da3666b24a3f5400f4de54bcbe76", [
-      [ "BME680_NULL_PTR", "group__drivers__bme680.html#gga81929fb3d21206b62f55bcb744f71d5dab9c9639d48348a5a40a6583b54fadfa4", null ],
-      [ "BME680_COM_FAILED", "group__drivers__bme680.html#gga81929fb3d21206b62f55bcb744f71d5da3794e85730746dab9afcad6ee9d6d63a", null ],
-      [ "BME680_NO_DEV", "group__drivers__bme680.html#gga81929fb3d21206b62f55bcb744f71d5dacdd611e7ad7ba603857c81adc81eb696", null ],
-      [ "BME680_INVALID", "group__drivers__bme680.html#gga81929fb3d21206b62f55bcb744f71d5dac9e47b7dd656b02ed94f337c8827f850", null ],
-      [ "BME680_NO_NEW_DATA", "group__drivers__bme680.html#gga81929fb3d21206b62f55bcb744f71d5da0999a9d79eb6908503ca3609c931e250", null ]
+      [ "BME680_NULL_PTR", "group__drivers__bme680.html#gga1e8054db89feba236b2235d16d0bd1adab9c9639d48348a5a40a6583b54fadfa4", null ],
+      [ "BME680_COM_FAILED", "group__drivers__bme680.html#gga1e8054db89feba236b2235d16d0bd1ada3794e85730746dab9afcad6ee9d6d63a", null ],
+      [ "BME680_NO_DEV", "group__drivers__bme680.html#gga1e8054db89feba236b2235d16d0bd1adacdd611e7ad7ba603857c81adc81eb696", null ],
+      [ "BME680_INVALID", "group__drivers__bme680.html#gga1e8054db89feba236b2235d16d0bd1adac9e47b7dd656b02ed94f337c8827f850", null ],
+      [ "BME680_NO_NEW_DATA", "group__drivers__bme680.html#gga1e8054db89feba236b2235d16d0bd1ada0999a9d79eb6908503ca3609c931e250", null ]
     ] ],
     [ "bme680_force_measurement", "group__drivers__bme680.html#ga5eddf06b725e8f8944b8f20ebf6e1a6a", null ],
     [ "bme680_get_data", "group__drivers__bme680.html#gae98f4c5bbee96672a75c07170f391c98", null ],

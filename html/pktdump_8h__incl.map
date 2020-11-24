@@ -1,4 +1,11 @@
 <map id="sys/include/net/gnrc/pktdump.h" name="sys/include/net/gnrc/pktdump.h">
-<area shape="rect" id="node2" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="177,95,283,121"/>
-<area shape="rect" id="node4" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="95,169,173,196"/>
+<area shape="rect" id="node1" title="Interface for a generic network packet dumping module." alt="" coords="207,5,359,47"/>
+<area shape="rect" id="node2" href="$sched_8h.html" title="Scheduler API definition." alt="" coords="247,95,319,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="246,244,321,271"/>
+<area shape="rect" id="node4" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="159,169,245,196"/>
+<area shape="rect" id="node5" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="5,169,135,196"/>
+<area shape="rect" id="node7" href="$native__sched_8h.html" title="Add definitions required on the native board." alt="" coords="321,169,441,196"/>
+<area shape="rect" id="node8" href="$clist_8h.html" title="Circular linked list." alt="" coords="465,169,526,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="35,244,105,271"/>
+<area shape="rect" id="node9" href="$list_8h.html" title="Intrusive linked list." alt="" coords="468,244,523,271"/>
 </map>

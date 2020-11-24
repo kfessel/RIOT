@@ -18,9 +18,9 @@ var lc709203f_8h =
     [ "LC709203F_REG_STATUS", "group__drivers__lc709203f.html#ga59e0e0a620351a67727cba633848be1b", null ],
     [ "LC709203F_REG_THERMISTOR", "group__drivers__lc709203f.html#gade7e8d4cb7d5a754a8128b028079def2", null ],
     [ "lc709203f_cb_t", "group__drivers__lc709203f.html#ga2ec5c54ab15ed4caf5709f95175fa161", null ],
-    [ "LC709203F_OK", "group__drivers__lc709203f.html#gga5584fee7841d9376fb0394600e9ed81aaefef1322364dc905295ebc7a6a34c9a3", null ],
-    [ "LC709203F_NOI2C", "group__drivers__lc709203f.html#gga5584fee7841d9376fb0394600e9ed81aaf1a44d2d2b241559491d1b4a7825c8f0", null ],
-    [ "LC709203F_CELL_TEMP_INVALID", "group__drivers__lc709203f.html#gga5584fee7841d9376fb0394600e9ed81aa72597eb4b4084040ebc3eb4fad603a56", null ],
+    [ "LC709203F_OK", "group__drivers__lc709203f.html#ggab98c672c5aaffb98a9189cd99e58ff23aefef1322364dc905295ebc7a6a34c9a3", null ],
+    [ "LC709203F_NOI2C", "group__drivers__lc709203f.html#ggab98c672c5aaffb98a9189cd99e58ff23af1a44d2d2b241559491d1b4a7825c8f0", null ],
+    [ "LC709203F_CELL_TEMP_INVALID", "group__drivers__lc709203f.html#ggab98c672c5aaffb98a9189cd99e58ff23a72597eb4b4084040ebc3eb4fad603a56", null ],
     [ "lc709203f_battery_profile_t", "group__drivers__lc709203f.html#ga95c2e4e768932cb18d19c6a928cc3459", [
       [ "BAT_PROFILE_1", "group__drivers__lc709203f.html#gga95c2e4e768932cb18d19c6a928cc3459aff1c1de126fe4a2fc557ed7ff9103db8", null ],
       [ "BAT_PROFILE_2", "group__drivers__lc709203f.html#gga95c2e4e768932cb18d19c6a928cc3459a1dbca5ac36dd58a9d3877a2d2de7e6a8", null ]

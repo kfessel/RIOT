@@ -1,6 +1,9 @@
 <map id="sys/include/crypto/aes.h" name="sys/include/crypto/aes.h">
-<area shape="rect" id="node2" href="$stdio_8h.html" title="stdio.h wrapper for MSP430 " alt="" coords="5,95,67,121"/>
-<area shape="rect" id="node5" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="275,95,339,121"/>
-<area shape="rect" id="node8" href="$ciphers_8h.html" title="Headers for the packet encryption class. " alt="" coords="413,95,528,121"/>
-<area shape="rect" id="node6" href="$malloc_8h.html" title="malloc.h" alt="" coords="271,169,342,196"/>
+<area shape="rect" id="node1" title="Headers for the implementation of the AES cipher&#45;algorithm." alt="" coords="207,5,347,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,72,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="96,95,171,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="195,95,266,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="290,95,361,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="414,169,485,196"/>
+<area shape="rect" id="node7" href="$ciphers_8h.html" title="Headers for the packet encryption class. They are used to encrypt single packets." alt="" coords="437,95,563,121"/>
 </map>

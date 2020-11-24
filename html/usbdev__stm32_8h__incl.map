@@ -1,11 +1,17 @@
 <map id="cpu/stm32/include/usbdev_stm32.h" name="cpu/stm32/include/usbdev_stm32.h">
-<area shape="rect" id="node3" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="37,95,101,121"/>
-<area shape="rect" id="node5" href="$stm32_2include_2periph__cpu_8h.html" title="Shared CPU specific definitions for the STM32 family. " alt="" coords="125,95,221,121"/>
-<area shape="rect" id="node7" href="$usbdev_8h.html" title="Definitions low&#45;level USB driver interface. " alt="" coords="293,95,408,121"/>
-<area shape="rect" id="node4" href="$malloc_8h.html" title="malloc.h" alt="" coords="34,169,105,196"/>
-<area shape="rect" id="node9" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="432,169,501,196"/>
-<area shape="rect" id="node12" href="$usb_8h.html" title="Definition of global compile time configuration options. " alt="" coords="527,169,582,196"/>
-<area shape="rect" id="node14" href="$usbopt_8h.html" title="Definition of global USB peripheral and USB peripheral endpoint configuration options. " alt="" coords="259,169,357,196"/>
-<area shape="rect" id="node10" href="$panic_8h.html" title="Crash handling header. " alt="" coords="435,244,499,271"/>
-<area shape="rect" id="node11" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="432,319,549,345"/>
+<area shape="rect" id="node1" title="USB interface functions for the stm32 OTG FS/HS class devices." alt="" coords="205,5,397,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="399,393,469,420"/>
+<area shape="rect" id="node3" title=" " alt="" coords="229,95,300,121"/>
+<area shape="rect" id="node4" href="$stm32_2include_2periph__cpu_8h.html" title="Shared CPU specific definitions for the STM32 family." alt="" coords="88,95,193,121"/>
+<area shape="rect" id="node8" href="$usbdev_8h.html" title="Definitions low&#45;level USB driver interface." alt="" coords="478,95,603,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,169,76,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="100,169,157,196"/>
+<area shape="rect" id="node7" href="$units_8h.html" title="Unit helper macros." alt="" coords="181,169,300,196"/>
+<area shape="rect" id="node9" title=" " alt="" coords="634,393,709,420"/>
+<area shape="rect" id="node10" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="542,169,617,196"/>
+<area shape="rect" id="node13" href="$usb_8h.html" title="Definition of global compile time configuration options." alt="" coords="765,169,823,196"/>
+<area shape="rect" id="node15" href="$usbopt_8h.html" title="Definition of global USB peripheral and USB peripheral endpoint configuration options." alt="" coords="427,319,532,345"/>
+<area shape="rect" id="node11" href="$panic_8h.html" title="Crash handling header." alt="" coords="553,244,622,271"/>
+<area shape="rect" id="node12" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="556,319,685,345"/>
+<area shape="rect" id="node14" title=" " alt="" coords="761,244,832,271"/>
 </map>

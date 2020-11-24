@@ -1,4 +1,8 @@
 <map id="sys/include/tm.h" name="sys/include/tm.h">
-<area shape="rect" id="node3" href="$atmega__common_2avr__libc__extra_2include_2sys_2time_8h_source.html" title="sys/time.h" alt="" coords="88,80,171,107"/>
-<area shape="rect" id="node6" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="309,80,427,107"/>
+<area shape="rect" id="node1" title="Utility library for struct tm." alt="" coords="89,5,218,32"/>
+<area shape="rect" id="node2" href="$time_8h_source.html" title=" " alt="" coords="25,80,89,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="126,155,197,181"/>
+<area shape="rect" id="node5" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="191,80,321,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,155,101,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="221,155,296,181"/>
 </map>

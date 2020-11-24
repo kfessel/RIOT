@@ -1,3 +1,5 @@
 <map id="sys/include/net/inet_csum.h" name="sys/include/net/inet_csum.h">
-<area shape="rect" id="node2" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="5,95,84,121"/>
+<area shape="rect" id="node1" title="Internet Checksum definitions." alt="" coords="26,5,175,47"/>
+<area shape="rect" id="node2" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="5,95,92,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="117,95,191,121"/>
 </map>

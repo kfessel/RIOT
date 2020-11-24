@@ -4,7 +4,7 @@ var structsock__dtls =
     [ "async_cb_arg", "structsock__dtls.html#a5a8b0d6c55ba73115d1547658381a6dd", null ],
     [ "async_ctx", "structsock__dtls.html#a6e453153634b74d9ee259c3f8329e664", null ],
     [ "buf_ctx", "structsock__dtls.html#aa465dd0b98c42f6a8e5cd60a3f0061c0", null ],
-    [ "buffer", "structsock__dtls.html#abdcfa4efdd1deab58e0ec25170fe27ad", null ],
+    [ "buffer", "structsock__dtls.html#aa3e25bbebc543c182fc0d5b415a29bd8", null ],
     [ "data", "structsock__dtls.html#a87dcf563321855607cb1df086feec059", null ],
     [ "datalen", "structsock__dtls.html#a816aca60c9d80805f072e109f7a754d0", null ],
     [ "dtls_ctx", "structsock__dtls.html#a3f7709ee3d171827dedb4256eae8d4ec", null ],

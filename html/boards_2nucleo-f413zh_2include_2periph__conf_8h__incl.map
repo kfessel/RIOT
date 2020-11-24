@@ -1,6 +1,9 @@
 <map id="boards/nucleo&#45;f413zh/include/periph_conf.h" name="boards/nucleo&#45;f413zh/include/periph_conf.h">
-<area shape="rect" id="node3" href="$cfg__clock__100__8__1_8h.html" title="Configure STM32F4 clock to 100MHz using PLL. " alt="" coords="23,95,183,121"/>
-<area shape="rect" id="node4" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C. " alt="" coords="207,95,346,121"/>
-<area shape="rect" id="node6" href="$cfg__timer__tim5_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM5. " alt="" coords="510,95,629,121"/>
-<area shape="rect" id="node7" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="654,95,776,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="216,5,380,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="324,169,430,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="31,95,118,121"/>
+<area shape="rect" id="node4" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C." alt="" coords="142,95,292,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="316,95,446,121"/>
+<area shape="rect" id="node6" href="$cfg__timer__tim5_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM5." alt="" coords="470,95,604,121"/>
+<area shape="rect" id="node7" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral." alt="" coords="628,95,758,121"/>
 </map>

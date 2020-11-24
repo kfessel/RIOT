@@ -1,0 +1,7 @@
+<map id="cpu/cc2538/include/cc2538_eui_primary.h" name="cpu/cc2538/include/cc2538_eui_primary.h">
+<area shape="rect" id="node1" title="CC2538 EUI&#45;64 provider." alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node2" href="$eui64_8h.html" title="EUI&#45;64 data type definition." alt="" coords="41,95,136,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="61,319,132,345"/>
+<area shape="rect" id="node4" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="84,169,181,196"/>
+<area shape="rect" id="node5" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="134,244,233,271"/>
+</map>

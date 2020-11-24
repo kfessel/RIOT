@@ -1,3 +1,4 @@
 <map id="drivers/include/sdp3x.h" name="drivers/include/sdp3x.h">
-<area shape="rect" id="node2" href="$sdp3x__params_8h.html" title="Device driver params interface for the SDP3x sensor. " alt="" coords="11,80,156,121"/>
+<area shape="rect" id="node1" title="Device driver interface for the SDP3x sensor." alt="" coords="5,5,179,32"/>
+<area shape="rect" id="node2" href="$sdp3x__params_8h.html" title="Device driver params interface for the SDP3x sensor." alt="" coords="11,80,173,121"/>
 </map>

@@ -1,4 +1,7 @@
 <map id="sys/include/net/eui48.h" name="sys/include/net/eui48.h">
-<area shape="rect" id="node3" href="$eui64_8h.html" title="EUI&#45;64 data type definition. " alt="" coords="81,80,168,107"/>
-<area shape="rect" id="node4" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="132,155,219,181"/>
+<area shape="rect" id="node1" title="Definition and IPv6 IID conversion for IEEE EUI&#45;48 identifiers." alt="" coords="5,5,177,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="89,304,160,331"/>
+<area shape="rect" id="node3" href="$eui64_8h.html" title="EUI&#45;64 data type definition." alt="" coords="87,80,181,107"/>
+<area shape="rect" id="node4" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="137,155,235,181"/>
+<area shape="rect" id="node5" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="187,229,286,256"/>
 </map>

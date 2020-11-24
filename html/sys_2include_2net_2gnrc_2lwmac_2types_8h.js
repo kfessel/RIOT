@@ -2,6 +2,7 @@ var sys_2include_2net_2gnrc_2lwmac_2types_8h =
 [
     [ "gnrc_lwmac_timeout_t", "structgnrc__lwmac__timeout__t.html", "structgnrc__lwmac__timeout__t" ],
     [ "lwmac", "structlwmac.html", "structlwmac" ],
+    [ "CONFIG_GNRC_LWMAC_TIMEOUT_COUNT", "group__net__gnrc__lwmac__conf.html#gadd6fa5980244926260905328c2ae54d1", null ],
     [ "GNRC_LWMAC_DUTYCYCLE_ACTIVE", "sys_2include_2net_2gnrc_2lwmac_2types_8h.html#a71fe02587bf3fae9477c984dc6b2c448", null ],
     [ "GNRC_LWMAC_EVENT_RTT_PAUSE", "sys_2include_2net_2gnrc_2lwmac_2types_8h.html#ac13077ae858d1b9eb88ee7aff619e0a3", null ],
     [ "GNRC_LWMAC_EVENT_RTT_RESUME", "sys_2include_2net_2gnrc_2lwmac_2types_8h.html#ad556862346e34da53f99bc28e0a2fcbe", null ],
@@ -16,9 +17,8 @@ var sys_2include_2net_2gnrc_2lwmac_2types_8h =
     [ "GNRC_LWMAC_PHASE_UNINITIALIZED", "sys_2include_2net_2gnrc_2lwmac_2types_8h.html#a6b37aaec1d3b2818745b8cdf802bf975", null ],
     [ "GNRC_LWMAC_RADIO_IS_ON", "sys_2include_2net_2gnrc_2lwmac_2types_8h.html#a4168447cea53dc62cac6e2dc765b837b", null ],
     [ "GNRC_LWMAC_RX_STATE_INITIAL", "sys_2include_2net_2gnrc_2lwmac_2types_8h.html#a77021c9236689f71686935a36dbaa8bd", null ],
-    [ "GNRC_LWMAC_TIMEOUT_COUNT", "sys_2include_2net_2gnrc_2lwmac_2types_8h.html#a9431323da2865ba0bcbab21e6952ec80", null ],
     [ "GNRC_LWMAC_TX_STATE_INITIAL", "sys_2include_2net_2gnrc_2lwmac_2types_8h.html#a45e348e5f6ea5b4225188e05679b23b5", null ],
-    [ "gnrc_lwmac_t", "sys_2include_2net_2gnrc_2lwmac_2types_8h.html#a469f67c66ced0892b037b026687ebd1d", null ],
+    [ "gnrc_lwmac_t", "sys_2include_2net_2gnrc_2lwmac_2types_8h.html#af943bb574cdd937cb4ceeb4a1a713746", null ],
     [ "gnrc_lwmac_rx_state_t", "sys_2include_2net_2gnrc_2lwmac_2types_8h.html#af53b44b1608414502999fbd722adb274", [
       [ "GNRC_LWMAC_RX_STATE_STOPPED", "sys_2include_2net_2gnrc_2lwmac_2types_8h.html#af53b44b1608414502999fbd722adb274aac3f1380b5d0fd55c058136cd30ac535", null ],
       [ "GNRC_LWMAC_RX_STATE_INIT", "sys_2include_2net_2gnrc_2lwmac_2types_8h.html#af53b44b1608414502999fbd722adb274a516016250063cb5d74a644e00c8e1cdc", null ],

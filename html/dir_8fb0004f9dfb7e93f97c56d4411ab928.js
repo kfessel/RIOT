@@ -1,5 +1,6 @@
 var dir_8fb0004f9dfb7e93f97c56d4411ab928 =
 [
+    [ "pktq", "dir_0087fde2b698b7528089c3a540de3e1b.html", "dir_0087fde2b698b7528089c3a540de3e1b" ],
     [ "6lo.h", "6lo_8h.html", [
       [ "gnrc_netif_6lo_t", "structgnrc__netif__6lo__t.html", "structgnrc__netif__6lo__t" ]
     ] ],
@@ -14,5 +15,6 @@ var dir_8fb0004f9dfb7e93f97c56d4411ab928 =
     [ "lorawan.h", "netif_2lorawan_8h.html", "netif_2lorawan_8h" ],
     [ "lorawan_base.h", "lorawan__base_8h.html", "lorawan__base_8h" ],
     [ "mac.h", "netif_2mac_8h.html", "netif_2mac_8h" ],
+    [ "pktq.h", "pktq_8h.html", "pktq_8h" ],
     [ "raw.h", "net_2gnrc_2netif_2raw_8h.html", "net_2gnrc_2netif_2raw_8h" ]
 ];

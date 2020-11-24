@@ -1,11 +1,12 @@
 <map id="sys/include/trickle.h" name="sys/include/trickle.h">
-<area shape="rect" id="node2" href="$dodag_8h.html" title="DODAG&#45;related functions for RPL. " alt="" coords="24,177,163,218"/>
-<area shape="rect" id="node3" href="$rpl_8h.html" title="RPL header. " alt="" coords="24,273,163,315"/>
-<area shape="rect" id="node4" href="$structs_8h.html" title="RPL data structs. " alt="" coords="319,80,457,121"/>
-<area shape="rect" id="node5" href="$of__manager_8h.html" title="RPL Objective functions manager header. " alt="" coords="237,177,376,218"/>
-<area shape="rect" id="node6" href="$p2p_8h.html" title="Definititions for P2P&#45;RPL. " alt="" coords="669,273,808,315"/>
-<area shape="rect" id="node7" href="$p2p__structs_8h.html" title="P2P&#45;RPL data structs. " alt="" coords="776,177,915,218"/>
-<area shape="rect" id="node9" href="$validation_8h.html" title="RPL control message validation functions. " alt="" coords="400,169,539,225"/>
-<area shape="rect" id="node10" href="$of0_8h.html" title="Objective Function Zero. " alt="" coords="563,177,701,218"/>
-<area shape="rect" id="node8" href="$p2p__dodag_8h.html" title="DODAG&#45;related functions for P2P&#45;RPL. " alt="" coords="832,273,971,315"/>
+<area shape="rect" id="node1" title="Trickle timer interface definition." alt="" coords="24,5,176,32"/>
+<area shape="rect" id="node2" href="$dodag_8h.html" title="DODAG&#45;related functions for RPL." alt="" coords="24,177,176,218"/>
+<area shape="rect" id="node3" href="$rpl_8h.html" title="RPL header. Declaration of global variables and functions needed for core functionality of RPL." alt="" coords="24,273,176,315"/>
+<area shape="rect" id="node4" href="$structs_8h.html" title="RPL data structs." alt="" coords="340,80,492,121"/>
+<area shape="rect" id="node5" href="$of__manager_8h.html" title="RPL Objective functions manager header." alt="" coords="251,177,403,218"/>
+<area shape="rect" id="node6" href="$p2p_8h.html" title="Definititions for P2P&#45;RPL." alt="" coords="720,273,872,315"/>
+<area shape="rect" id="node7" href="$p2p__structs_8h.html" title="P2P&#45;RPL data structs." alt="" coords="834,177,986,218"/>
+<area shape="rect" id="node9" href="$validation_8h.html" title="RPL control message validation functions." alt="" coords="428,169,584,225"/>
+<area shape="rect" id="node10" href="$of0_8h.html" title="Objective Function Zero." alt="" coords="608,177,758,218"/>
+<area shape="rect" id="node8" href="$p2p__dodag_8h.html" title="DODAG&#45;related functions for P2P&#45;RPL." alt="" coords="896,273,1048,315"/>
 </map>

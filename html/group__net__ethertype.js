@@ -1,5 +1,6 @@
 var group__net__ethertype =
 [
+    [ "Custom ethertype", "group__net__ethertype__custom__config.html", "group__net__ethertype__custom__config" ],
     [ "ethertype.h", "ethertype_8h.html", null ],
     [ "ETHERTYPE_6LOENC", "group__net__ethertype.html#ga6114eca24a70e08449e888e4adf1c035", null ],
     [ "ETHERTYPE_ARP", "group__net__ethertype.html#ga58349316842ce4bdc5ff10568ec5dc31", null ],

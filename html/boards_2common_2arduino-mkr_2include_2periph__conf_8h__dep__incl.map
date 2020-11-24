@@ -1,3 +1,4 @@
 <map id="boards/common/arduino&#45;mkr/include/periph_conf.h" name="boards/common/arduino&#45;mkr/include/periph_conf.h">
-<area shape="rect" id="node2" href="$arduino-mkr_2include_2board__common_8h.html" title="Board specific definitions for the Arduino MKR board. " alt="" coords="5,95,203,136"/>
+<area shape="rect" id="node1" title="Configuration of CPU peripherals for Arduino MKR boards." alt="" coords="19,5,213,47"/>
+<area shape="rect" id="node2" href="$arduino-mkr_2include_2board__common_8h.html" title="Board specific definitions for the Arduino MKR board." alt="" coords="5,95,227,136"/>
 </map>

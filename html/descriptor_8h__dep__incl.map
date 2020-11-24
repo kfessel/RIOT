@@ -1,9 +1,10 @@
 <map id="sys/include/usb/descriptor.h" name="sys/include/usb/descriptor.h">
-<area shape="rect" id="node2" href="$cdc_8h.html" title="Definition for USB CDC interfaces. " alt="" coords="51,80,200,107"/>
-<area shape="rect" id="node5" href="$ecm_8h.html" title="Interface and definitions for USB CDC ECM type interfaces. " alt="" coords="471,244,623,285"/>
-<area shape="rect" id="node6" href="$usbus_8h.html" title="USBUS basic interface. " alt="" coords="267,80,429,107"/>
-<area shape="rect" id="node3" href="$acm_8h.html" title="Interface and definitions for USB CDC ACM type interfaces in USBUS. " alt="" coords="5,155,157,196"/>
-<area shape="rect" id="node4" href="$usb__board__reset__internal_8h.html" title="sys/include/usb_board\l_reset_internal.h" alt="" coords="5,244,157,285"/>
-<area shape="rect" id="node7" href="$control_8h.html" title="USBUS control endpoint module. " alt="" coords="181,155,333,196"/>
-<area shape="rect" id="node8" href="$usb_2usbus_2fmt_8h.html" title="USBUS descriptor formatter functions. " alt="" coords="357,155,509,196"/>
+<area shape="rect" id="node1" title="Definitions for USB protocol messages." alt="" coords="271,5,474,32"/>
+<area shape="rect" id="node2" href="$cdc_8h.html" title="Definition for USB CDC interfaces." alt="" coords="55,80,215,107"/>
+<area shape="rect" id="node5" href="$ecm_8h.html" title="Interface and definitions for USB CDC ECM type interfaces." alt="" coords="503,244,667,285"/>
+<area shape="rect" id="node6" href="$usbus_8h.html" title="USBUS basic interface." alt="" coords="285,80,461,107"/>
+<area shape="rect" id="node3" href="$acm_8h.html" title="Interface and definitions for USB CDC ACM type interfaces in USBUS." alt="" coords="7,155,171,196"/>
+<area shape="rect" id="node4" href="$usb__board__reset__internal_8h.html" title=" " alt="" coords="5,244,172,285"/>
+<area shape="rect" id="node7" href="$control_8h.html" title="USBUS control endpoint module." alt="" coords="195,155,359,196"/>
+<area shape="rect" id="node8" href="$usb_2usbus_2fmt_8h.html" title="USBUS descriptor formatter functions." alt="" coords="383,155,547,196"/>
 </map>

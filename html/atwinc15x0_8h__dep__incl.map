@@ -1,3 +1,4 @@
 <map id="drivers/include/atwinc15x0.h" name="drivers/include/atwinc15x0.h">
-<area shape="rect" id="node2" href="$atwinc15x0__internal_8h.html" title="Internal definitions for the ATWINC15x0 WiFi netdev driver. " alt="" coords="30,80,167,136"/>
+<area shape="rect" id="node1" title="Netdev Driver for the Microchip ATWINC15x0 WiFi Module." alt="" coords="5,5,215,32"/>
+<area shape="rect" id="node2" href="$atwinc15x0__internal_8h.html" title="Internal definitions for the ATWINC15x0 WiFi netdev driver." alt="" coords="34,80,186,136"/>
 </map>

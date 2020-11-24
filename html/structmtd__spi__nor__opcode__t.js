@@ -1,7 +1,7 @@
 var structmtd__spi__nor__opcode__t =
 [
-    [ "block_erase", "structmtd__spi__nor__opcode__t.html#ae46f800c7b42ad747c00fad9bc436252", null ],
     [ "block_erase_32k", "structmtd__spi__nor__opcode__t.html#a5916a6c57d52e6d74f71a939c38a1f6d", null ],
+    [ "block_erase_64k", "structmtd__spi__nor__opcode__t.html#ab04caecd50eb8571a272014e7fcf8596", null ],
     [ "chip_erase", "structmtd__spi__nor__opcode__t.html#a901ead7b51c7cf93f41e7d469fc595bd", null ],
     [ "page_program", "structmtd__spi__nor__opcode__t.html#a8af08f0967f056abf4ce3a4cb68082cc", null ],
     [ "rdid", "structmtd__spi__nor__opcode__t.html#af51dbf25ff0b397c32f32e6b43e35f9d", null ],

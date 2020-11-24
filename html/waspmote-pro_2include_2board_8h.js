@@ -1,5 +1,9 @@
 var waspmote_pro_2include_2board_8h =
 [
+    [ "CONFIG_ZTIMER_USEC_DEV", "waspmote-pro_2include_2board_8h.html#a2378d153069150591eb7fa2082f573d9", null ],
+    [ "CONFIG_ZTIMER_USEC_FREQ", "waspmote-pro_2include_2board_8h.html#ab6d4952eed71e522883e3bc1bb164e1e", null ],
+    [ "CONFIG_ZTIMER_USEC_TYPE", "waspmote-pro_2include_2board_8h.html#ae3245610b3181dbfab13ae3e5fae7e37", null ],
+    [ "CONFIG_ZTIMER_USEC_WIDTH", "waspmote-pro_2include_2board_8h.html#af7c54257ec2503e81286ed45eebc33f3", null ],
     [ "CPU_ATMEGA_CLK_SCALE_INIT", "waspmote-pro_2include_2board_8h.html#a787ae00d4e6ae62a5d1c61a224bddea7", null ],
     [ "LED0_ENABLE_PORT", "waspmote-pro_2include_2board_8h.html#afc7f19e5d1e407f03044614b54481ec3", null ],
     [ "LED0_OFF", "waspmote-pro_2include_2board_8h.html#aef2e39b9fd343d0e437fac0463f3e02d", null ],
@@ -49,6 +53,7 @@ var waspmote_pro_2include_2board_8h =
     [ "STDIO_UART_BAUDRATE", "waspmote-pro_2include_2board_8h.html#ab2f12549369d69d3db8f38d49c8ca507", null ],
     [ "XTIMER_BACKOFF", "waspmote-pro_2include_2board_8h.html#a370b9e9a079c4cb4f54fd947b67b9f41", null ],
     [ "XTIMER_HZ", "waspmote-pro_2include_2board_8h.html#af68fde6b7d5b362834e6a8d382c6c0d7", null ],
+    [ "XTIMER_ISR_BACKOFF", "waspmote-pro_2include_2board_8h.html#aa1be564fc21297d7c1c8be267cbd36f6", null ],
     [ "XTIMER_WIDTH", "waspmote-pro_2include_2board_8h.html#afea1be2406d45b8fbb1dca1a318ac2dc", null ],
     [ "board_init", "waspmote-pro_2include_2board_8h.html#a916f2adc2080b4fe88034086d107a8dc", null ]
 ];

@@ -1,6 +1,9 @@
 <map id="sys/include/xtimer/tick_conversion.h" name="sys/include/xtimer/tick_conversion.h">
-<area shape="rect" id="node2" href="$div_8h.html" title="div.h" alt="" coords="84,95,135,121"/>
-<area shape="rect" id="node3" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="29,169,99,196"/>
-<area shape="rect" id="node4" href="$panic_8h.html" title="Crash handling header. " alt="" coords="32,244,96,271"/>
-<area shape="rect" id="node5" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="5,319,123,345"/>
+<area shape="rect" id="node1" title="xtimer tick &lt;&#45;&gt; seconds conversions for different values of XTIMER_HZ" alt="" coords="57,5,200,47"/>
+<area shape="rect" id="node2" href="$div_8h.html" title=" " alt="" coords="102,95,155,121"/>
+<area shape="rect" id="node3" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="54,169,129,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="135,393,205,420"/>
+<area shape="rect" id="node4" href="$panic_8h.html" title="Crash handling header." alt="" coords="43,244,113,271"/>
+<area shape="rect" id="node5" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="5,319,135,345"/>
+<area shape="rect" id="node6" title=" " alt="" coords="33,393,107,420"/>
 </map>

@@ -1,4 +1,6 @@
 <map id="sys/include/hashes/sha2xx_common.h" name="sys/include/hashes/sha2xx_common.h">
-<area shape="rect" id="node2" href="$sha224_8h.html" title="Header definitions for the SHA224 hash function. " alt="" coords="5,95,140,136"/>
-<area shape="rect" id="node3" href="$sha256_8h.html" title="Header definitions for the SHA256 hash function. " alt="" coords="164,95,299,136"/>
+<area shape="rect" id="node1" title="Common definitions for the SHA&#45;224/256 hash functions." alt="" coords="87,5,237,47"/>
+<area shape="rect" id="node2" href="$sha224_8h.html" title="Header definitions for the SHA224 hash function." alt="" coords="5,95,151,136"/>
+<area shape="rect" id="node3" href="$sha256_8h.html" title="Header definitions for the SHA256 hash function." alt="" coords="175,95,320,136"/>
+<area shape="rect" id="node4" href="$pbkdf2_8h.html" title="PBKDF2 key derivation implementation." alt="" coords="175,184,320,225"/>
 </map>

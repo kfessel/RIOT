@@ -1,5 +1,4 @@
 <map id="cpu/fe310/include/context_frame.h" name="cpu/fe310/include/context_frame.h">
-<area shape="rect" id="node3" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="103,95,172,121"/>
-<area shape="rect" id="node4" href="$panic_8h.html" title="Crash handling header. " alt="" coords="105,169,169,196"/>
-<area shape="rect" id="node5" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="79,244,196,271"/>
+<area shape="rect" id="node1" title="Thread context frame stored on stack." alt="" coords="5,5,196,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="65,95,136,121"/>
 </map>

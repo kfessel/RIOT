@@ -1,3 +1,4 @@
 <map id="cpu/msp430fxyz/include/msp430_regs.h" name="cpu/msp430fxyz/include/msp430_regs.h">
-<area shape="rect" id="node2" href="$msp430fxyz_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling. " alt="" coords="5,95,168,136"/>
+<area shape="rect" id="node1" title="Cortex CMSIS style definition of MSP430 registers." alt="" coords="5,5,185,47"/>
+<area shape="rect" id="node2" href="$msp430fxyz_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling." alt="" coords="5,95,185,136"/>
 </map>

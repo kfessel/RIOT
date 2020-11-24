@@ -1,5 +1,6 @@
 <map id="drivers/feetech/include/feetech_protocol.h" name="drivers/feetech/include/feetech_protocol.h">
-<area shape="rect" id="node2" href="$feetech__reader_8h.html" title="Interface definition for Feetech packet reader. " alt="" coords="5,95,159,136"/>
-<area shape="rect" id="node3" href="$feetech__writer_8h.html" title="Interface definition for Feetech packet writer. " alt="" coords="183,95,336,136"/>
-<area shape="rect" id="node4" href="$feetech_8h.html" title="Interface definition for Feetech devices driver. " alt="" coords="360,102,524,129"/>
+<area shape="rect" id="node1" title="Feetech protocol definitions." alt="" coords="200,5,371,47"/>
+<area shape="rect" id="node2" href="$feetech__reader_8h.html" title="Interface definition for Feetech packet reader." alt="" coords="5,95,176,136"/>
+<area shape="rect" id="node3" href="$feetech__writer_8h.html" title="Interface definition for Feetech packet writer." alt="" coords="200,95,371,136"/>
+<area shape="rect" id="node4" href="$feetech_8h.html" title="Interface definition for Feetech devices driver." alt="" coords="395,102,578,129"/>
 </map>

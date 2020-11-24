@@ -1,3 +1,6 @@
 <map id="cpu/cc2538/include/cc2538_gptimer.h" name="cpu/cc2538/include/cc2538_gptimer.h">
-<area shape="rect" id="node3" href="$cc2538_8h.html" title="CC2538 MCU interrupt and register definitions. " alt="" coords="95,95,170,121"/>
+<area shape="rect" id="node1" title="CC2538 General Purpose Timer (GPTIMER) driver." alt="" coords="17,5,163,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" href="$cc2538_8h.html" title="CC2538 MCU interrupt and register definitions." alt="" coords="101,95,181,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="92,169,189,196"/>
 </map>

@@ -1,9 +1,10 @@
 <map id="drivers/include/nvram.h" name="drivers/include/nvram.h">
-<area shape="rect" id="node2" href="$mulle-nvram_8h.html" title="NVRAM offsets for the Eistec Mulle IoT board. " alt="" coords="88,80,229,121"/>
-<area shape="rect" id="node6" href="$ds1307_8h.html" title="DS1307 definitions. " alt="" coords="253,87,416,114"/>
-<area shape="rect" id="node8" href="$nvram-spi_8h.html" title="Device interface for various SPI connected NVRAM. " alt="" coords="440,80,587,121"/>
-<area shape="rect" id="node3" href="$mulle_2include_2board_8h.html" title="Board specific definitions for the Eistec Mulle IoT board. " alt="" coords="88,169,229,211"/>
-<area shape="rect" id="node4" href="$mulle_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="5,259,147,300"/>
-<area shape="rect" id="node5" href="$mulle_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="171,259,312,300"/>
-<area shape="rect" id="node7" href="$ds1307__params_8h.html" title="Default configuration for DS1307 devices. " alt="" coords="259,169,411,211"/>
+<area shape="rect" id="node1" title="Generic non&#45;volatile RAM driver interface." alt="" coords="282,5,458,32"/>
+<area shape="rect" id="node2" href="$mulle-nvram_8h.html" title="NVRAM offsets for the Eistec Mulle IoT board." alt="" coords="96,80,255,121"/>
+<area shape="rect" id="node6" href="$ds1307_8h.html" title="DS1307 definitions." alt="" coords="279,87,461,114"/>
+<area shape="rect" id="node8" href="$nvram-spi_8h.html" title="Device interface for various SPI connected NVRAM." alt="" coords="485,80,649,121"/>
+<area shape="rect" id="node3" href="$mulle_2include_2board_8h.html" title="Board specific definitions for the Eistec Mulle IoT board." alt="" coords="96,169,255,211"/>
+<area shape="rect" id="node4" href="$mulle_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC." alt="" coords="5,259,164,300"/>
+<area shape="rect" id="node5" href="$mulle_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="188,259,347,300"/>
+<area shape="rect" id="node7" href="$ds1307__params_8h.html" title="Default configuration for DS1307 devices." alt="" coords="285,169,455,211"/>
 </map>

@@ -1,7 +1,7 @@
 var ds75lx_8h =
 [
-    [ "DS75LX_OK", "group__drivers__ds75lx.html#ggaf59064efe753e6928fd91539a27503d1a098a1dd0b1dbed96362ebbafb82db8bd", null ],
-    [ "DS75LX_ERR_I2C", "group__drivers__ds75lx.html#ggaf59064efe753e6928fd91539a27503d1a272204c18c08f3a8077281dc5ef24550", null ],
+    [ "DS75LX_OK", "group__drivers__ds75lx.html#gga85c7862086c1f92e4fb4108e176d8140a098a1dd0b1dbed96362ebbafb82db8bd", null ],
+    [ "DS75LX_ERR_I2C", "group__drivers__ds75lx.html#gga85c7862086c1f92e4fb4108e176d8140a272204c18c08f3a8077281dc5ef24550", null ],
     [ "ds75lx_resolution_t", "group__drivers__ds75lx.html#ga918a880a6b673f0f6371f61560f045a7", [
       [ "DS75LX_RESOLUTION_9", "group__drivers__ds75lx.html#gga918a880a6b673f0f6371f61560f045a7aa9af4d2b02c412283e871093f818020b", null ],
       [ "DS75LX_RESOLUTION_10", "group__drivers__ds75lx.html#gga918a880a6b673f0f6371f61560f045a7abdc3ec04e25c6c3ba79f5449a01afcac", null ],

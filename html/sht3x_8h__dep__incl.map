@@ -1,3 +1,4 @@
 <map id="drivers/include/sht3x.h" name="drivers/include/sht3x.h">
-<area shape="rect" id="node2" href="$sht3x__params_8h.html" title="Default configuration for Sensirion SHT30/SHT31/SHT35 devices. " alt="" coords="11,80,153,121"/>
+<area shape="rect" id="node1" title="Device Driver for Sensirion SHT30/SHT31/SHT35 Humidity and Temperature Sensors." alt="" coords="5,5,176,32"/>
+<area shape="rect" id="node2" href="$sht3x__params_8h.html" title="Default configuration for Sensirion SHT30/SHT31/SHT35 devices." alt="" coords="11,80,170,121"/>
 </map>

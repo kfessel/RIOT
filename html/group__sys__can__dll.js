@@ -3,7 +3,7 @@ var group__sys__can__dll =
     [ "can.h", "sys_2include_2can_2can_8h.html", null ],
     [ "device.h", "sys_2include_2can_2device_8h.html", null ],
     [ "dll.h", "dll_8h.html", null ],
-    [ "pkt.h", "include_2can_2pkt_8h.html", null ],
+    [ "pkt.h", "can_2pkt_8h.html", null ],
     [ "raw.h", "can_2raw_8h.html", null ],
     [ "router.h", "router_8h.html", null ],
     [ "can_frame", "structcan__frame.html", [

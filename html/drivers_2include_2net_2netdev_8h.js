@@ -1,19 +1,19 @@
 var drivers_2include_2net_2netdev_8h =
 [
-    [ "netdev_driver_t", "group__drivers__netdev__api.html#ga4cb47b21edc35315143091dfa97652e4", null ],
+    [ "netdev_driver_t", "group__drivers__netdev__api.html#gace9c281c047e2e2a985730d8f649b001", null ],
     [ "netdev_event_cb_t", "group__drivers__netdev__api.html#gad323355be0487ba68c16dea102740275", null ],
     [ "netdev_t", "group__drivers__netdev__api.html#ga14012f723b7591ad2fa42ace34601ac4", null ],
-    [ "NETDEV_TYPE_UNKNOWN", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a4c7c2262c8252cb0205af0f0b55fd586", null ],
-    [ "NETDEV_TYPE_TEST", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a96f7114151111c1ae9679f943acfc6f9", null ],
-    [ "NETDEV_TYPE_RAW", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a36202d93368d81c8db64926184164c6d", null ],
-    [ "NETDEV_TYPE_ETHERNET", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a5dc237a875e06ba3507e5b2b01ee158e", null ],
-    [ "NETDEV_TYPE_IEEE802154", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a24ac796c22d8fcca704a28ee5d35a04f", null ],
-    [ "NETDEV_TYPE_BLE", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a9bc57ab3f3c9bf5552a0181438314c96", null ],
-    [ "NETDEV_TYPE_CC110X", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a9031cac6a6e989d586cc8df64f2ad2e3", null ],
-    [ "NETDEV_TYPE_LORA", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942aba72b68c6c4731e08c1c3aa37462a6e2", null ],
-    [ "NETDEV_TYPE_NRFMIN", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a5c952b459da1609247ce1830fbdf5fe6", null ],
-    [ "NETDEV_TYPE_SLIP", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a5ac8ac3629921f1f152e0f4a822f3370", null ],
-    [ "NETDEV_TYPE_ESP_NOW", "group__drivers__netdev__api.html#gga282841548f1d79a386bbeb4172ebf942a2249d513c8426c14cf44598e8473cd0d", null ],
+    [ "NETDEV_TYPE_UNKNOWN", "group__drivers__netdev__api.html#gga223be06596dd9ff740bf0a09c8632294a4c7c2262c8252cb0205af0f0b55fd586", null ],
+    [ "NETDEV_TYPE_TEST", "group__drivers__netdev__api.html#gga223be06596dd9ff740bf0a09c8632294a96f7114151111c1ae9679f943acfc6f9", null ],
+    [ "NETDEV_TYPE_RAW", "group__drivers__netdev__api.html#gga223be06596dd9ff740bf0a09c8632294a36202d93368d81c8db64926184164c6d", null ],
+    [ "NETDEV_TYPE_ETHERNET", "group__drivers__netdev__api.html#gga223be06596dd9ff740bf0a09c8632294a5dc237a875e06ba3507e5b2b01ee158e", null ],
+    [ "NETDEV_TYPE_IEEE802154", "group__drivers__netdev__api.html#gga223be06596dd9ff740bf0a09c8632294a24ac796c22d8fcca704a28ee5d35a04f", null ],
+    [ "NETDEV_TYPE_BLE", "group__drivers__netdev__api.html#gga223be06596dd9ff740bf0a09c8632294a9bc57ab3f3c9bf5552a0181438314c96", null ],
+    [ "NETDEV_TYPE_CC110X", "group__drivers__netdev__api.html#gga223be06596dd9ff740bf0a09c8632294a9031cac6a6e989d586cc8df64f2ad2e3", null ],
+    [ "NETDEV_TYPE_LORA", "group__drivers__netdev__api.html#gga223be06596dd9ff740bf0a09c8632294aba72b68c6c4731e08c1c3aa37462a6e2", null ],
+    [ "NETDEV_TYPE_NRFMIN", "group__drivers__netdev__api.html#gga223be06596dd9ff740bf0a09c8632294a5c952b459da1609247ce1830fbdf5fe6", null ],
+    [ "NETDEV_TYPE_SLIP", "group__drivers__netdev__api.html#gga223be06596dd9ff740bf0a09c8632294a5ac8ac3629921f1f152e0f4a822f3370", null ],
+    [ "NETDEV_TYPE_ESP_NOW", "group__drivers__netdev__api.html#gga223be06596dd9ff740bf0a09c8632294a2249d513c8426c14cf44598e8473cd0d", null ],
     [ "netdev_event_t", "group__drivers__netdev__api.html#gaef91a5201cb4a25d1c3ef41b783a395b", [
       [ "NETDEV_EVENT_ISR", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395ba168994cf166acb43cd2a84d3d6ffb3b2", null ],
       [ "NETDEV_EVENT_RX_STARTED", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395ba89aecdc8f6cad116c5cc960d000f9674", null ],
@@ -31,7 +31,19 @@ var drivers_2include_2net_2netdev_8h =
       [ "NETDEV_EVENT_FHSS_CHANGE_CHANNEL", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395ba78ad65eb223df7bc239fa7b8802611c3", null ],
       [ "NETDEV_EVENT_CAD_DONE", "group__drivers__netdev__api.html#ggaef91a5201cb4a25d1c3ef41b783a395bafc1fd5cc76d7fb9a42eb45042dbdeca0", null ]
     ] ],
+    [ "netdev_type_t", "group__drivers__netdev__api.html#gabf6e398293fe72dc6936cf7e828841fb", [
+      [ "NETDEV_ANY", "group__drivers__netdev__api.html#ggabf6e398293fe72dc6936cf7e828841fba8c6ddb6ad8b83296e833f14d8ec2574d", null ],
+      [ "NETDEV_AT86RF215", "group__drivers__netdev__api.html#ggabf6e398293fe72dc6936cf7e828841fba8de0351335b27a38126f5e1880bdd57c", null ],
+      [ "NETDEV_AT86RF2XX", "group__drivers__netdev__api.html#ggabf6e398293fe72dc6936cf7e828841fbad20f5de8ec55e098e95a1912b9841ecc", null ],
+      [ "NETDEV_CC2538", "group__drivers__netdev__api.html#ggabf6e398293fe72dc6936cf7e828841fbadd23d457607031f8ef60da638c9fc09e", null ],
+      [ "NETDEV_DOSE", "group__drivers__netdev__api.html#ggabf6e398293fe72dc6936cf7e828841fbaf83a4911cd89d830c8fe199e1a0f5c7e", null ],
+      [ "NETDEV_ENC28J60", "group__drivers__netdev__api.html#ggabf6e398293fe72dc6936cf7e828841fbaf48b7555dac1effb65844f83976391af", null ],
+      [ "NETDEV_KW41ZRF", "group__drivers__netdev__api.html#ggabf6e398293fe72dc6936cf7e828841fba968873e1aedc5d727c20c949d9388928", null ],
+      [ "NETDEV_MRF24J40", "group__drivers__netdev__api.html#ggabf6e398293fe72dc6936cf7e828841fba6d1a1987390ed6a09a88e2d473b7402e", null ],
+      [ "NETDEV_NRF802154", "group__drivers__netdev__api.html#ggabf6e398293fe72dc6936cf7e828841fba23c19cf5694475065c64efbca66a775b", null ]
+    ] ],
     [ "netdev_get_notsup", "group__drivers__netdev__api.html#ga33bcec35f10a62c91e7371018f438e2f", null ],
+    [ "netdev_register", "group__drivers__netdev__api.html#ga969385cab163f1626f6072c2636a252b", null ],
     [ "netdev_set_notsup", "group__drivers__netdev__api.html#gae883bf801aea28c6a11b59929cb8d419", null ],
     [ "netdev_trigger_event_isr", "group__drivers__netdev__api.html#ga0404e4d821b66ea54cb09e16dd93379c", null ]
 ];

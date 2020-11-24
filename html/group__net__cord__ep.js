@@ -2,11 +2,11 @@ var group__net__cord__ep =
 [
     [ "CoRE RD Endpoint Standalone Extension", "group__net__cord__ep__standalone.html", "group__net__cord__ep__standalone" ],
     [ "ep.h", "ep_8h.html", [
-      [ "CORD_EP_OK", "group__net__cord__ep.html#gga9e9505a91a84992d04ba4e85217fb4e4adb8ff3ca88db92fdd3ffb5ecc15eafc7", null ],
-      [ "CORD_EP_TIMEOUT", "group__net__cord__ep.html#gga9e9505a91a84992d04ba4e85217fb4e4a9075b6569a73475e7e3d9a88cc6bb99a", null ],
-      [ "CORD_EP_ERR", "group__net__cord__ep.html#gga9e9505a91a84992d04ba4e85217fb4e4a13495960588dc1c086e69b8970054cf2", null ],
-      [ "CORD_EP_NORD", "group__net__cord__ep.html#gga9e9505a91a84992d04ba4e85217fb4e4a1767ca243ee776673cc5aeb4e823f0f9", null ],
-      [ "CORD_EP_OVERFLOW", "group__net__cord__ep.html#gga9e9505a91a84992d04ba4e85217fb4e4a5062bc82245314e8e1b433bd6fdf83b8", null ]
+      [ "CORD_EP_OK", "group__net__cord__ep.html#gga07422cff4c3dd5075f91f87bd0e57ee7adb8ff3ca88db92fdd3ffb5ecc15eafc7", null ],
+      [ "CORD_EP_TIMEOUT", "group__net__cord__ep.html#gga07422cff4c3dd5075f91f87bd0e57ee7a9075b6569a73475e7e3d9a88cc6bb99a", null ],
+      [ "CORD_EP_ERR", "group__net__cord__ep.html#gga07422cff4c3dd5075f91f87bd0e57ee7a13495960588dc1c086e69b8970054cf2", null ],
+      [ "CORD_EP_NORD", "group__net__cord__ep.html#gga07422cff4c3dd5075f91f87bd0e57ee7a1767ca243ee776673cc5aeb4e823f0f9", null ],
+      [ "CORD_EP_OVERFLOW", "group__net__cord__ep.html#gga07422cff4c3dd5075f91f87bd0e57ee7a5062bc82245314e8e1b433bd6fdf83b8", null ]
     ] ],
     [ "cord_ep_discover_regif", "group__net__cord__ep.html#gaf2515624046c34accfdee105f636309e", null ],
     [ "cord_ep_dump_status", "group__net__cord__ep.html#ga00aa936cc27e248dda3bf49a3ecdf979", null ],

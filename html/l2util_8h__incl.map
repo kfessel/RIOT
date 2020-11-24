@@ -1,7 +1,13 @@
 <map id="sys/include/net/l2util.h" name="sys/include/net/l2util.h">
-<area shape="rect" id="node3" href="$eui64_8h.html" title="EUI&#45;64 data type definition. " alt="" coords="5,229,92,256"/>
-<area shape="rect" id="node5" href="$ndp_8h.html" title="IPv6 neighbor discovery message type definitions. " alt="" coords="279,80,355,107"/>
-<area shape="rect" id="node4" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="228,304,315,331"/>
-<area shape="rect" id="node6" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses. " alt="" coords="263,155,371,181"/>
-<area shape="rect" id="node9" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions. " alt="" coords="309,229,417,256"/>
+<area shape="rect" id="node1" title="Link&#45;layer helper function definitions." alt="" coords="6,5,175,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="193,453,263,480"/>
+<area shape="rect" id="node3" href="$eui64_8h.html" title="EUI&#45;64 data type definition." alt="" coords="43,229,138,256"/>
+<area shape="rect" id="node6" href="$ndp_8h.html" title="IPv6 neighbor discovery message type definitions." alt="" coords="185,80,268,107"/>
+<area shape="rect" id="node4" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="142,304,239,331"/>
+<area shape="rect" id="node5" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="136,379,235,405"/>
+<area shape="rect" id="node7" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses." alt="" coords="217,155,337,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="267,304,349,331"/>
+<area shape="rect" id="node9" title=" " alt="" coords="315,229,386,256"/>
+<area shape="rect" id="node10" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions." alt="" coords="411,229,531,256"/>
+<area shape="rect" id="node11" title=" " alt="" coords="433,304,508,331"/>
 </map>

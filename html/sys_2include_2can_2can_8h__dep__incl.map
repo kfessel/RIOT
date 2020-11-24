@@ -1,18 +1,23 @@
 <map id="sys/include/can/can.h" name="sys/include/can/can.h">
-<area shape="rect" id="node2" href="$candev_8h.html" title="Definitions for low&#45;level CAN driver interface. " alt="" coords="455,80,585,121"/>
-<area shape="rect" id="node12" href="$can_2raw_8h.html" title="Definitions high&#45;level RAW CAN interface. " alt="" coords="1007,266,1156,293"/>
-<area shape="rect" id="node13" href="$can_2conn_2raw_8h.html" title="Definitions of generic CAN interface. " alt="" coords="1065,348,1210,389"/>
-<area shape="rect" id="node14" href="$conn_2isotp_8h.html" title="Definitions of generic CAN interface. " alt="" coords="1295,169,1441,211"/>
-<area shape="rect" id="node15" href="$isotp_8h.html" title="ISO TP high level interface. " alt="" coords="1231,87,1387,114"/>
-<area shape="rect" id="node16" href="$include_2can_2pkt_8h.html" title="CAN memory allocation module. " alt="" coords="908,87,1055,114"/>
-<area shape="rect" id="node17" href="$router_8h.html" title="Functions for routing RX can frames. " alt="" coords="943,177,1105,203"/>
-<area shape="rect" id="node3" href="$can__esp_8h.html" title="cpu/esp32/include/can\l_esp.h" alt="" coords="5,169,157,211"/>
-<area shape="rect" id="node5" href="$candev__linux_8h.html" title="Implementation of simulated CAN controller driver using SocketCAN on Linux. " alt="" coords="542,169,669,211"/>
-<area shape="rect" id="node7" href="$candev__stm32_8h.html" title="bxCAN specific definitions " alt="" coords="693,169,867,211"/>
-<area shape="rect" id="node8" href="$drivers_2include_2periph_2can_8h.html" title="Low&#45;level CAN peripheral driver interface definitions. " alt="" coords="182,169,327,211"/>
-<area shape="rect" id="node10" href="$sys_2include_2can_2device_8h.html" title="Definitions of CAN device interface. " alt="" coords="351,177,518,203"/>
-<area shape="rect" id="node4" href="$esp32_2include_2can__params_8h.html" title="ESP32 CAN controller driver (esp_can) default parameters. " alt="" coords="169,259,321,300"/>
-<area shape="rect" id="node6" href="$candev__linux__params_8h.html" title="Default linux can config. " alt="" coords="524,259,687,300"/>
-<area shape="rect" id="node9" href="$stm32_2include_2can__params_8h.html" title="STM32 CAN controller driver (bxCAN) default parameters. " alt="" coords="346,259,499,300"/>
-<area shape="rect" id="node11" href="$dll_8h.html" title="Definitions of low&#45;level CAN DLL interface. " alt="" coords="773,266,915,293"/>
+<area shape="rect" id="node1" title="Definitions high&#45;level CAN interface." alt="" coords="1557,5,1718,32"/>
+<area shape="rect" id="node2" href="$candev_8h.html" title="Definitions for low&#45;level CAN driver interface." alt="" coords="822,80,967,121"/>
+<area shape="rect" id="node16" href="$can_2raw_8h.html" title="Definitions high&#45;level RAW CAN interface." alt="" coords="1489,266,1650,293"/>
+<area shape="rect" id="node17" href="$can_2conn_2raw_8h.html" title="Definitions of generic CAN interface." alt="" coords="1549,348,1707,389"/>
+<area shape="rect" id="node18" href="$conn_2isotp_8h.html" title="Definitions of generic CAN interface." alt="" coords="1755,169,1912,211"/>
+<area shape="rect" id="node19" href="$isotp_8h.html" title="ISO TP high level interface." alt="" coords="1776,87,1947,114"/>
+<area shape="rect" id="node20" href="$can_2pkt_8h.html" title="CAN memory allocation module." alt="" coords="1390,87,1549,114"/>
+<area shape="rect" id="node21" href="$router_8h.html" title="Functions for routing RX can frames." alt="" coords="1422,177,1599,203"/>
+<area shape="rect" id="node3" href="$can__esp_8h.html" title=" " alt="" coords="622,169,789,211"/>
+<area shape="rect" id="node5" href="$candev__linux_8h.html" title="Implementation of simulated CAN controller driver using SocketCAN on Linux." alt="" coords="1205,169,1347,211"/>
+<area shape="rect" id="node7" href="$candev__stm32_8h.html" title="bxCAN specific definitions" alt="" coords="405,169,597,211"/>
+<area shape="rect" id="node8" href="$candev__mcp2515_8h.html" title="Definition of the implementation of the CAN controller driver." alt="" coords="211,169,381,211"/>
+<area shape="rect" id="node12" href="$drivers_2include_2periph_2can_8h.html" title="Low&#45;level CAN peripheral driver interface definitions." alt="" coords="813,169,976,211"/>
+<area shape="rect" id="node14" href="$sys_2include_2can_2device_8h.html" title="Definitions of CAN device interface." alt="" coords="1000,177,1181,203"/>
+<area shape="rect" id="node4" href="$esp32_2include_2can__params_8h.html" title="ESP32 CAN controller driver (esp_can) default parameters." alt="" coords="758,259,925,300"/>
+<area shape="rect" id="node6" href="$native_2include_2can__params_8h.html" title="Default linux can config." alt="" coords="1141,259,1283,300"/>
+<area shape="rect" id="node9" href="$mcp2515__params_8h.html" title="Parameters for the CAN driver implementation." alt="" coords="519,259,702,300"/>
+<area shape="rect" id="node10" href="$mcp2515_8h.html" title="Driver for the Microchip MCP2515 can controller." alt="" coords="225,266,431,293"/>
+<area shape="rect" id="node11" href="$mcp2515__spi_8h.html" title="Driver for the Microchip MCP2515 can controller." alt="" coords="5,259,200,300"/>
+<area shape="rect" id="node13" href="$stm32_2include_2can__params_8h.html" title="STM32 CAN controller driver (bxCAN) default parameters." alt="" coords="949,259,1117,300"/>
+<area shape="rect" id="node15" href="$dll_8h.html" title="Definitions of low&#45;level CAN DLL interface." alt="" coords="1307,266,1461,293"/>
 </map>

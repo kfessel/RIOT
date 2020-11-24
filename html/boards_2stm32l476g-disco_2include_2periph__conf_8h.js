@@ -1,5 +1,6 @@
 var boards_2stm32l476g_disco_2include_2periph__conf_8h =
 [
+    [ "CONFIG_BOARD_HAS_LSE", "boards_2stm32l476g-disco_2include_2periph__conf_8h.html#acd2b9746c0b67c8fb0de7b7f01ac92f8", null ],
     [ "TIMER_0_ISR", "boards_2stm32l476g-disco_2include_2periph__conf_8h.html#a4c490d334538c05373718609ca5fe2d4", null ],
     [ "TIMER_NUMOF", "boards_2stm32l476g-disco_2include_2periph__conf_8h.html#a6e2f66f5b6f5c835dd11f9766c4ed897", null ],
     [ "UART_0_ISR", "boards_2stm32l476g-disco_2include_2periph__conf_8h.html#a713e03d19734d793baee3d1cc25c2dbb", null ],

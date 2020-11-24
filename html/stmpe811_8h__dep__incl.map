@@ -1,4 +1,5 @@
 <map id="drivers/include/stmpe811.h" name="drivers/include/stmpe811.h">
-<area shape="rect" id="node2" href="$stmpe811__constants_8h.html" title="Constants for STMPE811. " alt="" coords="5,80,172,121"/>
-<area shape="rect" id="node3" href="$stmpe811__params_8h.html" title="Default configuration for STMPE811. " alt="" coords="65,169,232,211"/>
+<area shape="rect" id="node1" title=" " alt="" coords="65,5,263,32"/>
+<area shape="rect" id="node2" href="$stmpe811__constants_8h.html" title="Constants for STMPE811." alt="" coords="5,80,192,121"/>
+<area shape="rect" id="node3" href="$stmpe811__params_8h.html" title="Default configuration for STMPE811." alt="" coords="71,169,257,211"/>
 </map>

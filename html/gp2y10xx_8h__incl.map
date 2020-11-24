@@ -1,0 +1,10 @@
+<map id="drivers/include/gp2y10xx.h" name="drivers/include/gp2y10xx.h">
+<area shape="rect" id="node1" title="GP2Y10xx device driver." alt="" coords="99,5,297,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,155,76,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="341,80,423,107"/>
+<area shape="rect" id="node4" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="83,80,185,107"/>
+<area shape="rect" id="node8" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="210,80,317,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="100,155,171,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="195,155,300,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="325,155,434,181"/>
+</map>

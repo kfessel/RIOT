@@ -1,5 +1,10 @@
 <map id="drivers/include/ads101x.h" name="drivers/include/ads101x.h">
-<area shape="rect" id="node2" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition. " alt="" coords="232,80,321,107"/>
-<area shape="rect" id="node9" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="422,80,518,107"/>
-<area shape="rect" id="node8" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="207,155,346,181"/>
+<area shape="rect" id="node1" title="ADS101x/111x ADC device driver." alt="" coords="196,5,385,32"/>
+<area shape="rect" id="node2" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition." alt="" coords="179,80,277,107"/>
+<area shape="rect" id="node8" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="301,80,408,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="105,155,175,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,155,80,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="199,155,270,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="295,155,404,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="429,155,534,181"/>
 </map>

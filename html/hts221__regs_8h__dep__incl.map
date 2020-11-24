@@ -1,4 +1,5 @@
 <map id="drivers/hts221/include/hts221_regs.h" name="drivers/hts221/include/hts221_regs.h">
-<area shape="rect" id="node2" href="$hts221__params_8h.html" title="Default configuration for ST HTS221 devices. " alt="" coords="5,169,155,211"/>
-<area shape="rect" id="node3" href="$hts221_8h.html" title="Interface definition for the ST HTS221 driver. " alt="" coords="59,95,219,121"/>
+<area shape="rect" id="node1" title="Register definitions for ST HTS221 devices." alt="" coords="69,5,236,47"/>
+<area shape="rect" id="node2" href="$hts221__params_8h.html" title="Default configuration for ST HTS221 devices." alt="" coords="5,169,172,211"/>
+<area shape="rect" id="node3" href="$hts221_8h.html" title="Interface definition for the ST HTS221 driver." alt="" coords="63,95,242,121"/>
 </map>

@@ -1,0 +1,11 @@
+<map id="cpu/stm32/include/clk/f0/cfg_clock_default.h" name="cpu/stm32/include/clk/f0/cfg_clock_default.h">
+<area shape="rect" id="node1" title="Default clock configuration for STM32F0." alt="" coords="660,5,829,47"/>
+<area shape="rect" id="node2" href="$boards_2nucleo-f030r8_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f030r8 board." alt="" coords="5,102,169,143"/>
+<area shape="rect" id="node3" href="$boards_2nucleo-f031k6_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f031k6 board." alt="" coords="193,102,357,143"/>
+<area shape="rect" id="node4" href="$boards_2nucleo-f042k6_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f042k6 board." alt="" coords="381,102,545,143"/>
+<area shape="rect" id="node5" href="$boards_2nucleo-f070rb_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f070rb board." alt="" coords="569,102,733,143"/>
+<area shape="rect" id="node6" href="$boards_2nucleo-f072rb_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f072rb board." alt="" coords="757,102,921,143"/>
+<area shape="rect" id="node7" href="$boards_2nucleo-f091rc_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f091rc board." alt="" coords="945,102,1109,143"/>
+<area shape="rect" id="node8" href="$boards_2stm32f030f4-demo_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the stm32f030f4&#45;demo board." alt="" coords="1134,95,1294,151"/>
+<area shape="rect" id="node9" href="$boards_2stm32f0discovery_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the STM32F0discovery board." alt="" coords="1318,102,1505,143"/>
+</map>

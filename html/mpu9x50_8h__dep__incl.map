@@ -1,3 +1,4 @@
 <map id="drivers/include/mpu9x50.h" name="drivers/include/mpu9x50.h">
-<area shape="rect" id="node2" href="$mpu9x50__params_8h.html" title="Default configuration for MPU9X50 (MPU9150 and MPU9250) devices. " alt="" coords="11,80,174,121"/>
+<area shape="rect" id="node1" title="Device driver interface for the MPU&#45;9X50 (MPU9150 and MPU9250)" alt="" coords="5,5,200,32"/>
+<area shape="rect" id="node2" href="$mpu9x50__params_8h.html" title="Default configuration for MPU9X50 (MPU9150 and MPU9250) devices." alt="" coords="11,80,194,121"/>
 </map>

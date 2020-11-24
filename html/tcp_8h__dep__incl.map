@@ -1,3 +1,4 @@
 <map id="sys/include/net/tcp.h" name="sys/include/net/tcp.h">
-<area shape="rect" id="node2" href="$option_8h.html" title="TCP option handling declarations. " alt="" coords="5,80,180,121"/>
+<area shape="rect" id="node1" title="TCP header and helper functions." alt="" coords="12,5,168,32"/>
+<area shape="rect" id="node2" href="$gnrc__tcp__option_8h.html" title="TCP option handling declarations." alt="" coords="5,80,175,136"/>
 </map>

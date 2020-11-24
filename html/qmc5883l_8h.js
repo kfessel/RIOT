@@ -1,11 +1,11 @@
 var qmc5883l_8h =
 [
     [ "QMC5883L_ADDR", "group__drivers__qmc5883l.html#gaaabcbdf1659e744611f2b0b476c91bf4", null ],
-    [ "QMC5883L_OK", "group__drivers__qmc5883l.html#gga173f34c053cf8ba70e5f775cd03196f4aca91b7829c15c9e1cd9189c92a6a70ef", null ],
-    [ "QMC5883L_NODATA", "group__drivers__qmc5883l.html#gga173f34c053cf8ba70e5f775cd03196f4af91f3a59f3440457b2790f3f18c8c897", null ],
-    [ "QMC5883L_OVERFLOW", "group__drivers__qmc5883l.html#gga173f34c053cf8ba70e5f775cd03196f4aeaf4920b13c2454f1cca8c62bd221ba1", null ],
-    [ "QMC5883L_BUSERR", "group__drivers__qmc5883l.html#gga173f34c053cf8ba70e5f775cd03196f4a0c4ede693865a7cd9a2b0d7b7b3c56a4", null ],
-    [ "QMC5883L_NOCFG", "group__drivers__qmc5883l.html#gga173f34c053cf8ba70e5f775cd03196f4af5650a24c957dad9f00d9056d2e6293e", null ],
+    [ "QMC5883L_OK", "group__drivers__qmc5883l.html#gga2b3c23b1a8c9aa351c7a12978c443dfbaca91b7829c15c9e1cd9189c92a6a70ef", null ],
+    [ "QMC5883L_NODATA", "group__drivers__qmc5883l.html#gga2b3c23b1a8c9aa351c7a12978c443dfbaf91f3a59f3440457b2790f3f18c8c897", null ],
+    [ "QMC5883L_OVERFLOW", "group__drivers__qmc5883l.html#gga2b3c23b1a8c9aa351c7a12978c443dfbaeaf4920b13c2454f1cca8c62bd221ba1", null ],
+    [ "QMC5883L_BUSERR", "group__drivers__qmc5883l.html#gga2b3c23b1a8c9aa351c7a12978c443dfba0c4ede693865a7cd9a2b0d7b7b3c56a4", null ],
+    [ "QMC5883L_NOCFG", "group__drivers__qmc5883l.html#gga2b3c23b1a8c9aa351c7a12978c443dfbaf5650a24c957dad9f00d9056d2e6293e", null ],
     [ "qmc5883l_odr_t", "group__drivers__qmc5883l.html#ga9b309fb78b36f074ed8b5b9ff07cd497", [
       [ "QMC5883L_ODR_10HZ", "group__drivers__qmc5883l.html#gga9b309fb78b36f074ed8b5b9ff07cd497add21c0a687ade247d4d92fced6235b94", null ],
       [ "QMC5883L_ODR_50HZ", "group__drivers__qmc5883l.html#gga9b309fb78b36f074ed8b5b9ff07cd497a79fce4d7797423703679f63f49234e3e", null ],

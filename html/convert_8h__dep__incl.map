@@ -1,5 +1,6 @@
 <map id="sys/include/ztimer/convert.h" name="sys/include/ztimer/convert.h">
-<area shape="rect" id="node2" href="$convert__frac_8h.html" title="ztimer_convert_frac interface definitions " alt="" coords="5,95,133,136"/>
-<area shape="rect" id="node3" href="$convert__muldiv64_8h.html" title="ztimer frequency conversion module API " alt="" coords="181,95,320,136"/>
-<area shape="rect" id="node4" href="$convert__shift_8h.html" title="ztimer_convert_shift interface definitions " alt="" coords="344,95,472,136"/>
+<area shape="rect" id="node1" title="ztimer frequency conversion base module" alt="" coords="201,5,343,47"/>
+<area shape="rect" id="node2" href="$convert__frac_8h.html" title="ztimer_convert_frac interface definitions" alt="" coords="5,95,147,136"/>
+<area shape="rect" id="node3" href="$convert__muldiv64_8h.html" title="ztimer frequency conversion module API" alt="" coords="195,95,349,136"/>
+<area shape="rect" id="node4" href="$convert__shift_8h.html" title="ztimer_convert_shift interface definitions" alt="" coords="373,95,515,136"/>
 </map>

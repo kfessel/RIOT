@@ -1,3 +1,4 @@
 <map id="drivers/bmp180/include/bmp180_internals.h" name="drivers/bmp180/include/bmp180_internals.h">
-<area shape="rect" id="node2" href="$bmp180__params_8h.html" title="Default configuration for BMP180. " alt="" coords="5,95,161,136"/>
+<area shape="rect" id="node1" title="Internal addresses, registers, constants for the BMP180 sensor." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" href="$bmp180__params_8h.html" title="Default configuration for BMP180." alt="" coords="5,95,180,136"/>
 </map>

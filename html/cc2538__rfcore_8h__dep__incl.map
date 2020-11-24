@@ -1,3 +1,4 @@
 <map id="cpu/cc2538/include/cc2538_rfcore.h" name="cpu/cc2538/include/cc2538_rfcore.h">
-<area shape="rect" id="node2" href="$cc2538_2include_2cpu__conf_8h.html" title="Implementation specific CPU configuration options. " alt="" coords="5,95,140,136"/>
+<area shape="rect" id="node1" title="CC2538 RF core interface." alt="" coords="5,5,152,47"/>
+<area shape="rect" id="node2" href="$cc2538_2include_2cpu__conf_8h.html" title="Implementation specific CPU configuration options." alt="" coords="5,95,152,136"/>
 </map>

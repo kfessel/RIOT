@@ -1,7 +1,7 @@
 var structztimer__mock__t =
 [
     [ "armed", "structztimer__mock__t.html#afc621602990e577a24554871aba47ad6", null ],
-    [ "calls", "structztimer__mock__t.html#a4c00c04df33128f89eeedfdcfceb54d4", null ],
+    [ "calls", "structztimer__mock__t.html#a70c9ccb1c72e10bb3da8c92818748d5a", null ],
     [ "cancel", "structztimer__mock__t.html#a824da145e3cbb51b0532f7a45a903ae8", null ],
     [ "mask", "structztimer__mock__t.html#af477f1afc265735a20cc8d97b2098e6b", null ],
     [ "now", "structztimer__mock__t.html#a4ba599d52e0bde9d47d70fd972c87c9a", null ],

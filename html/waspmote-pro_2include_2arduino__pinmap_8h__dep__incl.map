@@ -1,0 +1,19 @@
+<map id="boards/waspmote&#45;pro/include/arduino_pinmap.h" name="boards/waspmote&#45;pro/include/arduino_pinmap.h">
+<area shape="rect" id="node1" title="Mapping from MCU pins to Arduino pins for Waspmote Pro board." alt="" coords="666,5,861,47"/>
+<area shape="rect" id="node2" href="$arduino-mkr1000_2include_2board_8h.html" title="Board specific definitions for the Arduino MKR1000 board." alt="" coords="5,102,188,143"/>
+<area shape="rect" id="node3" href="$arduino-mkrfox1200_2include_2board_8h.html" title="Board specific definitions for the Arduino MKRFOX1200 board." alt="" coords="213,102,415,143"/>
+<area shape="rect" id="node4" href="$arduino-mkrwan1300_2include_2board_8h.html" title="Support for the Arduino MKRWAN1300 board." alt="" coords="440,102,649,143"/>
+<area shape="rect" id="node5" href="$arduino-mkrzero_2include_2board_8h.html" title="Board specific definitions for the Arduino MKRZERO board." alt="" coords="674,102,853,143"/>
+<area shape="rect" id="node6" href="$arduino__board__common_8h.html" title="Common board for the Arduino API." alt="" coords="877,95,1047,151"/>
+<area shape="rect" id="node14" href="$esp32_2include_2board__common_8h.html" title="Board definitions that are common for all ESP32 boards." alt="" coords="1072,102,1263,143"/>
+<area shape="rect" id="node15" href="$waspmote-pro_2include_2arduino__board_8h.html" title="Configuration of the Arduino API for Waspmote Pro board." alt="" coords="1509,102,1692,143"/>
+<area shape="rect" id="node7" href="$esp32-heltec-lora32-v2_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API." alt="" coords="205,199,399,255"/>
+<area shape="rect" id="node8" href="$esp32-mh-et-live-minikit_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API." alt="" coords="423,199,576,255"/>
+<area shape="rect" id="node9" href="$esp32-olimex-evb_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API." alt="" coords="600,199,759,255"/>
+<area shape="rect" id="node10" href="$esp32-ttgo-t-beam_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API." alt="" coords="783,199,951,255"/>
+<area shape="rect" id="node11" href="$esp32-wemos-lolin-d32-pro_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API." alt="" coords="976,199,1137,255"/>
+<area shape="rect" id="node12" href="$esp32-wroom-32_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API." alt="" coords="1161,199,1320,255"/>
+<area shape="rect" id="node13" href="$esp32-wrover-kit_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API." alt="" coords="1344,199,1503,255"/>
+<area shape="rect" id="node16" href="$arduino_8hpp.html" title="Main interface definition of the Arduino API." alt="" coords="1527,206,1675,247"/>
+<area shape="rect" id="node17" href="$spiport_8hpp.html" title="Definition of the Arduino &#39;SPI&#39; interface." alt="" coords="1699,206,1847,247"/>
+</map>

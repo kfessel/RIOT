@@ -1,13 +1,14 @@
 <map id="sys/include/usb.h" name="sys/include/usb.h">
-<area shape="rect" id="node2" href="$usbdev_8h.html" title="Definitions low&#45;level USB driver interface. " alt="" coords="419,80,564,121"/>
-<area shape="rect" id="node6" href="$usbus_8h.html" title="USBUS basic interface. " alt="" coords="606,177,769,203"/>
-<area shape="rect" id="node12" href="$cdc_8h.html" title="Definition for USB CDC interfaces. " alt="" coords="757,87,906,114"/>
-<area shape="rect" id="node3" href="$nrfusb_8h.html" title="USB interface functions for the nrf52840 class devices. " alt="" coords="204,177,376,203"/>
-<area shape="rect" id="node4" href="$sam__usb_8h.html" title="USB interface functions for the sam0 class devices. " alt="" coords="401,169,582,211"/>
-<area shape="rect" id="node5" href="$usbdev__stm32_8h.html" title="USB interface functions for the stm32 OTG FS/HS class devices. " alt="" coords="5,169,180,211"/>
-<area shape="rect" id="node7" href="$acm_8h.html" title="Interface and definitions for USB CDC ACM type interfaces in USBUS. " alt="" coords="787,259,939,300"/>
-<area shape="rect" id="node9" href="$ecm_8h.html" title="Interface and definitions for USB CDC ECM type interfaces. " alt="" coords="379,348,531,389"/>
-<area shape="rect" id="node10" href="$control_8h.html" title="USBUS control endpoint module. " alt="" coords="435,259,587,300"/>
-<area shape="rect" id="node11" href="$usb_2usbus_2fmt_8h.html" title="USBUS descriptor formatter functions. " alt="" coords="611,259,763,300"/>
-<area shape="rect" id="node8" href="$usb__board__reset__internal_8h.html" title="sys/include/usb_board\l_reset_internal.h" alt="" coords="787,348,939,389"/>
+<area shape="rect" id="node1" title="Definition of global compile time configuration options." alt="" coords="682,5,817,32"/>
+<area shape="rect" id="node2" href="$usbdev_8h.html" title="Definitions low&#45;level USB driver interface." alt="" coords="456,80,619,121"/>
+<area shape="rect" id="node6" href="$usbus_8h.html" title="USBUS basic interface." alt="" coords="661,177,837,203"/>
+<area shape="rect" id="node12" href="$cdc_8h.html" title="Definition for USB CDC interfaces." alt="" coords="821,87,981,114"/>
+<area shape="rect" id="node3" href="$nrfusb_8h.html" title="USB interface functions for the nrf52840 class devices." alt="" coords="222,177,413,203"/>
+<area shape="rect" id="node4" href="$sam__usb_8h.html" title="USB interface functions for the sam0 class devices." alt="" coords="437,169,637,211"/>
+<area shape="rect" id="node5" href="$usbdev__stm32_8h.html" title="USB interface functions for the stm32 OTG FS/HS class devices." alt="" coords="5,169,197,211"/>
+<area shape="rect" id="node7" href="$acm_8h.html" title="Interface and definitions for USB CDC ACM type interfaces in USBUS." alt="" coords="855,259,1019,300"/>
+<area shape="rect" id="node9" href="$ecm_8h.html" title="Interface and definitions for USB CDC ECM type interfaces." alt="" coords="419,348,583,389"/>
+<area shape="rect" id="node10" href="$control_8h.html" title="USBUS control endpoint module." alt="" coords="479,259,643,300"/>
+<area shape="rect" id="node11" href="$usb_2usbus_2fmt_8h.html" title="USBUS descriptor formatter functions." alt="" coords="667,259,831,300"/>
+<area shape="rect" id="node8" href="$usb__board__reset__internal_8h.html" title=" " alt="" coords="854,348,1021,389"/>
 </map>

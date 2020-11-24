@@ -1,3 +1,4 @@
 <map id="drivers/include/sds011.h" name="drivers/include/sds011.h">
-<area shape="rect" id="node2" href="$sds011__params_8h.html" title="SDS011 sensor specific configuration. " alt="" coords="11,80,163,121"/>
+<area shape="rect" id="node1" title="Interface for controlling SDS011 Laser Dust Sensor." alt="" coords="5,5,185,32"/>
+<area shape="rect" id="node2" href="$sds011__params_8h.html" title="SDS011 sensor specific configuration." alt="" coords="11,80,179,121"/>
 </map>

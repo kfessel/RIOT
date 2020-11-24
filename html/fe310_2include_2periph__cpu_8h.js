@@ -18,6 +18,12 @@ var fe310_2include_2periph__cpu_8h =
     [ "PERIPH_SPI_NEEDS_TRANSFER_REGS", "fe310_2include_2periph__cpu_8h.html#afeb6291046cbd0102e8c87af75e4200d", null ],
     [ "PERIPH_TIMER_PROVIDES_SET", "fe310_2include_2periph__cpu_8h.html#afd04a76b55e9fef358e904400cde4db7", null ],
     [ "PROVIDES_PM_SET_LOWEST", "fe310_2include_2periph__cpu_8h.html#a04211208eb7863ce1c522440a91c745c", null ],
+    [ "RTT_CLOCK_FREQUENCY", "fe310_2include_2periph__cpu_8h.html#a599739d7c50c77442f6c0fc8f50488d1", null ],
+    [ "RTT_FREQUENCY", "fe310_2include_2periph__cpu_8h.html#afec7c948b8c70db3c9394fc3dc145a99", null ],
+    [ "RTT_INTR_PRIORITY", "fe310_2include_2periph__cpu_8h.html#ac91b29bf80f58030decd7a89d9fa6e8d", null ],
+    [ "RTT_MAX_FREQUENCY", "fe310_2include_2periph__cpu_8h.html#a062fc1b3bb06996dd08f8c5ab52912f1", null ],
+    [ "RTT_MAX_VALUE", "fe310_2include_2periph__cpu_8h.html#a57f384110fe2e8f4b3c4b9ba246517c6", null ],
+    [ "RTT_MIN_FREQUENCY", "fe310_2include_2periph__cpu_8h.html#a639ca831f0c64ac1e563dc2b8946d1b8", null ],
     [ "UART_ISR_PRIO", "fe310_2include_2periph__cpu_8h.html#a0e6aeafc4d9a14a110272119da810588", null ],
     [ "WDT_HAS_STOP", "fe310_2include_2periph__cpu_8h.html#aeb358111eba1eb3ba04b65fe1fad0749", null ],
     [ "WDT_INTR_PRIORITY", "fe310_2include_2periph__cpu_8h.html#a76a12cd265ea44c982ba405a840eed78", null ]

@@ -24,7 +24,7 @@ var candev__stm32_8h =
     [ "ISR_CAN3_SCE", "candev__stm32_8h.html#a700e35cb316a09aac0f85bc0d7ca6d5a", null ],
     [ "ISR_CAN3_TX", "candev__stm32_8h.html#a889e81e4693082cdf72d9a42fd4612ad", null ],
     [ "can_t", "candev__stm32_8h.html#a61345f5fff169e11c88d5166bb7632a1", null ],
-    [ "candev_stm32_isr_t", "candev__stm32_8h.html#a99eb63017ffccb062dec606133c2f026", null ],
-    [ "candev_stm32_rx_fifo_t", "candev__stm32_8h.html#aa1c5ec382495396b2043d2b58d3b577c", null ],
+    [ "candev_stm32_isr_t", "candev__stm32_8h.html#aa24457d6fa1a8cc976a551d8b201e927", null ],
+    [ "candev_stm32_rx_fifo_t", "candev__stm32_8h.html#a90f75897a8dc56c6a43d76ae50cdd90a", null ],
     [ "candev_stm32_set_pins", "candev__stm32_8h.html#a849a6ced7cb0b22ca736735e3d1335fd", null ]
 ];

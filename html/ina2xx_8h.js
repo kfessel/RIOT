@@ -1,11 +1,11 @@
 var ina2xx_8h =
 [
-    [ "ina2xx_badc_t", "group__drivers__ina2xx.html#ga8ab2cd7a989cc9fa4d62ec24fe013c49", null ],
-    [ "ina2xx_brng_t", "group__drivers__ina2xx.html#gadd2b4e97657a331480c4088acf41101a", null ],
-    [ "ina2xx_i_range_t", "group__drivers__ina2xx.html#gaa2c2c5db14786ad6e545a7f49a039822", null ],
-    [ "ina2xx_mode_t", "group__drivers__ina2xx.html#ga831a27e02c2ba5abbb1b5bb06bbf71de", null ],
-    [ "ina2xx_pga_t", "group__drivers__ina2xx.html#ga7f8f7a9a3286306403d51a908c7164f0", null ],
-    [ "ina2xx_sadc_t", "group__drivers__ina2xx.html#ga5297040a8b113b7482b8182e7f02ddd6", null ],
+    [ "ina2xx_badc_t", "group__drivers__ina2xx.html#ga35c4f95dd210615981aa94656620f56c", null ],
+    [ "ina2xx_brng_t", "group__drivers__ina2xx.html#gae5d64dc803ccce9e669a2a601ff9132b", null ],
+    [ "ina2xx_i_range_t", "group__drivers__ina2xx.html#ga3ad6dface454c8bc5c8846379b2eadac", null ],
+    [ "ina2xx_mode_t", "group__drivers__ina2xx.html#ga00286a50d0b1c72f0192a5da25518c22", null ],
+    [ "ina2xx_pga_t", "group__drivers__ina2xx.html#ga84fcfb8471455b1611b41e21d65ef58e", null ],
+    [ "ina2xx_sadc_t", "group__drivers__ina2xx.html#ga5a1997eb723996a216661ecab84e61af", null ],
     [ "ina2xx_badc", "group__drivers__ina2xx.html#gaa7f6844f7ae64eea73bb8de793f1cc2c", [
       [ "INA2XX_BADC_9BIT", "group__drivers__ina2xx.html#ggaa7f6844f7ae64eea73bb8de793f1cc2caffe67e51f2191928d9cae46c90f1ff12", null ],
       [ "INA2XX_BADC_10BIT", "group__drivers__ina2xx.html#ggaa7f6844f7ae64eea73bb8de793f1cc2caa62ed8488537c87d1a9ab8921b447728", null ],

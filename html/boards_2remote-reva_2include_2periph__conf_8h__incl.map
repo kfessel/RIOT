@@ -1,5 +1,12 @@
 <map id="boards/remote&#45;reva/include/periph_conf.h" name="boards/remote&#45;reva/include/periph_conf.h">
-<area shape="rect" id="node2" href="$cfg__adc__default_8h.html" title="Common default ADC configuration for the RE&#45;Mote board revision A. " alt="" coords="157,95,282,121"/>
-<area shape="rect" id="node4" href="$cfg__clk__default_8h.html" title="Default clock configuration for cc2538 based boards. " alt="" coords="756,95,877,121"/>
-<area shape="rect" id="node10" href="$cfg__uart__default_8h.html" title="Common default UART configuration for the RE&#45;Mote board revision A. " alt="" coords="5,95,132,121"/>
+<area shape="rect" id="node1" title="Peripheral MCU configuration for the RE&#45;Mote board revision A." alt="" coords="395,5,559,47"/>
+<area shape="rect" id="node2" href="$cfg__adc__default_8h.html" title="Common default ADC configuration for the RE&#45;Mote board revision A." alt="" coords="169,95,307,121"/>
+<area shape="rect" id="node4" href="$cfg__clk__default_8h.html" title="Default clock configuration for cc2538 based boards." alt="" coords="819,95,953,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="331,95,465,121"/>
+<area shape="rect" id="node8" title=" " alt="" coords="489,95,622,121"/>
+<area shape="rect" id="node9" title=" " alt="" coords="646,95,795,121"/>
+<area shape="rect" id="node10" href="$cfg__uart__default_8h.html" title="Common default UART configuration for the RE&#45;Mote board revision A." alt="" coords="5,95,145,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="185,169,291,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="807,169,877,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="901,169,959,196"/>
 </map>

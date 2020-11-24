@@ -1,2 +1,6 @@
 <map id="boards/pinetime/include/board.h" name="boards/pinetime/include/board.h">
+<area shape="rect" id="node1" title="Board specific configuration for the PineTime." alt="" coords="65,5,243,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,63,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="87,95,221,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="245,95,305,121"/>
 </map>

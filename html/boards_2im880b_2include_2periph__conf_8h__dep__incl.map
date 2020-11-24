@@ -1,3 +1,4 @@
 <map id="boards/im880b/include/periph_conf.h" name="boards/im880b/include/periph_conf.h">
-<area shape="rect" id="node2" href="$im880b_2include_2board_8h.html" title="Support for im880b. " alt="" coords="5,95,157,136"/>
+<area shape="rect" id="node1" title="Peripheral MCU configuration for the im808b board." alt="" coords="5,5,176,47"/>
+<area shape="rect" id="node2" href="$im880b_2include_2board_8h.html" title="Support for im880b." alt="" coords="5,95,176,136"/>
 </map>

@@ -1,3 +1,4 @@
 <map id="drivers/include/at86rf215.h" name="drivers/include/at86rf215.h">
-<area shape="rect" id="node2" href="$at86rf215__internal_8h.html" title="Low&#45;Level functions for the AT86RF215 driver. " alt="" coords="11,80,175,121"/>
+<area shape="rect" id="node1" title="Interface definition for AT86RF215 based drivers." alt="" coords="5,5,203,32"/>
+<area shape="rect" id="node2" href="$at86rf215__internal_8h.html" title="Low&#45;Level functions for the AT86RF215 driver." alt="" coords="11,80,197,121"/>
 </map>

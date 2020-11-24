@@ -1,3 +1,4 @@
 <map id="boards/stm32f3discovery/include/board.h" name="boards/stm32f3discovery/include/board.h">
-<area shape="rect" id="node2" href="$stm32f3discovery_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,95,173,136"/>
+<area shape="rect" id="node1" title="Board specific definitions for the STM32F3Discovery evaluation board." alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node2" href="$stm32f3discovery_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,95,192,136"/>
 </map>

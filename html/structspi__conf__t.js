@@ -39,7 +39,7 @@ var structspi__conf__t =
     [ "pin_cs", "structspi__conf__t.html#afeb453f988eb6d2adb25bec90801c064", null ],
     [ "pin_miso", "structspi__conf__t.html#ad164c5097a356f7e6d689aca7ae4886f", null ],
     [ "pin_mosi", "structspi__conf__t.html#abca93220430f0cd3db6ec2e05c84a7c8", null ],
-    [ "pins", "structspi__conf__t.html#ac146123fcb66edd78dc106f011a523bd", null ],
+    [ "pins", "structspi__conf__t.html#ac088d5ec3c96251a2116f10293bbd075", null ],
     [ "pinsel_clk", "structspi__conf__t.html#a7042cf7c0d3cde2ca5edb6eb1bbd6ec2", null ],
     [ "pinsel_miso", "structspi__conf__t.html#a3bfe7faf772f0af056e764057fcdee7e", null ],
     [ "pinsel_mosi", "structspi__conf__t.html#a93dda206b26fb2b3f2a1dde564479219", null ],

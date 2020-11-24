@@ -1,8 +1,10 @@
 <map id="core/include/sched.h" name="core/include/sched.h">
-<area shape="rect" id="node3" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="5,80,123,107"/>
-<area shape="rect" id="node4" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="197,80,304,107"/>
-<area shape="rect" id="node9" href="$native__sched_8h.html" title="Add definitions required on the native board. " alt="" coords="410,80,521,107"/>
-<area shape="rect" id="node10" href="$clist_8h.html" title="Circular linked list. " alt="" coords="329,80,386,107"/>
-<area shape="rect" id="node6" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="415,155,494,181"/>
-<area shape="rect" id="node11" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="519,155,569,181"/>
+<area shape="rect" id="node1" title="Scheduler API definition." alt="" coords="206,5,361,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="246,155,321,181"/>
+<area shape="rect" id="node3" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="159,80,245,107"/>
+<area shape="rect" id="node4" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="5,80,135,107"/>
+<area shape="rect" id="node6" href="$native__sched_8h.html" title="Add definitions required on the native board." alt="" coords="321,80,441,107"/>
+<area shape="rect" id="node7" href="$clist_8h.html" title="Circular linked list." alt="" coords="465,80,526,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="35,155,105,181"/>
+<area shape="rect" id="node8" href="$list_8h.html" title="Intrusive linked list." alt="" coords="468,155,523,181"/>
 </map>

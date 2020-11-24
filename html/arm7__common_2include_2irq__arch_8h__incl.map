@@ -1,3 +1,6 @@
 <map id="cpu/arm7_common/include/irq_arch.h" name="cpu/arm7_common/include/irq_arch.h">
-<area shape="rect" id="node2" href="$VIC_8h_source.html" title="VIC.h" alt="" coords="100,95,156,121"/>
+<area shape="rect" id="node1" title="Implementation of the kernels irq interface." alt="" coords="5,5,204,47"/>
+<area shape="rect" id="node2" href="$VIC_8h_source.html" title=" " alt="" coords="110,95,166,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="31,169,114,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="139,169,196,196"/>
 </map>

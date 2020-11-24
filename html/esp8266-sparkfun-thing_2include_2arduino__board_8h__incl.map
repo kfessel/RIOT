@@ -1,4 +1,9 @@
 <map id="boards/esp8266&#45;sparkfun&#45;thing/include/arduino_board.h" name="boards/esp8266&#45;sparkfun&#45;thing/include/arduino_board.h">
-<area shape="rect" id="node2" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,109,189,136"/>
-<area shape="rect" id="node6" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="213,109,307,136"/>
+<area shape="rect" id="node1" title="Board specific configuration for the Arduino API." alt="" coords="123,5,310,61"/>
+<area shape="rect" id="node2" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="99,109,206,136"/>
+<area shape="rect" id="node6" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="231,109,333,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,184,76,211"/>
+<area shape="rect" id="node4" title=" " alt="" coords="100,184,205,211"/>
+<area shape="rect" id="node5" title=" " alt="" coords="230,184,339,211"/>
+<area shape="rect" id="node7" title=" " alt="" coords="364,184,435,211"/>
 </map>

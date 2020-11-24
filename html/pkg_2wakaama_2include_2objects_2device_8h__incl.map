@@ -1,6 +1,8 @@
 <map id="pkg/wakaama/include/objects/device.h" name="pkg/wakaama/include/objects/device.h">
-<area shape="rect" id="node2" href="$stdio_8h.html" title="stdio.h wrapper for MSP430 " alt="" coords="5,95,67,121"/>
-<area shape="rect" id="node3" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="91,95,155,121"/>
-<area shape="rect" id="node7" href="$lwm2m__client__config_8h.html" title="LwM2M client configurations. " alt="" coords="381,95,536,121"/>
-<area shape="rect" id="node4" href="$malloc_8h.html" title="malloc.h" alt="" coords="87,169,158,196"/>
+<area shape="rect" id="node1" title=" " alt="" coords="144,5,309,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,72,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="97,95,167,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="191,95,262,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="287,95,385,121"/>
+<area shape="rect" id="node6" href="$lwm2m__client__config_8h.html" title="LwM2M client configurations." alt="" coords="409,95,583,121"/>
 </map>

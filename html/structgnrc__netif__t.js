@@ -17,5 +17,6 @@ var structgnrc__netif__t =
     [ "netif", "structgnrc__netif__t.html#a3628afb76c1e226e15b0b6b0cdd74e26", null ],
     [ "ops", "structgnrc__netif__t.html#a1fb8b3d4e737b508c1cd9a675e6d035f", null ],
     [ "pid", "structgnrc__netif__t.html#a48524d59f708cc987051ff1dafe51fe7", null ],
+    [ "send_queue", "structgnrc__netif__t.html#afee7b42c9f4f8c74a1937448791a9c8a", null ],
     [ "sixlo", "structgnrc__netif__t.html#a324b26288c265954ee10a8c1517de6eb", null ]
 ];

@@ -1,3 +1,4 @@
 <map id="drivers/include/ccs811.h" name="drivers/include/ccs811.h">
-<area shape="rect" id="node2" href="$ccs811__params_8h.html" title="Default configuration for AMS CCS811 digital gas sensors. " alt="" coords="11,80,163,121"/>
+<area shape="rect" id="node1" title="Device Driver for AMS CCS811 digital gas sensor." alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node2" href="$ccs811__params_8h.html" title="Default configuration for AMS CCS811 digital gas sensors." alt="" coords="11,80,178,121"/>
 </map>

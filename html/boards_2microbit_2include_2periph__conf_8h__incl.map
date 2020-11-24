@@ -1,4 +1,7 @@
 <map id="boards/microbit/include/periph_conf.h" name="boards/microbit/include/periph_conf.h">
-<area shape="rect" id="node3" href="$cfg__clock__16__0_8h.html" title="Common clock configuration for some nrf51 based boards. " alt="" coords="22,95,146,121"/>
-<area shape="rect" id="node4" href="$cfg__timer__012_8h.html" title="Shared timer peripheral configuration mapping timers 0, 1, and 2. " alt="" coords="171,95,285,121"/>
+<area shape="rect" id="node1" title="Peripheral configuration for the BBC micro:bit." alt="" coords="79,5,254,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="36,169,142,196"/>
+<area shape="rect" id="node3" href="$cfg__clock__16__0_8h.html" title="Common clock configuration for some nrf51 based boards." alt="" coords="22,95,156,121"/>
+<area shape="rect" id="node4" href="$cfg__timer__012_8h.html" title="Shared timer peripheral configuration mapping timers 0, 1, and 2." alt="" coords="180,95,307,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="331,95,460,121"/>
 </map>

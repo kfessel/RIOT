@@ -1,3 +1,4 @@
 <map id="drivers/include/hdc1000.h" name="drivers/include/hdc1000.h">
-<area shape="rect" id="node2" href="$hdc1000__params_8h.html" title="Default configuration for HDC1000 devices. " alt="" coords="11,80,170,121"/>
+<area shape="rect" id="node1" title="Interface definition for the HDC1000 sensor driver." alt="" coords="5,5,195,32"/>
+<area shape="rect" id="node2" href="$hdc1000__params_8h.html" title="Default configuration for HDC1000 devices." alt="" coords="11,80,189,121"/>
 </map>

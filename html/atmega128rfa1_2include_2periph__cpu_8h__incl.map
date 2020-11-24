@@ -1,4 +1,9 @@
 <map id="cpu/atmega128rfa1/include/periph_cpu.h" name="cpu/atmega128rfa1/include/periph_cpu.h">
-<area shape="rect" id="node3" href="$atmega__regs__common_8h.html" title="CMSIS style register definitions for the atmega family. " alt="" coords="183,95,349,121"/>
-<area shape="rect" id="node7" href="$atmega128rfa1_2include_2default__timer__config_8h.html" title="Default timer configuration. " alt="" coords="497,95,648,121"/>
+<area shape="rect" id="node1" title="CPU specific definitions for internal peripheral handling." alt="" coords="275,5,475,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,175,121"/>
+<area shape="rect" id="node3" href="$atmega__regs__common_8h.html" title="CMSIS style register definitions for the atmega family." alt="" coords="199,95,381,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="406,95,515,121"/>
+<area shape="rect" id="node7" href="$atmega128rfa1_2include_2default__timer__config_8h.html" title="Default timer configuration." alt="" coords="540,95,709,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="200,169,271,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="295,169,394,196"/>
 </map>

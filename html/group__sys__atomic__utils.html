@@ -1,0 +1,3317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Utility functions for atomic access</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.powertip.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+    <script src="doxy-jquery.js"></script>
+    <script src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <!-- Bootstrap -->
+    <link href="doxygen.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="riot.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <script>
+            function displaySR(){
+            searchBox.Search();
+            var rhtml=(document.getElementById('MSearchResults').contentWindow.document.body.innerHTML).replace(/href=\"\.\.\//g,'href="');
+            document.getElementById('MSearchResultsWindow').style.display='none';
+            document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
+            document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
+            document.getElementById('doc-content').innerHTML=rhtml;
+            }
+            function modSearch(){
+            if(!searchBox.doxySearch){
+                searchBox.doxySearch=searchBox.Search
+                searchBox.Search= function(){this.doxySearch();
+                var r=document.getElementById('MSearchResultsWindow');console.log(r.style);
+                if(parseInt(r.style.left)<0)r.style.left=0;
+                var x=document.getElementById('MSearchResults');
+                if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                var f=document.getElementById('riot-searchform');
+                if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';}
+            }
+            }
+        </script>
+  </head>
+  <body>
+      <div id="top">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" id="brand-logo" href="http://riot-os.org"><img height="40px" src="riot-logo.svg" /></a>
+              <p class="navbar-text text-center visible-xs">Documentation</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
+              <ul id="riot-navlist" class="nav navbar-nav"></ul>
+              <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
+                    onsubmit="try{
+                        displaySR();
+                    }finally{
+                            return false;
+                    }">
+                 <div class="form-group">
+                   <div id="MSearchBox" class="MSearchBoxActive">
+                     <div class="input-group">
+                       <div class="input-group-addon">
+                         <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
+                       </div>
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event); modSearch();">
+                       <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
+                         <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+<!-- Generated by Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('group__sys__atomic__utils.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#files">Files</a> &#124;
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a>  </div>
+  <div class="headertitle">
+<div class="title">Utility functions for atomic access<div class="ingroups"><a class="el" href="group__sys.html">System</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>This modules adds some utility functions to perform atomic accesses.</p>
+<h1><a class="anchor" id="autotoc_md1469"></a>
+Usage</h1>
+<p>The atomic utilitys allow atomic access to regular variables.</p>
+<div class="fragment"><div class="line">uint32_t global_counter;</div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">void</span> irq_handler(<span class="keywordtype">void</span>)</div>
+<div class="line">{</div>
+<div class="line">    <span class="comment">// No need to use atomic access in IRQ handlers, if other IRQ handlers</span></div>
+<div class="line">    <span class="comment">// never touch global_counter: At the beginning and at the end of every</span></div>
+<div class="line">    <span class="comment">// ISR a memory barrier is in place, so that at the end of the ISR the</span></div>
+<div class="line">    <span class="comment">// memory will be in a state as if all memory accesses within the ISR</span></div>
+<div class="line">    <span class="comment">// took place in sequential order.</span></div>
+<div class="line">    <span class="comment">//</span></div>
+<div class="line">    <span class="comment">// Extra detail only RIOT kernel hackers need to know: If all ISRs</span></div>
+<div class="line">    <span class="comment">// accessing the same variable cannot interrupt each other, atomic</span></div>
+<div class="line">    <span class="comment">// access is still not needed. (Currently only PendSV on ARM can be</span></div>
+<div class="line">    <span class="comment">// interrupted by other IRQs with RIOTs default IRQ priorities. If</span></div>
+<div class="line">    <span class="comment">// application developers modifies those, they can be assumed to know</span></div>
+<div class="line">    <span class="comment">// what they are doing - or to happily face the consequences otherwise.)</span></div>
+<div class="line">    global_counter++;</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">void</span> called_by_thread_a(<span class="keywordtype">void</span>) {</div>
+<div class="line">    <span class="keywordflow">if</span> (<a class="code" href="group__sys__atomic__utils.html#ga94c41458a8bddc3d404a8296813a3f18">atomic_load_u32</a>(&amp;global_counter) &gt; THRESHOLD) {</div>
+<div class="line">        on_threshold_reached();</div>
+<div class="line">        <a class="code" href="group__sys__atomic__utils.html#ga2618b4e5c7f77cd67c5b543966d0e2ba">atomic_store_u32</a>(&amp;global_counter, 0);</div>
+<div class="line">    }</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">void</span> called_by_thread_b(<span class="keywordtype">void</span>) {</div>
+<div class="line">    atomic_add_u32(&amp;global_counter, 42);</div>
+<div class="line">}</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md1470"></a>
+Motivation</h1>
+<p>There are some reasons why these functions might be chosen over the <a href="https://en.cppreference.com/w/c/atomic">C11 Atomic Operations Library</a> in some advanced use cases:</p>
+<ul>
+<li>The functions allow mixing of atomic and non-atomic accesses. E.g. while IRQs are disabled anyway, even plain accesses cannot be interrupted but are often more efficient.</li>
+<li>On platforms not supporting lock-free access, a library call is generated instead. The fallback implementation used here is more efficient in terms of both CPU instructions and ROM size.</li>
+<li>On platforms where some operations can be implemented lock free while others can't, at least LLVM will use the library call even for those accesses that can be implemented lock-free. This is because without assuming how the library call implements atomic access for the other functions, mixing library calls and lock free accesses could result in data corruption. But this implementation resorts to disabling IRQs when lock-free implementations are not possible, which mixes well with lock-free accesses. Thus, additional overhead for atomic accesses is only spent where needed.</li>
+<li>In some cases the fallback implementation performs better than the lock free implementation. E.g. if a specific platform has an atomic compare and swap instruction, this could be used to perform a read-modify-write in a loop until the value initially read was not changed in between. Just disabling IRQs to implement an atomic read-modify-write operation is likely more efficient. C11 atomics will however always use the lock free implementation (if such exists), assuming that this is more efficient. This assumption was made with desktop class hardware in mind, but is not generally true for bare metal targets. These function allow to optimize for the actual hardware RIOT is running on.</li>
+<li>This library provides "semi-atomic" read-modify-write operations, which are useful when at most one thread is ever writing to memory. In that case, only the write part of the read-modify-write operation needs to be performed in an atomic fashion in order for the reading threads to perceive atomic updates of the variable. This is significantly cheaper than atomic read-modify-write operations for many platforms</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md1471"></a>
+Guarantees</h1>
+<ul>
+<li>Every utility function here acts as a barrier for code reordering regarding</li>
+<li>For the <code>atomic_*()</code> family of functions: The whole operation will be done in an non-interruptible fashion</li>
+<li>For the <code>semi_atomic_*()</code> family of functions: The write part of the operation is done atomically. If at most one thread is ever performing changes to a variable using the <code>semi_atomic_()</code> functions, those changes will appear as if they were atomic to all other threads.</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md1472"></a>
+Porting to new CPUs</h1>
+<p>At the bare minimum, create an empty <code>atomic_utils_arch.h</code> file. This will result in the fallback implementations being used.</p>
+<p>To expose lock-free atomic operations, add an implementation to the <code>atomic_utils_arch.h</code> file and disable the fallback implementation by defining <code>HAS_&lt;FN_NAME_ALL_CAPS&gt;</code>, where <code>&lt;FN_NAME_ALL_CAPS&gt;</code> is the name of the function provided in all upper case. E.g. most platforms will be able to provide lock-free reads and writes up to their word size and can expose this as follows for GCC:</p>
+<div class="fragment"><div class="line"><span class="comment">// All the user header boilerplate</span></div>
+<div class="line"><span class="preprocessor">#define HAS_ATOMIC_LOAD_U8</span></div>
+<div class="line"><span class="keyword">static</span> <span class="keyword">inline</span> uint8_t <a class="code" href="group__sys__atomic__utils.html#gad51be61d77e76e3bd12bb933b1824a1e">atomic_load_u8</a>(<span class="keyword">const</span> uint8_t *var)</div>
+<div class="line">{</div>
+<div class="line">    <span class="keywordflow">return</span> __atomic_load_1(var, __ATOMIC_SEQ_CST);</div>
+<div class="line">}</div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#define HAS_ATOMIC_STORE_U8</span></div>
+<div class="line"><span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__sys__atomic__utils.html#ga81b756c86d380c5e7180aaab9b50ba70">atomic_store_u8</a>(uint8_t *dest, uint8_t val)</div>
+<div class="line">{</div>
+<div class="line">    __atomic_store_1(dest, val, __ATOMIC_SEQ_CST);</div>
+<div class="line">}</div>
+</div><!-- fragment --><p>Note: The <code>semi_atomic_*()</code> family of functions is always provided using <code>atomic_*()</code> functions in the cheapest way possible. </p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
+Files</h2></td></tr>
+<tr class="memitem:atomic__utils_8h"><td class="memItemLeft" align="right" valign="top">file &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="atomic__utils_8h.html">atomic_utils.h</a></td></tr>
+<tr class="memdesc:atomic__utils_8h"><td class="mdescLeft">&#160;</td><td class="mdescRight">API of the utility functions for atomic accesses. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structatomic__bit__u8__t.html">atomic_bit_u8_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type specifying a bit in an <code>uint8_t</code>  <a href="structatomic__bit__u8__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structatomic__bit__u16__t.html">atomic_bit_u16_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type specifying a bit in an <code>uint16_t</code>  <a href="structatomic__bit__u16__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structatomic__bit__u32__t.html">atomic_bit_u32_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type specifying a bit in an <code>uint32_t</code>  <a href="structatomic__bit__u32__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structatomic__bit__u64__t.html">atomic_bit_u64_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type specifying a bit in an <code>uint64_t</code>  <a href="structatomic__bit__u64__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ga88fa737059e67b4b17ec980e5877361e"><td class="memItemLeft" align="right" valign="top"><a id="ga88fa737059e67b4b17ec980e5877361e"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga88fa737059e67b4b17ec980e5877361e">CONCAT</a>(a,  b)&#160;&#160;&#160;a ## b</td></tr>
+<tr class="memdesc:ga88fa737059e67b4b17ec980e5877361e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concatenate two tokens. <br /></td></tr>
+<tr class="separator:ga88fa737059e67b4b17ec980e5877361e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa9b95fba4d265eae2e7883b47a5eac1f"><td class="memItemLeft" align="right" valign="top"><a id="gaa9b95fba4d265eae2e7883b47a5eac1f"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gaa9b95fba4d265eae2e7883b47a5eac1f">CONCAT4</a>(a,  b,  c,  d)&#160;&#160;&#160;a ## b ## c ## d</td></tr>
+<tr class="memdesc:gaa9b95fba4d265eae2e7883b47a5eac1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concatenate four tokens. <br /></td></tr>
+<tr class="separator:gaa9b95fba4d265eae2e7883b47a5eac1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga32397410318abfee61e671826748e6dd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga32397410318abfee61e671826748e6dd">ATOMIC_LOAD_IMPL</a>(name,  type)</td></tr>
+<tr class="memdesc:ga32397410318abfee61e671826748e6dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a static inline function implementing <code>atomic_load_u&lt;width&gt;()</code>  <a href="group__sys__atomic__utils.html#ga32397410318abfee61e671826748e6dd">More...</a><br /></td></tr>
+<tr class="separator:ga32397410318abfee61e671826748e6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaeb8122ae7b12f7ae585b3b2a1940fbf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gaaeb8122ae7b12f7ae585b3b2a1940fbf">ATOMIC_STORE_IMPL</a>(name,  type)</td></tr>
+<tr class="memdesc:gaaeb8122ae7b12f7ae585b3b2a1940fbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a static inline function implementing <code>atomic_store_u&lt;width&gt;()</code>  <a href="group__sys__atomic__utils.html#gaaeb8122ae7b12f7ae585b3b2a1940fbf">More...</a><br /></td></tr>
+<tr class="separator:gaaeb8122ae7b12f7ae585b3b2a1940fbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1b761cea579753804788001139cf123f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga1b761cea579753804788001139cf123f">ATOMIC_FETCH_OP_IMPL</a>(opname,  op,  name,  type)</td></tr>
+<tr class="memdesc:ga1b761cea579753804788001139cf123f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a static inline function implementing <code>atomic_fecth_&lt;op&gt;_u&lt;width&gt;()</code>  <a href="group__sys__atomic__utils.html#ga1b761cea579753804788001139cf123f">More...</a><br /></td></tr>
+<tr class="separator:ga1b761cea579753804788001139cf123f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Atomic Loads</h2></td></tr>
+<tr class="memitem:gad51be61d77e76e3bd12bb933b1824a1e"><td class="memItemLeft" align="right" valign="top">static uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gad51be61d77e76e3bd12bb933b1824a1e">atomic_load_u8</a> (const uint8_t *var)</td></tr>
+<tr class="memdesc:gad51be61d77e76e3bd12bb933b1824a1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load an <code>uint8_t</code> atomically.  <a href="group__sys__atomic__utils.html#gad51be61d77e76e3bd12bb933b1824a1e">More...</a><br /></td></tr>
+<tr class="separator:gad51be61d77e76e3bd12bb933b1824a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga005840b004f77cfa8a7e3a19e516a5de"><td class="memItemLeft" align="right" valign="top">static uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga005840b004f77cfa8a7e3a19e516a5de">atomic_load_u16</a> (const uint16_t *var)</td></tr>
+<tr class="memdesc:ga005840b004f77cfa8a7e3a19e516a5de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load an <code>uint16_t</code> atomically.  <a href="group__sys__atomic__utils.html#ga005840b004f77cfa8a7e3a19e516a5de">More...</a><br /></td></tr>
+<tr class="separator:ga005840b004f77cfa8a7e3a19e516a5de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga94c41458a8bddc3d404a8296813a3f18"><td class="memItemLeft" align="right" valign="top">static uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga94c41458a8bddc3d404a8296813a3f18">atomic_load_u32</a> (const uint32_t *var)</td></tr>
+<tr class="memdesc:ga94c41458a8bddc3d404a8296813a3f18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load an <code>uint32_t</code> atomically.  <a href="group__sys__atomic__utils.html#ga94c41458a8bddc3d404a8296813a3f18">More...</a><br /></td></tr>
+<tr class="separator:ga94c41458a8bddc3d404a8296813a3f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9459baee2fd8203763fd25fbea553207"><td class="memItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga9459baee2fd8203763fd25fbea553207">atomic_load_u64</a> (const uint64_t *var)</td></tr>
+<tr class="memdesc:ga9459baee2fd8203763fd25fbea553207"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load an <code>uint64_t</code> atomically.  <a href="group__sys__atomic__utils.html#ga9459baee2fd8203763fd25fbea553207">More...</a><br /></td></tr>
+<tr class="separator:ga9459baee2fd8203763fd25fbea553207"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Atomic Stores</h2></td></tr>
+<tr class="memitem:ga81b756c86d380c5e7180aaab9b50ba70"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga81b756c86d380c5e7180aaab9b50ba70">atomic_store_u8</a> (uint8_t *dest, uint8_t val)</td></tr>
+<tr class="memdesc:ga81b756c86d380c5e7180aaab9b50ba70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store an <code>uint8_t</code> atomically.  <a href="group__sys__atomic__utils.html#ga81b756c86d380c5e7180aaab9b50ba70">More...</a><br /></td></tr>
+<tr class="separator:ga81b756c86d380c5e7180aaab9b50ba70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7597e5488ba1f63913eb6bdb6f13e324"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga7597e5488ba1f63913eb6bdb6f13e324">atomic_store_u16</a> (uint16_t *dest, uint16_t val)</td></tr>
+<tr class="memdesc:ga7597e5488ba1f63913eb6bdb6f13e324"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store an <code>uint16_t</code> atomically.  <a href="group__sys__atomic__utils.html#ga7597e5488ba1f63913eb6bdb6f13e324">More...</a><br /></td></tr>
+<tr class="separator:ga7597e5488ba1f63913eb6bdb6f13e324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2618b4e5c7f77cd67c5b543966d0e2ba"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga2618b4e5c7f77cd67c5b543966d0e2ba">atomic_store_u32</a> (uint32_t *dest, uint32_t val)</td></tr>
+<tr class="memdesc:ga2618b4e5c7f77cd67c5b543966d0e2ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store an <code>uint32_t</code> atomically.  <a href="group__sys__atomic__utils.html#ga2618b4e5c7f77cd67c5b543966d0e2ba">More...</a><br /></td></tr>
+<tr class="separator:ga2618b4e5c7f77cd67c5b543966d0e2ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga38e658faa8086a9d0cab54923c5b1400"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga38e658faa8086a9d0cab54923c5b1400">atomic_store_u64</a> (uint64_t *dest, uint64_t val)</td></tr>
+<tr class="memdesc:ga38e658faa8086a9d0cab54923c5b1400"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store an <code>uint64_t</code> atomically.  <a href="group__sys__atomic__utils.html#ga38e658faa8086a9d0cab54923c5b1400">More...</a><br /></td></tr>
+<tr class="separator:ga38e658faa8086a9d0cab54923c5b1400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Atomic In-Place Addition</h2></td></tr>
+<tr class="memitem:ga0d87980da4180242c77c29a4c78ad216"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga0d87980da4180242c77c29a4c78ad216">atomic_fetch_add_u8</a> (uint8_t *dest, uint8_t summand)</td></tr>
+<tr class="memdesc:ga0d87980da4180242c77c29a4c78ad216"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomically add a value onto a given value.  <a href="group__sys__atomic__utils.html#ga0d87980da4180242c77c29a4c78ad216">More...</a><br /></td></tr>
+<tr class="separator:ga0d87980da4180242c77c29a4c78ad216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5f090bd783d8ea66c4bf8da1f78f84c1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga5f090bd783d8ea66c4bf8da1f78f84c1">atomic_fetch_add_u16</a> (uint16_t *dest, uint16_t summand)</td></tr>
+<tr class="memdesc:ga5f090bd783d8ea66c4bf8da1f78f84c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomically add a value onto a given value.  <a href="group__sys__atomic__utils.html#ga5f090bd783d8ea66c4bf8da1f78f84c1">More...</a><br /></td></tr>
+<tr class="separator:ga5f090bd783d8ea66c4bf8da1f78f84c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2fa8eee41e01458539d6d284b19cf47e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga2fa8eee41e01458539d6d284b19cf47e">atomic_fetch_add_u32</a> (uint32_t *dest, uint32_t summand)</td></tr>
+<tr class="memdesc:ga2fa8eee41e01458539d6d284b19cf47e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomically add a value onto a given value.  <a href="group__sys__atomic__utils.html#ga2fa8eee41e01458539d6d284b19cf47e">More...</a><br /></td></tr>
+<tr class="separator:ga2fa8eee41e01458539d6d284b19cf47e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6c39d5483f5b289124e32e54f3f9fe4b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga6c39d5483f5b289124e32e54f3f9fe4b">atomic_fetch_add_u64</a> (uint64_t *dest, uint64_t summand)</td></tr>
+<tr class="memdesc:ga6c39d5483f5b289124e32e54f3f9fe4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomically add a value onto a given value.  <a href="group__sys__atomic__utils.html#ga6c39d5483f5b289124e32e54f3f9fe4b">More...</a><br /></td></tr>
+<tr class="separator:ga6c39d5483f5b289124e32e54f3f9fe4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Atomic In-Place Subtraction</h2></td></tr>
+<tr class="memitem:ga9a384079247047a7b3fbae25a7d91192"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga9a384079247047a7b3fbae25a7d91192">atomic_fetch_sub_u8</a> (uint8_t *dest, uint8_t subtrahend)</td></tr>
+<tr class="memdesc:ga9a384079247047a7b3fbae25a7d91192"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomically subtract a value from a given value.  <a href="group__sys__atomic__utils.html#ga9a384079247047a7b3fbae25a7d91192">More...</a><br /></td></tr>
+<tr class="separator:ga9a384079247047a7b3fbae25a7d91192"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7511cd07f7abfb6e874b580710a4ff32"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga7511cd07f7abfb6e874b580710a4ff32">atomic_fetch_sub_u16</a> (uint16_t *dest, uint16_t subtrahend)</td></tr>
+<tr class="memdesc:ga7511cd07f7abfb6e874b580710a4ff32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomically subtract a value from a given value.  <a href="group__sys__atomic__utils.html#ga7511cd07f7abfb6e874b580710a4ff32">More...</a><br /></td></tr>
+<tr class="separator:ga7511cd07f7abfb6e874b580710a4ff32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga192980eb0cd3ab83e1093c50a6df7cde"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga192980eb0cd3ab83e1093c50a6df7cde">atomic_fetch_sub_u32</a> (uint32_t *dest, uint32_t subtrahend)</td></tr>
+<tr class="memdesc:ga192980eb0cd3ab83e1093c50a6df7cde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomically subtract a value from a given value.  <a href="group__sys__atomic__utils.html#ga192980eb0cd3ab83e1093c50a6df7cde">More...</a><br /></td></tr>
+<tr class="separator:ga192980eb0cd3ab83e1093c50a6df7cde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga019c038224f12e587ca58904cd0d93b5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga019c038224f12e587ca58904cd0d93b5">atomic_fetch_sub_u64</a> (uint64_t *dest, uint64_t subtrahend)</td></tr>
+<tr class="memdesc:ga019c038224f12e587ca58904cd0d93b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomically subtract a value from a given value.  <a href="group__sys__atomic__utils.html#ga019c038224f12e587ca58904cd0d93b5">More...</a><br /></td></tr>
+<tr class="separator:ga019c038224f12e587ca58904cd0d93b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Atomic In-Place Bitwise OR</h2></td></tr>
+<tr class="memitem:ga5f308f5bf7126723a807a0359a707db0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga5f308f5bf7126723a807a0359a707db0">atomic_fetch_or_u8</a> (uint8_t *dest, uint8_t val)</td></tr>
+<tr class="memdesc:ga5f308f5bf7126723a807a0359a707db0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest |= val</code>  <a href="group__sys__atomic__utils.html#ga5f308f5bf7126723a807a0359a707db0">More...</a><br /></td></tr>
+<tr class="separator:ga5f308f5bf7126723a807a0359a707db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4845c526eb89574d6569d43da38b0246"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga4845c526eb89574d6569d43da38b0246">atomic_fetch_or_u16</a> (uint16_t *dest, uint16_t val)</td></tr>
+<tr class="memdesc:ga4845c526eb89574d6569d43da38b0246"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest |= val</code>  <a href="group__sys__atomic__utils.html#ga4845c526eb89574d6569d43da38b0246">More...</a><br /></td></tr>
+<tr class="separator:ga4845c526eb89574d6569d43da38b0246"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabe887b472b9ed89871007d6f365715d8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gabe887b472b9ed89871007d6f365715d8">atomic_fetch_or_u32</a> (uint32_t *dest, uint32_t val)</td></tr>
+<tr class="memdesc:gabe887b472b9ed89871007d6f365715d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest |= val</code>  <a href="group__sys__atomic__utils.html#gabe887b472b9ed89871007d6f365715d8">More...</a><br /></td></tr>
+<tr class="separator:gabe887b472b9ed89871007d6f365715d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5e6c33a3907bed06af0cfdcf9210c1e0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga5e6c33a3907bed06af0cfdcf9210c1e0">atomic_fetch_or_u64</a> (uint64_t *dest, uint64_t val)</td></tr>
+<tr class="memdesc:ga5e6c33a3907bed06af0cfdcf9210c1e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest |= val</code>  <a href="group__sys__atomic__utils.html#ga5e6c33a3907bed06af0cfdcf9210c1e0">More...</a><br /></td></tr>
+<tr class="separator:ga5e6c33a3907bed06af0cfdcf9210c1e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Atomic In-Place Bitwise XOR</h2></td></tr>
+<tr class="memitem:gaacd850e085a83158df309c21319d7c7b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gaacd850e085a83158df309c21319d7c7b">atomic_fetch_xor_u8</a> (uint8_t *dest, uint8_t val)</td></tr>
+<tr class="memdesc:gaacd850e085a83158df309c21319d7c7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest ^= val</code>  <a href="group__sys__atomic__utils.html#gaacd850e085a83158df309c21319d7c7b">More...</a><br /></td></tr>
+<tr class="separator:gaacd850e085a83158df309c21319d7c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac8b43fc54b0fb7270c5794984a4e6bd3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gac8b43fc54b0fb7270c5794984a4e6bd3">atomic_fetch_xor_u16</a> (uint16_t *dest, uint16_t val)</td></tr>
+<tr class="memdesc:gac8b43fc54b0fb7270c5794984a4e6bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest ^= val</code>  <a href="group__sys__atomic__utils.html#gac8b43fc54b0fb7270c5794984a4e6bd3">More...</a><br /></td></tr>
+<tr class="separator:gac8b43fc54b0fb7270c5794984a4e6bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9397ff156deb3349a8cf7bb7b9c11279"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga9397ff156deb3349a8cf7bb7b9c11279">atomic_fetch_xor_u32</a> (uint32_t *dest, uint32_t val)</td></tr>
+<tr class="memdesc:ga9397ff156deb3349a8cf7bb7b9c11279"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest ^= val</code>  <a href="group__sys__atomic__utils.html#ga9397ff156deb3349a8cf7bb7b9c11279">More...</a><br /></td></tr>
+<tr class="separator:ga9397ff156deb3349a8cf7bb7b9c11279"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad9dc67d7246d661a72d121158bc19ac7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gad9dc67d7246d661a72d121158bc19ac7">atomic_fetch_xor_u64</a> (uint64_t *dest, uint64_t val)</td></tr>
+<tr class="memdesc:gad9dc67d7246d661a72d121158bc19ac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest ^= val</code>  <a href="group__sys__atomic__utils.html#gad9dc67d7246d661a72d121158bc19ac7">More...</a><br /></td></tr>
+<tr class="separator:gad9dc67d7246d661a72d121158bc19ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Atomic In-Place Bitwise AND</h2></td></tr>
+<tr class="memitem:ga7c60065b5a1ba88089ec11e61e691c4c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga7c60065b5a1ba88089ec11e61e691c4c">atomic_fetch_and_u8</a> (uint8_t *dest, uint8_t val)</td></tr>
+<tr class="memdesc:ga7c60065b5a1ba88089ec11e61e691c4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest &amp;= val</code>  <a href="group__sys__atomic__utils.html#ga7c60065b5a1ba88089ec11e61e691c4c">More...</a><br /></td></tr>
+<tr class="separator:ga7c60065b5a1ba88089ec11e61e691c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga456f6d2f2d46a1da8471677c89244ba5"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga456f6d2f2d46a1da8471677c89244ba5">atomic_fetch_and_u16</a> (uint16_t *dest, uint16_t val)</td></tr>
+<tr class="memdesc:ga456f6d2f2d46a1da8471677c89244ba5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest &amp;= val</code>  <a href="group__sys__atomic__utils.html#ga456f6d2f2d46a1da8471677c89244ba5">More...</a><br /></td></tr>
+<tr class="separator:ga456f6d2f2d46a1da8471677c89244ba5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga86fb77a281ffcc144d2def0de8253d74"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga86fb77a281ffcc144d2def0de8253d74">atomic_fetch_and_u32</a> (uint32_t *dest, uint32_t val)</td></tr>
+<tr class="memdesc:ga86fb77a281ffcc144d2def0de8253d74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest &amp;= val</code>  <a href="group__sys__atomic__utils.html#ga86fb77a281ffcc144d2def0de8253d74">More...</a><br /></td></tr>
+<tr class="separator:ga86fb77a281ffcc144d2def0de8253d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2a50d4bed162933285d43131381cea51"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga2a50d4bed162933285d43131381cea51">atomic_fetch_and_u64</a> (uint64_t *dest, uint64_t val)</td></tr>
+<tr class="memdesc:ga2a50d4bed162933285d43131381cea51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest &amp;= val</code>  <a href="group__sys__atomic__utils.html#ga2a50d4bed162933285d43131381cea51">More...</a><br /></td></tr>
+<tr class="separator:ga2a50d4bed162933285d43131381cea51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Helper Functions to Handle Atomic Bit References</h2></td></tr>
+<tr class="memitem:gaf5f465556b9430d41800ecb8d037775c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structatomic__bit__u8__t.html">atomic_bit_u8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gaf5f465556b9430d41800ecb8d037775c">atomic_bit_u8</a> (uint8_t *dest, uint8_t bit)</td></tr>
+<tr class="memdesc:gaf5f465556b9430d41800ecb8d037775c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a reference to a bit in an <code>uint8_t</code>  <a href="group__sys__atomic__utils.html#gaf5f465556b9430d41800ecb8d037775c">More...</a><br /></td></tr>
+<tr class="separator:gaf5f465556b9430d41800ecb8d037775c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga66ddc0265b93e1432c0e9ea86dcfafb3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structatomic__bit__u16__t.html">atomic_bit_u16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga66ddc0265b93e1432c0e9ea86dcfafb3">atomic_bit_u16</a> (uint16_t *dest, uint8_t bit)</td></tr>
+<tr class="memdesc:ga66ddc0265b93e1432c0e9ea86dcfafb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a reference to a bit in an <code>uint16_t</code>  <a href="group__sys__atomic__utils.html#ga66ddc0265b93e1432c0e9ea86dcfafb3">More...</a><br /></td></tr>
+<tr class="separator:ga66ddc0265b93e1432c0e9ea86dcfafb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7de590172dd3365e1a31ba024e9b910c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structatomic__bit__u32__t.html">atomic_bit_u32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga7de590172dd3365e1a31ba024e9b910c">atomic_bit_u32</a> (uint32_t *dest, uint8_t bit)</td></tr>
+<tr class="memdesc:ga7de590172dd3365e1a31ba024e9b910c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a reference to a bit in an <code>uint32_t</code>  <a href="group__sys__atomic__utils.html#ga7de590172dd3365e1a31ba024e9b910c">More...</a><br /></td></tr>
+<tr class="separator:ga7de590172dd3365e1a31ba024e9b910c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaaad392b2093a05a69322c8690215680"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structatomic__bit__u64__t.html">atomic_bit_u64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gaaaad392b2093a05a69322c8690215680">atomic_bit_u64</a> (uint64_t *dest, uint8_t bit)</td></tr>
+<tr class="memdesc:gaaaad392b2093a05a69322c8690215680"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a reference to a bit in an <code>uint64_t</code>  <a href="group__sys__atomic__utils.html#gaaaad392b2093a05a69322c8690215680">More...</a><br /></td></tr>
+<tr class="separator:gaaaad392b2093a05a69322c8690215680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Atomic Bit Setting</h2></td></tr>
+<tr class="memitem:ga199980adf140101189b6a0fa8dcc5283"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga199980adf140101189b6a0fa8dcc5283">atomic_set_bit_u8</a> (<a class="el" href="structatomic__bit__u8__t.html">atomic_bit_u8_t</a> bit)</td></tr>
+<tr class="memdesc:ga199980adf140101189b6a0fa8dcc5283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest |= (1 &lt;&lt; bit)</code>  <a href="group__sys__atomic__utils.html#ga199980adf140101189b6a0fa8dcc5283">More...</a><br /></td></tr>
+<tr class="separator:ga199980adf140101189b6a0fa8dcc5283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad3c3152a9d61224300de93287d4cda0a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gad3c3152a9d61224300de93287d4cda0a">atomic_set_bit_u16</a> (<a class="el" href="structatomic__bit__u16__t.html">atomic_bit_u16_t</a> bit)</td></tr>
+<tr class="memdesc:gad3c3152a9d61224300de93287d4cda0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest |= (1 &lt;&lt; bit)</code>  <a href="group__sys__atomic__utils.html#gad3c3152a9d61224300de93287d4cda0a">More...</a><br /></td></tr>
+<tr class="separator:gad3c3152a9d61224300de93287d4cda0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab2c4ea2f473b15fbdce32d0654831b65"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gab2c4ea2f473b15fbdce32d0654831b65">atomic_set_bit_u32</a> (<a class="el" href="structatomic__bit__u32__t.html">atomic_bit_u32_t</a> bit)</td></tr>
+<tr class="memdesc:gab2c4ea2f473b15fbdce32d0654831b65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest |= (1 &lt;&lt; bit)</code>  <a href="group__sys__atomic__utils.html#gab2c4ea2f473b15fbdce32d0654831b65">More...</a><br /></td></tr>
+<tr class="separator:gab2c4ea2f473b15fbdce32d0654831b65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7cb3b9469378572cbfe18aa64f30561b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga7cb3b9469378572cbfe18aa64f30561b">atomic_set_bit_u64</a> (<a class="el" href="structatomic__bit__u64__t.html">atomic_bit_u64_t</a> bit)</td></tr>
+<tr class="memdesc:ga7cb3b9469378572cbfe18aa64f30561b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest |= (1 &lt;&lt; bit)</code>  <a href="group__sys__atomic__utils.html#ga7cb3b9469378572cbfe18aa64f30561b">More...</a><br /></td></tr>
+<tr class="separator:ga7cb3b9469378572cbfe18aa64f30561b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Atomic Bit Clearing</h2></td></tr>
+<tr class="memitem:ga7f7f2bb48633374855ee6b6701ecd01e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga7f7f2bb48633374855ee6b6701ecd01e">atomic_clear_bit_u8</a> (<a class="el" href="structatomic__bit__u8__t.html">atomic_bit_u8_t</a> bit)</td></tr>
+<tr class="memdesc:ga7f7f2bb48633374855ee6b6701ecd01e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest &amp;= ~(1 &lt;&lt; bit)</code>  <a href="group__sys__atomic__utils.html#ga7f7f2bb48633374855ee6b6701ecd01e">More...</a><br /></td></tr>
+<tr class="separator:ga7f7f2bb48633374855ee6b6701ecd01e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga996dea957e70fb0cb1da9a116a820936"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga996dea957e70fb0cb1da9a116a820936">atomic_clear_bit_u16</a> (<a class="el" href="structatomic__bit__u16__t.html">atomic_bit_u16_t</a> bit)</td></tr>
+<tr class="memdesc:ga996dea957e70fb0cb1da9a116a820936"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest &amp;= ~(1 &lt;&lt; bit)</code>  <a href="group__sys__atomic__utils.html#ga996dea957e70fb0cb1da9a116a820936">More...</a><br /></td></tr>
+<tr class="separator:ga996dea957e70fb0cb1da9a116a820936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga33683b1894e54fa1b9eb36ef796c804a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga33683b1894e54fa1b9eb36ef796c804a">atomic_clear_bit_u32</a> (<a class="el" href="structatomic__bit__u32__t.html">atomic_bit_u32_t</a> bit)</td></tr>
+<tr class="memdesc:ga33683b1894e54fa1b9eb36ef796c804a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest &amp;= ~(1 &lt;&lt; bit)</code>  <a href="group__sys__atomic__utils.html#ga33683b1894e54fa1b9eb36ef796c804a">More...</a><br /></td></tr>
+<tr class="separator:ga33683b1894e54fa1b9eb36ef796c804a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac98e301876d6808872bc2088963473f8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gac98e301876d6808872bc2088963473f8">atomic_clear_bit_u64</a> (<a class="el" href="structatomic__bit__u64__t.html">atomic_bit_u64_t</a> bit)</td></tr>
+<tr class="memdesc:gac98e301876d6808872bc2088963473f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Atomic version of <code>*dest &amp;= ~(1 &lt;&lt; bit)</code>  <a href="group__sys__atomic__utils.html#gac98e301876d6808872bc2088963473f8">More...</a><br /></td></tr>
+<tr class="separator:gac98e301876d6808872bc2088963473f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Semi-Atomic In-Place Addition</h2></td></tr>
+<tr class="memitem:ga7593c39a20cc44e9176cfcb314a0bc88"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga7593c39a20cc44e9176cfcb314a0bc88">semi_atomic_fetch_add_u8</a> (uint8_t *dest, uint8_t summand)</td></tr>
+<tr class="memdesc:ga7593c39a20cc44e9176cfcb314a0bc88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomically add a value onto a given value.  <a href="group__sys__atomic__utils.html#ga7593c39a20cc44e9176cfcb314a0bc88">More...</a><br /></td></tr>
+<tr class="separator:ga7593c39a20cc44e9176cfcb314a0bc88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga392bc4ee3d7eb17f758617223da885b2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga392bc4ee3d7eb17f758617223da885b2">semi_atomic_fetch_add_u16</a> (uint16_t *dest, uint16_t summand)</td></tr>
+<tr class="memdesc:ga392bc4ee3d7eb17f758617223da885b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomically add a value onto a given value.  <a href="group__sys__atomic__utils.html#ga392bc4ee3d7eb17f758617223da885b2">More...</a><br /></td></tr>
+<tr class="separator:ga392bc4ee3d7eb17f758617223da885b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad66bb66d8b7e1ea3dcc41f092faa5186"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gad66bb66d8b7e1ea3dcc41f092faa5186">semi_atomic_fetch_add_u32</a> (uint32_t *dest, uint32_t summand)</td></tr>
+<tr class="memdesc:gad66bb66d8b7e1ea3dcc41f092faa5186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomically add a value onto a given value.  <a href="group__sys__atomic__utils.html#gad66bb66d8b7e1ea3dcc41f092faa5186">More...</a><br /></td></tr>
+<tr class="separator:gad66bb66d8b7e1ea3dcc41f092faa5186"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8c86d2275db5a574f1dcabfb9d350918"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga8c86d2275db5a574f1dcabfb9d350918">semi_atomic_fetch_add_u64</a> (uint64_t *dest, uint64_t summand)</td></tr>
+<tr class="memdesc:ga8c86d2275db5a574f1dcabfb9d350918"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomically add a value onto a given value.  <a href="group__sys__atomic__utils.html#ga8c86d2275db5a574f1dcabfb9d350918">More...</a><br /></td></tr>
+<tr class="separator:ga8c86d2275db5a574f1dcabfb9d350918"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Semi-Atomic In-Place Subtraction</h2></td></tr>
+<tr class="memitem:gad7019c31857f339c29f5ea735f075511"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gad7019c31857f339c29f5ea735f075511">semi_atomic_fetch_sub_u8</a> (uint8_t *dest, uint8_t subtrahend)</td></tr>
+<tr class="memdesc:gad7019c31857f339c29f5ea735f075511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomically subtract a value from a given value.  <a href="group__sys__atomic__utils.html#gad7019c31857f339c29f5ea735f075511">More...</a><br /></td></tr>
+<tr class="separator:gad7019c31857f339c29f5ea735f075511"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadd85852ea827f5ca1c37c538c42ea330"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gadd85852ea827f5ca1c37c538c42ea330">semi_atomic_fetch_sub_u16</a> (uint16_t *dest, uint16_t subtrahend)</td></tr>
+<tr class="memdesc:gadd85852ea827f5ca1c37c538c42ea330"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomically subtract a value from a given value.  <a href="group__sys__atomic__utils.html#gadd85852ea827f5ca1c37c538c42ea330">More...</a><br /></td></tr>
+<tr class="separator:gadd85852ea827f5ca1c37c538c42ea330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1d4ddb0c55f23b295393b31b26309aad"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga1d4ddb0c55f23b295393b31b26309aad">semi_atomic_fetch_sub_u32</a> (uint32_t *dest, uint32_t subtrahend)</td></tr>
+<tr class="memdesc:ga1d4ddb0c55f23b295393b31b26309aad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomically subtract a value from a given value.  <a href="group__sys__atomic__utils.html#ga1d4ddb0c55f23b295393b31b26309aad">More...</a><br /></td></tr>
+<tr class="separator:ga1d4ddb0c55f23b295393b31b26309aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab8f3b7b5092b21d2002e5c070220fd7d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gab8f3b7b5092b21d2002e5c070220fd7d">semi_atomic_fetch_sub_u64</a> (uint64_t *dest, uint64_t subtrahend)</td></tr>
+<tr class="memdesc:gab8f3b7b5092b21d2002e5c070220fd7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomically subtract a value from a given value.  <a href="group__sys__atomic__utils.html#gab8f3b7b5092b21d2002e5c070220fd7d">More...</a><br /></td></tr>
+<tr class="separator:gab8f3b7b5092b21d2002e5c070220fd7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Semi-atomic In-Place Bitwise OR</h2></td></tr>
+<tr class="memitem:ga0e3b66e6e033f694d0e13ea62a060b5e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga0e3b66e6e033f694d0e13ea62a060b5e">semi_atomic_fetch_or_u8</a> (uint8_t *dest, uint8_t val)</td></tr>
+<tr class="memdesc:ga0e3b66e6e033f694d0e13ea62a060b5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomic version of <code>*dest |= val</code>  <a href="group__sys__atomic__utils.html#ga0e3b66e6e033f694d0e13ea62a060b5e">More...</a><br /></td></tr>
+<tr class="separator:ga0e3b66e6e033f694d0e13ea62a060b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga02e81fdc7f25a8a23371f8f7ee573ec0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga02e81fdc7f25a8a23371f8f7ee573ec0">semi_atomic_fetch_or_u16</a> (uint16_t *dest, uint16_t val)</td></tr>
+<tr class="memdesc:ga02e81fdc7f25a8a23371f8f7ee573ec0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomic version of <code>*dest |= val</code>  <a href="group__sys__atomic__utils.html#ga02e81fdc7f25a8a23371f8f7ee573ec0">More...</a><br /></td></tr>
+<tr class="separator:ga02e81fdc7f25a8a23371f8f7ee573ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga77c58a1105f94dd79998fcaf54421c8e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga77c58a1105f94dd79998fcaf54421c8e">semi_atomic_fetch_or_u32</a> (uint32_t *dest, uint32_t val)</td></tr>
+<tr class="memdesc:ga77c58a1105f94dd79998fcaf54421c8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomic version of <code>*dest |= val</code>  <a href="group__sys__atomic__utils.html#ga77c58a1105f94dd79998fcaf54421c8e">More...</a><br /></td></tr>
+<tr class="separator:ga77c58a1105f94dd79998fcaf54421c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga03dc607e0ac785b08428a60f8dc7c3a0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga03dc607e0ac785b08428a60f8dc7c3a0">semi_atomic_fetch_or_u64</a> (uint64_t *dest, uint64_t val)</td></tr>
+<tr class="memdesc:ga03dc607e0ac785b08428a60f8dc7c3a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomic version of <code>*dest |= val</code>  <a href="group__sys__atomic__utils.html#ga03dc607e0ac785b08428a60f8dc7c3a0">More...</a><br /></td></tr>
+<tr class="separator:ga03dc607e0ac785b08428a60f8dc7c3a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Semi-Atomic In-Place Bitwise XOR</h2></td></tr>
+<tr class="memitem:ga942dcf0e6d2d413e3287a99a4aff5b3c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga942dcf0e6d2d413e3287a99a4aff5b3c">semi_atomic_fetch_xor_u8</a> (uint8_t *dest, uint8_t val)</td></tr>
+<tr class="memdesc:ga942dcf0e6d2d413e3287a99a4aff5b3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomic version of <code>*dest ^= val</code>  <a href="group__sys__atomic__utils.html#ga942dcf0e6d2d413e3287a99a4aff5b3c">More...</a><br /></td></tr>
+<tr class="separator:ga942dcf0e6d2d413e3287a99a4aff5b3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4c7d8e96f5c29e23e0a027c6cab92835"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga4c7d8e96f5c29e23e0a027c6cab92835">semi_atomic_fetch_xor_u16</a> (uint16_t *dest, uint16_t val)</td></tr>
+<tr class="memdesc:ga4c7d8e96f5c29e23e0a027c6cab92835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomic version of <code>*dest ^= val</code>  <a href="group__sys__atomic__utils.html#ga4c7d8e96f5c29e23e0a027c6cab92835">More...</a><br /></td></tr>
+<tr class="separator:ga4c7d8e96f5c29e23e0a027c6cab92835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2a748eddbd5a058878a5b370504346e4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga2a748eddbd5a058878a5b370504346e4">semi_atomic_fetch_xor_u32</a> (uint32_t *dest, uint32_t val)</td></tr>
+<tr class="memdesc:ga2a748eddbd5a058878a5b370504346e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomic version of <code>*dest ^= val</code>  <a href="group__sys__atomic__utils.html#ga2a748eddbd5a058878a5b370504346e4">More...</a><br /></td></tr>
+<tr class="separator:ga2a748eddbd5a058878a5b370504346e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5cedf160bbdee22ef70faf99d0e8f89a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga5cedf160bbdee22ef70faf99d0e8f89a">semi_atomic_fetch_xor_u64</a> (uint64_t *dest, uint64_t val)</td></tr>
+<tr class="memdesc:ga5cedf160bbdee22ef70faf99d0e8f89a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomic version of <code>*dest ^= val</code>  <a href="group__sys__atomic__utils.html#ga5cedf160bbdee22ef70faf99d0e8f89a">More...</a><br /></td></tr>
+<tr class="separator:ga5cedf160bbdee22ef70faf99d0e8f89a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
+Semi-Atomic In-Place Bitwise AND</h2></td></tr>
+<tr class="memitem:gaed01fdde1d183ba2c7cfc4a7e3ddb26d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gaed01fdde1d183ba2c7cfc4a7e3ddb26d">semi_atomic_fetch_and_u8</a> (uint8_t *dest, uint8_t val)</td></tr>
+<tr class="memdesc:gaed01fdde1d183ba2c7cfc4a7e3ddb26d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomic version of <code>*dest &amp;= val</code>  <a href="group__sys__atomic__utils.html#gaed01fdde1d183ba2c7cfc4a7e3ddb26d">More...</a><br /></td></tr>
+<tr class="separator:gaed01fdde1d183ba2c7cfc4a7e3ddb26d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3e1af8947a997407bd8b31153a79c833"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga3e1af8947a997407bd8b31153a79c833">semi_atomic_fetch_and_u16</a> (uint16_t *dest, uint16_t val)</td></tr>
+<tr class="memdesc:ga3e1af8947a997407bd8b31153a79c833"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomic version of <code>*dest &amp;= val</code>  <a href="group__sys__atomic__utils.html#ga3e1af8947a997407bd8b31153a79c833">More...</a><br /></td></tr>
+<tr class="separator:ga3e1af8947a997407bd8b31153a79c833"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga589d90fa46a485c4fc58c63fae681abc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#ga589d90fa46a485c4fc58c63fae681abc">semi_atomic_fetch_and_u32</a> (uint32_t *dest, uint32_t val)</td></tr>
+<tr class="memdesc:ga589d90fa46a485c4fc58c63fae681abc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomic version of <code>*dest &amp;= val</code>  <a href="group__sys__atomic__utils.html#ga589d90fa46a485c4fc58c63fae681abc">More...</a><br /></td></tr>
+<tr class="separator:ga589d90fa46a485c4fc58c63fae681abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac6463a4a6f1fa3410ede87a5bb114c63"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__sys__atomic__utils.html#gac6463a4a6f1fa3410ede87a5bb114c63">semi_atomic_fetch_and_u64</a> (uint64_t *dest, uint64_t val)</td></tr>
+<tr class="memdesc:gac6463a4a6f1fa3410ede87a5bb114c63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Semi-atomic version of <code>*dest &amp;= val</code>  <a href="group__sys__atomic__utils.html#gac6463a4a6f1fa3410ede87a5bb114c63">More...</a><br /></td></tr>
+<tr class="separator:gac6463a4a6f1fa3410ede87a5bb114c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ga1b761cea579753804788001139cf123f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1b761cea579753804788001139cf123f">&#9670;&nbsp;</a></span>ATOMIC_FETCH_OP_IMPL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ATOMIC_FETCH_OP_IMPL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">opname, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">op, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">type&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__sys__atomic__utils.html#gaa9b95fba4d265eae2e7883b47a5eac1f">CONCAT4</a>(atomic_fetch_, opname, _, <a class="code" href="structlua__riot__builtin__c.html#a3705939b002f83cfd21e9f112bae4f2b">name</a>)(type *dest,     \</div>
+<div class="line">                                                               type val)       \</div>
+<div class="line">    {                                                                          \</div>
+<div class="line">        unsigned state = <a class="code" href="group__core__irq.html#ga7cb620d77da293d98ccc1715d6cb9a02">irq_disable</a>();                                        \</div>
+<div class="line">        <span class="comment">/* dest can be register allocated, hence the memory barrier of         \</span></div>
+<div class="line"><span class="comment">         * irq_disable() and irq_restore() may not apply here. Using volatile  \</span></div>
+<div class="line"><span class="comment">         * ensures that the compiler allocates it in memory and that the       \</span></div>
+<div class="line"><span class="comment">         * memory access is not optimized out. */</span>                              \</div>
+<div class="line">        volatile type *tmp = dest;                                             \</div>
+<div class="line">        *tmp = *tmp op val;                                                    \</div>
+<div class="line">        irq_restore(state);                                                    \</div>
+<div class="line">    }</div>
+</div><!-- fragment -->
+<p>Generates a static inline function implementing <code>atomic_fecth_&lt;op&gt;_u&lt;width&gt;()</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">opname</td><td>Name of the operator in <code>op</code>, e.g. "and" for <code>+</code> </td></tr>
+    <tr><td class="paramname">op</td><td>Operator to implement atomically, e.g. <code>+</code> </td></tr>
+    <tr><td class="paramname">name</td><td>Name of the variable type, e.g. "u8" </td></tr>
+    <tr><td class="paramname">type</td><td>Variable type, e.g. <code>uint8_t</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00775">775</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga32397410318abfee61e671826748e6dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga32397410318abfee61e671826748e6dd">&#9670;&nbsp;</a></span>ATOMIC_LOAD_IMPL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ATOMIC_LOAD_IMPL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">type&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">static</span> <span class="keyword">inline</span> type <a class="code" href="group__sys__atomic__utils.html#ga88fa737059e67b4b17ec980e5877361e">CONCAT</a>(atomic_load_, <a class="code" href="structlua__riot__builtin__c.html#a3705939b002f83cfd21e9f112bae4f2b">name</a>)(<span class="keyword">const</span> type *var)             \</div>
+<div class="line">    {                                                                          \</div>
+<div class="line">        unsigned state = <a class="code" href="group__core__irq.html#ga7cb620d77da293d98ccc1715d6cb9a02">irq_disable</a>();                                        \</div>
+<div class="line">        <span class="comment">/* var can be register allocated, hence the memory barrier of          \</span></div>
+<div class="line"><span class="comment">         * irq_disable() and irq_restore() may not apply here. Using volatile  \</span></div>
+<div class="line"><span class="comment">         * ensures that the compiler allocates it in memory and that the       \</span></div>
+<div class="line"><span class="comment">         * memory access is not optimized out. */</span>                              \</div>
+<div class="line">        type result = *((<span class="keyword">const</span> <span class="keyword">volatile</span> type *)var);                           \</div>
+<div class="line">        irq_restore(state);                                                    \</div>
+<div class="line">        return result;                                                         \</div>
+<div class="line">    }</div>
+</div><!-- fragment -->
+<p>Generates a static inline function implementing <code>atomic_load_u&lt;width&gt;()</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Name of the variable type, e.g. "u8" </td></tr>
+    <tr><td class="paramname">type</td><td>Variable type, e.g. <code>uint8_t</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00714">714</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="gaaeb8122ae7b12f7ae585b3b2a1940fbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaeb8122ae7b12f7ae585b3b2a1940fbf">&#9670;&nbsp;</a></span>ATOMIC_STORE_IMPL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ATOMIC_STORE_IMPL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">type&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="group__sys__atomic__utils.html#ga88fa737059e67b4b17ec980e5877361e">CONCAT</a>(atomic_store_, <a class="code" href="structlua__riot__builtin__c.html#a3705939b002f83cfd21e9f112bae4f2b">name</a>)(type *dest, type val)       \</div>
+<div class="line">    {                                                                          \</div>
+<div class="line">        unsigned state = <a class="code" href="group__core__irq.html#ga7cb620d77da293d98ccc1715d6cb9a02">irq_disable</a>();                                        \</div>
+<div class="line">        <span class="comment">/* dest can be register allocated, hence the memory barrier of         \</span></div>
+<div class="line"><span class="comment">         * irq_disable() and irq_restore() may not apply here. Using volatile  \</span></div>
+<div class="line"><span class="comment">         * ensures that the compiler allocates it in memory and that the       \</span></div>
+<div class="line"><span class="comment">         * memory access is not optimized out. */</span>                              \</div>
+<div class="line">        *((<span class="keyword">volatile</span> type *)dest) = val;                                        \</div>
+<div class="line">        irq_restore(state);                                                    \</div>
+<div class="line">    }</div>
+</div><!-- fragment -->
+<p>Generates a static inline function implementing <code>atomic_store_u&lt;width&gt;()</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>Name of the variable type, e.g. "u8" </td></tr>
+    <tr><td class="paramname">type</td><td>Variable type, e.g. <code>uint8_t</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00744">744</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga66ddc0265b93e1432c0e9ea86dcfafb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga66ddc0265b93e1432c0e9ea86dcfafb3">&#9670;&nbsp;</a></span>atomic_bit_u16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structatomic__bit__u16__t.html">atomic_bit_u16_t</a> atomic_bit_u16 </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>bit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a reference to a bit in an <code>uint16_t</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>Memory containing the bit </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bit</td><td>Bit number (<code>0</code> refers to the least significant) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00857">857</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga7de590172dd3365e1a31ba024e9b910c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7de590172dd3365e1a31ba024e9b910c">&#9670;&nbsp;</a></span>atomic_bit_u32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structatomic__bit__u32__t.html">atomic_bit_u32_t</a> atomic_bit_u32 </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>bit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a reference to a bit in an <code>uint32_t</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>Memory containing the bit </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bit</td><td>Bit number (<code>0</code> refers to the least significant) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00862">862</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="gaaaad392b2093a05a69322c8690215680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaaaad392b2093a05a69322c8690215680">&#9670;&nbsp;</a></span>atomic_bit_u64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structatomic__bit__u64__t.html">atomic_bit_u64_t</a> atomic_bit_u64 </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>bit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a reference to a bit in an <code>uint64_t</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>Memory containing the bit </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bit</td><td>Bit number (<code>0</code> refers to the least significant) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00867">867</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="gaf5f465556b9430d41800ecb8d037775c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf5f465556b9430d41800ecb8d037775c">&#9670;&nbsp;</a></span>atomic_bit_u8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structatomic__bit__u8__t.html">atomic_bit_u8_t</a> atomic_bit_u8 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>bit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a reference to a bit in an <code>uint8_t</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">dest</td><td>Memory containing the bit </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bit</td><td>Bit number (<code>0</code> refers to the least significant) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00852">852</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga996dea957e70fb0cb1da9a116a820936"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga996dea957e70fb0cb1da9a116a820936">&#9670;&nbsp;</a></span>atomic_clear_bit_u16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_clear_bit_u16 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structatomic__bit__u16__t.html">atomic_bit_u16_t</a>&#160;</td>
+          <td class="paramname"><em>bit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest &amp;= ~(1 &lt;&lt; bit)</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">bit</td><td>bit to set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00892">892</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga33683b1894e54fa1b9eb36ef796c804a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga33683b1894e54fa1b9eb36ef796c804a">&#9670;&nbsp;</a></span>atomic_clear_bit_u32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_clear_bit_u32 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structatomic__bit__u32__t.html">atomic_bit_u32_t</a>&#160;</td>
+          <td class="paramname"><em>bit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest &amp;= ~(1 &lt;&lt; bit)</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">bit</td><td>bit to set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00896">896</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="gac98e301876d6808872bc2088963473f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac98e301876d6808872bc2088963473f8">&#9670;&nbsp;</a></span>atomic_clear_bit_u64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_clear_bit_u64 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structatomic__bit__u64__t.html">atomic_bit_u64_t</a>&#160;</td>
+          <td class="paramname"><em>bit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest &amp;= ~(1 &lt;&lt; bit)</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">bit</td><td>bit to set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00900">900</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga7f7f2bb48633374855ee6b6701ecd01e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7f7f2bb48633374855ee6b6701ecd01e">&#9670;&nbsp;</a></span>atomic_clear_bit_u8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_clear_bit_u8 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structatomic__bit__u8__t.html">atomic_bit_u8_t</a>&#160;</td>
+          <td class="paramname"><em>bit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest &amp;= ~(1 &lt;&lt; bit)</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">bit</td><td>bit to set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00888">888</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga5f090bd783d8ea66c4bf8da1f78f84c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5f090bd783d8ea66c4bf8da1f78f84c1">&#9670;&nbsp;</a></span>atomic_fetch_add_u16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_add_u16 </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>summand</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomically add a value onto a given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Add <code>summand</code> onto this value atomically in-place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">summand</td><td>Value to add onto <code>dest</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2fa8eee41e01458539d6d284b19cf47e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2fa8eee41e01458539d6d284b19cf47e">&#9670;&nbsp;</a></span>atomic_fetch_add_u32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_add_u32 </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>summand</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomically add a value onto a given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Add <code>summand</code> onto this value atomically in-place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">summand</td><td>Value to add onto <code>dest</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6c39d5483f5b289124e32e54f3f9fe4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6c39d5483f5b289124e32e54f3f9fe4b">&#9670;&nbsp;</a></span>atomic_fetch_add_u64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_add_u64 </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>summand</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomically add a value onto a given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Add <code>summand</code> onto this value atomically in-place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">summand</td><td>Value to add onto <code>dest</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga0d87980da4180242c77c29a4c78ad216"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0d87980da4180242c77c29a4c78ad216">&#9670;&nbsp;</a></span>atomic_fetch_add_u8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_add_u8 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>summand</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomically add a value onto a given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Add <code>summand</code> onto this value atomically in-place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">summand</td><td>Value to add onto <code>dest</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga456f6d2f2d46a1da8471677c89244ba5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga456f6d2f2d46a1da8471677c89244ba5">&#9670;&nbsp;</a></span>atomic_fetch_and_u16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_and_u16 </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest &amp;= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest &amp; val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise and into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga86fb77a281ffcc144d2def0de8253d74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga86fb77a281ffcc144d2def0de8253d74">&#9670;&nbsp;</a></span>atomic_fetch_and_u32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_and_u32 </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest &amp;= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest &amp; val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise and into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2a50d4bed162933285d43131381cea51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2a50d4bed162933285d43131381cea51">&#9670;&nbsp;</a></span>atomic_fetch_and_u64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_and_u64 </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest &amp;= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest &amp; val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise and into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7c60065b5a1ba88089ec11e61e691c4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7c60065b5a1ba88089ec11e61e691c4c">&#9670;&nbsp;</a></span>atomic_fetch_and_u8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_and_u8 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest &amp;= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest &amp; val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise and into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4845c526eb89574d6569d43da38b0246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4845c526eb89574d6569d43da38b0246">&#9670;&nbsp;</a></span>atomic_fetch_or_u16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_or_u16 </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest |= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest | val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise or into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gabe887b472b9ed89871007d6f365715d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabe887b472b9ed89871007d6f365715d8">&#9670;&nbsp;</a></span>atomic_fetch_or_u32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_or_u32 </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest |= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest | val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise or into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5e6c33a3907bed06af0cfdcf9210c1e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5e6c33a3907bed06af0cfdcf9210c1e0">&#9670;&nbsp;</a></span>atomic_fetch_or_u64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_or_u64 </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest |= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest | val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise or into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5f308f5bf7126723a807a0359a707db0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5f308f5bf7126723a807a0359a707db0">&#9670;&nbsp;</a></span>atomic_fetch_or_u8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_or_u8 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest |= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest | val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise or into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga7511cd07f7abfb6e874b580710a4ff32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7511cd07f7abfb6e874b580710a4ff32">&#9670;&nbsp;</a></span>atomic_fetch_sub_u16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_sub_u16 </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>subtrahend</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomically subtract a value from a given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Subtract <code>subtrahend</code> from this value atomically in-place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">subtrahend</td><td>Value to subtract from <code>dest</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga192980eb0cd3ab83e1093c50a6df7cde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga192980eb0cd3ab83e1093c50a6df7cde">&#9670;&nbsp;</a></span>atomic_fetch_sub_u32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_sub_u32 </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>subtrahend</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomically subtract a value from a given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Subtract <code>subtrahend</code> from this value atomically in-place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">subtrahend</td><td>Value to subtract from <code>dest</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga019c038224f12e587ca58904cd0d93b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga019c038224f12e587ca58904cd0d93b5">&#9670;&nbsp;</a></span>atomic_fetch_sub_u64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_sub_u64 </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>subtrahend</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomically subtract a value from a given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Subtract <code>subtrahend</code> from this value atomically in-place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">subtrahend</td><td>Value to subtract from <code>dest</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9a384079247047a7b3fbae25a7d91192"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9a384079247047a7b3fbae25a7d91192">&#9670;&nbsp;</a></span>atomic_fetch_sub_u8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_sub_u8 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>subtrahend</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomically subtract a value from a given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Subtract <code>subtrahend</code> from this value atomically in-place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">subtrahend</td><td>Value to subtract from <code>dest</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gac8b43fc54b0fb7270c5794984a4e6bd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac8b43fc54b0fb7270c5794984a4e6bd3">&#9670;&nbsp;</a></span>atomic_fetch_xor_u16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_xor_u16 </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest ^= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest ^ val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise xor into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9397ff156deb3349a8cf7bb7b9c11279"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9397ff156deb3349a8cf7bb7b9c11279">&#9670;&nbsp;</a></span>atomic_fetch_xor_u32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_xor_u32 </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest ^= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest ^ val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise xor into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gad9dc67d7246d661a72d121158bc19ac7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad9dc67d7246d661a72d121158bc19ac7">&#9670;&nbsp;</a></span>atomic_fetch_xor_u64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_xor_u64 </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest ^= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest ^ val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise xor into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="gaacd850e085a83158df309c21319d7c7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaacd850e085a83158df309c21319d7c7b">&#9670;&nbsp;</a></span>atomic_fetch_xor_u8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_fetch_xor_u8 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest ^= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest ^ val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise xor into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga005840b004f77cfa8a7e3a19e516a5de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga005840b004f77cfa8a7e3a19e516a5de">&#9670;&nbsp;</a></span>atomic_load_u16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint16_t atomic_load_u16 </td>
+          <td>(</td>
+          <td class="paramtype">const uint16_t *&#160;</td>
+          <td class="paramname"><em>var</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Load an <code>uint16_t</code> atomically. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">var</td><td>Variable to load atomically </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value stored in <code>var</code> </dd></dl>
+
+</div>
+</div>
+<a id="ga94c41458a8bddc3d404a8296813a3f18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga94c41458a8bddc3d404a8296813a3f18">&#9670;&nbsp;</a></span>atomic_load_u32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint32_t atomic_load_u32 </td>
+          <td>(</td>
+          <td class="paramtype">const uint32_t *&#160;</td>
+          <td class="paramname"><em>var</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Load an <code>uint32_t</code> atomically. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">var</td><td>Variable to load atomically </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value stored in <code>var</code> </dd></dl>
+
+</div>
+</div>
+<a id="ga9459baee2fd8203763fd25fbea553207"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9459baee2fd8203763fd25fbea553207">&#9670;&nbsp;</a></span>atomic_load_u64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint64_t atomic_load_u64 </td>
+          <td>(</td>
+          <td class="paramtype">const uint64_t *&#160;</td>
+          <td class="paramname"><em>var</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Load an <code>uint64_t</code> atomically. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">var</td><td>Variable to load atomically </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value stored in <code>var</code> </dd></dl>
+
+</div>
+</div>
+<a id="gad51be61d77e76e3bd12bb933b1824a1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad51be61d77e76e3bd12bb933b1824a1e">&#9670;&nbsp;</a></span>atomic_load_u8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static uint8_t atomic_load_u8 </td>
+          <td>(</td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>var</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Load an <code>uint8_t</code> atomically. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">var</td><td>Variable to load atomically </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value stored in <code>var</code> </dd></dl>
+
+</div>
+</div>
+<a id="gad3c3152a9d61224300de93287d4cda0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad3c3152a9d61224300de93287d4cda0a">&#9670;&nbsp;</a></span>atomic_set_bit_u16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_set_bit_u16 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structatomic__bit__u16__t.html">atomic_bit_u16_t</a>&#160;</td>
+          <td class="paramname"><em>bit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest |= (1 &lt;&lt; bit)</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">bit</td><td>bit to set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00876">876</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="gab2c4ea2f473b15fbdce32d0654831b65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab2c4ea2f473b15fbdce32d0654831b65">&#9670;&nbsp;</a></span>atomic_set_bit_u32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_set_bit_u32 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structatomic__bit__u32__t.html">atomic_bit_u32_t</a>&#160;</td>
+          <td class="paramname"><em>bit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest |= (1 &lt;&lt; bit)</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">bit</td><td>bit to set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00880">880</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga7cb3b9469378572cbfe18aa64f30561b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7cb3b9469378572cbfe18aa64f30561b">&#9670;&nbsp;</a></span>atomic_set_bit_u64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_set_bit_u64 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structatomic__bit__u64__t.html">atomic_bit_u64_t</a>&#160;</td>
+          <td class="paramname"><em>bit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest |= (1 &lt;&lt; bit)</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">bit</td><td>bit to set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00884">884</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga199980adf140101189b6a0fa8dcc5283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga199980adf140101189b6a0fa8dcc5283">&#9670;&nbsp;</a></span>atomic_set_bit_u8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_set_bit_u8 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structatomic__bit__u8__t.html">atomic_bit_u8_t</a>&#160;</td>
+          <td class="paramname"><em>bit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Atomic version of <code>*dest |= (1 &lt;&lt; bit)</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">bit</td><td>bit to set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00872">872</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga7597e5488ba1f63913eb6bdb6f13e324"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7597e5488ba1f63913eb6bdb6f13e324">&#9670;&nbsp;</a></span>atomic_store_u16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_store_u16 </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Store an <code>uint16_t</code> atomically. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">dest</td><td>Location to atomically write the new value to </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to write </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga2618b4e5c7f77cd67c5b543966d0e2ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2618b4e5c7f77cd67c5b543966d0e2ba">&#9670;&nbsp;</a></span>atomic_store_u32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_store_u32 </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Store an <code>uint32_t</code> atomically. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">dest</td><td>Location to atomically write the new value to </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to write </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga38e658faa8086a9d0cab54923c5b1400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga38e658faa8086a9d0cab54923c5b1400">&#9670;&nbsp;</a></span>atomic_store_u64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_store_u64 </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Store an <code>uint64_t</code> atomically. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">dest</td><td>Location to atomically write the new value to </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to write </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga81b756c86d380c5e7180aaab9b50ba70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga81b756c86d380c5e7180aaab9b50ba70">&#9670;&nbsp;</a></span>atomic_store_u8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void atomic_store_u8 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Store an <code>uint8_t</code> atomically. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">dest</td><td>Location to atomically write the new value to </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to write </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga392bc4ee3d7eb17f758617223da885b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga392bc4ee3d7eb17f758617223da885b2">&#9670;&nbsp;</a></span>semi_atomic_fetch_add_u16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_add_u16 </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>summand</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomically add a value onto a given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Add <code>summand</code> onto this value semi-atomically in-place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">summand</td><td>Value to add onto <code>dest</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00930">930</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="gad66bb66d8b7e1ea3dcc41f092faa5186"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad66bb66d8b7e1ea3dcc41f092faa5186">&#9670;&nbsp;</a></span>semi_atomic_fetch_add_u32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_add_u32 </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>summand</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomically add a value onto a given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Add <code>summand</code> onto this value semi-atomically in-place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">summand</td><td>Value to add onto <code>dest</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00940">940</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga8c86d2275db5a574f1dcabfb9d350918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8c86d2275db5a574f1dcabfb9d350918">&#9670;&nbsp;</a></span>semi_atomic_fetch_add_u64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_add_u64 </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>summand</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomically add a value onto a given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Add <code>summand</code> onto this value semi-atomically in-place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">summand</td><td>Value to add onto <code>dest</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00950">950</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga7593c39a20cc44e9176cfcb314a0bc88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7593c39a20cc44e9176cfcb314a0bc88">&#9670;&nbsp;</a></span>semi_atomic_fetch_add_u8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_add_u8 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>summand</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomically add a value onto a given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Add <code>summand</code> onto this value semi-atomically in-place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">summand</td><td>Value to add onto <code>dest</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00920">920</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga3e1af8947a997407bd8b31153a79c833"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3e1af8947a997407bd8b31153a79c833">&#9670;&nbsp;</a></span>semi_atomic_fetch_and_u16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_and_u16 </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomic version of <code>*dest &amp;= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest &amp; val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise and into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l01094">1094</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga589d90fa46a485c4fc58c63fae681abc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga589d90fa46a485c4fc58c63fae681abc">&#9670;&nbsp;</a></span>semi_atomic_fetch_and_u32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_and_u32 </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomic version of <code>*dest &amp;= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest &amp; val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise and into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l01104">1104</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="gac6463a4a6f1fa3410ede87a5bb114c63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gac6463a4a6f1fa3410ede87a5bb114c63">&#9670;&nbsp;</a></span>semi_atomic_fetch_and_u64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_and_u64 </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomic version of <code>*dest &amp;= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest &amp; val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise and into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l01114">1114</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="gaed01fdde1d183ba2c7cfc4a7e3ddb26d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaed01fdde1d183ba2c7cfc4a7e3ddb26d">&#9670;&nbsp;</a></span>semi_atomic_fetch_and_u8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_and_u8 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomic version of <code>*dest &amp;= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest &amp; val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise and into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l01084">1084</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga02e81fdc7f25a8a23371f8f7ee573ec0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga02e81fdc7f25a8a23371f8f7ee573ec0">&#9670;&nbsp;</a></span>semi_atomic_fetch_or_u16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_or_u16 </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomic version of <code>*dest |= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest | val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise or into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l01012">1012</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga77c58a1105f94dd79998fcaf54421c8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga77c58a1105f94dd79998fcaf54421c8e">&#9670;&nbsp;</a></span>semi_atomic_fetch_or_u32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_or_u32 </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomic version of <code>*dest |= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest | val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise or into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l01022">1022</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga03dc607e0ac785b08428a60f8dc7c3a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga03dc607e0ac785b08428a60f8dc7c3a0">&#9670;&nbsp;</a></span>semi_atomic_fetch_or_u64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_or_u64 </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomic version of <code>*dest |= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest | val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise or into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l01032">1032</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga0e3b66e6e033f694d0e13ea62a060b5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0e3b66e6e033f694d0e13ea62a060b5e">&#9670;&nbsp;</a></span>semi_atomic_fetch_or_u8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_or_u8 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomic version of <code>*dest |= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest | val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise or into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l01002">1002</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="gadd85852ea827f5ca1c37c538c42ea330"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gadd85852ea827f5ca1c37c538c42ea330">&#9670;&nbsp;</a></span>semi_atomic_fetch_sub_u16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_sub_u16 </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>subtrahend</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomically subtract a value from a given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Subtract <code>subtrahend</code> from this value semi-atomically in-place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">subtrahend</td><td>Value to subtract from <code>dest</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00971">971</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga1d4ddb0c55f23b295393b31b26309aad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga1d4ddb0c55f23b295393b31b26309aad">&#9670;&nbsp;</a></span>semi_atomic_fetch_sub_u32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_sub_u32 </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>subtrahend</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomically subtract a value from a given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Subtract <code>subtrahend</code> from this value semi-atomically in-place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">subtrahend</td><td>Value to subtract from <code>dest</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00981">981</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="gab8f3b7b5092b21d2002e5c070220fd7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gab8f3b7b5092b21d2002e5c070220fd7d">&#9670;&nbsp;</a></span>semi_atomic_fetch_sub_u64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_sub_u64 </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>subtrahend</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomically subtract a value from a given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Subtract <code>subtrahend</code> from this value semi-atomically in-place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">subtrahend</td><td>Value to subtract from <code>dest</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00991">991</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="gad7019c31857f339c29f5ea735f075511"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad7019c31857f339c29f5ea735f075511">&#9670;&nbsp;</a></span>semi_atomic_fetch_sub_u8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_sub_u8 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>subtrahend</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomically subtract a value from a given value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Subtract <code>subtrahend</code> from this value semi-atomically in-place </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">subtrahend</td><td>Value to subtract from <code>dest</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l00961">961</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga4c7d8e96f5c29e23e0a027c6cab92835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4c7d8e96f5c29e23e0a027c6cab92835">&#9670;&nbsp;</a></span>semi_atomic_fetch_xor_u16()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_xor_u16 </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomic version of <code>*dest ^= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest ^ val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise xor into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l01053">1053</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga2a748eddbd5a058878a5b370504346e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2a748eddbd5a058878a5b370504346e4">&#9670;&nbsp;</a></span>semi_atomic_fetch_xor_u32()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_xor_u32 </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomic version of <code>*dest ^= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest ^ val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise xor into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l01063">1063</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga5cedf160bbdee22ef70faf99d0e8f89a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5cedf160bbdee22ef70faf99d0e8f89a">&#9670;&nbsp;</a></span>semi_atomic_fetch_xor_u64()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_xor_u64 </td>
+          <td>(</td>
+          <td class="paramtype">uint64_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomic version of <code>*dest ^= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest ^ val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise xor into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l01073">1073</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+<a id="ga942dcf0e6d2d413e3287a99a4aff5b3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga942dcf0e6d2d413e3287a99a4aff5b3c">&#9670;&nbsp;</a></span>semi_atomic_fetch_xor_u8()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void semi_atomic_fetch_xor_u8 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>val</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Semi-atomic version of <code>*dest ^= val</code> </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">dest</td><td>Replace this value with the result of <code>*dest ^ val</code> </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">val</td><td>Value to bitwise xor into <code>dest</code> in-place </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="atomic__utils_8h_source.html#l01043">1043</a> of file <a class="el" href="atomic__utils_8h_source.html">atomic_utils.h</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<div class="ttc" id="agroup__sys__atomic__utils_html_ga2618b4e5c7f77cd67c5b543966d0e2ba"><div class="ttname"><a href="group__sys__atomic__utils.html#ga2618b4e5c7f77cd67c5b543966d0e2ba">atomic_store_u32</a></div><div class="ttdeci">static void atomic_store_u32(uint32_t *dest, uint32_t val)</div><div class="ttdoc">Store an uint32_t atomically.</div></div>
+<div class="ttc" id="agroup__core__irq_html_ga7cb620d77da293d98ccc1715d6cb9a02"><div class="ttname"><a href="group__core__irq.html#ga7cb620d77da293d98ccc1715d6cb9a02">irq_disable</a></div><div class="ttdeci">MAYBE_INLINE unsigned irq_disable(void)</div><div class="ttdoc">This function sets the IRQ disable bit in the status register.</div></div>
+<div class="ttc" id="astructlua__riot__builtin__c_html_a3705939b002f83cfd21e9f112bae4f2b"><div class="ttname"><a href="structlua__riot__builtin__c.html#a3705939b002f83cfd21e9f112bae4f2b">lua_riot_builtin_c::name</a></div><div class="ttdeci">const char * name</div><div class="ttdef"><b>Definition:</b> <a href="lua__builtin_8h_source.html#l00061">lua_builtin.h:61</a></div></div>
+<div class="ttc" id="agroup__sys__atomic__utils_html_ga81b756c86d380c5e7180aaab9b50ba70"><div class="ttname"><a href="group__sys__atomic__utils.html#ga81b756c86d380c5e7180aaab9b50ba70">atomic_store_u8</a></div><div class="ttdeci">static void atomic_store_u8(uint8_t *dest, uint8_t val)</div><div class="ttdoc">Store an uint8_t atomically.</div></div>
+<div class="ttc" id="agroup__sys__atomic__utils_html_ga94c41458a8bddc3d404a8296813a3f18"><div class="ttname"><a href="group__sys__atomic__utils.html#ga94c41458a8bddc3d404a8296813a3f18">atomic_load_u32</a></div><div class="ttdeci">static uint32_t atomic_load_u32(const uint32_t *var)</div><div class="ttdoc">Load an uint32_t atomically.</div></div>
+<div class="ttc" id="agroup__sys__atomic__utils_html_ga88fa737059e67b4b17ec980e5877361e"><div class="ttname"><a href="group__sys__atomic__utils.html#ga88fa737059e67b4b17ec980e5877361e">CONCAT</a></div><div class="ttdeci">#define CONCAT(a, b)</div><div class="ttdoc">Concatenate two tokens.</div><div class="ttdef"><b>Definition:</b> <a href="atomic__utils_8h_source.html#l00700">atomic_utils.h:700</a></div></div>
+<div class="ttc" id="agroup__sys__atomic__utils_html_gaa9b95fba4d265eae2e7883b47a5eac1f"><div class="ttname"><a href="group__sys__atomic__utils.html#gaa9b95fba4d265eae2e7883b47a5eac1f">CONCAT4</a></div><div class="ttdeci">#define CONCAT4(a, b, c, d)</div><div class="ttdoc">Concatenate four tokens.</div><div class="ttdef"><b>Definition:</b> <a href="atomic__utils_8h_source.html#l00705">atomic_utils.h:705</a></div></div>
+<div class="ttc" id="agroup__sys__atomic__utils_html_gad51be61d77e76e3bd12bb933b1824a1e"><div class="ttname"><a href="group__sys__atomic__utils.html#gad51be61d77e76e3bd12bb933b1824a1e">atomic_load_u8</a></div><div class="ttdeci">static uint8_t atomic_load_u8(const uint8_t *var)</div><div class="ttdoc">Load an uint8_t atomically.</div></div>
+    <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+        <ul>
+            <li class="footer">Generated on Tue Nov 24 2020 19:47:01 by <a href="http://www.doxygen.org/index.html">
+                       <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.17</li>
+        </ul>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.smartmenus.min.js"></script>
+    <script src="jquery.smartmenus.bootstrap.min.js"></script>
+    <script src="riot-doxy.js"></script>
+  </body>
+</html>

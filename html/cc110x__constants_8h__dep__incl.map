@@ -1,4 +1,5 @@
 <map id="drivers/cc110x/include/cc110x_constants.h" name="drivers/cc110x/include/cc110x_constants.h">
-<area shape="rect" id="node2" href="$cc110x__communication_8h.html" title="Functions to communicate with the CC1100/CC1101 transceiver. " alt="" coords="5,95,180,136"/>
-<area shape="rect" id="node3" href="$cc110x__internal_8h.html" title="Internal functions of the CC110x transceiver driver. " alt="" coords="79,184,231,225"/>
+<area shape="rect" id="node1" title="Constants for the CC1100/CC1101 driver." alt="" coords="84,5,252,47"/>
+<area shape="rect" id="node2" href="$cc110x__communication_8h.html" title="Functions to communicate with the CC1100/CC1101 transceiver." alt="" coords="5,95,197,136"/>
+<area shape="rect" id="node3" href="$cc110x__internal_8h.html" title="Internal functions of the CC110x transceiver driver." alt="" coords="84,184,252,225"/>
 </map>

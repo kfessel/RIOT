@@ -1,3 +1,4 @@
 <map id="drivers/include/dcf77.h" name="drivers/include/dcf77.h">
-<area shape="rect" id="node2" href="$dcf77__params_8h.html" title="Default configuration for DCF77 devices. " alt="" coords="11,80,153,121"/>
+<area shape="rect" id="node1" title="Interface definition for the dcf77 sensor driver." alt="" coords="5,5,176,32"/>
+<area shape="rect" id="node2" href="$dcf77__params_8h.html" title="Default configuration for DCF77 devices." alt="" coords="11,80,170,121"/>
 </map>

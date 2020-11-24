@@ -1,0 +1,6 @@
+<map id="boards/frdm&#45;kl43z/include/periph_conf.h" name="boards/frdm&#45;kl43z/include/periph_conf.h">
+<area shape="rect" id="node1" title=" " alt="" coords="113,5,305,47"/>
+<area shape="rect" id="node2" href="$frdm-kl43z_2include_2board_8h.html" title="Board specific definitions for the FRDM&#45;KL43Z." alt="" coords="113,95,305,136"/>
+<area shape="rect" id="node3" href="$frdm-kl43z_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC." alt="" coords="5,184,197,225"/>
+<area shape="rect" id="node4" href="$frdm-kl43z_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="221,184,413,225"/>
+</map>

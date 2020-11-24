@@ -24,7 +24,7 @@ var group__drivers__cc2420 =
     ] ],
     [ "CC2420_PKT_MAXLEN", "group__drivers__cc2420.html#ga7cf4cf554323505c1c233a52aca1f38e", null ],
     [ "CC2420_RSSI_OFFSET", "group__drivers__cc2420.html#ga76a10b9e295bc7003901c20462e750e9", null ],
-    [ "cc2420_params_t", "group__drivers__cc2420.html#ga51a14fc29b6889dceff9a3a1260d2ceb", null ],
+    [ "cc2420_params_t", "group__drivers__cc2420.html#ga7129aded13f475e31753fc6deded1ea7", null ],
     [ "cc2420_cca", "group__drivers__cc2420.html#ga88026e56a0a41864731eb85b8c7f3ef2", null ],
     [ "cc2420_get_addr_long", "group__drivers__cc2420.html#gabaeda7c33712d35704358ce8258979ee", null ],
     [ "cc2420_get_addr_short", "group__drivers__cc2420.html#ga1df6ad4296c4b4298aaedd414f261fbe", null ],

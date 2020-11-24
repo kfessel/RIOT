@@ -1,2 +1,5 @@
-<map id="core/include/byteorder.h" name="core/include/byteorder.h">
+<map id="sys/include/byteorder.h" name="sys/include/byteorder.h">
+<area shape="rect" id="node1" title="Functions to work with different byte orders." alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="57,155,128,181"/>
+<area shape="rect" id="node3" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="87,80,186,107"/>
 </map>

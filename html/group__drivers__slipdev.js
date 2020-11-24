@@ -14,9 +14,9 @@ var group__drivers__slipdev =
       [ "netdev", "structslipdev__t.html#affca7a08df49efc813500002e1ea3707", null ],
       [ "rxmem", "structslipdev__t.html#ac9e41b5c3b8f872e5800dfeeecd59454", null ],
       [ "state", "structslipdev__t.html#aa865fce96f13a3f390fac1e9ab767628", null ],
-      [ "SLIPDEV_STATE_NONE", "group__drivers__slipdev.html#ggafded920d42f51b77f7f86b5057dd4516a7fba3b95ea5d04dd07933779b61d9f07", null ],
-      [ "SLIPDEV_STATE_NET", "group__drivers__slipdev.html#ggafded920d42f51b77f7f86b5057dd4516a9d9a23e4c1e8bac00ef00611103328d3", null ],
-      [ "SLIPDEV_STATE_STDIN", "group__drivers__slipdev.html#ggafded920d42f51b77f7f86b5057dd4516a93824d11f4e2f0edd4a847cdfdea40e1", null ]
+      [ "SLIPDEV_STATE_NONE", "group__drivers__slipdev.html#gga91d74b317405fff79ca4459da11f98e3a7fba3b95ea5d04dd07933779b61d9f07", null ],
+      [ "SLIPDEV_STATE_NET", "group__drivers__slipdev.html#gga91d74b317405fff79ca4459da11f98e3a9d9a23e4c1e8bac00ef00611103328d3", null ],
+      [ "SLIPDEV_STATE_STDIN", "group__drivers__slipdev.html#gga91d74b317405fff79ca4459da11f98e3a93824d11f4e2f0edd4a847cdfdea40e1", null ]
     ] ],
     [ "slipdev_setup", "group__drivers__slipdev.html#ga6e5a3ef2e4a0bf8c0dd5aebc76b6546a", null ]
 ];

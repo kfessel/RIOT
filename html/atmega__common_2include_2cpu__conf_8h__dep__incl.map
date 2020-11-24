@@ -1,6 +1,7 @@
 <map id="cpu/atmega_common/include/cpu_conf.h" name="cpu/atmega_common/include/cpu_conf.h">
-<area shape="rect" id="node2" href="$atmega__common_2include_2cpu_8h.html" title="Common implementations and headers for ATmega family based micro&#45;controllers. " alt="" coords="221,95,413,136"/>
-<area shape="rect" id="node3" href="$atmega__gpio_8h.html" title="Macros and inline functions for accessing GPIOs of the ATmega family. " alt="" coords="5,184,197,225"/>
-<area shape="rect" id="node4" href="$atmega__common_2include_2irq__arch_8h.html" title="Implementation of the kernels irq interface. " alt="" coords="221,184,413,225"/>
-<area shape="rect" id="node5" href="$atmega__common_2include_2periph__cpu__common_8h.html" title="CPU specific definitions for internal peripheral handling. " alt="" coords="437,184,629,225"/>
+<area shape="rect" id="node1" title="Implementation specific CPU configuration options." alt="" coords="244,5,459,47"/>
+<area shape="rect" id="node2" href="$atmega__common_2include_2cpu_8h.html" title="Common implementations and headers for ATmega family based micro&#45;controllers." alt="" coords="244,95,459,136"/>
+<area shape="rect" id="node3" href="$atmega__gpio_8h.html" title="Macros and inline functions for accessing GPIOs of the ATmega family." alt="" coords="5,184,220,225"/>
+<area shape="rect" id="node4" href="$atmega__common_2include_2irq__arch_8h.html" title="Implementation of the kernels irq interface." alt="" coords="244,184,459,225"/>
+<area shape="rect" id="node5" href="$atmega__common_2include_2periph__cpu__common_8h.html" title="CPU specific definitions for internal peripheral handling." alt="" coords="483,184,697,225"/>
 </map>

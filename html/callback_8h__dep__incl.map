@@ -1,4 +1,11 @@
 <map id="sys/include/event/callback.h" name="sys/include/event/callback.h">
-<area shape="rect" id="node2" href="$asymcute_8h.html" title="Asymcute MQTT&#45;SN interface definition. " alt="" coords="5,80,188,107"/>
-<area shape="rect" id="node3" href="$gcoap_8h.html" title="gcoap definition " alt="" coords="213,80,373,107"/>
+<area shape="rect" id="node1" title="Provides a callback&#45;with&#45;argument event type." alt="" coords="427,5,634,32"/>
+<area shape="rect" id="node2" href="$ieee802154__submac_8h_source.html" title=" " alt="" coords="5,80,227,121"/>
+<area shape="rect" id="node3" href="$scheduler__types_8h.html" title="RIOT scheduler types variable declaration." alt="" coords="251,80,426,121"/>
+<area shape="rect" id="node4" href="$dpl__eventq_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) event queue wrappers" alt="" coords="450,80,611,121"/>
+<area shape="rect" id="node8" href="$asymcute_8h.html" title="Asymcute MQTT&#45;SN interface definition." alt="" coords="636,87,836,114"/>
+<area shape="rect" id="node9" href="$gcoap_8h.html" title="gcoap definition" alt="" coords="861,87,1035,114"/>
+<area shape="rect" id="node5" href="$dpl_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="449,259,610,300"/>
+<area shape="rect" id="node7" href="$dpl__callout_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) callout abstraction" alt="" coords="509,169,670,211"/>
+<area shape="rect" id="node6" href="$os__dev_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="449,348,610,389"/>
 </map>

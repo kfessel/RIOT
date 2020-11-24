@@ -1,5 +1,12 @@
 <map id="cpu/cc26xx_cc13xx/include/cc26xx_cc13xx_power.h" name="cpu/cc26xx_cc13xx/include/cc26xx_cc13xx_power.h">
-<area shape="rect" id="node2" href="$cc26xx__cc13xx_8h.html" title="CC26xx, CC13xx definitions. " alt="" coords="66,95,190,121"/>
-<area shape="rect" id="node6" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition. " alt="" coords="314,95,409,121"/>
-<area shape="rect" id="node11" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="563,169,701,196"/>
+<area shape="rect" id="node1" title="CC26xx/CC13xx Power management." alt="" coords="139,5,337,47"/>
+<area shape="rect" id="node2" href="$cc26xx__cc13xx_8h.html" title="CC26xx, CC13xx definitions." alt="" coords="39,95,173,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="197,95,279,121"/>
+<area shape="rect" id="node6" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition." alt="" coords="304,95,409,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="127,169,197,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,169,103,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="222,169,297,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="321,169,392,196"/>
+<area shape="rect" id="node9" title=" " alt="" coords="416,169,521,196"/>
+<area shape="rect" id="node10" title=" " alt="" coords="546,169,655,196"/>
 </map>

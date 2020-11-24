@@ -8,6 +8,7 @@ var slot_8h =
     [ "riotboot_slot_offset", "slot_8h.html#abb49a84f8c110cd50af57a6aca5c9c93", null ],
     [ "riotboot_slot_other", "slot_8h.html#af5b8fee6dd83211d9d4dcc4cef8d9b68", null ],
     [ "riotboot_slot_print_hdr", "slot_8h.html#a5336b95879db6cdd89a1ca43de6e9e1f", null ],
+    [ "riotboot_slot_size", "slot_8h.html#a6f66506d6d826c9684dba65575c55460", null ],
     [ "riotboot_slot_validate", "slot_8h.html#a9ea1e28463795b18688decf39bdfa271", null ],
     [ "riotboot_slot_numof", "slot_8h.html#acbf066d003f51d458a68621f9e63fe82", null ],
     [ "riotboot_slots", "slot_8h.html#a03c090e27c7a3f28bbff56db638b289a", null ]

@@ -3,7 +3,7 @@ var conn_2isotp_8h =
     [ "conn_can_isotp_slave", "structconn__can__isotp__slave.html", "structconn__can__isotp__slave" ],
     [ "conn_can_isotp_master", "structconn__can__isotp__master.html", "structconn__can__isotp__master" ],
     [ "CONN_CAN_ISOTP_MBOX_SIZE", "conn_2isotp_8h.html#a48e2c48a070a1e03f198915449c40f06", null ],
-    [ "conn_can_isotp_slave_t", "conn_2isotp_8h.html#a9777ed529f189a0d264d86e7121c0bd0", null ],
+    [ "conn_can_isotp_slave_t", "conn_2isotp_8h.html#a7865867e57576b5ddab8bfe1bd63af94", null ],
     [ "conn_can_isotp_t", "conn_2isotp_8h.html#a5891c0b1dbc064756a4b93acd7b575bb", null ],
     [ "conn_can_isotp_bind", "conn_2isotp_8h.html#a5e0dd8080c980188d07e89f99dec67bf", null ],
     [ "conn_can_isotp_close", "conn_2isotp_8h.html#a2d939a4b76a23febb28297b9cf248ad1", null ],

@@ -1,3 +1,5 @@
 <map id="boards/nrf52840dongle/include/board.h" name="boards/nrf52840dongle/include/board.h">
-<area shape="rect" id="node2" href="$nrf52840dongle_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="5,95,161,136"/>
+<area shape="rect" id="node1" title="Board specific configuration for the nRF52840&#45;Dongle." alt="" coords="106,5,278,47"/>
+<area shape="rect" id="node2" href="$nrf52840dongle_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins." alt="" coords="5,95,179,136"/>
+<area shape="rect" id="node3" href="$nrf52840dongle_2include_2pwm__params_8h.html" title="Configuration of SAUL mapped PWM channels." alt="" coords="203,95,381,136"/>
 </map>

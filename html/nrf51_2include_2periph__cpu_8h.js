@@ -8,5 +8,6 @@ var nrf51_2include_2periph__cpu_8h =
     [ "SPI_MISOSEL", "nrf51_2include_2periph__cpu_8h.html#afd9ba8acf11b29577c084506eb84c85b", null ],
     [ "SPI_MOSISEL", "nrf51_2include_2periph__cpu_8h.html#ad23a7b64dc665092d7f87314b1ce7e18", null ],
     [ "SPI_SCKSEL", "nrf51_2include_2periph__cpu_8h.html#a69c3487da96722898ad0abf562158743", null ],
-    [ "UART_IRQN", "nrf51_2include_2periph__cpu_8h.html#a422e90dfbad8b08208b33cf489f5ec4c", null ]
+    [ "UART_IRQN", "nrf51_2include_2periph__cpu_8h.html#a422e90dfbad8b08208b33cf489f5ec4c", null ],
+    [ "adc_conf_t", "nrf51_2include_2periph__cpu_8h.html#a5c8de6f67ee8f8a6cbcba95e60f201b7", null ]
 ];

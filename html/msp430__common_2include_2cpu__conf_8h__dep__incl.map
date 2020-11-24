@@ -1,3 +1,4 @@
 <map id="cpu/msp430_common/include/cpu_conf.h" name="cpu/msp430_common/include/cpu_conf.h">
-<area shape="rect" id="node2" href="$msp430__common_2include_2cpu_8h.html" title="Texas Instruments MSP430 specific code. " alt="" coords="5,95,200,136"/>
+<area shape="rect" id="node1" title="Common CPU definitions for MSP430." alt="" coords="5,5,221,47"/>
+<area shape="rect" id="node2" href="$msp430__common_2include_2cpu_8h.html" title="Texas Instruments MSP430 specific code." alt="" coords="5,95,221,136"/>
 </map>

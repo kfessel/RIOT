@@ -4,7 +4,7 @@ var dwm1001_2include_2board_8h =
     [ "BTN0_PIN", "dwm1001_2include_2board_8h.html#aab5c3eca54046333af52593b9e360270", null ],
     [ "DW1000_PARAM_CS_PIN", "dwm1001_2include_2board_8h.html#ac727813729d3b8ed6667d1f5fd74ce55", null ],
     [ "DW1000_PARAM_INT_PIN", "dwm1001_2include_2board_8h.html#a7748035bf4cdd3f4356546391fea85b5", null ],
-    [ "DW1000_PARAM_SPI_DEV", "dwm1001_2include_2board_8h.html#a19606e86810ca23186402a0e5afa8f27", null ],
+    [ "DW1000_PARAM_SPI", "dwm1001_2include_2board_8h.html#a3c7888b0ea3bf0b846ce455f5b3c954f", null ],
     [ "LED0_MASK", "dwm1001_2include_2board_8h.html#abfabde35a3e8b7ab50146a5e223bfead", null ],
     [ "LED0_OFF", "dwm1001_2include_2board_8h.html#aef2e39b9fd343d0e437fac0463f3e02d", null ],
     [ "LED0_ON", "dwm1001_2include_2board_8h.html#a1e48dc02333bfc2e6ad3e5bd466eecd4", null ],

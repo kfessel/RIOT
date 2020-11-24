@@ -7,6 +7,6 @@ var ccm_8h =
     [ "CCM_ERR_INVALID_MAC_LENGTH", "ccm_8h.html#aa75457375d405459a01010ab97ae0e20", null ],
     [ "CCM_ERR_INVALID_NONCE_LENGTH", "ccm_8h.html#a46204e619c1a01ebeb276364d184915a", null ],
     [ "CCM_MAC_MAX_LEN", "ccm_8h.html#a313e949249f24268a72e16507b329247", null ],
-    [ "cipher_decrypt_ccm", "ccm_8h.html#afe98c0b1eada8b5afb8296c9d68ae84c", null ],
-    [ "cipher_encrypt_ccm", "ccm_8h.html#aca76296bfb99dbd3b584393c2987399d", null ]
+    [ "cipher_decrypt_ccm", "ccm_8h.html#a1ec1eeb0d8d60a0a873e4493b9840aca", null ],
+    [ "cipher_encrypt_ccm", "ccm_8h.html#a3904eb368fe7df3461d536c4ccdfb6c9", null ]
 ];

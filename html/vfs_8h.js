@@ -41,6 +41,7 @@ var vfs_8h =
     [ "vfs_rmdir", "group__sys__vfs.html#gac9e6c31f4d15ed832cb5c61e0c6e9659", null ],
     [ "vfs_stat", "group__sys__vfs.html#ga9a4ef5ceb298c288b544cce1f7736aec", null ],
     [ "vfs_statvfs", "group__sys__vfs.html#ga2dd77a30a2ea9cc4531f40d089483b8e", null ],
+    [ "vfs_sysop_stat_from_fstat", "group__sys__vfs.html#ga77f919082a5f2e395ad60fac39a821b9", null ],
     [ "vfs_umount", "group__sys__vfs.html#gab54e3dfaffd2aa3eb4eea3735b96baf0", null ],
     [ "vfs_unlink", "group__sys__vfs.html#gaadef8ee16be7695b8be4c151331df79c", null ],
     [ "vfs_write", "group__sys__vfs.html#ga3ab340fc28c34361e2b8206693e049d6", null ]

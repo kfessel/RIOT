@@ -1,4 +1,7 @@
 <map id="core/include/assert.h" name="core/include/assert.h">
-<area shape="rect" id="node2" href="$panic_8h.html" title="Crash handling header. " alt="" coords="45,80,109,107"/>
-<area shape="rect" id="node3" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="18,155,135,181"/>
+<area shape="rect" id="node1" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="12,5,169,32"/>
+<area shape="rect" id="node2" href="$panic_8h.html" title="Crash handling header." alt="" coords="56,80,125,107"/>
+<area shape="rect" id="node3" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="26,155,155,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,229,80,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="105,229,175,256"/>
 </map>

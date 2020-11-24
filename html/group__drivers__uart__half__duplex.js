@@ -20,12 +20,12 @@ var group__drivers__uart__half__duplex =
     ] ],
     [ "UART_HALF_DUPLEX_DEFAULT_TIMEOUT_US", "group__drivers__uart__half__duplex.html#ga2ec50ee8446d5cc8ac5282462f1a54a0", null ],
     [ "UART_HALF_DUPLEX_DIR_NONE", "group__drivers__uart__half__duplex.html#gade7dc7cb52563519e76b61fa153d8133", [
-      [ "UART_HALF_DUPLEX_OK", "group__drivers__uart__half__duplex.html#ggaa6db2c38ebc194c80d154d53851a4d5da7d18d134d4d28d5b877ae0883505fe0b", null ],
-      [ "UART_HALF_DUPLEX_NODEV", "group__drivers__uart__half__duplex.html#ggaa6db2c38ebc194c80d154d53851a4d5da9ad14162547afe3e804e340954048133", null ],
-      [ "UART_HALF_DUPLEX_NOBAUD", "group__drivers__uart__half__duplex.html#ggaa6db2c38ebc194c80d154d53851a4d5da01c6560cd09ee9e137fafad6b13a8504", null ],
-      [ "UART_HALF_DUPLEX_INTERR", "group__drivers__uart__half__duplex.html#ggaa6db2c38ebc194c80d154d53851a4d5da766296ed3340f7309657b4d611dc25b5", null ],
-      [ "UART_HALF_DUPLEX_NOMODE", "group__drivers__uart__half__duplex.html#ggaa6db2c38ebc194c80d154d53851a4d5da0d78cf317977a5a5acc9caef15593e5a", null ],
-      [ "UART_HALF_DUPLEX_NOBUFF", "group__drivers__uart__half__duplex.html#ggaa6db2c38ebc194c80d154d53851a4d5da1cde176e40cbbdc1b591791dc72b7272", null ]
+      [ "UART_HALF_DUPLEX_OK", "group__drivers__uart__half__duplex.html#gga2ed332df4696233768771e93d4081c3fa7d18d134d4d28d5b877ae0883505fe0b", null ],
+      [ "UART_HALF_DUPLEX_NODEV", "group__drivers__uart__half__duplex.html#gga2ed332df4696233768771e93d4081c3fa9ad14162547afe3e804e340954048133", null ],
+      [ "UART_HALF_DUPLEX_NOBAUD", "group__drivers__uart__half__duplex.html#gga2ed332df4696233768771e93d4081c3fa01c6560cd09ee9e137fafad6b13a8504", null ],
+      [ "UART_HALF_DUPLEX_INTERR", "group__drivers__uart__half__duplex.html#gga2ed332df4696233768771e93d4081c3fa766296ed3340f7309657b4d611dc25b5", null ],
+      [ "UART_HALF_DUPLEX_NOMODE", "group__drivers__uart__half__duplex.html#gga2ed332df4696233768771e93d4081c3fa0d78cf317977a5a5acc9caef15593e5a", null ],
+      [ "UART_HALF_DUPLEX_NOBUFF", "group__drivers__uart__half__duplex.html#gga2ed332df4696233768771e93d4081c3fa1cde176e40cbbdc1b591791dc72b7272", null ]
     ] ],
     [ "uart_half_duplex_init", "group__drivers__uart__half__duplex.html#ga29460cedcb1b766a6646fc6d5b6f9b7f", null ],
     [ "uart_half_duplex_recv", "group__drivers__uart__half__duplex.html#ga530d4578b29ae53a240eb448cad7ea7f", null ],

@@ -1,3 +1,5 @@
 <map id="boards/common/arduino&#45;atmega/include/periph_conf.h" name="boards/common/arduino&#45;atmega/include/periph_conf.h">
-<area shape="rect" id="node2" href="$periph__conf__atmega__common_8h.html" title="Common configuration of MCU periphery for ATmega boards. " alt="" coords="17,109,155,151"/>
+<area shape="rect" id="node1" title="Common configuration of MCU periphery for Arduino Atmega boards." alt="" coords="5,5,185,61"/>
+<area shape="rect" id="node2" href="$periph__conf__atmega__common_8h.html" title="Common configuration of MCU periphery for ATmega boards." alt="" coords="18,109,173,151"/>
+<area shape="rect" id="node3" title=" " alt="" coords="43,199,148,225"/>
 </map>

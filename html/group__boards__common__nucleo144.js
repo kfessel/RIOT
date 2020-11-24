@@ -11,6 +11,7 @@ var group__boards__common__nucleo144 =
     [ "STM32 Nucleo-F767ZI", "group__boards__nucleo-f767zi.html", "group__boards__nucleo-f767zi" ],
     [ "STM32 Nucleo-L496ZG", "group__boards__nucleo-l496zg.html", "group__boards__nucleo-l496zg" ],
     [ "STM32 Nucleo-L4R5ZI", "group__boards__nucleo144-l4r5.html", "group__boards__nucleo144-l4r5" ],
+    [ "STM32 Nucleo-L552ZE-Q", "group__boards__nucleo-l552ze-q.html", "group__boards__nucleo-l552ze-q" ],
     [ "arduino_board.h", "common_2nucleo144_2include_2arduino__board_8h.html", null ],
     [ "arduino_pinmap.h", "common_2nucleo144_2include_2arduino__pinmap_8h.html", null ],
     [ "board.h", "common_2nucleo144_2include_2board_8h.html", null ],

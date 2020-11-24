@@ -1,2 +1,5 @@
 <map id="boards/lsn50/include/board.h" name="boards/lsn50/include/board.h">
+<area shape="rect" id="node1" title="Board specific definitions for the LSN50 board." alt="" coords="7,5,163,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,95,157,121"/>
 </map>

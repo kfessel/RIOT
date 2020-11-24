@@ -1,3 +1,6 @@
 <map id="drivers/at24cxxx/include/at24cxxx_defines.h" name="drivers/at24cxxx/include/at24cxxx_defines.h">
-<area shape="rect" id="node2" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="28,95,145,121"/>
+<area shape="rect" id="node1" title="Constants for AT24CXXX EEPROM devices." alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node2" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="32,95,161,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="11,169,86,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="111,169,181,196"/>
 </map>

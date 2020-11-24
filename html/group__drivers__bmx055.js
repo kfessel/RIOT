@@ -17,12 +17,12 @@ var group__drivers__bmx055 =
     ] ],
     [ "bmx055_t", "structbmx055__t.html", [
       [ "p", "structbmx055__t.html#a62af02ffe5eacb047a8f9b09e66080e8", null ],
-      [ "BMX055_OK", "group__drivers__bmx055.html#gga25e50be5c73e0b2fab54944e68dd48c2a8aa6f9a60719d4bc4c1be030bde595f9", null ],
-      [ "BMX055_NOBUS", "group__drivers__bmx055.html#gga25e50be5c73e0b2fab54944e68dd48c2a673c9f10abf4c506e05026c52fa3c5b9", null ],
-      [ "BMX055_NODEV", "group__drivers__bmx055.html#gga25e50be5c73e0b2fab54944e68dd48c2aec33b6e9597c52de9390127feeb6bd77", null ],
-      [ "BMX055_NOREAD", "group__drivers__bmx055.html#gga25e50be5c73e0b2fab54944e68dd48c2ad5cab95d709dc7ef22fd463e89be1819", null ],
-      [ "BMX055_NOWRITE", "group__drivers__bmx055.html#gga25e50be5c73e0b2fab54944e68dd48c2a610951e7e22be5a55c50f298bf3962b2", null ],
-      [ "BMX055_NOTREADY", "group__drivers__bmx055.html#gga25e50be5c73e0b2fab54944e68dd48c2a9cccf875d329cbd70765a801df7c8bd8", null ]
+      [ "BMX055_OK", "group__drivers__bmx055.html#ggaf59064efe753e6928fd91539a27503d1a8aa6f9a60719d4bc4c1be030bde595f9", null ],
+      [ "BMX055_NOBUS", "group__drivers__bmx055.html#ggaf59064efe753e6928fd91539a27503d1a673c9f10abf4c506e05026c52fa3c5b9", null ],
+      [ "BMX055_NODEV", "group__drivers__bmx055.html#ggaf59064efe753e6928fd91539a27503d1aec33b6e9597c52de9390127feeb6bd77", null ],
+      [ "BMX055_NOREAD", "group__drivers__bmx055.html#ggaf59064efe753e6928fd91539a27503d1ad5cab95d709dc7ef22fd463e89be1819", null ],
+      [ "BMX055_NOWRITE", "group__drivers__bmx055.html#ggaf59064efe753e6928fd91539a27503d1a610951e7e22be5a55c50f298bf3962b2", null ],
+      [ "BMX055_NOTREADY", "group__drivers__bmx055.html#ggaf59064efe753e6928fd91539a27503d1a9cccf875d329cbd70765a801df7c8bd8", null ]
     ] ],
     [ "bmx055_acc_range_t", "group__drivers__bmx055.html#ga411daa33422a4d555cf28c1969d67ad2", [
       [ "BMX055_ACC_RANGE_2G", "group__drivers__bmx055.html#gga411daa33422a4d555cf28c1969d67ad2ab94f1ce9c99bdc10fd47715f1ea50251", null ],

@@ -1,3 +1,4 @@
 <map id="boards/common/nucleo64/include/board.h" name="boards/common/nucleo64/include/board.h">
-<area shape="rect" id="node2" href="$common_2nucleo64_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,95,176,136"/>
+<area shape="rect" id="node1" title="Common pin definitions and board configuration options." alt="" coords="5,5,196,47"/>
+<area shape="rect" id="node2" href="$common_2nucleo64_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,95,196,136"/>
 </map>

@@ -1,4 +1,7 @@
 <map id="sys/include/net/ppp/hdr.h" name="sys/include/net/ppp/hdr.h">
-<area shape="rect" id="node2" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="5,95,84,121"/>
-<area shape="rect" id="node3" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="108,95,195,121"/>
+<area shape="rect" id="node1" title="General definitions for PPP header and their helper functions." alt="" coords="32,5,180,47"/>
+<area shape="rect" id="node2" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="5,95,92,121"/>
+<area shape="rect" id="node3" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="116,95,213,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="128,244,199,271"/>
+<area shape="rect" id="node5" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="158,169,257,196"/>
 </map>

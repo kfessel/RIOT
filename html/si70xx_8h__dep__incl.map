@@ -1,3 +1,4 @@
 <map id="drivers/include/si70xx.h" name="drivers/include/si70xx.h">
-<area shape="rect" id="node2" href="$si70xx__params_8h.html" title="Default configuration for Si7006/13/20/21. " alt="" coords="11,80,159,121"/>
+<area shape="rect" id="node1" title="Interface definition of the Si70xx driver." alt="" coords="5,5,183,32"/>
+<area shape="rect" id="node2" href="$si70xx__params_8h.html" title="Default configuration for Si7006/13/20/21." alt="" coords="11,80,177,121"/>
 </map>

@@ -1,21 +1,31 @@
 <map id="sys/include/can/conn/raw.h" name="sys/include/can/conn/raw.h">
-<area shape="rect" id="node2" href="$sys_2include_2can_2can_8h.html" title="Definitions high&#45;level CAN interface. " alt="" coords="29,319,107,345"/>
-<area shape="rect" id="node4" href="$can_2raw_8h.html" title="Definitions high&#45;level RAW CAN interface. " alt="" coords="242,95,321,121"/>
-<area shape="rect" id="node20" href="$mbox_8h.html" title="Mailbox API. " alt="" coords="586,95,651,121"/>
-<area shape="rect" id="node5" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="583,393,689,420"/>
-<area shape="rect" id="node10" href="$include_2can_2common_8h.html" title="Definitions of high&#45;level CAN interface. " alt="" coords="183,319,291,345"/>
-<area shape="rect" id="node16" href="$sys_2include_2can_2device_8h.html" title="Definitions of CAN device interface. " alt="" coords="277,169,373,196"/>
-<area shape="rect" id="node6" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="479,468,558,495"/>
-<area shape="rect" id="node11" href="$uio_8h.html" title="libc header for scatter/gather I/O " alt="" coords="116,393,191,420"/>
-<area shape="rect" id="node14" href="$timex_8h.html" title="Utility library for comparing and computing timestamps. " alt="" coords="367,393,433,420"/>
-<area shape="rect" id="node12" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="53,468,117,495"/>
-<area shape="rect" id="node13" href="$malloc_8h.html" title="malloc.h" alt="" coords="50,543,121,569"/>
-<area shape="rect" id="node17" href="$candev_8h.html" title="Definitions for low&#45;level CAN driver interface. " alt="" coords="275,244,375,271"/>
-<area shape="rect" id="node18" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="432,319,501,345"/>
-<area shape="rect" id="node19" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="508,393,559,420"/>
-<area shape="rect" id="node21" href="$cib_8h.html" title="Circular integer buffer interface. " alt="" coords="740,169,791,196"/>
-<area shape="rect" id="node25" href="$msg_8h.html" title="Messaging API for inter process communication. " alt="" coords="689,319,748,345"/>
-<area shape="rect" id="node22" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="747,244,816,271"/>
-<area shape="rect" id="node23" href="$panic_8h.html" title="Crash handling header. " alt="" coords="857,319,921,345"/>
-<area shape="rect" id="node24" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="913,393,1031,420"/>
+<area shape="rect" id="node1" title="Definitions of generic CAN interface." alt="" coords="288,5,446,47"/>
+<area shape="rect" id="node2" href="$sys_2include_2can_2can_8h.html" title="Definitions high&#45;level CAN interface." alt="" coords="149,319,233,345"/>
+<area shape="rect" id="node4" href="$can_2raw_8h.html" title="Definitions high&#45;level RAW CAN interface." alt="" coords="325,95,409,121"/>
+<area shape="rect" id="node29" href="$mbox_8h.html" title="Mailbox API." alt="" coords="866,393,937,420"/>
+<area shape="rect" id="node3" title=" " alt="" coords="429,767,500,793"/>
+<area shape="rect" id="node5" href="$sched_8h.html" title="Scheduler API definition." alt="" coords="995,543,1067,569"/>
+<area shape="rect" id="node12" href="$can_2common_8h.html" title="Definitions of high&#45;level CAN interface." alt="" coords="257,319,376,345"/>
+<area shape="rect" id="node18" href="$sys_2include_2can_2device_8h.html" title="Definitions of CAN device interface." alt="" coords="362,169,466,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="1048,767,1123,793"/>
+<area shape="rect" id="node7" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="553,617,640,644"/>
+<area shape="rect" id="node8" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="766,692,896,719"/>
+<area shape="rect" id="node9" href="$native__sched_8h.html" title="Add definitions required on the native board." alt="" coords="995,617,1115,644"/>
+<area shape="rect" id="node10" href="$clist_8h.html" title="Circular linked list." alt="" coords="910,617,971,644"/>
+<area shape="rect" id="node11" href="$list_8h.html" title="Intrusive linked list." alt="" coords="1190,692,1245,719"/>
+<area shape="rect" id="node13" href="$uio_8h.html" title="libc header for scatter/gather I/O" alt="" coords="276,393,356,420"/>
+<area shape="rect" id="node16" href="$timex_8h.html" title="Utility library for comparing and computing timestamps." alt="" coords="366,543,438,569"/>
+<area shape="rect" id="node17" title=" " alt="" coords="44,393,120,420"/>
+<area shape="rect" id="node14" title=" " alt="" coords="366,468,437,495"/>
+<area shape="rect" id="node15" title=" " alt="" coords="246,468,342,495"/>
+<area shape="rect" id="node19" href="$candev_8h.html" title="Definitions for low&#45;level CAN driver interface." alt="" coords="360,244,467,271"/>
+<area shape="rect" id="node20" href="$mutex_8h.html" title="Mutex for thread synchronization." alt="" coords="637,319,713,345"/>
+<area shape="rect" id="node21" href="$irq_8h.html" title="IRQ driver interface." alt="" coords="650,393,700,420"/>
+<area shape="rect" id="node24" href="$core_2include_2thread_8h.html" title="Threading API." alt="" coords="766,393,842,420"/>
+<area shape="rect" id="node22" title=" " alt="" coords="614,543,696,569"/>
+<area shape="rect" id="node23" title=" " alt="" coords="664,468,755,495"/>
+<area shape="rect" id="node25" href="$cib_8h.html" title="Circular integer buffer interface." alt="" coords="867,468,920,495"/>
+<area shape="rect" id="node28" href="$msg_8h.html" title="Messaging API for inter process communication." alt="" coords="780,468,842,495"/>
+<area shape="rect" id="node26" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="808,543,883,569"/>
+<area shape="rect" id="node27" href="$panic_8h.html" title="Crash handling header." alt="" coords="766,617,835,644"/>
 </map>

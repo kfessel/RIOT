@@ -1,3 +1,4 @@
 <map id="sys/include/net/udp.h" name="sys/include/net/udp.h">
-<area shape="rect" id="node2" href="$gnrc_2udp_8h.html" title="UDP GNRC definition. " alt="" coords="9,80,148,121"/>
+<area shape="rect" id="node1" title="UDP header and helper functions definition." alt="" coords="5,5,165,32"/>
+<area shape="rect" id="node2" href="$gnrc_2udp_8h.html" title="UDP GNRC definition." alt="" coords="9,80,161,121"/>
 </map>

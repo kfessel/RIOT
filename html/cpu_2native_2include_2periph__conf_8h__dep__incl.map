@@ -1,3 +1,5 @@
 <map id="cpu/native/include/periph_conf.h" name="cpu/native/include/periph_conf.h">
-<area shape="rect" id="node2" href="$spidev__linux_8h.html" title="Implementation of SPI access from Linux User Space. " alt="" coords="5,95,132,136"/>
+<area shape="rect" id="node1" title="Native CPU peripheral configuration." alt="" coords="88,5,229,47"/>
+<area shape="rect" id="node2" href="$native_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling." alt="" coords="5,95,147,136"/>
+<area shape="rect" id="node3" href="$spidev__linux_8h.html" title="Implementation of SPI access from Linux User Space." alt="" coords="171,95,312,136"/>
 </map>

@@ -29,7 +29,7 @@ var group__drivers__periph__usbdev =
     ] ],
     [ "USBDEV_EP_BUF_SPACE", "group__drivers__periph__usbdev.html#ga62700e0adccac783b55c6d4ccdfda84f", null ],
     [ "USBDEV_NUM_ENDPOINTS", "group__drivers__periph__usbdev.html#ga359f875644f47ca8bb6844b5b5a0c90e", null ],
-    [ "usbdev_driver_t", "group__drivers__periph__usbdev.html#ga0e9368db01bf949d04fc39caa84dd852", null ],
+    [ "usbdev_driver_t", "group__drivers__periph__usbdev.html#gac8f288e750d0b0327db93988d91d7f80", null ],
     [ "usbdev_ep_event_cb_t", "group__drivers__periph__usbdev.html#gaa334cadaee714011b991f0e865463826", null ],
     [ "usbdev_ep_t", "group__drivers__periph__usbdev.html#ga45fb2233696b039b8fb4f5264a5f4e5f", null ],
     [ "usbdev_event_cb_t", "group__drivers__periph__usbdev.html#gaa812e5b620e20f44199e2d11d3fa52d8", null ],

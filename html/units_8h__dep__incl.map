@@ -1,3 +1,252 @@
 <map id="core/include/macros/units.h" name="core/include/macros/units.h">
-<area shape="rect" id="node2" href="$samd5x_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling. " alt="" coords="5,95,144,136"/>
+<area shape="rect" id="node1" title="Unit helper macros." alt="" coords="17155,5,17308,47"/>
+<area shape="rect" id="node2" href="$fe310_2include_2cpu_8h.html" title="Basic definitions for the RISC&#45;V common module." alt="" coords="769,102,945,129"/>
+<area shape="rect" id="node5" href="$samd5x_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling." alt="" coords="16977,95,17129,136"/>
+<area shape="rect" id="node6" href="$include_2clk_2clk__conf_8h.html" title="Main header for STM32 clock configuration." alt="" coords="6884,191,7048,233"/>
+<area shape="rect" id="node80" href="$stm32_2include_2periph__cpu_8h.html" title="Shared CPU specific definitions for the STM32 family." alt="" coords="17203,95,17390,136"/>
+<area shape="rect" id="node185" href="$boards_2ek-lm4f120xl_2include_2periph__conf_8h.html" title=" " alt="" coords="36721,191,36885,233"/>
+<area shape="rect" id="node250" href="$soft__uart__params_8h.html" title="Software UART configuration." alt="" coords="17465,95,17645,136"/>
+<area shape="rect" id="node3" href="$fe310_2include_2irq__arch_8h.html" title="Implementation of the kernels irq interface." alt="" coords="777,191,936,233"/>
+<area shape="rect" id="node4" href="$fe310_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling." alt="" coords="571,191,753,233"/>
+<area shape="rect" id="node7" href="$boards_2b-l072z-lrwan1_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the ST B&#45;L072Z&#45;LRWAN1 board." alt="" coords="6703,295,6869,337"/>
+<area shape="rect" id="node8" href="$boards_2b-l475e-iot01a_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the B&#45;L475E&#45;IOT01A board." alt="" coords="13119,295,13285,337"/>
+<area shape="rect" id="node9" href="$boards_2common_2blxxxpill_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the bluepill/blackpill boards." alt="" coords="7649,295,7835,337"/>
+<area shape="rect" id="node10" href="$iotlab_2include_2periph__conf__common_8h.html" title="Peripheral MCU configuration for the iotlab&#45;m3 board." alt="" coords="7859,288,8027,344"/>
+<area shape="rect" id="node12" href="$boards_2f4vi1_2include_2periph__conf_8h.html" title=" " alt="" coords="8051,295,8206,337"/>
+<area shape="rect" id="node14" href="$boards_2fox_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the fox board." alt="" coords="8231,295,8373,337"/>
+<area shape="rect" id="node16" href="$boards_2i-nucleo-lrwan1_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the ST I&#45;NUCLEO&#45;LRWAN1 board." alt="" coords="10653,295,10823,337"/>
+<area shape="rect" id="node17" href="$boards_2im880b_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the im808b board." alt="" coords="8398,295,8569,337"/>
+<area shape="rect" id="node19" href="$boards_2limifrog-v1_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the limifrog&#45;v1 board." alt="" coords="8593,295,8757,337"/>
+<area shape="rect" id="node21" href="$boards_2lobaro-lorabox_2include_2periph__conf_8h.html" title="Support for the Lobaro lorabox with stm32l151cb." alt="" coords="5573,295,5738,337"/>
+<area shape="rect" id="node22" href="$boards_2lsn50_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the LSN50 board." alt="" coords="11224,295,11380,337"/>
+<area shape="rect" id="node23" href="$boards_2maple-mini_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the maple&#45;mini board." alt="" coords="8781,295,8977,337"/>
+<area shape="rect" id="node24" href="$boards_2msbiot_2include_2periph__conf_8h.html" title=" " alt="" coords="9001,295,9168,337"/>
+<area shape="rect" id="node26" href="$boards_2nucleo-f103rb_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f103rb board." alt="" coords="9192,295,9356,337"/>
+<area shape="rect" id="node27" href="$boards_2nucleo-f207zg_2include_2periph__conf_8h.html" title=" " alt="" coords="3491,295,3655,337"/>
+<area shape="rect" id="node28" href="$boards_2nucleo-f302r8_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f302r8 board." alt="" coords="5763,295,5927,337"/>
+<area shape="rect" id="node29" href="$boards_2nucleo-f303k8_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f303k8 board." alt="" coords="5951,295,6115,337"/>
+<area shape="rect" id="node30" href="$boards_2nucleo-f303re_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f303re board." alt="" coords="6139,295,6303,337"/>
+<area shape="rect" id="node31" href="$boards_2nucleo-f303ze_2include_2periph__conf_8h.html" title=" " alt="" coords="6327,295,6491,337"/>
+<area shape="rect" id="node32" href="$boards_2nucleo-f334r8_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f334r8 board." alt="" coords="6515,295,6679,337"/>
+<area shape="rect" id="node33" href="$boards_2nucleo-f401re_2include_2periph__conf_8h.html" title=" " alt="" coords="2516,295,2680,337"/>
+<area shape="rect" id="node34" href="$boards_2nucleo-f410rb_2include_2periph__conf_8h.html" title=" " alt="" coords="2704,295,2868,337"/>
+<area shape="rect" id="node35" href="$boards_2nucleo-f411re_2include_2periph__conf_8h.html" title=" " alt="" coords="824,295,988,337"/>
+<area shape="rect" id="node36" href="$boards_2nucleo-f412zg_2include_2periph__conf_8h.html" title=" " alt="" coords="2140,295,2304,337"/>
+<area shape="rect" id="node37" href="$boards_2nucleo-f413zh_2include_2periph__conf_8h.html" title=" " alt="" coords="3303,295,3467,337"/>
+<area shape="rect" id="node38" href="$boards_2nucleo-f429zi_2include_2periph__conf_8h.html" title=" " alt="" coords="1388,295,1552,337"/>
+<area shape="rect" id="node39" href="$boards_2nucleo-f446re_2include_2periph__conf_8h.html" title=" " alt="" coords="1012,295,1176,337"/>
+<area shape="rect" id="node40" href="$boards_2nucleo-f446ze_2include_2periph__conf_8h.html" title=" " alt="" coords="1200,295,1364,337"/>
+<area shape="rect" id="node41" href="$boards_2nucleo-f767zi_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f767zi board." alt="" coords="4444,295,4608,337"/>
+<area shape="rect" id="node42" href="$boards_2nucleo-g070rb_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;g070rb board." alt="" coords="4632,295,4796,337"/>
+<area shape="rect" id="node43" href="$boards_2nucleo-g071rb_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;g071rb board." alt="" coords="5384,295,5548,337"/>
+<area shape="rect" id="node44" href="$boards_2nucleo-g431rb_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;g431rb board." alt="" coords="6893,295,7057,337"/>
+<area shape="rect" id="node45" href="$boards_2nucleo-g474re_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;g474re board." alt="" coords="3679,295,3843,337"/>
+<area shape="rect" id="node46" href="$boards_2nucleo-l011k4_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l011k4 board." alt="" coords="11404,295,11568,337"/>
+<area shape="rect" id="node47" href="$boards_2nucleo-l031k6_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l031k6 board." alt="" coords="11592,295,11756,337"/>
+<area shape="rect" id="node48" href="$boards_2nucleo-l053r8_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l053r8 board." alt="" coords="12156,295,12320,337"/>
+<area shape="rect" id="node49" href="$boards_2nucleo-l073rz_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l073rz board." alt="" coords="12344,295,12508,337"/>
+<area shape="rect" id="node50" href="$boards_2nucleo-l152re_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l152re board." alt="" coords="5,295,169,337"/>
+<area shape="rect" id="node51" href="$boards_2nucleo-l412kb_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l412kb board." alt="" coords="11780,295,11944,337"/>
+<area shape="rect" id="node52" href="$boards_2nucleo-l432kc_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l432kc board." alt="" coords="11968,295,12132,337"/>
+<area shape="rect" id="node53" href="$boards_2nucleo-l433rc_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l433rc board." alt="" coords="12532,295,12696,337"/>
+<area shape="rect" id="node54" href="$boards_2nucleo-l452re_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l452re board." alt="" coords="7460,295,7624,337"/>
+<area shape="rect" id="node55" href="$boards_2nucleo-l476rg_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l476rg board." alt="" coords="4820,295,4984,337"/>
+<area shape="rect" id="node56" href="$boards_2nucleo-l496zg_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo144&#45;l496 board." alt="" coords="5008,295,5172,337"/>
+<area shape="rect" id="node57" href="$boards_2nucleo-l4r5zi_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l4r5zi board." alt="" coords="5196,295,5360,337"/>
+<area shape="rect" id="node58" href="$boards_2nucleo-l552ze-q_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;l552ze&#45;q board." alt="" coords="3867,295,4044,337"/>
+<area shape="rect" id="node59" href="$boards_2nz32-sc151_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the limifrog&#45;v1 board." alt="" coords="194,295,389,337"/>
+<area shape="rect" id="node61" href="$boards_2olimexino-stm32_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the OLIMEXINO STM32 board." alt="" coords="9381,295,9562,337"/>
+<area shape="rect" id="node63" href="$boards_2opencm904_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the opencm904 board." alt="" coords="9586,295,9783,337"/>
+<area shape="rect" id="node64" href="$boards_2p-l496g-cell02_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the P&#45;L496G&#45;CELL02 board." alt="" coords="12720,295,12884,337"/>
+<area shape="rect" id="node65" href="$boards_2p-nucleo-wb55_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the p&#45;nucleo&#45;wb55 board." alt="" coords="7081,295,7248,337"/>
+<area shape="rect" id="node66" href="$boards_2pyboard_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the pyboard board." alt="" coords="2892,295,3067,337"/>
+<area shape="rect" id="node67" href="$boards_2spark-core_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the spark&#45;core board." alt="" coords="9808,295,9999,337"/>
+<area shape="rect" id="node69" href="$boards_2stm32f3discovery_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the STM32F3discovery board." alt="" coords="10023,295,10210,337"/>
+<area shape="rect" id="node70" href="$boards_2stm32f429i-disc1_2include_2periph__conf_8h.html" title=" " alt="" coords="413,295,596,337"/>
+<area shape="rect" id="node72" href="$boards_2stm32f4discovery_2include_2periph__conf_8h.html" title=" " alt="" coords="3091,295,3278,337"/>
+<area shape="rect" id="node74" href="$boards_2stm32l0538-disco_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the STM32L0538&#45;DISCO board." alt="" coords="10234,295,10421,337"/>
+<area shape="rect" id="node75" href="$boards_2stm32l476g-disco_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the STM32L476G&#45;DISCO board." alt="" coords="13309,295,13495,337"/>
+<area shape="rect" id="node76" href="$boards_2stm32mp157c-dk2_2include_2periph__conf_8h.html" title="Board specific implementations for the STM32MP157C&#45;DK2 board." alt="" coords="7273,288,7435,344"/>
+<area shape="rect" id="node78" href="$boards_2ublox-c030-u201_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Ublox C030&#45;U201 board." alt="" coords="621,295,799,337"/>
+<area shape="rect" id="node79" href="$boards_2weact-f411ce_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the WeAct&#45;F411CE Board." alt="" coords="1576,295,1740,337"/>
+<area shape="rect" id="node11" href="$iotlab_2include_2board__common_8h.html" title="Board specific definitions for the iotlab&#45;m3 board." alt="" coords="7836,399,8027,441"/>
+<area shape="rect" id="node13" href="$f4vi1_2include_2board_8h.html" title="Board specific definitions for the f4vi1 board." alt="" coords="8051,399,8206,441"/>
+<area shape="rect" id="node15" href="$fox_2include_2board_8h.html" title="Board specific definitions for the fox board." alt="" coords="8231,399,8373,441"/>
+<area shape="rect" id="node18" href="$im880b_2include_2board_8h.html" title="Support for im880b." alt="" coords="8398,399,8569,441"/>
+<area shape="rect" id="node20" href="$limifrog-v1_2include_2board_8h.html" title="Board specific definitions for the limifrog&#45;v1 board." alt="" coords="8604,399,8747,441"/>
+<area shape="rect" id="node25" href="$msbiot_2include_2board_8h.html" title="Board specific definitions for the MSB&#45;IoT board." alt="" coords="9001,399,9168,441"/>
+<area shape="rect" id="node60" href="$nz32-sc151_2include_2board_8h.html" title="Board specific definitions for the nz32&#45;sc151 board." alt="" coords="194,399,389,441"/>
+<area shape="rect" id="node62" href="$olimexino-stm32_2include_2board_8h.html" title="Board specific definitions for the OLIMEXINO STM32 board." alt="" coords="9381,399,9562,441"/>
+<area shape="rect" id="node68" href="$spark-core_2include_2board_8h.html" title="Board specific definitions for the spark&#45;core board." alt="" coords="9808,399,9999,441"/>
+<area shape="rect" id="node71" href="$stm32f429i-disc1_2include_2board_8h.html" title="Board specific definitions for the STM32F429I&#45;DISC1 evaluation board." alt="" coords="413,399,596,441"/>
+<area shape="rect" id="node73" href="$stm32f4discovery_2include_2board_8h.html" title="Board specific definitions for the STM32F4Discovery evaluation board." alt="" coords="3091,399,3278,441"/>
+<area shape="rect" id="node77" href="$stm32mp157c-dk2_2include_2board_8h.html" title="Board specific definitions for the STM32MP157C&#45;DK2 board." alt="" coords="7273,399,7435,441"/>
+<area shape="rect" id="node81" href="$atmega__gpio_8h.html" title="Macros and inline functions for accessing GPIOs of the ATmega family." alt="" coords="20715,295,20929,337"/>
+<area shape="rect" id="node82" href="$sam__usb_8h.html" title="USB interface functions for the sam0 class devices." alt="" coords="19257,191,19457,233"/>
+<area shape="rect" id="node83" href="$cpu_2stm32_2include_2clk_2l0l1_2cfg__clock__default_8h.html" title="Default STM32L0/STM32L1 clock configuration." alt="" coords="19481,191,19661,233"/>
+<area shape="rect" id="node84" href="$cpu__conf__stm32__common_8h.html" title="Shared CPU specific configuration for STM32 family." alt="" coords="21763,295,21945,337"/>
+<area shape="rect" id="node85" href="$usbdev__stm32_8h.html" title="USB interface functions for the stm32 OTG FS/HS class devices." alt="" coords="19787,191,19979,233"/>
+<area shape="rect" id="node86" href="$boards_26lowpan-clicker_2include_2periph__conf_8h.html" title="peripheral configuration for the MikroE 6LoWPAN Clicker" alt="" coords="21980,191,22152,233"/>
+<area shape="rect" id="node88" href="$boards_2acd52832_2include_2periph__conf_8h.html" title="Peripheral configuration for the ACD52832." alt="" coords="13519,295,13703,337"/>
+<area shape="rect" id="node89" href="$boards_2adafruit-clue_2include_2periph__conf_8h.html" title="Peripheral configuration for the Adafruit Clue board." alt="" coords="13728,295,13892,337"/>
+<area shape="rect" id="node90" href="$boards_2adafruit-itsybitsy-nrf52_2include_2periph__conf_8h.html" title="Peripheral configuration for the Adafruit ItsyBitsy nRF52840." alt="" coords="13917,295,14119,337"/>
+<area shape="rect" id="node91" href="$boards_2airfy-beacon_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Airfy Beacon board." alt="" coords="19361,295,19525,337"/>
+<area shape="rect" id="node92" href="$boards_2arduino-mkrwan1300_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for Arduino MKRWAN1300 board." alt="" coords="14827,399,15036,441"/>
+<area shape="rect" id="node93" href="$boards_2arduino-nano-33-ble_2include_2periph__conf_8h.html" title="Peripheral configuration for the Arduino Nano 33 BLE." alt="" coords="14144,288,14308,344"/>
+<area shape="rect" id="node94" href="$boards_2avsextrem_2include_2periph__conf_8h.html" title="Peripheral configuration for the avsextrem." alt="" coords="20191,191,20381,233"/>
+<area shape="rect" id="node95" href="$boards_2calliope-mini_2include_2periph__conf_8h.html" title="Peripheral configuration for the Calliope mini." alt="" coords="20129,295,20293,337"/>
+<area shape="rect" id="node96" href="$boards_2cc1312-launchpad_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for TI CC1312 LaunchPad." alt="" coords="20405,191,20593,233"/>
+<area shape="rect" id="node97" href="$boards_2cc1352-launchpad_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for TI CC1352 LaunchPad." alt="" coords="20617,191,20805,233"/>
+<area shape="rect" id="node98" href="$boards_2cc1352p-launchpad_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for TI CC1312 LaunchPad." alt="" coords="20829,191,21025,233"/>
+<area shape="rect" id="node99" href="$boards_2cc2538dk_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the CC2538DK board." alt="" coords="14332,295,14515,337"/>
+<area shape="rect" id="node100" href="$boards_2cc2650-launchpad_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for TI CC2650 LaunchPad." alt="" coords="21049,191,21237,233"/>
+<area shape="rect" id="node101" href="$boards_2cc2650stk_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the CC2650STK board." alt="" coords="21262,191,21449,233"/>
+<area shape="rect" id="node102" href="$boards_2common_2arduino-due_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for Arduino Due based boards." alt="" coords="21473,191,21667,233"/>
+<area shape="rect" id="node103" href="$boards_2common_2arduino-mkr_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for Arduino MKR boards." alt="" coords="25623,295,25818,337"/>
+<area shape="rect" id="node104" href="$arduino-mkr_2include_2periph__conf__common_8h.html" title="Common configuration for clock, timer, pwm, adc, rtc and rtt peripherals for Arduino MKR boards." alt="" coords="25565,184,25749,240"/>
+<area shape="rect" id="node105" href="$boards_2common_2arduino-zero_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for Arduino Zero board and clones." alt="" coords="26461,184,26641,240"/>
+<area shape="rect" id="node106" href="$common_2arduino-zero_2include_2board_8h.html" title="Board specific definitions for the Arduino Zero board and clones." alt="" coords="26525,295,26705,337"/>
+<area shape="rect" id="node107" href="$periph__conf__atmega__common_8h.html" title="Common configuration of MCU periphery for ATmega boards." alt="" coords="22177,184,22358,240"/>
+<area shape="rect" id="node108" href="$cfg__clk__default_8h.html" title="Default clock configuration for cc2538 based boards." alt="" coords="14740,191,14928,233"/>
+<area shape="rect" id="node109" href="$boards_2omote_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the omote board." alt="" coords="14539,295,14702,337"/>
+<area shape="rect" id="node110" href="$boards_2openmote-b_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the OpenMote&#45;B board." alt="" coords="14726,295,14926,337"/>
+<area shape="rect" id="node111" href="$boards_2openmote-cc2538_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the OpenMote&#45;cc2538 board." alt="" coords="14950,295,15137,337"/>
+<area shape="rect" id="node112" href="$boards_2remote-pa_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Re&#45;Mote board prototype A." alt="" coords="15161,295,15350,337"/>
+<area shape="rect" id="node113" href="$cc2538_2include_2cfg__timer__default_8h.html" title="Common default timer configuration for cc2538 boards." alt="" coords="22383,191,22587,233"/>
+<area shape="rect" id="node114" href="$esp32_2include_2periph__conf__common_8h.html" title="Common declarations of ESP32 periphery for all ESP32 boards." alt="" coords="22611,184,22782,240"/>
+<area shape="rect" id="node115" href="$esp8266_2include_2periph__conf__common_8h.html" title="Configurations of the MCU periphery that are common for all ESP8266 boards." alt="" coords="22806,184,22993,240"/>
+<area shape="rect" id="node116" href="$kw41z_2include_2cfg__i2c__default_8h.html" title=" " alt="" coords="23017,191,23205,233"/>
+<area shape="rect" id="node117" href="$kw41z_2include_2periph__conf__common_8h.html" title=" " alt="" coords="23230,184,23403,240"/>
+<area shape="rect" id="node118" href="$cfg__clock__16__0_8h.html" title="Common clock configuration for some nrf51 based boards." alt="" coords="18655,191,18843,233"/>
+<area shape="rect" id="node119" href="$boards_2microbit_2include_2periph__conf_8h.html" title="Peripheral configuration for the BBC micro:bit." alt="" coords="20516,295,20691,337"/>
+<area shape="rect" id="node120" href="$boards_2yunjia-nrf51822_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Yunjia NRF51822 board." alt="" coords="20318,295,20491,337"/>
+<area shape="rect" id="node121" href="$cfg__clock__16__1_8h.html" title="Common clock configuration for some nrf51 based boards." alt="" coords="18081,191,18269,233"/>
+<area shape="rect" id="node122" href="$boards_2nrf51dk_2include_2periph__conf_8h.html" title="Peripheral configuration for the Nordic nRF51DK." alt="" coords="19550,295,19721,337"/>
+<area shape="rect" id="node123" href="$boards_2nrf51dongle_2include_2periph__conf_8h.html" title="Peripheral configuration for the Nordic nRF51 Dongle." alt="" coords="19745,295,19909,337"/>
+<area shape="rect" id="node124" href="$boards_2nrf6310_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nRF51 board nrf6310." alt="" coords="19934,295,20105,337"/>
+<area shape="rect" id="node125" href="$cfg__timer__01_8h.html" title="Shared timer peripheral configuration mapping timers 0 and 1." alt="" coords="23428,191,23603,233"/>
+<area shape="rect" id="node126" href="$cfg__timer__012_8h.html" title="Shared timer peripheral configuration mapping timers 0, 1, and 2." alt="" coords="18345,191,18528,233"/>
+<area shape="rect" id="node127" href="$nrf52_2include_2cfg__i2c__default_8h.html" title="Default I2C config for nRF52 based boards." alt="" coords="23627,191,23815,233"/>
+<area shape="rect" id="node128" href="$nrf52_2include_2cfg__spi__default_8h.html" title="Default SPI config for nRF52 based boards." alt="" coords="23839,191,24027,233"/>
+<area shape="rect" id="node129" href="$nrf52_2include_2cfg__timer__default_8h.html" title="Default timer configuration for nRF52 based boards." alt="" coords="24051,191,24255,233"/>
+<area shape="rect" id="node130" href="$nrf52xxxdk_2include_2periph__conf__common_8h.html" title="Peripheral configuration for the nRF52 DK." alt="" coords="15947,295,16177,337"/>
+<area shape="rect" id="node131" href="$particle-mesh_2include_2periph__conf__common_8h.html" title="Common peripheral configuration for the Particle Mesh." alt="" coords="15627,288,15822,344"/>
+<area shape="rect" id="node132" href="$boards_2frdm-kw41z_2include_2periph__conf_8h.html" title=" " alt="" coords="16021,399,16220,441"/>
+<area shape="rect" id="node133" href="$boards_2iotlab-a8-m3_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the iotlab&#45;a8&#45;m3 board." alt="" coords="15060,399,15224,441"/>
+<area shape="rect" id="node134" href="$boards_2iotlab-m3_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the iotlab&#45;m3 board." alt="" coords="15249,399,15433,441"/>
+<area shape="rect" id="node135" href="$boards_2particle-argon_2include_2periph__conf_8h.html" title="Peripheral configuration for the Particle Argon." alt="" coords="15457,399,15621,441"/>
+<area shape="rect" id="node136" href="$boards_2particle-boron_2include_2periph__conf_8h.html" title="Peripheral configuration for the Particle Boron." alt="" coords="15645,399,15809,441"/>
+<area shape="rect" id="node137" href="$boards_2particle-xenon_2include_2periph__conf_8h.html" title="Peripheral configuration for the Particle Xenon." alt="" coords="15833,399,15997,441"/>
+<area shape="rect" id="node138" href="$boards_2phynode-kw41z_2include_2periph__conf_8h.html" title=" " alt="" coords="16245,399,16418,441"/>
+<area shape="rect" id="node139" href="$boards_2usb-kw41z_2include_2periph__conf_8h.html" title=" " alt="" coords="16443,399,16633,441"/>
+<area shape="rect" id="node140" href="$cfg__adc__default_8h.html" title="Common default ADC configuration for the RE&#45;Mote board revision A." alt="" coords="24279,191,24471,233"/>
+<area shape="rect" id="node141" href="$remote_2include_2cfg__i2c__default_8h.html" title="Common default I2C configuration for the RE&#45;Mote board revision A." alt="" coords="15831,191,16019,233"/>
+<area shape="rect" id="node142" href="$boards_2nrf52832-mdk_2include_2periph__conf_8h.html" title="Peripheral configuration for the nRF52832&#45;MDK." alt="" coords="16575,295,16739,337"/>
+<area shape="rect" id="node143" href="$boards_2nrf52840-mdk_2include_2periph__conf_8h.html" title="Peripheral configuration for the nRF52840&#45;MDK." alt="" coords="18185,295,18349,337"/>
+<area shape="rect" id="node144" href="$boards_2reel_2include_2periph__conf_8h.html" title="Peripheral configuration for the Phytec &#39;reel board&#39;." alt="" coords="16302,295,16449,337"/>
+<area shape="rect" id="node145" href="$remote_2include_2cfg__spi__default_8h.html" title="Common default SPI configuration for the RE&#45;Mote board revision A." alt="" coords="24496,191,24684,233"/>
+<area shape="rect" id="node146" href="$cfg__uart__default_8h.html" title="Common default UART configuration for the RE&#45;Mote board revision A." alt="" coords="15105,191,15299,233"/>
+<area shape="rect" id="node147" href="$boards_2common_2saml1x_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Microchip SAML10 &amp; SAML11 Xplained Pro board." alt="" coords="24709,191,24887,233"/>
+<area shape="rect" id="node148" href="$common_2silabs_2include_2arduino__pinmap_8h.html" title="SiLabs Boards configuration for the Arduino API." alt="" coords="21242,295,21437,337"/>
+<area shape="rect" id="node149" href="$boards_2common_2slwstk6000b_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SLWSTK6000B starter kit." alt="" coords="24911,191,25125,233"/>
+<area shape="rect" id="node150" href="$boards_2common_2sodaq_2include_2cfg__clock__default_8h.html" title="Default clock configuration for SODAQ boards." alt="" coords="17195,191,17398,233"/>
+<area shape="rect" id="node151" href="$boards_2sodaq-autonomo_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ Autonomo board." alt="" coords="18373,295,18553,337"/>
+<area shape="rect" id="node152" href="$boards_2sodaq-explorer_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Sodaq LoRaWAN Explorer board." alt="" coords="18578,295,18746,337"/>
+<area shape="rect" id="node153" href="$boards_2sodaq-one_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ ONE board." alt="" coords="18959,295,19149,337"/>
+<area shape="rect" id="node154" href="$boards_2sodaq-sara-aff_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ SARA AFF boards." alt="" coords="18770,295,18935,337"/>
+<area shape="rect" id="node155" href="$boards_2sodaq-sara-sff_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ SARA SFF board." alt="" coords="19173,295,19337,337"/>
+<area shape="rect" id="node156" href="$cfg__rtc__default_8h.html" title="Default RTC configuration for SODAQ boards." alt="" coords="17422,191,17609,233"/>
+<area shape="rect" id="node157" href="$sodaq_2include_2cfg__rtt__default_8h.html" title="Default RTT configuration for SODAQ boards." alt="" coords="25149,191,25333,233"/>
+<area shape="rect" id="node158" href="$sodaq_2include_2cfg__spi__default_8h.html" title="Default SPI configuration for SODAQ boards." alt="" coords="16881,191,17069,233"/>
+<area shape="rect" id="node159" href="$sodaq_2include_2cfg__timer__default_8h.html" title="Default timer configuration for SODAQ boards." alt="" coords="16247,191,16451,233"/>
+<area shape="rect" id="node160" href="$boards_2dwm1001_2include_2periph__conf_8h.html" title="Peripheral configuration for the DWM1001 dev board." alt="" coords="17769,295,17955,337"/>
+<area shape="rect" id="node161" href="$boards_2e104-bt5010a-tb_2include_2periph__conf_8h.html" title="Peripheral configuration for the E104&#45;BT5010A Test Board." alt="" coords="17979,295,18161,337"/>
+<area shape="rect" id="node162" href="$boards_2feather-nrf52840_2include_2periph__conf_8h.html" title="Peripheral configuration for the Adafruit Feather nRF52840 Express." alt="" coords="16763,295,16942,337"/>
+<area shape="rect" id="node163" href="$boards_2nrf52840dongle_2include_2periph__conf_8h.html" title="Peripheral configuration for the nRF52840&#45;Dongle." alt="" coords="16967,295,17139,337"/>
+<area shape="rect" id="node164" href="$boards_2pinetime_2include_2periph__conf_8h.html" title="Peripheral configuration for the PineTime." alt="" coords="17163,295,17342,337"/>
+<area shape="rect" id="node165" href="$boards_2ruuvitag_2include_2periph__conf_8h.html" title="Peripheral configuration for the RuuviTag." alt="" coords="17367,295,17541,337"/>
+<area shape="rect" id="node166" href="$boards_2thingy52_2include_2periph__conf_8h.html" title="Peripheral configuration for the Thingy:52." alt="" coords="17566,295,17745,337"/>
+<area shape="rect" id="node167" href="$cfg__usbdev__default_8h.html" title="Default usbdev configuration for SODAQ boards." alt="" coords="17633,184,17803,240"/>
+<area shape="rect" id="node168" href="$cfg__i2c1__pb6__pb7_8h.html" title="Common configuration for STM32 I2C." alt="" coords="11759,191,11965,233"/>
+<area shape="rect" id="node169" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C." alt="" coords="3822,191,4027,233"/>
+<area shape="rect" id="node170" href="$boards_2nucleo-f070rb_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f070rb board." alt="" coords="1764,295,1928,337"/>
+<area shape="rect" id="node171" href="$boards_2nucleo-f072rb_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f072rb board." alt="" coords="1952,295,2116,337"/>
+<area shape="rect" id="node172" href="$boards_2nucleo-f091rc_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f091rc board." alt="" coords="2328,295,2492,337"/>
+<area shape="rect" id="node173" href="$boards_2nucleo-f722ze_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f722ze board." alt="" coords="4068,295,4232,337"/>
+<area shape="rect" id="node174" href="$boards_2nucleo-f746zg_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f746zg board." alt="" coords="4256,295,4420,337"/>
+<area shape="rect" id="node175" href="$stm32_2include_2cfg__rtt__default_8h.html" title="Common configuration for STM32 RTT." alt="" coords="13333,191,13517,233"/>
+<area shape="rect" id="node176" href="$boards_2stm32f723e-disco_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the STM32F723E&#45;DISCO board." alt="" coords="12909,295,13095,337"/>
+<area shape="rect" id="node177" href="$boards_2stm32f769i-disco_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the STM32F769I&#45;DISCO board." alt="" coords="10445,295,10628,337"/>
+<area shape="rect" id="node178" href="$cfg__timer__tim2_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM2." alt="" coords="7987,191,8175,233"/>
+<area shape="rect" id="node179" href="$boards_2nucleo-f031k6_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f031k6 board." alt="" coords="10848,295,11012,337"/>
+<area shape="rect" id="node180" href="$boards_2nucleo-f042k6_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f042k6 board." alt="" coords="11036,295,11200,337"/>
+<area shape="rect" id="node181" href="$cfg__timer__tim5_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM5." alt="" coords="1564,191,1752,233"/>
+<area shape="rect" id="node182" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral." alt="" coords="3389,191,3575,233"/>
+<area shape="rect" id="node183" href="$cfg__usb__otg__hs__fs_8h.html" title="Common configuration for STM32 OTG HS peripheral with FS phy." alt="" coords="1113,184,1285,240"/>
+<area shape="rect" id="node184" href="$boards_2e180-zg120b-tb_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the E180&#45;ZG120B&#45;TB Test Board." alt="" coords="25357,191,25540,233"/>
+<area shape="rect" id="node186" href="$boards_2feather-m0_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for Adafruit Feather M0." alt="" coords="29235,191,29428,233"/>
+<area shape="rect" id="node187" href="$feather-m0_2include_2board_8h.html" title="Board specific configuration for the Adafruit Feather M0." alt="" coords="29301,295,29495,337"/>
+<area shape="rect" id="node188" href="$boards_2frdm-k22f_2include_2periph__conf_8h.html" title=" " alt="" coords="25823,191,26010,233"/>
+<area shape="rect" id="node189" href="$boards_2frdm-k64f_2include_2periph__conf_8h.html" title=" " alt="" coords="26034,191,26221,233"/>
+<area shape="rect" id="node190" href="$boards_2frdm-kl43z_2include_2periph__conf_8h.html" title=" " alt="" coords="26245,191,26437,233"/>
+<area shape="rect" id="node191" href="$boards_2hamilton_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Hamilton mote." alt="" coords="29881,191,30059,233"/>
+<area shape="rect" id="node192" href="$hamilton_2include_2board_8h.html" title="Board specific definitions for the Hamilton board." alt="" coords="29943,295,30122,337"/>
+<area shape="rect" id="node193" href="$boards_2hifive1_2include_2periph__conf_8h.html" title="Peripheral specific definitions for the HiFive1 RISC&#45;V board." alt="" coords="26717,191,26884,233"/>
+<area shape="rect" id="node194" href="$boards_2hifive1b_2include_2periph__conf_8h.html" title="Peripheral specific definitions for the HiFive1b RISC&#45;V board." alt="" coords="26908,191,27083,233"/>
+<area shape="rect" id="node195" href="$boards_2ikea-tradfri_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the IKEA TRÅDFRI modules." alt="" coords="27107,191,27271,233"/>
+<area shape="rect" id="node196" href="$boards_2mbed__lpc1768_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the mbed LPC1768 board." alt="" coords="27295,191,27461,233"/>
+<area shape="rect" id="node197" href="$boards_2mcb2388_2include_2periph__conf_8h.html" title="MCB2388 peripheral configuration." alt="" coords="27485,191,27666,233"/>
+<area shape="rect" id="node198" href="$mega-xplained_2include_2board_8h_source.html" title=" " alt="" coords="27690,191,27858,233"/>
+<area shape="rect" id="node199" href="$boards_2msb-430h_2include_2periph__conf_8h.html" title="MSB&#45;430h peripheral configuration." alt="" coords="27882,191,28069,233"/>
+<area shape="rect" id="node200" href="$boards_2msba2_2include_2periph__conf_8h.html" title="MSB&#45;A2 peripheral configuration." alt="" coords="28093,191,28258,233"/>
+<area shape="rect" id="node201" href="$boards_2mulle_2include_2periph__conf_8h.html" title=" " alt="" coords="28283,191,28441,233"/>
+<area shape="rect" id="node202" href="$boards_2nucleo-f030r8_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f030r8 board." alt="" coords="28465,191,28629,233"/>
+<area shape="rect" id="node203" href="$boards_2openlabs-kw41z-mini_2include_2periph__conf_8h.html" title=" " alt="" coords="28654,184,28830,240"/>
+<area shape="rect" id="node204" href="$boards_2pba-d-01-kw2x_2include_2periph__conf_8h.html" title=" " alt="" coords="28854,191,29022,233"/>
+<area shape="rect" id="node205" href="$boards_2pic32-wifire_2include_2periph__conf_8h.html" title="peripheral configuration for the Digilent PIC32 WiFire" alt="" coords="29047,191,29211,233"/>
+<area shape="rect" id="node206" href="$boards_2samd21-xpro_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Atmel SAM D21 Xplained Pro board." alt="" coords="30725,191,30889,233"/>
+<area shape="rect" id="node207" href="$samd21-xpro_2include_2board_8h.html" title="Board specific definitions for the Atmel SAM D21 Xplained Pro board." alt="" coords="30789,295,30945,337"/>
+<area shape="rect" id="node208" href="$boards_2same54-xpro_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Microchip SAM E54 Xplained Pro board." alt="" coords="29504,191,29668,233"/>
+<area shape="rect" id="node209" href="$saml21-xpro_2include_2arduino__pinmap_8h.html" title="Mapping from board pins to Arduino pins." alt="" coords="21523,295,21718,337"/>
+<area shape="rect" id="node210" href="$boards_2saml21-xpro_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Atmel SAM L21 Xplained Pro board." alt="" coords="29692,191,29856,233"/>
+<area shape="rect" id="node211" href="$boards_2samr21-xpro_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Atmel SAM R21 Xplained Pro board." alt="" coords="36215,191,36379,233"/>
+<area shape="rect" id="node212" href="$samr21-xpro_2include_2board_8h.html" title="Board specific definitions for the Atmel SAM R21 Xplained Pro board." alt="" coords="36295,295,36448,337"/>
+<area shape="rect" id="node213" href="$boards_2samr30-xpro_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Atmel SAM R30 Xplained Pro board." alt="" coords="30135,191,30299,233"/>
+<area shape="rect" id="node214" href="$boards_2samr34-xpro_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Microchip SAM R34 Xplained Pro board." alt="" coords="30323,191,30487,233"/>
+<area shape="rect" id="node215" href="$boards_2seeeduino__arch-pro_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Seeeduino Archo Pro board." alt="" coords="30511,191,30701,233"/>
+<area shape="rect" id="node216" href="$boards_2sensebox__samd21_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for SenseBox MCU with SAMD21." alt="" coords="36455,191,36645,233"/>
+<area shape="rect" id="node217" href="$sensebox__samd21_2include_2board_8h.html" title="Support for the SenseBox MCU with SAMD21 board." alt="" coords="36500,295,36691,337"/>
+<area shape="rect" id="node218" href="$boards_2serpente_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Serpente board." alt="" coords="30965,191,31143,233"/>
+<area shape="rect" id="node219" href="$boards_2slstk3401a_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SLSTK3401A starter kit." alt="" coords="31167,191,31359,233"/>
+<area shape="rect" id="node220" href="$boards_2slstk3402a_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SLSTK3402A starter kit." alt="" coords="31383,191,31575,233"/>
+<area shape="rect" id="node221" href="$boards_2sltb001a_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SLTB001A starter kit." alt="" coords="31600,191,31777,233"/>
+<area shape="rect" id="node222" href="$boards_2slwstk6220a_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SLWSTK6220A starter kit." alt="" coords="31801,191,31965,233"/>
+<area shape="rect" id="node223" href="$boards_2stk3200_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the STK3200 starter kit." alt="" coords="31990,191,32163,233"/>
+<area shape="rect" id="node224" href="$boards_2stk3600_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the STK3600 starter kit." alt="" coords="32187,191,32361,233"/>
+<area shape="rect" id="node225" href="$boards_2stk3700_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the STK3700 starter kit." alt="" coords="32385,191,32558,233"/>
+<area shape="rect" id="node226" href="$boards_2stm32f030f4-demo_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the stm32f030f4&#45;demo board." alt="" coords="32582,184,32742,240"/>
+<area shape="rect" id="node227" href="$boards_2stm32f0discovery_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the STM32F0discovery board." alt="" coords="32766,191,32953,233"/>
+<area shape="rect" id="node228" href="$boards_2teensy31_2include_2periph__conf_8h.html" title=" " alt="" coords="32977,191,33158,233"/>
+<area shape="rect" id="node229" href="$weact-f411ce_2include_2board_8h.html" title="Support for the WeAct&#45;F411CE Board." alt="" coords="33183,191,33341,233"/>
+<area shape="rect" id="node230" href="$boards_2yarm_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Acmesystems YARM board." alt="" coords="33366,191,33521,233"/>
+<area shape="rect" id="node231" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition." alt="" coords="21742,191,21905,233"/>
+<area shape="rect" id="node232" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="19019,191,19182,233"/>
+<area shape="rect" id="node233" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition." alt="" coords="21005,295,21167,337"/>
+<area shape="rect" id="node234" href="$io1__xplained__internals_8h.html" title="Internal addresses, constants for the IO1 Xplained extension." alt="" coords="21065,392,21225,448"/>
+<area shape="rect" id="node235" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition." alt="" coords="33545,191,33707,233"/>
+<area shape="rect" id="node236" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="20003,191,20166,233"/>
+<area shape="rect" id="node237" href="$pwm_8h.html" title="Low&#45;level PWM peripheral driver interface definitions." alt="" coords="33731,191,33894,233"/>
+<area shape="rect" id="node238" href="$flashpage_8h.html" title="Low&#45;level flash page peripheral driver interface." alt="" coords="33918,191,34081,233"/>
+<area shape="rect" id="node239" href="$drivers_2include_2periph_2can_8h.html" title="Low&#45;level CAN peripheral driver interface definitions." alt="" coords="34105,191,34267,233"/>
+<area shape="rect" id="node240" href="$cpuid_8h.html" title="Low&#45;level CPUID peripheral driver interface definitions." alt="" coords="34291,191,34454,233"/>
+<area shape="rect" id="node241" href="$dac_8h.html" title="DAC peripheral driver interface definition." alt="" coords="34478,191,34641,233"/>
+<area shape="rect" id="node242" href="$eeprom_8h.html" title="Low&#45;level eeprom driver interface." alt="" coords="34665,191,34827,233"/>
+<area shape="rect" id="node243" href="$pm_8h.html" title="Power management interface." alt="" coords="34851,199,35051,225"/>
+<area shape="rect" id="node244" href="$qdec_8h.html" title="Low&#45;level QDEC peripheral driver interface definitions." alt="" coords="35075,191,35238,233"/>
+<area shape="rect" id="node245" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions." alt="" coords="35262,191,35425,233"/>
+<area shape="rect" id="node246" href="$wdt_8h.html" title="watchdog peripheral interface definitions" alt="" coords="35449,191,35611,233"/>
+<area shape="rect" id="node247" href="$cb__mux_8h.html" title="cb_mux interface definitions" alt="" coords="35635,199,35798,225"/>
+<area shape="rect" id="node248" href="$eepreg_8h.html" title="eepreg interface definitions" alt="" coords="35823,199,35979,225"/>
+<area shape="rect" id="node249" href="$pm__layered_8h.html" title="Layered low power mode infrastructure." alt="" coords="36003,199,36191,225"/>
+<area shape="rect" id="node87" href="$6lowpan-clicker_2include_2board_8h.html" title="board configuration for the MikroE 6LoWPAN Clicker" alt="" coords="21980,295,22152,337"/>
 </map>

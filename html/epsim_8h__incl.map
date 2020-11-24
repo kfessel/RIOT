@@ -1,9 +1,9 @@
 <map id="sys/include/net/cord/epsim.h" name="sys/include/net/cord/epsim.h">
-<area shape="rect" id="node2" href="$sock_2udp_8h.html" title="UDP sock definitions. " alt="" coords="213,95,321,121"/>
-<area shape="rect" id="node3" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="31,169,100,196"/>
-<area shape="rect" id="node8" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="124,169,188,196"/>
-<area shape="rect" id="node11" href="$sock_8h.html" title="Common sock API definitions. " alt="" coords="377,169,460,196"/>
-<area shape="rect" id="node4" href="$panic_8h.html" title="Crash handling header. " alt="" coords="32,244,96,271"/>
-<area shape="rect" id="node5" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="5,319,123,345"/>
-<area shape="rect" id="node9" href="$malloc_8h.html" title="malloc.h" alt="" coords="121,244,191,271"/>
+<area shape="rect" id="node1" title="Interface for the CoRE RD simple registration endpoint." alt="" coords="91,5,243,47"/>
+<area shape="rect" id="node2" href="$sock_2udp_8h.html" title="UDP sock definitions." alt="" coords="109,95,226,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,244,171,271"/>
+<area shape="rect" id="node4" title=" " alt="" coords="24,169,95,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="119,169,215,196"/>
+<area shape="rect" id="node6" href="$sock_8h.html" title="Common sock API definitions." alt="" coords="240,169,329,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="354,169,461,196"/>
 </map>

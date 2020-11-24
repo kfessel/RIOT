@@ -1,0 +1,14 @@
+<map id="drivers/soft_uart/include/soft_uart_params.h" name="drivers/soft_uart/include/soft_uart_params.h">
+<area shape="rect" id="node1" title="Software UART configuration." alt="" coords="321,5,501,47"/>
+<area shape="rect" id="node2" href="$soft__uart_8h.html" title="Software UART port descriptor definition." alt="" coords="219,95,311,121"/>
+<area shape="rect" id="node11" href="$units_8h.html" title="Unit helper macros." alt="" coords="449,95,568,121"/>
+<area shape="rect" id="node12" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="409,169,539,196"/>
+<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="10,169,117,196"/>
+<area shape="rect" id="node7" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition." alt="" coords="280,169,385,196"/>
+<area shape="rect" id="node10" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions." alt="" coords="141,169,255,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,244,76,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="100,244,205,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="230,244,339,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="459,244,534,271"/>
+<area shape="rect" id="node9" title=" " alt="" coords="364,244,435,271"/>
+</map>

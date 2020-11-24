@@ -7,6 +7,7 @@ var sltb001a_2include_2board_8h =
     [ "CCS811_PIC_ADDR", "sltb001a_2include_2board_8h.html#ad31bd3c309fb50fff8980571850a4625", null ],
     [ "CCS811_PIC_EN_BIT", "sltb001a_2include_2board_8h.html#abe61792b4d613e34be3109251bd92fc1", null ],
     [ "CCS811_PIC_WAKE_BIT", "sltb001a_2include_2board_8h.html#a7dae1ee142aee3016e40c407576e48d9", null ],
+    [ "CORETEMP_ADC", "sltb001a_2include_2board_8h.html#a07beea92e8e32cd1732e7a8e035ecbbb", null ],
     [ "ENV_SENSE_PIC_ADDR", "sltb001a_2include_2board_8h.html#ad183634ddf038c21d123e4ec8e5a7c65", null ],
     [ "ENV_SENSE_PIC_BIT", "sltb001a_2include_2board_8h.html#af89f1ad1cb96df46c09100e70c3886c6", null ],
     [ "ICM20648_ENABLED", "sltb001a_2include_2board_8h.html#aeea243b517f2212a2cf9fa49444462cf", null ],
@@ -42,6 +43,8 @@ var sltb001a_2include_2board_8h =
     [ "SI70XX_PARAM_I2C_DEV", "sltb001a_2include_2board_8h.html#a1d95f0f459e7753efd6b1ec0d6b25437", null ],
     [ "SI7210_ENABLED", "sltb001a_2include_2board_8h.html#adf9d6071dc5240cc75346daf3e62fd7f", null ],
     [ "SI7210_I2C", "sltb001a_2include_2board_8h.html#aa6165cdbab6bee4f9faa486a6c4fd180", null ],
+    [ "XTIMER_CHAN", "sltb001a_2include_2board_8h.html#a8b747b85d4d5f2e1be910cdbc72a01de", null ],
+    [ "XTIMER_DEV", "sltb001a_2include_2board_8h.html#a5e48bb301c732e044b08f336fb851d5e", null ],
     [ "XTIMER_HZ", "sltb001a_2include_2board_8h.html#af68fde6b7d5b362834e6a8d382c6c0d7", null ],
     [ "XTIMER_WIDTH", "sltb001a_2include_2board_8h.html#afea1be2406d45b8fbb1dca1a318ac2dc", null ],
     [ "board_init", "sltb001a_2include_2board_8h.html#a916f2adc2080b4fe88034086d107a8dc", null ]

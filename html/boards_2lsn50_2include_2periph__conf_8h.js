@@ -1,5 +1,6 @@
 var boards_2lsn50_2include_2periph__conf_8h =
 [
+    [ "CONFIG_BOARD_HAS_LSE", "boards_2lsn50_2include_2periph__conf_8h.html#acd2b9746c0b67c8fb0de7b7f01ac92f8", null ],
     [ "DMA_NUMOF", "boards_2lsn50_2include_2periph__conf_8h.html#a2f98de3b4a6e380f0fc753dda86fefac", null ],
     [ "DMA_SHARED_ISR_0", "boards_2lsn50_2include_2periph__conf_8h.html#a161c5f4ff2b92dedd9e88d818aa4be8e", null ],
     [ "DMA_SHARED_ISR_0_STREAMS", "boards_2lsn50_2include_2periph__conf_8h.html#aa07ca484156d62a6125716f4f877c3c2", null ],
@@ -14,6 +15,5 @@ var boards_2lsn50_2include_2periph__conf_8h =
     [ "dma_config", "boards_2lsn50_2include_2periph__conf_8h.html#a000a75c48a709555803a5bdf2acb044c", null ],
     [ "i2c_config", "boards_2lsn50_2include_2periph__conf_8h.html#aa9dcbfbe7aa5baf027d834e5bca62a47", null ],
     [ "spi_config", "boards_2lsn50_2include_2periph__conf_8h.html#a873188d7292e07499dcde9674b1e849c", null ],
-    [ "spi_divtable", "boards_2lsn50_2include_2periph__conf_8h.html#ae3b1d06e940a46447dea0987400fdc04", null ],
     [ "uart_config", "boards_2lsn50_2include_2periph__conf_8h.html#a1643cfc64589407fb96b4cbf908689a5", null ]
 ];

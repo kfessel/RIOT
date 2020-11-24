@@ -1,9 +1,16 @@
 <map id="boards/ek&#45;lm4f120xl/include/gpio_params.h" name="boards/ek&#45;lm4f120xl/include/gpio_params.h">
-<area shape="rect" id="node2" href="$ek-lm4f120xl_2include_2board_8h.html" title="Board specific definitions for the Stellaris Launchpad LM4F120 board. " alt="" coords="251,95,317,121"/>
-<area shape="rect" id="node12" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="419,95,515,121"/>
-<area shape="rect" id="node4" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition. " alt="" coords="175,169,270,196"/>
-<area shape="rect" id="node11" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions. " alt="" coords="295,169,396,196"/>
-<area shape="rect" id="node10" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="149,244,288,271"/>
-<area shape="rect" id="node13" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="537,169,633,196"/>
-<area shape="rect" id="node14" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="420,169,513,196"/>
+<area shape="rect" id="node1" title="Board specific configuration of direct mapped GPIOs." alt="" coords="187,5,361,47"/>
+<area shape="rect" id="node2" href="$ek-lm4f120xl_2include_2board_8h.html" title="Board specific definitions for the Stellaris Launchpad LM4F120 board." alt="" coords="172,95,243,121"/>
+<area shape="rect" id="node11" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL." alt="" coords="419,95,526,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,63,196"/>
+<area shape="rect" id="node4" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition." alt="" coords="87,169,192,196"/>
+<area shape="rect" id="node10" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions." alt="" coords="217,169,331,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="85,244,159,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="184,244,255,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="279,244,349,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="373,244,479,271"/>
+<area shape="rect" id="node9" title=" " alt="" coords="503,244,613,271"/>
+<area shape="rect" id="node12" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="618,169,725,196"/>
+<area shape="rect" id="node13" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="356,169,459,196"/>
+<area shape="rect" id="node14" href="$pwm_8h.html" title="Low&#45;level PWM peripheral driver interface definitions." alt="" coords="483,169,593,196"/>
 </map>

@@ -1,5 +1,12 @@
 <map id="drivers/include/nrf24l01p.h" name="drivers/include/nrf24l01p.h">
-<area shape="rect" id="node3" href="$stdio_8h.html" title="stdio.h wrapper for MSP430 " alt="" coords="354,80,415,107"/>
-<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="389,155,485,181"/>
-<area shape="rect" id="node8" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="189,80,279,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="188,5,384,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,155,76,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="367,80,434,107"/>
+<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="407,155,514,181"/>
+<area shape="rect" id="node8" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition." alt="" coords="194,80,293,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="471,229,541,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="316,229,421,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="131,229,241,256"/>
+<area shape="rect" id="node9" title=" " alt="" coords="202,155,285,181"/>
+<area shape="rect" id="node10" title=" " alt="" coords="309,155,383,181"/>
 </map>

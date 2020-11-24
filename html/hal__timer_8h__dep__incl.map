@@ -1,0 +1,6 @@
+<map id="pkg/uwb&#45;dw1000/include/hal/hal_timer.h" name="pkg/uwb&#45;dw1000/include/hal/hal_timer.h">
+<area shape="rect" id="node1" title="Timer abstraction layer RIOT adaption." alt="" coords="5,5,189,47"/>
+<area shape="rect" id="node2" href="$dpl__cputime_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) cputime abstraction" alt="" coords="17,95,178,136"/>
+<area shape="rect" id="node3" href="$dpl_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="17,184,178,225"/>
+<area shape="rect" id="node4" href="$os__dev_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="17,273,178,315"/>
+</map>

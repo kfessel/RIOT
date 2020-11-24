@@ -1,5 +1,10 @@
 <map id="drivers/tps6274x/include/tps6274x_params.h" name="drivers/tps6274x/include/tps6274x_params.h">
-<area shape="rect" id="node3" href="$tps6274x_8h.html" title="Device driver interface for the TPS6274x DC&#45;DC Converter. " alt="" coords="95,95,181,121"/>
-<area shape="rect" id="node4" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="43,169,121,196"/>
-<area shape="rect" id="node5" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="146,169,242,196"/>
+<area shape="rect" id="node1" title="Default configuration for TPS6274x DC&#45;DC Converter." alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="8,95,79,121"/>
+<area shape="rect" id="node3" href="$tps6274x_8h.html" title="Device driver interface for the TPS6274x DC&#45;DC Converter." alt="" coords="103,95,197,121"/>
+<area shape="rect" id="node4" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="47,169,133,196"/>
+<area shape="rect" id="node5" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="158,169,265,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="64,244,135,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="159,244,264,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="289,244,398,271"/>
 </map>

@@ -7,5 +7,5 @@ var structat86rf2xx__t =
     [ "pending_tx", "structat86rf2xx__t.html#a5fb72e21ea1e13d15544300445540673", null ],
     [ "state", "structat86rf2xx__t.html#aa5c980110602a4c8ddd7e179b23fc157", null ],
     [ "tx_frame_len", "structat86rf2xx__t.html#a6da5b5681afa111d6334470550bb16bb", null ],
-    [ "tx_retries", "structat86rf2xx__t.html#a43b6e0603848cbfe1a48e359c9dbc0f8", null ]
+    [ "tx_retries", "structat86rf2xx__t.html#a29ec190d62c9a8ecafe100085034e227", null ]
 ];

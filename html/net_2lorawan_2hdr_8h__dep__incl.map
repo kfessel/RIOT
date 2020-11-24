@@ -1,6 +1,7 @@
 <map id="sys/include/net/lorawan/hdr.h" name="sys/include/net/lorawan/hdr.h">
-<area shape="rect" id="node2" href="$gnrc__lorawan__internal_8h.html" title="GNRC LoRaWAN internal header. " alt="" coords="79,95,233,151"/>
-<area shape="rect" id="node3" href="$lorawan_8h.html" title="GNRC LoRaWAN API definition. " alt="" coords="87,199,225,240"/>
-<area shape="rect" id="node4" href="$region_8h.html" title="GNRC LoRaWAN region specific functions. " alt="" coords="5,288,144,329"/>
-<area shape="rect" id="node5" href="$netif_2lorawan_8h.html" title="LoRaWAN adaption for Network interface API. " alt="" coords="168,288,307,329"/>
+<area shape="rect" id="node1" title="LoRaWAN header type and helper function definitions." alt="" coords="81,5,257,47"/>
+<area shape="rect" id="node2" href="$gnrc__lorawan__internal_8h.html" title="GNRC LoRaWAN internal header." alt="" coords="85,95,254,151"/>
+<area shape="rect" id="node3" href="$lorawan_8h.html" title="GNRC LoRaWAN API definition." alt="" coords="93,199,245,240"/>
+<area shape="rect" id="node4" href="$region_8h.html" title="GNRC LoRaWAN region specific functions." alt="" coords="5,288,157,329"/>
+<area shape="rect" id="node5" href="$netif_2lorawan_8h.html" title="LoRaWAN adaption for Network interface API." alt="" coords="181,288,333,329"/>
 </map>

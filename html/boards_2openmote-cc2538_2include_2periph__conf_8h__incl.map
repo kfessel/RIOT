@@ -1,5 +1,11 @@
 <map id="boards/openmote&#45;cc2538/include/periph_conf.h" name="boards/openmote&#45;cc2538/include/periph_conf.h">
-<area shape="rect" id="node2" href="$cc2538__gpio_8h.html" title="Driver for the cc2538 GPIO controller. " alt="" coords="37,95,144,121"/>
-<area shape="rect" id="node7" href="$cfg__clk__default_8h.html" title="Default clock configuration for cc2538 based boards. " alt="" coords="169,95,290,121"/>
-<area shape="rect" id="node4" href="$cc2538_8h.html" title="CC2538 MCU interrupt and register definitions. " alt="" coords="13,169,88,196"/>
+<area shape="rect" id="node1" title="Peripheral MCU configuration for the OpenMote&#45;cc2538 board." alt="" coords="201,5,387,47"/>
+<area shape="rect" id="node2" href="$cc2538__gpio_8h.html" title="Driver for the cc2538 GPIO controller." alt="" coords="37,95,151,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="295,169,400,196"/>
+<area shape="rect" id="node7" href="$cfg__clk__default_8h.html" title="Default clock configuration for cc2538 based boards." alt="" coords="175,95,309,121"/>
+<area shape="rect" id="node9" title=" " alt="" coords="383,95,533,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="119,169,189,196"/>
+<area shape="rect" id="node4" href="$cc2538_8h.html" title="CC2538 MCU interrupt and register definitions." alt="" coords="14,169,94,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,244,103,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="213,169,271,196"/>
 </map>

@@ -2,9 +2,9 @@ var ad_8h =
 [
     [ "BLUETIL_AD_FLAGS_DEFAULT", "group__ble__bluetil__ad.html#ga711d061fc5cbcc1754c216d7774f0c3c", null ],
     [ "BLUETIL_AD_INIT", "group__ble__bluetil__ad.html#ga9bf7d2b47e8e684515ab2d9083f5ec0f", null ],
-    [ "BLUETIL_AD_OK", "group__ble__bluetil__ad.html#gga25f1c885c7f5230ea4c9bc48dde88fe1aba5b00c28d9aca747817bc7553678c0f", null ],
-    [ "BLUETIL_AD_NOTFOUND", "group__ble__bluetil__ad.html#gga25f1c885c7f5230ea4c9bc48dde88fe1a0764004598997dc053f9b19cd9a8288e", null ],
-    [ "BLUETIL_AD_NOMEM", "group__ble__bluetil__ad.html#gga25f1c885c7f5230ea4c9bc48dde88fe1a426da11bdd4a2cd79c9e15df1e9615dd", null ],
+    [ "BLUETIL_AD_OK", "group__ble__bluetil__ad.html#gga456ac33d49271d3e2c371351cd1d6371aba5b00c28d9aca747817bc7553678c0f", null ],
+    [ "BLUETIL_AD_NOTFOUND", "group__ble__bluetil__ad.html#gga456ac33d49271d3e2c371351cd1d6371a0764004598997dc053f9b19cd9a8288e", null ],
+    [ "BLUETIL_AD_NOMEM", "group__ble__bluetil__ad.html#gga456ac33d49271d3e2c371351cd1d6371a426da11bdd4a2cd79c9e15df1e9615dd", null ],
     [ "bluetil_ad_add", "group__ble__bluetil__ad.html#ga63a17fe4479f8ba85d9e1e4ebde9c4dd", null ],
     [ "bluetil_ad_add_flags", "group__ble__bluetil__ad.html#ga35353fe4bf21cfae4fe670f0fa39f7aa", null ],
     [ "bluetil_ad_add_name", "group__ble__bluetil__ad.html#gaed56789aa64e3688e83d74ac1101e4bd", null ],

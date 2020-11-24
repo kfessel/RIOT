@@ -1,7 +1,0 @@
-<map id="sys/include/can/common.h" name="sys/include/can/common.h">
-<area shape="rect" id="node3" href="$uio_8h.html" title="libc header for scatter/gather I/O " alt="" coords="105,80,179,107"/>
-<area shape="rect" id="node7" href="$timex_8h.html" title="Utility library for comparing and computing timestamps. " alt="" coords="268,80,333,107"/>
-<area shape="rect" id="node4" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="9,155,73,181"/>
-<area shape="rect" id="node5" href="$malloc_8h.html" title="malloc.h" alt="" coords="5,229,76,256"/>
-<area shape="rect" id="node8" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="301,155,380,181"/>
-</map>

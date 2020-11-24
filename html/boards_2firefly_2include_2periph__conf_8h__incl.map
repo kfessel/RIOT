@@ -1,5 +1,11 @@
 <map id="boards/firefly/include/periph_conf.h" name="boards/firefly/include/periph_conf.h">
-<area shape="rect" id="node2" href="$cfg__adc__default_8h.html" title="Common default ADC configuration for the RE&#45;Mote board revision A. " alt="" coords="5,95,131,121"/>
-<area shape="rect" id="node4" href="$cfg__clk__default_8h.html" title="Default clock configuration for cc2538 based boards. " alt="" coords="610,95,731,121"/>
-<area shape="rect" id="node9" href="$cfg__uart__default_8h.html" title="Common default UART configuration for the RE&#45;Mote board revision A. " alt="" coords="155,95,282,121"/>
+<area shape="rect" id="node1" title="Peripheral MCU configuration for the Firefly board revision A." alt="" coords="318,5,478,47"/>
+<area shape="rect" id="node2" href="$cfg__adc__default_8h.html" title="Common default ADC configuration for the RE&#45;Mote board revision A." alt="" coords="5,95,143,121"/>
+<area shape="rect" id="node4" href="$cfg__clk__default_8h.html" title="Default clock configuration for cc2538 based boards." alt="" coords="662,95,795,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="331,95,465,121"/>
+<area shape="rect" id="node8" title=" " alt="" coords="489,95,638,121"/>
+<area shape="rect" id="node9" href="$cfg__uart__default_8h.html" title="Common default UART configuration for the RE&#45;Mote board revision A." alt="" coords="167,95,307,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="184,169,289,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="649,169,720,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="744,169,801,196"/>
 </map>

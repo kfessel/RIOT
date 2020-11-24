@@ -1,4 +1,7 @@
 <map id="cpu/kinetis/include/cpu_conf.h" name="cpu/kinetis/include/cpu_conf.h">
-<area shape="rect" id="node2" href="$cpu__conf__kinetis_8h.html" title="CPU specific definitions common to all Kinetis CPUs. " alt="" coords="74,95,205,121"/>
-<area shape="rect" id="node4" href="$bme_8h.html" title="Macro definitions for the Kinetis Bit Manipulation Engine (BME) " alt="" coords="173,169,231,196"/>
+<area shape="rect" id="node1" title="Implementation specific CPU configuration options." alt="" coords="78,5,222,47"/>
+<area shape="rect" id="node2" href="$cpu__conf__kinetis_8h.html" title="CPU specific definitions common to all Kinetis CPUs." alt="" coords="79,95,221,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,161,196"/>
+<area shape="rect" id="node4" href="$bme_8h.html" title="Macro definitions for the Kinetis Bit Manipulation Engine (BME)" alt="" coords="185,169,248,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="181,244,252,271"/>
 </map>

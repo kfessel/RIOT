@@ -7,7 +7,6 @@ var implementation_8h =
     [ "_xtimer_now", "implementation_8h.html#a2deef4409c35e86756f6f0370a120743", null ],
     [ "_xtimer_periodic_wakeup", "implementation_8h.html#a8c7c25a33106253bc17b46fcc6865d35", null ],
     [ "_xtimer_set64", "implementation_8h.html#a4806d8b428cd208fde0bbd4476df233a", null ],
-    [ "_xtimer_set_absolute", "implementation_8h.html#a4382bd0dc3e67b9a834503c08b57b27c", null ],
     [ "_xtimer_set_wakeup", "implementation_8h.html#a0422979f7c736782098b62c73bb3b46c", null ],
     [ "_xtimer_set_wakeup64", "implementation_8h.html#a07d728c3730f1214ecb38224e3d2dd95", null ],
     [ "_xtimer_tsleep", "implementation_8h.html#ab3afc291e845821191d3171bba74a89d", null ],

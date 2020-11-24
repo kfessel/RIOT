@@ -22,9 +22,9 @@ var group__drivers__tcs37727 =
       [ "p", "structtcs37727__t.html#a04ff7d05520ac4847177e49257e70dc3", null ]
     ] ],
     [ "TCS37727_I2C_ADDRESS", "group__drivers__tcs37727.html#gada0d3fdf50833fe6d8e1968f6115ecbf", [
-      [ "TCS37727_OK", "group__drivers__tcs37727.html#ggae07532c74c7e685988e820f34d132fc1ae101db5f3ce17167bd9fa3f7dfff005b", null ],
-      [ "TCS37727_NOBUS", "group__drivers__tcs37727.html#ggae07532c74c7e685988e820f34d132fc1aa70bcd24cb8c91daa68a46442414e59a", null ],
-      [ "TCS37727_NODEV", "group__drivers__tcs37727.html#ggae07532c74c7e685988e820f34d132fc1a00aefd14902957a35b209a5fefec8397", null ]
+      [ "TCS37727_OK", "group__drivers__tcs37727.html#ggafccaefcc48c7849e1f3defa3f1fd1f8aae101db5f3ce17167bd9fa3f7dfff005b", null ],
+      [ "TCS37727_NOBUS", "group__drivers__tcs37727.html#ggafccaefcc48c7849e1f3defa3f1fd1f8aaa70bcd24cb8c91daa68a46442414e59a", null ],
+      [ "TCS37727_NODEV", "group__drivers__tcs37727.html#ggafccaefcc48c7849e1f3defa3f1fd1f8aa00aefd14902957a35b209a5fefec8397", null ]
     ] ],
     [ "tcs37727_init", "group__drivers__tcs37727.html#gaff5677adb0695a8a6aa93c73cfdcfc42", null ],
     [ "tcs37727_read", "group__drivers__tcs37727.html#ga674e4fef2b342cba720b2fdf35b5b297", null ],

@@ -1,6 +1,13 @@
 <map id="boards/nrf51dk/include/gpio_params.h" name="boards/nrf51dk/include/gpio_params.h">
-<area shape="rect" id="node2" href="$nrf51dk_2include_2board_8h.html" title="Board specific configuration for the nRF51DK. " alt="" coords="47,95,113,121"/>
-<area shape="rect" id="node4" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="151,95,247,121"/>
-<area shape="rect" id="node5" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="269,169,365,196"/>
-<area shape="rect" id="node9" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="152,169,245,196"/>
+<area shape="rect" id="node1" title="Configuration of SAUL mapped GPIO pins." alt="" coords="123,5,294,47"/>
+<area shape="rect" id="node2" href="$nrf51dk_2include_2board_8h.html" title="Board specific configuration for the nRF51DK." alt="" coords="117,95,188,121"/>
+<area shape="rect" id="node4" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL." alt="" coords="227,95,334,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,140,196"/>
+<area shape="rect" id="node5" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="426,169,533,196"/>
+<area shape="rect" id="node9" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="164,169,267,196"/>
+<area shape="rect" id="node11" href="$pwm_8h.html" title="Low&#45;level PWM peripheral driver interface definitions." alt="" coords="291,169,401,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="444,244,515,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="180,244,285,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="310,244,419,271"/>
+<area shape="rect" id="node10" title=" " alt="" coords="85,244,156,271"/>
 </map>

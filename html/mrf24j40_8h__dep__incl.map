@@ -1,3 +1,4 @@
 <map id="drivers/include/mrf24j40.h" name="drivers/include/mrf24j40.h">
-<area shape="rect" id="node2" href="$mrf24j40__internal_8h.html" title="Internal interfaces for MRF24J40 drivers. " alt="" coords="11,80,171,121"/>
+<area shape="rect" id="node1" title="Interface definition for MRF24J40 based drivers." alt="" coords="5,5,199,32"/>
+<area shape="rect" id="node2" href="$mrf24j40__internal_8h.html" title="Internal interfaces for MRF24J40 drivers." alt="" coords="11,80,193,121"/>
 </map>

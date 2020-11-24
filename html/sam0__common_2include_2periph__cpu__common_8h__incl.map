@@ -1,4 +1,8 @@
 <map id="cpu/sam0_common/include/periph_cpu_common.h" name="cpu/sam0_common/include/periph_cpu_common.h">
-<area shape="rect" id="node3" href="$exti__config_8h_source.html" title="exti_config.h" alt="" coords="99,95,195,121"/>
-<area shape="rect" id="node4" href="$sam0__common_2include_2cpu__conf_8h.html" title="Implementation specific CPU configuration options. " alt="" coords="103,169,190,196"/>
+<area shape="rect" id="node1" title="Common CPU specific definitions for all SAMx21 based CPUs." alt="" coords="41,5,241,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,63,121"/>
+<area shape="rect" id="node3" href="$exti__config_8h_source.html" title=" " alt="" coords="87,95,194,121"/>
+<area shape="rect" id="node6" href="$timer__config_8h_source.html" title=" " alt="" coords="219,95,335,121"/>
+<area shape="rect" id="node4" href="$sam0__common_2include_2cpu__conf_8h.html" title="Implementation specific CPU configuration options." alt="" coords="95,169,186,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="63,244,219,271"/>
 </map>

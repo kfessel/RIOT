@@ -1,25 +1,13 @@
 var group__boards__common__stm32 =
 [
+    [ "cfg_clock_common.h", "mp1_2cfg__clock__common_8h.html", null ],
+    [ "cfg_clock_default_208.h", "cfg__clock__default__208_8h.html", null ],
+    [ "cfg_clock_values.h", "mp1_2cfg__clock__values_8h.html", null ],
     [ "cfg_i2c1_pb6_pb7.h", "cfg__i2c1__pb6__pb7_8h.html", null ],
     [ "cfg_i2c1_pb8_pb9.h", "cfg__i2c1__pb8__pb9_8h.html", null ],
     [ "cfg_rtt_default.h", "stm32_2include_2cfg__rtt__default_8h.html", null ],
-    [ "cfg_spi_divtable.h", "cfg__spi__divtable_8h.html", null ],
     [ "cfg_timer_tim2.h", "cfg__timer__tim2_8h.html", null ],
     [ "cfg_timer_tim5.h", "cfg__timer__tim5_8h.html", null ],
     [ "cfg_usb_otg_fs.h", "cfg__usb__otg__fs_8h.html", null ],
-    [ "cfg_usb_otg_hs_fs.h", "cfg__usb__otg__hs__fs_8h.html", null ],
-    [ "cfg_clock_120_8_1.h", "cfg__clock__120__8__1_8h.html", null ],
-    [ "cfg_clock_100_8_1.h", "cfg__clock__100__8__1_8h.html", null ],
-    [ "cfg_clock_168_16_0.h", "cfg__clock__168__16__0_8h.html", null ],
-    [ "cfg_clock_168_8_0.h", "cfg__clock__168__8__0_8h.html", null ],
-    [ "cfg_clock_168_8_1.h", "cfg__clock__168__8__1_8h.html", null ],
-    [ "cfg_clock_168_8_common.h", "cfg__clock__168__8__common_8h.html", null ],
-    [ "cfg_clock_180_8_1.h", "cfg__clock__180__8__1_8h.html", null ],
-    [ "cfg_clock_84_8_1.h", "cfg__clock__84__8__1_8h.html", null ],
-    [ "cfg_clock_96_25_1.h", "cfg__clock__96__25__1_8h.html", null ],
-    [ "cfg_clock_96_8_1.h", "cfg__clock__96__8__1_8h.html", null ],
-    [ "cfg_clock_216_8_1.h", "cfg__clock__216__8__1_8h.html", null ],
-    [ "cfg_clock_default.h", "stm32_2include_2g4_2cfg__clock__default_8h.html", null ],
-    [ "cfg_clock_32_16_1.h", "cfg__clock__32__16__1_8h.html", null ],
-    [ "cfg_clock_80_1.h", "cfg__clock__80__1_8h.html", null ]
+    [ "cfg_usb_otg_hs_fs.h", "cfg__usb__otg__hs__fs_8h.html", null ]
 ];

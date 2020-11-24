@@ -1,4 +1,9 @@
 <map id="sys/posix/pthread/include/pthread_rwlock.h" name="sys/posix/pthread/include/pthread_rwlock.h">
-<area shape="rect" id="node2" href="$priority__queue_8h.html" title="A simple priority queue. " alt="" coords="28,95,143,121"/>
-<area shape="rect" id="node6" href="$errno_8h.html" title="errno.h" alt="" coords="261,95,323,121"/>
+<area shape="rect" id="node1" title="Implementation of a fair, POSIX conforming reader/writer lock." alt="" coords="171,5,359,47"/>
+<area shape="rect" id="node2" href="$priority__queue_8h.html" title="A simple priority queue." alt="" coords="27,95,155,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="179,95,255,121"/>
+<area shape="rect" id="node6" href="$errno_8h.html" title=" " alt="" coords="279,95,347,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="372,95,455,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,80,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="105,169,175,196"/>
 </map>

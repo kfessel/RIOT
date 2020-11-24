@@ -1,5 +1,18 @@
 var esp32_wrover_kit_2include_2board_8h =
 [
+    [ "BACKLIGHT_OFF", "esp32-wrover-kit_2include_2board_8h.html#a0f50ae3b4bdb42dd5ad74b2c604a7515", null ],
+    [ "BACKLIGHT_ON", "esp32-wrover-kit_2include_2board_8h.html#aa5bad1c51f5fac029f3deacfef48c54b", null ],
+    [ "ILI9341_PARAM_CS", "esp32-wrover-kit_2include_2board_8h.html#ac571de8cee4f9c20b4cabb7018d3295d", null ],
+    [ "ILI9341_PARAM_DCX", "esp32-wrover-kit_2include_2board_8h.html#acb580626b2694f7489ebb481b8b03a57", null ],
+    [ "ILI9341_PARAM_INVERTED", "esp32-wrover-kit_2include_2board_8h.html#a58cd164da14062683607425b3a3a5bb8", null ],
+    [ "ILi9341_PARAM_RGB", "esp32-wrover-kit_2include_2board_8h.html#a5b7a2decbbd81db493ed7bfa62d10278", null ],
+    [ "ILI9341_PARAM_RST", "esp32-wrover-kit_2include_2board_8h.html#a2eaacd1fc0c03354ef3674baca4be28c", null ],
+    [ "ILI9341_PARAM_SPI", "esp32-wrover-kit_2include_2board_8h.html#a58134e49442995b2fd024d3ac8d7ab9a", null ],
+    [ "ILI9341_PARAM_SPI_CLK", "esp32-wrover-kit_2include_2board_8h.html#ace727a36909c7e861c677c87589a57fd", null ],
+    [ "LCD_BACKLIGHT", "esp32-wrover-kit_2include_2board_8h.html#ac059d24dfe9c1e1f7c07cb7869a1833b", null ],
+    [ "LCD_CS", "esp32-wrover-kit_2include_2board_8h.html#a71d24cab0e16b054de228f29139f1b79", null ],
+    [ "LCD_DC", "esp32-wrover-kit_2include_2board_8h.html#a1dc6c4886242abf4447d0da651125d5d", null ],
+    [ "LCD_RST", "esp32-wrover-kit_2include_2board_8h.html#aec0f0ab242f1b58b1d017bc9ab4b898b", null ],
     [ "LED0_ACTIVE", "esp32-wrover-kit_2include_2board_8h.html#a59e133b8ded0d632eeaeb2cbfec48886", null ],
     [ "LED0_PIN", "esp32-wrover-kit_2include_2board_8h.html#a3fc522fda449d6edde717d6a857429cf", null ],
     [ "LED1_ACTIVE", "esp32-wrover-kit_2include_2board_8h.html#a9272c3c8c839b755aec87c167317a573", null ],

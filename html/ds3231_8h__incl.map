@@ -1,0 +1,12 @@
+<map id="drivers/include/ds3231.h" name="drivers/include/ds3231.h">
+<area shape="rect" id="node1" title="Interface definition for the Maxim DS3231 RTC." alt="" coords="137,5,319,32"/>
+<area shape="rect" id="node2" href="$time_8h_source.html" title=" " alt="" coords="61,80,125,107"/>
+<area shape="rect" id="node4" href="$errno_8h.html" title=" " alt="" coords="194,80,262,107"/>
+<area shape="rect" id="node5" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition." alt="" coords="296,80,395,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,155,101,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="126,155,197,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="221,155,296,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="321,155,391,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="416,155,525,181"/>
+<area shape="rect" id="node10" title=" " alt="" coords="550,155,655,181"/>
+</map>

@@ -1,14 +1,32 @@
 <map id="drivers/sds011/include/sds011_params.h" name="drivers/sds011/include/sds011_params.h">
-<area shape="rect" id="node3" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition. " alt="" coords="643,244,738,271"/>
-<area shape="rect" id="node10" href="$saul__reg_8h.html" title="SAUL registry interface definition. " alt="" coords="223,95,305,121"/>
-<area shape="rect" id="node15" href="$sds011_8h.html" title="Interface for controlling SDS011 Laser Dust Sensor. " alt="" coords="480,169,555,196"/>
-<area shape="rect" id="node9" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="584,319,723,345"/>
-<area shape="rect" id="node11" href="$saul_8h.html" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer. " alt="" coords="149,169,206,196"/>
-<area shape="rect" id="node13" href="$phydat_8h.html" title="Generic data container for physical data interface. " alt="" coords="16,244,88,271"/>
-<area shape="rect" id="node12" href="$errno_8h.html" title="errno.h" alt="" coords="113,244,175,271"/>
-<area shape="rect" id="node14" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="5,319,123,345"/>
-<area shape="rect" id="node17" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="799,244,895,271"/>
-<area shape="rect" id="node18" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="451,244,520,271"/>
-<area shape="rect" id="node20" href="$sds011__internal_8h.html" title="Internal constants etc. " alt="" coords="302,244,426,271"/>
-<area shape="rect" id="node19" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="357,319,408,345"/>
+<area shape="rect" id="node1" title="SDS011 sensor specific configuration." alt="" coords="186,5,354,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="104,95,175,121"/>
+<area shape="rect" id="node3" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition." alt="" coords="345,169,451,196"/>
+<area shape="rect" id="node9" href="$saul__reg_8h.html" title="SAUL registry interface definition." alt="" coords="128,319,217,345"/>
+<area shape="rect" id="node14" href="$sds011_8h.html" title="Interface for controlling SDS011 Laser Dust Sensor." alt="" coords="562,95,642,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="713,617,787,644"/>
+<area shape="rect" id="node5" title=" " alt="" coords="281,617,352,644"/>
+<area shape="rect" id="node6" title=" " alt="" coords="485,244,556,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="580,244,685,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="351,244,461,271"/>
+<area shape="rect" id="node10" href="$saul_8h.html" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer." alt="" coords="63,393,125,420"/>
+<area shape="rect" id="node12" href="$phydat_8h.html" title="Generic data container for physical data interface." alt="" coords="200,468,279,495"/>
+<area shape="rect" id="node11" href="$errno_8h.html" title=" " alt="" coords="5,468,73,495"/>
+<area shape="rect" id="node13" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="456,543,585,569"/>
+<area shape="rect" id="node15" title=" " alt="" coords="974,393,1057,420"/>
+<area shape="rect" id="node16" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="475,169,582,196"/>
+<area shape="rect" id="node17" href="$mutex_8h.html" title="Mutex for thread synchronization." alt="" coords="812,169,888,196"/>
+<area shape="rect" id="node30" href="$sds011__internal_8h.html" title="Internal constants etc. for the SDS011 laser dust sensor." alt="" coords="607,169,744,196"/>
+<area shape="rect" id="node18" href="$irq_8h.html" title="IRQ driver interface." alt="" coords="913,244,963,271"/>
+<area shape="rect" id="node20" href="$list_8h.html" title="Intrusive linked list." alt="" coords="1073,543,1128,569"/>
+<area shape="rect" id="node21" href="$core_2include_2thread_8h.html" title="Threading API." alt="" coords="812,244,888,271"/>
+<area shape="rect" id="node19" title=" " alt="" coords="887,319,978,345"/>
+<area shape="rect" id="node22" href="$clist_8h.html" title="Circular linked list." alt="" coords="1018,468,1079,495"/>
+<area shape="rect" id="node23" href="$cib_8h.html" title="Circular integer buffer interface." alt="" coords="574,319,627,345"/>
+<area shape="rect" id="node26" href="$msg_8h.html" title="Messaging API for inter process communication." alt="" coords="699,319,761,345"/>
+<area shape="rect" id="node27" href="$sched_8h.html" title="Scheduler API definition." alt="" coords="751,393,823,420"/>
+<area shape="rect" id="node24" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="517,393,591,420"/>
+<area shape="rect" id="node25" href="$panic_8h.html" title="Crash handling header." alt="" coords="517,468,586,495"/>
+<area shape="rect" id="node28" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="661,468,748,495"/>
+<area shape="rect" id="node29" href="$native__sched_8h.html" title="Add definitions required on the native board." alt="" coords="773,468,893,495"/>
 </map>

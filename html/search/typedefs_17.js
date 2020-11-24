@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['xtimer_5fcallback_5ft',['xtimer_callback_t',['../group__sys__xtimer.html#ga4b6fbbe697fce5154ddd111575e6c4c7',1,'xtimer.h']]],
-  ['xtimer_5ft',['xtimer_t',['../group__sys__xtimer.html#ga7669db543390fe9804ec77eb982af448',1,'xtimer.h']]]
+  ['zptr_5ft_29897',['zptr_t',['../group__sys__util__zptr.html#gafae15584f6356f9392f4cd7459dc61ea',1,'zptr.h']]],
+  ['ztimer_5fbase_5ft_29898',['ztimer_base_t',['../group__sys__ztimer.html#ga0f3984c505b85ddf76049771c0bd6222',1,'ztimer.h']]],
+  ['ztimer_5fclock_5ft_29899',['ztimer_clock_t',['../group__sys__ztimer.html#ga3639ce794c3bd80a6e9bbe88a7db4a88',1,'ztimer.h']]],
+  ['ztimer_5fnow_5ft_29900',['ztimer_now_t',['../group__sys__ztimer.html#gab10130a9b13fd88ea06a2889e63342f6',1,'ztimer.h']]],
+  ['ztimer_5fperiph_5frtc_5ft_29901',['ztimer_periph_rtc_t',['../group__sys__ztimer__periph__rtc.html#gad722654e76ba755570c820c112d376b7',1,'periph_rtc.h']]],
+  ['ztimer_5fperiph_5frtt_5ft_29902',['ztimer_periph_rtt_t',['../group__sys__ztimer__periph__rtt.html#ga9d600543afb3d60cf481c77e21d55d50',1,'periph_rtt.h']]]
 ];

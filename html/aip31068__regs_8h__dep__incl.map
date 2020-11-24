@@ -1,0 +1,5 @@
+<map id="drivers/aip31068/include/aip31068_regs.h" name="drivers/aip31068/include/aip31068_regs.h">
+<area shape="rect" id="node1" title="Register definitions for the AIP31068 I2C LCD controller." alt="" coords="112,5,295,47"/>
+<area shape="rect" id="node2" href="$aip31068__params_8h.html" title="Default configuration for the AIP31068 I2C LCD controller." alt="" coords="5,95,188,136"/>
+<area shape="rect" id="node3" href="$aip31068_8h.html" title=" " alt="" coords="213,102,407,129"/>
+</map>

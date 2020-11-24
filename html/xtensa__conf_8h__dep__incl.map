@@ -1,4 +1,5 @@
 <map id="cpu/esp_common/include/xtensa_conf.h" name="cpu/esp_common/include/xtensa_conf.h">
-<area shape="rect" id="node2" href="$esp32_2include_2cpu__conf_8h.html" title="CPU specific configuration options. " alt="" coords="5,95,157,136"/>
-<area shape="rect" id="node3" href="$esp8266_2include_2cpu__conf_8h.html" title="CPU specific configuration options. " alt="" coords="181,95,323,136"/>
+<area shape="rect" id="node1" title="Xtensa ASM code specific configuration options for ESP SoCs." alt="" coords="87,5,274,47"/>
+<area shape="rect" id="node2" href="$esp32_2include_2cpu__conf_8h.html" title="CPU specific configuration options." alt="" coords="5,95,172,136"/>
+<area shape="rect" id="node3" href="$esp8266_2include_2cpu__conf_8h.html" title="CPU specific configuration options." alt="" coords="197,95,351,136"/>
 </map>

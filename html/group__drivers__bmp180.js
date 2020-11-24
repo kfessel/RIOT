@@ -24,9 +24,9 @@ var group__drivers__bmp180 =
     [ "bmp180_t", "structbmp180__t.html", [
       [ "calibration", "structbmp180__t.html#acd2748622f51bf791fba4b2d33daf408", null ],
       [ "params", "structbmp180__t.html#a4f7fc7ed8e685aed38177881d6cdb4cb", null ],
-      [ "BMP180_OK", "group__drivers__bmp180.html#gga7ada2556f3c386db5f31969fb6d4d002a14982eda73a5aaa35baade00f3feea41", null ],
-      [ "BMP180_ERR_NODEV", "group__drivers__bmp180.html#gga7ada2556f3c386db5f31969fb6d4d002a4fdf10b641caf83d04184dac0108b4e6", null ],
-      [ "BMP180_ERR_NOCAL", "group__drivers__bmp180.html#gga7ada2556f3c386db5f31969fb6d4d002a37c19b31b44c62a7227b6e99db7aecba", null ]
+      [ "BMP180_OK", "group__drivers__bmp180.html#gga4f79453548dc20926be4b5a000ecbd66a14982eda73a5aaa35baade00f3feea41", null ],
+      [ "BMP180_ERR_NODEV", "group__drivers__bmp180.html#gga4f79453548dc20926be4b5a000ecbd66a4fdf10b641caf83d04184dac0108b4e6", null ],
+      [ "BMP180_ERR_NOCAL", "group__drivers__bmp180.html#gga4f79453548dc20926be4b5a000ecbd66a37c19b31b44c62a7227b6e99db7aecba", null ]
     ] ],
     [ "bmp180_oversampling_mode_t", "group__drivers__bmp180.html#gaf44bc15e331d3bcc27fb0536c4c1d7a4", null ],
     [ "bmp180_altitude", "group__drivers__bmp180.html#ga1e44d4af168ae30f1e3974b64449ca1b", null ],

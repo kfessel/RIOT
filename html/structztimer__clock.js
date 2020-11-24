@@ -1,6 +1,7 @@
 var structztimer__clock =
 [
-    [ "adjust", "structztimer__clock.html#ab090c9d7d8e551fa5a812acd332e809c", null ],
+    [ "adjust_set", "structztimer__clock.html#adadb01ab9076c3f88d5a505fd323eaec", null ],
+    [ "adjust_sleep", "structztimer__clock.html#a3851442c485d3f761205a89854231bc5", null ],
     [ "checkpoint", "structztimer__clock.html#a637ef98236482db411ab9aa2f22e610a", null ],
     [ "last", "structztimer__clock.html#a6bebc8a5498e3ff4f316e13e05655307", null ],
     [ "list", "structztimer__clock.html#a8506de4fcdf3199fbf0da0cc698ee097", null ],

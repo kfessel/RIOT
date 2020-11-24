@@ -1,5 +1,10 @@
 <map id="drivers/include/opt3001.h" name="drivers/include/opt3001.h">
-<area shape="rect" id="node3" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition. " alt="" coords="216,80,305,107"/>
-<area shape="rect" id="node9" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="74,80,191,107"/>
-<area shape="rect" id="node8" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="190,155,329,181"/>
+<area shape="rect" id="node1" title="Interface definition for the OPT3001 sensor driver." alt="" coords="25,5,211,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,155,76,181"/>
+<area shape="rect" id="node3" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition." alt="" coords="207,80,306,107"/>
+<area shape="rect" id="node8" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="53,80,183,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="101,155,175,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="200,155,271,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="295,155,405,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="429,155,535,181"/>
 </map>

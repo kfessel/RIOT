@@ -4,6 +4,6 @@ var structcan__reg__entry =
     [ "mbox", "structcan__reg__entry.html#a491f117572c1d50800f12ff0d9dfaea8", null ],
     [ "next", "structcan__reg__entry.html#ae1c373032a1a783ab26890f384722cb3", null ],
     [ "pid", "structcan__reg__entry.html#a850913eaa1621fbb115b048c2465c5fe", null ],
-    [ "target", "structcan__reg__entry.html#a7539ec168e468c9d47fd27ecc75ce423", null ],
+    [ "target", "structcan__reg__entry.html#a49cc8de654f3604b1bb49eb05de0ce51", null ],
     [ "type", "structcan__reg__entry.html#aa78f4d9c002cacecc02ff1af9a3ea236", null ]
 ];

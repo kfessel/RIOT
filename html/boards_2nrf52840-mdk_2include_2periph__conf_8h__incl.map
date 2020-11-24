@@ -1,3 +1,9 @@
 <map id="boards/nrf52840&#45;mdk/include/periph_conf.h" name="boards/nrf52840&#45;mdk/include/periph_conf.h">
-<area shape="rect" id="node3" href="$cfg__clock__32__1_8h.html" title="Common clock configuration for the nRF52 based boards. " alt="" coords="126,95,250,121"/>
+<area shape="rect" id="node1" title="Peripheral configuration for the nRF52840&#45;MDK." alt="" coords="355,5,519,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,111,121"/>
+<area shape="rect" id="node3" href="$cfg__clock__32__1_8h.html" title="Common clock configuration for the nRF52 based boards." alt="" coords="135,95,269,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="293,95,426,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="451,95,580,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="605,95,738,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="762,95,911,121"/>
 </map>

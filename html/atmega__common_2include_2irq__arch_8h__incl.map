@@ -1,14 +1,22 @@
 <map id="cpu/atmega_common/include/irq_arch.h" name="cpu/atmega_common/include/irq_arch.h">
-<area shape="rect" id="node3" href="$stdio_8h.html" title="stdio.h wrapper for MSP430 " alt="" coords="75,169,137,196"/>
-<area shape="rect" id="node4" href="$irq_8h.html" title="IRQ driver interface. " alt="" coords="663,95,709,121"/>
-<area shape="rect" id="node7" href="$atmega__common_2include_2cpu_8h.html" title="Common implementations and headers for ATmega family based micro&#45;controllers. " alt="" coords="240,95,295,121"/>
-<area shape="rect" id="node9" href="$atmega__common_2include_2cpu__conf_8h.html" title="Implementation specific CPU configuration options. " alt="" coords="532,169,619,196"/>
-<area shape="rect" id="node13" href="$sched_8h.html" title="Scheduler API definition. " alt="" coords="313,169,381,196"/>
-<area shape="rect" id="node10" href="$atmega__regs__common_8h.html" title="CMSIS style register definitions for the atmega family. " alt="" coords="731,244,897,271"/>
-<area shape="rect" id="node15" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="590,244,707,271"/>
-<area shape="rect" id="node16" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="191,244,298,271"/>
-<area shape="rect" id="node20" href="$native__sched_8h.html" title="Add definitions required on the native board. " alt="" coords="404,244,515,271"/>
-<area shape="rect" id="node21" href="$clist_8h.html" title="Circular linked list. " alt="" coords="323,244,380,271"/>
-<area shape="rect" id="node17" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="211,319,289,345"/>
-<area shape="rect" id="node22" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="402,319,453,345"/>
+<area shape="rect" id="node1" title="Implementation of the kernels irq interface." alt="" coords="79,5,293,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="33,319,104,345"/>
+<area shape="rect" id="node3" title=" " alt="" coords="25,169,91,196"/>
+<area shape="rect" id="node4" href="$irq_8h.html" title="IRQ driver interface." alt="" coords="637,95,687,121"/>
+<area shape="rect" id="node7" href="$atmega__common_2include_2cpu_8h.html" title="Common implementations and headers for ATmega family based micro&#45;controllers." alt="" coords="201,95,259,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="731,169,814,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="617,169,707,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="363,169,478,196"/>
+<area shape="rect" id="node9" href="$atmega__common_2include_2cpu__conf_8h.html" title="Implementation specific CPU configuration options." alt="" coords="502,169,593,196"/>
+<area shape="rect" id="node13" href="$sched_8h.html" title="Scheduler API definition." alt="" coords="267,169,339,196"/>
+<area shape="rect" id="node20" title=" " alt="" coords="116,169,192,196"/>
+<area shape="rect" id="node10" href="$atmega__regs__common_8h.html" title="CMSIS style register definitions for the atmega family." alt="" coords="652,244,835,271"/>
+<area shape="rect" id="node11" title=" " alt="" coords="805,319,876,345"/>
+<area shape="rect" id="node12" title=" " alt="" coords="682,319,781,345"/>
+<area shape="rect" id="node14" title=" " alt="" coords="481,319,555,345"/>
+<area shape="rect" id="node15" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="260,244,347,271"/>
+<area shape="rect" id="node16" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="107,244,236,271"/>
+<area shape="rect" id="node17" href="$native__sched_8h.html" title="Add definitions required on the native board." alt="" coords="371,244,491,271"/>
+<area shape="rect" id="node18" href="$clist_8h.html" title="Circular linked list." alt="" coords="566,244,627,271"/>
+<area shape="rect" id="node19" href="$list_8h.html" title="Intrusive linked list." alt="" coords="580,319,635,345"/>
 </map>

@@ -1,7 +1,8 @@
 var boards_2msbiot_2include_2periph__conf_8h =
 [
-    [ "ADC_CONFIG", "boards_2msbiot_2include_2periph__conf_8h.html#abe2b0ad66fab5aa34c6404c2ebe77ec5", null ],
     [ "ADC_NUMOF", "boards_2msbiot_2include_2periph__conf_8h.html#a2f0c741db24aa2ccded869ba53f6a302", null ],
+    [ "CLOCK_HSE", "boards_2msbiot_2include_2periph__conf_8h.html#a19d32ef5403d838f9398b9706618cb40", null ],
+    [ "CONFIG_BOARD_HAS_HSE", "boards_2msbiot_2include_2periph__conf_8h.html#a055813e339f41a120f81a18fe83a07c3", null ],
     [ "DAC_NUMOF", "boards_2msbiot_2include_2periph__conf_8h.html#a2d6ae6694d0a51952fb26d994de93d12", null ],
     [ "DMA_0_ISR", "boards_2msbiot_2include_2periph__conf_8h.html#a2fdb1dc5ea2635bc32b441656260ccac", null ],
     [ "DMA_1_ISR", "boards_2msbiot_2include_2periph__conf_8h.html#a25fa059ae942db695d6a43a1d25b57f1", null ],
@@ -17,6 +18,7 @@ var boards_2msbiot_2include_2periph__conf_8h =
     [ "UART_1_ISR", "boards_2msbiot_2include_2periph__conf_8h.html#af9358264b5cbce69dddad098a8600aae", null ],
     [ "UART_2_ISR", "boards_2msbiot_2include_2periph__conf_8h.html#afdfcd079b784102f3ceb94a04d9c9250", null ],
     [ "UART_NUMOF", "boards_2msbiot_2include_2periph__conf_8h.html#a850405f2aaa352ad264346531f0e6230", null ],
+    [ "adc_config", "boards_2msbiot_2include_2periph__conf_8h.html#a160c7b1c3bc13c7cb5ac4ed375f4e21d", null ],
     [ "dac_config", "boards_2msbiot_2include_2periph__conf_8h.html#ab7e66163cb67f3457c778ad3ca0a708b", null ],
     [ "dma_config", "boards_2msbiot_2include_2periph__conf_8h.html#a000a75c48a709555803a5bdf2acb044c", null ],
     [ "i2c_config", "boards_2msbiot_2include_2periph__conf_8h.html#aa9dcbfbe7aa5baf027d834e5bca62a47", null ],

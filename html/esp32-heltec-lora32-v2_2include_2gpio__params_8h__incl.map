@@ -1,6 +1,13 @@
 <map id="boards/esp32&#45;heltec&#45;lora32&#45;v2/include/gpio_params.h" name="boards/esp32&#45;heltec&#45;lora32&#45;v2/include/gpio_params.h">
-<area shape="rect" id="node2" href="$esp32-heltec-lora32-v2_2include_2board_8h.html" title="Board specific definitions for Heltec WiFi LoRa 32 V2 board. " alt="" coords="50,109,115,136"/>
-<area shape="rect" id="node5" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="166,109,262,136"/>
-<area shape="rect" id="node6" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="285,184,381,211"/>
-<area shape="rect" id="node10" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="168,184,261,211"/>
+<area shape="rect" id="node1" title="Board specific configuration of direct mapped GPIOs." alt="" coords="148,5,320,61"/>
+<area shape="rect" id="node2" href="$esp32-heltec-lora32-v2_2include_2board_8h.html" title="Board specific definitions for Heltec WiFi LoRa 32 V2 board." alt="" coords="143,109,213,136"/>
+<area shape="rect" id="node5" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL." alt="" coords="293,109,399,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="159,259,229,285"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,184,140,211"/>
+<area shape="rect" id="node6" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="478,184,585,211"/>
+<area shape="rect" id="node10" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="351,184,453,211"/>
+<area shape="rect" id="node11" href="$pwm_8h.html" title="Low&#45;level PWM peripheral driver interface definitions." alt="" coords="216,184,327,211"/>
+<area shape="rect" id="node7" title=" " alt="" coords="253,259,324,285"/>
+<area shape="rect" id="node8" title=" " alt="" coords="348,259,453,285"/>
+<area shape="rect" id="node9" title=" " alt="" coords="478,259,587,285"/>
 </map>

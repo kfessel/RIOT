@@ -1,12 +1,13 @@
 <map id="sys/include/net/loramac.h" name="sys/include/net/loramac.h">
-<area shape="rect" id="node2" href="$rn2xx3_8h.html" title="High&#45;level driver for the RN2483/RN2903 LoRa modules. " alt="" coords="167,87,327,114"/>
-<area shape="rect" id="node5" href="$semtech__loramac_8h.html" title="Public API and definitions of the Semtech LoRaMAC. " alt="" coords="351,80,537,121"/>
-<area shape="rect" id="node7" href="$net_2lorawan_2hdr_8h.html" title="LoRaWAN header type and helper function definitions. " alt="" coords="561,80,719,121"/>
-<area shape="rect" id="node8" href="$gnrc__lorawan__internal_8h.html" title="GNRC LoRaWAN internal header. " alt="" coords="622,169,775,225"/>
-<area shape="rect" id="node3" href="$rn2xx3__internal_8h.html" title="Internal driver definitions for the RN2483/RN2903 LoRa modules. " alt="" coords="5,177,155,218"/>
-<area shape="rect" id="node4" href="$rn2xx3__params_8h.html" title="Default configuration for RN2483/RN2903 devices. " alt="" coords="179,177,328,218"/>
-<area shape="rect" id="node6" href="$pkg_2semtech-loramac_2include_2semtech-loramac_2timer_8h.html" title="Semtech LoRaMAC timer compatibility definitions. " alt="" coords="359,169,529,225"/>
-<area shape="rect" id="node9" href="$lorawan_8h.html" title="GNRC LoRaWAN API definition. " alt="" coords="629,273,768,315"/>
-<area shape="rect" id="node10" href="$region_8h.html" title="GNRC LoRaWAN region specific functions. " alt="" coords="548,363,687,404"/>
-<area shape="rect" id="node11" href="$netif_2lorawan_8h.html" title="LoRaWAN adaption for Network interface API. " alt="" coords="711,363,849,404"/>
+<area shape="rect" id="node1" title="LoRaMAC header definitions." alt="" coords="501,5,690,32"/>
+<area shape="rect" id="node2" href="$rn2xx3_8h.html" title="High&#45;level driver for the RN2483/RN2903 LoRa modules." alt="" coords="183,87,362,114"/>
+<area shape="rect" id="node5" href="$semtech__loramac_8h.html" title="Public API and definitions of the Semtech LoRaMAC." alt="" coords="386,80,591,121"/>
+<area shape="rect" id="node7" href="$net_2lorawan_2hdr_8h.html" title="LoRaWAN header type and helper function definitions." alt="" coords="615,80,791,121"/>
+<area shape="rect" id="node8" href="$gnrc__lorawan__internal_8h.html" title="GNRC LoRaWAN internal header." alt="" coords="681,169,851,225"/>
+<area shape="rect" id="node3" href="$rn2xx3__internal_8h.html" title="Internal driver definitions for the RN2483/RN2903 LoRa modules." alt="" coords="5,177,172,218"/>
+<area shape="rect" id="node4" href="$rn2xx3__params_8h.html" title="Default configuration for RN2483/RN2903 devices." alt="" coords="196,177,363,218"/>
+<area shape="rect" id="node6" href="$pkg_2semtech-loramac_2include_2semtech-loramac_2timer_8h.html" title="Semtech LoRaMAC timer compatibility definitions." alt="" coords="393,169,584,225"/>
+<area shape="rect" id="node9" href="$lorawan_8h.html" title="GNRC LoRaWAN API definition." alt="" coords="690,273,842,315"/>
+<area shape="rect" id="node10" href="$region_8h.html" title="GNRC LoRaWAN region specific functions." alt="" coords="602,363,754,404"/>
+<area shape="rect" id="node11" href="$netif_2lorawan_8h.html" title="LoRaWAN adaption for Network interface API." alt="" coords="778,363,930,404"/>
 </map>

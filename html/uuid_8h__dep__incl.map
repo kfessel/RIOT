@@ -1,6 +1,11 @@
 <map id="sys/include/uuid.h" name="sys/include/uuid.h">
-<area shape="rect" id="node2" href="$conditions_8h_source.html" title="sys/include/suit/conditions.h" alt="" coords="5,80,192,107"/>
-<area shape="rect" id="node3" href="$handlers_8h_source.html" title="sys/include/suit/handlers.h" alt="" coords="283,155,461,181"/>
-<area shape="rect" id="node4" href="$policy_8h_source.html" title="sys/include/suit/policy.h" alt="" coords="267,80,429,107"/>
-<area shape="rect" id="node5" href="$suit_8h_source.html" title="sys/include/suit.h" alt="" coords="454,80,578,107"/>
+<area shape="rect" id="node1" title="RFC 4122 UUID functions" alt="" coords="243,5,382,32"/>
+<area shape="rect" id="node2" href="$conditions_8h_source.html" title=" " alt="" coords="5,80,212,107"/>
+<area shape="rect" id="node3" href="$handlers_8h_source.html" title=" " alt="" coords="127,162,322,189"/>
+<area shape="rect" id="node4" href="$policy_8h_source.html" title=" " alt="" coords="287,80,463,107"/>
+<area shape="rect" id="node5" href="$suit_8h_source.html" title=" " alt="" coords="540,80,675,107"/>
+<area shape="rect" id="node6" href="$suit_2storage_2flashwrite_8h_source.html" title=" " alt="" coords="346,155,522,196"/>
+<area shape="rect" id="node7" href="$ram_8h_source.html" title=" " alt="" coords="546,155,722,196"/>
+<area shape="rect" id="node8" href="$storage_8h_source.html" title=" " alt="" coords="747,162,935,189"/>
+<area shape="rect" id="node9" href="$suit_2transport_2mock_8h_source.html" title=" " alt="" coords="959,155,1146,196"/>
 </map>

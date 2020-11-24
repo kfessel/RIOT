@@ -1,3 +1,4 @@
 <map id="drivers/include/dht.h" name="drivers/include/dht.h">
-<area shape="rect" id="node2" href="$dht__params_8h.html" title="Default configuration for DHT devices. " alt="" coords="11,80,139,121"/>
+<area shape="rect" id="node1" title="Device driver interface for the DHT family of humidity and temperature sensors." alt="" coords="5,5,160,32"/>
+<area shape="rect" id="node2" href="$dht__params_8h.html" title="Default configuration for DHT devices." alt="" coords="11,80,154,121"/>
 </map>

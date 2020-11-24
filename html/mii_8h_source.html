@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>drivers/include/mii.h Source File</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.powertip.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+    <script src="doxy-jquery.js"></script>
+    <script src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <!-- Bootstrap -->
+    <link href="doxygen.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="riot.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <script>
+            function displaySR(){
+            searchBox.Search();
+            var rhtml=(document.getElementById('MSearchResults').contentWindow.document.body.innerHTML).replace(/href=\"\.\.\//g,'href="');
+            document.getElementById('MSearchResultsWindow').style.display='none';
+            document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
+            document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
+            document.getElementById('doc-content').innerHTML=rhtml;
+            }
+            function modSearch(){
+            if(!searchBox.doxySearch){
+                searchBox.doxySearch=searchBox.Search
+                searchBox.Search= function(){this.doxySearch();
+                var r=document.getElementById('MSearchResultsWindow');console.log(r.style);
+                if(parseInt(r.style.left)<0)r.style.left=0;
+                var x=document.getElementById('MSearchResults');
+                if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                var f=document.getElementById('riot-searchform');
+                if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';}
+            }
+            }
+        </script>
+  </head>
+  <body>
+      <div id="top">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" id="brand-logo" href="http://riot-os.org"><img height="40px" src="riot-logo.svg" /></a>
+              <p class="navbar-text text-center visible-xs">Documentation</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
+              <ul id="riot-navlist" class="nav navbar-nav"></ul>
+              <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
+                    onsubmit="try{
+                        displaySR();
+                    }finally{
+                            return false;
+                    }">
+                 <div class="form-group">
+                   <div id="MSearchBox" class="MSearchBoxActive">
+                     <div class="input-group">
+                       <div class="input-group-addon">
+                         <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
+                       </div>
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event); modSearch();">
+                       <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
+                         <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+<!-- Generated by Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('mii_8h_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">mii.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="mii_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Copyright (C) 2020 Otto-von-Guericke-Universität Magdeburg</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> *</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * This file is subject to the terms and conditions of the GNU Lesser General</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * Public License v2.1. See the file LICENSE in the top level directory for more</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * details.</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#ifndef MII_H</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#define MII_H</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &lt;stdbool.h&gt;</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="bitarithm_8h.html">bitarithm.h</a>&quot;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga9137acedc42ff140f244da7473cff29e">   47</a></span>&#160;<span class="preprocessor">#define MII_BMCR            (0x00U) </span></div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gaa2f632686d6298a7c898b1c805586aab">   48</a></span>&#160;<span class="preprocessor">#define MII_BMSR            (0x01U) </span></div>
+<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gaf2d879eb278c4c0952b591dc5e6f089d">   49</a></span>&#160;<span class="preprocessor">#define MII_PHYID1          (0x02U) </span></div>
+<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga38130276b862d7ca65f57b57cb98150e">   50</a></span>&#160;<span class="preprocessor">#define MII_PHYID2          (0x03U) </span></div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga372ddb0a5a4911907c6b16a2eca6a057">   51</a></span>&#160;<span class="preprocessor">#define MII_ADVERTISE       (0x04U) </span></div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gad9bcb54fe93a4455cb1ed91aa20b8eb5">   52</a></span>&#160;<span class="preprocessor">#define MII_LPA             (0x05U) </span></div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga50dad9f406c17b48f93d9e14c42546fa">   53</a></span>&#160;<span class="preprocessor">#define MII_EXPANSION       (0x06U) </span></div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gad0d81814dff3342a440dc029be3df6a9">   54</a></span>&#160;<span class="preprocessor">#define MII_ESTATUS         (0x0fU) </span></div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga1001ac1540dc5bb6c4962f63b5fd6c3a">   61</a></span>&#160;<span class="preprocessor">#define MII_BMCR_RESET      BIT15   </span></div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gaa81297c7a98b1b995dcdb67b25a09a0e">   62</a></span>&#160;<span class="preprocessor">#define MII_BMCR_LOOP       BIT14   </span></div>
+<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga565a38b0223e21e4c90ebd2538ca3a22">   63</a></span>&#160;<span class="preprocessor">#define MII_BMCR_AN_ENABLE  BIT12   </span></div>
+<div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga2598b7655be14619dffc44b9a6db36b8">   64</a></span>&#160;<span class="preprocessor">#define MII_BMCR_POWER_DOWN BIT11   </span></div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga288b983fab32fb073cc42c3817b2c217">   65</a></span>&#160;<span class="preprocessor">#define MII_BMCR_ISOLATE    BIT10   </span></div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga9473c97124b727070dbdc57b184d5e8c">   67</a></span>&#160;<span class="preprocessor">#define MII_BMCR_AN_RESTART BIT9    </span></div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga9617bf21459ab3f386b899e019db587f">   68</a></span>&#160;<span class="preprocessor">#define MII_BMCR_FULL_DPLX  BIT8    </span></div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gafe6c06ac2c2e2f90b7d6d320a16fa181">   69</a></span>&#160;<span class="preprocessor">#define MII_BMCR_HALF_DPLX  (0)     </span></div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gac2deefedfa93c849922439193ce9f878">   70</a></span>&#160;<span class="preprocessor">#define MII_BMCR_COLL_TEST  BIT7    </span></div>
+<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga4d31aeaad35fe6a358aef1eef1c5b4cf">   71</a></span>&#160;<span class="preprocessor">#define MII_BMCR_SPEED_10   (0)     </span></div>
+<div class="line"><a name="l00072"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gaf52c7fc2b468c142ae63605a201900d4">   72</a></span>&#160;<span class="preprocessor">#define MII_BMCR_SPEED_100  BIT13   </span></div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gaae2f486072b95b3e829d0e1bd4b8d893">   73</a></span>&#160;<span class="preprocessor">#define MII_BMCR_SPEED_1000 BIT6    </span></div>
+<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga78732a72f097bcb965e009cbeabe5dfb">   80</a></span>&#160;<span class="preprocessor">#define MII_BMSR_100_T4     BIT15   </span></div>
+<div class="line"><a name="l00081"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga9300d4a61abae4320abb28fe216fa005">   81</a></span>&#160;<span class="preprocessor">#define MII_BMSR_100_TX_F   BIT14   </span></div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga6747992478fa1dd4af5f480063d01482">   82</a></span>&#160;<span class="preprocessor">#define MII_BMSR_100_TX_H   BIT13   </span></div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga0969937759d256c4120ad75825611796">   83</a></span>&#160;<span class="preprocessor">#define MII_BMSR_10_F       BIT12   </span></div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gaa95a6316b29e147f1f20e7a7c7090695">   84</a></span>&#160;<span class="preprocessor">#define MII_BMSR_10_H       BIT11   </span></div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gac386bc7ab0b16adee36c681772b49edd">   85</a></span>&#160;<span class="preprocessor">#define MII_BMSR_100_T2_F   BIT10   </span></div>
+<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga2738d588305e89fba8fc0a96fcce1bea">   86</a></span>&#160;<span class="preprocessor">#define MII_BMSR_100_T2_H   BIT9    </span></div>
+<div class="line"><a name="l00087"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga7a9cdbbefce5b9a0035290d35d904b0b">   87</a></span>&#160;<span class="preprocessor">#define MII_BMSR_ESTATUS    BIT8    </span></div>
+<div class="line"><a name="l00089"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga14cd180b5c7c781835a8cf85fcf34b98">   89</a></span>&#160;<span class="preprocessor">#define MII_BMSR_AN_DONE    BIT5    </span></div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga941d2032b3edc78132efd794a3439415">   90</a></span>&#160;<span class="preprocessor">#define MII_BMSR_FAULT      BIT4    </span></div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga013cdb5e878ea15dbd993006717cd14a">   92</a></span>&#160;<span class="preprocessor">#define MII_BMSR_HAS_AN     BIT3    </span></div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga916dcc1bfd8ce17dbc6398e638a2996d">   93</a></span>&#160;<span class="preprocessor">#define MII_BMSR_LINK       BIT2    </span></div>
+<div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga27a3f60cdfa253fe16e53485712c0407">   94</a></span>&#160;<span class="preprocessor">#define MII_BMSR_JABBER     BIT1    </span></div>
+<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gae22df787eaeed74f394930d06eaf0b0b">   95</a></span>&#160;<span class="preprocessor">#define MII_BMSR_EXTENDED   BIT0    </span></div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gab6be950e0a398d6326f402359893900c">  102</a></span>&#160;<span class="preprocessor">#define MII_ADVERTISE_100_F BIT8    </span></div>
+<div class="line"><a name="l00103"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga288fc1a7de7018918e5a8c084283f624">  103</a></span>&#160;<span class="preprocessor">#define MII_ADVERTISE_100_H BIT7    </span></div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gadf0b20080eb6e85872df2473f783e38e">  104</a></span>&#160;<span class="preprocessor">#define MII_ADVERTISE_10_F  BIT6    </span></div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gab8afdea0c75e98bafb19c02b444bdfe2">  105</a></span>&#160;<span class="preprocessor">#define MII_ADVERTISE_10_H  BIT5    </span></div>
+<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga9f0dbb22770d23cbd68c4e9e7a671b97">  106</a></span>&#160;<span class="preprocessor">#define MII_ADVERTISE_100   (BIT7 | BIT8)   </span></div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gae4ad8b2a1e63e5cd9a3a379029ae0339">  107</a></span>&#160;<span class="preprocessor">#define MII_ADVERTISE_10    (BIT5 | BIT6)   </span></div>
+<div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga4f7d43c0ef0c07d396fda5c90cd140c7">  114</a></span>&#160;<span class="preprocessor">#define MII_LPA_100_F       BIT8    </span></div>
+<div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#gadbdceda83004c96de2843a03fef2a133">  115</a></span>&#160;<span class="preprocessor">#define MII_LPA_100_H       BIT7    </span></div>
+<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga75d883a8765c581d624036d78029db79">  116</a></span>&#160;<span class="preprocessor">#define MII_LPA_10_F        BIT6    </span></div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga3f7c6d2a9663ecc9f246b82249f49d1b">  117</a></span>&#160;<span class="preprocessor">#define MII_LPA_10_H        BIT5    </span></div>
+<div class="line"><a name="l00118"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga76db0bb04997550a08d1a49f9e6e2f03">  118</a></span>&#160;<span class="preprocessor">#define MII_LPA_100         (BIT7 | BIT8)   </span></div>
+<div class="line"><a name="l00119"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga97a1779472f4eca7cbb5c0f08b145f92">  119</a></span>&#160;<span class="preprocessor">#define MII_LPA_10          (BIT5 | BIT6)   </span></div>
+<div class="line"><a name="l00130"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga8957414cf8f851ee26f004680cfa8773">  130</a></span>&#160;<span class="preprocessor">static inline bool mii_can_100_mbps_full_dp(uint16_t bmsr)</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;{</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordflow">return</span> (bmsr &amp; (<a class="code" href="group__drivers__mii.html#ga9300d4a61abae4320abb28fe216fa005">MII_BMSR_100_TX_F</a> | <a class="code" href="group__drivers__mii.html#gac386bc7ab0b16adee36c681772b49edd">MII_BMSR_100_T2_F</a>));</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;}</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160; </div>
+<div class="line"><a name="l00143"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga69225e86f545e0edeae78e7eccd5a320">  143</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="group__drivers__mii.html#ga69225e86f545e0edeae78e7eccd5a320">mii_can_100_mbps_half_dp</a>(uint16_t bmsr)</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;{</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="keywordflow">return</span> (bmsr &amp; (<a class="code" href="group__drivers__mii.html#ga78732a72f097bcb965e009cbeabe5dfb">MII_BMSR_100_T4</a> | <a class="code" href="group__drivers__mii.html#ga6747992478fa1dd4af5f480063d01482">MII_BMSR_100_TX_H</a> | <a class="code" href="group__drivers__mii.html#ga2738d588305e89fba8fc0a96fcce1bea">MII_BMSR_100_T2_H</a>));</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;}</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160; </div>
+<div class="line"><a name="l00156"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga6b066052e1c1d5c9bb16a014225aafed">  156</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="group__drivers__mii.html#ga6b066052e1c1d5c9bb16a014225aafed">mii_can_10_mbps_full_dp</a>(uint16_t bmsr)</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;{</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">return</span> (bmsr &amp; <a class="code" href="group__drivers__mii.html#ga0969937759d256c4120ad75825611796">MII_BMSR_10_F</a>);</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;}</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160; </div>
+<div class="line"><a name="l00169"></a><span class="lineno"><a class="line" href="group__drivers__mii.html#ga3d5536256a2aee370a46e17ca8a998d3">  169</a></span>&#160;<span class="keyword">static</span> <span class="keyword">inline</span> <span class="keywordtype">bool</span> <a class="code" href="group__drivers__mii.html#ga3d5536256a2aee370a46e17ca8a998d3">mii_can_10_mbps_half_dp</a>(uint16_t bmsr)</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordflow">return</span> (bmsr &amp; <a class="code" href="group__drivers__mii.html#gaa95a6316b29e147f1f20e7a7c7090695">MII_BMSR_10_H</a>);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;}</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160; </div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;}</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160; </div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MII_H */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160; </div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<div class="ttc" id="agroup__drivers__mii_html_ga78732a72f097bcb965e009cbeabe5dfb"><div class="ttname"><a href="group__drivers__mii.html#ga78732a72f097bcb965e009cbeabe5dfb">MII_BMSR_100_T4</a></div><div class="ttdeci">#define MII_BMSR_100_T4</div><div class="ttdoc">PHY supports 100BASE-T4 (half-duplex)</div><div class="ttdef"><b>Definition:</b> <a href="mii_8h_source.html#l00080">mii.h:80</a></div></div>
+<div class="ttc" id="agroup__drivers__mii_html_ga9300d4a61abae4320abb28fe216fa005"><div class="ttname"><a href="group__drivers__mii.html#ga9300d4a61abae4320abb28fe216fa005">MII_BMSR_100_TX_F</a></div><div class="ttdeci">#define MII_BMSR_100_TX_F</div><div class="ttdoc">PHY supports 100BASE-TX, full duplex.</div><div class="ttdef"><b>Definition:</b> <a href="mii_8h_source.html#l00081">mii.h:81</a></div></div>
+<div class="ttc" id="agroup__drivers__mii_html_ga3d5536256a2aee370a46e17ca8a998d3"><div class="ttname"><a href="group__drivers__mii.html#ga3d5536256a2aee370a46e17ca8a998d3">mii_can_10_mbps_half_dp</a></div><div class="ttdeci">static bool mii_can_10_mbps_half_dp(uint16_t bmsr)</div><div class="ttdoc">Check if an Ethernet PHY supports 10 Mbps at half duplex.</div><div class="ttdef"><b>Definition:</b> <a href="mii_8h_source.html#l00169">mii.h:169</a></div></div>
+<div class="ttc" id="agroup__drivers__mii_html_gac386bc7ab0b16adee36c681772b49edd"><div class="ttname"><a href="group__drivers__mii.html#gac386bc7ab0b16adee36c681772b49edd">MII_BMSR_100_T2_F</a></div><div class="ttdeci">#define MII_BMSR_100_T2_F</div><div class="ttdoc">PHY supports 100BASE-T2, full duplex.</div><div class="ttdef"><b>Definition:</b> <a href="mii_8h_source.html#l00085">mii.h:85</a></div></div>
+<div class="ttc" id="agroup__drivers__mii_html_ga2738d588305e89fba8fc0a96fcce1bea"><div class="ttname"><a href="group__drivers__mii.html#ga2738d588305e89fba8fc0a96fcce1bea">MII_BMSR_100_T2_H</a></div><div class="ttdeci">#define MII_BMSR_100_T2_H</div><div class="ttdoc">PHY supports 100BASE-T2, half duplex.</div><div class="ttdef"><b>Definition:</b> <a href="mii_8h_source.html#l00086">mii.h:86</a></div></div>
+<div class="ttc" id="agroup__drivers__mii_html_ga6b066052e1c1d5c9bb16a014225aafed"><div class="ttname"><a href="group__drivers__mii.html#ga6b066052e1c1d5c9bb16a014225aafed">mii_can_10_mbps_full_dp</a></div><div class="ttdeci">static bool mii_can_10_mbps_full_dp(uint16_t bmsr)</div><div class="ttdoc">Check if an Ethernet PHY supports 10 Mbps at full duplex.</div><div class="ttdef"><b>Definition:</b> <a href="mii_8h_source.html#l00156">mii.h:156</a></div></div>
+<div class="ttc" id="abitarithm_8h_html"><div class="ttname"><a href="bitarithm_8h.html">bitarithm.h</a></div><div class="ttdoc">Helper functions for bit arithmetic.</div></div>
+<div class="ttc" id="agroup__drivers__mii_html_gaa95a6316b29e147f1f20e7a7c7090695"><div class="ttname"><a href="group__drivers__mii.html#gaa95a6316b29e147f1f20e7a7c7090695">MII_BMSR_10_H</a></div><div class="ttdeci">#define MII_BMSR_10_H</div><div class="ttdoc">PHY supports 10BASE-T, half duplex.</div><div class="ttdef"><b>Definition:</b> <a href="mii_8h_source.html#l00084">mii.h:84</a></div></div>
+<div class="ttc" id="agroup__drivers__mii_html_ga0969937759d256c4120ad75825611796"><div class="ttname"><a href="group__drivers__mii.html#ga0969937759d256c4120ad75825611796">MII_BMSR_10_F</a></div><div class="ttdeci">#define MII_BMSR_10_F</div><div class="ttdoc">PHY supports 10BASE-T, full duplex.</div><div class="ttdef"><b>Definition:</b> <a href="mii_8h_source.html#l00083">mii.h:83</a></div></div>
+<div class="ttc" id="agroup__drivers__mii_html_ga6747992478fa1dd4af5f480063d01482"><div class="ttname"><a href="group__drivers__mii.html#ga6747992478fa1dd4af5f480063d01482">MII_BMSR_100_TX_H</a></div><div class="ttdeci">#define MII_BMSR_100_TX_H</div><div class="ttdoc">PHY supports 100BASE-TX, half duplex.</div><div class="ttdef"><b>Definition:</b> <a href="mii_8h_source.html#l00082">mii.h:82</a></div></div>
+<div class="ttc" id="agroup__drivers__mii_html_ga69225e86f545e0edeae78e7eccd5a320"><div class="ttname"><a href="group__drivers__mii.html#ga69225e86f545e0edeae78e7eccd5a320">mii_can_100_mbps_half_dp</a></div><div class="ttdeci">static bool mii_can_100_mbps_half_dp(uint16_t bmsr)</div><div class="ttdoc">Check if an Ethernet PHY supports 100 Mbps at half duplex.</div><div class="ttdef"><b>Definition:</b> <a href="mii_8h_source.html#l00143">mii.h:143</a></div></div>
+    <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+        <ul>
+            <li class="footer">Generated on Tue Nov 24 2020 19:46:51 by <a href="http://www.doxygen.org/index.html">
+                       <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.17</li>
+        </ul>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.smartmenus.min.js"></script>
+    <script src="jquery.smartmenus.bootstrap.min.js"></script>
+    <script src="riot-doxy.js"></script>
+  </body>
+</html>

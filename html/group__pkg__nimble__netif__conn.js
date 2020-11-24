@@ -23,6 +23,7 @@ var group__pkg__nimble__netif__conn =
     [ "nimble_netif_conn_get_next", "group__pkg__nimble__netif__conn.html#gab0ada51793c8b44ae73b56dfdbae6a0b", null ],
     [ "nimble_netif_conn_init", "group__pkg__nimble__netif__conn.html#gadbe7eb6d81caf1994b007da188565f2f", null ],
     [ "nimble_netif_conn_is_adv", "group__pkg__nimble__netif__conn.html#ga26bd04269509aad85196f00f9bad145e", null ],
+    [ "nimble_netif_conn_is_open", "group__pkg__nimble__netif__conn.html#gac340595d12bfc4e24e5ad1b531f797e9", null ],
     [ "nimble_netif_conn_start_adv", "group__pkg__nimble__netif__conn.html#ga0aff4af6870a7705e6295d640b565194", null ],
     [ "nimble_netif_conn_start_connection", "group__pkg__nimble__netif__conn.html#ga7e2459316d5c0ce6c414b408ace416a5", null ]
 ];

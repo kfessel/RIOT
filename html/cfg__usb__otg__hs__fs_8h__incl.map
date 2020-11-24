@@ -1,2 +1,4 @@
 <map id="boards/common/stm32/include/cfg_usb_otg_hs_fs.h" name="boards/common/stm32/include/cfg_usb_otg_hs_fs.h">
+<area shape="rect" id="node1" title="Common configuration for STM32 OTG HS peripheral with FS phy." alt="" coords="5,5,177,61"/>
+<area shape="rect" id="node2" title=" " alt="" coords="39,109,144,136"/>
 </map>

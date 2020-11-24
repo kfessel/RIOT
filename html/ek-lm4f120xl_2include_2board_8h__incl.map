@@ -1,5 +1,11 @@
 <map id="boards/ek&#45;lm4f120xl/include/board.h" name="boards/ek&#45;lm4f120xl/include/board.h">
-<area shape="rect" id="node3" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition. " alt="" coords="170,95,265,121"/>
-<area shape="rect" id="node10" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions. " alt="" coords="289,95,391,121"/>
-<area shape="rect" id="node9" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="448,169,587,196"/>
+<area shape="rect" id="node1" title="Board specific definitions for the Stellaris Launchpad LM4F120 board." alt="" coords="171,5,328,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="115,95,173,121"/>
+<area shape="rect" id="node3" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition." alt="" coords="197,95,302,121"/>
+<area shape="rect" id="node9" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions." alt="" coords="327,95,441,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,169,80,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="463,169,534,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="105,169,175,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="199,169,305,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="329,169,439,196"/>
 </map>

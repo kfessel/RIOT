@@ -8,5 +8,6 @@ var group__net__gnrc__lwmac =
     [ "lwmac_internal.h", "lwmac__internal_8h.html", null ],
     [ "rx_state_machine.h", "rx__state__machine_8h.html", null ],
     [ "tx_state_machine.h", "tx__state__machine_8h.html", null ],
+    [ "CONFIG_GNRC_LWMAC_RADIO_REINIT_THRESHOLD", "group__net__gnrc__lwmac.html#ga55299407e69c99e80ed955717c3b6cd6", null ],
     [ "gnrc_netif_lwmac_create", "group__net__gnrc__lwmac.html#gaaec418cb867de5f7db5f02852882f61b", null ]
 ];

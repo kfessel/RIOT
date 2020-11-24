@@ -1,3 +1,4 @@
 <map id="drivers/include/lsm6dsl.h" name="drivers/include/lsm6dsl.h">
-<area shape="rect" id="node2" href="$lsm6dsl__params_8h.html" title="Default configuration for LSM6DSL devices. " alt="" coords="11,80,166,121"/>
+<area shape="rect" id="node1" title="Device driver interface for the LSM6DSL 3D accelerometer/gyroscope." alt="" coords="5,5,191,32"/>
+<area shape="rect" id="node2" href="$lsm6dsl__params_8h.html" title="Default configuration for LSM6DSL devices." alt="" coords="11,80,185,121"/>
 </map>

@@ -1,3 +1,4 @@
 <map id="drivers/include/dsp0401.h" name="drivers/include/dsp0401.h">
-<area shape="rect" id="node2" href="$dsp0401__params_8h.html" title="Default configuration for DSP0401. " alt="" coords="11,80,170,121"/>
+<area shape="rect" id="node1" title="Device driver interface for the DSP0401 alphanumeric display." alt="" coords="5,5,195,32"/>
+<area shape="rect" id="node2" href="$dsp0401__params_8h.html" title="Default configuration for DSP0401." alt="" coords="11,80,189,121"/>
 </map>

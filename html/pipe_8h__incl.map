@@ -1,5 +1,23 @@
 <map id="sys/include/pipe.h" name="sys/include/pipe.h">
-<area shape="rect" id="node3" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="120,80,189,107"/>
-<area shape="rect" id="node7" href="$ringbuffer_8h.html" title="A utility for storing and retrieving byte data using a ring buffer. " alt="" coords="214,80,301,107"/>
-<area shape="rect" id="node6" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="212,155,263,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="252,5,391,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="107,80,203,107"/>
+<area shape="rect" id="node3" href="$mutex_8h.html" title="Mutex for thread synchronization." alt="" coords="227,80,303,107"/>
+<area shape="rect" id="node20" href="$ringbuffer_8h.html" title="A utility for storing and retrieving byte data using a ring buffer." alt="" coords="328,80,427,107"/>
+<area shape="rect" id="node21" title=" " alt="" coords="451,80,527,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="355,528,429,555"/>
+<area shape="rect" id="node5" title=" " alt="" coords="21,528,91,555"/>
+<area shape="rect" id="node6" href="$irq_8h.html" title="IRQ driver interface." alt="" coords="189,155,240,181"/>
+<area shape="rect" id="node9" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="114,453,243,480"/>
+<area shape="rect" id="node10" href="$list_8h.html" title="Intrusive linked list." alt="" coords="625,453,679,480"/>
+<area shape="rect" id="node11" href="$core_2include_2thread_8h.html" title="Threading API." alt="" coords="319,155,395,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="119,304,201,331"/>
+<area shape="rect" id="node8" title=" " alt="" coords="169,229,260,256"/>
+<area shape="rect" id="node12" href="$clist_8h.html" title="Circular linked list." alt="" coords="595,379,656,405"/>
+<area shape="rect" id="node13" href="$cib_8h.html" title="Circular integer buffer interface." alt="" coords="372,229,425,256"/>
+<area shape="rect" id="node16" href="$msg_8h.html" title="Messaging API for inter process communication." alt="" coords="285,229,347,256"/>
+<area shape="rect" id="node17" href="$sched_8h.html" title="Scheduler API definition." alt="" coords="375,304,447,331"/>
+<area shape="rect" id="node14" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="276,304,351,331"/>
+<area shape="rect" id="node15" href="$panic_8h.html" title="Crash handling header." alt="" coords="144,379,213,405"/>
+<area shape="rect" id="node18" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="339,379,426,405"/>
+<area shape="rect" id="node19" href="$native__sched_8h.html" title="Add definitions required on the native board." alt="" coords="451,379,571,405"/>
 </map>

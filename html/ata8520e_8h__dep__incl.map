@@ -1,3 +1,4 @@
 <map id="drivers/include/ata8520e.h" name="drivers/include/ata8520e.h">
-<area shape="rect" id="node2" href="$ata8520e__params_8h.html" title="Default initialization parameters for the ATA8520E device. " alt="" coords="11,80,174,121"/>
+<area shape="rect" id="node1" title="Device driver for Microchip ATA8520E transceiver (Sigfox)" alt="" coords="5,5,200,32"/>
+<area shape="rect" id="node2" href="$ata8520e__params_8h.html" title="Default initialization parameters for the ATA8520E device." alt="" coords="11,80,194,121"/>
 </map>

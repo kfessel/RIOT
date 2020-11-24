@@ -1,5 +1,11 @@
 <map id="sys/include/xtimer/implementation.h" name="sys/include/xtimer/implementation.h">
-<area shape="rect" id="node2" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions. " alt="" coords="181,95,283,121"/>
-<area shape="rect" id="node8" href="$irq_8h.html" title="IRQ driver interface. " alt="" coords="481,95,527,121"/>
-<area shape="rect" id="node6" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="304,169,443,196"/>
+<area shape="rect" id="node1" title="xtimer implementation" alt="" coords="301,5,444,47"/>
+<area shape="rect" id="node2" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions." alt="" coords="190,95,305,121"/>
+<area shape="rect" id="node7" href="$irq_8h.html" title="IRQ driver interface." alt="" coords="474,95,525,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,76,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="100,169,171,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="195,169,300,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="325,169,434,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="458,169,541,196"/>
+<area shape="rect" id="node9" title=" " alt="" coords="565,169,655,196"/>
 </map>

@@ -1,6 +1,10 @@
 <map id="drivers/uart_half_duplex/include/uart_half_duplex.h" name="drivers/uart_half_duplex/include/uart_half_duplex.h">
-<area shape="rect" id="node2" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="9,95,73,121"/>
-<area shape="rect" id="node4" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition. " alt="" coords="269,95,364,121"/>
-<area shape="rect" id="node3" href="$malloc_8h.html" title="malloc.h" alt="" coords="5,169,76,196"/>
-<area shape="rect" id="node10" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="543,169,682,196"/>
+<area shape="rect" id="node1" title="Interface definition for half&#45;duplex UART driver." alt="" coords="79,5,278,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="87,95,158,121"/>
+<area shape="rect" id="node3" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition." alt="" coords="182,95,287,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,169,80,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="105,169,175,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="199,169,270,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="294,169,399,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="424,169,533,196"/>
 </map>

@@ -1,7 +1,14 @@
 <map id="boards/nucleo&#45;f767zi/include/periph_conf.h" name="boards/nucleo&#45;f767zi/include/periph_conf.h">
-<area shape="rect" id="node3" href="$cfg__clock__216__8__1_8h.html" title="Configure STM32F7 clock to 216MHz and 8MHz HSE using PLL with LSE. " alt="" coords="23,95,183,121"/>
-<area shape="rect" id="node4" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C. " alt="" coords="207,95,346,121"/>
-<area shape="rect" id="node5" href="$cfg__spi__divtable_8h.html" title="Collection of pre&#45;computed bus pre&#45;scalers for SPI configuration. " alt="" coords="371,95,497,121"/>
-<area shape="rect" id="node7" href="$cfg__timer__tim2_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM2. " alt="" coords="661,95,780,121"/>
-<area shape="rect" id="node8" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="805,95,927,121"/>
+<area shape="rect" id="node1" title="Peripheral MCU configuration for the nucleo&#45;f767zi board." alt="" coords="292,5,456,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="317,169,422,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="24,95,110,121"/>
+<area shape="rect" id="node4" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C." alt="" coords="134,95,285,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="309,95,438,121"/>
+<area shape="rect" id="node6" href="$cfg__timer__tim2_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM2." alt="" coords="463,95,596,121"/>
+<area shape="rect" id="node7" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral." alt="" coords="620,95,751,121"/>
+<area shape="rect" id="node8" href="$mii_8h.html" title="Interface definition for MII/RMII h." alt="" coords="776,95,830,121"/>
+<area shape="rect" id="node9" title=" " alt="" coords="683,169,766,196"/>
+<area shape="rect" id="node10" title=" " alt="" coords="768,244,838,271"/>
+<area shape="rect" id="node11" href="$bitarithm_8h.html" title="Helper functions for bit arithmetic." alt="" coords="841,169,936,196"/>
+<area shape="rect" id="node12" title=" " alt="" coords="863,244,954,271"/>
 </map>

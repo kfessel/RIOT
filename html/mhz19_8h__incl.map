@@ -1,6 +1,10 @@
 <map id="drivers/include/mhz19.h" name="drivers/include/mhz19.h">
-<area shape="rect" id="node3" href="$saul_8h.html" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer. " alt="" coords="105,80,162,107"/>
-<area shape="rect" id="node5" href="$errno_8h.html" title="errno.h" alt="" coords="102,155,165,181"/>
-<area shape="rect" id="node6" href="$phydat_8h.html" title="Generic data container for physical data interface. " alt="" coords="189,155,261,181"/>
-<area shape="rect" id="node8" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="240,229,357,256"/>
+<area shape="rect" id="node1" title="Interface definition for the MH&#45;Z19 CO2 sensor driver." alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,88,107"/>
+<area shape="rect" id="node3" href="$saul_8h.html" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer." alt="" coords="112,80,173,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="94,304,165,331"/>
+<area shape="rect" id="node5" href="$errno_8h.html" title=" " alt="" coords="109,155,177,181"/>
+<area shape="rect" id="node6" href="$phydat_8h.html" title="Generic data container for physical data interface." alt="" coords="201,155,279,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="245,304,320,331"/>
+<area shape="rect" id="node8" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="167,229,297,256"/>
 </map>

@@ -1,3 +1,8 @@
 <map id="drivers/include/at24mac.h" name="drivers/include/at24mac.h">
-<area shape="rect" id="node2" href="$at24mac__params_8h.html" title="Default configuration for the AT24MAC chip. " alt="" coords="11,80,171,121"/>
+<area shape="rect" id="node1" title=" " alt="" coords="191,5,382,32"/>
+<area shape="rect" id="node2" href="$avr-rss2_2include_2board_8h.html" title="Board definitions for the rss2 256rfr2 board." alt="" coords="9,80,183,121"/>
+<area shape="rect" id="node4" href="$same54-xpro_2include_2board_8h.html" title="Board specific definitions for the Microchip SAM E54 Xplained Pro board." alt="" coords="209,80,365,121"/>
+<area shape="rect" id="node6" href="$at24mac__params_8h.html" title="Default configuration for the AT24MAC chip." alt="" coords="389,80,568,121"/>
+<area shape="rect" id="node3" href="$avr-rss2_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins." alt="" coords="5,169,179,211"/>
+<area shape="rect" id="node5" href="$same54-xpro_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="203,169,376,211"/>
 </map>

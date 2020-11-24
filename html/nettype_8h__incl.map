@@ -1,6 +1,9 @@
 <map id="sys/include/net/gnrc/nettype.h" name="sys/include/net/gnrc/nettype.h">
-<area shape="rect" id="node2" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="5,95,84,121"/>
-<area shape="rect" id="node3" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="109,95,226,121"/>
-<area shape="rect" id="node5" href="$ethertype_8h.html" title="Ether type definitions. " alt="" coords="250,95,359,121"/>
-<area shape="rect" id="node6" href="$protnum_8h.html" title="Protocol number definitions. " alt="" coords="384,95,487,121"/>
+<area shape="rect" id="node1" title="Protocol type definitions." alt="" coords="179,5,331,47"/>
+<area shape="rect" id="node2" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="5,95,92,121"/>
+<area shape="rect" id="node3" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="116,95,245,121"/>
+<area shape="rect" id="node6" href="$ethertype_8h.html" title="Ether type definitions." alt="" coords="270,95,393,121"/>
+<area shape="rect" id="node7" href="$protnum_8h.html" title="Protocol number definitions." alt="" coords="417,95,531,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="94,169,169,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="193,169,264,196"/>
 </map>

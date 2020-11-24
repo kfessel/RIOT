@@ -1,6 +1,12 @@
 <map id="drivers/include/net/netdev/eth.h" name="drivers/include/net/netdev/eth.h">
-<area shape="rect" id="node3" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="104,95,199,121"/>
-<area shape="rect" id="node7" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="266,169,357,196"/>
-<area shape="rect" id="node4" href="$errno_8h.html" title="errno.h" alt="" coords="95,169,157,196"/>
-<area shape="rect" id="node5" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="181,169,241,196"/>
+<area shape="rect" id="node1" title="Definitions for netdev common ethernet code." alt="" coords="129,5,271,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="123,393,194,420"/>
+<area shape="rect" id="node3" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface." alt="" coords="149,95,251,121"/>
+<area shape="rect" id="node9" href="$netopt_8h.html" title="Definition of global configuration options." alt="" coords="328,169,429,196"/>
+<area shape="rect" id="node4" href="$errno_8h.html" title=" " alt="" coords="94,169,162,196"/>
+<area shape="rect" id="node5" href="$iolist_8h.html" title="iolist scatter / gather IO" alt="" coords="237,169,304,196"/>
+<area shape="rect" id="node10" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="94,319,223,345"/>
+<area shape="rect" id="node6" href="$unistd_8h_source.html" title=" " alt="" coords="273,244,348,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="309,393,384,420"/>
+<area shape="rect" id="node8" href="$cpu_2atmega__common_2avr__libc__extra_2include_2sys_2types_8h_source.html" title=" " alt="" coords="299,319,395,345"/>
 </map>

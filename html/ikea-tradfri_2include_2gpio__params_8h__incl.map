@@ -1,8 +1,19 @@
 <map id="boards/ikea&#45;tradfri/include/gpio_params.h" name="boards/ikea&#45;tradfri/include/gpio_params.h">
-<area shape="rect" id="node2" href="$ikea-tradfri_2include_2board_8h.html" title="Board specific definitions for the IKEA TRÅDFRI modules. " alt="" coords="231,95,296,121"/>
-<area shape="rect" id="node14" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="301,169,397,196"/>
-<area shape="rect" id="node4" href="$boards_2ikea-tradfri_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the IKEA TRÅDFRI modules. " alt="" coords="99,169,199,196"/>
-<area shape="rect" id="node7" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="242,244,338,271"/>
-<area shape="rect" id="node10" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="524,169,613,196"/>
-<area shape="rect" id="node15" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="413,244,506,271"/>
+<area shape="rect" id="node1" title="Board specific configuration of direct mapped GPIOs." alt="" coords="537,5,711,47"/>
+<area shape="rect" id="node2" href="$ikea-tradfri_2include_2board_8h.html" title="Board specific definitions for the IKEA TRÅDFRI modules." alt="" coords="553,95,623,121"/>
+<area shape="rect" id="node16" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL." alt="" coords="761,169,868,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="171,244,229,271"/>
+<area shape="rect" id="node4" href="$boards_2ikea-tradfri_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the IKEA TRÅDFRI modules." alt="" coords="112,169,221,196"/>
+<area shape="rect" id="node7" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="742,244,845,271"/>
+<area shape="rect" id="node11" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="560,244,667,271"/>
+<area shape="rect" id="node12" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition." alt="" coords="452,169,551,196"/>
+<area shape="rect" id="node15" title=" " alt="" coords="626,169,686,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="514,319,619,345"/>
+<area shape="rect" id="node6" title=" " alt="" coords="5,244,96,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="643,319,714,345"/>
+<area shape="rect" id="node9" title=" " alt="" coords="889,319,959,345"/>
+<area shape="rect" id="node10" title=" " alt="" coords="739,319,848,345"/>
+<area shape="rect" id="node13" title=" " alt="" coords="304,244,387,271"/>
+<area shape="rect" id="node14" title=" " alt="" coords="411,244,485,271"/>
+<area shape="rect" id="node17" href="$pwm_8h.html" title="Low&#45;level PWM peripheral driver interface definitions." alt="" coords="869,244,979,271"/>
 </map>

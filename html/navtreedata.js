@@ -1,27 +1,67 @@
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this file.
+
+Copyright (C) 1997-2019 by Dimitri van Heesch
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of version 2 of the GNU General Public License as published by
+the Free Software Foundation
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+@licend  The above is the entire license notice
+for the JavaScript code in this file
+*/
 var NAVTREE =
 [
-  [ "RIOT Documentation", "index.html", [
-    [ "RIOT in a nutshell                                        ", "index.html#riot-in-a-nutshell", null ],
-    [ "Contribute to RIOT                                        ", "index.html#contribute-to-riot", null ],
-    [ "The quickest start                                        ", "index.html#the-quickest-start", null ],
-    [ "Structure                                                          ", "index.html#structure", null ],
-    [ "Further information                                      ", "index.html#further-information", null ],
+  [ "My Project", "index.html", [
+    [ "RIOT Documentation", "index.html", [
+      [ "RIOT in a nutshell", "index.html#riot-in-a-nutshell", null ],
+      [ "Contribute to RIOT", "index.html#contribute-to-riot", null ],
+      [ "The quickest start", "index.html#the-quickest-start", null ],
+      [ "Structure", "index.html#structure", [
+        [ "core", "index.html#autotoc_md1597", null ],
+        [ "boards", "index.html#autotoc_md1598", null ],
+        [ "cpu", "index.html#autotoc_md1599", null ],
+        [ "drivers", "index.html#autotoc_md1600", null ],
+        [ "sys", "index.html#autotoc_md1601", null ],
+        [ "sys/net", "index.html#autotoc_md1602", null ],
+        [ "pkg", "index.html#autotoc_md1603", null ],
+        [ "examples", "index.html#autotoc_md1604", null ],
+        [ "tests", "index.html#autotoc_md1605", null ],
+        [ "dist & doc", "index.html#autotoc_md1606", null ]
+      ] ],
+      [ "Further information", "index.html#further-information", null ]
+    ] ],
     [ "Creating modules", "creating-modules.html", [
-      [ "The general structure                                  ", "creating-modules.html#the-general-structure", null ],
-      [ "Modules outside of RIOTBASE                      ", "creating-modules.html#modules-outside-of-riotbase", null ],
-      [ "Pseudomodules                                                  ", "creating-modules.html#pseudomodules", null ]
+      [ "The general structure", "creating-modules.html#the-general-structure", null ],
+      [ "Module dependencies", "creating-modules.html#autotoc_md1608", null ],
+      [ "Modules outside of RIOTBASE", "creating-modules.html#modules-outside-of-riotbase", null ],
+      [ "Pseudomodules", "creating-modules.html#pseudomodules", null ],
+      [ "Helper tools", "creating-modules.html#autotoc_md1609", null ]
     ] ],
     [ "Creating an application", "creating-an-application.html", [
-      [ "The main function                                          ", "creating-an-application.html#the-main-function", null ],
-      [ "The application's Makefile                         ", "creating-an-application.html#the-applications-makefile", [
-        [ "The minimal Makefile                                    ", "creating-an-application.html#the-minimal-makefile", null ],
-        [ "How to handle unsupported boards?                  ", "creating-an-application.html#handle-unsupported-boards", null ],
-        [ "Including modules                                          ", "creating-an-application.html#including-modules", null ]
-      ] ]
+      [ "The main function", "creating-an-application.html#the-main-function", null ],
+      [ "The application's Makefile", "creating-an-application.html#the-applications-makefile", [
+        [ "The minimal Makefile", "creating-an-application.html#the-minimal-makefile", null ],
+        [ "How to handle unsupported boards?", "creating-an-application.html#handle-unsupported-boards", null ],
+        [ "Including modules", "creating-an-application.html#including-modules", null ]
+      ] ],
+      [ "Helper tools", "creating-an-application.html#autotoc_md1610", null ]
     ] ],
     [ "Porting boards", "porting-boards.html", [
       [ "General structure", "porting-boards.html#general-structure", [
-        [ "Source files", "porting-boards.html#board-source-files", [
+        [ "Source files", "porting-boards.html#board-source-files", null ],
+        [ "Makefiles", "porting-boards.html#autotoc_md1611", [
+          [ "Pitfalls", "creating-modules.html#autotoc_md1607", null ],
           [ "Makefile", "porting-boards.html#Makefile", null ],
           [ "Makefile.dep", "porting-boards.html#makefile-dep", null ],
           [ "Makefile.features", "porting-boards.html#makefile-features", null ],
@@ -29,6 +69,7 @@ var NAVTREE =
         ] ],
         [ "doc.txt", "porting-boards.html#board-doc", null ]
       ] ],
+      [ "Helper tools", "porting-boards.html#autotoc_md1612", null ],
       [ "Using Common code", "porting-boards.html#common-board-code", null ],
       [ "Boards outside of RIOTBASE", "porting-boards.html#boards-outside-of-riotbase", null ],
       [ "Tools", "porting-boards.html#boards-tools", null ]
@@ -41,8 +82,15 @@ var NAVTREE =
         [ "Default device configuration", "driver-guide.html#driver-guide-config", null ],
         [ "Compile-time configuration documentation", "driver-guide.html#driver-guide-doxygen", null ],
         [ "Initialization", "driver-guide.html#driver-guide-initialization", null ],
-        [ "Return values", "driver-guide.html#driver-guide-return-values", null ],
-        [ "General Device Driver Checklist", "driver-guide.html#driver-guide-general-checklist", null ]
+        [ "Return Values", "driver-guide.html#driver-guide-return-values", [
+          [ "Documenting Return Values", "driver-guide.html#driver-guide-return-values-doc", null ]
+        ] ],
+        [ "General Device Driver Checklist", "driver-guide.html#driver-guide-general-checklist", null ],
+        [ "Build system integration", "driver-guide.html#autotoc_md1613", [
+          [ "Internal include files", "driver-guide.html#autotoc_md1614", null ],
+          [ "External dependencies", "driver-guide.html#autotoc_md1615", null ]
+        ] ],
+        [ "Helper tools", "driver-guide.html#autotoc_md1616", null ]
       ] ],
       [ "Sensors", "driver-guide.html#driver-guide-sensors", [
         [ "SAUL", "driver-guide.html#driver-guide-saul", null ],
@@ -61,39 +109,105 @@ var NAVTREE =
       [ "TODO", "driver-guide.html#driver-guide-todo", null ]
     ] ],
     [ "Getting started", "getting-started.html", [
-      [ "Downloading RIOT code                                  ", "getting-started.html#downloading-riot-code", null ],
-      [ "Compiling RIOT                                                ", "getting-started.html#compiling-riot", [
-        [ "Setting up a toolchain                                ", "getting-started.html#setting-up-a-toolchain", null ],
-        [ "The build system                                            ", "getting-started.html#the-build-system", null ],
-        [ "Building and executing an example           ", "getting-started.html#building-and-executing-an-example", null ],
-        [ "Configuring an application                         ", "getting-started.html#configuring-an-application", null ]
+      [ "Downloading RIOT code", "getting-started.html#downloading-riot-code", null ],
+      [ "Compiling RIOT", "getting-started.html#compiling-riot", [
+        [ "Setting up a toolchain", "getting-started.html#setting-up-a-toolchain", null ],
+        [ "The build system", "getting-started.html#the-build-system", null ],
+        [ "Building and executing an example", "getting-started.html#building-and-executing-an-example", null ],
+        [ "Configuring an application", "getting-started.html#configuring-an-application", null ]
+      ] ],
+      [ "Use Docker to build RIOT", "getting-started.html#docker", [
+        [ "Setup", "getting-started.html#docker-setup", [
+          [ "Installing docker", "getting-started.html#autotoc_md1617", null ]
+        ] ]
+      ] ],
+      [ "Usage", "getting-started.html#autotoc_md1618", [
+        [ "Troubleshooting", "getting-started.html#docker-troubleshooting", null ]
+      ] ],
+      [ "Using the native port with networking", "getting-started.html#autotoc_md1619", [
+        [ "Setting up a tap network", "getting-started.html#autotoc_md1620", null ]
       ] ]
     ] ],
-    [ "Running and creating tests", "running-and-creating-tests.html", null ],
+    [ "Running and creating tests", "running-and-creating-tests.html", [
+      [ "Implementing automated tests", "running-and-creating-tests.html#autotoc_md1621", null ],
+      [ "Running automated tests", "running-and-creating-tests.html#autotoc_md1622", null ],
+      [ "Automated Tests Guidelines", "running-and-creating-tests.html#autotoc_md1623", null ],
+      [ "Use expect() instead of assert()", "running-and-creating-tests.html#autotoc_md1624", null ],
+      [ "Interaction through the uart", "running-and-creating-tests.html#autotoc_md1625", null ]
+    ] ],
     [ "Build System Basics", "build-system-basics.html", [
       [ "BOARD, CPU & FEATURES", "build-system-basics.html#board-cpu-features", [
-        [ "FEATURES", "build-system-basics.html#features", null ],
+        [ "FEATURES", "build-system-basics.html#features", [
+          [ "What is a FEATURE?", "build-system-basics.html#autotoc_md1626", null ],
+          [ "Providing a FEATURE", "build-system-basics.html#autotoc_md1627", null ],
+          [ "All the FEATURES_%", "build-system-basics.html#autotoc_md1628", null ],
+          [ "Where to define FEATURES_%", "build-system-basics.html#autotoc_md1629", null ]
+        ] ],
         [ "CPU/CPU_MODEL", "build-system-basics.html#cpu", null ],
         [ "BOARD", "build-system-basics.html#board", null ]
       ] ],
-      [ "Variables declaration guidelines", "build-system-basics.html#variable-declaration-guidelines", null ]
+      [ "Variables declaration guidelines", "build-system-basics.html#variable-declaration-guidelines", [
+        [ "Avoid unnecessary export", "build-system-basics.html#autotoc_md1630", null ],
+        [ "Use memoized for variables referencing a function or command", "build-system-basics.html#autotoc_md1631", [
+          [ "recursively expanded variable:", "build-system-basics.html#autotoc_md1632", null ],
+          [ "simply expanded variable:", "build-system-basics.html#autotoc_md1633", null ],
+          [ "memoized:", "build-system-basics.html#autotoc_md1634", null ]
+        ] ],
+        [ "Additional documentation", "build-system-basics.html#autotoc_md1635", null ]
+      ] ]
     ] ],
     [ "Kconfig in RIOT", "kconfig-in-riot.html", [
-      [ "Overview", "kconfig-in-riot.html#kconfig-overview", null ],
+      [ "Overview", "kconfig-in-riot.html#kconfig-overview", [
+        [ "Exposure", "kconfig-in-riot.html#autotoc_md1636", null ],
+        [ "Assignment", "kconfig-in-riot.html#autotoc_md1637", null ],
+        [ "Verification and application", "kconfig-in-riot.html#autotoc_md1638", null ]
+      ] ],
       [ "User's guide to configure with Kconfig", "kconfig-in-riot.html#kconfig-users-guide", [
         [ "Configure using menuconfig", "kconfig-in-riot.html#configure-using-menuconfig", null ],
         [ "Configure using '.config' files", "kconfig-in-riot.html#configure-using-files", null ],
-        [ "Application configuration with Kconfig", "kconfig-in-riot.html#app-config-kconfig", null ]
+        [ "Application configuration with Kconfig", "kconfig-in-riot.html#app-config-kconfig", null ],
+        [ "A note on the usage of CFLAGS", "kconfig-in-riot.html#autotoc_md1640", null ]
       ] ],
       [ "Integration into the build system", "kconfig-in-riot.html#kconfig-integration-into-build-system", [
         [ "Steps during the build process", "kconfig-in-riot.html#kconfig-steps-build-process", [
-          [ "2. Merging all configuration sources", "kconfig-in-riot.html#kconfig-steps-merge-configs", null ],
-          [ "4. Generation of the autoconf.h header", "kconfig-in-riot.html#kconfig-steps-header-gen", null ]
-        ] ]
+          [ "0. Module dependency resolution", "kconfig-in-riot.html#autotoc_md1642", [
+            [ "Input", "kconfig-in-riot.html#autotoc_md1643", null ],
+            [ "Output", "kconfig-in-riot.html#autotoc_md1644", null ]
+          ] ],
+          [ "1. Module listing", "kconfig-in-riot.html#autotoc_md1645", [
+            [ "Input", "kconfig-in-riot.html#autotoc_md1646", null ],
+            [ "Output", "kconfig-in-riot.html#autotoc_md1647", null ]
+          ] ],
+          [ "2. Merging all configuration sources", "kconfig-in-riot.html#kconfig-steps-merge-configs", [
+            [ "Input", "kconfig-in-riot.html#autotoc_md1648", null ],
+            [ "Output", "kconfig-in-riot.html#autotoc_md1649", null ]
+          ] ],
+          [ "3. Menuconfig execution (optional)", "kconfig-in-riot.html#autotoc_md1650", [
+            [ "Input", "kconfig-in-riot.html#autotoc_md1651", null ],
+            [ "Output", "kconfig-in-riot.html#autotoc_md1652", null ]
+          ] ],
+          [ "4. Generation of the autoconf.h header", "kconfig-in-riot.html#kconfig-steps-header-gen", [
+            [ "Input:", "kconfig-in-riot.html#autotoc_md1653", null ],
+            [ "Output:", "kconfig-in-riot.html#autotoc_md1654", null ]
+          ] ],
+          [ "Summary of files", "kconfig-in-riot.html#autotoc_md1655", null ]
+        ] ],
+        [ "Kconfig symbols in Makefiles", "kconfig-in-riot.html#autotoc_md1656", null ]
       ] ],
       [ "Transition phase", "kconfig-in-riot.html#kconfig-transition-phase", [
         [ "Making configuration via Kconfig optional", "kconfig-in-riot.html#kconfig-configuration-optional", null ],
-        [ "Modelling CPUs, boards and provided features", "kconfig-in-riot.html#kconfig-cpu-boards-features", null ]
+        [ "Modelling CPUs, boards and provided features", "kconfig-in-riot.html#kconfig-cpu-boards-features", [
+          [ "Features", "kconfig-in-riot.html#autotoc_md1658", [
+            [ "Example", "kconfig-in-riot.html#autotoc_md1659", null ]
+          ] ],
+          [ "CPUs", "kconfig-in-riot.html#autotoc_md1660", [
+            [ "Example", "kconfig-in-riot.html#autotoc_md1661", null ]
+          ] ],
+          [ "Boards", "kconfig-in-riot.html#autotoc_md1662", [
+            [ "Example", "kconfig-in-riot.html#autotoc_md1663", null ]
+          ] ]
+        ] ],
+        [ "Summary of reserved Kconfig prefixes", "kconfig-in-riot.html#autotoc_md1664", null ]
       ] ],
       [ "Appendixes", "kconfig-in-riot.html#kconfig-appendixes", [
         [ "Appendix A: Check if a module or package is used", "kconfig-in-riot.html#kconfig-appendix-a", null ],
@@ -103,13 +217,28 @@ var NAVTREE =
       ] ],
       [ "Useful references", "kconfig-in-riot.html#kconfig-useful-references", null ]
     ] ],
+    [ "Using C++ in RIOT", "using-cpp.html", [
+      [ "Levels of Support", "using-cpp.html#levels-of-support", null ],
+      [ "Using C++", "using-cpp.html#autotoc_md1668", null ],
+      [ "RIOT Modules in C++", "using-cpp.html#cpp-in-riot", null ],
+      [ "See Also", "using-cpp.html#see-also", null ]
+    ] ],
     [ "Advanced build system tricks", "advanced-build-system-tricks.html", [
-      [ "Introduction                                                    ", "advanced-build-system-tricks.html#introduction", null ],
-      [ "Customize the build system                            ", "advanced-build-system-tricks.html#customize-build-system", null ],
-      [ "Handling multiple boards with udev-rules                ", "advanced-build-system-tricks.html#multiple-boards-udev", null ],
-      [ "Analyze dependency resolution                   ", "advanced-build-system-tricks.html#analyze-depedency-resolution", null ]
+      [ "Introduction", "advanced-build-system-tricks.html#introduction", null ],
+      [ "Customize the build system", "advanced-build-system-tricks.html#customize-build-system", [
+        [ "Usage", "advanced-build-system-tricks.html#autotoc_md1669", null ]
+      ] ],
+      [ "Handling multiple boards with udev-rules", "advanced-build-system-tricks.html#multiple-boards-udev", [
+        [ "Handling multiple versions of the same BOARD", "advanced-build-system-tricks.html#autotoc_md1670", null ],
+        [ "Notes", "advanced-build-system-tricks.html#autotoc_md1671", null ],
+        [ "Documentation:", "advanced-build-system-tricks.html#autotoc_md1672", null ]
+      ] ],
+      [ "# Handling multiple boards without udev-rules", "advanced-build-system-tricks.html#autotoc_md1673", null ],
+      [ "Analyze dependency resolution", "advanced-build-system-tricks.html#analyze-depedency-resolution", null ]
     ] ],
     [ "Changelog", "changelog.html", [
+      [ "Release 2020.10", "changelog.html#release-2020-10", null ],
+      [ "Release 2020.07", "changelog.html#release-2020-07", null ],
       [ "Release 2020.04", "changelog.html#release-2020-04", null ],
       [ "Release 2020.01", "changelog.html#release-2020-01", null ],
       [ "Release 2019.10", "changelog.html#release-2019-10", null ],
@@ -134,7 +263,10 @@ var NAVTREE =
       [ "Release 2014.01", "changelog.html#release-2014-01", null ],
       [ "Release 2013.08", "changelog.html#release-2013-08", null ]
     ] ],
-    [ "Removed Features and Modules", "md_LOSTANDFOUND.html", null ],
+    [ "Removed Features and Modules", "md_LOSTANDFOUND.html", [
+      [ "How to read this list", "md_LOSTANDFOUND.html#autotoc_md1675", null ],
+      [ "Removed Features", "md_LOSTANDFOUND.html#autotoc_md1676", null ]
+    ] ],
     [ "Todo List", "todo.html", null ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Modules", "modules.html", "modules" ],
@@ -149,8 +281,8 @@ var NAVTREE =
         [ "Related Functions", "functions_rela.html", null ]
       ] ]
     ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ],
       [ "Globals", "globals.html", [
         [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", "globals_func" ],
@@ -167,202 +299,213 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"adcxx1c__params_8h.html",
-"apds99xx__regs_8h.html#a5765b90b12f9abef3d3660894c9ead04",
-"at24cxxx__defines_8h.html#ae650db3905ba2c37bfaad03c0b51b225",
-"at86rf2xx__registers_8h.html#a0fcf6b2b8da0e1823a0efeaa9ee88c5d",
-"atmega1284p_2include_2board_8h.html#a916f2adc2080b4fe88034086d107a8dc",
-"atmega__common_2include_2periph__cpu__common_8h.html#a5265674ed64e5865196727196ef8265b",
-"bitarithm_8h.html#afdd1584eaddf508717554b35a600b0fd",
-"boards_26lowpan-clicker_2include_2periph__conf_8h_source.html",
-"boards_2common_2arduino-zero_2include_2periph__conf_8h.html",
-"boards_2esp32-olimex-evb_2include_2periph__conf_8h.html#a28fc91fb6e973e5f0be9e44e5edd5449",
-"boards_2frdm-k64f_2include_2periph__conf_8h.html#ab1fb8843db54b7373933bfe8b817a930",
-"boards_2maple-mini_2include_2periph__conf_8h.html#add7e561d6118d47ed5cbe258073607ab",
-"boards_2nrf52832-mdk_2include_2periph__conf_8h.html",
-"boards_2nucleo-f207zg_2include_2periph__conf_8h.html#ab35a2b79568128efef74adf1ba1910a8",
-"boards_2nucleo-f446re_2include_2periph__conf_8h.html#a1643cfc64589407fb96b4cbf908689a5",
-"boards_2nucleo-l496zg_2include_2periph__conf_8h.html",
-"boards_2particle-boron_2include_2periph__conf_8h.html#a850405f2aaa352ad264346531f0e6230",
-"boards_2samr21-xpro_2include_2periph__conf_8h.html#ae505bf70258c000e0dd0f0ca6377db10",
-"boards_2sodaq-autonomo_2include_2periph__conf_8h.html#a22877cb675e55db16cb1227b62dc9404",
-"boards_2stm32f3discovery_2include_2periph__conf_8h.html#af9358264b5cbce69dddad098a8600aae",
-"boards_2yunjia-nrf51822_2include_2periph__conf_8h.html#aa9dcbfbe7aa5baf027d834e5bca62a47",
-"cc110x__constants_8h.html#aeea9551f2f09fb48cf6d8e34e27c0010",
-"cc2420__registers_8h.html#aff0d63aacaad47f3efe8d2798b3515a4",
-"cc2538_8h.html#a4b00c038dfeb4c69388ac2ef831fffd0",
-"cc2538_8h.html#aaa33d1b36beafcc3addcfdd9d8a1c1cd",
-"cc2538__rf_8h.html#a6b7b47dd702d9e331586d485013fd1eaae6a6b5f3270749959af18adb908d12a7",
-"cc26x0__prcm_8h.html#a7b46a2f5d1ae2688a749d45e0f7a9267",
-"cc26xx__cc13xx__gpt_8h.html#a6b16f574e671007ad2d4353887da0668",
-"cc26xx__cc13xx__uart_8h_source.html",
-"cfg__clock__168__16__0_8h.html#a1c3484818170fe048c55eaac9d56f46c",
-"changelog.html#release-2017-04",
-"clist_8h.html#a4c12aba839649e81b17ca6a4dde6c0bc",
-"common_2nucleo144_2include_2arduino__board_8h.html#aa898b6e59ed7793e1b7faa43384fe4c5",
-"control_8h.html",
-"dfplayer__constants_8h.html#ad98f0aa95a99038e8995f3d4e483fea9",
-"dir_2911c66051307ddedae442f8fd151a13.html",
-"dir_6dfdce08eb54461cfa252202f8edc70a.html",
-"dir_b24f93aa229cd2b7a3c1069daf8d1472.html",
-"dir_f4273e40ebae32c6d53e0a99182c23af.html",
-"ds3234__regs_8h.html#a10e74d65d7876276a8f6061c71dcf469ad5283fc32be0274e9b72034cdfd75752",
-"emcute_8h_source.html",
-"enc28j60__regs_8h.html#af21ad0501fa3de9d535d42a769b949a9",
-"esp32-olimex-evb_2include_2board_8h.html#a1a3384f0b2d8bfe5c9a7439d45e84df3",
-"esp32_2include_2periph__conf__common_8h.html#add71a59fa12734b27043cabf5546d176",
-"esp__now__netdev_8h.html#acd760378662ccdbc6831b56dae8317d4",
-"feetech__reader_8h.html#a7553f209078557372f6981af4f15894d",
-"fsm_8h.html#a493217321e8eec123f3a1a788dddcf11a92a8120e2bf4bfb38473bfe6b6843b8c",
-"globals_8h.html#af49a37795a7b3e44573d1b77c515cae7",
-"gnrc__lorawan__internal_8h.html#a733ce1a11c14ee56208977aa3466fb01",
-"group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a6dbff8f8543325f3474cbae2446776e7",
-"group__ble__defs.html#ga27aa0607adfd83ccbeff947fdcf7fd2c",
-"group__ble__defs.html#gaacfd2e2af9fc169c7c0b8570ab0a9d00",
-"group__boards__common__frdm.html",
-"group__boards__hifive1.html#gac6468b1df4dfabcca0bb142044d6f976",
-"group__boards__ublox-c030-u201.html#ga916f2adc2080b4fe88034086d107a8dc",
-"group__core__thread.html#ga76c8b55efc2c693fc6e2c6acd9ca2ddb",
-"group__cpu__atmega__common.html#gab9b8cc17d1947160d13faaba7a18d6d1",
-"group__cpu__cc2538__gpio.html#ggac36f475ca5b446f4fde4c9b90bec77c8a5fc8eb2e5c31423c40d58cdaf0ea6c6f",
-"group__cpu__cortexm__common.html#ga39e0029ba147e7d54f774c88b0a6510d",
-"group__cpu__msp430fxyz.html#ga3969ce1e494a72d3c2925b10ddeb4604",
-"group__drivers__ad7746.html#gga2f12d0b2408d43c5aeb3a1de3c8a22cca61d2cafcb01d64c2e67b5e54db1b1f42",
-"group__drivers__adt7310.html#ga85b248b84546f0624b914072f7dab58b",
-"group__drivers__apds99xx.html#gga5e46d7aeab7b9a2a7e37f47501f1d20ba582a29c831de11a603da201f79ea5752",
-"group__drivers__at86rf215.html#ga7114bf17a36e9cceced6f0ae052d32ba",
-"group__drivers__at86rf2xx.html#gafb42a5daa4091c925a6cef7c8e8a300f",
-"group__drivers__bmx055.html",
-"group__drivers__cc110x.html#gga11315ca57b89a5c68af4c57d9f92a547a0bd9f4e813a2421d6de48ddab5b222d5",
-"group__drivers__diskio.html#ga1b3c492f9aec325f0655941b75256f3c",
-"group__drivers__dynamixel.html#gga1e06e534e565b0e44afdf96c77951725a76a70332c18148406eb6e22863db4b9d",
-"group__drivers__hmc5883l.html#ga7bc2a5d291b241e4467e565853ad7158",
-"group__drivers__ina2xx.html#gga582e47ede3cda926a4347f93064b490fa1365bc1b2705c8a39c54cdc5cf5ce10c",
-"group__drivers__ina3221.html#gae441b96b2160af23e74b882a4cba091c",
-"group__drivers__isl29125.html#gga636d959d088e2c441198bbc7308ac82ca3f82830ec7ce490eba3507d322e91f87",
-"group__drivers__l3g4200d.html#ga3551e06997cabc0580fc17e808a7407a",
-"group__drivers__lis2dh12.html#ga0f35808eebd166278152dccd957c66d3",
-"group__drivers__lis3dh.html#ga2d473047b08efb45e36949217b1c882b",
-"group__drivers__lis3dh.html#gae42864eed3b9d9ff6245cf0937b21da3",
-"group__drivers__lsm303dlhc.html#gga388a4733819b2541d067f4c60214d882ac60d24560b90aa9742c57cbecad4452e",
-"group__drivers__mag3110.html#gad042a2fd9d4deb827c6a398021649870",
-"group__drivers__motor.html#gga9f9bb80c2e29dfdafbe0fb6b83e96f5fae7104aafe35ee81de679149e6cc8c3d5",
+"adc__ctrl_8h.html#a7859c0a3efa8b1c360f5c2376baf051eab525d2f33777066edec6e51d2a8352a3",
+"aip31068__regs_8h.html#afe2c391a48f18cb0a1d3e42cecc848fa",
+"async__read_8h_source.html",
+"at86rf215__registers_8h.html#afecf2e84e026725b60280ca46fb4a923",
+"at86rf2xx__registers_8h.html#af4bdbd7f7ae34702e4593319c97ab2ac",
+"atmega328p_2include_2board_8h.html#af68fde6b7d5b362834e6a8d382c6c0d7",
+"b-l475e-iot01a_2include_2board_8h.html#a6e6991e361f63a8d8aa3ae117be9f33e",
+"bmx280__internals_8h.html#a3cb4d02fcf0aa42f9bc0091f2abc6876",
+"boards_2cc2538dk_2include_2periph__conf_8h.html#a160c7b1c3bc13c7cb5ac4ed375f4e21d",
+"boards_2e180-zg120b-tb_2include_2periph__conf_8h.html#a6ef9462ca952cd51c30a36ebf7769338",
+"boards_2fox_2include_2periph__conf_8h.html#a055813e339f41a120f81a18fe83a07c3",
+"boards_2limifrog-v1_2include_2periph__conf_8h.html#a713e03d19734d793baee3d1cc25c2dbb",
+"boards_2mulle_2include_2periph__conf_8h.html#ae22f757c8b5948de5c58c3dbeea51137",
+"boards_2nucleo-f303k8_2include_2periph__conf_8h.html#ae7ffc4f0306b1c3ea1d0e9f985a2ab16",
+"boards_2nucleo-f746zg_2include_2periph__conf_8h.html#a713e03d19734d793baee3d1cc25c2dbb",
+"boards_2nucleo-l4r5zi_2include_2periph__conf_8h_source.html",
+"boards_2pyboard_2include_2periph__conf_8h.html#a055813e339f41a120f81a18fe83a07c3",
+"boards_2samr34-xpro_2include_2periph__conf_8h_source.html",
+"boards_2sodaq-sara-aff_2include_2periph__conf_8h.html#a22877cb675e55db16cb1227b62dc9404",
+"boards_2stm32f769i-disco_2include_2periph__conf_8h.html#a713e03d19734d793baee3d1cc25c2dbb",
+"byteorder_8h.html#ac35f5bbf9fa42e3e2a21e379af41bc5a",
+"cc1312-launchpad_2include_2board_8h.html#a904884feea8e03c30c9a85ca6d7a8e5c",
+"cc2538_2include_2periph__cpu_8h.html#afec7c948b8c70db3c9394fc3dc145a99",
+"cc2538_8h.html#a5fcf66012513ff99c037c20d734e42f1",
+"cc2538_8h.html#a921ce2bd9e0ae3e16c1f7dc6fc2ccc9d",
+"cc2538_8h.html#af2c90421481f16bc4cb471e30cc5fc81",
+"cc2650-launchpad_2include_2board_8h_source.html",
+"cc26xx__cc13xx_8h.html#a666eb0caeb12ec0e281415592ae89083a1a4170338bf8c34c777f8f3804cb612c",
+"cc26xx__cc13xx__gpt_8h.html#a83033c03edb8c1a2dc7cb065754927df",
+"ccm_8h.html",
+"changelog.html#release-2013-08",
+"clist_8h.html#a1f79f458584bda97371873f9cc86696b",
+"common_2nrf52xxxdk_2include_2gpio__params_8h_source.html",
+"context__frame_8h.html#aab0e3cb9d051508d6b7df9330251614b",
+"creating-an-application.html",
+"dir_057bddb3db4977eddb35d49deb560f3e.html",
+"dir_42c774247a11d748ddc7d26afc31da73.html",
+"dir_8558003625bd272a605e6831ca3c3dcb.html",
+"dir_c530a792f687840846bdba43781c09c1.html",
+"div_8h.html#aa582d82bfc335a1472e82066337fdbab",
+"ds1307_8h.html",
+"dynamixel__reader_8h.html#a93a9ee3dc6f6e46e629ac312d780c34d",
+"enc28j60__regs_8h.html#a49e9f52d358d425764512b1406eedae9",
+"encx24j600__defines_8h.html#ad2f4b2a660e86a6546c1f92a2ec8ba15",
+"esp32-wroom-32_2include_2arduino__pinmap_8h.html#a1bd18a419e095cdfe447689fdcd196be",
+"esp8266-esp-12x_2include_2arduino__board_8h.html#aa898b6e59ed7793e1b7faa43384fe4c5",
+"f2f4f7_2cfg__clock__values_8h.html#a7c07f079a96c4bf2c1c0727cc73a8efd",
+"firefly_2include_2board_8h.html#a906ffb63a9555614b624eabd9353f569",
+"functions_y.html",
+"globals_eval_o.html",
+"gnrc__tcp__common_8h.html#a233d8a6ddedc8b63d517b1a8e3fa9f48",
+"group__ble__defs.html#ga05ea16f6c062b1760c675bfbb32d2f34",
+"group__ble__defs.html#ga91747ba3a8c4a6103500b35a8e0d17d5",
+"group__ble__skald__ibeacon.html#gac976de1aa4be4d5eb395d43e6bd90dda",
+"group__boards__firefly.html",
+"group__boards__samr34-xpro.html#gabeea4c0af9ef3837fa787d067dedbd26",
+"group__core__sched.html#ggac528c02d3cccfb103d539b26ccdba6b2a03df569fdf879aa1107a13c32aaae310",
+"group__cpu__atmega__common.html#ga251e9b536ed96ccb16aa28ca2d5bd656",
+"group__cpu__cc2538__gpio.html#gga81616fb2c35cba2e374ca3b37e3f2663a5f893d82d87b115106ddaa82597352d8",
+"group__cpu__cc2538__rfcore.html#ggaaf8fd5f0e57d456151c951e0f3715fc4a5435b1cff70cd37cbb8d1aaf1d50ab21",
+"group__cpu__cc26xx__cc13xx__definitions.html#gaf1d5a9b375d10c260bf2e7b85bcbfe0b",
+"group__cpu__msp430__common.html#gaaf3f5e6eaee07212584e981942f95268",
+"group__drivers__SPS30__config.html",
+"group__drivers__adcxx1c__config.html#ga280bd9c0ce53bdffe6ac702a2cb49fdc",
+"group__drivers__adxl345.html#ggafeaa6456e370d2eb59f5e139d9f8b00cae3c8093e169c38c2a412e2e43af297be",
+"group__drivers__at24cxxx.html",
+"group__drivers__at86rf215__config.html#ga3fe67d134b271950f33d629abf32e6f2",
+"group__drivers__ata8520e.html#ga15cf41cbb94ca225fafe68b0c24d680f",
+"group__drivers__bmx055.html#gga13216a6a0deff8e2be640c8af9489ad4a490a0a514849fc9ef1c0294fc8158e50",
+"group__drivers__cc110x.html#gga1928e3385efe9717d9b4d256d4ee5ac9a2cc97df700d5dc61ed96934bad962bb1",
+"group__drivers__diskio.html#gaec3bb4dfe075d0ba2f3b07b300a95500",
+"group__drivers__edbg__eui.html",
+"group__drivers__hdc1000.html#ga6865897d06ef2557467d5ac59844c54f",
+"group__drivers__ieee802154__hal.html#gabab1d0397934422e1baa86e84bae3a9b",
+"group__drivers__ina3221.html#ga64c2cbd44cb57c2e14a1c25c65d7fbe4",
+"group__drivers__ina3221.html#ggabb73f511d6e0f96788ade531d27783b8a4811f2dc226094ec0e19766fb12b5657",
+"group__drivers__itg320x.html#gga2c1a5dae8a6b7d005e16912ea7519003ad9e339580afefa9aa419c806ef65ed04",
+"group__drivers__lc709203f.html#ga696968e0535c57e59640c55f381a0258",
+"group__drivers__lis2dh12.html#gga9d62e2a4d6edc3a479d15fdf213decd0afea0441318139acab4095aee6d5e356c",
+"group__drivers__lis3dh.html#ga86e07de702e231636d2b5cbcb108e2b8",
+"group__drivers__lis3mdl.html#ggadf9568a25c1594bfa79e2c70a7a79645ac88e542e87edaf2c0d18bb96ad33fb54",
+"group__drivers__lsm6dsl.html#ggadab0c4467b3c6f365e87d0316a74bf64a7c3fa2accf7fa3d2466bc341fcd4f109",
+"group__drivers__mii.html#ga76db0bb04997550a08d1a49f9e6e2f03",
+"group__drivers__motor.html#ggafdaef3d663aec44673ff543b0c1d44e3a52172cdac32f6711640e1136d70c4e67",
 "group__drivers__mrf24j40.html#gacdcc19e5d39a63ec79a8c469b0dbc98a",
-"group__drivers__nrf24l01p.html#ga17f2cfd204e6515ddfbe63de0da48339",
-"group__drivers__opt3001.html#ggaf9e099c537bf634041abbe01e4c83422a466dea8459069a47144877c5e834aff7",
-"group__drivers__periph__can.html#ga2396570920bae47d00a402c97c55eca6",
-"group__drivers__periph__qdec.html",
-"group__drivers__periph__uart.html#ggadc68b8fd9ded3990f84129df23fee798a12ee42f7fd9804e1315391151603d405",
-"group__drivers__pn532.html#ga095c658359851a3366802b52cd713886",
-"group__drivers__rn2xx3.html#gacdf1affb4d7f0c032846567d48cfad6b",
-"group__drivers__saul.html#gga6fde86696b9fb4575b16ddc150ff0a84add5f942f9362090eeeea92e3e3028fa5",
-"group__drivers__si114x.html#gga67bcb332da5eaf760068d925b4706d68a12105a1e22354f70cccaecfad5716410",
-"group__drivers__srf04.html#ga2a634ea644e25adaf7fb3afc1e0963aa",
-"group__drivers__sx127x.html#ggacb6f6fa3e73244ffcf5c366390b4a4edaa5b337736751a140fe3f274d7751634b",
-"group__drivers__uart__half__duplex.html#gab1b040d8ecc4095c40eb0c5e24e188ce",
-"group__lwm2m__client__config.html#ga5523b190de4bfd0b91e3ad9a03685493",
-"group__net__asymcute.html#ga6a155a8aa7bc26a65bfdb19f01bc295e",
-"group__net__credman.html#ga9b3a1809012813b046937832b80a4ffd",
-"group__net__ethertype.html",
-"group__net__gnrc__gomach__conf.html#ga24e428e118924806469fc2e9725ed0c1",
-"group__net__gnrc__ipv6__nib__conf.html#ga5ba4d11bff9c50e6bb53ec2e8e16a49d",
-"group__net__gnrc__lwmac__conf.html#gaf4231fe03cd46c5327b9ee3fb76fd027",
-"group__net__gnrc__netreg.html#gaa0dafe42cd1f165ba11e694caf4e9b6e",
-"group__net__gnrc__rpl.html#ga5012ba78fe6ad2d5f450a1ea8564139d",
-"group__net__gnrc__sixlowpan__frag__fb.html#ga89aef7843e4f629c7a2202aac8d82064",
-"group__net__ieee802154.html#ga203fc31f32b5443b01679073b5fdd1a4",
-"group__net__ipv6__addr.html#gad92d41ea54476f024363b2bb25f0cfe3",
-"group__net__loramac.html#ga979972ade63b4ee4ab64ac44d7b90261",
-"group__net__mqttsn.html#ggad89246e8564c62fdd9c7d38de122beb5a776dcd43cf1f145bc5192a2714d6db71",
-"group__net__ndp.html#ga0a7b93e9dc59fd1c6cded5e74b74ff67",
-"group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906a8f08c78b2f53f3ae29f5054cb408d2e2",
-"group__net__protnum.html#ga4c12bc76bd8d0d9df788d99d4a3927c4",
-"group__net__sixlowpan.html#gab08118b367c7e56e8f0474020fd7156d",
-"group__net__sock__dtls.html#ga8595b9670004ad4afc5738109ecce649",
+"group__drivers__netdev__ieee802154.html#gaddfee45b3aadecc4d06fc6dfbbfcad2f",
+"group__drivers__nrf5x__nrfmin.html#gaf7c2251e1d6b0bcbdafed0f3c2918b63",
+"group__drivers__periph__adc.html#ga569737617c998468eb63b5af8191c33e",
+"group__drivers__periph__pwm.html#ga011d8bb27b3edab7aaee614bbd3acd57",
+"group__drivers__periph__timer.html#gac66133744b2b503740e6324e2efa644e",
+"group__drivers__ph__oem.html#ggac06302df40bc05bc56dec2ed7f7052b6a6dba40774bf039df66d669c022ed9905",
+"group__drivers__rn2xx3.html#ga167adece764ab7ace53e08953a33192b",
+"group__drivers__saul.html#ggabb911bb32d4e97b5fcd682dd43789991a09e7cee7241c5b698ec33d7bb95e76f8",
+"group__drivers__sht2x.html#ga017e4f4214b458cb0f795f018157ade0",
+"group__drivers__soft__uart.html#gaf51871ffadc3eade0c9a6e6cf69f780d",
+"group__drivers__sx127x.html#ga4d152119c0f3adf16d58afbcb9707b41",
+"group__drivers__tmp00x.html#gae2f69b4a2729f2b4494ae65d9a8fa6ca",
+"group__drivers__w5100.html#gab5bc774566b48251447673b5c944da24",
+"group__lwm2m__objects__device.html#gga128286c57e81fc250ee34376b4e9269aa9b79f8cc28d2018e4a737e27bb27505c",
+"group__net__coap.html#ga487bb05f6e0b36c91c63dc55d7b389b1",
+"group__net__csma__sender__conf.html#ga217da0a93c7ac72c14c63a9222198c32",
+"group__net__eui__provider.html#ga2e34c3fce7629a05e5d8c15d3687c1ee",
+"group__net__gnrc__gomach__conf.html#gafb601d63ff933b815d8c55bf859d569a",
+"group__net__gnrc__ipv6__nib__conf.html#gaeb7fdd8c2655c48300788902de9dd17d",
+"group__net__gnrc__ndp.html#ga289bcf8af6ed687541e6a1dfb566ed1c",
+"group__net__gnrc__nettype.html#ga2d2c19e8f4647c18815104fc3e70584f",
+"group__net__gnrc__rpl.html#gacb4fc7253fffcc094412d6b7891389a9",
+"group__net__gnrc__sock.html#gac9d559e1e804acc82d3c6fc2445b52ad",
+"group__net__ieee802154.html#gab821f90a4b625e3b0119c19b6f9a75fd",
+"group__net__ipv6__addr.html#gafd117fe220ad063b68b3883bacf4e23e",
+"group__net__loramac.html#gac2e74b5e399df6182d887dae5a403f0b",
+"group__net__mqttsn.html#gga85f0f418e1a739554f3f904a501179dcaaa23140f0d492c41ef9fd95f3f1e1c48",
+"group__net__ndp.html#ga200f7667726dd81a938eaeea19f1e6c1",
+"group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906a8e2ba1ca0480826ca5da1406ff5ac0ea",
+"group__net__protnum.html#ga45d645b2e6109add740f81471c19e562",
+"group__net__sixlowpan.html#gaa246644b69f97072ecc033537f0a7cdc",
+"group__net__sock__dtls.html#ga23217dd17b42a1f85cf28f7fd73470b8",
 "group__pkg__jsmn.html",
-"group__pkg__nimble__netif.html#ggad9c66b9bf9e80febcd781ef294a73348a9ba773bafa4f46d85127a887cf6018a1",
-"group__pkg__yxml.html",
-"group__sys__auto__init__multimedia.html",
-"group__sys__checksum__fletcher16.html#ga23fb1a228adaa68491aac4d80f160a74",
-"group__sys__fmt.html#ga464082f52f7a6dd788fd4bddcf50844e",
-"group__sys__littlefs.html#ga750717775b63c69235f575fc18402c07",
-"group__sys__puf__sram.html#gac97f85cddd384419f703e5052478d03e",
-"group__sys__timex.html#gade72b7bebf47c3828eae223f0d2b6d0f",
-"group__sys__uuid.html#ga2565e2ae3b160ea278b176019eafbc23",
-"group__sys__ztimer.html#gabe88b7f7076d2b48bb17912b78bdc336",
-"group__usb__conf.html#ga490d9d6f831a375060ef492f17e1ecf3",
-"group__usb__usbus.html#ggaf2a0ad7e221dee20728cb73b3aac22eaa24e8e21136ea1e0f85ce53f3ef37be5d",
-"hmc5883l__params_8h.html#a094b506d24a71bea73d58f0f8da53101",
-"ina2xx__defines_8h.html#ad7ada28100302896be2506181d8ef4cda69117c230da95ab6e7c1e09463953b0c",
-"isl29020-internal_8h.html#a8697e02badca1ef845ba9b7263f642a2",
-"kw2xrf__intern_8h.html",
-"kw2xrf__reg_8h.html#aaa00561634a7533173281c3364106288",
-"kw2xrf__spi_8h.html#a94476dbeffa31ae44396a357e8f0da85",
-"lis2dh12__internal_8h.html#ab4d303855e94a7926f03f703c983ae13",
-"lpsxxx__params_8h.html",
-"ltc4150_8h.html",
-"mcb2388_2include_2adc__params_8h.html#a0c310dde3e2512cd15e58a1212627ed3",
-"mma7660__params_8h.html#ad194a50f79b5fe8445bfe7648290d78f",
-"mpl3115a2__reg_8h.html#a37459721cd89a371576df51fbef0a46c",
-"mrf24j40__registers_8h.html#a0adf55d40d63cc3ab335c86cc97fe8a7",
-"msb-430_2include_2board_8h.html#a95ebe9dd4378d815f81e2609c69b0d5d",
-"msp430__regs_8h.html#a6b7bafc57964ee9ca860fbd806430a63",
-"native_2include_2cpu__conf_8h.html",
-"nrf24l01p__settings_8h.html#a388ef64c1e6a2f5b80d36de3e675eed5",
-"nrf52_2include_2cfg__i2c__default_8h_source.html",
-"openmote-b_2include_2board_8h.html#a52f28782a343074e0a5b868fcf6530c7",
-"p-nucleo-wb55_2include_2board_8h.html#a669ed6e073140d069b30442bf4c08842",
-"ph__oem__regs_8h.html#ae7fbcf4a00512be94584cbcb17ceb534a7e26d014067066274299fd88b3f830e3",
-"pthread__barrier_8h.html#a443f2f512de9324bf77625041ecb04f4",
-"reel_2include_2board_8h.html#a704a3a7b5b9b5aa680a1dafe7157c02c",
-"ruuvitag_2include_2board_8h.html#aadd4c7ae0cd4e9bbb17f7055dd51fe08",
-"saml1x_2include_2periph__cpu_8h.html#a3d1931627629f3c43bd898da0be6075b",
-"sds011__internal_8h.html#a15505700812fbd059dafc5186793d9cd",
-"serpente_2include_2board_8h.html#a40f0f4b5ae7ea50d341105ddc740101e",
-"si114x__internals_8h.html#abf073101f824478c7456f8685b58f8a4",
-"slwrb4150a_2include_2board__module_8h.html#a770160b3590f3bbd9aa7c397c25bb080",
-"sodaq-sara-aff_2include_2board_8h.html#a0702de219624c9cb1bdb4ea9b25ee62d",
-"srf08_8h_source.html",
-"stm32_2include_2periph__cpu_8h.html#a9561f25d09636875c5dd2df7fd784ef1",
-"stm32f769i-disco_2include_2board_8h.html#a76914453bb5cda4ebca204e091e8f55c",
-"struct__nib__onl__entry.html",
-"structadxl345__interrupt__t.html#a4c68b7068f0e4efef457d528d46281ce",
-"structat86rf215.html#ae46ea9dd0f653dc08af230a14ef5cfb2",
-"structatwinc15x0__params__t.html#abd14dae7cbb7ee735d844e0b8f9aed3a",
-"structbme680__intf__i2c__t.html#a96e9d1d7898376d0b9fa09d4b744d429",
-"structcan__rx__data.html#ad9e48e91c5c9095229e42ea4b21ccd0d",
-"structcc2538__rfcore__t.html#a6660e112ed55d3342cdad472ebb04c69",
-"structcc2538__uart__t.html#ab6aefe691711954c0aa4067d53d7c052",
-"structcredman__credential__t.html#a6c2d6e0a94fde2179e7792272f1e9cc1",
-"structdisp__dev__driver__t.html",
-"structfcfg__regs__t.html#a3cd745566c1d1ab64092b8cd0a3631ad",
-"structflash__regs__t.html#ab82fea8549d465b99234bd07f7cf0fa0",
-"structgnrc__lwmac__l2__addr__t.html#a0d25077bb6050e6cc1eb1a93f3b2df5c",
-"structgnrc__rpl__p2p__ext__t.html#a91d15f2f7b208e3adbb75e2b15351ca8",
-"structhts221__t.html#a675693ee7aff2c051a152db2fbb90c05",
-"structisotp.html#ae1df16de6102eab09a2ccb9cdfdc2eb5",
-"structlist__node.html",
-"structmbox__t.html#a7bcca2e0e5ddaced7697cc92fb2b7dd0",
-"structmsp__usart__t.html#a48a65d0e14785845ff2a901d115ccdc7",
-"structnetstats__rpl__t.html#a0b6b97f0d006ef3821fd78b3343d6f6b",
-"structpir__t.html#a65d44db5943d3f78094f13e3b804ed0f",
-"structqmc5883l__params__t.html#a3c45c5789866947eb8a8f3a04b30a678",
-"structsemtech__loramac__t.html",
-"structsock__tcp__queue.html#ac198881ebb7f83a33b3655b9fae78abc",
-"structsps30__t.html#a537922a255fbeca7eee28cf91e5c2d9d",
-"structtpcon.html",
-"structusb__descriptor__endpoint__t.html",
-"structvfs__file__t.html#af8e66251bc47c18a66c52b55101f0dd7",
-"sx127x__registers_8h.html#a130022f3121e25cbba4ace032ff0a211",
-"sx127x__registers_8h.html#a4eed3c27fc0677c3a58639b51d18178d",
-"sx127x__registers_8h.html#a8a0275ede73db3ba9600eaf3bb3d0acb",
-"sx127x__registers_8h.html#ac3fb331c30928cea877acbf6bd1ec7ac",
-"sx127x__registers_8h.html#aff27dc63da5b6b6fd546bdb9be9c05b4",
+"group__pkg__nimble__netif.html#ggac12627b43234a2c5005eca7a2a0a88cda442f3aeabf61d2d88d28c707749229cb",
+"group__pkg__openthread__cli.html#ga963c57aa6bb15734ab10566bee94dc6c",
+"group__posix__sockets.html#gaa534f0825dfc858669d2c978dc26c13d",
+"group__sys__auto__init__gnrc__netif.html",
+"group__sys__checksum__fletcher16.html#ga011191e63f23ad149885dfcb9ef68dcc",
+"group__sys__fmt.html#ga0918f0183dc9677de991a3b3b6289ac0",
+"group__sys__iolist.html#gaa17f91ef26edec149cd806d8457aa3a0",
+"group__sys__ptrtag.html#ga31600722dd3fa9490e2b8fbf9ce21de6",
+"group__sys__suit__transport__coap.html#ga2a224e245f21691b6e8f0afbe9ca6eff",
+"group__sys__ut.html#ga8c5c97079c5b259e4c0ff7c563b0f8ed",
+"group__sys__xtimer.html#ga8b747b85d4d5f2e1be910cdbc72a01de",
+"group__usb__cdc.html#ga6ba316b27b479ebdbfe7bf2269a68638",
+"group__usb__usbus.html#ga396ffcaf8fe927535e8aac027c22a49d",
+"hd44780__internal_8h.html#a0b34e184cf86f72b1efba96646ebeaa8",
+"icmpv6_8h_source.html",
+"inet__csum_8h_source.html",
+"jc42__params_8h.html#aace53cb0136d0d57a2e65f0c4b7e1e90",
+"kw2xrf__reg_8h.html#a4a3fe4929e2b3df9b4419808c9951d2f",
+"kw2xrf__reg_8h.html#ab8c3058cfd9583d525755ace678716d6a887eb2a9fb2fe0fae283e4f8131f6547",
+"kw41zrf__intern_8h.html#ad1af79a4a062a4dd02c4dcce5ebfb879",
+"littlefs__fs_8h.html",
+"lsm303dlhc__params_8h.html#a44e09524e55fbc56fff775f692ca6e3a",
+"lwm2m__client__objects_8h_source.html",
+"mcp2515__defines_8h.html",
+"mcp2515__defines_8h.html#ae90ed8b2b88678b6333206c86581c6de",
+"mips__pic32__common_2include_2periph__cpu__common_8h.html#ae29846b3ecd19a0b7c44ff80a37ae7c1",
+"mp1_2cfg__clock__values_8h.html#a7bd5323a8c80411a6dcfed5339252cdb",
+"mrf24j40__internal_8h.html#ac8ce53fc6cb2a226619ee242081330c0",
+"mrf24j40__registers_8h.html#ae906f24cd6b5636ffdd0b07cbac8dcc4",
+"msp430__regs_8h.html#aaa0d3e6a102c69ac36d1a145d01024c6",
+"net_2gnrc_2ipv6_2hdr_8h_source.html",
+"nrf51dk_2include_2board_8h.html#a614337fc407f6d0c9d86efa4e1272ac7",
+"nrf5x__common_2include_2periph__cpu__common_8h.html#a5265674ed64e5865196727196ef8265b",
+"openmote-cc2538_2include_2board_8h.html#a343fd2d3ce61b84f88ddfaea32c67c58",
+"p2p__dodag_8h.html#aac3f11598e44737243c50e64d9270522",
+"ph__oem__regs_8h.html#ae7fbcf4a00512be94584cbcb17ceb534ad5d8773f6f5b19db61991283d7b33302",
+"ps_8h_source.html",
+"reel_2include_2board_8h.html#a4cb3ff938bcabb01494ce529ae55a542",
+"rtt__arch_8h_source.html",
+"samd5x_2include_2periph__cpu_8h.html#a4ae6fb73122b20f3f54cbf69e5974d7d",
+"sdcard__spi__internal_8h.html#a92fb3bf07625959294ecbab569146c68",
+"semtech__loramac_8h.html#ae9e45827b7ac19b225b76b498c13a1f3",
+"shtc1__params_8h_source.html",
+"slstk3401a_2include_2board_8h.html#ac4bafa01fb75e4ebc81bf352d05af75c",
+"slwstk6220a_2include_2board_8h.html#aa33c970f051ff2f38a217f39f00599c1",
+"sodaq-sara-sff_2include_2board_8h.html#abfabde35a3e8b7ab50146a5e223bfead",
+"stm32_2include_2cpu__conf_8h.html#a72c89204ecbd5efc8d52d3bd73003a28",
+"stm32f3discovery_2include_2gpio__params_8h.html#a5442106fb6a31a0cc477a93d79701765",
+"stmpe811__constants_8h.html#aa0eda5b3fedbe0d252bbeff243622420",
+"structadcxx1c.html#a3e969e353d9e256a27d4e369cd6193ce",
+"structapa102__params__t.html",
+"structat86rf215__RF__regs.html#a70c68462e5275fecc9390caec4fb045f",
+"structaux__smph__regs__t.html#ac8ecd43e5aec63c5ab389dc02a236f5c",
+"structbmx280__calibration__t.html#abd62f1b20f152934ce9a01678fd7c993",
+"structcc110x__params__t.html#a7f53dadb25ed1fa96081526c269fd749",
+"structcc2538__sys__ctrl__t.html#a1254847239563116add2351dd05c33e1",
+"structclk__cfg__t.html#a0f5e5530f2e8f9858db7ca7be838cfb4",
+"structdcf77__bits__t_1_1values.html#a87d707dd80f766fdbf0f52f6257ad90f",
+"structdynamixel__t.html#ab8bf4370cc019a4ff70acbd6685c56e5",
+"structfcfg__regs__t.html#a9c076b68fed51f258669c9c0c3311bfa",
+"structfxos8700__measurement__t.html#a437fbc98b29ac5b61503166a87fd8ed2",
+"structgnrc__netif__hdr__t.html#abbf718ba7223770b72eb8fbd39dd85f6",
+"structgnrc__sixlowpan__frag__rb__t.html",
+"structi2c__conf__t.html#aa4e559f730ad39dda4716452eda87fae",
+"structisl29020__t.html#aa50f65b5d403cba9b820268cbd298255",
+"structlis3mdl__3d__data__t.html",
+"structmag3110__data__t.html#a61518c49eb3d89077794f8054165a99a",
+"structmsp__port__t.html",
+"structnetdev__ieee802154__t.html#a203eea596910c7f3f446a63f3d02127f",
+"structpca9685__saul__pwm__params__t.html#ac34160b461a0f28421cdaf50437deb95",
+"structpwm__conf__chan__t.html#a4adfe9082dcdee88baf6c534630b24fb",
+"structsaul__driver__t.html#a61cc7eac43a095d01db90d23286217ab",
+"structsixlowpan__nd__opt__6ctx__t.html#a22443a474835f2e57725301890547258",
+"structspi__conf__t.html#a7042cf7c0d3cde2ca5edb6eb1bbd6ec2",
+"structtc32__conf__t.html#a8298b97c4ef3f9caed08f1d0a460c312",
+"structuart__half__duplex__t.html#aa94a56024536192e7c2732cb0293eeba",
+"structusbus__cdcecm__device.html#a9729439aa76167eb04f301c2789a9a98",
+"structztimer__clock.html#a2aa372786c2d7b4e545cb807cccef2b1",
+"sx127x__registers_8h.html#a2a92079c296408ae567934a139d1e970",
+"sx127x__registers_8h.html#a677bb0a1739f63016524d363328c96c0",
+"sx127x__registers_8h.html#aa0365c44a4c6958d0db1ee30705d84c9",
+"sx127x__registers_8h.html#addc066bbe56e8553426542114e80741e",
+"sys_2include_2net_2gnrc_2lwmac_2types_8h.html",
 "tcs37727-internal_8h.html#a1f278b17e75a36ef890bd09ad2562787",
-"tsl2561__internals_8h.html#a8adc4ad2a7862f685e628a6430a63e86",
-"usb-kw41z_2include_2board_8h.html#a5e48bb301c732e044b08f336fb851d5e",
-"vectors__kinetis_8h.html#ae7d48610a44626f7ef2eb27312af2829",
-"weact-f411ce_2include_2board_8h.html#aa9256c5f9edbdd894ac0fb01a106024e"
+"tsl2561__internals_8h.html#a844453b00712e75370fe022318f133c7",
+"usb-kw41z_2include_2board_8h.html#aebc6389533d9fc8dcbe4d2129a4d5a45",
+"vectors__kinetis_8h.html#a726f29e0024ac52d8bf8826a06a7524a",
+"waspmote-pro_2include_2arduino__pinmap_8h.html#aed62f69422d041e0c5bf05c91951c4c7",
+"zptr_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

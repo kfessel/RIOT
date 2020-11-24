@@ -1,6 +1,7 @@
 var group__drivers__periph__rtc =
 [
     [ "rtc.h", "rtc_8h.html", null ],
+    [ "RIOT_EPOCH", "group__drivers__periph__rtc.html#gae6d6a8215f604e1907b4df059179ea1c", null ],
     [ "rtc_alarm_cb_t", "group__drivers__periph__rtc.html#ga236005f42cd58827ca616cc5e808dc12", null ],
     [ "rtc_clear_alarm", "group__drivers__periph__rtc.html#gaaa9abfe68e09bce58c86a55f2427dcd1", null ],
     [ "rtc_get_alarm", "group__drivers__periph__rtc.html#ga5913b153d940f810fb176ff5ac62fc39", null ],

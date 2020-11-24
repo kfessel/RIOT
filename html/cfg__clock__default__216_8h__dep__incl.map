@@ -1,0 +1,11 @@
+<map id="cpu/stm32/include/clk/f2f4f7/cfg_clock_default_216.h" name="cpu/stm32/include/clk/f2f4f7/cfg_clock_default_216.h">
+<area shape="rect" id="node1" title="Default STM32F7 clock configuration for 216MHz boards." alt="" coords="262,5,489,47"/>
+<area shape="rect" id="node2" href="$boards_2nucleo-f722ze_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f722ze board." alt="" coords="5,95,169,136"/>
+<area shape="rect" id="node3" href="$boards_2nucleo-f746zg_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nucleo&#45;f746zg board." alt="" coords="193,95,357,136"/>
+<area shape="rect" id="node4" href="$boards_2stm32f723e-disco_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the STM32F723E&#45;DISCO board." alt="" coords="382,95,569,136"/>
+<area shape="rect" id="node7" href="$boards_2stm32f769i-disco_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the STM32F769I&#45;DISCO board." alt="" coords="593,95,776,136"/>
+<area shape="rect" id="node5" href="$stm32f723e-disco_2include_2board_8h.html" title="Board specific definitions for the STM32F723E&#45;DISCO board." alt="" coords="382,184,569,225"/>
+<area shape="rect" id="node6" href="$stm32f723e-disco_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="382,273,569,315"/>
+<area shape="rect" id="node8" href="$stm32f769i-disco_2include_2board_8h.html" title="Board specific definitions for the STM32F769I&#45;DISCO board." alt="" coords="593,184,776,225"/>
+<area shape="rect" id="node9" href="$stm32f769i-disco_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="593,273,776,315"/>
+</map>

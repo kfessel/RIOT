@@ -1,16 +1,16 @@
 var group__sys__littlefs2 =
 [
     [ "littlefs2_fs.h", "littlefs2__fs_8h.html", null ],
-    [ "littlefs_desc_t", "structlittlefs__desc__t.html", [
-      [ "base_addr", "structlittlefs__desc__t.html#ac01d5640194e4296b35060ad8586b619", null ],
-      [ "config", "structlittlefs__desc__t.html#a98885a85a888f22cd75cea0232c9d980", null ],
-      [ "dev", "structlittlefs__desc__t.html#ad650a027ef2d7f1068df61d31f6b35e8", null ],
-      [ "file_buf", "structlittlefs__desc__t.html#a1affa46518442a96e81db6776847668a", null ],
-      [ "fs", "structlittlefs__desc__t.html#a02b53131c0ff70a7b08aa745f2cb9c71", null ],
-      [ "lock", "structlittlefs__desc__t.html#aabd528286119e1c7780d0c406f4e6cfe", null ],
-      [ "lookahead_buf", "structlittlefs__desc__t.html#aea874b7acfebe94fd6721c5465f8ecae", null ],
-      [ "prog_buf", "structlittlefs__desc__t.html#a45582d1f9fde0fa0c9d50666bfe76da2", null ],
-      [ "read_buf", "structlittlefs__desc__t.html#ad32387c4230e5c041b997ce5341cdcc2", null ]
+    [ "littlefs2_desc_t", "structlittlefs2__desc__t.html", [
+      [ "base_addr", "structlittlefs2__desc__t.html#aa5cf39c2d21c6b32e601b65fe55dc930", null ],
+      [ "config", "structlittlefs2__desc__t.html#a62f8b085686e515cf417d0d67595e9a1", null ],
+      [ "dev", "structlittlefs2__desc__t.html#a1dc904f21404271f070b1b8a1d3ef1a6", null ],
+      [ "file_buf", "structlittlefs2__desc__t.html#adced5d1963c08527abb5612941e4e355", null ],
+      [ "fs", "structlittlefs2__desc__t.html#a636dffb47265d6947365b3d4f64e88a6", null ],
+      [ "lock", "structlittlefs2__desc__t.html#ad8ce97dc3ff7670c6d340594843cef65", null ],
+      [ "lookahead_buf", "structlittlefs2__desc__t.html#a0ecc6f8c50fc344b5595419fd4203ac7", null ],
+      [ "prog_buf", "structlittlefs2__desc__t.html#ad68830a3535b76235a3ccaee44f67436", null ],
+      [ "read_buf", "structlittlefs2__desc__t.html#a9e09e14f5e5d141f8bcf0eb31b46e487", null ]
     ] ],
     [ "CONFIG_LITTLEFS2_BLOCK_CYCLES", "group__sys__littlefs2.html#ga081663eae59720659dd8c699bedd5d6d", null ],
     [ "CONFIG_LITTLEFS2_CACHE_PAGES", "group__sys__littlefs2.html#gaa39a744b6bdc44e6f87e78e51a07852d", null ],

@@ -1,3 +1,4 @@
 <map id="drivers/include/tmp00x.h" name="drivers/include/tmp00x.h">
-<area shape="rect" id="node2" href="$tmp00x__params_8h.html" title="Default configuration for TMP00X (TMP006 and TMP007) devices. " alt="" coords="11,80,164,121"/>
+<area shape="rect" id="node1" title="Interface definition for the TMP00X sensor driver." alt="" coords="5,5,189,32"/>
+<area shape="rect" id="node2" href="$tmp00x__params_8h.html" title="Default configuration for TMP00X (TMP006 and TMP007) devices." alt="" coords="11,80,183,121"/>
 </map>

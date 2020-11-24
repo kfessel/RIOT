@@ -1,5 +1,14 @@
 <map id="cpu/fe310/include/irq_arch.h" name="cpu/fe310/include/irq_arch.h">
-<area shape="rect" id="node3" href="$irq_8h.html" title="IRQ driver interface. " alt="" coords="125,95,171,121"/>
-<area shape="rect" id="node6" href="$fe310_2include_2cpu__conf_8h.html" title="CPU specific configuration options. " alt="" coords="195,95,282,121"/>
-<area shape="rect" id="node7" href="$fe310_2include_2cpu_8h.html" title="Basic definitions for the RISC&#45;V common module. " alt="" coords="306,95,361,121"/>
+<area shape="rect" id="node1" title="Implementation of the kernels irq interface." alt="" coords="194,5,353,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="41,95,111,121"/>
+<area shape="rect" id="node3" href="$irq_8h.html" title="IRQ driver interface." alt="" coords="136,95,187,121"/>
+<area shape="rect" id="node6" href="$fe310_2include_2cpu__conf_8h.html" title="CPU specific configuration options." alt="" coords="228,95,319,121"/>
+<area shape="rect" id="node7" href="$fe310_2include_2cpu_8h.html" title="Basic definitions for the RISC&#45;V common module." alt="" coords="353,95,410,121"/>
+<area shape="rect" id="node12" title=" " alt="" coords="434,95,577,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,169,88,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="112,169,203,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="227,169,303,196"/>
+<area shape="rect" id="node9" href="$units_8h.html" title="Unit helper macros." alt="" coords="327,169,446,196"/>
+<area shape="rect" id="node10" title=" " alt="" coords="471,169,609,196"/>
+<area shape="rect" id="node11" title=" " alt="" coords="634,169,785,196"/>
 </map>

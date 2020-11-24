@@ -1,3 +1,4 @@
 <map id="drivers/ina3221/include/ina3221_defines.h" name="drivers/ina3221/include/ina3221_defines.h">
-<area shape="rect" id="node2" href="$ina3221__internal_8h.html" title="Functions to convert register values of INA3221 to actual voltage values and vice versa..." alt="" coords="5,95,160,136"/>
+<area shape="rect" id="node1" title="Internal definitions for Texas Instruments INA3221 three&#45;channel, high&#45;side current and bus voltage m..." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" href="$ina3221__internal_8h.html" title="Functions to convert register values of INA3221 to actual voltage values and vice versa." alt="" coords="5,95,180,136"/>
 </map>

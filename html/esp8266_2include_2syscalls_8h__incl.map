@@ -1,6 +1,9 @@
 <map id="cpu/esp8266/include/syscalls.h" name="cpu/esp8266/include/syscalls.h">
-<area shape="rect" id="node2" href="$syscalls__common_8h.html" title="Implementation of required system calls for ESP SoCs. " alt="" coords="161,95,300,121"/>
-<area shape="rect" id="node6" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="288,169,352,196"/>
-<area shape="rect" id="node8" href="$esp__common_8h.html" title="Common helper macros for ESP SoCs. " alt="" coords="377,169,487,196"/>
-<area shape="rect" id="node7" href="$malloc_8h.html" title="malloc.h" alt="" coords="285,244,355,271"/>
+<area shape="rect" id="node1" title="Implementation of required system calls." alt="" coords="169,5,324,47"/>
+<area shape="rect" id="node2" href="$syscalls__common_8h.html" title="Implementation of required system calls for ESP SoCs." alt="" coords="171,95,322,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,80,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="104,169,187,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="211,169,282,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="306,169,377,196"/>
+<area shape="rect" id="node7" href="$esp__common_8h.html" title="Common helper macros for ESP SoCs." alt="" coords="401,169,522,196"/>
 </map>

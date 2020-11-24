@@ -1,3 +1,4 @@
 <map id="drivers/include/bme680.h" name="drivers/include/bme680.h">
-<area shape="rect" id="node2" href="$bme680__params_8h.html" title="Default configuration for BME680 device driver. " alt="" coords="11,80,167,121"/>
+<area shape="rect" id="node1" title="Interface definition for the Bosch BME680 sensor." alt="" coords="5,5,192,32"/>
+<area shape="rect" id="node2" href="$bme680__params_8h.html" title="Default configuration for BME680 device driver." alt="" coords="11,80,186,121"/>
 </map>

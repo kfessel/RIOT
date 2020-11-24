@@ -1,0 +1,10 @@
+<map id="sys/include/can/common.h" name="sys/include/can/common.h">
+<area shape="rect" id="node1" title="Definitions of high&#45;level CAN interface." alt="" coords="179,5,374,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="221,155,292,181"/>
+<area shape="rect" id="node3" href="$uio_8h.html" title="libc header for scatter/gather I/O" alt="" coords="109,80,189,107"/>
+<area shape="rect" id="node6" href="$timex_8h.html" title="Utility library for comparing and computing timestamps." alt="" coords="278,80,350,107"/>
+<area shape="rect" id="node8" title=" " alt="" coords="375,80,451,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,155,76,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="101,155,197,181"/>
+<area shape="rect" id="node7" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="316,155,403,181"/>
+</map>

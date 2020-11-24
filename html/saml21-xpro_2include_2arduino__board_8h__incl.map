@@ -1,5 +1,11 @@
 <map id="boards/saml21&#45;xpro/include/arduino_board.h" name="boards/saml21&#45;xpro/include/arduino_board.h">
-<area shape="rect" id="node2" href="$saml21-xpro_2include_2arduino__pinmap_8h.html" title="Mapping from board pins to Arduino pins. " alt="" coords="71,95,195,121"/>
-<area shape="rect" id="node3" href="$saml21-xpro_2include_2board_8h.html" title="Board specific definitions for the Atmel SAM L21 Xplained Pro board. " alt="" coords="15,169,80,196"/>
-<area shape="rect" id="node6" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="190,169,283,196"/>
+<area shape="rect" id="node1" title="Board configuration for the Arduino API." alt="" coords="48,5,231,47"/>
+<area shape="rect" id="node2" href="$saml21-xpro_2include_2arduino__pinmap_8h.html" title="Mapping from board pins to Arduino pins." alt="" coords="70,95,209,121"/>
+<area shape="rect" id="node3" href="$saml21-xpro_2include_2board_8h.html" title="Board specific definitions for the Atmel SAM L21 Xplained Pro board." alt="" coords="15,169,85,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="87,244,192,271"/>
+<area shape="rect" id="node6" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="200,169,303,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,244,63,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="216,244,287,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="311,244,381,271"/>
+<area shape="rect" id="node9" title=" " alt="" coords="406,244,515,271"/>
 </map>

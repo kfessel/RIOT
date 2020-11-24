@@ -10,7 +10,6 @@ var group__net__gnrc__conf =
     [ "GNRC LWMAC compile configurations", "group__net__gnrc__lwmac__conf.html", "group__net__gnrc__lwmac__conf" ],
     [ "GNRC LoRaWAN compile configurations", "group__net__gnrc__lorawan__conf.html", "group__net__gnrc__lorawan__conf" ],
     [ "GNRC MAC compile configurations", "group__net__gnrc__mac__conf.html", "group__net__gnrc__mac__conf" ],
-    [ "GNRC NETAPI test compile configurations", "group__net__gnrc__nettest__conf.html", "group__net__gnrc__nettest__conf" ],
     [ "GNRC PKTBUF compile configurations", "group__net__gnrc__pktbuf__conf.html", "group__net__gnrc__pktbuf__conf" ],
     [ "GNRC PKTDUMP compile configurations", "group__net__gnrc__pktdump__conf.html", "group__net__gnrc__pktdump__conf" ],
     [ "GNRC TCP compile configurations", "group__net__gnrc__tcp__conf.html", "group__net__gnrc__tcp__conf" ],

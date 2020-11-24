@@ -1,0 +1,14 @@
+<map id="pkg/uwb&#45;core/include/dpl/dpl_os.h" name="pkg/uwb&#45;core/include/dpl/dpl_os.h">
+<area shape="rect" id="node1" title="uwb&#45;core DPL (Decawave Porting Layer) error types" alt="" coords="179,5,340,47"/>
+<area shape="rect" id="node2" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="54,95,129,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="137,319,208,345"/>
+<area shape="rect" id="node7" title=" " alt="" coords="210,95,309,121"/>
+<area shape="rect" id="node8" href="$irq_8h.html" title="IRQ driver interface." alt="" coords="333,95,383,121"/>
+<area shape="rect" id="node11" href="$dpl__types_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) types" alt="" coords="408,95,529,121"/>
+<area shape="rect" id="node3" href="$panic_8h.html" title="Crash handling header." alt="" coords="43,169,113,196"/>
+<area shape="rect" id="node4" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="5,244,135,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="33,319,107,345"/>
+<area shape="rect" id="node9" title=" " alt="" coords="210,169,293,196"/>
+<area shape="rect" id="node10" title=" " alt="" coords="317,169,407,196"/>
+<area shape="rect" id="node12" title=" " alt="" coords="483,169,551,196"/>
+</map>

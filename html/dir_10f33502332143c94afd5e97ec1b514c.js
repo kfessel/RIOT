@@ -1,14 +1,17 @@
 var dir_10f33502332143c94afd5e97ec1b514c =
 [
+    [ "architecture_arch.h", "native_2include_2architecture__arch_8h.html", null ],
     [ "async_read.h", "async__read_8h.html", "async__read_8h" ],
+    [ "atomic_utils_arch.h", "native_2include_2atomic__utils__arch_8h.html", null ],
     [ "backtrace.h", "backtrace_8h.html", "backtrace_8h" ],
     [ "c11_atomics_compat_cpu.hpp", "native_2include_2c11__atomics__compat__cpu_8hpp_source.html", null ],
+    [ "can_params.h", "native_2include_2can__params_8h.html", "native_2include_2can__params_8h" ],
     [ "candev_linux.h", "candev__linux_8h.html", "candev__linux_8h" ],
-    [ "candev_linux_params.h", "candev__linux__params_8h.html", "candev__linux__params_8h" ],
     [ "clang_compat.h", "clang__compat_8h_source.html", null ],
     [ "cpu.h", "native_2include_2cpu_8h_source.html", null ],
     [ "cpu_conf.h", "native_2include_2cpu__conf_8h.html", "native_2include_2cpu__conf_8h" ],
     [ "eeprom_native.h", "eeprom__native_8h.html", "eeprom__native_8h" ],
+    [ "gpiodev_linux.h", "gpiodev__linux_8h.html", "gpiodev__linux_8h" ],
     [ "mtd_native.h", "mtd__native_8h.html", "mtd__native_8h" ],
     [ "native_internal.h", "native__internal_8h_source.html", null ],
     [ "netdev_tap.h", "netdev__tap_8h.html", "netdev__tap_8h" ],

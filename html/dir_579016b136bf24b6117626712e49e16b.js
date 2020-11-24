@@ -4,7 +4,6 @@ var dir_579016b136bf24b6117626712e49e16b =
     [ "can.h", "drivers_2include_2periph_2can_8h.html", "drivers_2include_2periph_2can_8h" ],
     [ "cpuid.h", "cpuid_8h.html", "cpuid_8h" ],
     [ "dac.h", "dac_8h.html", "dac_8h" ],
-    [ "dev_enums.h", "dev__enums_8h.html", "dev__enums_8h" ],
     [ "eeprom.h", "eeprom_8h.html", "eeprom_8h" ],
     [ "flashpage.h", "flashpage_8h.html", "flashpage_8h" ],
     [ "gpio.h", "gpio_8h.html", "gpio_8h" ],

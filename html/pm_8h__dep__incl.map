@@ -1,7 +1,8 @@
 <map id="drivers/include/periph/pm.h" name="drivers/include/periph/pm.h">
-<area shape="rect" id="node2" href="$lwm2m__client_8h.html" title="Definitions and public API for a LwM2M client using Wakaama. " alt="" coords="226,80,374,121"/>
-<area shape="rect" id="node5" href="$shell_8h.html" title="Shell interface definition. " alt="" coords="420,87,551,114"/>
-<area shape="rect" id="node3" href="$lwm2m__client__connection_8h.html" title="Public API and definitions of the connection handle for LwM2M client implementation using Wakaama..." alt="" coords="5,169,192,211"/>
-<area shape="rect" id="node4" href="$lwm2m__client__objects_8h.html" title="Public API and definitions for the helper functions to interact with basic objects from a LwM2M clien..." alt="" coords="217,169,383,211"/>
-<area shape="rect" id="node6" href="$shell__commands_8h.html" title="Shell command definitions. " alt="" coords="407,177,609,203"/>
+<area shape="rect" id="node1" title="Power management interface." alt="" coords="319,5,519,32"/>
+<area shape="rect" id="node2" href="$lwm2m__client_8h.html" title="Definitions and public API for a LwM2M client using Wakaama." alt="" coords="247,80,412,121"/>
+<area shape="rect" id="node5" href="$shell_8h.html" title="Shell interface definition." alt="" coords="461,87,603,114"/>
+<area shape="rect" id="node3" href="$lwm2m__client__connection_8h.html" title="Public API and definitions of the connection handle for LwM2M client implementation using Wakaama." alt="" coords="5,169,213,211"/>
+<area shape="rect" id="node4" href="$lwm2m__client__objects_8h.html" title="Public API and definitions for the helper functions to interact with basic objects from a LwM2M clien..." alt="" coords="237,169,421,211"/>
+<area shape="rect" id="node6" href="$shell__commands_8h.html" title="Shell command definitions." alt="" coords="445,177,667,203"/>
 </map>

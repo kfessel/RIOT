@@ -1,4 +1,5 @@
 <map id="boards/serpente/include/periph_conf.h" name="boards/serpente/include/periph_conf.h">
-<area shape="rect" id="node2" href="$serpente_2include_2board_8h.html" title="Support for the Serpente board. " alt="" coords="5,95,165,136"/>
-<area shape="rect" id="node3" href="$serpente_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,184,165,225"/>
+<area shape="rect" id="node1" title="Configuration of CPU peripherals for the Serpente board." alt="" coords="5,5,184,47"/>
+<area shape="rect" id="node2" href="$serpente_2include_2board_8h.html" title="Support for the Serpente board." alt="" coords="5,95,184,136"/>
+<area shape="rect" id="node3" href="$serpente_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,184,184,225"/>
 </map>

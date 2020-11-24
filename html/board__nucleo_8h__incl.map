@@ -1,2 +1,5 @@
 <map id="boards/common/nucleo/include/board_nucleo.h" name="boards/common/nucleo/include/board_nucleo.h">
+<area shape="rect" id="node1" title="Global common Nucleo board configuration." alt="" coords="5,5,181,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="11,95,69,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="93,95,203,121"/>
 </map>

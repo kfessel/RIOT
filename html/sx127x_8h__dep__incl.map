@@ -1,7 +1,8 @@
 <map id="drivers/include/sx127x.h" name="drivers/include/sx127x.h">
-<area shape="rect" id="node2" href="$boards_2nz32-sc151_2include_2sx127x__params_8h.html" title="sx127x configuration for nz32&#45;sc15 using modtronix inAir9 LoRa module " alt="" coords="5,80,183,121"/>
-<area shape="rect" id="node3" href="$sx127x__internal_8h.html" title="Semtech SX127X internal functions. " alt="" coords="207,80,359,121"/>
-<area shape="rect" id="node4" href="$drivers_2sx127x_2include_2sx127x__params_8h.html" title="Default configuration for SX127X driver. " alt="" coords="383,80,535,121"/>
-<area shape="rect" id="node5" href="$semtech__loramac_8h.html" title="Public API and definitions of the Semtech LoRaMAC. " alt="" coords="560,80,745,121"/>
-<area shape="rect" id="node6" href="$pkg_2semtech-loramac_2include_2semtech-loramac_2timer_8h.html" title="Semtech LoRaMAC timer compatibility definitions. " alt="" coords="567,169,738,225"/>
+<area shape="rect" id="node1" title="Public interface for SX127X driver." alt="" coords="315,5,496,32"/>
+<area shape="rect" id="node2" href="$boards_2nz32-sc151_2include_2sx127x__params_8h.html" title="sx127x configuration for nz32&#45;sc15 using modtronix inAir9 LoRa module" alt="" coords="5,80,200,121"/>
+<area shape="rect" id="node3" href="$sx127x__internal_8h.html" title="Semtech SX127X internal functions." alt="" coords="225,80,394,121"/>
+<area shape="rect" id="node4" href="$drivers_2sx127x_2include_2sx127x__params_8h.html" title="Default configuration for SX127X driver." alt="" coords="418,80,587,121"/>
+<area shape="rect" id="node5" href="$semtech__loramac_8h.html" title="Public API and definitions of the Semtech LoRaMAC." alt="" coords="612,80,817,121"/>
+<area shape="rect" id="node6" href="$pkg_2semtech-loramac_2include_2semtech-loramac_2timer_8h.html" title="Semtech LoRaMAC timer compatibility definitions." alt="" coords="619,169,810,225"/>
 </map>

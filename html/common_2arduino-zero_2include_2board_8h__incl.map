@@ -1,6 +1,12 @@
 <map id="boards/common/arduino&#45;zero/include/board.h" name="boards/common/arduino&#45;zero/include/board.h">
-<area shape="rect" id="node3" href="$boards_2common_2arduino-zero_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for Arduino Zero board and clones. " alt="" coords="71,95,171,121"/>
-<area shape="rect" id="node6" href="$common_2arduino-zero_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins. " alt="" coords="195,95,319,121"/>
-<area shape="rect" id="node7" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="253,169,349,196"/>
-<area shape="rect" id="node10" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="135,169,229,196"/>
+<area shape="rect" id="node1" title="Board specific definitions for the Arduino Zero board and clones." alt="" coords="109,5,289,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,169,63,196"/>
+<area shape="rect" id="node3" href="$boards_2common_2arduino-zero_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for Arduino Zero board and clones." alt="" coords="71,95,181,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="372,244,477,271"/>
+<area shape="rect" id="node6" href="$common_2arduino-zero_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins." alt="" coords="205,95,343,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="48,244,119,271"/>
+<area shape="rect" id="node7" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="266,169,373,196"/>
+<area shape="rect" id="node10" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="139,169,241,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="277,244,348,271"/>
+<area shape="rect" id="node9" title=" " alt="" coords="143,244,253,271"/>
 </map>

@@ -6,6 +6,7 @@ var group__sys__memarray =
       [ "size", "structmemarray__t.html#a548499923fe28b111e8fb8fbe3aa66b2", null ]
     ] ],
     [ "memarray_alloc", "group__sys__memarray.html#ga955a7096484acba855812b622ff7c3bc", null ],
+    [ "memarray_calloc", "group__sys__memarray.html#gaef0ebc198147fbc9034352d150588034", null ],
     [ "memarray_free", "group__sys__memarray.html#ga5d01c87550334a57fc783f7014e5e3d7", null ],
     [ "memarray_init", "group__sys__memarray.html#ga909c3b3b5ae072abb2bb538ead44128d", null ]
 ];

@@ -1,5 +1,11 @@
 <map id="sys/include/net/gnrc/ipv6/nib/pl.h" name="sys/include/net/gnrc/ipv6/nib/pl.h">
-<area shape="rect" id="node3" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses. " alt="" coords="91,95,199,121"/>
-<area shape="rect" id="node6" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="105,244,191,271"/>
-<area shape="rect" id="node7" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions. " alt="" coords="183,169,291,196"/>
+<area shape="rect" id="node1" title="Prefix list definitions." alt="" coords="5,5,157,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="66,393,137,420"/>
+<area shape="rect" id="node3" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses." alt="" coords="95,95,215,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="368,244,451,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="46,169,117,196"/>
+<area shape="rect" id="node6" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="97,244,194,271"/>
+<area shape="rect" id="node8" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions." alt="" coords="192,169,312,196"/>
+<area shape="rect" id="node7" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="96,319,195,345"/>
+<area shape="rect" id="node9" title=" " alt="" coords="269,244,344,271"/>
 </map>

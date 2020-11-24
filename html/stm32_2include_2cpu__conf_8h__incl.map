@@ -1,2 +1,5 @@
 <map id="cpu/stm32/include/cpu_conf.h" name="cpu/stm32/include/cpu_conf.h">
+<area shape="rect" id="node1" title="Implementation specific CPU configuration options." alt="" coords="25,5,193,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,95,256,121"/>
 </map>

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['fsm_5fevent_5ft',['fsm_event_t',['../fsm_8h.html#a493217321e8eec123f3a1a788dddcf11',1,'fsm.h']]],
-  ['fsm_5fstate_5ft',['fsm_state_t',['../fsm_8h.html#aefd70b8b91d72cbd548b6c38f385983b',1,'fsm.h']]]
+  ['eth_5fmode_5ft_29977',['eth_mode_t',['../stm32_2include_2periph__cpu_8h.html#a5b9e3c9f333c9b4742f186047e08ff60',1,'periph_cpu.h']]]
 ];

@@ -1,77 +1,82 @@
 <map id="drivers/include/saul.h" name="drivers/include/saul.h">
-<area shape="rect" id="node2" href="$bmp180_8h.html" title="Device driver interface for the BMP180 sensor. " alt="" coords="5,87,172,114"/>
-<area shape="rect" id="node4" href="$bmx280_8h.html" title="Device driver interface for the BMP280 and BME280 sensors. " alt="" coords="196,87,363,114"/>
-<area shape="rect" id="node6" href="$ds75lx_8h.html" title="drivers/include/ds75lx.h" alt="" coords="387,87,545,114"/>
-<area shape="rect" id="node8" href="$io1__xplained_8h.html" title="Device driver interface for the Atmel IO1 Xplained extension. " alt="" coords="569,80,696,121"/>
-<area shape="rect" id="node10" href="$jc42_8h.html" title="Driver for jc42 compliant temperature sensors. " alt="" coords="7527,87,7672,114"/>
-<area shape="rect" id="node12" href="$lis2dh12_8h.html" title="Interface definition for the STM LIS2DH12 accelerometer. " alt="" coords="720,87,889,114"/>
-<area shape="rect" id="node14" href="$mhz19_8h.html" title="Interface definition for the MH&#45;Z19 CO2 sensor driver. " alt="" coords="914,87,1074,114"/>
-<area shape="rect" id="node16" href="$sdp3x_8h.html" title="Device driver interface for the SDP3x sensor. " alt="" coords="1099,87,1255,114"/>
-<area shape="rect" id="node18" href="$shtc1_8h.html" title="Device driver interface for the SHTC1 Temperature and humidity sensor. " alt="" coords="1279,87,1432,114"/>
-<area shape="rect" id="node20" href="$si114x_8h.html" title="Device driver interface for the Si114x sensors family. " alt="" coords="1456,87,1615,114"/>
-<area shape="rect" id="node22" href="$stmpe811_8h.html" title="drivers/include/stmpe811.h" alt="" coords="10233,87,10411,114"/>
-<area shape="rect" id="node25" href="$tsl2561_8h.html" title="Device driver interface for the illuminance TSL2561 sensor. " alt="" coords="1639,87,1802,114"/>
-<area shape="rect" id="node27" href="$vcnl40x0_8h.html" title="Device driver interface for the VCNL40X0 sensors family. " alt="" coords="1826,87,1999,114"/>
-<area shape="rect" id="node29" href="$veml6070_8h.html" title="Device driver interface for the VEML6070 UV sensor. " alt="" coords="2024,87,2201,114"/>
-<area shape="rect" id="node31" href="$saul__reg_8h.html" title="SAUL registry interface definition. " alt="" coords="4905,87,5057,114"/>
-<area shape="rect" id="node3" href="$bmp180__params_8h.html" title="Default configuration for BMP180. " alt="" coords="21,177,177,218"/>
-<area shape="rect" id="node5" href="$bmx280__params_8h.html" title="Default configuration for BMX280. " alt="" coords="207,177,363,218"/>
-<area shape="rect" id="node7" href="$ds75lx__params_8h.html" title="Default configuration for DS75LX. " alt="" coords="392,177,540,218"/>
-<area shape="rect" id="node9" href="$io1__xplained__params_8h.html" title="Default configuration for IO1 Xplained. " alt="" coords="564,169,707,225"/>
-<area shape="rect" id="node11" href="$jc42__params_8h.html" title="Default configuration for jc42. " alt="" coords="10149,177,10284,218"/>
-<area shape="rect" id="node13" href="$lis2dh12__params_8h.html" title="Default configuration for LIS2DH12 devices. " alt="" coords="731,177,889,218"/>
-<area shape="rect" id="node15" href="$mhz19__params_8h.html" title="Default configuration for MH&#45;Z19. " alt="" coords="914,177,1063,218"/>
-<area shape="rect" id="node17" href="$sdp3x__params_8h.html" title="Device driver params interface for the SDP3x sensor. " alt="" coords="1088,177,1233,218"/>
-<area shape="rect" id="node19" href="$shtc1__params_8h.html" title="Default parameters for the SHTC1 Temperature and humidity sensor. " alt="" coords="1257,177,1400,218"/>
-<area shape="rect" id="node21" href="$si114x__params_8h.html" title="Default configuration for SI114x. " alt="" coords="1424,177,1572,218"/>
-<area shape="rect" id="node23" href="$stmpe811__constants_8h.html" title="Constants for STMPE811. " alt="" coords="10360,177,10527,218"/>
-<area shape="rect" id="node24" href="$stmpe811__params_8h.html" title="Default configuration for STMPE811. " alt="" coords="10299,273,10465,315"/>
-<area shape="rect" id="node26" href="$tsl2561__params_8h.html" title="Default configuration for TSL2561. " alt="" coords="1597,177,1749,218"/>
-<area shape="rect" id="node28" href="$vcnl40x0__params_8h.html" title="Default configuration for VCNL40X0 devices. " alt="" coords="1773,177,1935,218"/>
-<area shape="rect" id="node30" href="$veml6070__params_8h.html" title="Default configuration for VEML6070. " alt="" coords="1960,177,2127,218"/>
-<area shape="rect" id="node32" href="$ad7746__params_8h.html" title="Default configuration for AD7746 capaticance&#45;to&#45;digital converter. " alt="" coords="2151,177,2303,218"/>
-<area shape="rect" id="node33" href="$adcxx1c__params_8h.html" title="Default configuration for ADCXX1C devices. " alt="" coords="2328,177,2487,218"/>
-<area shape="rect" id="node34" href="$ads101x__params_8h.html" title="Default configuration for ADS101x/111x devices. " alt="" coords="2511,177,2669,218"/>
-<area shape="rect" id="node35" href="$adxl345__params_8h.html" title="Default configuration for ADXL345 devices. " alt="" coords="2694,177,2849,218"/>
-<area shape="rect" id="node36" href="$apds99xx__params_8h.html" title="Default configuration for Broadcom APDS99XX proximity and ambient light sensor. " alt="" coords="2873,177,3040,218"/>
-<area shape="rect" id="node37" href="$bme680__params_8h.html" title="Default configuration for BME680 device driver. " alt="" coords="3064,177,3220,218"/>
-<area shape="rect" id="node38" href="$ccs811__params_8h.html" title="Default configuration for AMS CCS811 digital gas sensors. " alt="" coords="3245,177,3397,218"/>
-<area shape="rect" id="node39" href="$dht__params_8h.html" title="Default configuration for DHT devices. " alt="" coords="3421,177,3549,218"/>
-<area shape="rect" id="node40" href="$ds18__params_8h.html" title="Default configuration for DS1822 and DS18B20 temperature sensors. " alt="" coords="3573,177,3711,218"/>
-<area shape="rect" id="node41" href="$fxos8700__params_8h.html" title="Default configuration for FXOS8700 devices. " alt="" coords="3735,177,3898,218"/>
-<area shape="rect" id="node42" href="$grove__ledbar__params_8h.html" title="Config for the Grove LED bar based on MY9221 LED controller. " alt="" coords="3923,169,4068,225"/>
-<area shape="rect" id="node43" href="$hdc1000__params_8h.html" title="Default configuration for HDC1000 devices. " alt="" coords="4092,177,4251,218"/>
-<area shape="rect" id="node44" href="$hmc5883l__params_8h.html" title="Default configuration for the Honeywell HMC5883L 3&#45;axis digital compass. " alt="" coords="4275,177,4441,218"/>
-<area shape="rect" id="node45" href="$hts221__params_8h.html" title="Default configuration for ST HTS221 devices. " alt="" coords="4466,177,4615,218"/>
-<area shape="rect" id="node46" href="$ina2xx__params_8h.html" title="Default configuration for INA2xx power/current monitors. " alt="" coords="4640,177,4788,218"/>
-<area shape="rect" id="node47" href="$ina3221__params_8h.html" title="Driver configuration parameters for Texas Instruments INA3221 three&#45;channel, high&#45;side current and bu..." alt="" coords="4813,177,4967,218"/>
-<area shape="rect" id="node48" href="$isl29020__params_8h.html" title="Default configuration for ISL29020 devices. " alt="" coords="4992,177,5151,218"/>
-<area shape="rect" id="node49" href="$itg320x__params_8h.html" title="Default configuration for InvenSense ITG320X 3&#45;axis gyroscope. " alt="" coords="5175,177,5327,218"/>
-<area shape="rect" id="node50" href="$l3g4200d__params_8h.html" title="Default configuration for L3G4200D devices. " alt="" coords="5351,177,5514,218"/>
-<area shape="rect" id="node51" href="$lis3dh__params_8h.html" title="Default configuration for LIS3DH devices. " alt="" coords="5538,177,5682,218"/>
-<area shape="rect" id="node52" href="$lis3mdl__params_8h.html" title="Default configuration for LIS3MDL devices. " alt="" coords="5707,177,5857,218"/>
-<area shape="rect" id="node53" href="$lpsxxx__params_8h.html" title="Default configuration for LPSXXX family of devices. " alt="" coords="5881,177,6029,218"/>
-<area shape="rect" id="node54" href="$lsm303dlhc__params_8h.html" title="Default configuration for LSM303DLHC devices. " alt="" coords="6053,169,6191,225"/>
-<area shape="rect" id="node55" href="$lsm6dsl__params_8h.html" title="Default configuration for LSM6DSL devices. " alt="" coords="6215,177,6370,218"/>
-<area shape="rect" id="node56" href="$ltc4150__params_8h.html" title="Default configuration for LTC4150 coulomb counters. " alt="" coords="6394,177,6546,218"/>
-<area shape="rect" id="node57" href="$mag3110__params_8h.html" title="Default configuration for MAG3110 devices. " alt="" coords="6570,177,6733,218"/>
-<area shape="rect" id="node58" href="$mma7660__params_8h.html" title="Default configuration for MMA7660 accelerometer. " alt="" coords="6757,177,6924,218"/>
-<area shape="rect" id="node59" href="$mma8x5x__params_8h.html" title="Default configuration for MMA8x5x devices. " alt="" coords="6948,177,7115,218"/>
-<area shape="rect" id="node60" href="$mpl3115a2__params_8h.html" title="Default configuration for MPL3115A2 devices. " alt="" coords="7139,177,7313,218"/>
-<area shape="rect" id="node61" href="$mpu9x50__params_8h.html" title="Default configuration for MPU9X50 (MPU9150 and MPU9250) devices. " alt="" coords="7337,177,7499,218"/>
-<area shape="rect" id="node62" href="$opt3001__params_8h.html" title="Default configuration for OPT3001 devices. " alt="" coords="7524,177,7680,218"/>
-<area shape="rect" id="node63" href="$pca9685__params_8h.html" title="Default configuration for the PCA9685 I2C PWM controller. " alt="" coords="7704,177,7863,218"/>
-<area shape="rect" id="node64" href="$ph__oem__params_8h.html" title="Default configuration for Atlas Scientific pH OEM sensors. " alt="" coords="7887,177,8043,218"/>
-<area shape="rect" id="node65" href="$pir__params_8h.html" title="Default configuration for PIR devices. " alt="" coords="8067,177,8191,218"/>
-<area shape="rect" id="node66" href="$pulse__counter__params_8h.html" title="Default configuration for PULSE_COUNTER devices. " alt="" coords="8215,169,8367,225"/>
-<area shape="rect" id="node67" href="$qmc5883l__params_8h.html" title="Default configuration for QMC5883L devices. " alt="" coords="8392,177,8559,218"/>
-<area shape="rect" id="node68" href="$sds011__params_8h.html" title="SDS011 sensor specific configuration. " alt="" coords="8583,177,8735,218"/>
-<area shape="rect" id="node69" href="$sht1x__params_8h.html" title="Default configuration for SHT10/SHT11/SHT15 devices. " alt="" coords="8760,177,8903,218"/>
-<area shape="rect" id="node70" href="$sht2x__params_8h.html" title="Default configuration for SHT2X. " alt="" coords="8927,177,9069,218"/>
-<area shape="rect" id="node71" href="$sht3x__params_8h.html" title="Default configuration for Sensirion SHT30/SHT31/SHT35 devices. " alt="" coords="9093,177,9236,218"/>
-<area shape="rect" id="node72" href="$si70xx__params_8h.html" title="Default configuration for Si7006/13/20/21. " alt="" coords="9260,177,9408,218"/>
-<area shape="rect" id="node73" href="$sps30__params_8h.html" title="Default configuration for Sensirion SPS30 sensors devices. " alt="" coords="9432,177,9577,218"/>
-<area shape="rect" id="node74" href="$tcs37727__params_8h.html" title="Default configuration for TCS37727 devices. " alt="" coords="9602,177,9765,218"/>
-<area shape="rect" id="node75" href="$tmp00x__params_8h.html" title="Default configuration for TMP00X (TMP006 and TMP007) devices. " alt="" coords="9789,177,9943,218"/>
-<area shape="rect" id="node76" href="$tsl4531x__params_8h.html" title="Default configuration for tsl4531x light sensor. " alt="" coords="9967,177,10125,218"/>
+<area shape="rect" id="node1" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer." alt="" coords="1513,5,1674,32"/>
+<area shape="rect" id="node2" href="$bmp180_8h.html" title="Device driver interface for the BMP180 sensor." alt="" coords="5,87,192,114"/>
+<area shape="rect" id="node4" href="$bmx280_8h.html" title="Device driver interface for the BMP280 and BME280 sensors." alt="" coords="216,87,403,114"/>
+<area shape="rect" id="node6" href="$ds75lx_8h.html" title=" " alt="" coords="427,87,605,114"/>
+<area shape="rect" id="node8" href="$io1__xplained_8h.html" title="Device driver interface for the Atmel IO1 Xplained extension." alt="" coords="629,80,771,121"/>
+<area shape="rect" id="node10" href="$jc42_8h.html" title="Driver for jc42 compliant temperature sensors." alt="" coords="8778,87,8939,114"/>
+<area shape="rect" id="node12" href="$lis2dh12_8h.html" title="Interface definition for the STM LIS2DH12 accelerometer." alt="" coords="796,87,985,114"/>
+<area shape="rect" id="node14" href="$mhz19_8h.html" title="Interface definition for the MH&#45;Z19 CO2 sensor driver." alt="" coords="1009,87,1188,114"/>
+<area shape="rect" id="node16" href="$scd30_8h.html" title="Device driver interface for the SCD30 sensor." alt="" coords="1213,87,1385,114"/>
+<area shape="rect" id="node18" href="$sdp3x_8h.html" title="Device driver interface for the SDP3x sensor." alt="" coords="1409,87,1583,114"/>
+<area shape="rect" id="node20" href="$shtc1_8h.html" title="Device driver interface for the SHTC1 Temperature and humidity sensor." alt="" coords="1607,87,1777,114"/>
+<area shape="rect" id="node22" href="$si114x_8h.html" title="Device driver interface for the Si114x sensors family." alt="" coords="1801,87,1978,114"/>
+<area shape="rect" id="node24" href="$stmpe811_8h.html" title=" " alt="" coords="11846,87,12045,114"/>
+<area shape="rect" id="node27" href="$tsl2561_8h.html" title="Device driver interface for the illuminance TSL2561 sensor." alt="" coords="2002,87,2185,114"/>
+<area shape="rect" id="node29" href="$vcnl40x0_8h.html" title="Device driver interface for the VCNL40X0 sensors family." alt="" coords="2209,87,2402,114"/>
+<area shape="rect" id="node31" href="$veml6070_8h.html" title="Device driver interface for the VEML6070 UV sensor." alt="" coords="2426,87,2625,114"/>
+<area shape="rect" id="node33" href="$saul__reg_8h.html" title="SAUL registry interface definition." alt="" coords="5705,87,5871,114"/>
+<area shape="rect" id="node3" href="$bmp180__params_8h.html" title="Default configuration for BMP180." alt="" coords="23,177,198,218"/>
+<area shape="rect" id="node5" href="$bmx280__params_8h.html" title="Default configuration for BMX280." alt="" coords="227,177,402,218"/>
+<area shape="rect" id="node7" href="$ds75lx__params_8h.html" title="Default configuration for DS75LX." alt="" coords="433,177,599,218"/>
+<area shape="rect" id="node9" href="$io1__xplained__params_8h.html" title="Default configuration for IO1 Xplained." alt="" coords="625,169,785,225"/>
+<area shape="rect" id="node11" href="$jc42__params_8h.html" title="Default configuration for jc42." alt="" coords="11759,177,11908,218"/>
+<area shape="rect" id="node13" href="$lis2dh12__params_8h.html" title="Default configuration for LIS2DH12 devices." alt="" coords="811,177,989,218"/>
+<area shape="rect" id="node15" href="$mhz19__params_8h.html" title="Default configuration for MH&#45;Z19." alt="" coords="1014,177,1181,218"/>
+<area shape="rect" id="node17" href="$scd30__params_8h.html" title="Device driver params interface for the SCD30 sensor." alt="" coords="1205,177,1365,218"/>
+<area shape="rect" id="node19" href="$sdp3x__params_8h.html" title="Device driver params interface for the SDP3x sensor." alt="" coords="1390,177,1551,218"/>
+<area shape="rect" id="node21" href="$shtc1__params_8h.html" title="Default parameters for the SHTC1 Temperature and humidity sensor." alt="" coords="1576,177,1733,218"/>
+<area shape="rect" id="node23" href="$si114x__params_8h.html" title="Default configuration for SI114x." alt="" coords="1757,177,1923,218"/>
+<area shape="rect" id="node25" href="$stmpe811__constants_8h.html" title="Constants for STMPE811." alt="" coords="11983,177,12169,218"/>
+<area shape="rect" id="node26" href="$stmpe811__params_8h.html" title="Default configuration for STMPE811." alt="" coords="11917,273,12104,315"/>
+<area shape="rect" id="node28" href="$tsl2561__params_8h.html" title="Default configuration for TSL2561." alt="" coords="1947,177,2117,218"/>
+<area shape="rect" id="node30" href="$vcnl40x0__params_8h.html" title="Default configuration for VCNL40X0 devices." alt="" coords="2141,177,2323,218"/>
+<area shape="rect" id="node32" href="$veml6070__params_8h.html" title="Default configuration for VEML6070." alt="" coords="2347,177,2533,218"/>
+<area shape="rect" id="node34" href="$ad7746__params_8h.html" title="Default configuration for AD7746 capaticance&#45;to&#45;digital converter." alt="" coords="11564,177,11735,218"/>
+<area shape="rect" id="node35" href="$adcxx1c__params_8h.html" title="Default configuration for ADCXX1C devices." alt="" coords="2557,177,2733,218"/>
+<area shape="rect" id="node36" href="$ads101x__params_8h.html" title="Default configuration for ADS101x/111x devices." alt="" coords="2758,177,2935,218"/>
+<area shape="rect" id="node37" href="$adxl345__params_8h.html" title="Default configuration for ADXL345 devices." alt="" coords="2959,177,3134,218"/>
+<area shape="rect" id="node38" href="$apds99xx__params_8h.html" title="Default configuration for Broadcom APDS99XX proximity and ambient light sensor." alt="" coords="3158,177,3343,218"/>
+<area shape="rect" id="node39" href="$bme680__params_8h.html" title="Default configuration for BME680 device driver." alt="" coords="3367,177,3542,218"/>
+<area shape="rect" id="node40" href="$ccs811__params_8h.html" title="Default configuration for AMS CCS811 digital gas sensors." alt="" coords="3566,177,3733,218"/>
+<area shape="rect" id="node41" href="$dht__params_8h.html" title="Default configuration for DHT devices." alt="" coords="3757,177,3899,218"/>
+<area shape="rect" id="node42" href="$ds18__params_8h.html" title="Default configuration for DS1822 and DS18B20 temperature sensors." alt="" coords="3923,177,4077,218"/>
+<area shape="rect" id="node43" href="$fxos8700__params_8h.html" title="Default configuration for FXOS8700 devices." alt="" coords="4101,177,4283,218"/>
+<area shape="rect" id="node44" href="$gp2y10xx__params_8h.html" title="Default configuration for GP2Y10xx devices." alt="" coords="4308,177,4495,218"/>
+<area shape="rect" id="node45" href="$grove__ledbar__params_8h.html" title="Config for the Grove LED bar based on MY9221 LED controller." alt="" coords="4519,169,4681,225"/>
+<area shape="rect" id="node46" href="$hdc1000__params_8h.html" title="Default configuration for HDC1000 devices." alt="" coords="4706,177,4883,218"/>
+<area shape="rect" id="node47" href="$hmc5883l__params_8h.html" title="Default configuration for the Honeywell HMC5883L 3&#45;axis digital compass." alt="" coords="4908,177,5095,218"/>
+<area shape="rect" id="node48" href="$hts221__params_8h.html" title="Default configuration for ST HTS221 devices." alt="" coords="5119,177,5286,218"/>
+<area shape="rect" id="node49" href="$ina2xx__params_8h.html" title="Default configuration for INA2xx power/current monitors." alt="" coords="5310,177,5477,218"/>
+<area shape="rect" id="node50" href="$ina3221__params_8h.html" title="Driver configuration parameters for Texas Instruments INA3221 three&#45;channel, high&#45;side current and bu..." alt="" coords="5501,177,5675,218"/>
+<area shape="rect" id="node51" href="$isl29020__params_8h.html" title="Default configuration for ISL29020 devices." alt="" coords="5699,177,5877,218"/>
+<area shape="rect" id="node52" href="$itg320x__params_8h.html" title="Default configuration for InvenSense ITG320X 3&#45;axis gyroscope." alt="" coords="5901,177,6072,218"/>
+<area shape="rect" id="node53" href="$l3g4200d__params_8h.html" title="Default configuration for L3G4200D devices." alt="" coords="6097,177,6279,218"/>
+<area shape="rect" id="node54" href="$lis3dh__params_8h.html" title="Default configuration for LIS3DH devices." alt="" coords="6303,177,6465,218"/>
+<area shape="rect" id="node55" href="$lis3mdl__params_8h.html" title="Default configuration for LIS3MDL devices." alt="" coords="6489,177,6660,218"/>
+<area shape="rect" id="node56" href="$lpsxxx__params_8h.html" title="Default configuration for LPSXXX family of devices." alt="" coords="6684,177,6849,218"/>
+<area shape="rect" id="node57" href="$lsm303dlhc__params_8h.html" title="Default configuration for LSM303DLHC devices." alt="" coords="6873,169,7025,225"/>
+<area shape="rect" id="node58" href="$lsm6dsl__params_8h.html" title="Default configuration for LSM6DSL devices." alt="" coords="7049,177,7223,218"/>
+<area shape="rect" id="node59" href="$ltc4150__params_8h.html" title="Default configuration for LTC4150 coulomb counters." alt="" coords="7247,177,7417,218"/>
+<area shape="rect" id="node60" href="$mag3110__params_8h.html" title="Default configuration for MAG3110 devices." alt="" coords="7442,177,7625,218"/>
+<area shape="rect" id="node61" href="$mma7660__params_8h.html" title="Default configuration for MMA7660 accelerometer." alt="" coords="7649,177,7837,218"/>
+<area shape="rect" id="node62" href="$mma8x5x__params_8h.html" title="Default configuration for MMA8x5x devices." alt="" coords="7861,177,8049,218"/>
+<area shape="rect" id="node63" href="$mpl3115a2__params_8h.html" title="Default configuration for MPL3115A2 devices." alt="" coords="8073,177,8268,218"/>
+<area shape="rect" id="node64" href="$mpu9x50__params_8h.html" title="Default configuration for MPU9X50 (MPU9150 and MPU9250) devices." alt="" coords="8293,177,8475,218"/>
+<area shape="rect" id="node65" href="$opt3001__params_8h.html" title="Default configuration for OPT3001 devices." alt="" coords="8499,177,8674,218"/>
+<area shape="rect" id="node66" href="$pca9685__params_8h.html" title="Default configuration for the PCA9685 I2C PWM controller." alt="" coords="8698,177,8875,218"/>
+<area shape="rect" id="node67" href="$ph__oem__params_8h.html" title="Default configuration for Atlas Scientific pH OEM sensors." alt="" coords="8899,177,9074,218"/>
+<area shape="rect" id="node68" href="$pir__params_8h.html" title="Default configuration for PIR devices." alt="" coords="9099,177,9237,218"/>
+<area shape="rect" id="node69" href="$pulse__counter__params_8h.html" title="Default configuration for PULSE_COUNTER devices." alt="" coords="9261,169,9429,225"/>
+<area shape="rect" id="node70" href="$qmc5883l__params_8h.html" title="Default configuration for QMC5883L devices." alt="" coords="9453,177,9640,218"/>
+<area shape="rect" id="node71" href="$sds011__params_8h.html" title="SDS011 sensor specific configuration." alt="" coords="9664,177,9832,218"/>
+<area shape="rect" id="node72" href="$seesaw__soil__params_8h.html" title="Default configuration for Seesaw Soil devices." alt="" coords="9857,169,10013,225"/>
+<area shape="rect" id="node73" href="$sht1x__params_8h.html" title="Default configuration for SHT10/SHT11/SHT15 devices." alt="" coords="10037,177,10195,218"/>
+<area shape="rect" id="node74" href="$sht2x__params_8h.html" title="Default configuration for SHT2X." alt="" coords="10219,177,10378,218"/>
+<area shape="rect" id="node75" href="$sht3x__params_8h.html" title="Default configuration for Sensirion SHT30/SHT31/SHT35 devices." alt="" coords="10402,177,10561,218"/>
+<area shape="rect" id="node76" href="$si70xx__params_8h.html" title="Default configuration for Si7006/13/20/21." alt="" coords="10585,177,10751,218"/>
+<area shape="rect" id="node77" href="$sps30__params_8h.html" title="Default configuration for Sensirion SPS30 sensors devices." alt="" coords="10775,177,10935,218"/>
+<area shape="rect" id="node78" href="$tcs37727__params_8h.html" title="Default configuration for TCS37727 devices." alt="" coords="10959,177,11140,218"/>
+<area shape="rect" id="node79" href="$tmp00x__params_8h.html" title="Default configuration for TMP00X (TMP006 and TMP007) devices." alt="" coords="11165,177,11337,218"/>
+<area shape="rect" id="node80" href="$tsl4531x__params_8h.html" title="Default configuration for tsl4531x light sensor." alt="" coords="11361,177,11540,218"/>
 </map>

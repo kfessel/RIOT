@@ -1,6 +1,8 @@
 var group__drivers__at86rf215 =
 [
+    [ "AT86RF215 MR-FSK PHY", "group__drivers__at86rf215__fsk.html", "group__drivers__at86rf215__fsk" ],
     [ "AT86RF215 MR-O-QPSK PHY", "group__drivers__at86rf215__oqpsk.html", "group__drivers__at86rf215__oqpsk" ],
+    [ "AT86RF215 MR-OFDM PHY", "group__drivers__at86rf215__ofdm.html", "group__drivers__at86rf215__ofdm" ],
     [ "AT86RF215 driver compile configuration", "group__drivers__at86rf215__config.html", "group__drivers__at86rf215__config" ],
     [ "at86rf215_internal.h", "at86rf215__internal_8h.html", null ],
     [ "at86rf215_netdev.h", "at86rf215__netdev_8h.html", null ],
@@ -56,9 +58,9 @@ var group__drivers__at86rf215 =
     [ "AT86RF215_TIMEOUT_CSMA", "group__drivers__at86rf215.html#ga9f1f42040c876f3b91327fc000c650b4", null ],
     [ "at86rf215_batmon_cb_t", "group__drivers__at86rf215.html#gaae37ec4ba9eec29f5eb9916d99ae3e56", null ],
     [ "at86rf215_BBC_regs_t", "group__drivers__at86rf215.html#ga4ea361534dc4fda00153c7b6ffffbb26", null ],
-    [ "at86rf215_params_t", "group__drivers__at86rf215.html#ga53741d25398b677d2e5c0df2c05ab1c0", null ],
+    [ "at86rf215_params_t", "group__drivers__at86rf215.html#gac1d1d5a301cdea84b8abec87b3f19934", null ],
     [ "at86rf215_RF_regs_t", "group__drivers__at86rf215.html#gaf05edb40fb5d72079a20dfd7afa41455", null ],
-    [ "at86rf215_t", "group__drivers__at86rf215.html#gaaf763dc9df135f41c7cb925c7ac67af7", null ],
+    [ "at86rf215_t", "group__drivers__at86rf215.html#gac7c10ffc349068578f09e599785f82f4", null ],
     [ "at86rf215_state_t", "group__drivers__at86rf215.html#gae786a900a57eb1856a10c2f01b05fc4a", [
       [ "AT86RF215_STATE_OFF", "group__drivers__at86rf215.html#ggae786a900a57eb1856a10c2f01b05fc4aa56b4a2131911a6ad9c617f2d0d8f0822", null ],
       [ "AT86RF215_STATE_IDLE", "group__drivers__at86rf215.html#ggae786a900a57eb1856a10c2f01b05fc4aa8a51efa9134fa1f62edf4bed0995055d", null ],
@@ -88,7 +90,7 @@ var group__drivers__at86rf215 =
     [ "at86rf215_set_option", "group__drivers__at86rf215.html#ga3ab35da2faa76e15cc364d50f92e0d4a", null ],
     [ "at86rf215_set_pan", "group__drivers__at86rf215.html#gaa04badb14e036bbe12c5ae22035e1d39", null ],
     [ "at86rf215_set_txpower", "group__drivers__at86rf215.html#gaee53e06f956e7fa5d9a52304c8e4fcf9", null ],
-    [ "at86rf215_setup", "group__drivers__at86rf215.html#ga4d4f1a9fd6b62bbc686e8564d3179d03", null ],
+    [ "at86rf215_setup", "group__drivers__at86rf215.html#gae09354791d69df538dc03ac3c8e6e3ed", null ],
     [ "at86rf215_tx_abort", "group__drivers__at86rf215.html#ga671d1387432fefe936c7df1961f295a0", null ],
     [ "at86rf215_tx_done", "group__drivers__at86rf215.html#gaa14b6e8050760d0fc2cc340590cab2ac", null ],
     [ "at86rf215_tx_exec", "group__drivers__at86rf215.html#ga2d39e98bf01599721b24411825b0c821", null ],

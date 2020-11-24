@@ -1,0 +1,5 @@
+<map id="boards/omote/include/board.h" name="boards/omote/include/board.h">
+<area shape="rect" id="node1" title="Board specific definitions for the omote board." alt="" coords="99,5,261,47"/>
+<area shape="rect" id="node2" href="$omote_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC in omote." alt="" coords="5,95,168,136"/>
+<area shape="rect" id="node3" href="$omote_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="192,95,355,136"/>
+</map>

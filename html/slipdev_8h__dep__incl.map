@@ -1,3 +1,4 @@
 <map id="drivers/include/slipdev.h" name="drivers/include/slipdev.h">
-<area shape="rect" id="node2" href="$slipdev__params_8h.html" title="Default configuration for the SLIP device driver. " alt="" coords="11,80,162,121"/>
+<area shape="rect" id="node1" title="SLIP device definitions." alt="" coords="5,5,185,32"/>
+<area shape="rect" id="node2" href="$slipdev__params_8h.html" title="Default configuration for the SLIP device driver." alt="" coords="11,80,180,121"/>
 </map>

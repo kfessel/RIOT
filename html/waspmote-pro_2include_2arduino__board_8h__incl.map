@@ -1,0 +1,11 @@
+<map id="boards/waspmote&#45;pro/include/arduino_board.h" name="boards/waspmote&#45;pro/include/arduino_board.h">
+<area shape="rect" id="node1" title="Configuration of the Arduino API for Waspmote Pro board." alt="" coords="150,5,333,47"/>
+<area shape="rect" id="node2" href="$waspmote-pro_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins for Waspmote Pro board." alt="" coords="119,95,257,121"/>
+<area shape="rect" id="node9" href="$pwm_8h.html" title="Low&#45;level PWM peripheral driver interface definitions." alt="" coords="263,169,374,196"/>
+<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="5,169,112,196"/>
+<area shape="rect" id="node7" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="137,169,239,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="23,244,94,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="118,244,223,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="248,244,357,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="382,244,453,271"/>
+</map>

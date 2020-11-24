@@ -1,3 +1,4 @@
 <map id="cpu/cortexm_common/include/cpu.h" name="cpu/cortexm_common/include/cpu.h">
-<area shape="rect" id="node2" href="$bit_8h.html" title="Bit access macros for Cortex&#45;M based CPUs. " alt="" coords="5,95,156,136"/>
+<area shape="rect" id="node1" title="Basic definitions for the Cortex&#45;M common module." alt="" coords="5,5,172,47"/>
+<area shape="rect" id="node2" href="$bit_8h.html" title="Bit access macros for Cortex&#45;M based CPUs." alt="" coords="5,95,172,136"/>
 </map>

@@ -1,5 +1,21 @@
 var searchData=
 [
-  ['eth_5fmode_5ft',['eth_mode_t',['../stm32_2include_2periph__cpu_8h.html#a5b9e3c9f333c9b4742f186047e08ff60',1,'periph_cpu.h']]],
-  ['eth_5fspeed_5ft',['eth_speed_t',['../stm32_2include_2periph__cpu_8h.html#af0b5b12829d1ea2c696b3a95ce856227',1,'periph_cpu.h']]]
+  ['dfplayer_5feq_5ft_29959',['dfplayer_eq_t',['../dfplayer__types_8h.html#ac5fcd5c1a12de93e38e918f9c97bd688',1,'dfplayer_types.h']]],
+  ['dfplayer_5fmode_5ft_29960',['dfplayer_mode_t',['../dfplayer__types_8h.html#a418e583e33fe86ce7d5313542f8ed5b8',1,'dfplayer_types.h']]],
+  ['dfplayer_5frx_5fstate_5ft_29961',['dfplayer_rx_state_t',['../dfplayer__types_8h.html#a731ca9901a9c859e89fe8489fc27a70e',1,'dfplayer_types.h']]],
+  ['dfplayer_5fscheme_5ft_29962',['dfplayer_scheme_t',['../dfplayer__types_8h.html#a44ae95acd9aff0c022e2921912c927f1',1,'dfplayer_types.h']]],
+  ['dfplayer_5fsource_5ft_29963',['dfplayer_source_t',['../dfplayer__types_8h.html#a698fade6f6f026b56d19917048960521',1,'dfplayer_types.h']]],
+  ['dfplayer_5fstate_5ft_29964',['dfplayer_state_t',['../dfplayer__types_8h.html#af375b5e10d4062d3724acb1d05243b9d',1,'dfplayer_types.h']]],
+  ['dht_5ftype_5ft_29965',['dht_type_t',['../group__drivers__dht.html#ga3eca4506c322ec0fd26b784e1ef4d92a',1,'dht.h']]],
+  ['diskio_5fresult_5ft_29966',['diskio_result_t',['../group__drivers__diskio.html#ga1df4ff09a0b97fc244a8d4998d70f953',1,'diskio.h']]],
+  ['diskio_5fsta_5ft_29967',['diskio_sta_t',['../group__drivers__diskio.html#ga881fb901d99e0dbaf5f6d4e154caeddb',1,'diskio.h']]],
+  ['dma_5fincr_5ft_29968',['dma_incr_t',['../sam0__common_2include_2periph__cpu__common_8h.html#a9e0d37c40017608bf9423d47bd306aad',1,'periph_cpu_common.h']]],
+  ['dma_5fmode_5ft_29969',['dma_mode_t',['../stm32_2include_2periph__cpu_8h.html#af747893ff3f5c651141cc62f1e62fee7',1,'periph_cpu.h']]],
+  ['dose_5fsignal_5ft_29970',['dose_signal_t',['../group__drivers__dose.html#gab66024cfbb81859098a7cdd929b89783',1,'dose.h']]],
+  ['dose_5fstate_5ft_29971',['dose_state_t',['../group__drivers__dose.html#gadce3cc3a69672e85d98942f947ee2794',1,'dose.h']]],
+  ['dpl_5ferror_29972',['dpl_error',['../dpl__error_8h.html#a57787b730de89937ce253318c20e4343',1,'dpl_error.h']]],
+  ['ds1307_5fsqw_5fmode_5ft_29973',['ds1307_sqw_mode_t',['../group__drivers__ds1307.html#gac639008da1051d2ab3b7e47764fb47e9',1,'ds1307.h']]],
+  ['ds3234_5freturn_5fcodes_29974',['ds3234_return_codes',['../group__drivers__ds3234.html#gac84a72f5f0709663fc2b73ba155387ba',1,'ds3234.h']]],
+  ['ds75lx_5fresolution_5ft_29975',['ds75lx_resolution_t',['../group__drivers__ds75lx.html#ga918a880a6b673f0f6371f61560f045a7',1,'ds75lx.h']]],
+  ['dynamixel_5fintruction_5ft_29976',['dynamixel_intruction_t',['../dynamixel__protocol_8h.html#a86cbf35eedf9cebfbcd49f14bb3b669c',1,'dynamixel_protocol.h']]]
 ];

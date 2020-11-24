@@ -1,4 +1,5 @@
 <map id="boards/firefly/include/board.h" name="boards/firefly/include/board.h">
-<area shape="rect" id="node2" href="$firefly_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="5,95,148,136"/>
-<area shape="rect" id="node3" href="$firefly_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="172,95,315,136"/>
+<area shape="rect" id="node1" title="Support for the Firefly board." alt="" coords="97,5,257,47"/>
+<area shape="rect" id="node2" href="$firefly_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC." alt="" coords="5,95,165,136"/>
+<area shape="rect" id="node3" href="$firefly_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="189,95,349,136"/>
 </map>

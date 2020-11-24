@@ -1,5 +1,8 @@
 <map id="sys/include/div.h" name="sys/include/div.h">
-<area shape="rect" id="node2" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="29,80,99,107"/>
-<area shape="rect" id="node3" href="$panic_8h.html" title="Crash handling header. " alt="" coords="32,155,96,181"/>
-<area shape="rect" id="node4" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="5,229,123,256"/>
+<area shape="rect" id="node1" title=" " alt="" coords="63,5,194,32"/>
+<area shape="rect" id="node2" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="54,80,129,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="135,304,205,331"/>
+<area shape="rect" id="node3" href="$panic_8h.html" title="Crash handling header." alt="" coords="43,155,113,181"/>
+<area shape="rect" id="node4" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="5,229,135,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="33,304,107,331"/>
 </map>

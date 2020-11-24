@@ -1,5 +1,12 @@
 <map id="cpu/stm32/include/cpu_conf_stm32_common.h" name="cpu/stm32/include/cpu_conf_stm32_common.h">
-<area shape="rect" id="node2" href="$stm32_2include_2periph__cpu_8h.html" title="Shared CPU specific definitions for the STM32 family. " alt="" coords="59,95,155,121"/>
-<area shape="rect" id="node4" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition. " alt="" coords="255,95,344,121"/>
-<area shape="rect" id="node10" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="526,169,665,196"/>
+<area shape="rect" id="node1" title="Shared CPU specific configuration for STM32 family." alt="" coords="199,5,381,47"/>
+<area shape="rect" id="node2" href="$stm32_2include_2periph__cpu_8h.html" title="Shared CPU specific definitions for the STM32 family." alt="" coords="175,95,280,121"/>
+<area shape="rect" id="node6" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition." alt="" coords="347,95,446,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="229,169,300,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,169,63,196"/>
+<area shape="rect" id="node5" href="$units_8h.html" title="Unit helper macros." alt="" coords="87,169,205,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="324,169,395,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="419,169,494,196"/>
+<area shape="rect" id="node9" title=" " alt="" coords="518,169,627,196"/>
+<area shape="rect" id="node10" title=" " alt="" coords="652,169,757,196"/>
 </map>

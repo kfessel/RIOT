@@ -1,8 +1,8 @@
 var nimble__autoconn_8h =
 [
-    [ "NIMBLE_AUTOCONN_OK", "group__pkg__nimble__autoconn.html#gga0fa6e789ab8d8c920f2104ee8c183196ae3b2f68607077056f0392724e95b5897", null ],
-    [ "NIMBLE_AUTOCONN_PARAMERR", "group__pkg__nimble__autoconn.html#gga0fa6e789ab8d8c920f2104ee8c183196ad4f9c31382c5ba24737e394d1aee3b41", null ],
-    [ "NIMBLE_AUTOCONN_ADERR", "group__pkg__nimble__autoconn.html#gga0fa6e789ab8d8c920f2104ee8c183196a12dff9b5332609748fbd09b3c3192cc5", null ],
+    [ "NIMBLE_AUTOCONN_OK", "group__pkg__nimble__autoconn.html#gga3e279efabf854742684341c3e4f50d31ae3b2f68607077056f0392724e95b5897", null ],
+    [ "NIMBLE_AUTOCONN_PARAMERR", "group__pkg__nimble__autoconn.html#gga3e279efabf854742684341c3e4f50d31ad4f9c31382c5ba24737e394d1aee3b41", null ],
+    [ "NIMBLE_AUTOCONN_ADERR", "group__pkg__nimble__autoconn.html#gga3e279efabf854742684341c3e4f50d31a12dff9b5332609748fbd09b3c3192cc5", null ],
     [ "nimble_autoconn_disable", "group__pkg__nimble__autoconn.html#ga07c0e1179a5ebfab831989e9c2725da4", null ],
     [ "nimble_autoconn_enable", "group__pkg__nimble__autoconn.html#gaab65002584b89e7588bcf25e2893b82c", null ],
     [ "nimble_autoconn_eventcb", "group__pkg__nimble__autoconn.html#ga3c4f680c8cc944eff73beb5cd2bfd547", null ],

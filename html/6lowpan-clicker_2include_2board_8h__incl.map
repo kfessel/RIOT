@@ -1,3 +1,6 @@
 <map id="boards/6lowpan&#45;clicker/include/board.h" name="boards/6lowpan&#45;clicker/include/board.h">
-<area shape="rect" id="node3" href="$boards_26lowpan-clicker_2include_2periph__conf_8h.html" title="peripheral configuration for the MikroE 6LoWPAN Clicker " alt="" coords="77,95,177,121"/>
+<area shape="rect" id="node1" title="board configuration for the MikroE 6LoWPAN Clicker" alt="" coords="5,5,177,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="17,169,75,196"/>
+<area shape="rect" id="node3" href="$boards_26lowpan-clicker_2include_2periph__conf_8h.html" title="peripheral configuration for the MikroE 6LoWPAN Clicker" alt="" coords="83,95,193,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="99,169,204,196"/>
 </map>

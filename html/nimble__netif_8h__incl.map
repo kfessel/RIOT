@@ -1,3 +1,6 @@
 <map id="pkg/nimble/netif/include/nimble_netif.h" name="pkg/nimble/netif/include/nimble_netif.h">
-<area shape="rect" id="node3" href="$sys_2include_2net_2ble_8h.html" title="General BLE values as defined by the BT standard. " alt="" coords="95,95,167,121"/>
+<area shape="rect" id="node1" title="GNRC netif implementation for NimBLE." alt="" coords="49,5,229,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" href="$sys_2include_2net_2ble_8h.html" title="General BLE values as defined by the BT standard." alt="" coords="100,95,179,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="203,95,311,121"/>
 </map>

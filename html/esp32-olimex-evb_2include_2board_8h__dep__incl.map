@@ -1,3 +1,4 @@
 <map id="boards/esp32&#45;olimex&#45;evb/include/board.h" name="boards/esp32&#45;olimex&#45;evb/include/board.h">
-<area shape="rect" id="node2" href="$esp32-olimex-evb_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,95,187,136"/>
+<area shape="rect" id="node1" title="Board specific definitions for Olimex ESP32&#45;EVB (ESP32&#45;GATEWAY)" alt="" coords="27,5,186,47"/>
+<area shape="rect" id="node2" href="$esp32-olimex-evb_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,95,208,136"/>
 </map>

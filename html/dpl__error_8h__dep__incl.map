@@ -1,0 +1,9 @@
+<map id="pkg/uwb&#45;core/include/dpl/dpl_error.h" name="pkg/uwb&#45;core/include/dpl/dpl_error.h">
+<area shape="rect" id="node1" title="uwb&#45;core DPL (Decawave Porting Layer) error types" alt="" coords="118,5,280,47"/>
+<area shape="rect" id="node2" href="$dpl_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="113,184,274,225"/>
+<area shape="rect" id="node4" href="$dpl__callout_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) callout abstraction" alt="" coords="26,95,188,136"/>
+<area shape="rect" id="node5" href="$dpl__mutex_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) mutex wrappers" alt="" coords="212,95,373,136"/>
+<area shape="rect" id="node6" href="$dpl__sem_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) semapahore wrappers" alt="" coords="397,95,558,136"/>
+<area shape="rect" id="node3" href="$os__dev_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="113,273,274,315"/>
+<area shape="rect" id="node7" href="$uwb__dw1000__params_8h.html" title="Default configuration." alt="" coords="386,184,570,225"/>
+</map>

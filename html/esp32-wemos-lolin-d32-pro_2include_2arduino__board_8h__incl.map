@@ -1,5 +1,11 @@
 <map id="boards/esp32&#45;wemos&#45;lolin&#45;d32&#45;pro/include/arduino_board.h" name="boards/esp32&#45;wemos&#45;lolin&#45;d32&#45;pro/include/arduino_board.h">
-<area shape="rect" id="node2" href="$arduino__board__common_8h.html" title="Common board for the Arduino API. " alt="" coords="14,109,185,136"/>
-<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="225,109,321,136"/>
-<area shape="rect" id="node8" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="345,109,438,136"/>
+<area shape="rect" id="node1" title="Board specific configuration for the Arduino API." alt="" coords="218,5,379,61"/>
+<area shape="rect" id="node2" href="$arduino__board__common_8h.html" title="Common board for the Arduino API." alt="" coords="13,109,203,136"/>
+<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="245,109,352,136"/>
+<area shape="rect" id="node8" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="377,109,479,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,184,144,211"/>
+<area shape="rect" id="node5" title=" " alt="" coords="169,184,239,211"/>
+<area shape="rect" id="node6" title=" " alt="" coords="263,184,369,211"/>
+<area shape="rect" id="node7" title=" " alt="" coords="393,184,503,211"/>
+<area shape="rect" id="node9" title=" " alt="" coords="527,184,598,211"/>
 </map>

@@ -1,7 +1,14 @@
 <map id="boards/common/arduino&#45;due/include/gpio_params.h" name="boards/common/arduino&#45;due/include/gpio_params.h">
-<area shape="rect" id="node2" href="$common_2arduino-due_2include_2board_8h.html" title="Board specific definitions for the Arduino Due based boards. " alt="" coords="175,95,241,121"/>
-<area shape="rect" id="node11" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="260,169,356,196"/>
-<area shape="rect" id="node4" href="$common_2arduino-due_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins. " alt="" coords="33,169,157,196"/>
-<area shape="rect" id="node5" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,244,189,271"/>
-<area shape="rect" id="node9" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="215,244,308,271"/>
+<area shape="rect" id="node1" title="Board specific configuration of direct mapped GPIOs." alt="" coords="132,5,335,47"/>
+<area shape="rect" id="node2" href="$common_2arduino-due_2include_2board_8h.html" title="Board specific definitions for the Arduino Due based boards." alt="" coords="162,95,233,121"/>
+<area shape="rect" id="node11" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL." alt="" coords="251,169,357,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="169,169,226,196"/>
+<area shape="rect" id="node4" href="$common_2arduino-due_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins." alt="" coords="5,169,144,196"/>
+<area shape="rect" id="node5" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="21,244,128,271"/>
+<area shape="rect" id="node9" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="153,244,255,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="154,319,225,345"/>
+<area shape="rect" id="node7" title=" " alt="" coords="249,319,354,345"/>
+<area shape="rect" id="node8" title=" " alt="" coords="20,319,129,345"/>
+<area shape="rect" id="node10" title=" " alt="" coords="378,319,449,345"/>
+<area shape="rect" id="node12" href="$pwm_8h.html" title="Low&#45;level PWM peripheral driver interface definitions." alt="" coords="279,244,390,271"/>
 </map>

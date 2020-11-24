@@ -20,10 +20,10 @@ var group__drivers__lsm6dsl =
       [ "x", "structlsm6dsl__3d__data__t.html#a1669a3aec03b716b0dc9e5dd73fbcf41", null ],
       [ "y", "structlsm6dsl__3d__data__t.html#a3d57d70454ab05e9d0721290d32ed071", null ],
       [ "z", "structlsm6dsl__3d__data__t.html#a093d9699538853e26ecce824d839ba4d", null ],
-      [ "LSM6DSL_OK", "group__drivers__lsm6dsl.html#ggade4ace78b27f5ceccade6e2e29404c48ac8eebcb422d42a13c6291c97a4accd52", null ],
-      [ "LSM6DSL_ERROR_BUS", "group__drivers__lsm6dsl.html#ggade4ace78b27f5ceccade6e2e29404c48ae126dac30a10cd3afde59e6e453e08f1", null ],
-      [ "LSM6DSL_ERROR_CNF", "group__drivers__lsm6dsl.html#ggade4ace78b27f5ceccade6e2e29404c48a8d078715dbcff4ad488bb70f88b1ff72", null ],
-      [ "LSM6DSL_ERROR_DEV", "group__drivers__lsm6dsl.html#ggade4ace78b27f5ceccade6e2e29404c48a50f4a911a9f48ccd9a1ea711db515e7a", null ]
+      [ "LSM6DSL_OK", "group__drivers__lsm6dsl.html#gga755c96456945ef03bae544705e8cca64ac8eebcb422d42a13c6291c97a4accd52", null ],
+      [ "LSM6DSL_ERROR_BUS", "group__drivers__lsm6dsl.html#gga755c96456945ef03bae544705e8cca64ae126dac30a10cd3afde59e6e453e08f1", null ],
+      [ "LSM6DSL_ERROR_CNF", "group__drivers__lsm6dsl.html#gga755c96456945ef03bae544705e8cca64a8d078715dbcff4ad488bb70f88b1ff72", null ],
+      [ "LSM6DSL_ERROR_DEV", "group__drivers__lsm6dsl.html#gga755c96456945ef03bae544705e8cca64a50f4a911a9f48ccd9a1ea711db515e7a", null ]
     ] ],
     [ "lsm6dsl_acc_power_down", "group__drivers__lsm6dsl.html#gae57cdd77ca3ece2605f125c535044b8f", null ],
     [ "lsm6dsl_acc_power_up", "group__drivers__lsm6dsl.html#ga6f72c9c0cd23b5e8179a88f644f48e9e", null ],

@@ -1,3 +1,4 @@
 <map id="drivers/include/ina2xx.h" name="drivers/include/ina2xx.h">
-<area shape="rect" id="node2" href="$ina2xx__params_8h.html" title="Default configuration for INA2xx power/current monitors. " alt="" coords="11,80,159,121"/>
+<area shape="rect" id="node1" title="Device driver interface for Texas Instruments INA219/INA2XX Bi&#45;Directional CURRENT/POWER MONITOR with..." alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node2" href="$ina2xx__params_8h.html" title="Default configuration for INA2xx power/current monitors." alt="" coords="11,80,178,121"/>
 </map>

@@ -1,2 +1,6 @@
 <map id="boards/samr21&#45;xpro/include/periph_conf.h" name="boards/samr21&#45;xpro/include/periph_conf.h">
+<area shape="rect" id="node1" title="Configuration of CPU peripherals for the Atmel SAM R21 Xplained Pro board." alt="" coords="47,5,211,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,95,157,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="181,95,287,121"/>
 </map>

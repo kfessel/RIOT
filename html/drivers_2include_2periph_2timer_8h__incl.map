@@ -1,3 +1,7 @@
 <map id="drivers/include/periph/timer.h" name="drivers/include/periph/timer.h">
-<area shape="rect" id="node5" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="304,95,443,121"/>
+<area shape="rect" id="node1" title="Low&#45;level timer peripheral driver interface definitions." alt="" coords="110,5,273,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,95,171,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="195,95,300,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="325,95,434,121"/>
 </map>

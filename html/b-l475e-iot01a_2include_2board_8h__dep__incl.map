@@ -1,3 +1,4 @@
 <map id="boards/b&#45;l475e&#45;iot01a/include/board.h" name="boards/b&#45;l475e&#45;iot01a/include/board.h">
-<area shape="rect" id="node2" href="$b-l475e-iot01a_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,95,161,136"/>
+<area shape="rect" id="node1" title="Board specific definitions for the ST B&#45;L475E&#45;IOT01A board." alt="" coords="9,5,175,47"/>
+<area shape="rect" id="node2" href="$b-l475e-iot01a_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,95,179,136"/>
 </map>

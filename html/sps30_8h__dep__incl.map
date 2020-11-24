@@ -1,3 +1,4 @@
 <map id="drivers/include/sps30.h" name="drivers/include/sps30.h">
-<area shape="rect" id="node2" href="$sps30__params_8h.html" title="Default configuration for Sensirion SPS30 sensors devices. " alt="" coords="11,80,156,121"/>
+<area shape="rect" id="node1" title="Driver for the Sensirion SPS30 Particulate Matter Sensor." alt="" coords="5,5,177,32"/>
+<area shape="rect" id="node2" href="$sps30__params_8h.html" title="Default configuration for Sensirion SPS30 sensors devices." alt="" coords="11,80,171,121"/>
 </map>

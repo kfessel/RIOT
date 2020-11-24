@@ -1,10 +1,12 @@
 <map id="sys/posix/include/sys/bytes.h" name="sys/posix/include/sys/bytes.h">
-<area shape="rect" id="node2" href="$inet_8h.html" title="Definitions for internet operations. " alt="" coords="295,259,447,300"/>
-<area shape="rect" id="node8" href="$in_8h.html" title="Main socket header. " alt="" coords="342,184,533,211"/>
-<area shape="rect" id="node9" href="$socket_8h.html" title="Main socket header. " alt="" coords="393,95,541,136"/>
-<area shape="rect" id="node3" href="$nanocoap_8h.html" title="nanocoap API " alt="" coords="184,348,365,375"/>
-<area shape="rect" id="node7" href="$uhcp_8h.html" title="UHCP header. " alt="" coords="390,348,543,375"/>
-<area shape="rect" id="node4" href="$gcoap_8h.html" title="gcoap definition " alt="" coords="5,430,165,457"/>
-<area shape="rect" id="node5" href="$nanocoap__sock_8h.html" title="nanocoap high&#45;level API " alt="" coords="189,423,360,464"/>
-<area shape="rect" id="node6" href="$suit_2transport_2coap_8h_source.html" title="sys/include/suit/transport\l/coap.h" alt="" coords="384,423,552,464"/>
+<area shape="rect" id="node1" title="System&#45;internal byte operations." alt="" coords="401,5,561,47"/>
+<area shape="rect" id="node2" href="$inet_8h.html" title="Definitions for internet operations." alt="" coords="418,259,585,300"/>
+<area shape="rect" id="node9" href="$in_8h.html" title="Main socket header." alt="" coords="467,184,679,211"/>
+<area shape="rect" id="node10" href="$socket_8h.html" title="Main socket header." alt="" coords="519,95,679,136"/>
+<area shape="rect" id="node3" href="$nanocoap_8h.html" title="nanocoap API" alt="" coords="299,348,498,375"/>
+<area shape="rect" id="node8" href="$uhcp_8h.html" title="UHCP header." alt="" coords="522,348,689,375"/>
+<area shape="rect" id="node4" href="$lc_8h.html" title="CoRE Resource Directory lookup interface." alt="" coords="5,430,184,457"/>
+<area shape="rect" id="node5" href="$gcoap_8h.html" title="gcoap definition" alt="" coords="209,430,383,457"/>
+<area shape="rect" id="node6" href="$nanocoap__sock_8h.html" title="nanocoap high&#45;level API" alt="" coords="408,423,595,464"/>
+<area shape="rect" id="node7" href="$suit_2transport_2coap_8h_source.html" title=" " alt="" coords="619,423,805,464"/>
 </map>

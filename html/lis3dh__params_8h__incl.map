@@ -1,10 +1,18 @@
 <map id="drivers/lis3dh/include/lis3dh_params.h" name="drivers/lis3dh/include/lis3dh_params.h">
-<area shape="rect" id="node3" href="$lis3dh_8h.html" title="Device driver interface for the LIS3DH accelerometer. " alt="" coords="321,169,388,196"/>
-<area shape="rect" id="node12" href="$saul__reg_8h.html" title="SAUL registry interface definition. " alt="" coords="459,95,541,121"/>
-<area shape="rect" id="node5" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="243,244,333,271"/>
-<area shape="rect" id="node11" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="79,319,175,345"/>
-<area shape="rect" id="node13" href="$saul_8h.html" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer. " alt="" coords="494,169,551,196"/>
-<area shape="rect" id="node15" href="$phydat_8h.html" title="Generic data container for physical data interface. " alt="" coords="605,244,677,271"/>
-<area shape="rect" id="node14" href="$errno_8h.html" title="errno.h" alt="" coords="518,244,581,271"/>
-<area shape="rect" id="node16" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="591,319,708,345"/>
+<area shape="rect" id="node1" title="Default configuration for LIS3DH devices." alt="" coords="223,5,384,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="195,95,265,121"/>
+<area shape="rect" id="node3" href="$lis3dh_8h.html" title="Device driver interface for the LIS3DH accelerometer." alt="" coords="224,244,297,271"/>
+<area shape="rect" id="node12" href="$saul__reg_8h.html" title="SAUL registry interface definition." alt="" coords="379,95,468,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="389,393,460,420"/>
+<area shape="rect" id="node5" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition." alt="" coords="179,319,278,345"/>
+<area shape="rect" id="node11" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="50,393,157,420"/>
+<area shape="rect" id="node6" title=" " alt="" coords="181,393,263,420"/>
+<area shape="rect" id="node7" title=" " alt="" coords="533,393,607,420"/>
+<area shape="rect" id="node8" title=" " alt="" coords="304,468,375,495"/>
+<area shape="rect" id="node9" title=" " alt="" coords="5,468,111,495"/>
+<area shape="rect" id="node10" title=" " alt="" coords="158,468,267,495"/>
+<area shape="rect" id="node13" href="$saul_8h.html" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer." alt="" coords="430,169,491,196"/>
+<area shape="rect" id="node15" href="$phydat_8h.html" title="Generic data container for physical data interface." alt="" coords="547,244,625,271"/>
+<area shape="rect" id="node14" href="$errno_8h.html" title=" " alt="" coords="455,244,523,271"/>
+<area shape="rect" id="node16" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="505,319,635,345"/>
 </map>

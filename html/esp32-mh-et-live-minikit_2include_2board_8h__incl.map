@@ -1,3 +1,6 @@
 <map id="boards/esp32&#45;mh&#45;et&#45;live&#45;minikit/include/board.h" name="boards/esp32&#45;mh&#45;et&#45;live&#45;minikit/include/board.h">
-<area shape="rect" id="node4" href="$esp32-mh-et-live-minikit_2include_2board__modules_8h.html" title="Definitions for Wemos stackable hardware modules (shields) " alt="" coords="243,109,364,136"/>
+<area shape="rect" id="node1" title="Board specific definitions for MH&#45;ET LIVE MiniKit for ESP32." alt="" coords="91,5,244,61"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,109,76,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,109,235,136"/>
+<area shape="rect" id="node4" href="$esp32-mh-et-live-minikit_2include_2board__modules_8h.html" title="Definitions for Wemos stackable hardware modules (shields)" alt="" coords="259,109,393,136"/>
 </map>

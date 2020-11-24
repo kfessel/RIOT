@@ -16,7 +16,10 @@ var group__drivers__pca9633 =
       [ "stored_reg_ledout", "structpca9633__t.html#a4ffe8a427cf14c5110f4ef4507f5c036", null ]
     ] ],
     [ "PCA9633_BLINKING_PERIOD_MAX_MS", "group__drivers__pca9633.html#ga3b5fd5ffd8ef44e0761a286fc8936c93", null ],
-    [ "PCA9633_BLINKING_RATIO_BALANCED", "group__drivers__pca9633.html#ga812850bf0b6bca302ee08e15f7949d95", null ],
+    [ "PCA9633_BLINKING_RATIO_BALANCED", "group__drivers__pca9633.html#ga812850bf0b6bca302ee08e15f7949d95", [
+      [ "PCA9633_OK", "group__drivers__pca9633.html#gga16db4876b192da08f3ad0cb41afe516fa7e344084e8c7d30b3329b08200e11944", null ],
+      [ "PCA9633_ERROR_I2C", "group__drivers__pca9633.html#gga16db4876b192da08f3ad0cb41afe516fad665ba86e8f757ba6907b3c2dfd6183f", null ]
+    ] ],
     [ "pca9633_auto_inc_option_t", "group__drivers__pca9633.html#ga90c1c711fb3254cbf9eb588f7ab761c1", [
       [ "PCA9633_AI_DISABLED", "group__drivers__pca9633.html#gga90c1c711fb3254cbf9eb588f7ab761c1a7e68b5c4c38493c8ea33797f776161d3", null ],
       [ "PCA9633_AI_ALL", "group__drivers__pca9633.html#gga90c1c711fb3254cbf9eb588f7ab761c1a2125ac57bb9e135ffb1829f0b638cd03", null ],
@@ -39,12 +42,6 @@ var group__drivers__pca9633 =
       [ "PCA9633_PWM_CHANNEL_1", "group__drivers__pca9633.html#gga9a0276c2bd5f315f4eacea8002ff489da8a2987ffab556d9f6e41a4f2446c05fc", null ],
       [ "PCA9633_PWM_CHANNEL_2", "group__drivers__pca9633.html#gga9a0276c2bd5f315f4eacea8002ff489dab3021ef7cf6849d81eff2ce26f6e99e4", null ],
       [ "PCA9633_PWM_CHANNEL_3", "group__drivers__pca9633.html#gga9a0276c2bd5f315f4eacea8002ff489daace032b8b82be47eca1a30545b98c737", null ]
-    ] ],
-    [ "pca9685_error_t", "group__drivers__pca9633.html#ga810f1332042b1968497fe6d5c1ba5744", [
-      [ "PCA9633_OK", "group__drivers__pca9685.html#gga810f1332042b1968497fe6d5c1ba5744a7e344084e8c7d30b3329b08200e11944", null ],
-      [ "PCA9633_ERROR_I2C", "group__drivers__pca9685.html#gga810f1332042b1968497fe6d5c1ba5744ad665ba86e8f757ba6907b3c2dfd6183f", null ],
-      [ "PCA9685_OK", "group__drivers__pca9685.html#gga810f1332042b1968497fe6d5c1ba5744a9c9798d7cfbac14ef16cad56b330e2a4", null ],
-      [ "PCA9685_ERROR_I2C", "group__drivers__pca9685.html#gga810f1332042b1968497fe6d5c1ba5744a3cbc08e22b71dfbb66ba422193914a83", null ]
     ] ],
     [ "pca9633_init", "group__drivers__pca9633.html#gae8b0e4d9727265d52828fb972beea386", null ],
     [ "pca9633_set_auto_increment", "group__drivers__pca9633.html#ga3f4bf5e4950580e5f94a19ce58da6c97", null ],

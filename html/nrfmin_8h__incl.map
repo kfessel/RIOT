@@ -1,6 +1,12 @@
 <map id="cpu/nrf5x_common/include/nrfmin.h" name="cpu/nrf5x_common/include/nrfmin.h">
-<area shape="rect" id="node2" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="121,95,216,121"/>
-<area shape="rect" id="node4" href="$errno_8h.html" title="errno.h" alt="" coords="95,169,157,196"/>
-<area shape="rect" id="node5" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="181,169,241,196"/>
-<area shape="rect" id="node7" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="266,169,357,196"/>
+<area shape="rect" id="node1" title="Interface definition for the nrfmin NRF51822 radio driver." alt="" coords="64,5,263,47"/>
+<area shape="rect" id="node2" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface." alt="" coords="112,95,215,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,393,76,420"/>
+<area shape="rect" id="node4" href="$errno_8h.html" title=" " alt="" coords="201,169,269,196"/>
+<area shape="rect" id="node5" href="$iolist_8h.html" title="iolist scatter / gather IO" alt="" coords="58,169,125,196"/>
+<area shape="rect" id="node9" href="$netopt_8h.html" title="Definition of global configuration options." alt="" coords="294,169,395,196"/>
+<area shape="rect" id="node10" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="212,319,341,345"/>
+<area shape="rect" id="node6" href="$unistd_8h_source.html" title=" " alt="" coords="51,244,126,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="137,393,211,420"/>
+<area shape="rect" id="node8" href="$cpu_2atmega__common_2avr__libc__extra_2include_2sys_2types_8h_source.html" title=" " alt="" coords="41,319,137,345"/>
 </map>

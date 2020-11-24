@@ -4,7 +4,7 @@ var ina2xx__defines_8h =
     [ "INA2XX_RESET", "ina2xx__defines_8h.html#a4aaaf59b3eabfdb3ab48678e1435dcc2", null ],
     [ "INA2XX_VBUS_CNVR", "ina2xx__defines_8h.html#a18ed29dddfeaeec46eb63de7622cb342", null ],
     [ "INA2XX_VBUS_OVF", "ina2xx__defines_8h.html#a4523306406b40051cf7ba05bd0fbf003", null ],
-    [ "ina2xx_reg_t", "ina2xx__defines_8h.html#abd4df9fa99d43b12b8334285d18da3eb", null ],
+    [ "ina2xx_reg_t", "ina2xx__defines_8h.html#ade125e9106323d517fb9942a3f19559c", null ],
     [ "ina2xx_reg", "ina2xx__defines_8h.html#ad7ada28100302896be2506181d8ef4cd", [
       [ "INA2XX_REG_CONFIGURATION", "ina2xx__defines_8h.html#ad7ada28100302896be2506181d8ef4cda69117c230da95ab6e7c1e09463953b0c", null ],
       [ "INA2XX_REG_SHUNT_VOLTAGE", "ina2xx__defines_8h.html#ad7ada28100302896be2506181d8ef4cda51b437aa926c77f32f1465285a122c21", null ],

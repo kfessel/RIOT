@@ -1,0 +1,14 @@
+<map id="sys/include/ztimer/periodic.h" name="sys/include/ztimer/periodic.h">
+<area shape="rect" id="node1" title="Periodic ztimer API." alt="" coords="5,5,147,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="79,393,150,420"/>
+<area shape="rect" id="node3" href="$ztimer_8h.html" title="ztimer API" alt="" coords="98,95,174,121"/>
+<area shape="rect" id="node4" href="$sched_8h.html" title="Scheduler API definition." alt="" coords="339,244,411,271"/>
+<area shape="rect" id="node11" href="$msg_8h.html" title="Messaging API for inter process communication." alt="" coords="157,169,219,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="552,393,627,420"/>
+<area shape="rect" id="node6" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="331,319,418,345"/>
+<area shape="rect" id="node7" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="178,319,307,345"/>
+<area shape="rect" id="node8" href="$native__sched_8h.html" title="Add definitions required on the native board." alt="" coords="443,319,563,345"/>
+<area shape="rect" id="node9" href="$clist_8h.html" title="Circular linked list." alt="" coords="637,319,699,345"/>
+<area shape="rect" id="node10" href="$list_8h.html" title="Intrusive linked list." alt="" coords="651,393,706,420"/>
+<area shape="rect" id="node12" title=" " alt="" coords="177,244,260,271"/>
+</map>

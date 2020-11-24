@@ -18,5 +18,6 @@ var drivers_2include_2net_2netdev_2ieee802154_8h =
     [ "netdev_ieee802154_dst_filter", "group__drivers__netdev__ieee802154.html#ga54625153bbd43002d0b64b1cd21aed2d", null ],
     [ "netdev_ieee802154_get", "group__drivers__netdev__ieee802154.html#ga807edbc4a910648061ced6c8c15c4198", null ],
     [ "netdev_ieee802154_reset", "group__drivers__netdev__ieee802154.html#gaddfee45b3aadecc4d06fc6dfbbfcad2f", null ],
-    [ "netdev_ieee802154_set", "group__drivers__netdev__ieee802154.html#gaec403a7dcf6581e11b95b75220c40a35", null ]
+    [ "netdev_ieee802154_set", "group__drivers__netdev__ieee802154.html#gaec403a7dcf6581e11b95b75220c40a35", null ],
+    [ "netdev_ieee802154_setup", "group__drivers__netdev__ieee802154.html#gadfa9cb4f2fa824cfc4a15bdc50c166a3", null ]
 ];

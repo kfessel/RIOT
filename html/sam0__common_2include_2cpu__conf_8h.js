@@ -6,6 +6,6 @@ var sam0__common_2include_2cpu__conf_8h =
     [ "CPU_IRQ_NUMOF", "sam0__common_2include_2cpu__conf_8h.html#af6c13d219504576c5c69399033b0ae39", null ],
     [ "FLASHPAGE_NUMOF", "sam0__common_2include_2cpu__conf_8h.html#a7c969ee021b57668fd1965bbe9ca1a0a", null ],
     [ "FLASHPAGE_PAGES_PER_ROW", "sam0__common_2include_2cpu__conf_8h.html#a4dba5347d1f3957e95d1e91f05a24911", null ],
-    [ "FLASHPAGE_RAW_ALIGNMENT", "sam0__common_2include_2cpu__conf_8h.html#ac2d27fbc1ae5ae8cb86479626cd4a3a6", null ],
-    [ "FLASHPAGE_RAW_BLOCKSIZE", "sam0__common_2include_2cpu__conf_8h.html#a782282047494538d13e2b3913bbc94f8", null ]
+    [ "FLASHPAGE_WRITE_BLOCK_ALIGNMENT", "sam0__common_2include_2cpu__conf_8h.html#a72c89204ecbd5efc8d52d3bd73003a28", null ],
+    [ "FLASHPAGE_WRITE_BLOCK_SIZE", "sam0__common_2include_2cpu__conf_8h.html#a16753047dc8ea05da311dd4e5e056628", null ]
 ];

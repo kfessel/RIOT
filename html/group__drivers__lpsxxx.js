@@ -13,9 +13,9 @@ var group__drivers__lpsxxx =
       [ "params", "structlpsxxx__t.html#a21ce30a50c3e8fa983d29cee36b5c37f", null ]
     ] ],
     [ "LPSXXX_DEFAULT_RATE", "group__drivers__lpsxxx.html#ga5c9d3eadf269200bada007b484e17b8a", [
-      [ "LPSXXX_OK", "group__drivers__lpsxxx.html#gga425be5f49e9c31d8d13d53190a3e7bc2a4152a9a5ad29a8a5b1e7bc435385960c", null ],
-      [ "LPSXXX_ERR_NODEV", "group__drivers__lpsxxx.html#gga425be5f49e9c31d8d13d53190a3e7bc2a95b567165be9cb7b41fdfc4c65183233", null ],
-      [ "LPSXXX_ERR_I2C", "group__drivers__lpsxxx.html#gga425be5f49e9c31d8d13d53190a3e7bc2afe323c8aac3253e13ccfa9278be10ac8", null ]
+      [ "LPSXXX_OK", "group__drivers__lpsxxx.html#gga3d01b665f7e924f5f97fa41f5879c7f7a4152a9a5ad29a8a5b1e7bc435385960c", null ],
+      [ "LPSXXX_ERR_NODEV", "group__drivers__lpsxxx.html#gga3d01b665f7e924f5f97fa41f5879c7f7a95b567165be9cb7b41fdfc4c65183233", null ],
+      [ "LPSXXX_ERR_I2C", "group__drivers__lpsxxx.html#gga3d01b665f7e924f5f97fa41f5879c7f7afe323c8aac3253e13ccfa9278be10ac8", null ]
     ] ],
     [ "lpsxxx_rate_t", "group__drivers__lpsxxx.html#gada61d6587c295b1dc8ee8bafb5fe9b55", [
       [ "LPSXXX_RATE_1HZ", "group__drivers__lpsxxx.html#ggada61d6587c295b1dc8ee8bafb5fe9b55a64f7b8da97293f0b31ec0d232f20a284", null ]

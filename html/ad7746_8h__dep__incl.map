@@ -1,3 +1,4 @@
 <map id="drivers/include/ad7746.h" name="drivers/include/ad7746.h">
-<area shape="rect" id="node2" href="$ad7746__params_8h.html" title="Default configuration for AD7746 capaticance&#45;to&#45;digital converter. " alt="" coords="11,80,163,121"/>
+<area shape="rect" id="node1" title="AD7746 Capacitance&#45;to&#45;digital converter with temperature sensor driver." alt="" coords="5,5,188,32"/>
+<area shape="rect" id="node2" href="$ad7746__params_8h.html" title="Default configuration for AD7746 capaticance&#45;to&#45;digital converter." alt="" coords="11,80,182,121"/>
 </map>

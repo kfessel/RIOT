@@ -5,7 +5,7 @@ var fatfs_8h =
     [ "FATFS_MAX_VOL_STR_LEN", "group__sys__fatfs.html#ga936f8b2bea013417ca1c0826e8183781", null ],
     [ "FATFS_MOUNT_OPT", "group__sys__fatfs.html#ga7ef4d049a02926687d3e3ff7ec2da937", null ],
     [ "FATFS_YEAR_OFFSET", "group__sys__fatfs.html#ga91e6a88e878df2c8d1ecd3065d92dfa7", null ],
-    [ "fatfs_desc_t", "group__sys__fatfs.html#ga55339a4dcebd9f1be581de4638b41670", null ],
-    [ "fatfs_file_desc_t", "group__sys__fatfs.html#gaab14929b4866418e088e4283df9a0313", null ],
+    [ "fatfs_desc_t", "group__sys__fatfs.html#ga20e32003fdead4bf202b1e102e3c9aff", null ],
+    [ "fatfs_file_desc_t", "group__sys__fatfs.html#ga8c51b868bc72ab27a45386c161843d7d", null ],
     [ "fatfs_file_system", "group__sys__fatfs.html#ga9a619a8314ba35fc986b101ddbb973dc", null ]
 ];

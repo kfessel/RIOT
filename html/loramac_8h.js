@@ -1,5 +1,6 @@
 var loramac_8h =
 [
+    [ "CONFIG_LORAMAC_REGION_EU_868", "group__net__loramac.html#gaa78b549483a47fc2d4c1c1e129dfa0ee", null ],
     [ "LORAMAC_APP_EUI_DEFAULT", "group__net__loramac__conf.html#ga26a86cca3c2f72034b92198f39d72f4f", null ],
     [ "LORAMAC_APP_KEY_DEFAULT", "group__net__loramac__conf.html#gaec8eb18ff49bddee55daa06167b47d08", null ],
     [ "LORAMAC_APP_NONCE_LEN", "group__net__loramac.html#ga954341ca0f205adec8803e5262fb79f7", null ],
@@ -25,8 +26,6 @@ var loramac_8h =
     [ "LORAMAC_DEFAULT_RETX", "group__net__loramac.html#ga0f2cda227b9a037f13c2ed8cf10048f4", null ],
     [ "LORAMAC_DEFAULT_RX1_DELAY", "group__net__loramac.html#ga3bae87448049ffe3e0ff2815acf75785", null ],
     [ "LORAMAC_DEFAULT_RX2_DELAY", "group__net__loramac.html#gaf2008f825b0f7514c39f9f3df1baaee9", null ],
-    [ "LORAMAC_DEFAULT_RX2_DR", "group__net__loramac.html#gade8160bca0e163047f6f197fd3aed733", null ],
-    [ "LORAMAC_DEFAULT_RX2_FREQ", "group__net__loramac.html#gac205bcb7140b141fd6c02057f32eb42e", null ],
     [ "LORAMAC_DEFAULT_SYSTEM_MAX_RX_ERROR", "group__net__loramac.html#ga385945efa6e81003bb309b585ba7db3a", null ],
     [ "LORAMAC_DEFAULT_TX_MODE", "group__net__loramac.html#ga4949ccfa4115f75438e7d35e9d3249b8", null ],
     [ "LORAMAC_DEFAULT_TX_PORT", "group__net__loramac.html#ga6f204bed94045734746e17fcadc8df99", null ],

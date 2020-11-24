@@ -1,3 +1,4 @@
 <map id="boards/ublox&#45;c030&#45;u201/include/board.h" name="boards/ublox&#45;c030&#45;u201/include/board.h">
-<area shape="rect" id="node2" href="$ublox-c030-u201_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,95,165,136"/>
+<area shape="rect" id="node1" title="Board specific definitions for the Ublox C030&#45;U201 board." alt="" coords="5,5,184,47"/>
+<area shape="rect" id="node2" href="$ublox-c030-u201_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,95,184,136"/>
 </map>

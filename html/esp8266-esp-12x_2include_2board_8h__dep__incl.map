@@ -1,3 +1,4 @@
 <map id="boards/esp8266&#45;esp&#45;12x/include/board.h" name="boards/esp8266&#45;esp&#45;12x/include/board.h">
-<area shape="rect" id="node2" href="$esp8266-esp-12x_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,95,187,136"/>
+<area shape="rect" id="node1" title="Board specific definitions for ESP&#45;12x based boards." alt="" coords="29,5,184,47"/>
+<area shape="rect" id="node2" href="$esp8266-esp-12x_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,95,208,136"/>
 </map>

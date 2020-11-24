@@ -1,8 +1,8 @@
 var bmp180_8h =
 [
-    [ "BMP180_OK", "group__drivers__bmp180.html#gga7ada2556f3c386db5f31969fb6d4d002a14982eda73a5aaa35baade00f3feea41", null ],
-    [ "BMP180_ERR_NODEV", "group__drivers__bmp180.html#gga7ada2556f3c386db5f31969fb6d4d002a4fdf10b641caf83d04184dac0108b4e6", null ],
-    [ "BMP180_ERR_NOCAL", "group__drivers__bmp180.html#gga7ada2556f3c386db5f31969fb6d4d002a37c19b31b44c62a7227b6e99db7aecba", null ],
+    [ "BMP180_OK", "group__drivers__bmp180.html#gga4f79453548dc20926be4b5a000ecbd66a14982eda73a5aaa35baade00f3feea41", null ],
+    [ "BMP180_ERR_NODEV", "group__drivers__bmp180.html#gga4f79453548dc20926be4b5a000ecbd66a4fdf10b641caf83d04184dac0108b4e6", null ],
+    [ "BMP180_ERR_NOCAL", "group__drivers__bmp180.html#gga4f79453548dc20926be4b5a000ecbd66a37c19b31b44c62a7227b6e99db7aecba", null ],
     [ "bmp180_oversampling_mode_t", "group__drivers__bmp180.html#gaf44bc15e331d3bcc27fb0536c4c1d7a4", [
       [ "BMP180_ULTRALOWPOWER", "group__drivers__bmp180.html#ggaf44bc15e331d3bcc27fb0536c4c1d7a4a9e5a4e5e8f19dee4ef280539b353ce0a", null ],
       [ "BMP180_STANDARD", "group__drivers__bmp180.html#ggaf44bc15e331d3bcc27fb0536c4c1d7a4a72ac790ee94e6b33a8c354bee85f4613", null ],

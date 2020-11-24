@@ -23,8 +23,8 @@ var samr30_xpro_2include_2board_8h =
     [ "RFCTL1_PIN", "group__boards__samr30-xpro.html#ga2364f376947112a08b6c534235a8f4fa", null ],
     [ "RFCTL2_PIN", "group__boards__samr30-xpro.html#ga834d0ca9dc3c0d7e24ba2848ff6ddc1c", null ],
     [ "RFCTL_ANTENNA_DEFAULT", "group__boards__samr30-xpro.html#ga8374c2ca3f70167aff3c6148a5e4ae62", null ],
-    [ "RFCTL_ANTENNA_BOARD", "group__boards__samr30-xpro.html#gga0b887f38fa71033f0904f8e2330b6815a4b6858ed945b6f53ed54233eae52e95b", null ],
-    [ "RFCTL_ANTENNA_EXT", "group__boards__samr30-xpro.html#gga0b887f38fa71033f0904f8e2330b6815aff881ea099f99d8f1c19adb02a51e7a3", null ],
+    [ "RFCTL_ANTENNA_BOARD", "group__boards__samr30-xpro.html#gga73c53bacb25588538843a1dcfe5f382ba4b6858ed945b6f53ed54233eae52e95b", null ],
+    [ "RFCTL_ANTENNA_EXT", "group__boards__samr30-xpro.html#gga73c53bacb25588538843a1dcfe5f382baff881ea099f99d8f1c19adb02a51e7a3", null ],
     [ "board_antenna_config", "group__boards__samr30-xpro.html#ga6fa97fb22cd406ad1bcf804519ce3927", null ],
     [ "board_init", "group__boards__samr30-xpro.html#ga916f2adc2080b4fe88034086d107a8dc", null ]
 ];

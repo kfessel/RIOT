@@ -10,7 +10,7 @@ var group__net__sock =
     [ "sock utility functions", "group__net__sock__util.html", "group__net__sock__util" ],
     [ "sock.h", "sock_8h.html", null ],
     [ "sock_ip_ep_t", "structsock__ip__ep__t.html", [
-      [ "addr", "structsock__ip__ep__t.html#afa5c09a18565a7103543acfeeef970e0", null ],
+      [ "addr", "structsock__ip__ep__t.html#a9df0386e18a9636f6bf62b40c5934c95", null ],
       [ "family", "structsock__ip__ep__t.html#ae7ae802357d4ec15b34860c8d85a8bf1", null ],
       [ "ipv4", "structsock__ip__ep__t.html#aeaf0f01115440fd3565c8f7c2e304096", null ],
       [ "ipv4_u32", "structsock__ip__ep__t.html#a12825c6d9d56ae275517f27aae3acaf9", null ],
@@ -18,7 +18,7 @@ var group__net__sock =
       [ "netif", "structsock__ip__ep__t.html#a30b82677263d30a8d04dbbae5a4dce45", null ]
     ] ],
     [ "_sock_tl_ep", "struct__sock__tl__ep.html", [
-      [ "addr", "struct__sock__tl__ep.html#a09a1d908d9699952cf9a328341b8ed28", null ],
+      [ "addr", "struct__sock__tl__ep.html#acc038c1c2ddd25cc632d8f428f255bd4", null ],
       [ "family", "struct__sock__tl__ep.html#a39cc1104d239f1b620e0714a1c33b247", null ],
       [ "ipv4", "struct__sock__tl__ep.html#a962ad49f2dd126b6329db542df577fa7", null ],
       [ "ipv4_u32", "struct__sock__tl__ep.html#a4a3ba084a16d9729f04200f3e158e927", null ],

@@ -1,3 +1,13 @@
 <map id="boards/openmote&#45;cc2538/include/board.h" name="boards/openmote&#45;cc2538/include/board.h">
-<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,95,189,121"/>
+<area shape="rect" id="node1" title="Board specific definitions for the OpenMote&#45;cc2538 board." alt="" coords="85,5,271,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="43,95,100,121"/>
+<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="125,95,231,121"/>
+<area shape="rect" id="node7" href="$cc2538__eui__primary_8h.html" title="CC2538 EUI&#45;64 provider." alt="" coords="305,95,467,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,169,76,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="100,169,205,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="230,169,339,196"/>
+<area shape="rect" id="node8" href="$eui64_8h.html" title="EUI&#45;64 data type definition." alt="" coords="364,169,459,196"/>
+<area shape="rect" id="node9" title=" " alt="" coords="383,393,453,420"/>
+<area shape="rect" id="node10" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="405,244,503,271"/>
+<area shape="rect" id="node11" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="455,319,554,345"/>
 </map>

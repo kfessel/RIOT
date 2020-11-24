@@ -1,3 +1,7 @@
 <map id="boards/common/slwstk6000b/modules/slwrb4162a/include/board_module.h" name="boards/common/slwstk6000b/modules/slwrb4162a/include/board_module.h">
-<area shape="rect" id="node2" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,109,189,136"/>
+<area shape="rect" id="node1" title="Specific definitions for SLWRB4162A module." alt="" coords="46,5,259,61"/>
+<area shape="rect" id="node2" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="99,109,206,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,184,76,211"/>
+<area shape="rect" id="node4" title=" " alt="" coords="100,184,205,211"/>
+<area shape="rect" id="node5" title=" " alt="" coords="230,184,339,211"/>
 </map>

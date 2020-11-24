@@ -1,2 +1,4 @@
 <map id="boards/common/nrf51/include/cfg_timer_01.h" name="boards/common/nrf51/include/cfg_timer_01.h">
+<area shape="rect" id="node1" title="Shared timer peripheral configuration mapping timers 0 and 1." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="40,95,145,121"/>
 </map>

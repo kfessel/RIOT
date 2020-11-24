@@ -1,6 +1,7 @@
 <map id="sys/include/net/sixlowpan.h" name="sys/include/net/sixlowpan.h">
-<area shape="rect" id="node2" href="$gnrc_2sixlowpan_2frag_8h.html" title="6LoWPAN Fragmentation definitions " alt="" coords="5,80,144,121"/>
-<area shape="rect" id="node3" href="$gnrc_2sixlowpan_8h.html" title="Definitions for 6LoWPAN. " alt="" coords="112,169,251,211"/>
-<area shape="rect" id="node4" href="$iphc_8h.html" title="6LoWPAN IPHC definitions " alt="" coords="219,80,357,121"/>
-<area shape="rect" id="node5" href="$sfr_8h.html" title="6LoWPAN selective fragment recovery dispatch type and helper function definitions. " alt="" coords="382,80,554,121"/>
+<area shape="rect" id="node1" title="6LoWPAN dispatch type and helper function definitions." alt="" coords="149,5,352,32"/>
+<area shape="rect" id="node2" href="$gnrc_2sixlowpan_2frag_8h.html" title="6LoWPAN Fragmentation definitions" alt="" coords="5,80,157,121"/>
+<area shape="rect" id="node3" href="$gnrc_2sixlowpan_8h.html" title="Definitions for 6LoWPAN." alt="" coords="119,169,271,211"/>
+<area shape="rect" id="node4" href="$iphc_8h.html" title="6LoWPAN IPHC definitions" alt="" coords="232,80,384,121"/>
+<area shape="rect" id="node5" href="$sfr_8h.html" title="6LoWPAN selective fragment recovery dispatch type and helper function definitions." alt="" coords="409,80,599,121"/>
 </map>

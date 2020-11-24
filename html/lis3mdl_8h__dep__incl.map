@@ -1,3 +1,4 @@
 <map id="drivers/include/lis3mdl.h" name="drivers/include/lis3mdl.h">
-<area shape="rect" id="node2" href="$lis3mdl__params_8h.html" title="Default configuration for LIS3MDL devices. " alt="" coords="11,80,162,121"/>
+<area shape="rect" id="node1" title="Device driver interface for the LIS3MDL 3&#45;axis magnetometer." alt="" coords="5,5,188,32"/>
+<area shape="rect" id="node2" href="$lis3mdl__params_8h.html" title="Default configuration for LIS3MDL devices." alt="" coords="11,80,182,121"/>
 </map>

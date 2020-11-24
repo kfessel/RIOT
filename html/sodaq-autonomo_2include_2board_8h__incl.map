@@ -1,2 +1,5 @@
 <map id="boards/sodaq&#45;autonomo/include/board.h" name="boards/sodaq&#45;autonomo/include/board.h">
+<area shape="rect" id="node1" title="Board specific definitions for the SODAQ Autonomo board." alt="" coords="5,5,185,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="7,95,64,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="88,95,223,121"/>
 </map>

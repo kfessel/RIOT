@@ -2,8 +2,10 @@ var group__cpu__atmega__common =
 [
     [ "errno.h", "errno_8h.html", null ],
     [ "inttypes.h", "inttypes_8h.html", null ],
+    [ "architecture_arch.h", "atmega__common_2include_2architecture__arch_8h.html", null ],
     [ "atmega_gpio.h", "atmega__gpio_8h.html", null ],
     [ "atmega_regs_common.h", "atmega__regs__common_8h.html", null ],
+    [ "atomic_utils_arch.h", "atmega__common_2include_2atomic__utils__arch_8h.html", null ],
     [ "cpu.h", "atmega__common_2include_2cpu_8h.html", null ],
     [ "cpu_conf.h", "atmega__common_2include_2cpu__conf_8h.html", null ],
     [ "irq_arch.h", "atmega__common_2include_2irq__arch_8h.html", null ],

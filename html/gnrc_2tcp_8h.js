@@ -9,7 +9,7 @@ var gnrc_2tcp_8h =
     [ "gnrc_tcp_init", "group__net__gnrc__tcp.html#ga36bd9191d96fb21d0c4e5fa1f226df8d", null ],
     [ "gnrc_tcp_open_active", "group__net__gnrc__tcp.html#ga5ae78e146398190cfadd90ee127927da", null ],
     [ "gnrc_tcp_open_passive", "group__net__gnrc__tcp.html#ga259308499de7ba06bfb5584f389c37bd", null ],
-    [ "gnrc_tcp_recv", "group__net__gnrc__tcp.html#ga5e61dc42cb9d0d69a9af6b53ddf3f5d9", null ],
-    [ "gnrc_tcp_send", "group__net__gnrc__tcp.html#gab39c12a14c4c4dabe421acd41bb308c2", null ],
+    [ "gnrc_tcp_recv", "group__net__gnrc__tcp.html#ga8ac7bffe626f81d750060ad2b53df5ba", null ],
+    [ "gnrc_tcp_send", "group__net__gnrc__tcp.html#gafc38ae571d6bbc7ae2bccebb537e6c8b", null ],
     [ "gnrc_tcp_tcb_init", "group__net__gnrc__tcp.html#gafa3fa572c52592c2e24c6d29fe1fcdca", null ]
 ];

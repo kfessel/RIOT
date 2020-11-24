@@ -10,7 +10,6 @@ var group__net__gnrc__sixlowpan__config =
     [ "CONFIG_GNRC_SIXLOWPAN_FRAG_VRB_TIMEOUT_US", "group__net__gnrc__sixlowpan__config.html#ga57dbb6eb24c259bc461ab168c4630a63", null ],
     [ "CONFIG_GNRC_SIXLOWPAN_MSG_QUEUE_SIZE_EXP", "group__net__gnrc__sixlowpan__config.html#ga1219804b3c712e48de4908355fb82aea", null ],
     [ "CONFIG_GNRC_SIXLOWPAN_ND_AR_LTIME", "group__net__gnrc__sixlowpan__config.html#ga15dd2e19541dd74baf294e9c22f47c7e", null ],
-    [ "GNRC_SIXLOWPAN_FRAG_RBUF_AGGRESSIVE_OVERRIDE", "group__net__gnrc__sixlowpan__config.html#ga5c5b53736ba46bd950ffb6470820c09b", null ],
     [ "GNRC_SIXLOWPAN_MSG_QUEUE_SIZE", "group__net__gnrc__sixlowpan__config.html#ga7823a7ea8ee8c89c95f67df6cf0aa347", null ],
     [ "GNRC_SIXLOWPAN_PRIO", "group__net__gnrc__sixlowpan__config.html#ga394abb39f199270051899ec29ec1a3da", null ],
     [ "GNRC_SIXLOWPAN_SFR_DG_RETRIES", "group__net__gnrc__sixlowpan__config.html#ga379f8c605b87947970a19b3c799365eb", null ],

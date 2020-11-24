@@ -1,3 +1,4 @@
 <map id="boards/atmega256rfr2&#45;xpro/include/board.h" name="boards/atmega256rfr2&#45;xpro/include/board.h">
-<area shape="rect" id="node2" href="$atmega256rfr2-xpro_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="5,95,191,136"/>
+<area shape="rect" id="node1" title="Board specific definitions for the Atmega256RFR2 Xplained Pro." alt="" coords="25,5,192,47"/>
+<area shape="rect" id="node2" href="$atmega256rfr2-xpro_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins." alt="" coords="5,95,212,136"/>
 </map>

@@ -1,5 +1,7 @@
 var boards_2nucleo_f722ze_2include_2periph__conf_8h =
 [
+    [ "CONFIG_BOARD_HAS_HSE", "boards_2nucleo-f722ze_2include_2periph__conf_8h.html#a055813e339f41a120f81a18fe83a07c3", null ],
+    [ "CONFIG_BOARD_HAS_LSE", "boards_2nucleo-f722ze_2include_2periph__conf_8h.html#acd2b9746c0b67c8fb0de7b7f01ac92f8", null ],
     [ "UART_0_DMA_ISR", "boards_2nucleo-f722ze_2include_2periph__conf_8h.html#a639d73a9b4925c2970acf86d88df3d49", null ],
     [ "UART_0_ISR", "boards_2nucleo-f722ze_2include_2periph__conf_8h.html#a713e03d19734d793baee3d1cc25c2dbb", null ],
     [ "UART_1_DMA_ISR", "boards_2nucleo-f722ze_2include_2periph__conf_8h.html#adf387a613ea902458db462f67f43dfcb", null ],

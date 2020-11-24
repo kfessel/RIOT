@@ -1,3 +1,5 @@
 <map id="sys/include/net/bluetil/addr.h" name="sys/include/net/bluetil/addr.h">
-<area shape="rect" id="node3" href="$sys_2include_2net_2ble_8h.html" title="General BLE values as defined by the BT standard. " alt="" coords="95,95,167,121"/>
+<area shape="rect" id="node1" title="Interface for the generic BLE address helper functions." alt="" coords="7,5,173,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" href="$sys_2include_2net_2ble_8h.html" title="General BLE values as defined by the BT standard." alt="" coords="100,95,179,121"/>
 </map>

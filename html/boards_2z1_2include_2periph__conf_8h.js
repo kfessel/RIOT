@@ -17,7 +17,6 @@ var boards_2z1_2include_2periph__conf_8h =
     [ "TIMER_ISR_CC0", "boards_2z1_2include_2periph__conf_8h.html#a1cbd7df3aa2f7db358a0fb67bff00fbd", null ],
     [ "TIMER_ISR_CCX", "boards_2z1_2include_2periph__conf_8h.html#a1d7726ae1504b45722115283ab648dca", null ],
     [ "TIMER_NUMOF", "boards_2z1_2include_2periph__conf_8h.html#a6e2f66f5b6f5c835dd11f9766c4ed897", null ],
-    [ "UART_0_EN", "boards_2z1_2include_2periph__conf_8h.html#a1daeefb24c97883fb801bee8a72fda3c", null ],
     [ "UART_BASE", "boards_2z1_2include_2periph__conf_8h.html#aa501d94aad5260161a3f0b89ec827e92", null ],
     [ "UART_IE", "boards_2z1_2include_2periph__conf_8h.html#a2a0ef571f37749d940482dab02335032", null ],
     [ "UART_IE_RX_BIT", "boards_2z1_2include_2periph__conf_8h.html#a213aea478c72d6bf5b5cd9a24ae5764f", null ],

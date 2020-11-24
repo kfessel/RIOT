@@ -1,7 +1,9 @@
 <map id="sys/posix/include/arpa/inet.h" name="sys/posix/include/arpa/inet.h">
-<area shape="rect" id="node2" href="$nanocoap_8h.html" title="nanocoap API " alt="" coords="184,95,365,121"/>
-<area shape="rect" id="node6" href="$uhcp_8h.html" title="UHCP header. " alt="" coords="390,95,543,121"/>
-<area shape="rect" id="node3" href="$gcoap_8h.html" title="gcoap definition " alt="" coords="5,177,165,203"/>
-<area shape="rect" id="node4" href="$nanocoap__sock_8h.html" title="nanocoap high&#45;level API " alt="" coords="189,169,360,211"/>
-<area shape="rect" id="node5" href="$suit_2transport_2coap_8h_source.html" title="sys/include/suit/transport\l/coap.h" alt="" coords="384,169,552,211"/>
+<area shape="rect" id="node1" title="Definitions for internet operations." alt="" coords="418,5,585,47"/>
+<area shape="rect" id="node2" href="$nanocoap_8h.html" title="nanocoap API" alt="" coords="299,95,498,121"/>
+<area shape="rect" id="node7" href="$uhcp_8h.html" title="UHCP header." alt="" coords="522,95,689,121"/>
+<area shape="rect" id="node3" href="$lc_8h.html" title="CoRE Resource Directory lookup interface." alt="" coords="5,177,184,203"/>
+<area shape="rect" id="node4" href="$gcoap_8h.html" title="gcoap definition" alt="" coords="209,177,383,203"/>
+<area shape="rect" id="node5" href="$nanocoap__sock_8h.html" title="nanocoap high&#45;level API" alt="" coords="408,169,595,211"/>
+<area shape="rect" id="node6" href="$suit_2transport_2coap_8h_source.html" title=" " alt="" coords="619,169,805,211"/>
 </map>

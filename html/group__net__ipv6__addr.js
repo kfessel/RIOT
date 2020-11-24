@@ -30,6 +30,7 @@ var group__net__ipv6__addr =
     [ "IPV6_ADDR_SOLICITED_NODE_PREFIX", "group__net__ipv6__addr.html#ga61e79360ce221dde8e93fb1037b750ac", null ],
     [ "IPV6_ADDR_UNSPECIFIED", "group__net__ipv6__addr.html#ga060dba67cd44fbce8eda163919c89bcf", null ],
     [ "ipv6_addr_equal", "group__net__ipv6__addr.html#gaa7edfae89c51bfa9a5b0c1548687218e", null ],
+    [ "ipv6_addr_from_buf", "group__net__ipv6__addr.html#ga864b9976b6e9623902810c7a3c641556", null ],
     [ "ipv6_addr_from_str", "group__net__ipv6__addr.html#ga7345e58f1dee8fc66822ca4dea763890", null ],
     [ "ipv6_addr_init_iid", "group__net__ipv6__addr.html#ga70260eaf2ff8c9ac8929b87c3c34ce30", null ],
     [ "ipv6_addr_init_prefix", "group__net__ipv6__addr.html#gac9964c130d08241ef0499124fe0dde94", null ],

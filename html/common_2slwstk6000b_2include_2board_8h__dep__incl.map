@@ -1,3 +1,4 @@
 <map id="boards/common/slwstk6000b/include/board.h" name="boards/common/slwstk6000b/include/board.h">
-<area shape="rect" id="node2" href="$common_2slwstk6000b_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,95,197,136"/>
+<area shape="rect" id="node1" title="Board specific definitions for the SLWSTK6000B starter kit." alt="" coords="5,5,219,47"/>
+<area shape="rect" id="node2" href="$common_2slwstk6000b_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,95,219,136"/>
 </map>

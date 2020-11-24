@@ -1,3 +1,4 @@
 <map id="drivers/include/tsl2561.h" name="drivers/include/tsl2561.h">
-<area shape="rect" id="node2" href="$tsl2561__params_8h.html" title="Default configuration for TSL2561. " alt="" coords="11,80,163,121"/>
+<area shape="rect" id="node1" title="Device driver interface for the illuminance TSL2561 sensor." alt="" coords="5,5,188,32"/>
+<area shape="rect" id="node2" href="$tsl2561__params_8h.html" title="Default configuration for TSL2561." alt="" coords="11,80,182,121"/>
 </map>

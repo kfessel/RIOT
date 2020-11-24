@@ -1,4 +1,5 @@
 <map id="drivers/include/kw41zrf.h" name="drivers/include/kw41zrf.h">
-<area shape="rect" id="node2" href="$kw41zrf__getset_8h.html" title="get/set interfaces for kw41zrf driver " alt="" coords="5,80,161,121"/>
-<area shape="rect" id="node3" href="$kw41zrf__intern_8h.html" title="Internal function interfaces for kw41zrf driver. " alt="" coords="63,169,219,211"/>
+<area shape="rect" id="node1" title="Interface definition for the kw41zrf driver." alt="" coords="63,5,248,32"/>
+<area shape="rect" id="node2" href="$kw41zrf__getset_8h.html" title="get/set interfaces for kw41zrf driver" alt="" coords="5,80,180,121"/>
+<area shape="rect" id="node3" href="$kw41zrf__intern_8h.html" title="Internal function interfaces for kw41zrf driver." alt="" coords="68,169,243,211"/>
 </map>

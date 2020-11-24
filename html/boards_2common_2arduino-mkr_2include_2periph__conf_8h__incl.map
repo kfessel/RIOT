@@ -1,3 +1,5 @@
 <map id="boards/common/arduino&#45;mkr/include/periph_conf.h" name="boards/common/arduino&#45;mkr/include/periph_conf.h">
-<area shape="rect" id="node3" href="$arduino-mkr_2include_2periph__conf__common_8h.html" title="Common configuration for clock, timer, pwm, adc, rtc and rtt peripherals for Arduino MKR boards..." alt="" coords="73,95,230,121"/>
+<area shape="rect" id="node1" title="Configuration of CPU peripherals for Arduino MKR boards." alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="50,169,155,196"/>
+<area shape="rect" id="node3" href="$arduino-mkr_2include_2periph__conf__common_8h.html" title="Common configuration for clock, timer, pwm, adc, rtc and rtt peripherals for Arduino MKR boards." alt="" coords="78,95,253,121"/>
 </map>

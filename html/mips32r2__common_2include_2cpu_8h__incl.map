@@ -1,3 +1,8 @@
 <map id="cpu/mips32r2_common/include/cpu.h" name="cpu/mips32r2_common/include/cpu.h">
-<area shape="rect" id="node5" href="$irq_8h.html" title="IRQ driver interface. " alt="" coords="240,95,287,121"/>
+<area shape="rect" id="node1" title="CPU definitions for MIPS32R2 devices." alt="" coords="64,5,239,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="95,169,186,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="152,95,228,121"/>
+<area shape="rect" id="node5" href="$irq_8h.html" title="IRQ driver interface." alt="" coords="253,95,303,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="237,169,319,196"/>
 </map>

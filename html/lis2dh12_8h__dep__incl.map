@@ -1,3 +1,4 @@
 <map id="drivers/include/lis2dh12.h" name="drivers/include/lis2dh12.h">
-<area shape="rect" id="node2" href="$lis2dh12__params_8h.html" title="Default configuration for LIS2DH12 devices. " alt="" coords="11,80,169,121"/>
+<area shape="rect" id="node1" title="Interface definition for the STM LIS2DH12 accelerometer." alt="" coords="5,5,195,32"/>
+<area shape="rect" id="node2" href="$lis2dh12__params_8h.html" title="Default configuration for LIS2DH12 devices." alt="" coords="11,80,189,121"/>
 </map>

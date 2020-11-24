@@ -1,18 +1,8 @@
 var boards_2pyboard_2include_2periph__conf_8h =
 [
-    [ "CLOCK_AHB", "boards_2pyboard_2include_2periph__conf_8h.html#aad59105b6bb2f74e0ca52f5d2be8b8e1", null ],
-    [ "CLOCK_AHB_DIV", "boards_2pyboard_2include_2periph__conf_8h.html#a11f66224742678d401efba36fb4d9164", null ],
-    [ "CLOCK_APB1", "boards_2pyboard_2include_2periph__conf_8h.html#a7c07f079a96c4bf2c1c0727cc73a8efd", null ],
-    [ "CLOCK_APB1_DIV", "boards_2pyboard_2include_2periph__conf_8h.html#a2cad8e54e6cdecca5c8a58a411ef5a93", null ],
-    [ "CLOCK_APB2", "boards_2pyboard_2include_2periph__conf_8h.html#ab9db63572275f73c0933ab6733daf159", null ],
-    [ "CLOCK_APB2_DIV", "boards_2pyboard_2include_2periph__conf_8h.html#a34259b3a8aae08bd77bab9cecdf1398e", null ],
-    [ "CLOCK_CORECLOCK", "boards_2pyboard_2include_2periph__conf_8h.html#afc465f12242e68f6c3695caa3ba0a169", null ],
     [ "CLOCK_HSE", "boards_2pyboard_2include_2periph__conf_8h.html#a19d32ef5403d838f9398b9706618cb40", null ],
-    [ "CLOCK_LSE", "boards_2pyboard_2include_2periph__conf_8h.html#a727373fed6afe243f41b211f7e66b285", null ],
-    [ "CLOCK_PLL_M", "boards_2pyboard_2include_2periph__conf_8h.html#a5963e9d857a94bce3662fa83cc41b683", null ],
-    [ "CLOCK_PLL_N", "boards_2pyboard_2include_2periph__conf_8h.html#a1c3484818170fe048c55eaac9d56f46c", null ],
-    [ "CLOCK_PLL_P", "boards_2pyboard_2include_2periph__conf_8h.html#a160e6d888eff96d8853812e91d12df50", null ],
-    [ "CLOCK_PLL_Q", "boards_2pyboard_2include_2periph__conf_8h.html#a23ccdd51ab0cfa878079b30c696ad532", null ],
+    [ "CONFIG_BOARD_HAS_HSE", "boards_2pyboard_2include_2periph__conf_8h.html#a055813e339f41a120f81a18fe83a07c3", null ],
+    [ "CONFIG_BOARD_HAS_LSE", "boards_2pyboard_2include_2periph__conf_8h.html#acd2b9746c0b67c8fb0de7b7f01ac92f8", null ],
     [ "DMA_0_ISR", "boards_2pyboard_2include_2periph__conf_8h.html#a2fdb1dc5ea2635bc32b441656260ccac", null ],
     [ "DMA_1_ISR", "boards_2pyboard_2include_2periph__conf_8h.html#a25fa059ae942db695d6a43a1d25b57f1", null ],
     [ "DMA_NUMOF", "boards_2pyboard_2include_2periph__conf_8h.html#a2f98de3b4a6e380f0fc753dda86fefac", null ],
@@ -26,7 +16,6 @@ var boards_2pyboard_2include_2periph__conf_8h =
     [ "dma_config", "boards_2pyboard_2include_2periph__conf_8h.html#a000a75c48a709555803a5bdf2acb044c", null ],
     [ "i2c_config", "boards_2pyboard_2include_2periph__conf_8h.html#aa9dcbfbe7aa5baf027d834e5bca62a47", null ],
     [ "spi_config", "boards_2pyboard_2include_2periph__conf_8h.html#a873188d7292e07499dcde9674b1e849c", null ],
-    [ "spi_divtable", "boards_2pyboard_2include_2periph__conf_8h.html#ae3b1d06e940a46447dea0987400fdc04", null ],
     [ "timer_config", "boards_2pyboard_2include_2periph__conf_8h.html#a2dd41f782d2c67052e4dc7d37cef89b1", null ],
     [ "uart_config", "boards_2pyboard_2include_2periph__conf_8h.html#a1643cfc64589407fb96b4cbf908689a5", null ]
 ];

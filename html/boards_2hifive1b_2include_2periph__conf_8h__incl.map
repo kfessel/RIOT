@@ -1,2 +1,4 @@
 <map id="boards/hifive1b/include/periph_conf.h" name="boards/hifive1b/include/periph_conf.h">
+<area shape="rect" id="node1" title="Peripheral specific definitions for the HiFive1b RISC&#45;V board." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="40,95,145,121"/>
 </map>

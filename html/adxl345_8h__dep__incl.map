@@ -1,3 +1,4 @@
 <map id="drivers/include/adxl345.h" name="drivers/include/adxl345.h">
-<area shape="rect" id="node2" href="$adxl345__params_8h.html" title="Default configuration for ADXL345 devices. " alt="" coords="11,80,166,121"/>
+<area shape="rect" id="node1" title="Interface definition for the ADXL345." alt="" coords="5,5,192,32"/>
+<area shape="rect" id="node2" href="$adxl345__params_8h.html" title="Default configuration for ADXL345 devices." alt="" coords="11,80,186,121"/>
 </map>

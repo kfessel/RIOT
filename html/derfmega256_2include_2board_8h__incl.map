@@ -1,2 +1,20 @@
 <map id="boards/derfmega256/include/board.h" name="boards/derfmega256/include/board.h">
+<area shape="rect" id="node1" title="Board specific definitions for the deRFmega256 modules." alt="" coords="377,5,534,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="304,95,361,121"/>
+<area shape="rect" id="node3" href="$eeprom_8h.html" title="Low&#45;level eeprom driver interface." alt="" coords="560,95,689,121"/>
+<area shape="rect" id="node6" href="$eui__provider_8h.html" title="EUI&#45;48 and EUI&#45;64 address provider." alt="" coords="385,95,525,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="409,468,480,495"/>
+<area shape="rect" id="node5" title=" " alt="" coords="572,169,677,196"/>
+<area shape="rect" id="node7" href="$eui48_8h.html" title="Definition and IPv6 IID conversion for IEEE EUI&#45;48 identifiers." alt="" coords="397,169,492,196"/>
+<area shape="rect" id="node8" href="$eui64_8h.html" title="EUI&#45;64 data type definition." alt="" coords="483,244,577,271"/>
+<area shape="rect" id="node11" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface." alt="" coords="200,169,303,196"/>
+<area shape="rect" id="node9" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="533,319,631,345"/>
+<area shape="rect" id="node10" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="533,393,631,420"/>
+<area shape="rect" id="node12" href="$errno_8h.html" title=" " alt="" coords="163,244,231,271"/>
+<area shape="rect" id="node13" href="$iolist_8h.html" title="iolist scatter / gather IO" alt="" coords="71,244,138,271"/>
+<area shape="rect" id="node17" href="$netopt_8h.html" title="Definition of global configuration options." alt="" coords="255,244,357,271"/>
+<area shape="rect" id="node18" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="5,393,135,420"/>
+<area shape="rect" id="node14" href="$unistd_8h_source.html" title=" " alt="" coords="178,319,253,345"/>
+<area shape="rect" id="node15" title=" " alt="" coords="135,468,210,495"/>
+<area shape="rect" id="node16" href="$cpu_2atmega__common_2avr__libc__extra_2include_2sys_2types_8h_source.html" title=" " alt="" coords="210,393,306,420"/>
 </map>

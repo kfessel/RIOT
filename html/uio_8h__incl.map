@@ -1,4 +1,5 @@
 <map id="sys/libc/include/sys/uio.h" name="sys/libc/include/sys/uio.h">
-<area shape="rect" id="node2" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="9,95,73,121"/>
-<area shape="rect" id="node3" href="$malloc_8h.html" title="malloc.h" alt="" coords="5,169,76,196"/>
+<area shape="rect" id="node1" title="libc header for scatter/gather I/O" alt="" coords="20,5,168,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="101,95,197,121"/>
 </map>

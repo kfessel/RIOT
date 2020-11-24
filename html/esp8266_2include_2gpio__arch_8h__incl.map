@@ -1,3 +1,4 @@
 <map id="cpu/esp8266/include/gpio_arch.h" name="cpu/esp8266/include/gpio_arch.h">
-<area shape="rect" id="node2" href="$gpio__arch__common_8h.html" title="Architecture specific GPIO functions for ESP SoCs. " alt="" coords="5,95,152,121"/>
+<area shape="rect" id="node1" title="Architecture specific GPIO functions for ESP8266." alt="" coords="9,5,163,47"/>
+<area shape="rect" id="node2" href="$gpio__arch__common_8h.html" title="Architecture specific GPIO functions for ESP SoCs." alt="" coords="5,95,167,121"/>
 </map>

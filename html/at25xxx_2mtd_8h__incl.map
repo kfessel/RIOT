@@ -1,5 +1,12 @@
 <map id="drivers/include/at25xxx/mtd.h" name="drivers/include/at25xxx/mtd.h">
-<area shape="rect" id="node3" href="$at25xxx_8h.html" title="Driver for the AT25xxx series of EEPROMs. " alt="" coords="100,95,179,121"/>
-<area shape="rect" id="node5" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="215,169,304,196"/>
-<area shape="rect" id="node10" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="389,244,485,271"/>
+<area shape="rect" id="node1" title="Interface definition for at25xxx MTD wrapper." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="7,244,77,271"/>
+<area shape="rect" id="node3" href="$at25xxx_8h.html" title="Driver for the AT25xxx series of EEPROMs." alt="" coords="100,95,187,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="102,244,185,271"/>
+<area shape="rect" id="node5" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition." alt="" coords="229,169,327,196"/>
+<area shape="rect" id="node10" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="409,244,515,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="209,244,283,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="404,319,475,345"/>
+<area shape="rect" id="node8" title=" " alt="" coords="499,319,604,345"/>
+<area shape="rect" id="node9" title=" " alt="" coords="269,319,378,345"/>
 </map>

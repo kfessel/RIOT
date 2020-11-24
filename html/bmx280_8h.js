@@ -1,9 +1,9 @@
 var bmx280_8h =
 [
     [ "BMX280_RAW_LEN", "group__drivers__bmx280.html#gad55cd302f5f4271bcd5e152763b243d3", null ],
-    [ "BMX280_OK", "group__drivers__bmx280.html#gga97f905ac94bfebd46e50e32c7389e6ebad656ef45890e366ab0b62e82c8d8492e", null ],
-    [ "BMX280_ERR_BUS", "group__drivers__bmx280.html#gga97f905ac94bfebd46e50e32c7389e6eba3c258113e69309dc4e345ebfa03cd2ee", null ],
-    [ "BMX280_ERR_NODEV", "group__drivers__bmx280.html#gga97f905ac94bfebd46e50e32c7389e6eba3c2ff1851fa1744f9ac3e7d7a5048974", null ],
+    [ "BMX280_OK", "group__drivers__bmx280.html#ggacedc21792913cbec6ca54f6981c5edddad656ef45890e366ab0b62e82c8d8492e", null ],
+    [ "BMX280_ERR_BUS", "group__drivers__bmx280.html#ggacedc21792913cbec6ca54f6981c5eddda3c258113e69309dc4e345ebfa03cd2ee", null ],
+    [ "BMX280_ERR_NODEV", "group__drivers__bmx280.html#ggacedc21792913cbec6ca54f6981c5eddda3c2ff1851fa1744f9ac3e7d7a5048974", null ],
     [ "bmx280_filter_t", "group__drivers__bmx280.html#gaf0194620d1e46c8b30f340320121c24a", [
       [ "BMX280_FILTER_OFF", "group__drivers__bmx280.html#ggaf0194620d1e46c8b30f340320121c24aa1ac6832acfe74b3bbb0b5fbb7d68b960", null ],
       [ "BMX280_FILTER_2", "group__drivers__bmx280.html#ggaf0194620d1e46c8b30f340320121c24aa4ecc86a1268882245fae18f91e0ced10", null ],

@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structgcoap__request__memo.html" title="Memo to handle a response for a request. " alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node1" href="$structevtimer__event.html" title="Generic event." alt="" coords="5,5,123,32"/>
+<area shape="rect" id="node2" href="$structevtimer__msg__event__t.html" title="IPC&#45;message event." alt="" coords="171,5,335,32"/>
 </map>

@@ -1,6 +1,7 @@
 <map id="pkg/wakaama/include/lwm2m_client_config.h" name="pkg/wakaama/include/lwm2m_client_config.h">
-<area shape="rect" id="node2" href="$lwm2m__client_8h.html" title="Definitions and public API for a LwM2M client using Wakaama. " alt="" coords="137,95,285,136"/>
-<area shape="rect" id="node3" href="$lwm2m__client__connection_8h.html" title="Public API and definitions of the connection handle for LwM2M client implementation using Wakaama..." alt="" coords="5,184,192,225"/>
-<area shape="rect" id="node5" href="$pkg_2wakaama_2include_2objects_2device_8h.html" title="pkg/wakaama/include\l/objects/device.h" alt="" coords="309,95,457,136"/>
-<area shape="rect" id="node4" href="$lwm2m__client__objects_8h.html" title="Public API and definitions for the helper functions to interact with basic objects from a LwM2M clien..." alt="" coords="217,184,383,225"/>
+<area shape="rect" id="node1" title="LwM2M client configurations." alt="" coords="141,5,318,47"/>
+<area shape="rect" id="node2" href="$lwm2m__client_8h.html" title="Definitions and public API for a LwM2M client using Wakaama." alt="" coords="147,95,312,136"/>
+<area shape="rect" id="node3" href="$lwm2m__client__connection_8h.html" title="Public API and definitions of the connection handle for LwM2M client implementation using Wakaama." alt="" coords="5,184,213,225"/>
+<area shape="rect" id="node5" href="$pkg_2wakaama_2include_2objects_2device_8h.html" title=" " alt="" coords="336,95,501,136"/>
+<area shape="rect" id="node4" href="$lwm2m__client__objects_8h.html" title="Public API and definitions for the helper functions to interact with basic objects from a LwM2M clien..." alt="" coords="237,184,421,225"/>
 </map>

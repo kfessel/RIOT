@@ -21,11 +21,11 @@ var group__drivers__fxos8700 =
       [ "last_read_time", "structfxos8700__t.html#affaf5a87677ec4b728d249a3582e4475", null ],
       [ "mag_cached", "structfxos8700__t.html#a1b6761e0a91d4fd931f0e237dd8f22a9", null ],
       [ "p", "structfxos8700__t.html#a3638b95497496ca8cb66b9afb740fb52", null ],
-      [ "FXOS8700_OK", "group__drivers__fxos8700.html#gga1812ab31015cef0a41c6d4f3ae07f13daef084482114b7d2788279eea0c5639d8", null ],
-      [ "FXOS8700_ADDRERR", "group__drivers__fxos8700.html#gga1812ab31015cef0a41c6d4f3ae07f13da594f7358f9465b6201e1ea9a262bcb7b", null ],
-      [ "FXOS8700_NOBUS", "group__drivers__fxos8700.html#gga1812ab31015cef0a41c6d4f3ae07f13daa8dfc3d083f59eabba16eeac5b468081", null ],
-      [ "FXOS8700_NODEV", "group__drivers__fxos8700.html#gga1812ab31015cef0a41c6d4f3ae07f13da755e7cbceb14b2fb14f916e63b866773", null ],
-      [ "FXOS8700_BUSERR", "group__drivers__fxos8700.html#gga1812ab31015cef0a41c6d4f3ae07f13dae51939cc2100583094063797233f8c24", null ]
+      [ "FXOS8700_OK", "group__drivers__fxos8700.html#ggaad1afd468cb4339144d0997ddcf04748aef084482114b7d2788279eea0c5639d8", null ],
+      [ "FXOS8700_ADDRERR", "group__drivers__fxos8700.html#ggaad1afd468cb4339144d0997ddcf04748a594f7358f9465b6201e1ea9a262bcb7b", null ],
+      [ "FXOS8700_NOBUS", "group__drivers__fxos8700.html#ggaad1afd468cb4339144d0997ddcf04748aa8dfc3d083f59eabba16eeac5b468081", null ],
+      [ "FXOS8700_NODEV", "group__drivers__fxos8700.html#ggaad1afd468cb4339144d0997ddcf04748a755e7cbceb14b2fb14f916e63b866773", null ],
+      [ "FXOS8700_BUSERR", "group__drivers__fxos8700.html#ggaad1afd468cb4339144d0997ddcf04748ae51939cc2100583094063797233f8c24", null ]
     ] ],
     [ "fxos8700_init", "group__drivers__fxos8700.html#gac022ca08d06fd59b6d7cf6f765c71c60", null ],
     [ "fxos8700_read", "group__drivers__fxos8700.html#ga09e5b1d85b4d7177e78e34e239d1e3f3", null ],

@@ -14,6 +14,9 @@ var group__drivers__periph__gpio =
     [ "gpio_flank_t", "group__drivers__periph__gpio.html#ga0e8c3f46deb150e48acaa79fe26b2e86", [
       [ "GPIO_FALLING", "group__drivers__periph__gpio.html#gga0e8c3f46deb150e48acaa79fe26b2e86a1c87b67b13afe4418ae93fcf15989e8f", null ],
       [ "GPIO_RISING", "group__drivers__periph__gpio.html#gga0e8c3f46deb150e48acaa79fe26b2e86a5aa93b5cade41c8d41e61fbf69f3a2d7", null ],
+      [ "GPIO_BOTH", "group__drivers__periph__gpio.html#gga0e8c3f46deb150e48acaa79fe26b2e86a6c64bb6c299ea83e50f4a3e7513eaadf", null ],
+      [ "GPIO_FALLING", "group__drivers__periph__gpio.html#gga0e8c3f46deb150e48acaa79fe26b2e86a1c87b67b13afe4418ae93fcf15989e8f", null ],
+      [ "GPIO_RISING", "group__drivers__periph__gpio.html#gga0e8c3f46deb150e48acaa79fe26b2e86a5aa93b5cade41c8d41e61fbf69f3a2d7", null ],
       [ "GPIO_BOTH", "group__drivers__periph__gpio.html#gga0e8c3f46deb150e48acaa79fe26b2e86a6c64bb6c299ea83e50f4a3e7513eaadf", null ]
     ] ],
     [ "gpio_mode_t", "group__drivers__periph__gpio.html#ga491a2cbfb4e94f2afcc0d5bdef2dc454", [
@@ -29,6 +32,8 @@ var group__drivers__periph__gpio =
     [ "gpio_init_int", "group__drivers__periph__gpio.html#ga48ba4c318486db320a4bf6237b49d61c", null ],
     [ "gpio_irq_disable", "group__drivers__periph__gpio.html#ga7d4416fc8ea83ba82d259ced2eea563f", null ],
     [ "gpio_irq_enable", "group__drivers__periph__gpio.html#ga9d444ec9ffaeaeb42aa0a04206ec27d2", null ],
+    [ "gpio_is_equal", "group__drivers__periph__gpio.html#gaf0160800f2524bb7981b1a9e0ea5b92b", null ],
+    [ "gpio_is_valid", "group__drivers__periph__gpio.html#ga0c3767ed80df4ad880e5bb09520787ed", null ],
     [ "gpio_read", "group__drivers__periph__gpio.html#gaa0423d276f0426d3cf79180ce646edc7", null ],
     [ "gpio_set", "group__drivers__periph__gpio.html#ga5a4136d2b41a16dee4b8539d1690ea42", null ],
     [ "gpio_toggle", "group__drivers__periph__gpio.html#ga016c2a4e5d611bc64034f70e922f5d52", null ],

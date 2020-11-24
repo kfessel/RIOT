@@ -1,4 +1,11 @@
 <map id="drivers/include/pcd8544.h" name="drivers/include/pcd8544.h">
-<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="389,155,485,181"/>
-<area shape="rect" id="node7" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="189,80,279,107"/>
+<area shape="rect" id="node1" title="Interface definition for the PCD8544 LCD driver." alt="" coords="149,5,338,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,155,76,181"/>
+<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="407,155,514,181"/>
+<area shape="rect" id="node7" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition." alt="" coords="194,80,293,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="471,229,541,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="316,229,421,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="131,229,241,256"/>
+<area shape="rect" id="node8" title=" " alt="" coords="202,155,285,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="309,155,383,181"/>
 </map>

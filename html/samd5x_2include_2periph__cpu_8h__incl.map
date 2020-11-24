@@ -1,3 +1,6 @@
 <map id="cpu/samd5x/include/periph_cpu.h" name="cpu/samd5x/include/periph_cpu.h">
-<area shape="rect" id="node3" href="$units_8h.html" title="Unit helper macros. " alt="" coords="94,95,202,121"/>
+<area shape="rect" id="node1" title="CPU specific definitions for internal peripheral handling." alt="" coords="83,5,235,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" href="$units_8h.html" title="Unit helper macros." alt="" coords="100,95,219,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="243,95,412,121"/>
 </map>

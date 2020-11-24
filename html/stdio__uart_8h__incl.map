@@ -1,3 +1,9 @@
 <map id="sys/include/stdio_uart.h" name="sys/include/stdio_uart.h">
-<area shape="rect" id="node3" href="$stdio__base_8h.html" title="stdio_base.h" alt="" coords="95,80,191,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="9,5,185,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,76,107"/>
+<area shape="rect" id="node3" href="$stdio__base_8h.html" title=" " alt="" coords="101,80,205,107"/>
+<area shape="rect" id="node4" href="$unistd_8h_source.html" title=" " alt="" coords="115,155,190,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="66,304,141,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="184,304,255,331"/>
+<area shape="rect" id="node7" href="$cpu_2atmega__common_2avr__libc__extra_2include_2sys_2types_8h_source.html" title=" " alt="" coords="105,229,201,256"/>
 </map>

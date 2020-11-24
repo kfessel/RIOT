@@ -1,5 +1,11 @@
 <map id="sys/net/application_layer/dhcpv6/_dhcpv6.h" name="sys/net/application_layer/dhcpv6/_dhcpv6.h">
-<area shape="rect" id="node3" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="5,244,92,271"/>
-<area shape="rect" id="node4" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses. " alt="" coords="73,95,181,121"/>
-<area shape="rect" id="node7" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions. " alt="" coords="129,169,237,196"/>
+<area shape="rect" id="node1" title="Internal DHCPv6 definitions." alt="" coords="26,5,209,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="63,393,134,420"/>
+<area shape="rect" id="node3" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="94,244,191,271"/>
+<area shape="rect" id="node5" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses." alt="" coords="205,95,325,121"/>
+<area shape="rect" id="node4" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="93,319,192,345"/>
+<area shape="rect" id="node6" title=" " alt="" coords="365,244,448,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="401,169,471,196"/>
+<area shape="rect" id="node8" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions." alt="" coords="205,169,325,196"/>
+<area shape="rect" id="node9" title=" " alt="" coords="267,244,341,271"/>
 </map>

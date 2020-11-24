@@ -1,0 +1,6 @@
+<map id="pkg/uwb&#45;dw1000/include/syscfg_uwb_dw1000.h" name="pkg/uwb&#45;dw1000/include/syscfg_uwb_dw1000.h">
+<area shape="rect" id="node1" title="uwb&#45;dw1000 module configurations taken from decawave&#45;uwb&#45;dw1000/hw/drivers/uwb/uwb_dw1000" alt="" coords="5,5,189,47"/>
+<area shape="rect" id="node2" href="$syscfg_8h.html" title="uwb&#45;core system configurations" alt="" coords="17,95,178,136"/>
+<area shape="rect" id="node3" href="$dpl_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="17,184,178,225"/>
+<area shape="rect" id="node4" href="$os__dev_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="17,273,178,315"/>
+</map>

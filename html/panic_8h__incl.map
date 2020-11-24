@@ -1,3 +1,6 @@
 <map id="core/include/panic.h" name="core/include/panic.h">
-<area shape="rect" id="node2" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="16,80,133,107"/>
+<area shape="rect" id="node1" title="Crash handling header." alt="" coords="15,5,167,32"/>
+<area shape="rect" id="node2" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="26,80,155,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,155,80,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="105,155,175,181"/>
 </map>

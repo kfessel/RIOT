@@ -2,6 +2,8 @@ var dir_cef73202fc4332b45056b317fd4cdeb5 =
 [
     [ "freertos", "dir_6db7db9309ee08511bbb1ee0cbeb89c5.html", "dir_6db7db9309ee08511bbb1ee0cbeb89c5" ],
     [ "sys", "dir_6f05a7b61ff5ff11bba7aee4252f9193.html", "dir_6f05a7b61ff5ff11bba7aee4252f9193" ],
+    [ "architecture_arch.h", "esp__common_2include_2architecture__arch_8h.html", null ],
+    [ "atomic_utils_arch.h", "esp__common_2include_2atomic__utils__arch_8h.html", null ],
     [ "cpu.h", "esp__common_2include_2cpu_8h.html", "esp__common_2include_2cpu_8h" ],
     [ "cpu_conf_common.h", "esp__common_2include_2cpu__conf__common_8h.html", "esp__common_2include_2cpu__conf__common_8h" ],
     [ "esp_common.h", "esp__common_8h.html", null ],

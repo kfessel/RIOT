@@ -1,3 +1,4 @@
 <map id="sys/include/net/gnrc/rpl/dodag.h" name="sys/include/net/gnrc/rpl/dodag.h">
-<area shape="rect" id="node2" href="$rpl_8h.html" title="RPL header. " alt="" coords="5,95,144,136"/>
+<area shape="rect" id="node1" title="DODAG&#45;related functions for RPL." alt="" coords="5,5,157,47"/>
+<area shape="rect" id="node2" href="$rpl_8h.html" title="RPL header. Declaration of global variables and functions needed for core functionality of RPL." alt="" coords="5,95,157,136"/>
 </map>

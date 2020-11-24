@@ -1,4 +1,10 @@
 <map id="boards/seeeduino_arch&#45;pro/include/board.h" name="boards/seeeduino_arch&#45;pro/include/board.h">
-<area shape="rect" id="node3" href="$boards_2seeeduino__arch-pro_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Seeeduino Archo Pro board. " alt="" coords="84,95,184,121"/>
-<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="209,95,305,121"/>
+<area shape="rect" id="node1" title="Board specific definitions for the Seeduino Arch Pro board." alt="" coords="89,5,261,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="39,95,96,121"/>
+<area shape="rect" id="node3" href="$boards_2seeeduino__arch-pro_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Seeeduino Archo Pro board." alt="" coords="121,95,230,121"/>
+<area shape="rect" id="node6" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="254,95,361,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="143,169,248,196"/>
+<area shape="rect" id="node5" href="$seeeduino__arch-pro_2include_2vendor__conf_8h.html" title="CMSIS Cortex&#45;M3 Device Peripheral Access Layer Source File for the NXP LPC17xx Device Series." alt="" coords="5,169,119,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="272,169,343,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="367,169,477,196"/>
 </map>

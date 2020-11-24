@@ -18,5 +18,8 @@ var lobaro_lorabox_2include_2board_8h =
     [ "SX127X_PARAM_DIO3", "lobaro-lorabox_2include_2board_8h.html#ac917eea6062e10a46800eed21dd3c59b", null ],
     [ "SX127X_PARAM_RESET", "lobaro-lorabox_2include_2board_8h.html#ae05bb210c4d80e12824dc022bf5c438d", null ],
     [ "SX127X_PARAM_SPI_NSS", "lobaro-lorabox_2include_2board_8h.html#a0de61f26012008e2bbb3feeab7584395", null ],
+    [ "XTIMER_BACKOFF", "lobaro-lorabox_2include_2board_8h.html#a370b9e9a079c4cb4f54fd947b67b9f41", null ],
+    [ "XTIMER_ISR_BACKOFF", "lobaro-lorabox_2include_2board_8h.html#aa1be564fc21297d7c1c8be267cbd36f6", null ],
+    [ "XTIMER_WIDTH", "lobaro-lorabox_2include_2board_8h.html#afea1be2406d45b8fbb1dca1a318ac2dc", null ],
     [ "board_init", "lobaro-lorabox_2include_2board_8h.html#a916f2adc2080b4fe88034086d107a8dc", null ]
 ];

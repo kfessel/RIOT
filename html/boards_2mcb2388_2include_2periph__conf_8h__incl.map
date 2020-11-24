@@ -1,3 +1,7 @@
 <map id="boards/mcb2388/include/periph_conf.h" name="boards/mcb2388/include/periph_conf.h">
-<area shape="rect" id="node3" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="125,95,243,121"/>
+<area shape="rect" id="node1" title="MCB2388 peripheral configuration." alt="" coords="38,5,219,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,111,121"/>
+<area shape="rect" id="node3" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="135,95,264,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="113,169,187,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="212,169,283,196"/>
 </map>

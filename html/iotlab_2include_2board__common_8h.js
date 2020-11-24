@@ -22,11 +22,6 @@ var iotlab_2include_2board__common_8h =
     [ "LED2_ON", "group__boards__common__iotlab.html#gab55f588eb2c5177d3f7806e60d379fba", null ],
     [ "LED2_PIN", "group__boards__common__iotlab.html#gaf6f84078113b55354d20585131b386f7", null ],
     [ "LED2_TOGGLE", "group__boards__common__iotlab.html#gacd16785845ce7004334b91a98707f8eb", null ],
-    [ "PORT_delayTx", "group__boards__common__iotlab.html#gad5778702c9656470618b2d8c1c82423a", null ],
-    [ "PORT_maxRxAckPrepare", "group__boards__common__iotlab.html#ga238f21ff0cb8bed569124960f22f882e", null ],
-    [ "PORT_maxRxDataPrepare", "group__boards__common__iotlab.html#ga9e21d179374e68398446ff4353ad8318", null ],
-    [ "PORT_maxTxAckPrepare", "group__boards__common__iotlab.html#ga8c4fcdb6e44dcf5103f7f727b2cf42b8", null ],
-    [ "PORT_maxTxDataPrepare", "group__boards__common__iotlab.html#gaf45f329a1d2c1097af1d022b6363b0ed", null ],
     [ "STDIO_UART_BAUDRATE", "group__boards__common__iotlab.html#gab2f12549369d69d3db8f38d49c8ca507", null ],
     [ "XTIMER_WIDTH", "group__boards__common__iotlab.html#gafea1be2406d45b8fbb1dca1a318ac2dc", null ],
     [ "board_init", "group__boards__common__iotlab.html#ga916f2adc2080b4fe88034086d107a8dc", null ]

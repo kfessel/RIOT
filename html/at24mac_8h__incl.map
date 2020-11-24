@@ -1,7 +1,13 @@
 <map id="drivers/include/at24mac.h" name="drivers/include/at24mac.h">
-<area shape="rect" id="node3" href="$eui48_8h.html" title="Definition and IPv6 IID conversion for IEEE EUI&#45;48 identifiers. " alt="" coords="31,80,118,107"/>
-<area shape="rect" id="node4" href="$eui64_8h.html" title="EUI&#45;64 data type definition. " alt="" coords="98,155,184,181"/>
-<area shape="rect" id="node6" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition. " alt="" coords="375,80,464,107"/>
-<area shape="rect" id="node5" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="132,229,219,256"/>
-<area shape="rect" id="node11" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="646,155,785,181"/>
+<area shape="rect" id="node1" title=" " alt="" coords="38,5,229,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="97,379,167,405"/>
+<area shape="rect" id="node3" href="$eui48_8h.html" title="Definition and IPv6 IID conversion for IEEE EUI&#45;48 identifiers." alt="" coords="43,80,138,107"/>
+<area shape="rect" id="node4" href="$eui64_8h.html" title="EUI&#45;64 data type definition." alt="" coords="111,155,206,181"/>
+<area shape="rect" id="node7" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition." alt="" coords="404,80,503,107"/>
+<area shape="rect" id="node5" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="145,229,242,256"/>
+<area shape="rect" id="node6" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="195,304,293,331"/>
+<area shape="rect" id="node8" title=" " alt="" coords="368,155,443,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="467,155,538,181"/>
+<area shape="rect" id="node10" title=" " alt="" coords="563,155,672,181"/>
+<area shape="rect" id="node11" title=" " alt="" coords="697,155,802,181"/>
 </map>

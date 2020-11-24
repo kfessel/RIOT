@@ -1,0 +1,6 @@
+<map id="pkg/uwb&#45;core/include/syscfg/syscfg_twr_ds.h" name="pkg/uwb&#45;core/include/syscfg/syscfg_twr_ds.h">
+<area shape="rect" id="node1" title="uwb&#45;dw100 double side two&#45;way ranging module configurations taken from decawave&#45;uwb&#45;core/lib/twr_ds/s..." alt="" coords="5,5,181,47"/>
+<area shape="rect" id="node2" href="$syscfg_8h.html" title="uwb&#45;core system configurations" alt="" coords="13,95,174,136"/>
+<area shape="rect" id="node3" href="$dpl_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="13,184,174,225"/>
+<area shape="rect" id="node4" href="$os__dev_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="13,273,174,315"/>
+</map>

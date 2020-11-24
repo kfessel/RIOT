@@ -1,3 +1,4 @@
 <map id="drivers/include/mag3110.h" name="drivers/include/mag3110.h">
-<area shape="rect" id="node2" href="$mag3110__params_8h.html" title="Default configuration for MAG3110 devices. " alt="" coords="11,80,174,121"/>
+<area shape="rect" id="node1" title="Interface definition for the MAG3110 magnetometer driver." alt="" coords="5,5,200,32"/>
+<area shape="rect" id="node2" href="$mag3110__params_8h.html" title="Default configuration for MAG3110 devices." alt="" coords="11,80,194,121"/>
 </map>

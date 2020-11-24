@@ -29,7 +29,7 @@ var group__usbus__cdc__ecm =
     [ "CONFIG_USBUS_CDC_ECM_CONFIG_SPEED_UPSTREAM", "group__usbus__cdc__ecm.html#ga424f2e3ae5a47ada3599fe989b7df512", null ],
     [ "USBUS_CDCECM_EP_CTRL_SIZE", "group__usbus__cdc__ecm.html#ga54e3abe1429f747ace7dde6b1972da34", null ],
     [ "USBUS_CDCECM_EP_DATA_SIZE", "group__usbus__cdc__ecm.html#ga66117434eb5762ea279e7daf55884231", null ],
-    [ "usbus_cdcecm_device_t", "group__usbus__cdc__ecm.html#gace4e662ba72ee069473b56ffb474e73f", null ],
+    [ "usbus_cdcecm_device_t", "group__usbus__cdc__ecm.html#gacc7d251e4621ec877ebe2508e6596271", null ],
     [ "usbus_cdcecm_notif_t", "group__usbus__cdc__ecm.html#ga76d14441c853f99f12d25b8b2af97221", [
       [ "USBUS_CDCECM_NOTIF_NONE", "group__usbus__cdc__ecm.html#gga76d14441c853f99f12d25b8b2af97221a6caa2a96edc138af86a6ea0e250f754b", null ],
       [ "USBUS_CDCECM_NOTIF_LINK_UP", "group__usbus__cdc__ecm.html#gga76d14441c853f99f12d25b8b2af97221aa8dc72fd5846bc3020e2ec5f15cc3a24", null ],

@@ -1,4 +1,9 @@
 <map id="pkg/openwsn/include/openwsn_debugpins_params.h" name="pkg/openwsn/include/openwsn_debugpins_params.h">
-<area shape="rect" id="node2" href="$openwsn__debugpins_8h.html" title="Provides an adaption of OpenWSN debug pin handling to RIOTs handling of GPIOs. " alt="" coords="66,95,217,121"/>
-<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,169,189,196"/>
+<area shape="rect" id="node1" title="Default configuration for the OpenWSN debugpins." alt="" coords="5,5,232,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="13,95,83,121"/>
+<area shape="rect" id="node3" href="$openwsn__debugpins_8h.html" title="Provides an adaption of OpenWSN debug pin handling to RIOTs handling of GPIOs." alt="" coords="107,95,274,121"/>
+<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="137,169,244,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="43,244,114,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="138,244,243,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="268,244,377,271"/>
 </map>

@@ -11,6 +11,7 @@ var structclk__cfg__t =
     [ "hsi_prediv", "structclk__cfg__t.html#ae2337a02edce6d9275de4e706ab003b8", null ],
     [ "max_apb1", "structclk__cfg__t.html#a0312f92cbff96343035172a3ab5cd49c", null ],
     [ "max_apb2", "structclk__cfg__t.html#af3827fb1aafd95986ebd944dea4f360e", null ],
+    [ "max_apb3", "structclk__cfg__t.html#a7289691e21bc1a505b2d484d315681dc", null ],
     [ "max_coreclock", "structclk__cfg__t.html#a0f5e5530f2e8f9858db7ca7be838cfb4", null ],
     [ "need_48MHz", "structclk__cfg__t.html#af09635cbdebf3bdf0cca8252169230f4", null ],
     [ "pll", "structclk__cfg__t.html#a80a69b8e036ab088d161308199771351", null ]

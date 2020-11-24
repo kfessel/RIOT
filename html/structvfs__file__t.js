@@ -6,7 +6,7 @@ var structvfs__file__t =
     [ "mp", "structvfs__file__t.html#a313adbcd336d5b19e7fa0c14632783cb", null ],
     [ "pid", "structvfs__file__t.html#a58686ba2e673bf443610b2d73761bbc8", null ],
     [ "pos", "structvfs__file__t.html#af8e66251bc47c18a66c52b55101f0dd7", null ],
-    [ "private_data", "structvfs__file__t.html#ac0976352ba29e03d81b3af80d788c874", null ],
+    [ "private_data", "structvfs__file__t.html#a163268737307f40909ee20011dc38ac8", null ],
     [ "ptr", "structvfs__file__t.html#a0a2e8a328d7b72cd59cfae57b6ca649e", null ],
     [ "value", "structvfs__file__t.html#aa21c9be371467bff277d77d5328f6e86", null ]
 ];

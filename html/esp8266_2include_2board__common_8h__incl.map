@@ -1,6 +1,14 @@
 <map id="boards/common/esp8266/include/board_common.h" name="boards/common/esp8266/include/board_common.h">
-<area shape="rect" id="node5" href="$esp8266_2include_2periph__conf__common_8h.html" title="Configurations of the MCU periphery that are common for all ESP8266 boards. " alt="" coords="422,95,579,121"/>
-<area shape="rect" id="node9" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="302,95,398,121"/>
-<area shape="rect" id="node12" href="$common_2esp8266_2include_2board__modules_8h.html" title="Definitions for optional off&#45;board hardware modules that can be used with all ESP8266 boards..." alt="" coords="27,95,148,121"/>
-<area shape="rect" id="node7" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="537,169,654,196"/>
+<area shape="rect" id="node1" title="Board definitions that are common for all ESP8266 boards." alt="" coords="405,5,596,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="143,244,213,271"/>
+<area shape="rect" id="node3" title=" " alt="" coords="629,95,687,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="594,169,703,196"/>
+<area shape="rect" id="node5" href="$esp8266_2include_2periph__conf__common_8h.html" title="Configurations of the MCU periphery that are common for all ESP8266 boards." alt="" coords="248,95,423,121"/>
+<area shape="rect" id="node9" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="447,95,554,121"/>
+<area shape="rect" id="node11" title=" " alt="" coords="711,95,771,121"/>
+<area shape="rect" id="node12" href="$common_2esp8266_2include_2board__modules_8h.html" title="Definitions for optional off&#45;board hardware modules that can be used with all ESP8266 boards." alt="" coords="5,169,140,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="369,169,475,196"/>
+<area shape="rect" id="node7" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="216,169,345,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="243,244,318,271"/>
+<area shape="rect" id="node10" title=" " alt="" coords="499,169,569,196"/>
 </map>

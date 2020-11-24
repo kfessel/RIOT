@@ -1,3 +1,5 @@
 <map id="boards/atmega256rfr2&#45;xpro/include/periph_conf.h" name="boards/atmega256rfr2&#45;xpro/include/periph_conf.h">
-<area shape="rect" id="node2" href="$periph__conf__atmega__common_8h.html" title="Common configuration of MCU periphery for ATmega boards. " alt="" coords="10,109,149,151"/>
+<area shape="rect" id="node1" title="Peripheral MCU configuration for the Atmega256RFR2 Xplained Pro." alt="" coords="5,5,172,61"/>
+<area shape="rect" id="node2" href="$periph__conf__atmega__common_8h.html" title="Common configuration of MCU periphery for ATmega boards." alt="" coords="11,109,166,151"/>
+<area shape="rect" id="node3" title=" " alt="" coords="36,199,141,225"/>
 </map>

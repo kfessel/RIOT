@@ -1,7 +1,6 @@
 var samd21_2include_2periph__cpu_8h =
 [
-    [ "pwm_conf_chan_t", "structpwm__conf__chan__t.html", "structpwm__conf__chan__t" ],
-    [ "pwm_conf_t", "structpwm__conf__t.html", "structpwm__conf__t" ],
+    [ "sam0_aux_cfg_mapping", "structsam0__aux__cfg__mapping.html", "structsam0__aux__cfg__mapping" ],
     [ "DAC_NUMOF", "samd21_2include_2periph__cpu_8h.html#a2d6ae6694d0a51952fb26d994de93d12", null ],
     [ "DAC_RES_BITS", "samd21_2include_2periph__cpu_8h.html#a59201a381b7ecbc7a856d1d88724878e", null ],
     [ "PM_BLOCKER_INITIAL", "samd21_2include_2periph__cpu_8h.html#a48c3b6f4d20928e0c688bf36ed4b76a3", null ],
@@ -16,9 +15,10 @@ var samd21_2include_2periph__cpu_8h =
     [ "SAMD21_PM_IDLE_2", "samd21_2include_2periph__cpu_8h.html#a87ca18a9f893ba7f5a581e7eb1f00260", null ],
     [ "SAMD21_PM_STANDBY", "samd21_2include_2periph__cpu_8h.html#aadcbcbce071aee061892712bfb3bbe84", null ],
     [ "SPI_HWCS", "samd21_2include_2periph__cpu_8h.html#a292c9a0a5b03329a153ad28343ff2e09", null ],
-    [ "SAM0_GCLK_MAIN", "samd21_2include_2periph__cpu_8h.html#a950bf8e3371138ceb9649d45e9a96340a67031065696efef7697b5341140c1748", null ],
-    [ "SAM0_GCLK_1MHZ", "samd21_2include_2periph__cpu_8h.html#a950bf8e3371138ceb9649d45e9a96340ac245ed26a53a914eb84963b8b7d4d502", null ],
-    [ "SAM0_GCLK_32KHZ", "samd21_2include_2periph__cpu_8h.html#a950bf8e3371138ceb9649d45e9a96340a9fe7340f432a0210661fde5a7fd357d6", null ],
-    [ "SAM0_GCLK_1KHZ", "samd21_2include_2periph__cpu_8h.html#a950bf8e3371138ceb9649d45e9a96340a875bb4c9ab2599216d5c2c17e7e10689", null ],
+    [ "SAM0_GCLK_MAIN", "samd21_2include_2periph__cpu_8h.html#a4f126a0a9b1d8c6a8f46a051ef8830bba67031065696efef7697b5341140c1748", null ],
+    [ "SAM0_GCLK_1MHZ", "samd21_2include_2periph__cpu_8h.html#a4f126a0a9b1d8c6a8f46a051ef8830bbac245ed26a53a914eb84963b8b7d4d502", null ],
+    [ "SAM0_GCLK_32KHZ", "samd21_2include_2periph__cpu_8h.html#a4f126a0a9b1d8c6a8f46a051ef8830bba9fe7340f432a0210661fde5a7fd357d6", null ],
+    [ "SAM0_GCLK_1KHZ", "samd21_2include_2periph__cpu_8h.html#a4f126a0a9b1d8c6a8f46a051ef8830bba875bb4c9ab2599216d5c2c17e7e10689", null ],
+    [ "SAM0_GCLK_DISABLED", "samd21_2include_2periph__cpu_8h.html#a4f126a0a9b1d8c6a8f46a051ef8830bba67992baaf311d6e7318e5ce9cb17483b", null ],
     [ "_sercom_id", "samd21_2include_2periph__cpu_8h.html#ad427f7d340f82901b240488441ae1599", null ]
 ];

@@ -1,3 +1,4 @@
 <map id="cpu/native/include/candev_linux.h" name="cpu/native/include/candev_linux.h">
-<area shape="rect" id="node2" href="$candev__linux__params_8h.html" title="Default linux can config. " alt="" coords="5,95,168,136"/>
+<area shape="rect" id="node1" title="Implementation of simulated CAN controller driver using SocketCAN on Linux." alt="" coords="5,5,147,47"/>
+<area shape="rect" id="node2" href="$native_2include_2can__params_8h.html" title="Default linux can config." alt="" coords="5,95,147,136"/>
 </map>

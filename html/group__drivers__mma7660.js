@@ -17,11 +17,11 @@ var group__drivers__mma7660 =
       [ "x", "structmma7660__data__t.html#a051ec7114b47397b02b97b30f711124d", null ],
       [ "y", "structmma7660__data__t.html#a63c520f45d9598e64ae7e5f4d63e4f2e", null ],
       [ "z", "structmma7660__data__t.html#afd3d0ec28d060cfca753649aa1f73628", null ],
-      [ "MMA7660_OK", "group__drivers__mma7660.html#gga12acb3634428eafc5724df6d836f4e64a3a133d76520420fdac37e8384185aa9a", null ],
-      [ "MMA7660_I2C_ERR", "group__drivers__mma7660.html#gga12acb3634428eafc5724df6d836f4e64ad42bb0a6dc5da42ec90d8205d69e8314", null ],
-      [ "MMA7660_I2C_READ_ERR", "group__drivers__mma7660.html#gga12acb3634428eafc5724df6d836f4e64af4a09a0dc9ec05953172bc320016aae3", null ],
-      [ "MMA7660_I2C_WRITE_ERR", "group__drivers__mma7660.html#gga12acb3634428eafc5724df6d836f4e64acecab4c5b8daa70da71443b078b13f7a", null ],
-      [ "MMA7660_READ_ERR", "group__drivers__mma7660.html#gga12acb3634428eafc5724df6d836f4e64a17cccb2d40230ea4bdf67ed7acace7f8", null ]
+      [ "MMA7660_OK", "group__drivers__mma7660.html#ggaeb8d583a31cccbb8cf9b452a8e298063a3a133d76520420fdac37e8384185aa9a", null ],
+      [ "MMA7660_I2C_ERR", "group__drivers__mma7660.html#ggaeb8d583a31cccbb8cf9b452a8e298063ad42bb0a6dc5da42ec90d8205d69e8314", null ],
+      [ "MMA7660_I2C_READ_ERR", "group__drivers__mma7660.html#ggaeb8d583a31cccbb8cf9b452a8e298063af4a09a0dc9ec05953172bc320016aae3", null ],
+      [ "MMA7660_I2C_WRITE_ERR", "group__drivers__mma7660.html#ggaeb8d583a31cccbb8cf9b452a8e298063acecab4c5b8daa70da71443b078b13f7a", null ],
+      [ "MMA7660_READ_ERR", "group__drivers__mma7660.html#ggaeb8d583a31cccbb8cf9b452a8e298063a17cccb2d40230ea4bdf67ed7acace7f8", null ]
     ] ],
     [ "mma7660_config_interrupts", "group__drivers__mma7660.html#gaf1732ba9d7e33b8666d679325e31a7e1", null ],
     [ "mma7660_config_pd", "group__drivers__mma7660.html#gae9469d9921288a9f6889a1d9b410b24f", null ],

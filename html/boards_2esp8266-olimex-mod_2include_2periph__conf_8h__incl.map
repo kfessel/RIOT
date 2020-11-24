@@ -1,2 +1,5 @@
 <map id="boards/esp8266&#45;olimex&#45;mod/include/periph_conf.h" name="boards/esp8266&#45;olimex&#45;mod/include/periph_conf.h">
+<area shape="rect" id="node1" title="Board specific configuration of MCU periphery for Olimex MOD&#45;WIFI&#45;ESP8266&#45;DEV boards." alt="" coords="15,5,213,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,95,275,121"/>
 </map>

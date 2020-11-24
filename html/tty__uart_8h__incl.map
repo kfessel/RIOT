@@ -1,4 +1,9 @@
 <map id="cpu/native/include/tty_uart.h" name="cpu/native/include/tty_uart.h">
-<area shape="rect" id="node2" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition. " alt="" coords="226,95,321,121"/>
-<area shape="rect" id="node8" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="448,169,587,196"/>
+<area shape="rect" id="node1" title="UART implementation based on /dev/tty devices on host." alt="" coords="164,5,305,47"/>
+<area shape="rect" id="node2" href="$uart_8h.html" title="Low&#45;level UART peripheral driver interface definition." alt="" coords="182,95,287,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,80,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="105,169,175,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="199,169,270,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="294,169,399,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="424,169,533,196"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="drivers/cc110x/include/cc110x_settings.h" name="drivers/cc110x/include/cc110x_settings.h">
-<area shape="rect" id="node2" href="$cc110x__internal_8h.html" title="Internal functions of the CC110x transceiver driver. " alt="" coords="5,95,157,136"/>
-<area shape="rect" id="node3" href="$cc110x__params_8h.html" title="cc110x board specific configuration " alt="" coords="181,95,333,136"/>
+<area shape="rect" id="node1" title="Default settings of the TI CC1100/CC1101 transceiver." alt="" coords="101,5,269,47"/>
+<area shape="rect" id="node2" href="$cc110x__internal_8h.html" title="Internal functions of the CC110x transceiver driver." alt="" coords="5,95,173,136"/>
+<area shape="rect" id="node3" href="$cc110x__params_8h.html" title="cc110x board specific configuration" alt="" coords="197,95,365,136"/>
 </map>

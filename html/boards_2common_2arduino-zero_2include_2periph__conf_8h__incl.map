@@ -1,2 +1,6 @@
 <map id="boards/common/arduino&#45;zero/include/periph_conf.h" name="boards/common/arduino&#45;zero/include/periph_conf.h">
+<area shape="rect" id="node1" title="Configuration of CPU peripherals for Arduino Zero board and clones." alt="" coords="39,5,219,61"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,109,76,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,109,157,136"/>
+<area shape="rect" id="node4" title=" " alt="" coords="181,109,287,136"/>
 </map>

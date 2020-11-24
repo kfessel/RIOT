@@ -1,5 +1,10 @@
 <map id="boards/mcb2388/include/board.h" name="boards/mcb2388/include/board.h">
-<area shape="rect" id="node2" href="$lpc2387_8h_source.html" title="lpc2387.h" alt="" coords="171,95,249,121"/>
-<area shape="rect" id="node4" href="$arm7__common_8h.html" title="ARM7 CPU common declarations. " alt="" coords="151,169,269,196"/>
-<area shape="rect" id="node5" href="$bitarithm_8h.html" title="Helper functions for bit arithmetic. " alt="" coords="217,244,299,271"/>
+<area shape="rect" id="node1" title="Basic definitions for the MCB2388 board." alt="" coords="187,5,369,47"/>
+<area shape="rect" id="node2" href="$lpc23xx_8h_source.html" title=" " alt="" coords="187,95,273,121"/>
+<area shape="rect" id="node8" title=" " alt="" coords="297,95,357,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,140,196"/>
+<area shape="rect" id="node4" href="$arm7__common_8h.html" title="ARM7 CPU common declarations." alt="" coords="164,169,296,196"/>
+<area shape="rect" id="node5" href="$bitarithm_8h.html" title="Helper functions for bit arithmetic." alt="" coords="235,244,329,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="195,319,265,345"/>
+<area shape="rect" id="node7" title=" " alt="" coords="290,319,381,345"/>
 </map>

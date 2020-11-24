@@ -1,3 +1,4 @@
 <map id="sys/include/net/gnrc/sixlowpan/frag.h" name="sys/include/net/gnrc/sixlowpan/frag.h">
-<area shape="rect" id="node2" href="$gnrc_2sixlowpan_8h.html" title="Definitions for 6LoWPAN. " alt="" coords="5,95,144,136"/>
+<area shape="rect" id="node1" title="6LoWPAN Fragmentation definitions" alt="" coords="5,5,157,47"/>
+<area shape="rect" id="node2" href="$gnrc_2sixlowpan_8h.html" title="Definitions for 6LoWPAN." alt="" coords="5,95,157,136"/>
 </map>

@@ -1,9 +1,10 @@
 <map id="cpu/atmega_common/include/atmega_regs_common.h" name="cpu/atmega_common/include/atmega_regs_common.h">
-<area shape="rect" id="node2" href="$atmega128rfa1_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling. " alt="" coords="5,95,184,136"/>
-<area shape="rect" id="node3" href="$atmega256rfr2_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling. " alt="" coords="209,95,383,136"/>
-<area shape="rect" id="node4" href="$atmega__common_2include_2cpu__conf_8h.html" title="Implementation specific CPU configuration options. " alt="" coords="408,95,600,136"/>
-<area shape="rect" id="node5" href="$atmega__common_2include_2cpu_8h.html" title="Common implementations and headers for ATmega family based micro&#45;controllers. " alt="" coords="408,184,600,225"/>
-<area shape="rect" id="node6" href="$atmega__gpio_8h.html" title="Macros and inline functions for accessing GPIOs of the ATmega family. " alt="" coords="192,273,384,315"/>
-<area shape="rect" id="node7" href="$atmega__common_2include_2irq__arch_8h.html" title="Implementation of the kernels irq interface. " alt="" coords="408,273,600,315"/>
-<area shape="rect" id="node8" href="$atmega__common_2include_2periph__cpu__common_8h.html" title="CPU specific definitions for internal peripheral handling. " alt="" coords="624,273,816,315"/>
+<area shape="rect" id="node1" title="CMSIS style register definitions for the atmega family." alt="" coords="221,5,435,47"/>
+<area shape="rect" id="node2" href="$atmega128rfa1_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling." alt="" coords="5,95,205,136"/>
+<area shape="rect" id="node3" href="$atmega256rfr2_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling." alt="" coords="229,95,427,136"/>
+<area shape="rect" id="node4" href="$atmega__common_2include_2cpu__conf_8h.html" title="Implementation specific CPU configuration options." alt="" coords="451,95,666,136"/>
+<area shape="rect" id="node5" href="$atmega__common_2include_2cpu_8h.html" title="Common implementations and headers for ATmega family based micro&#45;controllers." alt="" coords="451,184,666,225"/>
+<area shape="rect" id="node6" href="$atmega__gpio_8h.html" title="Macros and inline functions for accessing GPIOs of the ATmega family." alt="" coords="213,273,427,315"/>
+<area shape="rect" id="node7" href="$atmega__common_2include_2irq__arch_8h.html" title="Implementation of the kernels irq interface." alt="" coords="451,273,666,315"/>
+<area shape="rect" id="node8" href="$atmega__common_2include_2periph__cpu__common_8h.html" title="CPU specific definitions for internal peripheral handling." alt="" coords="690,273,905,315"/>
 </map>

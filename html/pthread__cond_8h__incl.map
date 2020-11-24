@@ -1,5 +1,23 @@
 <map id="sys/posix/pthread/include/pthread_cond.h" name="sys/posix/pthread/include/pthread_cond.h">
-<area shape="rect" id="node3" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="227,95,296,121"/>
-<area shape="rect" id="node7" href="$priority__queue_8h.html" title="A simple priority queue. " alt="" coords="88,95,203,121"/>
-<area shape="rect" id="node6" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="296,169,347,196"/>
+<area shape="rect" id="node1" title="RIOT POSIX condition variable API." alt="" coords="517,5,705,47"/>
+<area shape="rect" id="node2" href="$time_8h_source.html" title=" " alt="" coords="299,95,363,121"/>
+<area shape="rect" id="node4" href="$mutex_8h.html" title="Mutex for thread synchronization." alt="" coords="573,95,649,121"/>
+<area shape="rect" id="node21" href="$priority__queue_8h.html" title="A simple priority queue." alt="" coords="853,468,981,495"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,101,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="544,543,619,569"/>
+<area shape="rect" id="node6" title=" " alt="" coords="831,543,902,569"/>
+<area shape="rect" id="node7" href="$irq_8h.html" title="IRQ driver interface." alt="" coords="636,169,687,196"/>
+<area shape="rect" id="node10" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="639,468,769,495"/>
+<area shape="rect" id="node11" href="$list_8h.html" title="Intrusive linked list." alt="" coords="203,468,258,495"/>
+<area shape="rect" id="node12" href="$core_2include_2thread_8h.html" title="Threading API." alt="" coords="481,169,557,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="675,319,757,345"/>
+<area shape="rect" id="node9" title=" " alt="" coords="616,244,707,271"/>
+<area shape="rect" id="node13" href="$clist_8h.html" title="Circular linked list." alt="" coords="227,393,288,420"/>
+<area shape="rect" id="node14" href="$cib_8h.html" title="Circular integer buffer interface." alt="" coords="451,244,504,271"/>
+<area shape="rect" id="node17" href="$msg_8h.html" title="Messaging API for inter process communication." alt="" coords="529,244,591,271"/>
+<area shape="rect" id="node18" href="$sched_8h.html" title="Scheduler API definition." alt="" coords="429,319,501,345"/>
+<area shape="rect" id="node15" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="525,319,600,345"/>
+<area shape="rect" id="node16" href="$panic_8h.html" title="Crash handling header." alt="" coords="669,393,739,420"/>
+<area shape="rect" id="node19" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="313,393,399,420"/>
+<area shape="rect" id="node20" href="$native__sched_8h.html" title="Add definitions required on the native board." alt="" coords="424,393,544,420"/>
 </map>

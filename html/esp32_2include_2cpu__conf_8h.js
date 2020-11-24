@@ -1,5 +1,6 @@
 var esp32_2include_2cpu__conf_8h =
 [
+    [ "NUM_HEAPS", "group__cpu__esp32__conf.html#ga710511672f5bb02e18a43825103676ef", null ],
     [ "PRINTF_BUFSIZ", "group__cpu__esp32__conf.html#ga6722ac5295714f38ca0aa57cdeb2a41e", null ],
     [ "THREAD_EXTRA_STACKSIZE_PRINTF", "group__cpu__esp32__conf.html#gaf30305c0f413c7da1e7445de2b5ea5a5", null ],
     [ "THREAD_STACKSIZE_DEFAULT", "group__cpu__esp32__conf.html#ga713ebddc00581f4d415095cdbfd8791f", null ],

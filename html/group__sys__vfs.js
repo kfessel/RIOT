@@ -21,7 +21,7 @@ var group__sys__vfs =
       [ "mp", "structvfs__file__t.html#a313adbcd336d5b19e7fa0c14632783cb", null ],
       [ "pid", "structvfs__file__t.html#a58686ba2e673bf443610b2d73761bbc8", null ],
       [ "pos", "structvfs__file__t.html#af8e66251bc47c18a66c52b55101f0dd7", null ],
-      [ "private_data", "structvfs__file__t.html#ac0976352ba29e03d81b3af80d788c874", null ],
+      [ "private_data", "structvfs__file__t.html#a163268737307f40909ee20011dc38ac8", null ],
       [ "ptr", "structvfs__file__t.html#a0a2e8a328d7b72cd59cfae57b6ca649e", null ],
       [ "value", "structvfs__file__t.html#aa21c9be371467bff277d77d5328f6e86", null ]
     ] ],
@@ -29,7 +29,7 @@ var group__sys__vfs =
       [ "buffer", "structvfs__DIR.html#a37eee3fa464ce6e11cd2e1f61c129a92", null ],
       [ "d_op", "structvfs__DIR.html#a1aac812aca784ac551e1eab75fc88e6e", null ],
       [ "mp", "structvfs__DIR.html#a66ca85b42a276f41f3a16ba207f52920", null ],
-      [ "private_data", "structvfs__DIR.html#aa02d13277cbf8b6f4feda26b9b7c7f00", null ],
+      [ "private_data", "structvfs__DIR.html#a6db1aa214b0ab28b73fb0d9281c17689", null ],
       [ "ptr", "structvfs__DIR.html#a93eec0c7d86fd616acc867fa5c36ac54", null ],
       [ "value", "structvfs__DIR.html#a25662fa045fe407bc8f8a2dd0fa248cd", null ]
     ] ],
@@ -99,6 +99,7 @@ var group__sys__vfs =
     [ "vfs_rmdir", "group__sys__vfs.html#gac9e6c31f4d15ed832cb5c61e0c6e9659", null ],
     [ "vfs_stat", "group__sys__vfs.html#ga9a4ef5ceb298c288b544cce1f7736aec", null ],
     [ "vfs_statvfs", "group__sys__vfs.html#ga2dd77a30a2ea9cc4531f40d089483b8e", null ],
+    [ "vfs_sysop_stat_from_fstat", "group__sys__vfs.html#ga77f919082a5f2e395ad60fac39a821b9", null ],
     [ "vfs_umount", "group__sys__vfs.html#gab54e3dfaffd2aa3eb4eea3735b96baf0", null ],
     [ "vfs_unlink", "group__sys__vfs.html#gaadef8ee16be7695b8be4c151331df79c", null ],
     [ "vfs_write", "group__sys__vfs.html#ga3ab340fc28c34361e2b8206693e049d6", null ]

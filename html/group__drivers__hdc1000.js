@@ -12,10 +12,10 @@ var group__drivers__hdc1000 =
     ] ],
     [ "hdc1000_t", "structhdc1000__t.html", [
       [ "p", "structhdc1000__t.html#a8e003cf84af3acbff8e1786c2c2d60b6", null ],
-      [ "HDC1000_OK", "group__drivers__hdc1000.html#gga0a28cf10bf72f80c90de5e5e1e698bfba986c2c083448a25f38279f3b8b19644a", null ],
-      [ "HDC1000_NODEV", "group__drivers__hdc1000.html#gga0a28cf10bf72f80c90de5e5e1e698bfba82b0fa3b7e1fd5129433da37c48daa9d", null ],
-      [ "HDC1000_NOBUS", "group__drivers__hdc1000.html#gga0a28cf10bf72f80c90de5e5e1e698bfba49ea9c29e9e49de777ff1b2112bd5fb8", null ],
-      [ "HDC1000_BUSERR", "group__drivers__hdc1000.html#gga0a28cf10bf72f80c90de5e5e1e698bfba7cc1e92c3a503401dac5236604b5d27b", null ]
+      [ "HDC1000_OK", "group__drivers__hdc1000.html#gga5e8ce9967db697e85d5528dafee6b8dea986c2c083448a25f38279f3b8b19644a", null ],
+      [ "HDC1000_NODEV", "group__drivers__hdc1000.html#gga5e8ce9967db697e85d5528dafee6b8dea82b0fa3b7e1fd5129433da37c48daa9d", null ],
+      [ "HDC1000_NOBUS", "group__drivers__hdc1000.html#gga5e8ce9967db697e85d5528dafee6b8dea49ea9c29e9e49de777ff1b2112bd5fb8", null ],
+      [ "HDC1000_BUSERR", "group__drivers__hdc1000.html#gga5e8ce9967db697e85d5528dafee6b8dea7cc1e92c3a503401dac5236604b5d27b", null ]
     ] ],
     [ "hdc1000_res_t", "group__drivers__hdc1000.html#ga6865897d06ef2557467d5ac59844c54f", [
       [ "HDC1000_11BIT", "group__drivers__hdc1000.html#gga6865897d06ef2557467d5ac59844c54faf1394f6f181a58565933edf45caebda0", null ],

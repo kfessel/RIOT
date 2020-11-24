@@ -1,92 +1,252 @@
 <map id="core/include/irq.h" name="core/include/irq.h">
-<area shape="rect" id="node2" href="$atmega__common_2include_2irq__arch_8h.html" title="Implementation of the kernels irq interface. " alt="" coords="1111,80,1303,121"/>
-<area shape="rect" id="node3" href="$cortexm__common_2include_2cpu_8h.html" title="Basic definitions for the Cortex&#45;M common module. " alt="" coords="1327,80,1478,121"/>
-<area shape="rect" id="node5" href="$esp__common_2include_2cpu_8h.html" title="CPU common functions for ESP SoCs. " alt="" coords="1503,80,1673,121"/>
-<area shape="rect" id="node6" href="$irq__arch__common_8h.html" title="Implementation of the kernels irq interface. " alt="" coords="1697,80,1868,121"/>
-<area shape="rect" id="node9" href="$fe310_2include_2irq__arch_8h.html" title="Implementation of the kernels irq interface. " alt="" coords="1893,80,2035,121"/>
-<area shape="rect" id="node10" href="$mips32r2__common_2include_2cpu_8h.html" title="CPU definitions for MIPS32R2 devices. " alt="" coords="2060,80,2217,121"/>
-<area shape="rect" id="node11" href="$cc_8h.html" title="Compiler/platform abstraction. " alt="" coords="2241,87,2415,114"/>
-<area shape="rect" id="node12" href="$benchmark_8h.html" title="Interface for running simple benchmarks. " alt="" coords="115,273,282,300"/>
-<area shape="rect" id="node13" href="$implementation_8h.html" title="xtimer implementation " alt="" coords="2492,80,2620,121"/>
-<area shape="rect" id="node90" href="$event_8h.html" title="Event API. " alt="" coords="2658,87,2793,114"/>
-<area shape="rect" id="node4" href="$bit_8h.html" title="Bit access macros for Cortex&#45;M based CPUs. " alt="" coords="1327,169,1478,211"/>
-<area shape="rect" id="node7" href="$esp32_2include_2irq__arch_8h.html" title="Implementation of the kernels irq interface. " alt="" coords="1626,169,1771,211"/>
-<area shape="rect" id="node8" href="$esp8266_2include_2irq__arch_8h.html" title="Implementation of the kernels irq interface. " alt="" coords="1796,169,1937,211"/>
-<area shape="rect" id="node14" href="$xtimer_8h.html" title="xtimer interface definitions " alt="" coords="2489,177,2628,203"/>
-<area shape="rect" id="node15" href="$at86rf215_8h.html" title="Interface definition for AT86RF215 based drivers. " alt="" coords="5798,273,5973,300"/>
-<area shape="rect" id="node17" href="$ata8520e_8h.html" title="Device driver for Microchip ATA8520E transceiver (Sigfox) " alt="" coords="306,273,481,300"/>
-<area shape="rect" id="node19" href="$dcf77_8h.html" title="Interface definition for the dcf77 sensor driver. " alt="" coords="505,273,658,300"/>
-<area shape="rect" id="node21" href="$dose_8h.html" title="Driver for the Differentially Operated Serial Ethernet module. " alt="" coords="683,273,832,300"/>
-<area shape="rect" id="node22" href="$ltc4150_8h.html" title="LTC4150 coulomb counter. " alt="" coords="856,273,1019,300"/>
-<area shape="rect" id="node24" href="$rn2xx3_8h.html" title="High&#45;level driver for the RN2483/RN2903 LoRa modules. " alt="" coords="1043,273,1203,300"/>
-<area shape="rect" id="node27" href="$sdp3x_8h.html" title="Device driver interface for the SDP3x sensor. " alt="" coords="1227,273,1383,300"/>
-<area shape="rect" id="node29" href="$srf04_8h.html" title="Device driver for the srf04 ultra sonic range finder. " alt="" coords="1407,273,1558,300"/>
-<area shape="rect" id="node31" href="$sx127x_8h.html" title="Public interface for SX127X driver. " alt="" coords="1583,273,1745,300"/>
-<area shape="rect" id="node36" href="$pkg_2semtech-loramac_2include_2semtech-loramac_2timer_8h.html" title="Semtech LoRaMAC timer compatibility definitions. " alt="" coords="1844,467,2015,523"/>
-<area shape="rect" id="node37" href="$ws281x_8h.html" title="WS2812/SK6812 RGB LED Driver. " alt="" coords="1821,273,1987,300"/>
-<area shape="rect" id="node39" href="$xbee_8h.html" title="High&#45;level driver for the XBee S1 802.15.4 modem. " alt="" coords="2012,273,2161,300"/>
-<area shape="rect" id="node40" href="$lsm6dsl__internal_8h.html" title="Internal configuration for LSM6DSL devices. " alt="" coords="2185,266,2340,307"/>
-<area shape="rect" id="node41" href="$my9221__internal_8h.html" title="Internal config and parameters for the MY9221 LED controller. " alt="" coords="2365,266,2521,307"/>
-<area shape="rect" id="node42" href="$chrono_8hpp.html" title="C++11 chrono drop in replacement that adds the function now based on xtimer/timex. " alt="" coords="2597,266,2771,307"/>
-<area shape="rect" id="node43" href="$condition__variable_8hpp.html" title="C++11 condition variable drop in replacement. " alt="" coords="2211,370,2389,411"/>
-<area shape="rect" id="node45" href="$isotp_8h.html" title="ISO TP high level interface. " alt="" coords="2795,273,2951,300"/>
-<area shape="rect" id="node47" href="$event_2timeout_8h.html" title="Provides functionality to trigger events after timeout. " alt="" coords="2975,273,3158,300"/>
-<area shape="rect" id="node49" href="$gcoap_8h.html" title="gcoap definition " alt="" coords="2841,377,3001,404"/>
-<area shape="rect" id="node50" href="$evtimer_8h.html" title="evtimer API definitions " alt="" coords="3233,273,3380,300"/>
-<area shape="rect" id="node57" href="$rpl_8h.html" title="RPL header. " alt="" coords="3853,675,3992,716"/>
-<area shape="rect" id="node69" href="$net_2gnrc_2gomach_2timeout_8h.html" title="Timeout handling of GoMacH. " alt="" coords="3663,370,3801,411"/>
-<area shape="rect" id="node70" href="$sys_2include_2net_2gnrc_2gomach_2types_8h.html" title="Internal used types of GoMacH. " alt="" coords="3688,266,3827,307"/>
-<area shape="rect" id="node71" href="$sys_2include_2net_2gnrc_2lwmac_2types_8h.html" title="Definition of internal types used by LWMAC. " alt="" coords="3851,266,3989,307"/>
-<area shape="rect" id="node74" href="$tcb_8h.html" title="GNRC TCP transmission control block (TCB) " alt="" coords="4613,266,4752,307"/>
-<area shape="rect" id="node81" href="$skald_8h.html" title="Skald&#39;s basic interface. " alt="" coords="5057,273,5213,300"/>
-<area shape="rect" id="node84" href="$sntp_8h.html" title="SNTP definitions. " alt="" coords="5237,273,5387,300"/>
-<area shape="rect" id="node85" href="$trickle_8h.html" title="Trickle timer interface definition. " alt="" coords="3449,377,3588,404"/>
-<area shape="rect" id="node86" href="$gnrc__lorawan__internal_8h.html" title="GNRC LoRaWAN internal header. " alt="" coords="5551,259,5705,315"/>
-<area shape="rect" id="node16" href="$at86rf215__internal_8h.html" title="Low&#45;Level functions for the AT86RF215 driver. " alt="" coords="5874,370,6038,411"/>
-<area shape="rect" id="node18" href="$ata8520e__params_8h.html" title="Default initialization parameters for the ATA8520E device. " alt="" coords="5,370,168,411"/>
-<area shape="rect" id="node20" href="$dcf77__params_8h.html" title="Default configuration for DCF77 devices. " alt="" coords="193,370,335,411"/>
-<area shape="rect" id="node23" href="$ltc4150__params_8h.html" title="Default configuration for LTC4150 coulomb counters. " alt="" coords="360,370,512,411"/>
-<area shape="rect" id="node25" href="$rn2xx3__internal_8h.html" title="Internal driver definitions for the RN2483/RN2903 LoRa modules. " alt="" coords="536,370,685,411"/>
-<area shape="rect" id="node26" href="$rn2xx3__params_8h.html" title="Default configuration for RN2483/RN2903 devices. " alt="" coords="709,370,859,411"/>
-<area shape="rect" id="node28" href="$sdp3x__params_8h.html" title="Device driver params interface for the SDP3x sensor. " alt="" coords="883,370,1029,411"/>
-<area shape="rect" id="node30" href="$srf04__params_8h.html" title="Default configuration for srf04 devices. " alt="" coords="1053,370,1192,411"/>
-<area shape="rect" id="node32" href="$boards_2nz32-sc151_2include_2sx127x__params_8h.html" title="sx127x configuration for nz32&#45;sc15 using modtronix inAir9 LoRa module " alt="" coords="1217,370,1394,411"/>
-<area shape="rect" id="node33" href="$sx127x__internal_8h.html" title="Semtech SX127X internal functions. " alt="" coords="1419,370,1571,411"/>
-<area shape="rect" id="node34" href="$drivers_2sx127x_2include_2sx127x__params_8h.html" title="Default configuration for SX127X driver. " alt="" coords="1595,370,1747,411"/>
-<area shape="rect" id="node35" href="$semtech__loramac_8h.html" title="Public API and definitions of the Semtech LoRaMAC. " alt="" coords="1771,370,1957,411"/>
-<area shape="rect" id="node38" href="$ws281x__params_8h.html" title="Default configuration for WS2812/SK6812 RGB LEDs. " alt="" coords="2032,370,2187,411"/>
-<area shape="rect" id="node44" href="$thread_8hpp.html" title="C++11 thread drop in replacement. " alt="" coords="2277,474,2451,515"/>
-<area shape="rect" id="node46" href="$conn_2isotp_8h.html" title="Definitions of generic CAN interface. " alt="" coords="2465,370,2610,411"/>
-<area shape="rect" id="node48" href="$asymcute_8h.html" title="Asymcute MQTT&#45;SN interface definition. " alt="" coords="2634,377,2817,404"/>
-<area shape="rect" id="node51" href="$evtimer__msg_8h.html" title="IPC&#45;based evtimer definitions. " alt="" coords="3239,370,3374,411"/>
-<area shape="rect" id="node55" href="$structs_8h.html" title="RPL data structs. " alt="" coords="3396,474,3535,515"/>
-<area shape="rect" id="node66" href="$__nib-6ln_8h.html" title="Definitions related to 6Lo node (6LN) functionality of the NIB. " alt="" coords="2762,675,2929,716"/>
-<area shape="rect" id="node68" href="$globals_8h.html" title="Internal globals for RPL. " alt="" coords="3025,363,3164,419"/>
-<area shape="rect" id="node52" href="$net_2gnrc_2mac_2timeout_8h.html" title="Timeout APIs used by GNRC_MAC. " alt="" coords="2665,474,2804,515"/>
-<area shape="rect" id="node53" href="$gnrc_2netif_2ipv6_8h.html" title="IPv6 definitions for Network interface API. " alt="" coords="2828,474,2967,515"/>
-<area shape="rect" id="node64" href="$__nib-internal_8h_source.html" title="sys/net/gnrc/network\l_layer/ipv6/nib/_nib\l&#45;internal.h" alt="" coords="2991,467,3135,523"/>
-<area shape="rect" id="node54" href="$__nib-router_8h_source.html" title="sys/net/gnrc/network\l_layer/ipv6/nib/_nib\l&#45;router.h" alt="" coords="2664,571,2808,627"/>
-<area shape="rect" id="node56" href="$dodag_8h.html" title="DODAG&#45;related functions for RPL. " alt="" coords="3853,578,3992,619"/>
-<area shape="rect" id="node58" href="$of__manager_8h.html" title="RPL Objective functions manager header. " alt="" coords="3477,578,3616,619"/>
-<area shape="rect" id="node59" href="$p2p_8h.html" title="Definititions for P2P&#45;RPL. " alt="" coords="3208,675,3347,716"/>
-<area shape="rect" id="node60" href="$p2p__structs_8h.html" title="P2P&#45;RPL data structs. " alt="" coords="3315,578,3453,619"/>
-<area shape="rect" id="node62" href="$validation_8h.html" title="RPL control message validation functions. " alt="" coords="3640,571,3779,627"/>
-<area shape="rect" id="node63" href="$of0_8h.html" title="Objective Function Zero. " alt="" coords="3102,578,3239,619"/>
-<area shape="rect" id="node61" href="$p2p__dodag_8h.html" title="DODAG&#45;related functions for P2P&#45;RPL. " alt="" coords="3371,675,3509,716"/>
-<area shape="rect" id="node65" href="$__nib-arsm_8h_source.html" title="sys/net/gnrc/network\l_layer/ipv6/nib/_nib\l&#45;arsm.h" alt="" coords="2883,571,3027,627"/>
-<area shape="rect" id="node67" href="$__nib-6lr_8h.html" title="Definitions related to 6Lo router (6LR) functionality of the NIB. " alt="" coords="2885,764,3048,805"/>
-<area shape="rect" id="node72" href="$net_2gnrc_2lwmac_2timeout_8h.html" title="Timeout handling of LWMAC. " alt="" coords="3825,370,3964,411"/>
-<area shape="rect" id="node73" href="$lwmac__internal_8h.html" title="Interface definition for internal functions of LWMAC protocol. " alt="" coords="3988,370,4199,411"/>
-<area shape="rect" id="node75" href="$gnrc_2tcp_8h.html" title="GNRC TCP API. " alt="" coords="4223,370,4361,411"/>
-<area shape="rect" id="node76" href="$net_2gnrc_2transport__layer_2tcp_2internal_2common_8h.html" title="Internally used defines, macros and variable declarations. " alt="" coords="4386,370,4577,411"/>
-<area shape="rect" id="node77" href="$fsm_8h.html" title="TCP finite state maschine declarations. " alt="" coords="4601,370,4764,411"/>
-<area shape="rect" id="node78" href="$option_8h.html" title="TCP option handling declarations. " alt="" coords="4789,370,4963,411"/>
-<area shape="rect" id="node79" href="$net_2gnrc_2transport__layer_2tcp_2internal_2pkt_8h.html" title="TCP packet handling declarations. " alt="" coords="4987,370,5146,411"/>
-<area shape="rect" id="node80" href="$rcvbuf_8h.html" title="Functions for allocating and freeing the receive buffer. " alt="" coords="5171,370,5347,411"/>
-<area shape="rect" id="node82" href="$skald_2eddystone_8h.html" title="Skald&#39;s basic interface. " alt="" coords="5371,370,5517,411"/>
-<area shape="rect" id="node83" href="$ibeacon_8h.html" title="Skald&#39;s basic interface. " alt="" coords="5541,370,5686,411"/>
-<area shape="rect" id="node87" href="$lorawan_8h.html" title="GNRC LoRaWAN API definition. " alt="" coords="5711,370,5849,411"/>
-<area shape="rect" id="node88" href="$region_8h.html" title="GNRC LoRaWAN region specific functions. " alt="" coords="5629,474,5768,515"/>
-<area shape="rect" id="node89" href="$netif_2lorawan_8h.html" title="LoRaWAN adaption for Network interface API. " alt="" coords="5792,474,5931,515"/>
-<area shape="rect" id="node91" href="$irq__handler_8h.html" title="sys/include/irq_handler.h" alt="" coords="2653,177,2819,203"/>
+<area shape="rect" id="node1" title="IRQ driver interface." alt="" coords="1343,5,1478,32"/>
+<area shape="rect" id="node2" href="$mutex_8h.html" title="Mutex for thread synchronization." alt="" coords="4142,87,4301,114"/>
+<area shape="rect" id="node45" href="$benchmark_8h.html" title="Interface for running simple benchmarks." alt="" coords="6524,928,6708,955"/>
+<area shape="rect" id="node134" href="$atmega__common_2include_2irq__arch_8h.html" title="Implementation of the kernels irq interface." alt="" coords="2925,1218,3139,1259"/>
+<area shape="rect" id="node135" href="$cortexm__common_2include_2cpu_8h.html" title="Basic definitions for the Cortex&#45;M common module." alt="" coords="675,1114,842,1155"/>
+<area shape="rect" id="node137" href="$irq__arch__common_8h.html" title="Implementation of the kernels irq interface." alt="" coords="867,1114,1053,1155"/>
+<area shape="rect" id="node141" href="$fe310_2include_2irq__arch_8h.html" title="Implementation of the kernels irq interface." alt="" coords="3163,1218,3322,1259"/>
+<area shape="rect" id="node142" href="$mips32r2__common_2include_2cpu_8h.html" title="CPU definitions for MIPS32R2 devices." alt="" coords="1078,1114,1253,1155"/>
+<area shape="rect" id="node160" href="$event_8h.html" title="Event API." alt="" coords="1329,1121,1477,1148"/>
+<area shape="rect" id="node220" href="$cc_8h.html" title="Compiler/platform abstraction." alt="" coords="9802,177,9993,203"/>
+<area shape="rect" id="node243" href="$esp__common_2include_2cpu_8h.html" title="CPU common functions for ESP SoCs." alt="" coords="10119,80,10305,121"/>
+<area shape="rect" id="node244" href="$msp430__common_2include_2irq__arch_8h.html" title="ISR related functions." alt="" coords="10329,80,10545,121"/>
+<area shape="rect" id="node245" href="$dpl__os_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) error types" alt="" coords="9989,735,10150,776"/>
+<area shape="rect" id="node246" href="$atomic__utils_8h.html" title="API of the utility functions for atomic accesses." alt="" coords="10569,80,10713,121"/>
+<area shape="rect" id="node247" href="$implementation_8h.html" title="xtimer implementation" alt="" coords="2935,735,3078,776"/>
+<area shape="rect" id="node248" href="$tsrb_8h.html" title="Thread&#45;safe ringbuffer interface definition." alt="" coords="775,87,911,114"/>
+<area shape="rect" id="node3" href="$cond_8h.html" title="Condition variable for thread synchronization." alt="" coords="2963,177,3111,203"/>
+<area shape="rect" id="node4" href="$rmutex_8h.html" title="Recursive Mutex for thread synchronization." alt="" coords="6849,177,7013,203"/>
+<area shape="rect" id="node6" href="$xtimer_8h.html" title="xtimer interface definitions" alt="" coords="4100,831,4255,858"/>
+<area shape="rect" id="node11" href="$candev__mcp2515_8h.html" title="Definition of the implementation of the CAN controller driver." alt="" coords="9914,1322,10083,1363"/>
+<area shape="rect" id="node17" href="$dose_8h.html" title="Driver for the Differentially Operated Serial Ethernet module." alt="" coords="1115,928,1280,955"/>
+<area shape="rect" id="node18" href="$ltc4150_8h.html" title="LTC4150 coulomb counter." alt="" coords="907,928,1090,955"/>
+<area shape="rect" id="node26" href="$sdp3x_8h.html" title="Device driver interface for the SDP3x sensor." alt="" coords="1304,928,1477,955"/>
+<area shape="rect" id="node32" href="$xbee_8h.html" title="High&#45;level driver for the XBee S1 802.15.4 modem." alt="" coords="1603,928,1770,955"/>
+<area shape="rect" id="node35" href="$paho__mqtt_8h.html" title="Network MQTT interface definitions." alt="" coords="4775,1114,4945,1155"/>
+<area shape="rect" id="node47" href="$conn_2isotp_8h.html" title="Definitions of generic CAN interface." alt="" coords="7389,1322,7547,1363"/>
+<area shape="rect" id="node53" href="$tcb_8h.html" title="GNRC TCP transmission control block (TCB)" alt="" coords="3905,1218,4057,1259"/>
+<area shape="rect" id="node55" href="$gnrc__tcp__common_8h.html" title="Internally used defines, macros and variable declarations." alt="" coords="3327,1315,3497,1371"/>
+<area shape="rect" id="node73" href="$__nib-internal_8h_source.html" title=" " alt="" coords="8618,1211,8777,1267"/>
+<area shape="rect" id="node98" href="$cc110x_8h.html" title="Interface definition for the CC1100/CC1101 driver." alt="" coords="3250,474,3430,501"/>
+<area shape="rect" id="node148" href="$candev_8h.html" title="Definitions for low&#45;level CAN driver interface." alt="" coords="9814,1218,9959,1259"/>
+<area shape="rect" id="node151" href="$candev__linux_8h.html" title="Implementation of simulated CAN controller driver using SocketCAN on Linux." alt="" coords="10108,1322,10249,1363"/>
+<area shape="rect" id="node165" href="$pipe_8h.html" title=" " alt="" coords="3573,1121,3712,1148"/>
+<area shape="rect" id="node170" href="$ecm_8h.html" title="Interface and definitions for USB CDC ECM type interfaces." alt="" coords="9166,1218,9330,1259"/>
+<area shape="rect" id="node196" href="$efm32_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling." alt="" coords="2197,169,2384,211"/>
+<area shape="rect" id="node197" href="$esp__eth__netdev_8h.html" title="Netdev interface for the ESP32 Ethernet MAC module." alt="" coords="2408,169,2576,211"/>
+<area shape="rect" id="node198" href="$esp__wifi__netdev_8h.html" title="Network device driver for the ESP SoCs WiFi interface." alt="" coords="2601,169,2773,211"/>
+<area shape="rect" id="node199" href="$spidev__linux_8h.html" title="Implementation of SPI access from Linux User Space." alt="" coords="2797,169,2939,211"/>
+<area shape="rect" id="node200" href="$dfplayer__constants_8h.html" title="Constants used in the DFPlayer Mini Driver." alt="" coords="2745,266,2921,307"/>
+<area shape="rect" id="node203" href="$dfplayer__types_8h.html" title="Types used in the DFPlayer Mini Device Driver." alt="" coords="1997,169,2173,211"/>
+<area shape="rect" id="node206" href="$enc28j60_8h.html" title="Interface definition for the ENC28J60 driver." alt="" coords="3397,177,3590,203"/>
+<area shape="rect" id="node207" href="$encx24j600_8h.html" title="Interface definition for the ENCX24J600 driver." alt="" coords="3614,177,3823,203"/>
+<area shape="rect" id="node208" href="$ethos_8h.html" title="Interface definition for the ethernet&#45;over&#45;serial module." alt="" coords="757,177,928,203"/>
+<area shape="rect" id="node209" href="$kw41zrf_8h.html" title="Interface definition for the kw41zrf driver." alt="" coords="3187,177,3373,203"/>
+<area shape="rect" id="node212" href="$mtd__mapper_8h_source.html" title=" " alt="" coords="3899,169,4047,211"/>
+<area shape="rect" id="node213" href="$pn532_8h.html" title="PN532 driver." alt="" coords="4071,177,4246,203"/>
+<area shape="rect" id="node214" href="$sds011_8h.html" title="Interface for controlling SDS011 Laser Dust Sensor." alt="" coords="4322,177,4502,203"/>
+<area shape="rect" id="node216" href="$soft__spi_8h.html" title="Software SPI port descriptor definition." alt="" coords="4709,169,4856,211"/>
+<area shape="rect" id="node218" href="$sht1x__defines_8h.html" title="Internal defines required by the SHT10/SHT11/SHT15 driver." alt="" coords="4526,169,4685,211"/>
+<area shape="rect" id="node219" href="$slipdev__internal_8h.html" title=" " alt="" coords="1702,266,1871,307"/>
+<area shape="rect" id="node221" href="$sys__arch_8h.html" title="OS abstraction layer." alt="" coords="9681,266,9841,307"/>
+<area shape="rect" id="node222" href="$semtech__loramac_8h.html" title="Public API and definitions of the Semtech LoRaMAC." alt="" coords="5879,169,6084,211"/>
+<area shape="rect" id="node224" href="$dpl__mutex_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) mutex wrappers" alt="" coords="9510,467,9671,508"/>
+<area shape="rect" id="node225" href="$mutex_8hpp.html" title="C++11 mutex drop in replacement." alt="" coords="640,921,832,962"/>
+<area shape="rect" id="node226" href="$littlefs2__fs_8h.html" title="littlefs v2 integration with vfs" alt="" coords="4881,177,5077,203"/>
+<area shape="rect" id="node227" href="$littlefs__fs_8h.html" title="littlefs integration with vfs" alt="" coords="5101,177,5289,203"/>
+<area shape="rect" id="node228" href="$spiffs__fs_8h.html" title="SPIFFS integration with vfs." alt="" coords="5313,177,5495,203"/>
+<area shape="rect" id="node229" href="$isrpipe_8h.html" title="isrpipe Interface" alt="" coords="1219,177,1373,203"/>
+<area shape="rect" id="node231" href="$table_8h.html" title="Types and functions for operating fib tables." alt="" coords="952,169,1093,211"/>
+<area shape="rect" id="node233" href="$netdev__test_8h.html" title="netdev dummy test driver definitions" alt="" coords="5519,169,5689,211"/>
+<area shape="rect" id="node234" href="$sema_8h.html" title="Semaphore definitions." alt="" coords="9300,177,9447,203"/>
+<area shape="rect" id="node238" href="$xtimer__compat_8h.html" title="ztimer xtimer wrapper interface" alt="" coords="5713,169,5855,211"/>
+<area shape="rect" id="node239" href="$pthread_8h.html" title="POSIX conforming multi&#45;threading features." alt="" coords="6109,266,6297,307"/>
+<area shape="rect" id="node240" href="$pthread__mutex_8h.html" title="Mutual exclusion." alt="" coords="6373,169,6561,211"/>
+<area shape="rect" id="node241" href="$pthread__barrier_8h.html" title="Synchronization barriers." alt="" coords="6585,169,6773,211"/>
+<area shape="rect" id="node242" href="$pthread__cond_8h.html" title="RIOT POSIX condition variable API." alt="" coords="6109,169,6297,211"/>
+<area shape="rect" id="node5" href="$spiport_8hpp.html" title="Definition of the Arduino &#39;SPI&#39; interface." alt="" coords="6857,266,7005,307"/>
+<area shape="rect" id="node95" href="$gnrc_2netif_8h.html" title="Definition for GNRC&#39;s network interfaces." alt="" coords="7220,266,7372,307"/>
+<area shape="rect" id="node7" href="$at86rf215_8h.html" title="Interface definition for AT86RF215 based drivers." alt="" coords="3943,928,4140,955"/>
+<area shape="rect" id="node9" href="$ata8520e_8h.html" title="Device driver for Microchip ATA8520E transceiver (Sigfox)" alt="" coords="4215,928,4409,955"/>
+<area shape="rect" id="node15" href="$dcf77_8h.html" title="Interface definition for the dcf77 sensor driver." alt="" coords="2307,928,2477,955"/>
+<area shape="rect" id="node20" href="$ieee802154__submac_8h_source.html" title=" " alt="" coords="7629,1114,7851,1155"/>
+<area shape="rect" id="node21" href="$rn2xx3_8h.html" title="High&#45;level driver for the RN2483/RN2903 LoRa modules." alt="" coords="2501,928,2680,955"/>
+<area shape="rect" id="node24" href="$scd30_8h.html" title="Device driver interface for the SCD30 sensor." alt="" coords="2705,928,2877,955"/>
+<area shape="rect" id="node28" href="$srf04_8h.html" title="Device driver for the srf04 ultra sonic range finder." alt="" coords="2901,928,3067,955"/>
+<area shape="rect" id="node30" href="$ws281x_8h.html" title="WS2812/SK6812 RGB LED Driver." alt="" coords="3092,928,3276,955"/>
+<area shape="rect" id="node33" href="$lsm6dsl__internal_8h.html" title="Internal configuration for LSM6DSL devices." alt="" coords="3495,921,3668,962"/>
+<area shape="rect" id="node34" href="$my9221__internal_8h.html" title="Internal config and parameters for the MY9221 LED controller." alt="" coords="3693,921,3867,962"/>
+<area shape="rect" id="node36" href="$dpl__callout_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) callout abstraction" alt="" coords="5546,1218,5707,1259"/>
+<area shape="rect" id="node39" href="$dpl__cputime_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) cputime abstraction" alt="" coords="4813,1017,4974,1059"/>
+<area shape="rect" id="node40" href="$dpl__time_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) time abstraction" alt="" coords="4234,1218,4395,1259"/>
+<area shape="rect" id="node41" href="$hal__timer_8h.html" title="Timer abstraction layer RIOT adaption." alt="" coords="4913,921,5097,962"/>
+<area shape="rect" id="node42" href="$chrono_8hpp.html" title="C++11 chrono drop in replacement that adds the function now based on xtimer/timex." alt="" coords="1896,921,2088,962"/>
+<area shape="rect" id="node43" href="$condition__variable_8hpp.html" title="C++11 condition variable drop in replacement." alt="" coords="1637,1017,1837,1059"/>
+<area shape="rect" id="node46" href="$isotp_8h.html" title="ISO TP high level interface." alt="" coords="7196,1225,7367,1252"/>
+<area shape="rect" id="node48" href="$event_2timeout_8h.html" title="Provides functionality to trigger events after timeout." alt="" coords="6476,1025,6679,1051"/>
+<area shape="rect" id="node50" href="$gcoap_8h.html" title="gcoap definition" alt="" coords="8074,1121,8249,1148"/>
+<area shape="rect" id="node51" href="$evtimer_8h.html" title="evtimer API definitions" alt="" coords="3731,1025,3893,1051"/>
+<area shape="rect" id="node66" href="$rpl_8h.html" title="RPL header. Declaration of global variables and functions needed for core functionality of RPL." alt="" coords="2909,1426,3061,1467"/>
+<area shape="rect" id="node79" href="$net_2gnrc_2gomach_2timeout_8h.html" title="Timeout handling of GoMacH." alt="" coords="4585,1017,4737,1059"/>
+<area shape="rect" id="node80" href="$sys_2include_2net_2gnrc_2gomach_2types_8h.html" title="Internal used types of GoMacH." alt="" coords="4585,921,4737,962"/>
+<area shape="rect" id="node81" href="$sys_2include_2net_2gnrc_2lwmac_2types_8h.html" title="Definition of internal types used by LWMAC." alt="" coords="5729,921,5881,962"/>
+<area shape="rect" id="node84" href="$type_8h.html" title="Send queue for Network interface API type definitions" alt="" coords="5905,921,6057,962"/>
+<area shape="rect" id="node86" href="$skald_8h.html" title="Skald&#39;s basic interface." alt="" coords="3300,928,3471,955"/>
+<area shape="rect" id="node89" href="$sntp_8h.html" title="SNTP definitions." alt="" coords="6082,928,6246,955"/>
+<area shape="rect" id="node90" href="$trickle_8h.html" title="Trickle timer interface definition." alt="" coords="4092,1121,4244,1148"/>
+<area shape="rect" id="node91" href="$gnrc__lorawan__internal_8h.html" title="GNRC LoRaWAN internal header." alt="" coords="2113,913,2282,969"/>
+<area shape="rect" id="node8" href="$at86rf215__internal_8h.html" title="Low&#45;Level functions for the AT86RF215 driver." alt="" coords="3949,1017,4134,1059"/>
+<area shape="rect" id="node10" href="$ata8520e__params_8h.html" title="Default initialization parameters for the ATA8520E device." alt="" coords="4221,1017,4403,1059"/>
+<area shape="rect" id="node12" href="$mcp2515__params_8h.html" title="Parameters for the CAN driver implementation." alt="" coords="9714,1426,9897,1467"/>
+<area shape="rect" id="node13" href="$mcp2515_8h.html" title="Driver for the Microchip MCP2515 can controller." alt="" coords="10306,1433,10513,1460"/>
+<area shape="rect" id="node14" href="$mcp2515__spi_8h.html" title="Driver for the Microchip MCP2515 can controller." alt="" coords="10087,1426,10281,1467"/>
+<area shape="rect" id="node16" href="$dcf77__params_8h.html" title="Default configuration for DCF77 devices." alt="" coords="2153,1017,2311,1059"/>
+<area shape="rect" id="node19" href="$ltc4150__params_8h.html" title="Default configuration for LTC4150 coulomb counters." alt="" coords="913,1017,1084,1059"/>
+<area shape="rect" id="node22" href="$rn2xx3__internal_8h.html" title="Internal driver definitions for the RN2483/RN2903 LoRa modules." alt="" coords="2335,1017,2502,1059"/>
+<area shape="rect" id="node23" href="$rn2xx3__params_8h.html" title="Default configuration for RN2483/RN2903 devices." alt="" coords="2526,1017,2693,1059"/>
+<area shape="rect" id="node25" href="$scd30__params_8h.html" title="Device driver params interface for the SCD30 sensor." alt="" coords="2717,1017,2877,1059"/>
+<area shape="rect" id="node27" href="$sdp3x__params_8h.html" title="Device driver params interface for the SDP3x sensor." alt="" coords="1310,1017,1471,1059"/>
+<area shape="rect" id="node29" href="$srf04__params_8h.html" title="Default configuration for srf04 devices." alt="" coords="2907,1017,3061,1059"/>
+<area shape="rect" id="node31" href="$ws281x__params_8h.html" title="Default configuration for WS2812/SK6812 RGB LEDs." alt="" coords="3098,1017,3270,1059"/>
+<area shape="rect" id="node37" href="$dpl_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="6030,1322,6191,1363"/>
+<area shape="rect" id="node38" href="$os__dev_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="6030,1426,6191,1467"/>
+<area shape="rect" id="node44" href="$thread_8hpp.html" title="C++11 thread drop in replacement." alt="" coords="1656,1114,1848,1155"/>
+<area shape="rect" id="node49" href="$asymcute_8h.html" title="Asymcute MQTT&#45;SN interface definition." alt="" coords="8680,1121,8880,1148"/>
+<area shape="rect" id="node52" href="$evtimer__mbox_8h.html" title="Message box based evtimer event." alt="" coords="3737,1114,3887,1155"/>
+<area shape="rect" id="node60" href="$evtimer__msg_8h.html" title="IPC&#45;based evtimer definitions." alt="" coords="3398,1114,3549,1155"/>
+<area shape="rect" id="node64" href="$structs_8h.html" title="RPL data structs." alt="" coords="2560,1218,2712,1259"/>
+<area shape="rect" id="node75" href="$__nib-6ln_8h.html" title="Definitions related to 6Lo node (6LN) functionality of the NIB." alt="" coords="7849,1426,8036,1467"/>
+<area shape="rect" id="node78" href="$globals_8h.html" title="Internal globals for RPL." alt="" coords="3911,1107,4067,1163"/>
+<area shape="rect" id="node54" href="$gnrc_2tcp_8h.html" title="GNRC TCP API." alt="" coords="4345,1322,4497,1363"/>
+<area shape="rect" id="node56" href="$gnrc__tcp__fsm_8h.html" title="TCP finite state maschine declarations." alt="" coords="4101,1315,4270,1371"/>
+<area shape="rect" id="node57" href="$gnrc__tcp__option_8h.html" title="TCP option handling declarations." alt="" coords="3521,1315,3690,1371"/>
+<area shape="rect" id="node58" href="$gnrc__tcp__pkt_8h.html" title="TCP packet handling declarations." alt="" coords="3907,1315,4077,1371"/>
+<area shape="rect" id="node59" href="$gnrc__tcp__rcvbuf_8h.html" title="Functions for allocating and freeing the receive buffer." alt="" coords="3714,1315,3883,1371"/>
+<area shape="rect" id="node61" href="$net_2gnrc_2mac_2timeout_8h.html" title="Timeout APIs used by GNRC_MAC." alt="" coords="3397,1218,3549,1259"/>
+<area shape="rect" id="node62" href="$gnrc_2netif_2ipv6_8h.html" title="IPv6 definitions for Network interface API." alt="" coords="8391,1218,8543,1259"/>
+<area shape="rect" id="node77" href="$gnrc__tcp__eventloop_8h.html" title="TCP event loop declarations." alt="" coords="3574,1211,3743,1267"/>
+<area shape="rect" id="node63" href="$__nib-router_8h_source.html" title=" " alt="" coords="8435,1315,8594,1371"/>
+<area shape="rect" id="node65" href="$dodag_8h.html" title="DODAG&#45;related functions for RPL." alt="" coords="2909,1322,3061,1363"/>
+<area shape="rect" id="node67" href="$of__manager_8h.html" title="RPL Objective functions manager header." alt="" coords="2733,1322,2885,1363"/>
+<area shape="rect" id="node68" href="$p2p_8h.html" title="Definititions for P2P&#45;RPL." alt="" coords="409,1426,561,1467"/>
+<area shape="rect" id="node69" href="$p2p__structs_8h.html" title="P2P&#45;RPL data structs." alt="" coords="5,1322,157,1363"/>
+<area shape="rect" id="node71" href="$validation_8h.html" title="RPL control message validation functions." alt="" coords="7183,1419,7339,1475"/>
+<area shape="rect" id="node72" href="$of0_8h.html" title="Objective Function Zero." alt="" coords="2558,1322,2709,1363"/>
+<area shape="rect" id="node70" href="$p2p__dodag_8h.html" title="DODAG&#45;related functions for P2P&#45;RPL." alt="" coords="5,1426,157,1467"/>
+<area shape="rect" id="node74" href="$__nib-arsm_8h_source.html" title=" " alt="" coords="8618,1315,8777,1371"/>
+<area shape="rect" id="node76" href="$__nib-6lr_8h.html" title="Definitions related to 6Lo router (6LR) functionality of the NIB." alt="" coords="8161,1523,8343,1564"/>
+<area shape="rect" id="node82" href="$net_2gnrc_2lwmac_2timeout_8h.html" title="Timeout handling of LWMAC." alt="" coords="6889,1017,7041,1059"/>
+<area shape="rect" id="node83" href="$lwmac__internal_8h.html" title="Interface definition for internal functions of LWMAC protocol." alt="" coords="7321,1017,7557,1059"/>
+<area shape="rect" id="node85" href="$pktq_8h.html" title="Send queue for Network interface API definitions" alt="" coords="7801,1017,7953,1059"/>
+<area shape="rect" id="node87" href="$skald_2eddystone_8h.html" title="Skald&#39;s basic interface." alt="" coords="3301,1017,3459,1059"/>
+<area shape="rect" id="node88" href="$ibeacon_8h.html" title="Skald&#39;s basic interface." alt="" coords="3483,1017,3642,1059"/>
+<area shape="rect" id="node92" href="$lorawan_8h.html" title="GNRC LoRaWAN API definition." alt="" coords="1912,1017,2064,1059"/>
+<area shape="rect" id="node93" href="$region_8h.html" title="GNRC LoRaWAN region specific functions." alt="" coords="2075,1114,2227,1155"/>
+<area shape="rect" id="node94" href="$netif_2lorawan_8h.html" title="LoRaWAN adaption for Network interface API." alt="" coords="1899,1114,2051,1155"/>
+<area shape="rect" id="node96" href="$esp__now__gnrc_8h.html" title="ESP&#45;NOW adaption for Network interface API." alt="" coords="7409,370,7572,411"/>
+<area shape="rect" id="node97" href="$cc1xxx__common_8h.html" title="CC110x/CC1200 adaption for Network interface API." alt="" coords="5375,370,5543,411"/>
+<area shape="rect" id="node101" href="$gnrc__netif__xbee_8h.html" title="XBee adaption for Network interface API." alt="" coords="7647,370,7801,411"/>
+<area shape="rect" id="node102" href="$gomach_8h.html" title="Implementation of GoMacH protocol." alt="" coords="7825,370,7977,411"/>
+<area shape="rect" id="node103" href="$echo_8h.html" title="ICMPv6 echo message definitions." alt="" coords="9232,467,9384,508"/>
+<area shape="rect" id="node104" href="$gnrc_2icmpv6_8h.html" title="Definitions for GNRC&#39;s ICMPv6 implementation." alt="" coords="8937,1322,9089,1363"/>
+<area shape="rect" id="node105" href="$nib_8h.html" title="NIB definitions." alt="" coords="7788,645,7940,687"/>
+<area shape="rect" id="node108" href="$lwmac_8h.html" title="Interface definition for the LWMAC protocol." alt="" coords="8001,370,8153,411"/>
+<area shape="rect" id="node109" href="$mac_2internal_8h.html" title="Definitions of internal functions of GNRC_MAC module." alt="" coords="8177,370,8329,411"/>
+<area shape="rect" id="node110" href="$gnrc_2ndp_8h.html" title="GNRC&#45;specific neighbor discovery definitions." alt="" coords="8353,370,8505,411"/>
+<area shape="rect" id="node111" href="$gnrc_2netif_2ethernet_8h.html" title="Ethernet adaption for Network interface API." alt="" coords="8529,370,8681,411"/>
+<area shape="rect" id="node112" href="$net_2gnrc_2netif_2hdr_8h.html" title="Generic network interface header." alt="" coords="7031,467,7183,508"/>
+<area shape="rect" id="node116" href="$vrb_8h.html" title="Virtual reassembly buffer definitions." alt="" coords="8015,645,8174,687"/>
+<area shape="rect" id="node119" href="$gnrc_8h.html" title="Includes all essential GNRC network stack base modules." alt="" coords="5786,563,5950,590"/>
+<area shape="rect" id="node187" href="$sys_2include_2net_2gnrc_2netif_2ieee802154_8h.html" title="IEEE 802.15.4 adaption for Network interface API." alt="" coords="8705,370,8857,411"/>
+<area shape="rect" id="node188" href="$netif_2internal_8h_source.html" title=" " alt="" coords="7031,370,7183,411"/>
+<area shape="rect" id="node189" href="$lorawan__base_8h.html" title="LoRaWAN base Network interface API header." alt="" coords="8881,370,9044,411"/>
+<area shape="rect" id="node190" href="$net_2gnrc_2netif_2raw_8h.html" title="Raw (i.e. raw IP packets without link&#45;layer information) adaptation for Network interface API." alt="" coords="9068,370,9220,411"/>
+<area shape="rect" id="node191" href="$sixlowpan_2internal_8h.html" title="6LoWPAN internal functions" alt="" coords="8347,467,8506,508"/>
+<area shape="rect" id="node192" href="$gomach__internal_8h.html" title="GoMacH&#39;s internal functions." alt="" coords="5618,363,5803,419"/>
+<area shape="rect" id="node193" href="$rx__state__machine_8h.html" title="Implementation of RX state machine." alt="" coords="5827,363,6005,419"/>
+<area shape="rect" id="node194" href="$tx__state__machine_8h.html" title="Implementation of TX state machine." alt="" coords="6029,363,6206,419"/>
+<area shape="rect" id="node195" href="$__nib-slaac_8h.html" title="Definions related to SLAAC functionality of the NIB." alt="" coords="6230,363,6389,419"/>
+<area shape="rect" id="node99" href="$cc110x__communication_8h.html" title="Functions to communicate with the CC1100/CC1101 transceiver." alt="" coords="3244,556,3436,597"/>
+<area shape="rect" id="node100" href="$cc110x__internal_8h.html" title="Internal functions of the CC110x transceiver driver." alt="" coords="3256,645,3424,687"/>
+<area shape="rect" id="node106" href="$gnrc_2ipv6_8h.html" title="Definitions for GNRC&#39;s IPv6 implementation." alt="" coords="5888,1114,6040,1155"/>
+<area shape="rect" id="node107" href="$error_8h.html" title="ICMPv6 error message definitions." alt="" coords="8937,1218,9089,1259"/>
+<area shape="rect" id="node113" href="$lwipopts_8h.html" title="Option definitions." alt="" coords="8458,1121,8657,1148"/>
+<area shape="rect" id="node114" href="$nc_8h.html" title="Neighbor cache definitions." alt="" coords="6980,556,7132,597"/>
+<area shape="rect" id="node115" href="$rb_8h.html" title="Reassembly buffer definitions." alt="" coords="7589,556,7741,597"/>
+<area shape="rect" id="node117" href="$gnrc_2sixlowpan_2frag_8h.html" title="6LoWPAN Fragmentation definitions" alt="" coords="8351,556,8503,597"/>
+<area shape="rect" id="node118" href="$gnrc_2sixlowpan_8h.html" title="Definitions for 6LoWPAN." alt="" coords="8401,645,8553,687"/>
+<area shape="rect" id="node120" href="$gnrc_2udp_8h.html" title="UDP GNRC definition." alt="" coords="5679,645,5831,687"/>
+<area shape="rect" id="node121" href="$gnrc__sock__internal_8h.html" title="Internal GNRC&#45;specific types and function definitions." alt="" coords="5989,824,6176,865"/>
+<area shape="rect" id="node122" href="$sys_2net_2gnrc_2sock_2include_2sock__types_8h.html" title="GNRC&#45;specific types and function definitions." alt="" coords="6184,645,6371,687"/>
+<area shape="rect" id="node123" href="$sys_2include_2net_2sock_2async_2types_8h.html" title="Definitions for sock extension for asynchronous access." alt="" coords="6405,735,6560,776"/>
+<area shape="rect" id="node172" href="$ip_8h.html" title="Raw IPv4/IPv6 sock definitions." alt="" coords="6122,742,6305,769"/>
+<area shape="rect" id="node173" href="$sock_2tcp_8h.html" title="TCP sock definitions." alt="" coords="6251,824,6405,865"/>
+<area shape="rect" id="node175" href="$sock_2udp_8h.html" title="UDP sock definitions." alt="" coords="7347,824,7501,865"/>
+<area shape="rect" id="node124" href="$async_8h.html" title="Definitions for sock extension for asynchronous access." alt="" coords="6429,824,6584,865"/>
+<area shape="rect" id="node125" href="$net_2sock_2async_2event_8h.html" title="Asynchronous sock using Event Queue definitions." alt="" coords="6271,921,6425,962"/>
+<area shape="rect" id="node126" href="$at_8h.html" title="AT (Hayes) library interface." alt="" coords="5405,1025,5552,1051"/>
+<area shape="rect" id="node127" href="$ot_8h.html" title=" " alt="" coords="5170,1121,5374,1148"/>
+<area shape="rect" id="node128" href="$uwb__core_8h.html" title=" " alt="" coords="6703,1017,6865,1059"/>
+<area shape="rect" id="node130" href="$callback_8h.html" title="Provides a callback&#45;with&#45;argument event type." alt="" coords="6245,1025,6451,1051"/>
+<area shape="rect" id="node132" href="$sys_2include_2event_2thread_8h.html" title="Provides utility functions for event handler threads." alt="" coords="5896,1025,6091,1051"/>
+<area shape="rect" id="node161" href="$client_8h.html" title="DHCPv6 client definitions." alt="" coords="7435,1114,7605,1155"/>
+<area shape="rect" id="node167" href="$usbus_8h.html" title="USBUS basic interface." alt="" coords="4969,1121,5145,1148"/>
+<area shape="rect" id="node171" href="$sock__async__ctx_8h.html" title="Type definitions for asynchronous socks with Event Queue." alt="" coords="7065,1017,7247,1059"/>
+<area shape="rect" id="node129" href="$dpl__eventq_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) event queue wrappers" alt="" coords="8273,1114,8434,1155"/>
+<area shape="rect" id="node131" href="$scheduler__types_8h.html" title="RIOT scheduler types variable declaration." alt="" coords="7875,1114,8050,1155"/>
+<area shape="rect" id="node133" href="$atmega__common_2include_2cpu_8h.html" title="Common implementations and headers for ATmega family based micro&#45;controllers." alt="" coords="5398,1114,5613,1155"/>
+<area shape="rect" id="node140" href="$fe310_2include_2cpu_8h.html" title="Basic definitions for the RISC&#45;V common module." alt="" coords="5637,1121,5813,1148"/>
+<area shape="rect" id="node143" href="$msp430__common_2include_2cpu_8h.html" title="Texas Instruments MSP430 specific code." alt="" coords="6115,1114,6331,1155"/>
+<area shape="rect" id="node144" href="$kw2xrf_8h.html" title="Interface definition for the kw2xrf driver." alt="" coords="6355,1121,6533,1148"/>
+<area shape="rect" id="node145" href="$openwsn_8h.html" title=" " alt="" coords="6558,1114,6717,1155"/>
+<area shape="rect" id="node146" href="$dpl__tasks_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) thread/task wrappers" alt="" coords="5361,1218,5522,1259"/>
+<area shape="rect" id="node147" href="$can_2common_8h.html" title="Definitions of high&#45;level CAN interface." alt="" coords="7216,1121,7411,1148"/>
+<area shape="rect" id="node157" href="$dll_8h.html" title="Definitions of low&#45;level CAN DLL interface." alt="" coords="8060,1433,8215,1460"/>
+<area shape="rect" id="node162" href="$netapi_8h.html" title="Generic interface to communicate with GNRC modules." alt="" coords="9080,1114,9232,1155"/>
+<area shape="rect" id="node163" href="$neterr_8h.html" title="Error reporting definitions." alt="" coords="6741,1114,6893,1155"/>
+<area shape="rect" id="node164" href="$netif_2conf_8h.html" title="Configuration macros for Network interface API." alt="" coords="8904,1114,9056,1155"/>
+<area shape="rect" id="node166" href="$puf__sram_8h.html" title=" " alt="" coords="6918,1121,7090,1148"/>
+<area shape="rect" id="node136" href="$bit_8h.html" title="Bit access macros for Cortex&#45;M based CPUs." alt="" coords="675,1218,842,1259"/>
+<area shape="rect" id="node138" href="$esp32_2include_2irq__arch_8h.html" title="Implementation of the kernels irq interface." alt="" coords="873,1218,1033,1259"/>
+<area shape="rect" id="node139" href="$esp8266_2include_2irq__arch_8h.html" title="Implementation of the kernels irq interface." alt="" coords="1057,1218,1212,1259"/>
+<area shape="rect" id="node158" href="$can_2raw_8h.html" title="Definitions high&#45;level RAW CAN interface." alt="" coords="8550,1433,8711,1460"/>
+<area shape="rect" id="node149" href="$can__esp_8h.html" title=" " alt="" coords="9330,1322,9497,1363"/>
+<area shape="rect" id="node153" href="$candev__stm32_8h.html" title="bxCAN specific definitions" alt="" coords="9113,1322,9305,1363"/>
+<area shape="rect" id="node154" href="$drivers_2include_2periph_2can_8h.html" title="Low&#45;level CAN peripheral driver interface definitions." alt="" coords="9521,1322,9684,1363"/>
+<area shape="rect" id="node156" href="$sys_2include_2can_2device_8h.html" title="Definitions of CAN device interface." alt="" coords="9708,1329,9889,1356"/>
+<area shape="rect" id="node150" href="$esp32_2include_2can__params_8h.html" title="ESP32 CAN controller driver (esp_can) default parameters." alt="" coords="9330,1426,9497,1467"/>
+<area shape="rect" id="node152" href="$native_2include_2can__params_8h.html" title="Default linux can config." alt="" coords="9921,1426,10063,1467"/>
+<area shape="rect" id="node155" href="$stm32_2include_2can__params_8h.html" title="STM32 CAN controller driver (bxCAN) default parameters." alt="" coords="9521,1426,9689,1467"/>
+<area shape="rect" id="node159" href="$can_2conn_2raw_8h.html" title="Definitions of generic CAN interface." alt="" coords="8552,1523,8709,1564"/>
+<area shape="rect" id="node168" href="$acm_8h.html" title="Interface and definitions for USB CDC ACM type interfaces in USBUS." alt="" coords="2737,1218,2901,1259"/>
+<area shape="rect" id="node169" href="$usb__board__reset__internal_8h.html" title=" " alt="" coords="3137,1322,3303,1363"/>
+<area shape="rect" id="node174" href="$util_8h.html" title="sock utility function definitions" alt="" coords="6732,921,6887,962"/>
+<area shape="rect" id="node176" href="$sock__dtls__types_8h.html" title="tinydtls&#45;specific types and functions definitions" alt="" coords="8351,921,8502,962"/>
+<area shape="rect" id="node177" href="$sock_2dtls_8h.html" title="DTLS sock definitions." alt="" coords="8148,1017,8303,1059"/>
+<area shape="rect" id="node178" href="$lwm2m__client_8h.html" title="Definitions and public API for a LwM2M client using Wakaama." alt="" coords="8577,921,8743,962"/>
+<area shape="rect" id="node179" href="$lwm2m__client__connection_8h.html" title="Public API and definitions of the connection handle for LwM2M client implementation using Wakaama." alt="" coords="8327,1017,8535,1059"/>
+<area shape="rect" id="node181" href="$ep_8h.html" title="CoRE Resource Directory endpoint interface." alt="" coords="7140,928,7324,955"/>
+<area shape="rect" id="node182" href="$epsim_8h.html" title="Interface for the CoRE RD simple registration endpoint." alt="" coords="7348,921,7500,962"/>
+<area shape="rect" id="node183" href="$lc_8h.html" title="CoRE Resource Directory lookup interface." alt="" coords="7524,928,7703,955"/>
+<area shape="rect" id="node184" href="$emcute_8h.html" title="emCute MQTT&#45;SN interface definition" alt="" coords="7727,928,7913,955"/>
+<area shape="rect" id="node185" href="$nanocoap__sock_8h.html" title="nanocoap high&#45;level API" alt="" coords="7937,921,8124,962"/>
+<area shape="rect" id="node186" href="$sock_2dns_8h.html" title="DNS sock definitions." alt="" coords="6961,921,7116,962"/>
+<area shape="rect" id="node180" href="$lwm2m__client__objects_8h.html" title="Public API and definitions for the helper functions to interact with basic objects from a LwM2M clien..." alt="" coords="8559,1017,8743,1059"/>
+<area shape="rect" id="node201" href="$dfplayer__implementation_8h.html" title="Header&#45;only functions of the DFPlayer Mini Device driver." alt="" coords="2221,370,2424,411"/>
+<area shape="rect" id="node202" href="$dfplayer_8h.html" title="DFPlayer Mini Device Driver." alt="" coords="2229,474,2417,501"/>
+<area shape="rect" id="node204" href="$dfplayer__internal_8h.html" title="Internal functions of DFPlayer Mini Device driver." alt="" coords="2248,266,2424,307"/>
+<area shape="rect" id="node205" href="$dfplayer__params_8h.html" title="Default configuration for the DFPlayer Mini driver." alt="" coords="1997,266,2173,307"/>
+<area shape="rect" id="node210" href="$kw41zrf__getset_8h.html" title="get/set interfaces for kw41zrf driver" alt="" coords="3130,266,3305,307"/>
+<area shape="rect" id="node211" href="$kw41zrf__intern_8h.html" title="Internal function interfaces for kw41zrf driver." alt="" coords="3193,370,3367,411"/>
+<area shape="rect" id="node215" href="$sds011__params_8h.html" title="SDS011 sensor specific configuration." alt="" coords="4328,266,4496,307"/>
+<area shape="rect" id="node217" href="$soft__spi__params_8h.html" title="Software SPI configuration." alt="" coords="4696,266,4869,307"/>
+<area shape="rect" id="node223" href="$pkg_2semtech-loramac_2include_2semtech-loramac_2timer_8h.html" title="Semtech LoRaMAC timer compatibility definitions." alt="" coords="5886,259,6077,315"/>
+<area shape="rect" id="node230" href="$read__timeout_8h.html" title="isrpipe read timeout Interface" alt="" coords="1115,266,1258,307"/>
+<area shape="rect" id="node232" href="$fib_8h.html" title="Types and functions for FIB." alt="" coords="54,742,207,769"/>
+<area shape="rect" id="node235" href="$dpl__sem_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) semapahore wrappers" alt="" coords="9250,266,9411,307"/>
+<area shape="rect" id="node237" href="$semaphore_8h.html" title="Semaphores." alt="" coords="9435,273,9658,300"/>
+<area shape="rect" id="node236" href="$uwb__dw1000__params_8h.html" title="Default configuration." alt="" coords="9657,370,9841,411"/>
+<area shape="rect" id="node249" href="$slipdev_8h.html" title="SLIP device definitions." alt="" coords="502,177,682,203"/>
+<area shape="rect" id="node250" href="$slipdev__params_8h.html" title="Default configuration for the SLIP device driver." alt="" coords="502,266,671,307"/>
 </map>

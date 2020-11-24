@@ -1,3 +1,4 @@
 <map id="boards/p&#45;nucleo&#45;wb55/include/board.h" name="boards/p&#45;nucleo&#45;wb55/include/board.h">
-<area shape="rect" id="node2" href="$p-nucleo-wb55_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,95,161,136"/>
+<area shape="rect" id="node1" title="Pin definitions and board configuration options." alt="" coords="9,5,175,47"/>
+<area shape="rect" id="node2" href="$p-nucleo-wb55_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,95,179,136"/>
 </map>

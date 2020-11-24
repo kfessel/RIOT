@@ -1,2 +1,6 @@
 <map id="boards/common/sodaq/include/cfg_rtt_default.h" name="boards/common/sodaq/include/cfg_rtt_default.h">
+<area shape="rect" id="node1" title="Default RTT configuration for SODAQ boards." alt="" coords="37,5,221,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,95,157,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="181,95,287,121"/>
 </map>

@@ -1,5 +1,6 @@
 var boards_2b_l475e_iot01a_2include_2periph__conf_8h =
 [
+    [ "CONFIG_BOARD_HAS_LSE", "boards_2b-l475e-iot01a_2include_2periph__conf_8h.html#acd2b9746c0b67c8fb0de7b7f01ac92f8", null ],
     [ "DMA_0_ISR", "boards_2b-l475e-iot01a_2include_2periph__conf_8h.html#a2fdb1dc5ea2635bc32b441656260ccac", null ],
     [ "DMA_1_ISR", "boards_2b-l475e-iot01a_2include_2periph__conf_8h.html#a25fa059ae942db695d6a43a1d25b57f1", null ],
     [ "DMA_2_ISR", "boards_2b-l475e-iot01a_2include_2periph__conf_8h.html#a5d5aac6faab6470cdb02f6da94d29c9e", null ],
@@ -19,7 +20,6 @@ var boards_2b_l475e_iot01a_2include_2periph__conf_8h =
     [ "i2c_config", "boards_2b-l475e-iot01a_2include_2periph__conf_8h.html#aa9dcbfbe7aa5baf027d834e5bca62a47", null ],
     [ "pwm_config", "boards_2b-l475e-iot01a_2include_2periph__conf_8h.html#a5177e7e865ac2ae63f7d56c8b3078707", null ],
     [ "spi_config", "boards_2b-l475e-iot01a_2include_2periph__conf_8h.html#a873188d7292e07499dcde9674b1e849c", null ],
-    [ "spi_divtable", "boards_2b-l475e-iot01a_2include_2periph__conf_8h.html#ae3b1d06e940a46447dea0987400fdc04", null ],
     [ "timer_config", "boards_2b-l475e-iot01a_2include_2periph__conf_8h.html#a2dd41f782d2c67052e4dc7d37cef89b1", null ],
     [ "uart_config", "boards_2b-l475e-iot01a_2include_2periph__conf_8h.html#a1643cfc64589407fb96b4cbf908689a5", null ]
 ];

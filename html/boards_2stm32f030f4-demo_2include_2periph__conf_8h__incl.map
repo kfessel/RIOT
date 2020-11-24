@@ -1,2 +1,5 @@
 <map id="boards/stm32f030f4&#45;demo/include/periph_conf.h" name="boards/stm32f030f4&#45;demo/include/periph_conf.h">
+<area shape="rect" id="node1" title="Peripheral MCU configuration for the stm32f030f4&#45;demo board." alt="" coords="57,5,217,61"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,109,111,136"/>
+<area shape="rect" id="node3" href="$cpu_2stm32_2include_2clk_2f0_2cfg__clock__default_8h.html" title="Default clock configuration for STM32F0." alt="" coords="134,109,299,136"/>
 </map>

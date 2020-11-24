@@ -1,4 +1,9 @@
 <map id="drivers/include/grove_ledbar.h" name="drivers/include/grove_ledbar.h">
-<area shape="rect" id="node3" href="$my9221_8h.html" title="Interface for the MY9221 LED controller driver. " alt="" coords="76,95,155,121"/>
-<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="95,169,191,196"/>
+<area shape="rect" id="node1" title="Interface for the Grove ledbar driver." alt="" coords="5,5,164,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="9,169,80,196"/>
+<area shape="rect" id="node3" href="$my9221_8h.html" title="Interface for the MY9221 LED controller driver." alt="" coords="83,95,169,121"/>
+<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="105,169,211,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="11,244,81,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="105,244,211,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="235,244,345,271"/>
 </map>

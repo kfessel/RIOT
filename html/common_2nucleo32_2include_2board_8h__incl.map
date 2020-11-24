@@ -1,6 +1,12 @@
 <map id="boards/common/nucleo32/include/board.h" name="boards/common/nucleo32/include/board.h">
-<area shape="rect" id="node2" href="$board__nucleo_8h.html" title="Global common Nucleo board configuration. " alt="" coords="17,95,128,121"/>
-<area shape="rect" id="node5" href="$common_2nucleo32_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins. " alt="" coords="152,95,276,121"/>
-<area shape="rect" id="node6" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="142,169,238,196"/>
-<area shape="rect" id="node9" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="262,169,355,196"/>
+<area shape="rect" id="node1" title="Common pin definitions and board configuration options." alt="" coords="53,5,244,47"/>
+<area shape="rect" id="node2" href="$board__nucleo_8h.html" title="Global common Nucleo board configuration." alt="" coords="11,95,132,121"/>
+<area shape="rect" id="node5" href="$common_2nucleo32_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins." alt="" coords="157,95,295,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,63,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="46,244,155,271"/>
+<area shape="rect" id="node6" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="145,169,251,196"/>
+<area shape="rect" id="node9" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="276,169,379,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="180,244,251,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="275,244,380,271"/>
+<area shape="rect" id="node10" title=" " alt="" coords="404,244,475,271"/>
 </map>

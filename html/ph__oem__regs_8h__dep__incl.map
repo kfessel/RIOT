@@ -1,3 +1,4 @@
 <map id="drivers/ph_oem/include/ph_oem_regs.h" name="drivers/ph_oem/include/ph_oem_regs.h">
-<area shape="rect" id="node2" href="$ph__oem__params_8h.html" title="Default configuration for Atlas Scientific pH OEM sensors. " alt="" coords="5,95,161,136"/>
+<area shape="rect" id="node1" title="Register definitions for the Atlas Scientific pH OEM sensor." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" href="$ph__oem__params_8h.html" title="Default configuration for Atlas Scientific pH OEM sensors." alt="" coords="5,95,180,136"/>
 </map>

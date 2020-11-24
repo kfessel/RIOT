@@ -1,24 +1,42 @@
 <map id="sys/cpp11&#45;compat/include/riot/condition_variable.hpp" name="sys/cpp11&#45;compat/include/riot/condition_variable.hpp">
-<area shape="rect" id="node2" href="$sched_8h.html" title="Scheduler API definition. " alt="" coords="193,244,261,271"/>
-<area shape="rect" id="node13" href="$xtimer_8h.html" title="xtimer interface definitions " alt="" coords="805,169,874,196"/>
-<area shape="rect" id="node31" href="$priority__queue_8h.html" title="A simple priority queue. " alt="" coords="311,319,426,345"/>
-<area shape="rect" id="node32" href="$mutex_8hpp.html" title="C++11 mutex drop in replacement. " alt="" coords="483,95,588,121"/>
-<area shape="rect" id="node36" href="$chrono_8hpp.html" title="C++11 chrono drop in replacement that adds the function now based on xtimer/timex. " alt="" coords="881,95,989,121"/>
-<area shape="rect" id="node4" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="362,543,479,569"/>
-<area shape="rect" id="node5" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="925,319,1031,345"/>
-<area shape="rect" id="node10" href="$native__sched_8h.html" title="Add definitions required on the native board. " alt="" coords="125,319,236,345"/>
-<area shape="rect" id="node11" href="$clist_8h.html" title="Circular linked list. " alt="" coords="44,319,101,345"/>
-<area shape="rect" id="node7" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="741,393,820,420"/>
-<area shape="rect" id="node12" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="362,393,413,420"/>
-<area shape="rect" id="node15" href="$timex_8h.html" title="Utility library for comparing and computing timestamps. " alt="" coords="835,319,900,345"/>
-<area shape="rect" id="node16" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="450,319,519,345"/>
-<area shape="rect" id="node17" href="$rmutex_8h.html" title="Recursive Mutex for thread synchronization. " alt="" coords="703,244,776,271"/>
-<area shape="rect" id="node21" href="$tick__conversion_8h.html" title="xtimer tick &lt;&#45;&gt; seconds conversions for different values of XTIMER_HZ " alt="" coords="515,244,679,271"/>
-<area shape="rect" id="node25" href="$implementation_8h.html" title="xtimer implementation " alt="" coords="1051,244,1212,271"/>
-<area shape="rect" id="node22" href="$div_8h.html" title="div.h" alt="" coords="543,319,594,345"/>
-<area shape="rect" id="node23" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="437,393,506,420"/>
-<area shape="rect" id="node24" href="$panic_8h.html" title="Crash handling header. " alt="" coords="426,468,490,495"/>
-<area shape="rect" id="node26" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions. " alt="" coords="1081,319,1182,345"/>
-<area shape="rect" id="node29" href="$irq_8h.html" title="IRQ driver interface. " alt="" coords="1401,319,1448,345"/>
-<area shape="rect" id="node28" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="1218,393,1357,420"/>
+<area shape="rect" id="node1" title="C++11 condition variable drop in replacement." alt="" coords="212,5,412,47"/>
+<area shape="rect" id="node2" href="$sched_8h.html" title="Scheduler API definition." alt="" coords="312,543,384,569"/>
+<area shape="rect" id="node10" href="$xtimer_8h.html" title="xtimer interface definitions" alt="" coords="876,169,953,196"/>
+<area shape="rect" id="node31" href="$priority__queue_8h.html" title="A simple priority queue." alt="" coords="5,692,133,719"/>
+<area shape="rect" id="node32" href="$mutex_8hpp.html" title="C++11 mutex drop in replacement." alt="" coords="253,95,371,121"/>
+<area shape="rect" id="node36" href="$chrono_8hpp.html" title="C++11 chrono drop in replacement that adds the function now based on xtimer/timex." alt="" coords="960,95,1080,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="184,767,259,793"/>
+<area shape="rect" id="node4" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="875,617,962,644"/>
+<area shape="rect" id="node5" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="538,692,667,719"/>
+<area shape="rect" id="node7" href="$native__sched_8h.html" title="Add definitions required on the native board." alt="" coords="259,617,379,644"/>
+<area shape="rect" id="node8" href="$clist_8h.html" title="Circular linked list." alt="" coords="403,617,464,644"/>
+<area shape="rect" id="node6" title=" " alt="" coords="965,767,1035,793"/>
+<area shape="rect" id="node9" href="$list_8h.html" title="Intrusive linked list." alt="" coords="433,692,487,719"/>
+<area shape="rect" id="node11" title=" " alt="" coords="925,543,1008,569"/>
+<area shape="rect" id="node12" href="$timex_8h.html" title="Utility library for comparing and computing timestamps." alt="" coords="1032,543,1104,569"/>
+<area shape="rect" id="node13" href="$mutex_8h.html" title="Mutex for thread synchronization." alt="" coords="545,319,621,345"/>
+<area shape="rect" id="node21" href="$rmutex_8h.html" title="Recursive Mutex for thread synchronization." alt="" coords="766,244,847,271"/>
+<area shape="rect" id="node23" title=" " alt="" coords="671,244,742,271"/>
+<area shape="rect" id="node24" title=" " alt="" coords="1077,393,1187,420"/>
+<area shape="rect" id="node25" href="$tick__conversion_8h.html" title="xtimer tick &lt;&#45;&gt; seconds conversions for different values of XTIMER_HZ" alt="" coords="953,319,1135,345"/>
+<area shape="rect" id="node27" href="$implementation_8h.html" title="xtimer implementation" alt="" coords="1003,244,1189,271"/>
+<area shape="rect" id="node14" href="$irq_8h.html" title="IRQ driver interface." alt="" coords="901,393,952,420"/>
+<area shape="rect" id="node16" href="$core_2include_2thread_8h.html" title="Threading API." alt="" coords="545,393,621,420"/>
+<area shape="rect" id="node15" title=" " alt="" coords="709,468,800,495"/>
+<area shape="rect" id="node17" href="$cib_8h.html" title="Circular integer buffer interface." alt="" coords="544,468,597,495"/>
+<area shape="rect" id="node20" href="$msg_8h.html" title="Messaging API for inter process communication." alt="" coords="622,468,685,495"/>
+<area shape="rect" id="node18" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="637,543,712,569"/>
+<area shape="rect" id="node19" href="$panic_8h.html" title="Crash handling header." alt="" coords="640,617,709,644"/>
+<area shape="rect" id="node22" title=" " alt="" coords="728,319,827,345"/>
+<area shape="rect" id="node26" href="$div_8h.html" title=" " alt="" coords="1027,468,1080,495"/>
+<area shape="rect" id="node28" href="$drivers_2include_2periph_2timer_8h.html" title="Low&#45;level timer peripheral driver interface definitions." alt="" coords="1264,319,1379,345"/>
+<area shape="rect" id="node29" title=" " alt="" coords="1211,393,1282,420"/>
+<area shape="rect" id="node30" title=" " alt="" coords="1306,393,1411,420"/>
+<area shape="rect" id="node33" title=" " alt="" coords="451,169,511,196"/>
+<area shape="rect" id="node34" title=" " alt="" coords="209,169,295,196"/>
+<area shape="rect" id="node35" title=" " alt="" coords="319,169,427,196"/>
+<area shape="rect" id="node37" title=" " alt="" coords="1199,169,1265,196"/>
+<area shape="rect" id="node38" title=" " alt="" coords="977,169,1063,196"/>
+<area shape="rect" id="node39" href="$time_8h_source.html" title=" " alt="" coords="1087,169,1151,196"/>
+<area shape="rect" id="node40" title=" " alt="" coords="1588,244,1684,271"/>
 </map>

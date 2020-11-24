@@ -1,4 +1,9 @@
 <map id="pkg/openwsn/include/board_info.h" name="pkg/openwsn/include/board_info.h">
-<area shape="rect" id="node6" href="$timex_8h.html" title="Utility library for comparing and computing timestamps. " alt="" coords="326,95,391,121"/>
-<area shape="rect" id="node7" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="319,169,398,196"/>
+<area shape="rect" id="node1" title=" " alt="" coords="74,5,233,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="98,169,169,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="24,95,94,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="118,95,189,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="214,95,323,121"/>
+<area shape="rect" id="node6" href="$timex_8h.html" title="Utility library for comparing and computing timestamps." alt="" coords="347,95,419,121"/>
+<area shape="rect" id="node7" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="340,169,426,196"/>
 </map>

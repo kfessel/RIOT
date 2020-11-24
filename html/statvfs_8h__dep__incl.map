@@ -1,10 +1,11 @@
 <map id="sys/posix/include/sys/statvfs.h" name="sys/posix/include/sys/statvfs.h">
-<area shape="rect" id="node2" href="$vfs_8h.html" title="VFS layer API declarations. " alt="" coords="543,95,665,121"/>
-<area shape="rect" id="node3" href="$random-vfs_8h.html" title="Random backends for devfs. " alt="" coords="5,169,147,211"/>
-<area shape="rect" id="node4" href="$constfs_8h.html" title="ConstFS public API. " alt="" coords="171,177,333,203"/>
-<area shape="rect" id="node5" href="$devfs_8h.html" title="DevFS public API. " alt="" coords="357,177,507,203"/>
-<area shape="rect" id="node6" href="$fatfs_8h.html" title="FatFs integration for vfs. " alt="" coords="532,177,676,203"/>
-<area shape="rect" id="node7" href="$littlefs2__fs_8h.html" title="littlefs v2 integration with vfs " alt="" coords="700,177,879,203"/>
-<area shape="rect" id="node8" href="$littlefs__fs_8h.html" title="littlefs integration with vfs " alt="" coords="903,177,1073,203"/>
-<area shape="rect" id="node9" href="$spiffs__fs_8h.html" title="SPIFFS integration with vfs. " alt="" coords="1097,177,1265,203"/>
+<area shape="rect" id="node1" title="POSIX compatible sys/statvfs.h definitions." alt="" coords="569,5,729,47"/>
+<area shape="rect" id="node2" href="$vfs_8h.html" title="VFS layer API declarations." alt="" coords="584,95,715,121"/>
+<area shape="rect" id="node3" href="$random-vfs_8h.html" title="Random backends for devfs." alt="" coords="5,169,160,211"/>
+<area shape="rect" id="node4" href="$constfs_8h.html" title="ConstFS public API." alt="" coords="185,177,359,203"/>
+<area shape="rect" id="node5" href="$devfs_8h.html" title="DevFS public API." alt="" coords="384,177,547,203"/>
+<area shape="rect" id="node6" href="$fatfs_8h.html" title="FatFs integration for vfs." alt="" coords="571,177,728,203"/>
+<area shape="rect" id="node7" href="$littlefs2__fs_8h.html" title="littlefs v2 integration with vfs" alt="" coords="753,177,949,203"/>
+<area shape="rect" id="node8" href="$littlefs__fs_8h.html" title="littlefs integration with vfs" alt="" coords="973,177,1161,203"/>
+<area shape="rect" id="node9" href="$spiffs__fs_8h.html" title="SPIFFS integration with vfs." alt="" coords="1185,177,1367,203"/>
 </map>

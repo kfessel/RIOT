@@ -1,3 +1,8 @@
 <map id="boards/serpente/include/board.h" name="boards/serpente/include/board.h">
-<area shape="rect" id="node3" href="$boards_2serpente_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Serpente board. " alt="" coords="69,95,169,121"/>
+<area shape="rect" id="node1" title="Support for the Serpente board." alt="" coords="35,5,214,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,169,63,196"/>
+<area shape="rect" id="node3" href="$boards_2serpente_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Serpente board." alt="" coords="70,95,179,121"/>
+<area shape="rect" id="node6" title=" " alt="" coords="204,95,264,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="88,169,159,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="183,169,288,196"/>
 </map>

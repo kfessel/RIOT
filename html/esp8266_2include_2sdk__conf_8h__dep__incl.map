@@ -1,3 +1,4 @@
 <map id="cpu/esp8266/include/sdk_conf.h" name="cpu/esp8266/include/sdk_conf.h">
-<area shape="rect" id="node2" href="$esp32_2include_2board__common_8h.html" title="Board definitions that are common for all ESP32 boards. " alt="" coords="5,95,176,136"/>
+<area shape="rect" id="node1" title="SDK configuration compatible to the ESP&#45;IDF." alt="" coords="23,5,178,47"/>
+<area shape="rect" id="node2" href="$esp32_2include_2board__common_8h.html" title="Board definitions that are common for all ESP32 boards." alt="" coords="5,95,196,136"/>
 </map>

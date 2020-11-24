@@ -1,3 +1,6 @@
 <map id="boards/lobaro&#45;lorabox/include/periph_conf.h" name="boards/lobaro&#45;lorabox/include/periph_conf.h">
-<area shape="rect" id="node3" href="$cfg__timer__tim2_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM2. " alt="" coords="70,95,189,121"/>
+<area shape="rect" id="node1" title="Support for the Lobaro lorabox with stm32l151cb." alt="" coords="5,5,171,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="62,169,167,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="45,95,131,121"/>
+<area shape="rect" id="node4" href="$cfg__timer__tim2_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM2." alt="" coords="156,95,289,121"/>
 </map>

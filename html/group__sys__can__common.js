@@ -1,6 +1,6 @@
 var group__sys__can__common =
 [
-    [ "common.h", "include_2can_2common_8h.html", null ],
+    [ "common.h", "can_2common_8h.html", null ],
     [ "can_opt_t", "structcan__opt__t.html", [
       [ "context", "structcan__opt__t.html#a12712237f7f645d6e49c788efbdc48e7", null ],
       [ "data", "structcan__opt__t.html#ad41cef874743ed829dd0b3bac2f1f8cd", null ],
@@ -16,11 +16,11 @@ var group__sys__can__common =
       [ "mbox", "structcan__reg__entry.html#a491f117572c1d50800f12ff0d9dfaea8", null ],
       [ "next", "structcan__reg__entry.html#ae1c373032a1a783ab26890f384722cb3", null ],
       [ "pid", "structcan__reg__entry.html#a850913eaa1621fbb115b048c2465c5fe", null ],
-      [ "target", "structcan__reg__entry.html#a7539ec168e468c9d47fd27ecc75ce423", null ],
+      [ "target", "structcan__reg__entry.html#a49cc8de654f3604b1bb49eb05de0ce51", null ],
       [ "type", "structcan__reg__entry.html#aa78f4d9c002cacecc02ff1af9a3ea236", null ]
     ] ],
-    [ "can_reg_entry_t", "group__sys__can__common.html#ga67f35725b813f3b67a52a0bb25901522", null ],
-    [ "can_rx_data_t", "group__sys__can__common.html#ga8af3e6f83e107261c1003e1fb587ca24", null ],
+    [ "can_reg_entry_t", "group__sys__can__common.html#gaf7f206428cfaa802a3d5c06e14bd96cd", null ],
+    [ "can_rx_data_t", "group__sys__can__common.html#ga6cc31454463413d954343367ac66f5de", null ],
     [ "can_msg", "group__sys__can__common.html#ga75d2f383907ae290f3ea00d87eb6227a", [
       [ "CAN_MSG_ACK", "group__sys__can__common.html#gga75d2f383907ae290f3ea00d87eb6227aa6e6f820a93a0f56b2c62ef7778a7532f", null ],
       [ "CAN_MSG_SEND_FRAME", "group__sys__can__common.html#gga75d2f383907ae290f3ea00d87eb6227aaa4683f67580e0f97f652fe2feadb328d", null ],

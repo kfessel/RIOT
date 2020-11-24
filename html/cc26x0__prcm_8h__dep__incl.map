@@ -1,3 +1,4 @@
 <map id="cpu/cc26x0/include/cc26x0_prcm.h" name="cpu/cc26x0/include/cc26x0_prcm.h">
-<area shape="rect" id="node2" href="$cc26x0_2include_2cpu__conf_8h.html" title="Implementation specific CPU configuration options. " alt="" coords="5,95,140,136"/>
+<area shape="rect" id="node1" title="CC26x0 PRCM register definitions." alt="" coords="5,5,152,47"/>
+<area shape="rect" id="node2" href="$cc26x0_2include_2cpu__conf_8h.html" title="Implementation specific CPU configuration options." alt="" coords="5,95,152,136"/>
 </map>

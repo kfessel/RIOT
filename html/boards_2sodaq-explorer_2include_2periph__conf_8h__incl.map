@@ -1,4 +1,12 @@
 <map id="boards/sodaq&#45;explorer/include/periph_conf.h" name="boards/sodaq&#45;explorer/include/periph_conf.h">
-<area shape="rect" id="node4" href="$cfg__rtc__default_8h.html" title="Default RTC configuration for SODAQ boards. " alt="" coords="195,95,314,121"/>
-<area shape="rect" id="node10" href="$cfg__usbdev__default_8h.html" title="Default usbdev configuration for SODAQ boards. " alt="" coords="24,95,170,121"/>
+<area shape="rect" id="node1" title="Configuration of CPU peripherals for the Sodaq LoRaWAN Explorer board." alt="" coords="356,5,524,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="30,169,135,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="366,95,514,121"/>
+<area shape="rect" id="node4" href="$cfg__rtc__default_8h.html" title="Default RTC configuration for SODAQ boards." alt="" coords="210,95,341,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="538,95,667,121"/>
+<area shape="rect" id="node8" title=" " alt="" coords="692,95,825,121"/>
+<area shape="rect" id="node9" title=" " alt="" coords="849,95,998,121"/>
+<area shape="rect" id="node10" href="$cfg__usbdev__default_8h.html" title="Default usbdev configuration for SODAQ boards." alt="" coords="24,95,186,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="240,169,311,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="159,169,216,196"/>
 </map>

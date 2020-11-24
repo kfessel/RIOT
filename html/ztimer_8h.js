@@ -18,6 +18,7 @@ var ztimer_8h =
     [ "ztimer_set_timeout_flag", "group__sys__ztimer.html#gaf3b87b65d13b41cdaacde7385afd4a60", null ],
     [ "ztimer_set_wakeup", "group__sys__ztimer.html#ga50b1929e8ff4a920020e3111bbd8050e", null ],
     [ "ztimer_sleep", "group__sys__ztimer.html#gade98636e198f2d571c8acd861d29d360", null ],
+    [ "ztimer_spin", "group__sys__ztimer.html#ga9de3d9e3290746b856bb23eb2dccaa7c", null ],
     [ "ztimer_update_head_offset", "group__sys__ztimer.html#ga1a0d5d3e93aae8f37e46b357a52c74fa", null ],
     [ "ZTIMER_MSEC", "group__sys__ztimer.html#gaf89aa36047e5e6859e5b08c9bacd1c3e", null ],
     [ "ZTIMER_MSEC_BASE", "group__sys__ztimer.html#ga5adbd6f8c80cee6a72e346e176e8ead7", null ],

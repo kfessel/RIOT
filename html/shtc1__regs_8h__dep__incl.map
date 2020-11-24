@@ -1,3 +1,4 @@
 <map id="drivers/shtc1/include/shtc1_regs.h" name="drivers/shtc1/include/shtc1_regs.h">
-<area shape="rect" id="node2" href="$shtc1__params_8h.html" title="Default parameters for the SHTC1 Temperature and humidity sensor. " alt="" coords="5,95,148,136"/>
+<area shape="rect" id="node1" title="Register definitions for SHTC1 devices." alt="" coords="5,5,163,47"/>
+<area shape="rect" id="node2" href="$shtc1__params_8h.html" title="Default parameters for the SHTC1 Temperature and humidity sensor." alt="" coords="5,95,163,136"/>
 </map>

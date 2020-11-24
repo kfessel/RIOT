@@ -1,8 +1,8 @@
 <map id="sys/include/net/sock/ip.h" name="sys/include/net/sock/ip.h">
-<area shape="rect" id="node2" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="31,80,100,107"/>
-<area shape="rect" id="node7" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="124,80,188,107"/>
-<area shape="rect" id="node10" href="$sock_8h.html" title="Common sock API definitions. " alt="" coords="377,80,460,107"/>
-<area shape="rect" id="node3" href="$panic_8h.html" title="Crash handling header. " alt="" coords="32,155,96,181"/>
-<area shape="rect" id="node4" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="5,229,123,256"/>
-<area shape="rect" id="node8" href="$malloc_8h.html" title="malloc.h" alt="" coords="121,155,191,181"/>
+<area shape="rect" id="node1" title="Raw IPv4/IPv6 sock definitions." alt="" coords="76,5,259,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="100,155,171,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="24,80,95,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="119,80,215,107"/>
+<area shape="rect" id="node5" href="$sock_8h.html" title="Common sock API definitions." alt="" coords="240,80,329,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="354,80,461,107"/>
 </map>

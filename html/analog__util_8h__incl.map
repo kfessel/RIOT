@@ -1,3 +1,8 @@
 <map id="sys/include/analog_util.h" name="sys/include/analog_util.h">
-<area shape="rect" id="node3" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="81,95,174,121"/>
+<area shape="rect" id="node1" title="Analog utility function interfaces." alt="" coords="16,5,159,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,169,76,196"/>
+<area shape="rect" id="node3" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="84,95,187,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="100,169,171,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="195,169,300,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="325,169,434,196"/>
 </map>

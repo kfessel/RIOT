@@ -31,9 +31,9 @@ var group__drivers__ltc4150 =
       [ "ring_pos", "structltc4150__last__minute__data__t.html#a7042b891bd567ed7fe3ba4ec08ec9ea6", null ]
     ] ],
     [ "ltc4150_dev_t", "group__drivers__ltc4150.html#gacea050c124a43ee9deeb487b231381b6", [
-      [ "LTC4150_INT_EXT_PULL_UP", "group__drivers__ltc4150.html#gga9d62e2a4d6edc3a479d15fdf213decd0ac5c149c6fcf7ca08031e4c94d1da9c30", null ],
-      [ "LTC4150_POL_EXT_PULL_UP", "group__drivers__ltc4150.html#gga9d62e2a4d6edc3a479d15fdf213decd0a3894eb1352bfe95e8d7df8a0dc6a2c35", null ],
-      [ "LTC4150_EXT_PULL_UP", "group__drivers__ltc4150.html#gga9d62e2a4d6edc3a479d15fdf213decd0a2cca2783809788c4b5254012d78a5e80", null ]
+      [ "LTC4150_INT_EXT_PULL_UP", "group__drivers__ltc4150.html#ggabc1a2abf1bf92c4036064143db1c8210ac5c149c6fcf7ca08031e4c94d1da9c30", null ],
+      [ "LTC4150_POL_EXT_PULL_UP", "group__drivers__ltc4150.html#ggabc1a2abf1bf92c4036064143db1c8210a3894eb1352bfe95e8d7df8a0dc6a2c35", null ],
+      [ "LTC4150_EXT_PULL_UP", "group__drivers__ltc4150.html#ggabc1a2abf1bf92c4036064143db1c8210a2cca2783809788c4b5254012d78a5e80", null ]
     ] ],
     [ "ltc4150_dir_t", "group__drivers__ltc4150.html#ga8838cbe7f55e7f6946f74c100a10a8af", [
       [ "LTC4150_CHARGE", "group__drivers__ltc4150.html#gga8838cbe7f55e7f6946f74c100a10a8afa1ec59ceb1167d2f42dc0c0b0ec188b64", null ],

@@ -1,6 +1,6 @@
 var group__sys__crypto =
 [
-    [ "HACL High Assurance Cryptographic Library", "group__pkg__hacl.html", null ],
+    [ "HACL* High Assurance Cryptographic Library", "group__pkg__hacl.html", null ],
     [ "Lightweight ASN.1 decoding/encoding library", "group__pkg__tiny-asn1.html", null ],
     [ "Micro-ECC for RIOT", "group__pkg__micro__ecc.html", null ],
     [ "Microchip CryptoAuthentication Library", "group__pkg__cryptoauthlib.html", "group__pkg__cryptoauthlib" ],

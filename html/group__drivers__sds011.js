@@ -25,12 +25,12 @@ var group__drivers__sds011 =
     ] ],
     [ "SDS011_DEVID_WILDCARD", "group__drivers__sds011.html#ga56b7bae520b479be02bc08b7b79fe51b", null ],
     [ "sds011_callback_t", "group__drivers__sds011.html#ga970798453246e274ca56d680c4345a49", null ],
-    [ "sds011_reporting_mode_t", "group__drivers__sds011.html#gac4f9fbc300ce4e697e20630abdaca4a0", null ],
-    [ "sds011_working_mode_t", "group__drivers__sds011.html#ga19d257a700b777ce1ade56f3702ea707", [
-      [ "SDS011_OK", "group__drivers__sds011.html#ggad4a9934b75947f1fae21deee31688bb7a62fdd23325def59f2b9785e35f215e7e", null ],
-      [ "SDS011_INVALID_RESPONSE", "group__drivers__sds011.html#ggad4a9934b75947f1fae21deee31688bb7a101403befef1cafea09605672569d099", null ],
-      [ "SDS011_INVALID_CHKSUM", "group__drivers__sds011.html#ggad4a9934b75947f1fae21deee31688bb7ab2dd812147a8cc5a0276e7fddfc17ee9", null ],
-      [ "SDS011_ERROR", "group__drivers__sds011.html#ggad4a9934b75947f1fae21deee31688bb7af72abcbda83facb1a24284931fea9e95", null ]
+    [ "sds011_reporting_mode_t", "group__drivers__sds011.html#ga12e92822077eed78fc9e5051f689a1b0", null ],
+    [ "sds011_working_mode_t", "group__drivers__sds011.html#gad0a1276d7b185081ca698cddbeaf1bf5", [
+      [ "SDS011_OK", "group__drivers__sds011.html#gga89fa9ed16122c5ba3a10393f7c0bc5ada62fdd23325def59f2b9785e35f215e7e", null ],
+      [ "SDS011_INVALID_RESPONSE", "group__drivers__sds011.html#gga89fa9ed16122c5ba3a10393f7c0bc5ada101403befef1cafea09605672569d099", null ],
+      [ "SDS011_INVALID_CHKSUM", "group__drivers__sds011.html#gga89fa9ed16122c5ba3a10393f7c0bc5adab2dd812147a8cc5a0276e7fddfc17ee9", null ],
+      [ "SDS011_ERROR", "group__drivers__sds011.html#gga89fa9ed16122c5ba3a10393f7c0bc5adaf72abcbda83facb1a24284931fea9e95", null ]
     ] ],
     [ "sds011_reporting_mode", "group__drivers__sds011.html#ga37a5c94f15aac2c47cacdb93659c271e", [
       [ "SDS011_RMODE_ACTIVE", "group__drivers__sds011.html#gga37a5c94f15aac2c47cacdb93659c271ea49115db81b16b58c0588cfe14c345c8f", null ],

@@ -1,6 +1,7 @@
 var group__cpu__cc2538 =
 [
     [ "TI CC2538 CMSIS-style Headers", "group__cpu__cc2538__regs.html", "group__cpu__cc2538__regs" ],
+    [ "cc2538_eui_primary.h", "cc2538__eui__primary_8h.html", null ],
     [ "cc2538_rf.h", "cc2538__rf_8h.html", null ],
     [ "cc2538_rf_internal.h", "cc2538__rf__internal_8h.html", null ],
     [ "cc2538_rf_netdev.h", "cc2538__rf__netdev_8h.html", null ],

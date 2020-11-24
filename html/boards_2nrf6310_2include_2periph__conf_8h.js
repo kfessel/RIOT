@@ -1,7 +1,6 @@
 var boards_2nrf6310_2include_2periph__conf_8h =
 [
     [ "SPI_NUMOF", "boards_2nrf6310_2include_2periph__conf_8h.html#ab35a2b79568128efef74adf1ba1910a8", null ],
-    [ "UART_0_EN", "boards_2nrf6310_2include_2periph__conf_8h.html#a1daeefb24c97883fb801bee8a72fda3c", null ],
     [ "UART_IRQ_PRIO", "boards_2nrf6310_2include_2periph__conf_8h.html#a167b9436613206825d105fee53d246ee", null ],
     [ "UART_NUMOF", "boards_2nrf6310_2include_2periph__conf_8h.html#a850405f2aaa352ad264346531f0e6230", null ],
     [ "UART_PIN_CTS", "boards_2nrf6310_2include_2periph__conf_8h.html#a027eca199cf6c51cac28e671030d8595", null ],

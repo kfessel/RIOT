@@ -1,3 +1,6 @@
 <map id="boards/pic32&#45;wifire/include/board.h" name="boards/pic32&#45;wifire/include/board.h">
-<area shape="rect" id="node2" href="$boards_2pic32-wifire_2include_2periph__conf_8h.html" title="peripheral configuration for the Digilent PIC32 WiFire " alt="" coords="32,95,132,121"/>
+<area shape="rect" id="node1" title="board configuration for the Digilent PIC32 WiFire" alt="" coords="13,5,159,47"/>
+<area shape="rect" id="node2" href="$boards_2pic32-wifire_2include_2periph__conf_8h.html" title="peripheral configuration for the Digilent PIC32 WiFire" alt="" coords="31,95,141,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,63,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="87,169,192,196"/>
 </map>

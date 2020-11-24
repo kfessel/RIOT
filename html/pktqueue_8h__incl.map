@@ -1,14 +1,19 @@
 <map id="sys/include/net/gnrc/pktqueue.h" name="sys/include/net/gnrc/pktqueue.h">
-<area shape="rect" id="node3" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="31,169,95,196"/>
-<area shape="rect" id="node5" href="$include_2net_2gnrc_2pkt_8h.html" title="General definitions for network packets and their helper functions. " alt="" coords="240,95,343,121"/>
-<area shape="rect" id="node15" href="$utlist_8h.html" title="Macros for basic linked list operations. " alt="" coords="510,95,571,121"/>
-<area shape="rect" id="node4" href="$malloc_8h.html" title="malloc.h" alt="" coords="5,244,76,271"/>
-<area shape="rect" id="node6" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="444,244,523,271"/>
-<area shape="rect" id="node7" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="238,169,345,196"/>
-<area shape="rect" id="node11" href="$nettype_8h.html" title="Protocol type definitions. " alt="" coords="497,169,624,196"/>
-<area shape="rect" id="node12" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="502,319,619,345"/>
-<area shape="rect" id="node13" href="$ethertype_8h.html" title="Ether type definitions. " alt="" coords="598,244,707,271"/>
-<area shape="rect" id="node14" href="$protnum_8h.html" title="Protocol number definitions. " alt="" coords="732,244,835,271"/>
-<area shape="rect" id="node16" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="753,169,822,196"/>
-<area shape="rect" id="node17" href="$panic_8h.html" title="Crash handling header. " alt="" coords="859,244,923,271"/>
+<area shape="rect" id="node1" title="Packet queue definitions." alt="" coords="329,5,481,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="22,393,93,420"/>
+<area shape="rect" id="node3" title=" " alt="" coords="926,244,997,271"/>
+<area shape="rect" id="node4" href="$net_2gnrc_2pkt_8h.html" title="General definitions for network packets and their helper functions." alt="" coords="519,169,631,196"/>
+<area shape="rect" id="node15" href="$utlist_8h.html" title="Macros for basic linked list operations." alt="" coords="165,95,232,121"/>
+<area shape="rect" id="node5" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="478,319,565,345"/>
+<area shape="rect" id="node6" href="$sched_8h.html" title="Scheduler API definition." alt="" coords="300,244,372,271"/>
+<area shape="rect" id="node11" href="$list_8h.html" title="Intrusive linked list." alt="" coords="566,393,621,420"/>
+<area shape="rect" id="node12" href="$nettype_8h.html" title="Protocol type definitions." alt="" coords="559,244,700,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="173,393,248,420"/>
+<area shape="rect" id="node8" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="43,319,173,345"/>
+<area shape="rect" id="node9" href="$native__sched_8h.html" title="Add definitions required on the native board." alt="" coords="333,319,453,345"/>
+<area shape="rect" id="node10" href="$clist_8h.html" title="Circular linked list." alt="" coords="248,319,309,345"/>
+<area shape="rect" id="node13" href="$ethertype_8h.html" title="Ether type definitions." alt="" coords="589,319,712,345"/>
+<area shape="rect" id="node14" href="$protnum_8h.html" title="Protocol number definitions." alt="" coords="736,319,851,345"/>
+<area shape="rect" id="node16" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="136,169,211,196"/>
+<area shape="rect" id="node17" href="$panic_8h.html" title="Crash handling header." alt="" coords="87,244,156,271"/>
 </map>

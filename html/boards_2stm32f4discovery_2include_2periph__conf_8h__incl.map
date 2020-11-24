@@ -1,6 +1,6 @@
 <map id="boards/stm32f4discovery/include/periph_conf.h" name="boards/stm32f4discovery/include/periph_conf.h">
-<area shape="rect" id="node3" href="$cfg__clock__168__8__0_8h.html" title="Configure STM32F4 clock to 168MHz using PLL and without LSE. " alt="" coords="5,95,165,121"/>
-<area shape="rect" id="node5" href="$cfg__spi__divtable_8h.html" title="Collection of pre&#45;computed bus pre&#45;scalers for SPI configuration. " alt="" coords="241,95,367,121"/>
-<area shape="rect" id="node6" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="392,95,515,121"/>
-<area shape="rect" id="node4" href="$cfg__clock__168__8__common_8h.html" title="Configure STM32F4 clock to 168MHz using PLL. " alt="" coords="18,169,153,211"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="71,169,177,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="55,95,142,121"/>
+<area shape="rect" id="node4" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral." alt="" coords="167,95,297,121"/>
 </map>

@@ -1,3 +1,6 @@
 <map id="cpu/cc26x2_cc13x2/include/cc26x2_cc13x2_fcfg.h" name="cpu/cc26x2_cc13x2/include/cc26x2_cc13x2_fcfg.h">
-<area shape="rect" id="node2" href="$cc26xx__cc13xx_8h.html" title="CC26xx, CC13xx definitions. " alt="" coords="35,95,159,121"/>
+<area shape="rect" id="node1" title="CC26x2, CC13x2 FCFG register definitions." alt="" coords="5,5,204,47"/>
+<area shape="rect" id="node2" href="$cc26xx__cc13xx_8h.html" title="CC26xx, CC13xx definitions." alt="" coords="38,95,171,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="16,169,87,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="111,169,208,196"/>
 </map>

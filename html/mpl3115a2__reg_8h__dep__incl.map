@@ -1,3 +1,4 @@
 <map id="drivers/mpl3115a2/include/mpl3115a2_reg.h" name="drivers/mpl3115a2/include/mpl3115a2_reg.h">
-<area shape="rect" id="node2" href="$mpl3115a2__params_8h.html" title="Default configuration for MPL3115A2 devices. " alt="" coords="5,95,179,136"/>
+<area shape="rect" id="node1" title="Register definition for the MPL3115A2 sensor driver." alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node2" href="$mpl3115a2__params_8h.html" title="Default configuration for MPL3115A2 devices." alt="" coords="5,95,200,136"/>
 </map>

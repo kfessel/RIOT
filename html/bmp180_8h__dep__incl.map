@@ -1,3 +1,4 @@
 <map id="drivers/include/bmp180.h" name="drivers/include/bmp180.h">
-<area shape="rect" id="node2" href="$bmp180__params_8h.html" title="Default configuration for BMP180. " alt="" coords="11,80,167,121"/>
+<area shape="rect" id="node1" title="Device driver interface for the BMP180 sensor." alt="" coords="5,5,192,32"/>
+<area shape="rect" id="node2" href="$bmp180__params_8h.html" title="Default configuration for BMP180." alt="" coords="11,80,186,121"/>
 </map>

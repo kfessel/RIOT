@@ -1,3 +1,4 @@
 <map id="drivers/include/lsm303dlhc.h" name="drivers/include/lsm303dlhc.h">
-<area shape="rect" id="node2" href="$lsm303dlhc__params_8h.html" title="Default configuration for LSM303DLHC devices. " alt="" coords="30,80,167,136"/>
+<area shape="rect" id="node1" title="Device driver interface for the LSM303DLHC 3D accelerometer/magnetometer." alt="" coords="5,5,215,32"/>
+<area shape="rect" id="node2" href="$lsm303dlhc__params_8h.html" title="Default configuration for LSM303DLHC devices." alt="" coords="34,80,186,136"/>
 </map>

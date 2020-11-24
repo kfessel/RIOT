@@ -1,3 +1,4 @@
 <map id="boards/openmote&#45;b/include/board.h" name="boards/openmote&#45;b/include/board.h">
-<area shape="rect" id="node2" href="$openmote-b_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,95,184,136"/>
+<area shape="rect" id="node1" title="Board specific definitions for the OpenMote&#45;B board." alt="" coords="5,5,205,47"/>
+<area shape="rect" id="node2" href="$openmote-b_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,95,205,136"/>
 </map>

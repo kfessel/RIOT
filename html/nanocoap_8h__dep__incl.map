@@ -1,5 +1,7 @@
 <map id="sys/include/net/nanocoap.h" name="sys/include/net/nanocoap.h">
-<area shape="rect" id="node2" href="$gcoap_8h.html" title="gcoap definition " alt="" coords="5,87,165,114"/>
-<area shape="rect" id="node3" href="$nanocoap__sock_8h.html" title="nanocoap high&#45;level API " alt="" coords="189,80,360,121"/>
-<area shape="rect" id="node4" href="$suit_2transport_2coap_8h_source.html" title="sys/include/suit/transport\l/coap.h" alt="" coords="384,80,552,121"/>
+<area shape="rect" id="node1" title="nanocoap API" alt="" coords="299,5,498,32"/>
+<area shape="rect" id="node2" href="$lc_8h.html" title="CoRE Resource Directory lookup interface." alt="" coords="5,87,184,114"/>
+<area shape="rect" id="node3" href="$gcoap_8h.html" title="gcoap definition" alt="" coords="209,87,383,114"/>
+<area shape="rect" id="node4" href="$nanocoap__sock_8h.html" title="nanocoap high&#45;level API" alt="" coords="408,80,595,121"/>
+<area shape="rect" id="node5" href="$suit_2transport_2coap_8h_source.html" title=" " alt="" coords="619,80,805,121"/>
 </map>

@@ -1,5 +1,6 @@
 var group__net__asymcute =
 [
+    [ "Asymcute (MQTT-SN Client) compile configurations", "group__net__asymcute__conf.html", "group__net__asymcute__conf" ],
     [ "asymcute.h", "asymcute_8h.html", null ],
     [ "asymcute_req", "structasymcute__req.html", [
       [ "arg", "structasymcute__req.html#a87256c94a76eb724e783daeb52fbefe1", null ],
@@ -33,7 +34,7 @@ var group__net__asymcute =
       [ "con", "structasymcute__topic.html#a368cad30b55c26a9e9a76ccc95a99db4", null ],
       [ "flags", "structasymcute__topic.html#a2c5a3cdc86c3a7ff47a6591633cea245", null ],
       [ "id", "structasymcute__topic.html#a648e34d19136dd6e309874b3fd0e463d", null ],
-      [ "name", "structasymcute__topic.html#a76e802e37fb0690f824d60eb18702775", null ]
+      [ "name", "structasymcute__topic.html#a4d81fa1e7d32526be3df88565ab60272", null ]
     ] ],
     [ "asymcute_sub", "structasymcute__sub.html", [
       [ "arg", "structasymcute__sub.html#afd6b1a2cc98b021a326037a3cba65a49", null ],
@@ -49,13 +50,8 @@ var group__net__asymcute =
     [ "ASYMCUTE_BUFSIZE", "group__net__asymcute.html#ga7dcf1edcc1348880d37e9499634619e9", null ],
     [ "ASYMCUTE_HANDLER_PRIO", "group__net__asymcute.html#ga87ad28cdacc7ce695ba05f1a241e89bb", null ],
     [ "ASYMCUTE_HANDLER_STACKSIZE", "group__net__asymcute.html#ga935a45b5d78dd5813ac56c98daf86635", null ],
-    [ "ASYMCUTE_KEEPALIVE", "group__net__asymcute.html#ga501bb92cc52cb5d2444f4e1add7b8c57", null ],
-    [ "ASYMCUTE_KEEPALIVE_PING", "group__net__asymcute.html#ga1521846fb8eafd1d63342e684bd42c41", null ],
     [ "ASYMCUTE_LISTENER_PRIO", "group__net__asymcute.html#ga8ce4aa5fd31a629381ad2b6e4f320aed", null ],
     [ "ASYMCUTE_LISTENER_STACKSIZE", "group__net__asymcute.html#ga8216d2dc72ee8d4eba6d02ee35367005", null ],
-    [ "ASYMCUTE_N_RETRY", "group__net__asymcute.html#ga0a7eecccd71da1f75903e3c492d02f99", null ],
-    [ "ASYMCUTE_T_RETRY", "group__net__asymcute.html#ga328a399c7ef3198db2ac54662e0c1ded", null ],
-    [ "ASYMCUTE_TOPIC_MAXLEN", "group__net__asymcute.html#ga5a39e8e4458e115457f0c6faeb3eebf6", null ],
     [ "asymcute_con_t", "group__net__asymcute.html#ga3c5f65129350ef59e24e54ec99b54262", null ],
     [ "asymcute_evt_cb_t", "group__net__asymcute.html#ga6a155a8aa7bc26a65bfdb19f01bc295e", null ],
     [ "asymcute_req_t", "group__net__asymcute.html#ga873c069b533c82854b9d1e1ee5b2f65c", null ],
@@ -64,22 +60,22 @@ var group__net__asymcute =
     [ "asymcute_to_cb_t", "group__net__asymcute.html#ga01836df85dd33a5d868dac4973995850", null ],
     [ "asymcute_topic_t", "group__net__asymcute.html#ga789f6d764cc5c73d32261cd62d622dcb", null ],
     [ "asymcute_will_t", "group__net__asymcute.html#ga838beda001b03932e4599787af33b72d", [
-      [ "ASYMCUTE_OK", "group__net__asymcute.html#ggaa62371d642974c67a0c0efa77d54fcbdaf4a88048a149577609760ad710081604", null ],
-      [ "ASYMCUTE_OVERFLOW", "group__net__asymcute.html#ggaa62371d642974c67a0c0efa77d54fcbdac3eda08a27fa8f65c62c1f2111c1f0b0", null ],
-      [ "ASYMCUTE_GWERR", "group__net__asymcute.html#ggaa62371d642974c67a0c0efa77d54fcbda55d76d613204d1bef5ef386afabeb1aa", null ],
-      [ "ASYMCUTE_NOTSUP", "group__net__asymcute.html#ggaa62371d642974c67a0c0efa77d54fcbda102f3ae9c9ab78bef47fdcef304b3063", null ],
-      [ "ASYMCUTE_BUSY", "group__net__asymcute.html#ggaa62371d642974c67a0c0efa77d54fcbdac5ba1c7a7dd05c2779e3bbfa91d72558", null ],
-      [ "ASYMCUTE_REGERR", "group__net__asymcute.html#ggaa62371d642974c67a0c0efa77d54fcbdaec06f7304ded93c63c9e7573b70a7d92", null ],
-      [ "ASYMCUTE_SUBERR", "group__net__asymcute.html#ggaa62371d642974c67a0c0efa77d54fcbdab843dfe71d91e98428095e0b9c180beb", null ],
-      [ "ASYMCUTE_TIMEOUT", "group__net__asymcute.html#gga82f2c6e4d47f62f6b65c5887eb096fd5af4f6061c6b9c88ce7bb1ffa0ccc17de6", null ],
-      [ "ASYMCUTE_CANCELED", "group__net__asymcute.html#gga82f2c6e4d47f62f6b65c5887eb096fd5ad2a70b8ec455bbd6de9c3292b39d9860", null ],
-      [ "ASYMCUTE_REJECTED", "group__net__asymcute.html#gga82f2c6e4d47f62f6b65c5887eb096fd5a6c039318ec9b324abdd7400879232be6", null ],
-      [ "ASYMCUTE_CONNECTED", "group__net__asymcute.html#gga82f2c6e4d47f62f6b65c5887eb096fd5a03b637021de3d1661bd49bdbb0a81eae", null ],
-      [ "ASYMCUTE_DISCONNECTED", "group__net__asymcute.html#gga82f2c6e4d47f62f6b65c5887eb096fd5a4740e9cda353d9807093343e73aa6c53", null ],
-      [ "ASYMCUTE_REGISTERED", "group__net__asymcute.html#gga82f2c6e4d47f62f6b65c5887eb096fd5a71d89f0edc7d565594ad51b512848b31", null ],
-      [ "ASYMCUTE_PUBLISHED", "group__net__asymcute.html#gga82f2c6e4d47f62f6b65c5887eb096fd5ae2df0384f250e2bc61c2b28a7fcb5a35", null ],
-      [ "ASYMCUTE_SUBSCRIBED", "group__net__asymcute.html#gga82f2c6e4d47f62f6b65c5887eb096fd5a19fe66b9206a6e30f6b2b25da6c5bef3", null ],
-      [ "ASYMCUTE_UNSUBSCRIBED", "group__net__asymcute.html#gga82f2c6e4d47f62f6b65c5887eb096fd5a6a6f6fb325d6cd20252223a789d8d310", null ]
+      [ "ASYMCUTE_OK", "group__net__asymcute.html#gga5ebea2f4f6d4457d66de7733a8ea7bd3af4a88048a149577609760ad710081604", null ],
+      [ "ASYMCUTE_OVERFLOW", "group__net__asymcute.html#gga5ebea2f4f6d4457d66de7733a8ea7bd3ac3eda08a27fa8f65c62c1f2111c1f0b0", null ],
+      [ "ASYMCUTE_GWERR", "group__net__asymcute.html#gga5ebea2f4f6d4457d66de7733a8ea7bd3a55d76d613204d1bef5ef386afabeb1aa", null ],
+      [ "ASYMCUTE_NOTSUP", "group__net__asymcute.html#gga5ebea2f4f6d4457d66de7733a8ea7bd3a102f3ae9c9ab78bef47fdcef304b3063", null ],
+      [ "ASYMCUTE_BUSY", "group__net__asymcute.html#gga5ebea2f4f6d4457d66de7733a8ea7bd3ac5ba1c7a7dd05c2779e3bbfa91d72558", null ],
+      [ "ASYMCUTE_REGERR", "group__net__asymcute.html#gga5ebea2f4f6d4457d66de7733a8ea7bd3aec06f7304ded93c63c9e7573b70a7d92", null ],
+      [ "ASYMCUTE_SUBERR", "group__net__asymcute.html#gga5ebea2f4f6d4457d66de7733a8ea7bd3ab843dfe71d91e98428095e0b9c180beb", null ],
+      [ "ASYMCUTE_TIMEOUT", "group__net__asymcute.html#ggab59c1bec446b10af208f977a871d910baf4f6061c6b9c88ce7bb1ffa0ccc17de6", null ],
+      [ "ASYMCUTE_CANCELED", "group__net__asymcute.html#ggab59c1bec446b10af208f977a871d910bad2a70b8ec455bbd6de9c3292b39d9860", null ],
+      [ "ASYMCUTE_REJECTED", "group__net__asymcute.html#ggab59c1bec446b10af208f977a871d910ba6c039318ec9b324abdd7400879232be6", null ],
+      [ "ASYMCUTE_CONNECTED", "group__net__asymcute.html#ggab59c1bec446b10af208f977a871d910ba03b637021de3d1661bd49bdbb0a81eae", null ],
+      [ "ASYMCUTE_DISCONNECTED", "group__net__asymcute.html#ggab59c1bec446b10af208f977a871d910ba4740e9cda353d9807093343e73aa6c53", null ],
+      [ "ASYMCUTE_REGISTERED", "group__net__asymcute.html#ggab59c1bec446b10af208f977a871d910ba71d89f0edc7d565594ad51b512848b31", null ],
+      [ "ASYMCUTE_PUBLISHED", "group__net__asymcute.html#ggab59c1bec446b10af208f977a871d910bae2df0384f250e2bc61c2b28a7fcb5a35", null ],
+      [ "ASYMCUTE_SUBSCRIBED", "group__net__asymcute.html#ggab59c1bec446b10af208f977a871d910ba19fe66b9206a6e30f6b2b25da6c5bef3", null ],
+      [ "ASYMCUTE_UNSUBSCRIBED", "group__net__asymcute.html#ggab59c1bec446b10af208f977a871d910ba6a6f6fb325d6cd20252223a789d8d310", null ]
     ] ],
     [ "asymcute_connect", "group__net__asymcute.html#ga9c72d72106c238b4d68c57303f09baac", null ],
     [ "asymcute_disconnect", "group__net__asymcute.html#gae897abc4c7de491ff8ce2ffe02303159", null ],

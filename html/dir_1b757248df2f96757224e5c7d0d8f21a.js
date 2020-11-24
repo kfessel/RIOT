@@ -2,7 +2,6 @@ var dir_1b757248df2f96757224e5c7d0d8f21a =
 [
     [ "cryptoauthlib", "dir_eeb247b59901e502c17015066fc322b0.html", "dir_eeb247b59901e502c17015066fc322b0" ],
     [ "driver_bme680", "dir_c5136fe30d528eeaa2163c4f0304462a.html", "dir_c5136fe30d528eeaa2163c4f0304462a" ],
-    [ "emb6", "dir_9febd8e87f0308f507bef4fc2269e269.html", "dir_9febd8e87f0308f507bef4fc2269e269" ],
     [ "fatfs", "dir_a034b40e2e29d3c1b7d75b1788093666.html", "dir_a034b40e2e29d3c1b7d75b1788093666" ],
     [ "libb2", "dir_bcfe2d0e5e0659a2e38c21272dc0ebff.html", "dir_bcfe2d0e5e0659a2e38c21272dc0ebff" ],
     [ "lua", "dir_9c1b3943edbb5992967759649898d62b.html", "dir_9c1b3943edbb5992967759649898d62b" ],
@@ -11,15 +10,17 @@ var dir_1b757248df2f96757224e5c7d0d8f21a =
     [ "micropython", "dir_7bca3aad7e4c72cf2378b4df7dea0a31.html", "dir_7bca3aad7e4c72cf2378b4df7dea0a31" ],
     [ "nanocbor", "dir_8d205e22f9c15420b5084ea42a88d047.html", "dir_8d205e22f9c15420b5084ea42a88d047" ],
     [ "nimble", "dir_80463f7a6317921a2116c8dac02e63ca.html", "dir_80463f7a6317921a2116c8dac02e63ca" ],
-    [ "nordic_softdevice_ble", "dir_7f6aad99f1766836b12d20c5c5fea742.html", "dir_7f6aad99f1766836b12d20c5c5fea742" ],
     [ "openthread", "dir_40864ce13df5653a5fd9e90e0515dcd2.html", "dir_40864ce13df5653a5fd9e90e0515dcd2" ],
     [ "openwsn", "dir_a73ac54a2ba9b7ee7568ad4b08fa0066.html", "dir_a73ac54a2ba9b7ee7568ad4b08fa0066" ],
+    [ "paho-mqtt", "dir_df62121eec31021e015b61761ef04c3c.html", "dir_df62121eec31021e015b61761ef04c3c" ],
     [ "semtech-loramac", "dir_37897307909f7391789a6e9c0e572be0.html", "dir_37897307909f7391789a6e9c0e572be0" ],
     [ "spiffs", "dir_141fd7275b5821c54ac8831dc5b29b00.html", "dir_141fd7275b5821c54ac8831dc5b29b00" ],
     [ "tinydtls", "dir_54339b805d1c87d9e787fb86a3569949.html", "dir_54339b805d1c87d9e787fb86a3569949" ],
     [ "tlsf", "dir_0ddaf88b3aef33b3985192e159a5859b.html", "dir_0ddaf88b3aef33b3985192e159a5859b" ],
     [ "u8g2", "dir_d768c1c3bedd3d3fbab13e19ec0be164.html", "dir_d768c1c3bedd3d3fbab13e19ec0be164" ],
     [ "ucglib", "dir_339a39c01fcf6d8fa00a5413b88d5311.html", "dir_339a39c01fcf6d8fa00a5413b88d5311" ],
+    [ "uwb-core", "dir_62a9af1fe12759ebff26909c724a4a35.html", "dir_62a9af1fe12759ebff26909c724a4a35" ],
+    [ "uwb-dw1000", "dir_bb1354bef38e40e1d8e4ce11450ddc3a.html", "dir_bb1354bef38e40e1d8e4ce11450ddc3a" ],
     [ "wakaama", "dir_1cb3ab6c72176e168a0441ca4fb3540a.html", "dir_1cb3ab6c72176e168a0441ca4fb3540a" ],
     [ "wolfssl", "dir_60088a6aa45103b976de5e69696d93fa.html", "dir_60088a6aa45103b976de5e69696d93fa" ]
 ];

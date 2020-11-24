@@ -1,3 +1,9 @@
 <map id="boards/stm32f723e&#45;disco/include/periph_conf.h" name="boards/stm32f723e&#45;disco/include/periph_conf.h">
-<area shape="rect" id="node4" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="172,95,295,121"/>
+<area shape="rect" id="node1" title="Peripheral MCU configuration for the STM32F723E&#45;DISCO board." alt="" coords="357,5,544,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="551,184,657,211"/>
+<area shape="rect" id="node3" href="$cfg__clock__default__216_8h.html" title="Default STM32F7 clock configuration for 216MHz boards." alt="" coords="184,95,363,136"/>
+<area shape="rect" id="node6" title=" " alt="" coords="438,102,567,129"/>
+<area shape="rect" id="node7" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral." alt="" coords="592,102,723,129"/>
+<area shape="rect" id="node4" href="$f2f4f7_2cfg__clock__common_8h.html" title="Base STM32F4 clock configuration." alt="" coords="5,184,208,211"/>
+<area shape="rect" id="node5" href="$f2f4f7_2cfg__clock__values_8h.html" title="STM32F4 clock values definitions." alt="" coords="233,184,421,211"/>
 </map>

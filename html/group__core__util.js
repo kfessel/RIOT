@@ -3,7 +3,6 @@ var group__core__util =
     [ "Stack backtrace (only under native)", "group__backtrace.html", "group__backtrace" ],
     [ "assert.h", "assert_8h.html", null ],
     [ "bitarithm.h", "bitarithm_8h.html", null ],
-    [ "byteorder.h", "byteorder_8h.html", null ],
     [ "cib.h", "cib_8h.html", null ],
     [ "clist.h", "clist_8h.html", null ],
     [ "debug.h", "debug_8h.html", null ],

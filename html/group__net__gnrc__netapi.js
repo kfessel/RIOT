@@ -2,7 +2,6 @@ var group__net__gnrc__netapi =
 [
     [ "Callback extension", "group__net__gnrc__netapi__callbacks.html", null ],
     [ "Mailbox IPC extension", "group__net__gnrc__netapi__mbox.html", null ],
-    [ "NETAPI test framework", "group__net__gnrc__nettest.html", "group__net__gnrc__nettest" ],
     [ "netapi.h", "netapi_8h.html", null ],
     [ "gnrc_netapi_opt_t", "structgnrc__netapi__opt__t.html", [
       [ "context", "structgnrc__netapi__opt__t.html#abb7d76401195cc1ef437f868444e8afe", null ],

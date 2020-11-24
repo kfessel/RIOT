@@ -1,6 +1,13 @@
 <map id="boards/p&#45;l496g&#45;cell02/include/gpio_params.h" name="boards/p&#45;l496g&#45;cell02/include/gpio_params.h">
-<area shape="rect" id="node2" href="$p-l496g-cell02_2include_2board_8h.html" title="Board specific definitions for the P&#45;L496G&#45;CELL02 board. " alt="" coords="29,95,95,121"/>
-<area shape="rect" id="node5" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="119,95,215,121"/>
-<area shape="rect" id="node6" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="235,169,331,196"/>
-<area shape="rect" id="node10" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="118,169,211,196"/>
+<area shape="rect" id="node1" title="Board specific configuration of direct mapped GPIOs." alt="" coords="70,5,243,47"/>
+<area shape="rect" id="node2" href="$p-l496g-cell02_2include_2board_8h.html" title="Board specific definitions for the P&#45;L496G&#45;CELL02 board." alt="" coords="65,95,136,121"/>
+<area shape="rect" id="node5" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL." alt="" coords="215,95,322,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="81,244,152,271"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,169,63,196"/>
+<area shape="rect" id="node6" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="401,169,507,196"/>
+<area shape="rect" id="node10" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="273,169,376,196"/>
+<area shape="rect" id="node11" href="$pwm_8h.html" title="Low&#45;level PWM peripheral driver interface definitions." alt="" coords="139,169,249,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="176,244,247,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="271,244,376,271"/>
+<area shape="rect" id="node9" title=" " alt="" coords="401,244,510,271"/>
 </map>

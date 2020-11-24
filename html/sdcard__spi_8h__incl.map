@@ -1,4 +1,11 @@
 <map id="drivers/include/sdcard_spi.h" name="drivers/include/sdcard_spi.h">
-<area shape="rect" id="node2" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="195,95,285,121"/>
-<area shape="rect" id="node9" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="389,169,485,196"/>
+<area shape="rect" id="node1" title="Public interface for the sdcard_spi driver." alt="" coords="168,5,333,47"/>
+<area shape="rect" id="node2" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition." alt="" coords="201,95,300,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,88,196"/>
+<area shape="rect" id="node9" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="408,169,515,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="213,169,288,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="313,169,383,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="158,244,229,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="454,244,559,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="297,244,407,271"/>
 </map>

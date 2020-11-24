@@ -1,3 +1,5 @@
 <map id="cpu/cc2538/include/cc2538_uart.h" name="cpu/cc2538/include/cc2538_uart.h">
-<area shape="rect" id="node2" href="$cc2538_8h.html" title="CC2538 MCU interrupt and register definitions. " alt="" coords="35,95,110,121"/>
+<area shape="rect" id="node1" title="CC2538 UART interface." alt="" coords="5,5,152,47"/>
+<area shape="rect" id="node2" href="$cc2538_8h.html" title="CC2538 MCU interrupt and register definitions." alt="" coords="39,95,119,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="30,169,127,196"/>
 </map>

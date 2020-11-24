@@ -1,11 +1,17 @@
 <map id="sys/include/net/ipv6.h" name="sys/include/net/ipv6.h">
-<area shape="rect" id="node2" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses. " alt="" coords="367,155,475,181"/>
-<area shape="rect" id="node8" href="$ipv6_2ext_8h.html" title="IPv6 extension header definitions. " alt="" coords="37,155,139,181"/>
-<area shape="rect" id="node11" href="$net_2ipv6_2hdr_8h.html" title="IPv6 header type and helper function definitions. " alt="" coords="575,80,676,107"/>
-<area shape="rect" id="node5" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="410,304,497,331"/>
-<area shape="rect" id="node7" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions. " alt="" coords="367,229,475,256"/>
-<area shape="rect" id="node9" href="$ipv6_2ext_2frag_8h.html" title="Fragmentation extension definitions. " alt="" coords="75,229,202,256"/>
-<area shape="rect" id="node10" href="$ipv6_2ext_2rh_8h.html" title="Routing extension header definitions. " alt="" coords="30,304,146,331"/>
-<area shape="rect" id="node12" href="$inet__csum_8h.html" title="Internet Checksum definitions. " alt="" coords="568,155,683,181"/>
-<area shape="rect" id="node13" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="645,229,723,256"/>
+<area shape="rect" id="node1" title="IPv6 include gathering header." alt="" coords="318,5,482,32"/>
+<area shape="rect" id="node2" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses." alt="" coords="340,155,460,181"/>
+<area shape="rect" id="node10" href="$ipv6_2ext_8h.html" title="IPv6 extension header definitions." alt="" coords="56,155,168,181"/>
+<area shape="rect" id="node13" href="$net_2ipv6_2hdr_8h.html" title="IPv6 header type and helper function definitions." alt="" coords="561,80,673,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="241,304,324,331"/>
+<area shape="rect" id="node4" title=" " alt="" coords="365,229,435,256"/>
+<area shape="rect" id="node5" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="349,304,446,331"/>
+<area shape="rect" id="node8" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions." alt="" coords="460,229,580,256"/>
+<area shape="rect" id="node6" title=" " alt="" coords="275,453,346,480"/>
+<area shape="rect" id="node7" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="348,379,447,405"/>
+<area shape="rect" id="node9" title=" " alt="" coords="584,304,659,331"/>
+<area shape="rect" id="node11" href="$ipv6_2ext_2frag_8h.html" title="Fragmentation extension definitions." alt="" coords="95,229,238,256"/>
+<area shape="rect" id="node12" href="$ipv6_2ext_2rh_8h.html" title="Routing extension header definitions." alt="" coords="37,379,166,405"/>
+<area shape="rect" id="node14" href="$inet__csum_8h.html" title="Internet Checksum definitions." alt="" coords="655,155,782,181"/>
+<area shape="rect" id="node15" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="706,229,793,256"/>
 </map>

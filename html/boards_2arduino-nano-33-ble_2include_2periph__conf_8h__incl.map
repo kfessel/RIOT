@@ -1,3 +1,7 @@
 <map id="boards/arduino&#45;nano&#45;33&#45;ble/include/periph_conf.h" name="boards/arduino&#45;nano&#45;33&#45;ble/include/periph_conf.h">
-<area shape="rect" id="node3" href="$cfg__clock__32__1_8h.html" title="Common clock configuration for the nRF52 based boards. " alt="" coords="126,109,250,136"/>
+<area shape="rect" id="node1" title="Peripheral configuration for the Arduino Nano 33 BLE." alt="" coords="197,5,361,61"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,109,111,136"/>
+<area shape="rect" id="node3" href="$cfg__clock__32__1_8h.html" title="Common clock configuration for the nRF52 based boards." alt="" coords="135,109,269,136"/>
+<area shape="rect" id="node4" title=" " alt="" coords="293,109,423,136"/>
+<area shape="rect" id="node5" title=" " alt="" coords="447,109,597,136"/>
 </map>

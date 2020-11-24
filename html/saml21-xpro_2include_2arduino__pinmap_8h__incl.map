@@ -1,4 +1,10 @@
 <map id="boards/saml21&#45;xpro/include/arduino_pinmap.h" name="boards/saml21&#45;xpro/include/arduino_pinmap.h">
-<area shape="rect" id="node2" href="$saml21-xpro_2include_2board_8h.html" title="Board specific definitions for the Atmel SAM L21 Xplained Pro board. " alt="" coords="15,95,80,121"/>
-<area shape="rect" id="node5" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="190,95,283,121"/>
+<area shape="rect" id="node1" title="Mapping from board pins to Arduino pins." alt="" coords="42,5,237,47"/>
+<area shape="rect" id="node2" href="$saml21-xpro_2include_2board_8h.html" title="Board specific definitions for the Atmel SAM L21 Xplained Pro board." alt="" coords="15,95,85,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="87,169,192,196"/>
+<area shape="rect" id="node5" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="200,95,303,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,63,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="216,169,287,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="311,169,381,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="406,169,515,196"/>
 </map>

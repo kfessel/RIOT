@@ -1,6 +1,20 @@
 <map id="pkg/openwsn/include/openwsn_radio.h" name="pkg/openwsn/include/openwsn_radio.h">
-<area shape="rect" id="node2" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="121,95,216,121"/>
-<area shape="rect" id="node4" href="$errno_8h.html" title="errno.h" alt="" coords="95,169,157,196"/>
-<area shape="rect" id="node5" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="181,169,241,196"/>
-<area shape="rect" id="node7" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="266,169,357,196"/>
+<area shape="rect" id="node1" title="RIOT adaption of the &quot;radio&quot; bsp module definitions." alt="" coords="311,5,469,47"/>
+<area shape="rect" id="node2" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface." alt="" coords="255,95,357,121"/>
+<area shape="rect" id="node11" href="$radio_8h_source.html" title=" " alt="" coords="512,95,684,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="412,393,483,420"/>
+<area shape="rect" id="node4" href="$errno_8h.html" title=" " alt="" coords="5,169,73,196"/>
+<area shape="rect" id="node5" href="$iolist_8h.html" title="iolist scatter / gather IO" alt="" coords="411,169,478,196"/>
+<area shape="rect" id="node9" href="$netopt_8h.html" title="Definition of global configuration options." alt="" coords="98,169,199,196"/>
+<area shape="rect" id="node10" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="59,319,188,345"/>
+<area shape="rect" id="node6" href="$unistd_8h_source.html" title=" " alt="" coords="274,244,349,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="189,393,263,420"/>
+<area shape="rect" id="node8" href="$cpu_2atmega__common_2avr__libc__extra_2include_2sys_2types_8h_source.html" title=" " alt="" coords="263,319,359,345"/>
+<area shape="rect" id="node12" title=" " alt="" coords="777,169,859,196"/>
+<area shape="rect" id="node13" href="$uio_8h.html" title="libc header for scatter/gather I/O" alt="" coords="502,169,582,196"/>
+<area shape="rect" id="node16" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="691,244,788,271"/>
+<area shape="rect" id="node18" href="$eui64_8h.html" title="EUI&#45;64 data type definition." alt="" coords="607,169,701,196"/>
+<area shape="rect" id="node14" title=" " alt="" coords="544,244,615,271"/>
+<area shape="rect" id="node15" title=" " alt="" coords="423,244,519,271"/>
+<area shape="rect" id="node17" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="690,319,789,345"/>
 </map>

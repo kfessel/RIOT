@@ -1,5 +1,8 @@
 <map id="sys/include/net/gnrc/sixlowpan/config.h" name="sys/include/net/gnrc/sixlowpan/config.h">
-<area shape="rect" id="node2" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="5,95,123,121"/>
-<area shape="rect" id="node4" href="$timex_8h.html" title="Utility library for comparing and computing timestamps. " alt="" coords="146,95,211,121"/>
-<area shape="rect" id="node6" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="223,169,302,196"/>
+<area shape="rect" id="node1" title="Configuration macros for 6LoWPAN." alt="" coords="67,5,219,47"/>
+<area shape="rect" id="node2" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="15,95,145,121"/>
+<area shape="rect" id="node5" href="$timex_8h.html" title="Utility library for comparing and computing timestamps." alt="" coords="169,95,241,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,80,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="105,169,175,196"/>
+<area shape="rect" id="node6" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="199,169,286,196"/>
 </map>

@@ -1,10 +1,16 @@
 <map id="drivers/veml6070/include/veml6070_params.h" name="drivers/veml6070/include/veml6070_params.h">
-<area shape="rect" id="node3" href="$veml6070_8h.html" title="Device driver interface for the VEML6070 UV sensor. " alt="" coords="219,95,308,121"/>
-<area shape="rect" id="node15" href="$saul__reg_8h.html" title="SAUL registry interface definition. " alt="" coords="112,95,194,121"/>
-<area shape="rect" id="node4" href="$saul_8h.html" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer. " alt="" coords="191,169,248,196"/>
-<area shape="rect" id="node10" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition. " alt="" coords="328,244,418,271"/>
-<area shape="rect" id="node6" href="$errno_8h.html" title="errno.h" alt="" coords="242,244,304,271"/>
-<area shape="rect" id="node7" href="$phydat_8h.html" title="Generic data container for physical data interface. " alt="" coords="44,244,116,271"/>
-<area shape="rect" id="node9" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="21,319,138,345"/>
-<area shape="rect" id="node14" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="422,319,561,345"/>
+<area shape="rect" id="node1" title="Default configuration for VEML6070." alt="" coords="308,5,495,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="257,95,327,121"/>
+<area shape="rect" id="node3" href="$veml6070_8h.html" title="Device driver interface for the VEML6070 UV sensor." alt="" coords="352,95,451,121"/>
+<area shape="rect" id="node14" href="$saul__reg_8h.html" title="SAUL registry interface definition." alt="" coords="475,95,565,121"/>
+<area shape="rect" id="node4" href="$saul_8h.html" title="Definition of the generic [S]ensor [A]ctuator [U]ber [L]ayer." alt="" coords="489,169,551,196"/>
+<area shape="rect" id="node10" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition." alt="" coords="208,319,307,345"/>
+<area shape="rect" id="node5" title=" " alt="" coords="514,393,585,420"/>
+<area shape="rect" id="node6" href="$errno_8h.html" title=" " alt="" coords="494,244,562,271"/>
+<area shape="rect" id="node7" href="$phydat_8h.html" title="Generic data container for physical data interface." alt="" coords="391,244,470,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="364,393,439,420"/>
+<area shape="rect" id="node9" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="382,319,511,345"/>
+<area shape="rect" id="node11" title=" " alt="" coords="269,393,339,420"/>
+<area shape="rect" id="node12" title=" " alt="" coords="5,393,115,420"/>
+<area shape="rect" id="node13" title=" " alt="" coords="139,393,245,420"/>
 </map>

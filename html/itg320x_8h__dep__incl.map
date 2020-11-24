@@ -1,3 +1,4 @@
 <map id="drivers/include/itg320x.h" name="drivers/include/itg320x.h">
-<area shape="rect" id="node2" href="$itg320x__params_8h.html" title="Default configuration for InvenSense ITG320X 3&#45;axis gyroscope. " alt="" coords="11,80,163,121"/>
+<area shape="rect" id="node1" title="Device driver for InvenSense ITG320X 3&#45;axis gyroscope." alt="" coords="5,5,188,32"/>
+<area shape="rect" id="node2" href="$itg320x__params_8h.html" title="Default configuration for InvenSense ITG320X 3&#45;axis gyroscope." alt="" coords="11,80,182,121"/>
 </map>

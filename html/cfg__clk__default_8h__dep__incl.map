@@ -1,9 +1,11 @@
 <map id="boards/common/cc2538/include/cfg_clk_default.h" name="boards/common/cc2538/include/cfg_clk_default.h">
-<area shape="rect" id="node2" href="$boards_2cc2538dk_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the CC2538DK board. " alt="" coords="5,95,172,136"/>
-<area shape="rect" id="node3" href="$boards_2firefly_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Firefly board revision A. " alt="" coords="196,95,339,136"/>
-<area shape="rect" id="node4" href="$boards_2openmote-b_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the OpenMote&#45;B board. " alt="" coords="363,95,542,136"/>
-<area shape="rect" id="node5" href="$boards_2openmote-cc2538_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the OpenMote&#45;cc2538 board. " alt="" coords="566,95,734,136"/>
-<area shape="rect" id="node6" href="$boards_2remote-pa_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Re&#45;Mote board prototype A. " alt="" coords="758,95,926,136"/>
-<area shape="rect" id="node7" href="$boards_2remote-reva_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the RE&#45;Mote board revision A. " alt="" coords="950,95,1099,136"/>
-<area shape="rect" id="node8" href="$boards_2remote-revb_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the RE&#45;Mote board revision B. " alt="" coords="1123,95,1273,136"/>
+<area shape="rect" id="node1" title="Default clock configuration for cc2538 based boards." alt="" coords="697,5,885,47"/>
+<area shape="rect" id="node2" href="$boards_2cc2538dk_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the CC2538DK board." alt="" coords="5,95,188,136"/>
+<area shape="rect" id="node3" href="$boards_2firefly_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Firefly board revision A." alt="" coords="213,95,373,136"/>
+<area shape="rect" id="node4" href="$boards_2omote_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the omote board." alt="" coords="397,95,559,136"/>
+<area shape="rect" id="node5" href="$boards_2openmote-b_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the OpenMote&#45;B board." alt="" coords="583,95,783,136"/>
+<area shape="rect" id="node6" href="$boards_2openmote-cc2538_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the OpenMote&#45;cc2538 board." alt="" coords="807,95,994,136"/>
+<area shape="rect" id="node7" href="$boards_2remote-pa_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Re&#45;Mote board prototype A." alt="" coords="1018,95,1207,136"/>
+<area shape="rect" id="node8" href="$boards_2remote-reva_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the RE&#45;Mote board revision A." alt="" coords="1232,95,1396,136"/>
+<area shape="rect" id="node9" href="$boards_2remote-revb_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the RE&#45;Mote board revision B." alt="" coords="1420,95,1584,136"/>
 </map>

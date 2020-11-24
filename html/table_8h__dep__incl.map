@@ -1,5 +1,6 @@
 <map id="sys/include/net/fib/table.h" name="sys/include/net/fib/table.h">
-<area shape="rect" id="node2" href="$fib_8h.html" title="Types and functions for FIB. " alt="" coords="5,95,144,121"/>
-<area shape="rect" id="node3" href="$rpl_8h.html" title="RPL header. " alt="" coords="5,169,144,211"/>
-<area shape="rect" id="node4" href="$dodag_8h.html" title="DODAG&#45;related functions for RPL. " alt="" coords="5,259,144,300"/>
+<area shape="rect" id="node1" title="Types and functions for operating fib tables." alt="" coords="11,5,153,47"/>
+<area shape="rect" id="node2" href="$fib_8h.html" title="Types and functions for FIB." alt="" coords="5,95,159,121"/>
+<area shape="rect" id="node3" href="$rpl_8h.html" title="RPL header. Declaration of global variables and functions needed for core functionality of RPL." alt="" coords="6,169,158,211"/>
+<area shape="rect" id="node4" href="$dodag_8h.html" title="DODAG&#45;related functions for RPL." alt="" coords="6,259,158,300"/>
 </map>

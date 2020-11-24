@@ -1,6 +1,6 @@
 var ina3221__regs_8h =
 [
-    [ "ina3221_reg_t", "ina3221__regs_8h.html#a78953c3235487055fc479253bb33d4a0", null ],
+    [ "ina3221_reg_t", "ina3221__regs_8h.html#a6ac0a6ce4c99f2a87962f94ed43d6f6c", null ],
     [ "ina3221_reg", "ina3221__regs_8h.html#a9ece4f429c2ef851f15de90945ce1c17", [
       [ "INA3221_REG_CONFIGURATION", "ina3221__regs_8h.html#a9ece4f429c2ef851f15de90945ce1c17a523485b167cc53f4547fbec735ac0b6e", null ],
       [ "INA3221_REG_CH1_SHUNT_VOLTAGE", "ina3221__regs_8h.html#a9ece4f429c2ef851f15de90945ce1c17a4fb06e2c0e3e9b147116e9cc2511e089", null ],

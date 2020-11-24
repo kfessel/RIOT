@@ -20,6 +20,5 @@ var group__drivers__periph =
     [ "Timer", "group__drivers__periph__timer.html", "group__drivers__periph__timer" ],
     [ "UART", "group__drivers__periph__uart.html", "group__drivers__periph__uart" ],
     [ "WDT", "group__drivers__periph__wdt.html", "group__drivers__periph__wdt" ],
-    [ "usbdev - USB Device Driver API", "group__drivers__periph__usbdev.html", "group__drivers__periph__usbdev" ],
-    [ "dev_enums.h", "dev__enums_8h.html", null ]
+    [ "usbdev - USB Device Driver API", "group__drivers__periph__usbdev.html", "group__drivers__periph__usbdev" ]
 ];

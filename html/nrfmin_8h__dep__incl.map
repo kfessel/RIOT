@@ -1,3 +1,4 @@
 <map id="cpu/nrf5x_common/include/nrfmin.h" name="cpu/nrf5x_common/include/nrfmin.h">
-<area shape="rect" id="node2" href="$nrfmin__gnrc_8h.html" title="GNRC adapter for nrfmin devices (e.g. " alt="" coords="5,95,184,136"/>
+<area shape="rect" id="node1" title="Interface definition for the nrfmin NRF51822 radio driver." alt="" coords="5,5,204,47"/>
+<area shape="rect" id="node2" href="$nrfmin__gnrc_8h.html" title="GNRC adapter for nrfmin devices (e.g. nRF5x radios)" alt="" coords="5,95,204,136"/>
 </map>

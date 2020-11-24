@@ -1,6 +1,16 @@
 <map id="sys/include/ztimer/config.h" name="sys/include/ztimer/config.h">
-<area shape="rect" id="node4" href="$ztimer_8h.html" title="ztimer API " alt="" coords="219,95,289,121"/>
-<area shape="rect" id="node6" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="315,244,422,271"/>
-<area shape="rect" id="node11" href="$msg_8h.html" title="Messaging API for inter process communication. " alt="" coords="225,169,283,196"/>
-<area shape="rect" id="node7" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="233,319,312,345"/>
+<area shape="rect" id="node1" title="ztimer default configuration" alt="" coords="85,5,226,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="101,95,210,121"/>
+<area shape="rect" id="node4" href="$ztimer_8h.html" title="ztimer API" alt="" coords="235,95,311,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="125,393,196,420"/>
+<area shape="rect" id="node6" href="$sched_8h.html" title="Scheduler API definition." alt="" coords="371,244,443,271"/>
+<area shape="rect" id="node13" href="$msg_8h.html" title="Messaging API for inter process communication." alt="" coords="241,169,304,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="473,393,547,420"/>
+<area shape="rect" id="node8" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="548,319,635,345"/>
+<area shape="rect" id="node9" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="343,319,472,345"/>
+<area shape="rect" id="node10" href="$native__sched_8h.html" title="Add definitions required on the native board." alt="" coords="198,319,318,345"/>
+<area shape="rect" id="node11" href="$clist_8h.html" title="Circular linked list." alt="" coords="659,319,721,345"/>
+<area shape="rect" id="node12" href="$list_8h.html" title="Intrusive linked list." alt="" coords="663,393,717,420"/>
+<area shape="rect" id="node14" title=" " alt="" coords="231,244,314,271"/>
 </map>

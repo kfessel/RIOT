@@ -1,4 +1,5 @@
 <map id="drivers/dfplayer/include/dfplayer_internal.h" name="drivers/dfplayer/include/dfplayer_internal.h">
-<area shape="rect" id="node2" href="$dfplayer__implementation_8h.html" title="Header&#45;only functions of the DFPlayer Mini Device driver. " alt="" coords="5,95,184,136"/>
-<area shape="rect" id="node3" href="$dfplayer_8h.html" title="DFPlayer Mini Device Driver. " alt="" coords="11,184,178,211"/>
+<area shape="rect" id="node1" title="Internal functions of DFPlayer Mini Device driver." alt="" coords="19,5,195,47"/>
+<area shape="rect" id="node2" href="$dfplayer__implementation_8h.html" title="Header&#45;only functions of the DFPlayer Mini Device driver." alt="" coords="5,95,208,136"/>
+<area shape="rect" id="node3" href="$dfplayer_8h.html" title="DFPlayer Mini Device Driver." alt="" coords="13,184,201,211"/>
 </map>

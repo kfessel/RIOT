@@ -1,3 +1,8 @@
 <map id="pkg/u8g2/contrib/u8x8_riotos.h" name="pkg/u8g2/contrib/u8x8_riotos.h">
-<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,95,189,121"/>
+<area shape="rect" id="node1" title="U8g2 driver for interacting with RIOT&#45;OS peripherals." alt="" coords="13,5,180,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="9,95,75,121"/>
+<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="99,95,206,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,169,76,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="100,169,205,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="230,169,339,196"/>
 </map>

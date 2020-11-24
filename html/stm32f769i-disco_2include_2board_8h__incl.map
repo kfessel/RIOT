@@ -1,5 +1,12 @@
 <map id="boards/stm32f769i&#45;disco/include/board.h" name="boards/stm32f769i&#45;disco/include/board.h">
-<area shape="rect" id="node3" href="$boards_2stm32f769i-disco_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the STM32F769I&#45;DISCO board. " alt="" coords="104,95,204,121"/>
-<area shape="rect" id="node6" href="$cfg__timer__tim2_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM2. " alt="" coords="165,169,284,196"/>
-<area shape="rect" id="node7" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="309,169,431,196"/>
+<area shape="rect" id="node1" title="Board specific definitions for the STM32F769I&#45;DISCO board." alt="" coords="302,5,485,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="311,95,369,121"/>
+<area shape="rect" id="node3" href="$boards_2stm32f769i-disco_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the STM32F769I&#45;DISCO board." alt="" coords="393,95,503,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="551,259,657,285"/>
+<area shape="rect" id="node5" href="$cfg__clock__default__216_8h.html" title="Default STM32F7 clock configuration for 216MHz boards." alt="" coords="129,169,308,211"/>
+<area shape="rect" id="node8" title=" " alt="" coords="383,177,513,203"/>
+<area shape="rect" id="node9" href="$cfg__timer__tim2_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM2." alt="" coords="537,177,671,203"/>
+<area shape="rect" id="node10" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral." alt="" coords="695,177,825,203"/>
+<area shape="rect" id="node6" href="$f2f4f7_2cfg__clock__common_8h.html" title="Base STM32F4 clock configuration." alt="" coords="5,259,208,285"/>
+<area shape="rect" id="node7" href="$f2f4f7_2cfg__clock__values_8h.html" title="STM32F4 clock values definitions." alt="" coords="233,259,421,285"/>
 </map>

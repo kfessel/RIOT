@@ -1,3 +1,6 @@
 <map id="sys/include/net/icmp.h" name="sys/include/net/icmp.h">
-<area shape="rect" id="node2" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="39,80,125,107"/>
+<area shape="rect" id="node1" title="ICMPv4 type and function definitions." alt="" coords="5,5,173,32"/>
+<area shape="rect" id="node2" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="41,80,138,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="54,229,125,256"/>
+<area shape="rect" id="node4" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="84,155,183,181"/>
 </map>

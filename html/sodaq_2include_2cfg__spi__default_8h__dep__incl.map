@@ -1,9 +1,10 @@
 <map id="boards/common/sodaq/include/cfg_spi_default.h" name="boards/common/sodaq/include/cfg_spi_default.h">
-<area shape="rect" id="node2" href="$boards_2nrf52832-mdk_2include_2periph__conf_8h.html" title="Peripheral configuration for the nRF52832&#45;MDK. " alt="" coords="5,95,155,136"/>
-<area shape="rect" id="node3" href="$boards_2nrf52840-mdk_2include_2periph__conf_8h.html" title="Peripheral configuration for the nRF52840&#45;MDK. " alt="" coords="179,95,328,136"/>
-<area shape="rect" id="node4" href="$boards_2remote-reva_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the RE&#45;Mote board revision A. " alt="" coords="352,95,501,136"/>
-<area shape="rect" id="node5" href="$boards_2remote-revb_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the RE&#45;Mote board revision B. " alt="" coords="525,95,675,136"/>
-<area shape="rect" id="node6" href="$boards_2sodaq-autonomo_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ Autonomo board. " alt="" coords="699,95,861,136"/>
-<area shape="rect" id="node7" href="$boards_2sodaq-explorer_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Sodaq LoRaWAN Explorer board. " alt="" coords="885,95,1035,136"/>
-<area shape="rect" id="node8" href="$boards_2sodaq-sara-aff_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ SARA AFF boards. " alt="" coords="1060,95,1209,136"/>
+<area shape="rect" id="node1" title="Default SPI configuration for SODAQ boards." alt="" coords="557,5,745,47"/>
+<area shape="rect" id="node2" href="$boards_2nrf52832-mdk_2include_2periph__conf_8h.html" title="Peripheral configuration for the nRF52832&#45;MDK." alt="" coords="5,95,169,136"/>
+<area shape="rect" id="node3" href="$boards_2nrf52840-mdk_2include_2periph__conf_8h.html" title="Peripheral configuration for the nRF52840&#45;MDK." alt="" coords="193,95,357,136"/>
+<area shape="rect" id="node4" href="$boards_2remote-reva_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the RE&#45;Mote board revision A." alt="" coords="381,95,545,136"/>
+<area shape="rect" id="node5" href="$boards_2remote-revb_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the RE&#45;Mote board revision B." alt="" coords="569,95,733,136"/>
+<area shape="rect" id="node6" href="$boards_2sodaq-autonomo_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ Autonomo board." alt="" coords="757,95,937,136"/>
+<area shape="rect" id="node7" href="$boards_2sodaq-explorer_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Sodaq LoRaWAN Explorer board." alt="" coords="962,95,1130,136"/>
+<area shape="rect" id="node8" href="$boards_2sodaq-sara-aff_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ SARA AFF boards." alt="" coords="1154,95,1319,136"/>
 </map>

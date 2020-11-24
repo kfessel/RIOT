@@ -1,0 +1,7 @@
+<map id="pkg/uwb&#45;core/include/uwb_core.h" name="pkg/uwb&#45;core/include/uwb_core.h">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,167,47"/>
+<area shape="rect" id="node2" href="$dpl__eventq_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) event queue wrappers" alt="" coords="5,95,167,136"/>
+<area shape="rect" id="node3" href="$dpl_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="5,273,167,315"/>
+<area shape="rect" id="node5" href="$dpl__callout_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) callout abstraction" alt="" coords="65,184,227,225"/>
+<area shape="rect" id="node4" href="$os__dev_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="5,363,167,404"/>
+</map>

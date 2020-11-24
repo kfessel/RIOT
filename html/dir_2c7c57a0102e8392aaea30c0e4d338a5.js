@@ -1,5 +1,6 @@
 var dir_2c7c57a0102e8392aaea30c0e4d338a5 =
 [
+    [ "clk", "dir_27c4a7f1abbd827ef39e20b85e2a71e6.html", "dir_27c4a7f1abbd827ef39e20b85e2a71e6" ],
     [ "periph", "dir_2467268495d90d0a752e11c9806aa072.html", "dir_2467268495d90d0a752e11c9806aa072" ],
     [ "can_params.h", "stm32_2include_2can__params_8h.html", "stm32_2include_2can__params_8h" ],
     [ "candev_stm32.h", "candev__stm32_8h.html", "candev__stm32_8h" ],

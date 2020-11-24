@@ -1,3 +1,11 @@
 <map id="boards/common/esp32/include/board_common.h" name="boards/common/esp32/include/board_common.h">
-<area shape="rect" id="node6" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="374,95,470,121"/>
+<area shape="rect" id="node1" title="Board definitions that are common for all ESP32 boards." alt="" coords="153,5,344,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="100,95,157,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="210,169,319,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="233,95,371,121"/>
+<area shape="rect" id="node6" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="395,95,502,121"/>
+<area shape="rect" id="node9" title=" " alt="" coords="526,95,617,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="357,169,428,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="452,169,557,196"/>
 </map>

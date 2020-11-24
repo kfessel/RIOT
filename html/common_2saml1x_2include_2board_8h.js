@@ -10,5 +10,6 @@ var common_2saml1x_2include_2board_8h =
     [ "LED0_PIN", "group__boards__common__saml1x.html#ga3fc522fda449d6edde717d6a857429cf", null ],
     [ "LED0_TOGGLE", "group__boards__common__saml1x.html#gaebc6389533d9fc8dcbe4d2129a4d5a45", null ],
     [ "LED_PORT", "group__boards__common__saml1x.html#ga663daa01e565aee93c6f20c5845b90b4", null ],
+    [ "XTIMER_BACKOFF", "group__boards__common__saml1x.html#ga370b9e9a079c4cb4f54fd947b67b9f41", null ],
     [ "board_init", "group__boards__common__saml1x.html#ga916f2adc2080b4fe88034086d107a8dc", null ]
 ];

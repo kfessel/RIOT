@@ -1,6 +1,6 @@
 var kw2xrf__intern_8h =
 [
-    [ "kw2xrf_timer_timebase_t", "kw2xrf__intern_8h.html#a68348d7aebf15c8f377b3961de14fc0b", null ],
+    [ "kw2xrf_timer_timebase_t", "kw2xrf__intern_8h.html#ae208b527bd1af1c8bec4b1a731923101", null ],
     [ "kw2xrf_powermode_t", "kw2xrf__intern_8h.html#a582d3bb5ed77a9168ec050246249f8a1", [
       [ "KW2XRF_HIBERNATE", "kw2xrf__intern_8h.html#a582d3bb5ed77a9168ec050246249f8a1acd7688f26b5b5692a2654b99d5510398", null ],
       [ "KW2XRF_DOZE", "kw2xrf__intern_8h.html#a582d3bb5ed77a9168ec050246249f8a1a608b1291352f4232e568f0dcb3f7f0a0", null ],

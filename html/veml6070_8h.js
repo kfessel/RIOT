@@ -1,8 +1,8 @@
 var veml6070_8h =
 [
-    [ "veml6070_itime_t", "group__drivers__veml6070.html#ga9e0572b796e0c20755e3f3f9a989c950", null ],
-    [ "VEML6070_OK", "group__drivers__veml6070.html#ggafccaefcc48c7849e1f3defa3f1fd1f8aa997bc5b246995ce54442fb156d703017", null ],
-    [ "VEML6070_ERR_I2C", "group__drivers__veml6070.html#ggafccaefcc48c7849e1f3defa3f1fd1f8aa1b908290653c3148e0298c8451dbf9f9", null ],
+    [ "veml6070_itime_t", "group__drivers__veml6070.html#gada6b5bdb219e095d5863e8bddbe2f3c5", null ],
+    [ "VEML6070_OK", "group__drivers__veml6070.html#ggaafc5993fe6fd7fec62e94ef57859c353a997bc5b246995ce54442fb156d703017", null ],
+    [ "VEML6070_ERR_I2C", "group__drivers__veml6070.html#ggaafc5993fe6fd7fec62e94ef57859c353a1b908290653c3148e0298c8451dbf9f9", null ],
     [ "veml6070_integrationtime", "group__drivers__veml6070.html#ga0c39b45f995df3f279a39d3147391a6d", [
       [ "VEML6070_HALF_T", "group__drivers__veml6070.html#gga0c39b45f995df3f279a39d3147391a6daa5461ceadd78fd0e1e9a3ef7c82618fd", null ],
       [ "VEML6070_1_T", "group__drivers__veml6070.html#gga0c39b45f995df3f279a39d3147391a6da35cf2848ca374313d127d9988c2dcde9", null ],

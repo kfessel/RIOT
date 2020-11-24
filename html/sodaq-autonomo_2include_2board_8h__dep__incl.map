@@ -1,3 +1,4 @@
 <map id="boards/sodaq&#45;autonomo/include/board.h" name="boards/sodaq&#45;autonomo/include/board.h">
-<area shape="rect" id="node2" href="$sodaq-autonomo_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,95,167,136"/>
+<area shape="rect" id="node1" title="Board specific definitions for the SODAQ Autonomo board." alt="" coords="5,5,185,47"/>
+<area shape="rect" id="node2" href="$sodaq-autonomo_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,95,185,136"/>
 </map>

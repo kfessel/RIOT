@@ -1,8 +1,9 @@
 <map id="boards/stm32f429i&#45;disc1/include/board.h" name="boards/stm32f429i&#45;disc1/include/board.h">
-<area shape="rect" id="node3" href="$boards_2stm32f429i-disc1_2include_2periph__conf_8h.html" title="periph_conf.h" alt="" coords="254,95,354,121"/>
-<area shape="rect" id="node5" href="$cfg__clock__168__8__1_8h.html" title="Configure STM32F4 clock to 168MHz using PLL with LSE. " alt="" coords="5,169,165,196"/>
-<area shape="rect" id="node7" href="$cfg__spi__divtable_8h.html" title="Collection of pre&#45;computed bus pre&#45;scalers for SPI configuration. " alt="" coords="241,169,367,196"/>
-<area shape="rect" id="node8" href="$cfg__timer__tim5_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM5. " alt="" coords="391,169,510,196"/>
-<area shape="rect" id="node9" href="$cfg__usb__otg__hs__fs_8h.html" title="Common configuration for STM32 OTG HS peripheral with FS phy. " alt="" coords="534,169,677,196"/>
-<area shape="rect" id="node6" href="$cfg__clock__168__8__common_8h.html" title="Configure STM32F4 clock to 168MHz using PLL. " alt="" coords="18,244,153,285"/>
+<area shape="rect" id="node1" title="Board specific definitions for the STM32F429I&#45;DISC1 evaluation board." alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="15,95,72,121"/>
+<area shape="rect" id="node3" href="$boards_2stm32f429i-disc1_2include_2periph__conf_8h.html" title=" " alt="" coords="97,95,206,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="167,244,272,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="41,169,128,196"/>
+<area shape="rect" id="node6" href="$cfg__timer__tim5_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM5." alt="" coords="153,169,286,196"/>
+<area shape="rect" id="node7" href="$cfg__usb__otg__hs__fs_8h.html" title="Common configuration for STM32 OTG HS peripheral with FS phy." alt="" coords="311,169,464,196"/>
 </map>

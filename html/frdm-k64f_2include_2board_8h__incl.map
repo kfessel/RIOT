@@ -1,3 +1,6 @@
 <map id="boards/frdm&#45;k64f/include/board.h" name="boards/frdm&#45;k64f/include/board.h">
-<area shape="rect" id="node3" href="$boards_2frdm-k64f_2include_2periph__conf_8h.html" title="periph_conf.h" alt="" coords="89,95,189,121"/>
+<area shape="rect" id="node1" title="Board specific definitions for the FRDM&#45;K64F." alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="17,95,74,121"/>
+<area shape="rect" id="node3" href="$boards_2frdm-k64f_2include_2periph__conf_8h.html" title=" " alt="" coords="99,95,208,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="101,169,206,196"/>
 </map>

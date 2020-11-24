@@ -1,4 +1,5 @@
 <map id="sys/include/net/gnrc/rpl/p2p_structs.h" name="sys/include/net/gnrc/rpl/p2p_structs.h">
-<area shape="rect" id="node2" href="$p2p_8h.html" title="Definititions for P2P&#45;RPL. " alt="" coords="5,95,144,136"/>
-<area shape="rect" id="node3" href="$p2p__dodag_8h.html" title="DODAG&#45;related functions for P2P&#45;RPL. " alt="" coords="168,95,307,136"/>
+<area shape="rect" id="node1" title="P2P&#45;RPL data structs." alt="" coords="93,5,245,47"/>
+<area shape="rect" id="node2" href="$p2p_8h.html" title="Definititions for P2P&#45;RPL." alt="" coords="5,95,157,136"/>
+<area shape="rect" id="node3" href="$p2p__dodag_8h.html" title="DODAG&#45;related functions for P2P&#45;RPL." alt="" coords="181,95,333,136"/>
 </map>

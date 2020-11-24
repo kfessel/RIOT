@@ -1,5 +1,11 @@
 <map id="boards/common/arduino&#45;due/include/board.h" name="boards/common/arduino&#45;due/include/board.h">
-<area shape="rect" id="node3" href="$common_2arduino-due_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins. " alt="" coords="138,95,262,121"/>
-<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,169,189,196"/>
-<area shape="rect" id="node8" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="213,169,307,196"/>
+<area shape="rect" id="node1" title="Board specific definitions for the Arduino Due based boards." alt="" coords="65,5,245,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="65,95,123,121"/>
+<area shape="rect" id="node3" href="$common_2arduino-due_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins." alt="" coords="147,95,286,121"/>
+<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="99,169,206,196"/>
+<area shape="rect" id="node8" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="231,169,333,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,244,76,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="100,244,205,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="230,244,339,271"/>
+<area shape="rect" id="node9" title=" " alt="" coords="364,244,435,271"/>
 </map>

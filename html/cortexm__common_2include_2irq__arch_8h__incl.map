@@ -1,2 +1,5 @@
 <map id="cpu/cortexm_common/include/irq_arch.h" name="cpu/cortexm_common/include/irq_arch.h">
+<area shape="rect" id="node1" title="Implementation of the kernels irq interface." alt="" coords="9,5,176,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,76,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="101,95,191,121"/>
 </map>

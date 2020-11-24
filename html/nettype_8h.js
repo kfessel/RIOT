@@ -1,12 +1,12 @@
 var nettype_8h =
 [
     [ "gnrc_nettype_t", "group__net__gnrc__nettype.html#ga2582fbb16a318806983c225a69460902", [
-      [ "GNRC_NETTYPE_IOVEC", "group__net__gnrc__nettype.html#gga2582fbb16a318806983c225a69460902a23df3f5a298ba2fdaedf3404beb508ec", null ],
       [ "GNRC_NETTYPE_NETIF", "group__net__gnrc__nettype.html#gga2582fbb16a318806983c225a69460902a591a497a7b4a31427c44c7b24baf17c3", null ],
       [ "GNRC_NETTYPE_UNDEF", "group__net__gnrc__nettype.html#gga2582fbb16a318806983c225a69460902aadb666d279898cdecd1dcc0cc18799f1", null ],
       [ "GNRC_NETTYPE_SIXLOWPAN", "group__net__gnrc__nettype.html#gga2582fbb16a318806983c225a69460902ae3db3bc6ba0636854f94574d7eba0a99", null ],
       [ "GNRC_NETTYPE_GOMACH", "group__net__gnrc__nettype.html#gga2582fbb16a318806983c225a69460902adfd477fb995fa06eb895883e7bc0f4e0", null ],
       [ "GNRC_NETTYPE_LWMAC", "group__net__gnrc__nettype.html#gga2582fbb16a318806983c225a69460902a5c09f39eea527e5673f8f88f1037fd2c", null ],
+      [ "GNRC_NETTYPE_CUSTOM", "group__net__gnrc__nettype.html#gga2582fbb16a318806983c225a69460902a4bfb6891c5a0c75a7ef1d3a32e46a817", null ],
       [ "GNRC_NETTYPE_IPV6", "group__net__gnrc__nettype.html#gga2582fbb16a318806983c225a69460902a5b4cb265411204c95e4a4996dcafe380", null ],
       [ "GNRC_NETTYPE_IPV6_EXT", "group__net__gnrc__nettype.html#gga2582fbb16a318806983c225a69460902a24c467f2dacc21e8758c2e6dcca02990", null ],
       [ "GNRC_NETTYPE_ICMPV6", "group__net__gnrc__nettype.html#gga2582fbb16a318806983c225a69460902adbb6f5119b7c8f58e11d3ca5c4abd2d6", null ],

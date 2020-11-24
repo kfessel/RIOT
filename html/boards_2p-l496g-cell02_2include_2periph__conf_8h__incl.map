@@ -1,4 +1,7 @@
 <map id="boards/p&#45;l496g&#45;cell02/include/periph_conf.h" name="boards/p&#45;l496g&#45;cell02/include/periph_conf.h">
-<area shape="rect" id="node3" href="$cfg__clock__80__1_8h.html" title="Configure STM32L4 clock using 80MHz core clock and LSE (32.768kHz) " alt="" coords="23,95,162,121"/>
-<area shape="rect" id="node5" href="$cfg__timer__tim2_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM2. " alt="" coords="326,95,445,121"/>
+<area shape="rect" id="node1" title="Peripheral MCU configuration for the P&#45;L496G&#45;CELL02 board." alt="" coords="51,5,215,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="118,169,223,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="24,95,111,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="135,95,264,121"/>
+<area shape="rect" id="node5" href="$cfg__timer__tim2_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM2." alt="" coords="289,95,422,121"/>
 </map>

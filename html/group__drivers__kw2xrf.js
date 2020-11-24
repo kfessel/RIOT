@@ -41,7 +41,7 @@ var group__drivers__kw2xrf =
     [ "KW2XRF_OPT_TELL_RX_START", "group__drivers__kw2xrf.html#gae1812ed686aa1a1570dbef66e9ebec26", null ],
     [ "KW2XRF_OPT_TELL_TX_END", "group__drivers__kw2xrf.html#ga0fe22a2a1b4883b07b9f80bc33a9c3b8", null ],
     [ "KW2XRF_OPT_TELL_TX_START", "group__drivers__kw2xrf.html#ga5c672ab1fc71ba3a6a6ddeef8d0a4f66", null ],
-    [ "kw2xrf_params_t", "group__drivers__kw2xrf.html#gac13166c924223059b8653c1b9d34dc12", null ],
+    [ "kw2xrf_params_t", "group__drivers__kw2xrf.html#gacc3cf59ccebcb1b07b2e498926feac13", null ],
     [ "kw2xrf_init", "group__drivers__kw2xrf.html#gaac4cf0e9a53181ce15bd358021dc180f", null ],
     [ "kw2xrf_reset_phy", "group__drivers__kw2xrf.html#ga43013f237994794fccbdd12237fa8dbb", null ],
     [ "kw2xrf_setup", "group__drivers__kw2xrf.html#ga155a761db8561a009ce90b3f11dfd30f", null ]

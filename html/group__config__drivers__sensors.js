@@ -2,9 +2,11 @@ var group__config__drivers__sensors =
 [
     [ "ADCXX1C driver compile configurations", "group__drivers__adcxx1c__config.html", "group__drivers__adcxx1c__config" ],
     [ "ADS101 driver compile configuration", "group__drivers__ads101x__config.html", "group__drivers__ads101x__config" ],
+    [ "Adafruit Seesaw Soil Moisture and Temperature Sensor driver compile configuration", "group__drivers__seesaw__soil__config.html", "group__drivers__seesaw__soil__config" ],
     [ "BMX055 sensor driver compile configuration", "group__drivers__bmx055__config.html", "group__drivers__bmx055__config" ],
     [ "DS1307 RTC driver compile configuration", "group__drivers__ds1307__config.html", "group__drivers__ds1307__config" ],
     [ "FXOS8700 accelerometer/magnetometer driver compile configuration", "group__drivers__fxos8700__config.html", "group__drivers__fxos8700__config" ],
+    [ "GP2Y10xx driver compile configurations", "group__drivers__gp2y10xx__config.html", "group__drivers__gp2y10xx__config" ],
     [ "HDC1000 Humidity and Temperature Sensor driver compile configuration", "group__drivers__hdc1000__config.html", "group__drivers__hdc1000__config" ],
     [ "ISL29020 light sensor driver compile configuration", "group__drivers__isl29020__config.html", "group__drivers__isl29020__config" ],
     [ "L3G4200D gyroscope driver compile configuration", "group__drivers__l3g4200d__config.html", "group__drivers__l3g4200d__config" ],

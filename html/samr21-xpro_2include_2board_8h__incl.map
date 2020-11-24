@@ -1,3 +1,11 @@
 <map id="boards/samr21&#45;xpro/include/board.h" name="boards/samr21&#45;xpro/include/board.h">
-<area shape="rect" id="node3" href="$boards_2samr21-xpro_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Atmel SAM R21 Xplained Pro board. " alt="" coords="71,95,171,121"/>
+<area shape="rect" id="node1" title="Board specific definitions for the Atmel SAM R21 Xplained Pro board." alt="" coords="83,5,236,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,169,63,196"/>
+<area shape="rect" id="node3" href="$boards_2samr21-xpro_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Atmel SAM R21 Xplained Pro board." alt="" coords="59,95,169,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="149,169,255,196"/>
+<area shape="rect" id="node6" href="$edbg__eui_8h.html" title=" " alt="" coords="246,95,339,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="308,393,379,420"/>
+<area shape="rect" id="node7" href="$eui64_8h.html" title="EUI&#45;64 data type definition." alt="" coords="331,169,425,196"/>
+<area shape="rect" id="node8" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="381,244,479,271"/>
+<area shape="rect" id="node9" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="431,319,530,345"/>
 </map>

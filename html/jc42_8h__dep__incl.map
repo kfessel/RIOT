@@ -1,3 +1,4 @@
 <map id="drivers/include/jc42.h" name="drivers/include/jc42.h">
-<area shape="rect" id="node2" href="$jc42__params_8h.html" title="Default configuration for jc42. " alt="" coords="11,80,145,121"/>
+<area shape="rect" id="node1" title="Driver for jc42 compliant temperature sensors." alt="" coords="5,5,167,32"/>
+<area shape="rect" id="node2" href="$jc42__params_8h.html" title="Default configuration for jc42." alt="" coords="11,80,161,121"/>
 </map>

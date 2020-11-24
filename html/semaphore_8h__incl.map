@@ -1,6 +1,24 @@
 <map id="sys/posix/include/semaphore.h" name="sys/posix/include/semaphore.h">
-<area shape="rect" id="node2" href="$errno_8h.html" title="errno.h" alt="" coords="5,80,68,107"/>
-<area shape="rect" id="node4" href="$sema_8h.html" title="Semaphore definitions. " alt="" coords="176,80,241,107"/>
-<area shape="rect" id="node6" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="213,155,282,181"/>
-<area shape="rect" id="node8" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="311,229,362,256"/>
+<area shape="rect" id="node1" title="Semaphores." alt="" coords="19,5,241,32"/>
+<area shape="rect" id="node2" href="$errno_8h.html" title=" " alt="" coords="5,80,73,107"/>
+<area shape="rect" id="node3" href="$time_8h_source.html" title=" " alt="" coords="98,80,162,107"/>
+<area shape="rect" id="node5" href="$sema_8h.html" title="Semaphore definitions." alt="" coords="211,80,281,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="82,155,178,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="297,603,368,629"/>
+<area shape="rect" id="node7" href="$mutex_8h.html" title="Mutex for thread synchronization." alt="" coords="672,155,748,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="829,603,903,629"/>
+<area shape="rect" id="node9" href="$irq_8h.html" title="IRQ driver interface." alt="" coords="818,229,869,256"/>
+<area shape="rect" id="node12" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="319,528,448,555"/>
+<area shape="rect" id="node13" href="$list_8h.html" title="Intrusive linked list." alt="" coords="933,528,988,555"/>
+<area shape="rect" id="node14" href="$core_2include_2thread_8h.html" title="Threading API." alt="" coords="672,229,748,256"/>
+<area shape="rect" id="node10" title=" " alt="" coords="703,379,786,405"/>
+<area shape="rect" id="node11" title=" " alt="" coords="798,304,889,331"/>
+<area shape="rect" id="node15" href="$clist_8h.html" title="Circular linked list." alt="" coords="878,453,939,480"/>
+<area shape="rect" id="node16" href="$cib_8h.html" title="Circular integer buffer interface." alt="" coords="457,304,510,331"/>
+<area shape="rect" id="node19" href="$msg_8h.html" title="Messaging API for inter process communication." alt="" coords="609,304,672,331"/>
+<area shape="rect" id="node20" href="$sched_8h.html" title="Scheduler API definition." alt="" coords="607,379,679,405"/>
+<area shape="rect" id="node17" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="371,379,446,405"/>
+<area shape="rect" id="node18" href="$panic_8h.html" title="Crash handling header." alt="" coords="373,453,442,480"/>
+<area shape="rect" id="node21" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="521,453,608,480"/>
+<area shape="rect" id="node22" href="$native__sched_8h.html" title="Add definitions required on the native board." alt="" coords="683,453,803,480"/>
 </map>

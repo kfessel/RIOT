@@ -1,7 +1,6 @@
 var group__net__netopt =
 [
     [ "netopt.h", "netopt_8h.html", null ],
-    [ "NETOPT_LINK_CONNECTED", "group__net__netopt.html#gaa5050d96c4c641ba80fd66a8ff4f5a06", null ],
     [ "NETOPT_MAX_PACKET_SIZE", "group__net__netopt.html#ga65af1ebb96e5772ff534ca172e44144f", null ],
     [ "netopt_enable_t", "group__net__netopt.html#ga09337825cca1fd15dfefc0e31a56a86c", [
       [ "NETOPT_DISABLE", "group__net__netopt.html#gga09337825cca1fd15dfefc0e31a56a86ca4e083ab230f781d839f6363cc3721cbf", null ],
@@ -41,6 +40,7 @@ var group__net__netopt =
       [ "NETOPT_IPV6_SND_RTR_ADV", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906ae790325fc7cb8733c92834be26a4e40e", null ],
       [ "NETOPT_TX_POWER", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906a8dced0cf56140e6bb79c71b99d57e31b", null ],
       [ "NETOPT_MAX_PDU_SIZE", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906a2b16afc5d6f0b1c22a868c8436ebd624", null ],
+      [ "NETOPT_PDU_SIZE", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906a847c4bf2044db598846eaf86ea40558b", null ],
       [ "NETOPT_PRELOADING", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906ab9a0177309e4537d2f14f58d41abde11", null ],
       [ "NETOPT_PROMISCUOUSMODE", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906a69724f3f722e5c4e0c5569ba02778ad8", null ],
       [ "NETOPT_AUTOACK", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906abcbe52f2967202691a8effaf2cc5a964", null ],
@@ -111,6 +111,10 @@ var group__net__netopt =
       [ "NETOPT_MR_OQPSK_RATE", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906a51c79bfce6f8fdac7fab767dad315038", null ],
       [ "NETOPT_MR_OFDM_OPTION", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906a546214736e7a7b1cf62481ad27a0ec99", null ],
       [ "NETOPT_MR_OFDM_MCS", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906a0a6ee0f13b0da439c4158bf5a986b8f6", null ],
+      [ "NETOPT_MR_FSK_MODULATION_INDEX", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906a5b27adec33b456e3fcdba64f8990b3e8", null ],
+      [ "NETOPT_MR_FSK_MODULATION_ORDER", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906ad7d2e7cd8f0f79e70a3513aba881a561", null ],
+      [ "NETOPT_MR_FSK_SRATE", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906a22ecd796b38f041d7811c667a3136857", null ],
+      [ "NETOPT_MR_FSK_FEC", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906a65ada6fc7ed7eb4b086a25a7eac70027", null ],
       [ "NETOPT_CHANNEL_SPACING", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906ae8f3a873a64ea7616e3bbd76b6fd57ba", null ],
       [ "NETOPT_SYNCWORD", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906ae36108235998829ca695f6ccc8e9783d", null ],
       [ "NETOPT_RANDOM", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906aeecb18fb64e6960e9c3c0778ac2c722c", null ],
@@ -120,6 +124,8 @@ var group__net__netopt =
       [ "NETOPT_NUM_GATEWAYS", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906a30b60bc66071416f9d6ddc04647522b0", null ],
       [ "NETOPT_LINK_CHECK", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906a3bb8367fce193f4cb1ef99bd2cb113a8", null ],
       [ "NETOPT_RSSI", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906a43ac679ede5cd2c50a764a9fd4c88dc5", null ],
+      [ "NETOPT_L2_GROUP", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906a02100f7de94a4aaa0c787c9715a325e7", null ],
+      [ "NETOPT_L2_GROUP_LEAVE", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906acf6e100c1e52a3754d0ecc471aac2191", null ],
       [ "NETOPT_NUMOF", "group__net__netopt.html#gga19e30424c1ab107c9c84dc0cb29d9906ac16b269650b10e74d7046c95f11cae6c", null ]
     ] ],
     [ "netopt2str", "group__net__netopt.html#ga927a5d2656d7f1794b8e347b17899992", null ]

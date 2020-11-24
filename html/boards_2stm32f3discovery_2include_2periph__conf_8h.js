@@ -1,16 +1,6 @@
 var boards_2stm32f3discovery_2include_2periph__conf_8h =
 [
-    [ "CLOCK_AHB", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#aad59105b6bb2f74e0ca52f5d2be8b8e1", null ],
-    [ "CLOCK_AHB_DIV", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#a11f66224742678d401efba36fb4d9164", null ],
-    [ "CLOCK_APB1", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#a7c07f079a96c4bf2c1c0727cc73a8efd", null ],
-    [ "CLOCK_APB1_DIV", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#a2cad8e54e6cdecca5c8a58a411ef5a93", null ],
-    [ "CLOCK_APB2", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#ab9db63572275f73c0933ab6733daf159", null ],
-    [ "CLOCK_APB2_DIV", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#a34259b3a8aae08bd77bab9cecdf1398e", null ],
-    [ "CLOCK_CORECLOCK", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#afc465f12242e68f6c3695caa3ba0a169", null ],
-    [ "CLOCK_HSE", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#a19d32ef5403d838f9398b9706618cb40", null ],
-    [ "CLOCK_LSE", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#a727373fed6afe243f41b211f7e66b285", null ],
-    [ "CLOCK_PLL_MUL", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#a902a38d6dfe9bc80271132ace0d1ca69", null ],
-    [ "CLOCK_PLL_PREDIV", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#aed784ff0035d6b0584f5069343cbab9e", null ],
+    [ "CONFIG_BOARD_HAS_HSE", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#a055813e339f41a120f81a18fe83a07c3", null ],
     [ "DAC_NUMOF", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#a2d6ae6694d0a51952fb26d994de93d12", null ],
     [ "I2C_0_ISR", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#a5655b75a493bbd17b560958d66369152", null ],
     [ "I2C_1_ISR", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#add7e561d6118d47ed5cbe258073607ab", null ],
@@ -27,7 +17,6 @@ var boards_2stm32f3discovery_2include_2periph__conf_8h =
     [ "i2c_config", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#aa9dcbfbe7aa5baf027d834e5bca62a47", null ],
     [ "pwm_config", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#a5177e7e865ac2ae63f7d56c8b3078707", null ],
     [ "spi_config", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#a873188d7292e07499dcde9674b1e849c", null ],
-    [ "spi_divtable", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#ae3b1d06e940a46447dea0987400fdc04", null ],
     [ "timer_config", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#a2dd41f782d2c67052e4dc7d37cef89b1", null ],
     [ "uart_config", "boards_2stm32f3discovery_2include_2periph__conf_8h.html#a1643cfc64589407fb96b4cbf908689a5", null ]
 ];

@@ -8,8 +8,8 @@ var gnrc_2netif_8h =
       [ "GNRC_NETIF_BUS_IPV6", "group__net__gnrc__netif.html#gga9b571101e3ae1341d7b12eb1e6747083af1aa2995b0c4af1c3abea190368d581d", null ],
       [ "GNRC_NETIF_BUS_NUMOF", "group__net__gnrc__netif.html#gga9b571101e3ae1341d7b12eb1e6747083a4e76f3e7edd8a3c4879dd67d49a89c0a", null ]
     ] ],
-    [ "gnrc_netif_addr_from_str", "group__net__gnrc__netif.html#gaf16e926a8cd64665a2fe889bd0a07f65", null ],
-    [ "gnrc_netif_addr_to_str", "group__net__gnrc__netif.html#ga3044f145e443972a3389f0cbe1daa402", null ],
+    [ "gnrc_netif_addr_from_str", "group__net__gnrc__netif.html#ga352038367ae7c3be460728a39afdfef8", null ],
+    [ "gnrc_netif_addr_to_str", "group__net__gnrc__netif.html#gab3ec6a146319a2482e46f0f909372353", null ],
     [ "gnrc_netif_create", "group__net__gnrc__netif.html#ga94c18818950185514dae7271abed4d86", null ],
     [ "gnrc_netif_default_init", "group__net__gnrc__netif.html#ga45e1c26c7a51f6cc802744c1bb836689", null ],
     [ "gnrc_netif_get_bus", "group__net__gnrc__netif.html#ga82a0e8f871fe70e105cb907378346a9f", null ],

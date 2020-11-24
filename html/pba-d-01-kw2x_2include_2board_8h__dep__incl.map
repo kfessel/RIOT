@@ -1,3 +1,4 @@
 <map id="boards/pba&#45;d&#45;01&#45;kw2x/include/board.h" name="boards/pba&#45;d&#45;01&#45;kw2x/include/board.h">
-<area shape="rect" id="node2" href="$pba-d-01-kw2x_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,95,161,136"/>
+<area shape="rect" id="node1" title="Board specific definitions for the phyWAVE evaluation board." alt="" coords="8,5,176,47"/>
+<area shape="rect" id="node2" href="$pba-d-01-kw2x_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,95,179,136"/>
 </map>

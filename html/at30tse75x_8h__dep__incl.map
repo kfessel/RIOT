@@ -1,4 +1,5 @@
 <map id="drivers/include/at30tse75x.h" name="drivers/include/at30tse75x.h">
-<area shape="rect" id="node2" href="$io1__xplained_8h.html" title="Device driver interface for the Atmel IO1 Xplained extension. " alt="" coords="35,80,161,121"/>
-<area shape="rect" id="node3" href="$io1__xplained__params_8h.html" title="Default configuration for IO1 Xplained. " alt="" coords="27,169,169,225"/>
+<area shape="rect" id="node1" title="Driver for the AT30TSE75x temperature sensor with serial EEPROM." alt="" coords="5,5,212,32"/>
+<area shape="rect" id="node2" href="$io1__xplained_8h.html" title="Device driver interface for the Atmel IO1 Xplained extension." alt="" coords="37,80,180,121"/>
+<area shape="rect" id="node3" href="$io1__xplained__params_8h.html" title="Default configuration for IO1 Xplained." alt="" coords="29,169,189,225"/>
 </map>

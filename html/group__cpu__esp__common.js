@@ -3,6 +3,8 @@ var group__cpu__esp__common =
     [ "ESP common compile configurations", "group__cpu__esp__common__conf.html", "group__cpu__esp__common__conf" ],
     [ "ESP-NOW netdev interface", "group__cpu__esp__common__esp__now.html", "group__cpu__esp__common__esp__now" ],
     [ "ESP-WiFi netdev interface", "group__cpu__esp__common__esp__wifi.html", "group__cpu__esp__common__esp__wifi" ],
+    [ "architecture_arch.h", "esp__common_2include_2architecture__arch_8h.html", null ],
+    [ "atomic_utils_arch.h", "esp__common_2include_2atomic__utils__arch_8h.html", null ],
     [ "cpu.h", "esp__common_2include_2cpu_8h.html", null ],
     [ "esp_common.h", "esp__common_8h.html", null ],
     [ "esp_common_log.h", "esp__common__log_8h.html", null ],

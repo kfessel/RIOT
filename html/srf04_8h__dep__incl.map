@@ -1,3 +1,4 @@
 <map id="drivers/include/srf04.h" name="drivers/include/srf04.h">
-<area shape="rect" id="node2" href="$srf04__params_8h.html" title="Default configuration for srf04 devices. " alt="" coords="11,80,150,121"/>
+<area shape="rect" id="node1" title="Device driver for the srf04 ultra sonic range finder." alt="" coords="5,5,172,32"/>
+<area shape="rect" id="node2" href="$srf04__params_8h.html" title="Default configuration for srf04 devices." alt="" coords="11,80,166,121"/>
 </map>

@@ -1,6 +1,0 @@
-<map id="cpu/msp430_common/include/time.h" name="cpu/msp430_common/include/time.h">
-<area shape="rect" id="node3" href="$msp430__types_8h.html" title="basic types for MSP430 " alt="" coords="139,95,258,121"/>
-<area shape="rect" id="node5" href="$errno_8h.html" title="errno.h" alt="" coords="214,169,277,196"/>
-<area shape="rect" id="node6" href="$kernel__types_8h.html" title="Types used by the kernel. " alt="" coords="301,169,408,196"/>
-<area shape="rect" id="node8" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="267,244,346,271"/>
-</map>

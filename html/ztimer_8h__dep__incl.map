@@ -1,13 +1,21 @@
 <map id="sys/include/ztimer.h" name="sys/include/ztimer.h">
-<area shape="rect" id="node2" href="$sys_2include_2ztimer_2config_8h.html" title="ztimer default configuration " alt="" coords="5,80,133,121"/>
-<area shape="rect" id="node3" href="$convert_8h.html" title="ztimer frequency conversion base module " alt="" coords="259,80,387,121"/>
-<area shape="rect" id="node4" href="$convert__frac_8h.html" title="ztimer_convert_frac interface definitions " alt="" coords="49,169,177,211"/>
-<area shape="rect" id="node5" href="$convert__muldiv64_8h.html" title="ztimer frequency conversion module API " alt="" coords="225,169,364,211"/>
-<area shape="rect" id="node6" href="$convert__shift_8h.html" title="ztimer_convert_shift interface definitions " alt="" coords="388,169,516,211"/>
-<area shape="rect" id="node7" href="$mock_8h.html" title="ztimer mock clock backend API " alt="" coords="461,80,589,121"/>
-<area shape="rect" id="node8" href="$overhead_8h.html" title="ztimer_overhead API " alt="" coords="613,80,741,121"/>
-<area shape="rect" id="node9" href="$periph__rtc_8h.html" title="ztimer rtc/timer backend API " alt="" coords="765,80,893,121"/>
-<area shape="rect" id="node10" href="$periph__rtt_8h.html" title="ztimer periph/rtt backend API " alt="" coords="917,80,1045,121"/>
-<area shape="rect" id="node11" href="$periph__timer_8h.html" title="ztimer periph/timer backend API " alt="" coords="1069,80,1197,121"/>
-<area shape="rect" id="node12" href="$xtimer__compat_8h.html" title="ztimer xtimer wrapper interface " alt="" coords="1221,80,1349,121"/>
+<area shape="rect" id="node1" title="ztimer API" alt="" coords="1314,5,1467,32"/>
+<area shape="rect" id="node2" href="$sx127x_8h.html" title="Public interface for SX127X driver." alt="" coords="412,87,593,114"/>
+<area shape="rect" id="node7" href="$pkg_2semtech-loramac_2include_2semtech-loramac_2timer_8h.html" title="Semtech LoRaMAC timer compatibility definitions." alt="" coords="689,259,879,315"/>
+<area shape="rect" id="node8" href="$sys_2include_2ztimer_2config_8h.html" title="ztimer default configuration" alt="" coords="892,80,1033,121"/>
+<area shape="rect" id="node9" href="$convert_8h.html" title="ztimer frequency conversion base module" alt="" coords="1108,80,1249,121"/>
+<area shape="rect" id="node10" href="$convert__frac_8h.html" title="ztimer_convert_frac interface definitions" alt="" coords="956,169,1097,211"/>
+<area shape="rect" id="node11" href="$convert__muldiv64_8h.html" title="ztimer frequency conversion module API" alt="" coords="1145,169,1300,211"/>
+<area shape="rect" id="node12" href="$convert__shift_8h.html" title="ztimer_convert_shift interface definitions" alt="" coords="1324,169,1465,211"/>
+<area shape="rect" id="node13" href="$ztimer_2mock_8h.html" title="ztimer mock clock backend API" alt="" coords="1375,80,1516,121"/>
+<area shape="rect" id="node14" href="$overhead_8h.html" title="ztimer_overhead API" alt="" coords="1540,80,1681,121"/>
+<area shape="rect" id="node15" href="$periodic_8h.html" title="Periodic ztimer API." alt="" coords="1705,80,1847,121"/>
+<area shape="rect" id="node16" href="$periph__rtc_8h.html" title="ztimer rtc/timer backend API" alt="" coords="1871,80,2012,121"/>
+<area shape="rect" id="node17" href="$periph__rtt_8h.html" title="ztimer periph/rtt backend API" alt="" coords="2036,80,2177,121"/>
+<area shape="rect" id="node18" href="$periph__timer_8h.html" title="ztimer periph/timer backend API" alt="" coords="2201,80,2343,121"/>
+<area shape="rect" id="node19" href="$xtimer__compat_8h.html" title="ztimer xtimer wrapper interface" alt="" coords="2367,80,2508,121"/>
+<area shape="rect" id="node3" href="$boards_2nz32-sc151_2include_2sx127x__params_8h.html" title="sx127x configuration for nz32&#45;sc15 using modtronix inAir9 LoRa module" alt="" coords="5,169,200,211"/>
+<area shape="rect" id="node4" href="$sx127x__internal_8h.html" title="Semtech SX127X internal functions." alt="" coords="225,169,394,211"/>
+<area shape="rect" id="node5" href="$drivers_2sx127x_2include_2sx127x__params_8h.html" title="Default configuration for SX127X driver." alt="" coords="418,169,587,211"/>
+<area shape="rect" id="node6" href="$semtech__loramac_8h.html" title="Public API and definitions of the Semtech LoRaMAC." alt="" coords="612,169,817,211"/>
 </map>

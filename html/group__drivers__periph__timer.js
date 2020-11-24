@@ -12,7 +12,7 @@ var group__drivers__periph__timer =
     [ "tim_t", "group__drivers__periph__timer.html#ga9edf7bd1cdc783c7a23cb740c9ba15dc", null ],
     [ "timer_cb_t", "group__drivers__periph__timer.html#ga2afe9f4ce8c01fc4253a17ffebc552cc", null ],
     [ "timer_clear", "group__drivers__periph__timer.html#ga3ef6a48915b57707513ff17c0463a277", null ],
-    [ "timer_init", "group__drivers__periph__timer.html#ga0850d6b0f76643c40d4701b6c6658bd8", null ],
+    [ "timer_init", "group__drivers__periph__timer.html#ga63a0c3bdcc4c2f1a93e725614b116da7", null ],
     [ "timer_read", "group__drivers__periph__timer.html#ga02217bf29c1e76c795a0b197408b91b7", null ],
     [ "timer_set", "group__drivers__periph__timer.html#gaccff2ca33cca64411015f808369cb919", null ],
     [ "timer_set_absolute", "group__drivers__periph__timer.html#ga2b440fa3b789669204f659de9238d752", null ],

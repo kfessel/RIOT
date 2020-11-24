@@ -1,5 +1,7 @@
 var group__cpu__cortexm__common =
 [
+    [ "architecture_arch.h", "cortexm__common_2include_2architecture__arch_8h.html", null ],
+    [ "atomic_utils_arch.h", "cortexm__common_2include_2atomic__utils__arch_8h.html", null ],
     [ "bit.h", "bit_8h.html", null ],
     [ "cpu.h", "cortexm__common_2include_2cpu_8h.html", null ],
     [ "cpu_conf_common.h", "cortexm__common_2include_2cpu__conf__common_8h.html", null ],

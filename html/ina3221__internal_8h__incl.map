@@ -1,10 +1,15 @@
 <map id="drivers/ina3221/include/ina3221_internal.h" name="drivers/ina3221/include/ina3221_internal.h">
-<area shape="rect" id="node2" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro. " alt="" coords="155,95,224,121"/>
-<area shape="rect" id="node6" href="$ina3221__defines_8h.html" title="Internal definitions for Texas Instruments INA3221 three&#45;channel, high&#45;side current and bus voltage m..." alt="" coords="389,95,515,121"/>
-<area shape="rect" id="node7" href="$ina3221_8h.html" title="Device driver interface for Texas Instruments INA3221 three&#45;channel ,high&#45;side current and bus voltag..." alt="" coords="286,95,365,121"/>
-<area shape="rect" id="node3" href="$panic_8h.html" title="Crash handling header. " alt="" coords="84,169,148,196"/>
-<area shape="rect" id="node4" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="5,244,123,271"/>
-<area shape="rect" id="node9" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="536,169,632,196"/>
-<area shape="rect" id="node13" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition. " alt="" coords="311,169,401,196"/>
-<area shape="rect" id="node14" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="287,244,425,271"/>
+<area shape="rect" id="node1" title="Functions to convert register values of INA3221 to actual voltage values and vice versa." alt="" coords="120,5,295,47"/>
+<area shape="rect" id="node2" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="89,95,163,121"/>
+<area shape="rect" id="node7" href="$ina3221__defines_8h.html" title="Internal definitions for Texas Instruments INA3221 three&#45;channel, high&#45;side current and bus voltage m..." alt="" coords="245,95,386,121"/>
+<area shape="rect" id="node8" href="$ina3221_8h.html" title="Device driver interface for Texas Instruments INA3221 three&#45;channel ,high&#45;side current and bus voltag..." alt="" coords="193,169,280,196"/>
+<area shape="rect" id="node3" href="$panic_8h.html" title="Crash handling header." alt="" coords="78,169,147,196"/>
+<area shape="rect" id="node4" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="5,244,135,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="33,319,107,345"/>
+<area shape="rect" id="node6" title=" " alt="" coords="132,319,203,345"/>
+<area shape="rect" id="node9" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="333,244,439,271"/>
+<area shape="rect" id="node13" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition." alt="" coords="210,244,309,271"/>
+<area shape="rect" id="node10" title=" " alt="" coords="227,319,297,345"/>
+<area shape="rect" id="node11" title=" " alt="" coords="321,319,427,345"/>
+<area shape="rect" id="node12" title=" " alt="" coords="451,319,561,345"/>
 </map>

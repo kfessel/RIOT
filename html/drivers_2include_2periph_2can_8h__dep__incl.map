@@ -1,4 +1,5 @@
 <map id="drivers/include/periph/can.h" name="drivers/include/periph/can.h">
-<area shape="rect" id="node2" href="$esp32_2include_2can__params_8h.html" title="ESP32 CAN controller driver (esp_can) default parameters. " alt="" coords="5,95,157,136"/>
-<area shape="rect" id="node3" href="$stm32_2include_2can__params_8h.html" title="STM32 CAN controller driver (bxCAN) default parameters. " alt="" coords="182,95,335,136"/>
+<area shape="rect" id="node1" title="Low&#45;level CAN peripheral driver interface definitions." alt="" coords="103,5,266,47"/>
+<area shape="rect" id="node2" href="$esp32_2include_2can__params_8h.html" title="ESP32 CAN controller driver (esp_can) default parameters." alt="" coords="5,95,172,136"/>
+<area shape="rect" id="node3" href="$stm32_2include_2can__params_8h.html" title="STM32 CAN controller driver (bxCAN) default parameters." alt="" coords="197,95,365,136"/>
 </map>

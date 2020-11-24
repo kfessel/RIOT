@@ -1,6 +1,12 @@
 <map id="sys/include/net/gnrc/sixlowpan/ctx.h" name="sys/include/net/gnrc/sixlowpan/ctx.h">
-<area shape="rect" id="node2" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="10,95,89,121"/>
-<area shape="rect" id="node4" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses. " alt="" coords="113,95,221,121"/>
-<area shape="rect" id="node6" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="42,244,129,271"/>
-<area shape="rect" id="node8" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions. " alt="" coords="113,169,221,196"/>
+<area shape="rect" id="node1" title="Context buffer definitions." alt="" coords="191,5,343,47"/>
+<area shape="rect" id="node2" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="95,95,182,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="328,244,411,271"/>
+<area shape="rect" id="node4" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses." alt="" coords="207,95,327,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="111,169,182,196"/>
+<area shape="rect" id="node6" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="41,244,138,271"/>
+<area shape="rect" id="node9" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions." alt="" coords="207,169,327,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="106,393,177,420"/>
+<area shape="rect" id="node8" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="5,319,104,345"/>
+<area shape="rect" id="node10" title=" " alt="" coords="229,244,304,271"/>
 </map>

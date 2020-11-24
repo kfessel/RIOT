@@ -1,5 +1,6 @@
 <map id="boards/feather&#45;m0/include/periph_conf.h" name="boards/feather&#45;m0/include/periph_conf.h">
-<area shape="rect" id="node2" href="$feather-m0_2include_2board_8h.html" title="Board specific configuration for the Adafruit Feather M0. " alt="" coords="103,95,275,136"/>
-<area shape="rect" id="node3" href="$feather-m0_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,184,177,225"/>
-<area shape="rect" id="node4" href="$boards_2feather-m0_2include_2sdcard__spi__params_8h.html" title="SD card configuration for the Adafruit Feather M0 Adalogger. " alt="" coords="201,184,373,225"/>
+<area shape="rect" id="node1" title="Configuration of CPU peripherals for Adafruit Feather M0." alt="" coords="113,5,307,47"/>
+<area shape="rect" id="node2" href="$feather-m0_2include_2board_8h.html" title="Board specific configuration for the Adafruit Feather M0." alt="" coords="113,95,307,136"/>
+<area shape="rect" id="node3" href="$feather-m0_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,184,199,225"/>
+<area shape="rect" id="node4" href="$boards_2feather-m0_2include_2sdcard__spi__params_8h.html" title="SD card configuration for the Adafruit Feather M0 Adalogger." alt="" coords="223,184,416,225"/>
 </map>

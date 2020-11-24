@@ -1,3 +1,6 @@
 <map id="boards/ublox&#45;c030&#45;u201/include/periph_conf.h" name="boards/ublox&#45;c030&#45;u201/include/periph_conf.h">
-<area shape="rect" id="node3" href="$cfg__timer__tim5_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM5. " alt="" coords="75,95,194,121"/>
+<area shape="rect" id="node1" title="Peripheral MCU configuration for the Ublox C030&#45;U201 board." alt="" coords="5,5,184,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="69,169,174,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="51,95,138,121"/>
+<area shape="rect" id="node4" href="$cfg__timer__tim5_8h.html" title="Common configuration for STM32 Timer peripheral based on TIM5." alt="" coords="163,95,296,121"/>
 </map>

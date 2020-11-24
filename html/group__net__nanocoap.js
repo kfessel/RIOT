@@ -63,7 +63,7 @@ var group__net__nanocoap =
     [ "coap_get_blockopt", "group__net__nanocoap.html#ga40828d99503144806a4e1c5ca9023026", null ],
     [ "coap_get_code", "group__net__nanocoap.html#ga90c2aae94ab827a245956c4aa6aa3bce", null ],
     [ "coap_get_code_class", "group__net__nanocoap.html#ga19ea0235c2b8c20bd0be3dfaa05e68c4", null ],
-    [ "coap_get_code_detail", "group__net__nanocoap.html#ga00bb45bdda0c564ff8d8de2ea89b6f46", null ],
+    [ "coap_get_code_detail", "group__net__nanocoap.html#ga7c4d39185482dc994f974f3c7ba3237b", null ],
     [ "coap_get_code_raw", "group__net__nanocoap.html#ga430bd1c71178bc8d8772a8df961adabf", null ],
     [ "coap_get_content_type", "group__net__nanocoap.html#gadfbb9dbf3fb3942898f14d8e2a6f724b", null ],
     [ "coap_get_id", "group__net__nanocoap.html#ga25bda64c6f3939da4b25e96f72dd2adc", null ],

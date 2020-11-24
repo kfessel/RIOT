@@ -14,9 +14,9 @@ var group__boards__common =
     [ "SODAQ boards common", "group__boards__common__sodaq.html", "group__boards__common__sodaq" ],
     [ "STM32 Configuration Snippets", "group__boards__common__stm32.html", "group__boards__common__stm32" ],
     [ "STM32 Nucleo Common", "group__boards__common__nucleo.html", "group__boards__common__nucleo" ],
-    [ "Shared WSN430 files", "group__boards__common__wsn430.html", "group__boards__common__wsn430" ],
     [ "Silicon Labs Common", "group__boards__common__silabs.html", "group__boards__common__silabs" ],
     [ "Zolertia Re-Mote common", "group__boards__common__remote.html", "group__boards__common__remote" ],
     [ "cc2538 Configuration Snippets", "group__boards__common__cc2538.html", "group__boards__common__cc2538" ],
-    [ "nRF52 common", "group__boards__common__nrf52.html", "group__boards__common__nrf52" ]
+    [ "nRF52 common", "group__boards__common__nrf52.html", "group__boards__common__nrf52" ],
+    [ "openwsn_defs.h", "boards_2common_2iotlab_2include_2openwsn__defs_8h.html", null ]
 ];

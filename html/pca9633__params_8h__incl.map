@@ -1,5 +1,13 @@
 <map id="drivers/pca9633/include/pca9633_params.h" name="drivers/pca9633/include/pca9633_params.h">
-<area shape="rect" id="node3" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition. " alt="" coords="211,95,300,121"/>
-<area shape="rect" id="node10" href="$pca9633__regs_8h.html" title="Register definitions for the PCA9633 I2C PWM controller. " alt="" coords="325,95,439,121"/>
-<area shape="rect" id="node9" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="447,169,586,196"/>
+<area shape="rect" id="node1" title="Default configuration for the PCA9633 I2C PWM controller." alt="" coords="129,5,307,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="62,95,145,121"/>
+<area shape="rect" id="node3" href="$i2c_8h.html" title="Low&#45;level I2C peripheral driver interface definition." alt="" coords="169,95,267,121"/>
+<area shape="rect" id="node9" href="$pca9633__regs_8h.html" title="Register definitions for the PCA9633 I2C PWM controller." alt="" coords="409,95,533,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="172,244,243,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="26,169,101,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="125,169,196,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="221,169,330,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="355,169,460,196"/>
+<area shape="rect" id="node10" href="$bitarithm_8h.html" title="Helper functions for bit arithmetic." alt="" coords="484,169,579,196"/>
+<area shape="rect" id="node11" title=" " alt="" coords="486,244,577,271"/>
 </map>

@@ -8,6 +8,7 @@ var same54_xpro_2include_2board_8h =
     [ "BTN0_MODE", "same54-xpro_2include_2board_8h.html#a904884feea8e03c30c9a85ca6d7a8e5c", null ],
     [ "BTN0_PIN", "same54-xpro_2include_2board_8h.html#aab5c3eca54046333af52593b9e360270", null ],
     [ "BTN0_PORT", "same54-xpro_2include_2board_8h.html#a9a61388c9e491aec2e44cc03956bb299", null ],
+    [ "EUI48_PROVIDER_FUNC", "same54-xpro_2include_2board_8h.html#aa19da159f89675bea3adbc2ff3831c63", null ],
     [ "LED0_MASK", "same54-xpro_2include_2board_8h.html#abfabde35a3e8b7ab50146a5e223bfead", null ],
     [ "LED0_OFF", "same54-xpro_2include_2board_8h.html#aef2e39b9fd343d0e437fac0463f3e02d", null ],
     [ "LED0_ON", "same54-xpro_2include_2board_8h.html#a1e48dc02333bfc2e6ad3e5bd466eecd4", null ],
@@ -16,5 +17,6 @@ var same54_xpro_2include_2board_8h =
     [ "LED_PORT", "same54-xpro_2include_2board_8h.html#a663daa01e565aee93c6f20c5845b90b4", null ],
     [ "XTIMER_HZ", "same54-xpro_2include_2board_8h.html#af68fde6b7d5b362834e6a8d382c6c0d7", null ],
     [ "XTIMER_WIDTH", "same54-xpro_2include_2board_8h.html#afea1be2406d45b8fbb1dca1a318ac2dc", null ],
+    [ "_at24mac_get_eui48", "same54-xpro_2include_2board_8h.html#a9625b94a676477f88d384a862ccdab5c", null ],
     [ "board_init", "same54-xpro_2include_2board_8h.html#a916f2adc2080b4fe88034086d107a8dc", null ]
 ];

@@ -1,3 +1,4 @@
 <map id="drivers/include/vcnl40x0.h" name="drivers/include/vcnl40x0.h">
-<area shape="rect" id="node2" href="$vcnl40x0__params_8h.html" title="Default configuration for VCNL40X0 devices. " alt="" coords="11,80,173,121"/>
+<area shape="rect" id="node1" title="Device driver interface for the VCNL40X0 sensors family." alt="" coords="5,5,199,32"/>
+<area shape="rect" id="node2" href="$vcnl40x0__params_8h.html" title="Default configuration for VCNL40X0 devices." alt="" coords="11,80,193,121"/>
 </map>

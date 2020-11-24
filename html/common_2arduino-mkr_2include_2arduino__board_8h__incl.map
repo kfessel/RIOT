@@ -1,6 +1,11 @@
 <map id="boards/common/arduino&#45;mkr/include/arduino_board.h" name="boards/common/arduino&#45;mkr/include/arduino_board.h">
-<area shape="rect" id="node2" href="$common_2arduino-mkr_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins. " alt="" coords="110,109,234,136"/>
-<area shape="rect" id="node9" href="$pwm_8h.html" title="Low&#45;level PWM peripheral driver interface definitions. " alt="" coords="243,184,343,211"/>
-<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="5,184,101,211"/>
-<area shape="rect" id="node7" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="125,184,219,211"/>
+<area shape="rect" id="node1" title="Board specific configuration for the Arduino API." alt="" coords="151,5,331,61"/>
+<area shape="rect" id="node2" href="$common_2arduino-mkr_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins." alt="" coords="119,109,257,136"/>
+<area shape="rect" id="node9" href="$pwm_8h.html" title="Low&#45;level PWM peripheral driver interface definitions." alt="" coords="263,184,374,211"/>
+<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="5,184,112,211"/>
+<area shape="rect" id="node7" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="137,184,239,211"/>
+<area shape="rect" id="node4" title=" " alt="" coords="23,259,94,285"/>
+<area shape="rect" id="node5" title=" " alt="" coords="118,259,223,285"/>
+<area shape="rect" id="node6" title=" " alt="" coords="248,259,357,285"/>
+<area shape="rect" id="node8" title=" " alt="" coords="382,259,453,285"/>
 </map>

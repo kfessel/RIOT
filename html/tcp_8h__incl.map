@@ -1,3 +1,6 @@
 <map id="sys/include/net/tcp.h" name="sys/include/net/tcp.h">
-<area shape="rect" id="node2" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="33,80,120,107"/>
+<area shape="rect" id="node1" title="TCP header and helper functions." alt="" coords="5,5,161,32"/>
+<area shape="rect" id="node2" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="35,80,132,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="48,229,119,256"/>
+<area shape="rect" id="node4" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="78,155,177,181"/>
 </map>

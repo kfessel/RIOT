@@ -10,8 +10,6 @@ var pca9685_8h =
     [ "PCA9685_OSC_FREQ", "group__drivers__pca9685.html#ga712c59786ae09893d0aeb5acd105558a", null ],
     [ "PCA9685_RESOLUTION", "group__drivers__pca9685.html#ga6d38c6c9a13df01a8454be525c3ebf7e", null ],
     [ "pca9685_error_t", "group__drivers__pca9685.html#ga810f1332042b1968497fe6d5c1ba5744", [
-      [ "PCA9633_OK", "group__drivers__pca9685.html#gga810f1332042b1968497fe6d5c1ba5744a7e344084e8c7d30b3329b08200e11944", null ],
-      [ "PCA9633_ERROR_I2C", "group__drivers__pca9685.html#gga810f1332042b1968497fe6d5c1ba5744ad665ba86e8f757ba6907b3c2dfd6183f", null ],
       [ "PCA9685_OK", "group__drivers__pca9685.html#gga810f1332042b1968497fe6d5c1ba5744a9c9798d7cfbac14ef16cad56b330e2a4", null ],
       [ "PCA9685_ERROR_I2C", "group__drivers__pca9685.html#gga810f1332042b1968497fe6d5c1ba5744a3cbc08e22b71dfbb66ba422193914a83", null ]
     ] ],

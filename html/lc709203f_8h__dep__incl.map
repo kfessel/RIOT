@@ -1,3 +1,4 @@
 <map id="drivers/include/lc709203f.h" name="drivers/include/lc709203f.h">
-<area shape="rect" id="node2" href="$lc709203f__params_8h.html" title="Default parameters for the SHTC1 Temperature and humidity sensor. " alt="" coords="11,80,177,121"/>
+<area shape="rect" id="node1" title="Device driver interface for the LC709203F Battery Fuel Gauge." alt="" coords="5,5,203,32"/>
+<area shape="rect" id="node2" href="$lc709203f__params_8h.html" title="Default parameters for the SHTC1 Temperature and humidity sensor." alt="" coords="11,80,197,121"/>
 </map>

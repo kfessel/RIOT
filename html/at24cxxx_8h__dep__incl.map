@@ -1,3 +1,4 @@
 <map id="drivers/include/at24cxxx.h" name="drivers/include/at24cxxx.h">
-<area shape="rect" id="node2" href="$mtd__at24cxxx_8h.html" title="Interface definition for at24cxxx MTD wrapper. " alt="" coords="27,80,159,121"/>
+<area shape="rect" id="node1" title="Device driver interface for AT24CXXX EEPROM units." alt="" coords="5,5,200,32"/>
+<area shape="rect" id="node2" href="$mtd__at24cxxx_8h.html" title="Interface definition for at24cxxx MTD wrapper." alt="" coords="29,80,177,121"/>
 </map>

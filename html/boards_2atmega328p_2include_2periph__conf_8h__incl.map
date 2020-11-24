@@ -1,3 +1,5 @@
 <map id="boards/atmega328p/include/periph_conf.h" name="boards/atmega328p/include/periph_conf.h">
-<area shape="rect" id="node2" href="$periph__conf__atmega__common_8h.html" title="Common configuration of MCU periphery for ATmega boards. " alt="" coords="27,95,165,136"/>
+<area shape="rect" id="node1" title="Peripheral MCU configuration for the ATmega328p standalone &quot;board&quot;." alt="" coords="5,5,208,47"/>
+<area shape="rect" id="node2" href="$periph__conf__atmega__common_8h.html" title="Common configuration of MCU periphery for ATmega boards." alt="" coords="29,95,184,136"/>
+<area shape="rect" id="node3" title=" " alt="" coords="54,184,159,211"/>
 </map>

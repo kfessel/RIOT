@@ -1,4 +1,5 @@
 <map id="drivers/include/my9221.h" name="drivers/include/my9221.h">
-<area shape="rect" id="node2" href="$grove__ledbar__params_8h.html" title="Config for the Grove LED bar based on MY9221 LED controller. " alt="" coords="16,169,161,225"/>
-<area shape="rect" id="node3" href="$grove__ledbar_8h.html" title="Interface for the Grove ledbar driver. " alt="" coords="72,80,215,121"/>
+<area shape="rect" id="node1" title="Interface for the MY9221 LED controller driver." alt="" coords="5,5,192,32"/>
+<area shape="rect" id="node2" href="$grove__ledbar__params_8h.html" title="Config for the Grove LED bar based on MY9221 LED controller." alt="" coords="17,169,180,225"/>
+<area shape="rect" id="node3" href="$grove__ledbar_8h.html" title="Interface for the Grove ledbar driver." alt="" coords="78,80,237,121"/>
 </map>

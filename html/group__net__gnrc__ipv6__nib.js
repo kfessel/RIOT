@@ -27,10 +27,10 @@ var group__net__gnrc__ipv6__nib =
     [ "GNRC_IPV6_NIB_SND_NA", "group__net__gnrc__ipv6__nib.html#gab1e6f79c6e86fabcb8bb2cf72bbeed43", null ],
     [ "GNRC_IPV6_NIB_SND_UC_NS", "group__net__gnrc__ipv6__nib.html#ga41b32cea3b97755a02ee5b14e6f6dbb6", null ],
     [ "GNRC_IPV6_NIB_VALID_ADDR", "group__net__gnrc__ipv6__nib.html#ga55657d2f2bad90bc38a4f4f4452d2bfa", [
-      [ "GNRC_IPV6_NIB_ROUTE_INFO_TYPE_UNDEF", "group__net__gnrc__ipv6__nib.html#gga456ac33d49271d3e2c371351cd1d6371a3441bf8f4250f85c736360d435377018", null ],
-      [ "GNRC_IPV6_NIB_ROUTE_INFO_TYPE_RRQ", "group__net__gnrc__ipv6__nib.html#gga456ac33d49271d3e2c371351cd1d6371aade0d80fb7cf7b507d564d0753c86209", null ],
-      [ "GNRC_IPV6_NIB_ROUTE_INFO_TYPE_RN", "group__net__gnrc__ipv6__nib.html#gga456ac33d49271d3e2c371351cd1d6371a716cab7e436552639529086e336c029e", null ],
-      [ "GNRC_IPV6_NIB_ROUTE_INFO_TYPE_NSC", "group__net__gnrc__ipv6__nib.html#gga456ac33d49271d3e2c371351cd1d6371a5196accace67c663b23a35f9654e5485", null ]
+      [ "GNRC_IPV6_NIB_ROUTE_INFO_TYPE_UNDEF", "group__net__gnrc__ipv6__nib.html#gga35b7fa7665fe812ec8d7cf77bbcdbc26a3441bf8f4250f85c736360d435377018", null ],
+      [ "GNRC_IPV6_NIB_ROUTE_INFO_TYPE_RRQ", "group__net__gnrc__ipv6__nib.html#gga35b7fa7665fe812ec8d7cf77bbcdbc26aade0d80fb7cf7b507d564d0753c86209", null ],
+      [ "GNRC_IPV6_NIB_ROUTE_INFO_TYPE_RN", "group__net__gnrc__ipv6__nib.html#gga35b7fa7665fe812ec8d7cf77bbcdbc26a716cab7e436552639529086e336c029e", null ],
+      [ "GNRC_IPV6_NIB_ROUTE_INFO_TYPE_NSC", "group__net__gnrc__ipv6__nib.html#gga35b7fa7665fe812ec8d7cf77bbcdbc26a5196accace67c663b23a35f9654e5485", null ]
     ] ],
     [ "_init_iface_router", "group__net__gnrc__ipv6__nib.html#ga0f224a75ccbeb6db5714c6dcb9d82edc", null ],
     [ "_snd_ns", "group__net__gnrc__ipv6__nib.html#ga3bce8e2e391bc165b75e4c04d5ed522b", null ],

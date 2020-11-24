@@ -1,15 +1,19 @@
 var searchData=
 [
-  ['feetech_5fbuffer_5ftoo_5fsmall',['FEETECH_BUFFER_TOO_SMALL',['../group__drivers__feetech.html#ggaf38129fd1797a5cfd7d746065784a44faa533040ef88e8050f8dab617d071c869',1,'feetech.h']]],
-  ['feetech_5finvalid_5fmessage',['FEETECH_INVALID_MESSAGE',['../group__drivers__feetech.html#ggaf38129fd1797a5cfd7d746065784a44fa048b8d86a176efc81c05b5880347d531',1,'feetech.h']]],
-  ['feetech_5fok',['FEETECH_OK',['../group__drivers__feetech.html#ggaf38129fd1797a5cfd7d746065784a44fa79e84b7676c7ab38e61d74b9ffc4bfa1',1,'feetech.h']]],
-  ['feetech_5ftimeout',['FEETECH_TIMEOUT',['../group__drivers__feetech.html#ggaf38129fd1797a5cfd7d746065784a44fa7034599860e1a7087dff47d1b1c5e078',1,'feetech.h']]],
-  ['flash_5fctrl_5firqn',['FLASH_CTRL_IRQn',['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a9f5a03f4161780a73b281d15a00fa70f',1,'FLASH_CTRL_IRQn():&#160;cc2538.h'],['../group__CC13x2__cmsis.html#gga666eb0caeb12ec0e281415592ae89083a4cecc4b0e438df4b7dbde6d7d5702123',1,'FLASH_CTRL_IRQN():&#160;cc26xx_cc13xx.h']]],
-  ['flashpage_5fnomatch',['FLASHPAGE_NOMATCH',['../group__drivers__periph__flashpage.html#gga0e96acf73ec595679ffcca6fecc4d705a5b88341d18672e0b3ad3b34e6b9ffd90',1,'flashpage.h']]],
-  ['flashpage_5fok',['FLASHPAGE_OK',['../group__drivers__periph__flashpage.html#gga0e96acf73ec595679ffcca6fecc4d705abbfd3aff1792ce2d3654c849684ee52b',1,'flashpage.h']]],
-  ['fxos8700_5faddrerr',['FXOS8700_ADDRERR',['../group__drivers__fxos8700.html#gga1812ab31015cef0a41c6d4f3ae07f13da594f7358f9465b6201e1ea9a262bcb7b',1,'fxos8700.h']]],
-  ['fxos8700_5fbuserr',['FXOS8700_BUSERR',['../group__drivers__fxos8700.html#gga1812ab31015cef0a41c6d4f3ae07f13dae51939cc2100583094063797233f8c24',1,'fxos8700.h']]],
-  ['fxos8700_5fnobus',['FXOS8700_NOBUS',['../group__drivers__fxos8700.html#gga1812ab31015cef0a41c6d4f3ae07f13daa8dfc3d083f59eabba16eeac5b468081',1,'fxos8700.h']]],
-  ['fxos8700_5fnodev',['FXOS8700_NODEV',['../group__drivers__fxos8700.html#gga1812ab31015cef0a41c6d4f3ae07f13da755e7cbceb14b2fb14f916e63b866773',1,'fxos8700.h']]],
-  ['fxos8700_5fok',['FXOS8700_OK',['../group__drivers__fxos8700.html#gga1812ab31015cef0a41c6d4f3ae07f13daef084482114b7d2788279eea0c5639d8',1,'fxos8700.h']]]
+  ['feetech_5fbuffer_5ftoo_5fsmall_30775',['FEETECH_BUFFER_TOO_SMALL',['../group__drivers__feetech.html#gga592aba11ab30da4dbf57e9736c8387a1aa533040ef88e8050f8dab617d071c869',1,'feetech.h']]],
+  ['feetech_5finvalid_5fmessage_30776',['FEETECH_INVALID_MESSAGE',['../group__drivers__feetech.html#gga592aba11ab30da4dbf57e9736c8387a1a048b8d86a176efc81c05b5880347d531',1,'feetech.h']]],
+  ['feetech_5fok_30777',['FEETECH_OK',['../group__drivers__feetech.html#gga592aba11ab30da4dbf57e9736c8387a1a79e84b7676c7ab38e61d74b9ffc4bfa1',1,'feetech.h']]],
+  ['feetech_5ftimeout_30778',['FEETECH_TIMEOUT',['../group__drivers__feetech.html#gga592aba11ab30da4dbf57e9736c8387a1a7034599860e1a7087dff47d1b1c5e078',1,'feetech.h']]],
+  ['ffctrl_5ffifo_30779',['ffctrl_fifo',['../cc2538__rf_8h.html#a39fca1837c5ce7715cbf571669660c13af06c96be923d75d21d34e0edb7d5e414',1,'cc2538_rf.h']]],
+  ['ffctrl_5ffifop_30780',['ffctrl_fifop',['../cc2538__rf_8h.html#a39fca1837c5ce7715cbf571669660c13a8c798862fd8b21f272c6db6de1cb203d',1,'cc2538_rf.h']]],
+  ['flash_5fctrl_5firqn_30781',['FLASH_CTRL_IRQn',['../cc2538_8h.html#a666eb0caeb12ec0e281415592ae89083a9f5a03f4161780a73b281d15a00fa70f',1,'FLASH_CTRL_IRQn():&#160;cc2538.h'],['../cc26xx__cc13xx_8h.html#a666eb0caeb12ec0e281415592ae89083a4cecc4b0e438df4b7dbde6d7d5702123',1,'FLASH_CTRL_IRQN():&#160;cc26xx_cc13xx.h']]],
+  ['flashpage_5fnomatch_30782',['FLASHPAGE_NOMATCH',['../group__drivers__periph__flashpage.html#gga319d524aadad53dcd886c2bba304ded4a5b88341d18672e0b3ad3b34e6b9ffd90',1,'flashpage.h']]],
+  ['flashpage_5fok_30783',['FLASHPAGE_OK',['../group__drivers__periph__flashpage.html#gga319d524aadad53dcd886c2bba304ded4abbfd3aff1792ce2d3654c849684ee52b',1,'flashpage.h']]],
+  ['font_5fsize_5f5x10_30784',['FONT_SIZE_5x10',['../group__drivers__aip31068.html#gga66a355bf58387e7af2e5b662834f5d5fa1d29a047ab0f908cced6c9b45b4da729',1,'aip31068.h']]],
+  ['font_5fsize_5f5x8_30785',['FONT_SIZE_5x8',['../group__drivers__aip31068.html#gga66a355bf58387e7af2e5b662834f5d5fa8bbb594c52709c80cb1e8980eb2ad5cc',1,'aip31068.h']]],
+  ['fxos8700_5faddrerr_30786',['FXOS8700_ADDRERR',['../group__drivers__fxos8700.html#ggaad1afd468cb4339144d0997ddcf04748a594f7358f9465b6201e1ea9a262bcb7b',1,'fxos8700.h']]],
+  ['fxos8700_5fbuserr_30787',['FXOS8700_BUSERR',['../group__drivers__fxos8700.html#ggaad1afd468cb4339144d0997ddcf04748ae51939cc2100583094063797233f8c24',1,'fxos8700.h']]],
+  ['fxos8700_5fnobus_30788',['FXOS8700_NOBUS',['../group__drivers__fxos8700.html#ggaad1afd468cb4339144d0997ddcf04748aa8dfc3d083f59eabba16eeac5b468081',1,'fxos8700.h']]],
+  ['fxos8700_5fnodev_30789',['FXOS8700_NODEV',['../group__drivers__fxos8700.html#ggaad1afd468cb4339144d0997ddcf04748a755e7cbceb14b2fb14f916e63b866773',1,'fxos8700.h']]],
+  ['fxos8700_5fok_30790',['FXOS8700_OK',['../group__drivers__fxos8700.html#ggaad1afd468cb4339144d0997ddcf04748aef084482114b7d2788279eea0c5639d8',1,'fxos8700.h']]]
 ];

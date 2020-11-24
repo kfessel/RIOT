@@ -1,4 +1,5 @@
 <map id="drivers/pca9633/include/pca9633_regs.h" name="drivers/pca9633/include/pca9633_regs.h">
-<area shape="rect" id="node2" href="$pca9633_8h.html" title="drivers/include/pca9633.h" alt="" coords="5,102,176,129"/>
-<area shape="rect" id="node3" href="$pca9633__params_8h.html" title="Default configuration for the PCA9633 I2C PWM controller. " alt="" coords="201,95,359,136"/>
+<area shape="rect" id="node1" title="Register definitions for the PCA9633 I2C PWM controller." alt="" coords="115,5,293,47"/>
+<area shape="rect" id="node2" href="$pca9633_8h.html" title=" " alt="" coords="5,102,195,129"/>
+<area shape="rect" id="node3" href="$pca9633__params_8h.html" title="Default configuration for the PCA9633 I2C PWM controller." alt="" coords="219,95,397,136"/>
 </map>

@@ -1,4 +1,11 @@
 <map id="drivers/include/lis3dh.h" name="drivers/include/lis3dh.h">
-<area shape="rect" id="node3" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="189,80,279,107"/>
-<area shape="rect" id="node9" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="389,155,485,181"/>
+<area shape="rect" id="node1" title="Device driver interface for the LIS3DH accelerometer." alt="" coords="157,5,330,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,155,76,181"/>
+<area shape="rect" id="node3" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition." alt="" coords="194,80,293,107"/>
+<area shape="rect" id="node9" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="407,155,514,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="202,155,285,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="309,155,383,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="149,229,220,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="453,229,559,256"/>
+<area shape="rect" id="node8" title=" " alt="" coords="294,229,403,256"/>
 </map>

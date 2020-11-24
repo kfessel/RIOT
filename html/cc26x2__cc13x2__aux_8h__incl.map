@@ -1,3 +1,7 @@
 <map id="cpu/cc26x2_cc13x2/include/cc26x2_cc13x2_aux.h" name="cpu/cc26x2_cc13x2/include/cc26x2_cc13x2_aux.h">
-<area shape="rect" id="node3" href="$cc26xx__cc13xx_8h.html" title="CC26xx, CC13xx definitions. " alt="" coords="105,95,229,121"/>
+<area shape="rect" id="node1" title="CC26x2, CC13x2 AUX register definitions." alt="" coords="13,5,211,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,88,121"/>
+<area shape="rect" id="node3" href="$cc26xx__cc13xx_8h.html" title="CC26xx, CC13xx definitions." alt="" coords="112,95,245,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="89,169,159,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="183,169,281,196"/>
 </map>

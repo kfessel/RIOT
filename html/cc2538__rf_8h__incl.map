@@ -1,17 +1,26 @@
 <map id="cpu/cc2538/include/cc2538_rf.h" name="cpu/cc2538/include/cc2538_rf.h">
-<area shape="rect" id="node3" href="$sys_2include_2net_2ieee802154_8h.html" title="IEEE 802.15.4 header definitions. " alt="" coords="200,169,321,196"/>
-<area shape="rect" id="node9" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="364,169,459,196"/>
-<area shape="rect" id="node14" href="$drivers_2include_2net_2netdev_2ieee802154_8h.html" title="Definitions for netdev common IEEE 802.15.4 code. " alt="" coords="399,95,563,121"/>
-<area shape="rect" id="node5" href="$stdlib_8h.html" title="stdlib.h wrapper for MSP430 " alt="" coords="9,244,73,271"/>
-<area shape="rect" id="node7" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="152,319,239,345"/>
-<area shape="rect" id="node8" href="$eui64_8h.html" title="EUI&#45;64 data type definition. " alt="" coords="101,244,188,271"/>
-<area shape="rect" id="node6" href="$malloc_8h.html" title="malloc.h" alt="" coords="5,319,76,345"/>
-<area shape="rect" id="node10" href="$errno_8h.html" title="errno.h" alt="" coords="365,244,428,271"/>
-<area shape="rect" id="node11" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="452,244,512,271"/>
-<area shape="rect" id="node13" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="537,244,627,271"/>
-<area shape="rect" id="node15" href="$nettype_8h.html" title="Protocol type definitions. " alt="" coords="751,169,877,196"/>
-<area shape="rect" id="node16" href="$inttypes_8h.html" title="Adds include for missing inttype definitions. " alt="" coords="652,244,731,271"/>
-<area shape="rect" id="node17" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="755,244,873,271"/>
-<area shape="rect" id="node19" href="$ethertype_8h.html" title="Ether type definitions. " alt="" coords="897,244,1006,271"/>
-<area shape="rect" id="node20" href="$protnum_8h.html" title="Protocol number definitions. " alt="" coords="1031,244,1133,271"/>
+<area shape="rect" id="node1" title="Low&#45;level radio driver for the CC2538." alt="" coords="336,5,483,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,88,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="113,95,183,121"/>
+<area shape="rect" id="node4" href="$sys_2include_2net_2ieee802154_8h.html" title="IEEE 802.15.4 header definitions." alt="" coords="145,244,279,271"/>
+<area shape="rect" id="node10" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="1005,319,1134,345"/>
+<area shape="rect" id="node12" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface." alt="" coords="974,244,1077,271"/>
+<area shape="rect" id="node17" href="$netopt_8h.html" title="Definition of global configuration options." alt="" coords="507,319,608,345"/>
+<area shape="rect" id="node18" href="$drivers_2include_2net_2netdev_2ieee802154_8h.html" title="Definitions for netdev common IEEE 802.15.4 code." alt="" coords="317,95,501,121"/>
+<area shape="rect" id="node5" title=" " alt="" coords="434,543,505,569"/>
+<area shape="rect" id="node6" title=" " alt="" coords="122,319,193,345"/>
+<area shape="rect" id="node7" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="182,393,279,420"/>
+<area shape="rect" id="node9" href="$eui64_8h.html" title="EUI&#45;64 data type definition." alt="" coords="337,319,431,345"/>
+<area shape="rect" id="node8" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="181,468,280,495"/>
+<area shape="rect" id="node11" title=" " alt="" coords="915,543,989,569"/>
+<area shape="rect" id="node13" href="$errno_8h.html" title=" " alt="" coords="821,319,889,345"/>
+<area shape="rect" id="node14" href="$iolist_8h.html" title="iolist scatter / gather IO" alt="" coords="913,319,980,345"/>
+<area shape="rect" id="node15" href="$unistd_8h_source.html" title=" " alt="" coords="860,393,935,420"/>
+<area shape="rect" id="node16" href="$cpu_2atmega__common_2avr__libc__extra_2include_2sys_2types_8h_source.html" title=" " alt="" coords="819,468,915,495"/>
+<area shape="rect" id="node19" href="$eui__provider_8h.html" title="EUI&#45;48 and EUI&#45;64 address provider." alt="" coords="310,169,450,196"/>
+<area shape="rect" id="node21" href="$nettype_8h.html" title="Protocol type definitions." alt="" coords="688,169,829,196"/>
+<area shape="rect" id="node20" href="$eui48_8h.html" title="Definition and IPv6 IID conversion for IEEE EUI&#45;48 identifiers." alt="" coords="355,244,450,271"/>
+<area shape="rect" id="node22" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="715,244,802,271"/>
+<area shape="rect" id="node23" href="$ethertype_8h.html" title="Ether type definitions." alt="" coords="827,244,949,271"/>
+<area shape="rect" id="node24" href="$protnum_8h.html" title="Protocol number definitions." alt="" coords="576,244,691,271"/>
 </map>

@@ -20,8 +20,8 @@ var group__drivers__bh1900nux =
     [ "BH1900NUX_ADDR_8", "group__drivers__bh1900nux.html#gac924f443c05abd334d83de7d7e23a3aa", null ],
     [ "BH1900NUX_DEFAULT_ADDR", "group__drivers__bh1900nux.html#ga083d87dc188509aa40a8732bdea81cc4", null ],
     [ "BH1900NUX_I2C_MAX_CLK", "group__drivers__bh1900nux.html#gace6471d513254204412154d9b7ff9c52", [
-      [ "BH1900NUX_OK", "group__drivers__bh1900nux.html#gga34df7cc7f69a8ec535eec8a524dcbaf9a10e3484cdbc0a726526eff3f31e3ae02", null ],
-      [ "BH1900NUX_ERR_I2C", "group__drivers__bh1900nux.html#gga34df7cc7f69a8ec535eec8a524dcbaf9a3e12add08b9e75dfa4a27e73003ad746", null ]
+      [ "BH1900NUX_OK", "group__drivers__bh1900nux.html#gga9b29769343da78881f442e657eb62b6ea10e3484cdbc0a726526eff3f31e3ae02", null ],
+      [ "BH1900NUX_ERR_I2C", "group__drivers__bh1900nux.html#gga9b29769343da78881f442e657eb62b6ea3e12add08b9e75dfa4a27e73003ad746", null ]
     ] ],
     [ "bh1900nux_init", "group__drivers__bh1900nux.html#gaa7a5674db3f1f05f91f4cb4772fc952e", null ],
     [ "bh1900nux_read", "group__drivers__bh1900nux.html#ga8d10ac8fbd40889ff8bace28d9cd9337", null ]

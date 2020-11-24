@@ -1,0 +1,15 @@
+<map id="pkg/uwb&#45;core/include/syscfg/syscfg.h" name="pkg/uwb&#45;core/include/syscfg/syscfg.h">
+<area shape="rect" id="node1" title="uwb&#45;core system configurations" alt="" coords="707,5,869,47"/>
+<area shape="rect" id="node2" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="26,95,155,121"/>
+<area shape="rect" id="node5" href="$syscfg__uwb_8h.html" title="uwb&#45;core uwb module configurations taken from decawave&#45;uwb&#45;core/hw/drivers/uwb/syscfg...." alt="" coords="179,95,290,121"/>
+<area shape="rect" id="node6" href="$syscfg__twr__ds_8h.html" title="uwb&#45;dw100 double side two&#45;way ranging module configurations taken from decawave&#45;uwb&#45;core/lib/twr_ds/s..." alt="" coords="314,95,441,121"/>
+<area shape="rect" id="node7" href="$syscfg__twr__ds__ext_8h.html" title="uwb&#45;core double side extended two&#45;way ranging module configurations taken from decawave&#45;uwb&#45;core/lib/..." alt="" coords="465,95,620,121"/>
+<area shape="rect" id="node8" href="$syscfg__twr__ss_8h.html" title="uwb&#45;core single&#45;sided two&#45;way ranging module configurations taken from decawave&#45;uwb&#45;core/lib/twr_ss/s..." alt="" coords="644,95,769,121"/>
+<area shape="rect" id="node9" href="$syscfg__twr__ss__ack_8h.html" title="Single sided ranging using a hw generated ack module configurations taken from decawave&#45;uwb&#45;core/lib/..." alt="" coords="793,95,948,121"/>
+<area shape="rect" id="node10" href="$syscfg__twr__ss__ext_8h.html" title="uwb&#45;core single&#45;sided two&#45;way ranging module configurations taken from decawave&#45;uwb&#45;core/lib/twr_ss_e..." alt="" coords="973,95,1126,121"/>
+<area shape="rect" id="node11" href="$syscfg__uwb__rng_8h.html" title="uwb&#45;core uwb_rng module configurations taken from decawave&#45;uwb&#45;core/lib/uwb_rng/syscfg...." alt="" coords="1151,95,1289,121"/>
+<area shape="rect" id="node12" href="$syscfg__uwbcfg_8h.html" title="uwb&#45;core uwbcfg module configurations taken from decawave&#45;uwb&#45;core/sys/uwbcfg/syscfg...." alt="" coords="1313,95,1444,121"/>
+<area shape="rect" id="node13" href="$syscfg__uwb__dw1000_8h.html" title="uwb&#45;dw1000 module configurations taken from decawave&#45;uwb&#45;dw1000/hw/drivers/uwb/uwb_dw1000" alt="" coords="1468,95,1636,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,80,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="105,169,175,196"/>
+</map>

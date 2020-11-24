@@ -1,4 +1,5 @@
 <map id="sys/include/net/zep.h" name="sys/include/net/zep.h">
-<area shape="rect" id="node2" href="$socket__zep_8h.html" title="Socket ZEP definitions. " alt="" coords="19,80,146,121"/>
-<area shape="rect" id="node3" href="$socket__zep__params_8h.html" title="Configuration parameters for the Socket&#45;based ZEP driver. " alt="" coords="5,169,160,211"/>
+<area shape="rect" id="node1" title="Definitions for the ZigBee Encapsulation Protocol." alt="" coords="9,5,168,32"/>
+<area shape="rect" id="node2" href="$socket__zep_8h.html" title="Socket ZEP definitions." alt="" coords="18,80,159,121"/>
+<area shape="rect" id="node3" href="$socket__zep__params_8h.html" title="Configuration parameters for the Socket&#45;based ZEP driver." alt="" coords="5,169,172,211"/>
 </map>

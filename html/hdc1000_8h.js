@@ -2,10 +2,10 @@ var hdc1000_8h =
 [
     [ "CONFIG_HDC1000_CONVERSION_TIME", "group__drivers__hdc1000__config.html#ga0691188716dcefb9a90884c0a227a10c", null ],
     [ "CONFIG_HDC1000_I2C_ADDRESS", "group__drivers__hdc1000__config.html#ga16d78f01bb010b74cad9d1a3f84d2c3a", null ],
-    [ "HDC1000_OK", "group__drivers__hdc1000.html#gga0a28cf10bf72f80c90de5e5e1e698bfba986c2c083448a25f38279f3b8b19644a", null ],
-    [ "HDC1000_NODEV", "group__drivers__hdc1000.html#gga0a28cf10bf72f80c90de5e5e1e698bfba82b0fa3b7e1fd5129433da37c48daa9d", null ],
-    [ "HDC1000_NOBUS", "group__drivers__hdc1000.html#gga0a28cf10bf72f80c90de5e5e1e698bfba49ea9c29e9e49de777ff1b2112bd5fb8", null ],
-    [ "HDC1000_BUSERR", "group__drivers__hdc1000.html#gga0a28cf10bf72f80c90de5e5e1e698bfba7cc1e92c3a503401dac5236604b5d27b", null ],
+    [ "HDC1000_OK", "group__drivers__hdc1000.html#gga5e8ce9967db697e85d5528dafee6b8dea986c2c083448a25f38279f3b8b19644a", null ],
+    [ "HDC1000_NODEV", "group__drivers__hdc1000.html#gga5e8ce9967db697e85d5528dafee6b8dea82b0fa3b7e1fd5129433da37c48daa9d", null ],
+    [ "HDC1000_NOBUS", "group__drivers__hdc1000.html#gga5e8ce9967db697e85d5528dafee6b8dea49ea9c29e9e49de777ff1b2112bd5fb8", null ],
+    [ "HDC1000_BUSERR", "group__drivers__hdc1000.html#gga5e8ce9967db697e85d5528dafee6b8dea7cc1e92c3a503401dac5236604b5d27b", null ],
     [ "hdc1000_res_t", "group__drivers__hdc1000.html#ga6865897d06ef2557467d5ac59844c54f", [
       [ "HDC1000_11BIT", "group__drivers__hdc1000.html#gga6865897d06ef2557467d5ac59844c54faf1394f6f181a58565933edf45caebda0", null ],
       [ "HDC1000_14BIT", "group__drivers__hdc1000.html#gga6865897d06ef2557467d5ac59844c54fabd6e5fa388e4fefce7b99b0902a15157", null ]

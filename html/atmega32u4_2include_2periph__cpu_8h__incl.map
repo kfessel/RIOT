@@ -1,3 +1,6 @@
 <map id="cpu/atmega32u4/include/periph_cpu.h" name="cpu/atmega32u4/include/periph_cpu.h">
-<area shape="rect" id="node4" href="$atmega32u4_2include_2default__timer__config_8h.html" title="Default ATmega32U4 Timer Config. " alt="" coords="307,95,457,121"/>
+<area shape="rect" id="node1" title="CPU specific definitions for internal peripheral handling." alt="" coords="163,5,345,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,175,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="199,95,309,121"/>
+<area shape="rect" id="node4" href="$atmega32u4_2include_2default__timer__config_8h.html" title="Default ATmega32U4 Timer Config." alt="" coords="333,95,503,121"/>
 </map>

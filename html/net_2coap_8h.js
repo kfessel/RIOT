@@ -66,6 +66,7 @@ var net_2coap_8h =
     [ "COAP_NSTART", "group__net__coap.html#ga5733f3616dbb5ae758b062296da6f843", null ],
     [ "COAP_OBS_DEREGISTER", "group__net__coap.html#ga472cb0e99d20e5787d6fe75021e66ae0", null ],
     [ "COAP_OBS_REGISTER", "group__net__coap.html#ga59e86f4b4ef2ec73b16194238c88e01d", null ],
+    [ "COAP_OPT_ACCEPT", "group__net__coap.html#ga1f5a65d32c86b3aea2fbf2f0f02de072", null ],
     [ "COAP_OPT_BLOCK1", "group__net__coap.html#ga30baeec4408ab95fb69ff1352ec9b93a", null ],
     [ "COAP_OPT_BLOCK2", "group__net__coap.html#gab64c3cede536cf40ef9b52622bf82fe7", null ],
     [ "COAP_OPT_CONTENT_FORMAT", "group__net__coap.html#ga08b2d7ff333840fdc67ecdd94fa0d343", null ],

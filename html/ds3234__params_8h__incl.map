@@ -1,5 +1,13 @@
 <map id="drivers/ds3234/include/ds3234_params.h" name="drivers/ds3234/include/ds3234_params.h">
-<area shape="rect" id="node3" href="$ds3234_8h.html" title="DS3234 device driver. " alt="" coords="297,95,372,121"/>
-<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="357,244,453,271"/>
-<area shape="rect" id="node8" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="239,169,329,196"/>
+<area shape="rect" id="node1" title="Default configuration for DS3234 devices." alt="" coords="219,5,389,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="219,95,290,121"/>
+<area shape="rect" id="node3" href="$ds3234_8h.html" title="DS3234 device driver." alt="" coords="314,95,395,121"/>
+<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="376,244,483,271"/>
+<area shape="rect" id="node8" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition." alt="" coords="252,169,351,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="82,319,153,345"/>
+<area shape="rect" id="node6" title=" " alt="" coords="454,319,559,345"/>
+<area shape="rect" id="node7" title=" " alt="" coords="296,319,405,345"/>
+<area shape="rect" id="node9" title=" " alt="" coords="24,244,107,271"/>
+<area shape="rect" id="node10" title=" " alt="" coords="131,244,205,271"/>
+<area shape="rect" id="node11" title=" " alt="" coords="230,244,301,271"/>
 </map>

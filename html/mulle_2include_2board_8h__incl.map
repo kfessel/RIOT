@@ -1,5 +1,11 @@
 <map id="boards/mulle/include/board.h" name="boards/mulle/include/board.h">
-<area shape="rect" id="node3" href="$boards_2mulle_2include_2periph__conf_8h.html" title="periph_conf.h" alt="" coords="84,95,184,121"/>
-<area shape="rect" id="node5" href="$mulle-nvram_8h.html" title="NVRAM offsets for the Eistec Mulle IoT board. " alt="" coords="209,95,313,121"/>
-<area shape="rect" id="node6" href="$nvram_8h.html" title="Generic non&#45;volatile RAM driver interface. " alt="" coords="226,169,295,196"/>
+<area shape="rect" id="node1" title="Board specific definitions for the Eistec Mulle IoT board." alt="" coords="132,5,291,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,63,121"/>
+<area shape="rect" id="node3" href="$boards_2mulle_2include_2periph__conf_8h.html" title=" " alt="" coords="87,95,197,121"/>
+<area shape="rect" id="node5" href="$mulle-nvram_8h.html" title="NVRAM offsets for the Eistec Mulle IoT board." alt="" coords="221,95,340,121"/>
+<area shape="rect" id="node9" title=" " alt="" coords="364,95,424,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="89,169,195,196"/>
+<area shape="rect" id="node6" href="$nvram_8h.html" title="Generic non&#45;volatile RAM driver interface." alt="" coords="243,169,319,196"/>
+<area shape="rect" id="node7" title=" " alt="" coords="196,244,267,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="291,244,366,271"/>
 </map>

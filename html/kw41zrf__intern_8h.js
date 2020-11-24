@@ -10,7 +10,7 @@ var kw41zrf__intern_8h =
     [ "KW41ZRF_LED_TX_OFF", "kw41zrf__intern_8h.html#a154034387964e68d5fe8ebf3ff0f9c8f", null ],
     [ "KW41ZRF_LED_TX_ON", "kw41zrf__intern_8h.html#a056f17b3a180cd165112b7e459026543", null ],
     [ "KW41ZRF_PM_BLOCKER", "kw41zrf__intern_8h.html#aa13db7bc3cb108a3c5893f8b70e396c8", null ],
-    [ "kw41zrf_timer_timebase_t", "kw41zrf__intern_8h.html#a95affa919ce58afa84ce09c1dbc46e38", null ],
+    [ "kw41zrf_timer_timebase_t", "kw41zrf__intern_8h.html#af2d853854b5d38f34dc9dfa961e49df3", null ],
     [ "kw41zrf_powermode_t", "kw41zrf__intern_8h.html#ab4181eb7c4c63084d219ca59ee513a64", [
       [ "KW41ZRF_POWER_IDLE", "kw41zrf__intern_8h.html#ab4181eb7c4c63084d219ca59ee513a64a64ce17f347b840f99b260ba5c52a94aa", null ],
       [ "KW41ZRF_POWER_DSM", "kw41zrf__intern_8h.html#ab4181eb7c4c63084d219ca59ee513a64aa48161535ebb06ed70d9a7b9e38cd8a1", null ]

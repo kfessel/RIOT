@@ -1,6 +1,7 @@
 <map id="sys/include/net/ntp_packet.h" name="sys/include/net/ntp_packet.h">
-<area shape="rect" id="node2" href="$sntp_8h.html" title="SNTP definitions. " alt="" coords="5,95,156,121"/>
-<area shape="rect" id="node3" href="$zep_8h.html" title="Definitions for the ZigBee Encapsulation Protocol. " alt="" coords="181,95,327,121"/>
-<area shape="rect" id="node4" href="$socket__zep_8h.html" title="Socket ZEP definitions. " alt="" coords="191,169,317,211"/>
-<area shape="rect" id="node5" href="$socket__zep__params_8h.html" title="Configuration parameters for the Socket&#45;based ZEP driver. " alt="" coords="177,259,331,300"/>
+<area shape="rect" id="node1" title="NTP packet definitions." alt="" coords="107,5,252,47"/>
+<area shape="rect" id="node2" href="$sntp_8h.html" title="SNTP definitions." alt="" coords="5,95,169,121"/>
+<area shape="rect" id="node3" href="$zep_8h.html" title="Definitions for the ZigBee Encapsulation Protocol." alt="" coords="193,95,352,121"/>
+<area shape="rect" id="node4" href="$socket__zep_8h.html" title="Socket ZEP definitions." alt="" coords="202,169,343,211"/>
+<area shape="rect" id="node5" href="$socket__zep__params_8h.html" title="Configuration parameters for the Socket&#45;based ZEP driver." alt="" coords="189,259,356,300"/>
 </map>

@@ -1,3 +1,4 @@
 <map id="drivers/include/l3g4200d.h" name="drivers/include/l3g4200d.h">
-<area shape="rect" id="node2" href="$l3g4200d__params_8h.html" title="Default configuration for L3G4200D devices. " alt="" coords="11,80,173,121"/>
+<area shape="rect" id="node1" title="Device driver interface for the L3G4200D gyroscope." alt="" coords="5,5,200,32"/>
+<area shape="rect" id="node2" href="$l3g4200d__params_8h.html" title="Default configuration for L3G4200D devices." alt="" coords="11,80,194,121"/>
 </map>

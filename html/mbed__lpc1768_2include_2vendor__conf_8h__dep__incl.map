@@ -1,0 +1,6 @@
+<map id="boards/mbed_lpc1768/include/vendor_conf.h" name="boards/mbed_lpc1768/include/vendor_conf.h">
+<area shape="rect" id="node1" title="CMSIS Cortex&#45;M3 Device Peripheral Access Layer Source File for the NXP LPC17xx Device Series." alt="" coords="8,5,176,47"/>
+<area shape="rect" id="node2" href="$boards_2mbed__lpc1768_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the mbed LPC1768 board." alt="" coords="9,95,175,136"/>
+<area shape="rect" id="node3" href="$mbed__lpc1768_2include_2board_8h.html" title="Board specific definitions for the mbed_lpc1768 board." alt="" coords="9,184,175,225"/>
+<area shape="rect" id="node4" href="$mbed__lpc1768_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,273,179,315"/>
+</map>

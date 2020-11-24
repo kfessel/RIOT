@@ -1,4 +1,5 @@
 <map id="boards/common/arduino&#45;mkr/include/arduino_pinmap.h" name="boards/common/arduino&#45;mkr/include/arduino_pinmap.h">
-<area shape="rect" id="node2" href="$common_2arduino-mkr_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API. " alt="" coords="5,109,167,165"/>
-<area shape="rect" id="node3" href="$arduino-mkr_2include_2board__common_8h.html" title="Board specific definitions for the Arduino MKR board. " alt="" coords="191,117,389,158"/>
+<area shape="rect" id="node1" title="Mapping from MCU pins to Arduino pins." alt="" coords="117,5,297,61"/>
+<area shape="rect" id="node2" href="$common_2arduino-mkr_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API." alt="" coords="5,109,185,165"/>
+<area shape="rect" id="node3" href="$arduino-mkr_2include_2board__common_8h.html" title="Board specific definitions for the Arduino MKR board." alt="" coords="210,117,431,158"/>
 </map>

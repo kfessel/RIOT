@@ -1,4 +1,8 @@
 <map id="drivers/include/mtd_flashpage.h" name="drivers/include/mtd_flashpage.h">
-<area shape="rect" id="node2" href="$mtd_8h.html" title="mtd.h" alt="" coords="5,95,60,121"/>
-<area shape="rect" id="node4" href="$flashpage_8h.html" title="Low&#45;level flash page peripheral driver interface. " alt="" coords="85,95,213,121"/>
+<area shape="rect" id="node1" title="Interface definition for the flashpage memory driver." alt="" coords="24,5,172,47"/>
+<area shape="rect" id="node2" href="$mtd_8h.html" title=" " alt="" coords="5,95,65,121"/>
+<area shape="rect" id="node4" href="$flashpage_8h.html" title="Low&#45;level flash page peripheral driver interface." alt="" coords="89,95,232,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="9,169,80,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="110,169,201,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="225,169,331,196"/>
 </map>

@@ -1,4 +1,11 @@
 <map id="boards/stm32f723e&#45;disco/include/board.h" name="boards/stm32f723e&#45;disco/include/board.h">
-<area shape="rect" id="node3" href="$boards_2stm32f723e-disco_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the STM32F723E&#45;DISCO board. " alt="" coords="90,95,190,121"/>
-<area shape="rect" id="node6" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="223,169,345,196"/>
+<area shape="rect" id="node1" title="Board specific definitions for the STM32F723E&#45;DISCO board." alt="" coords="303,5,489,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="314,95,371,121"/>
+<area shape="rect" id="node3" href="$boards_2stm32f723e-disco_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the STM32F723E&#45;DISCO board." alt="" coords="396,95,505,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="551,259,657,285"/>
+<area shape="rect" id="node5" href="$cfg__clock__default__216_8h.html" title="Default STM32F7 clock configuration for 216MHz boards." alt="" coords="184,169,363,211"/>
+<area shape="rect" id="node8" title=" " alt="" coords="438,177,567,203"/>
+<area shape="rect" id="node9" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral." alt="" coords="592,177,723,203"/>
+<area shape="rect" id="node6" href="$f2f4f7_2cfg__clock__common_8h.html" title="Base STM32F4 clock configuration." alt="" coords="5,259,208,285"/>
+<area shape="rect" id="node7" href="$f2f4f7_2cfg__clock__values_8h.html" title="STM32F4 clock values definitions." alt="" coords="233,259,421,285"/>
 </map>

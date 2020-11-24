@@ -1,7 +1,8 @@
 <map id="boards/common/sodaq/include/cfg_usbdev_default.h" name="boards/common/sodaq/include/cfg_usbdev_default.h">
-<area shape="rect" id="node2" href="$boards_2sodaq-autonomo_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ Autonomo board. " alt="" coords="5,109,167,151"/>
-<area shape="rect" id="node3" href="$boards_2sodaq-explorer_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Sodaq LoRaWAN Explorer board. " alt="" coords="191,109,341,151"/>
-<area shape="rect" id="node4" href="$boards_2sodaq-one_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ ONE board. " alt="" coords="366,109,537,151"/>
-<area shape="rect" id="node5" href="$boards_2sodaq-sara-aff_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ SARA AFF boards. " alt="" coords="561,109,710,151"/>
-<area shape="rect" id="node6" href="$boards_2sodaq-sara-sff_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ SARA SFF board. " alt="" coords="734,109,883,151"/>
+<area shape="rect" id="node1" title="Default usbdev configuration for SODAQ boards." alt="" coords="411,5,582,61"/>
+<area shape="rect" id="node2" href="$boards_2sodaq-autonomo_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ Autonomo board." alt="" coords="5,109,185,151"/>
+<area shape="rect" id="node3" href="$boards_2sodaq-explorer_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the Sodaq LoRaWAN Explorer board." alt="" coords="210,109,378,151"/>
+<area shape="rect" id="node4" href="$boards_2sodaq-one_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ ONE board." alt="" coords="402,109,591,151"/>
+<area shape="rect" id="node5" href="$boards_2sodaq-sara-aff_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ SARA AFF boards." alt="" coords="615,109,781,151"/>
+<area shape="rect" id="node6" href="$boards_2sodaq-sara-sff_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SODAQ SARA SFF board." alt="" coords="805,109,969,151"/>
 </map>

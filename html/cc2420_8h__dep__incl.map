@@ -1,3 +1,4 @@
 <map id="drivers/include/cc2420.h" name="drivers/include/cc2420.h">
-<area shape="rect" id="node2" href="$cc2420__internal_8h.html" title="Definitions and settings for the cc2420. " alt="" coords="11,80,163,121"/>
+<area shape="rect" id="node1" title="Interface definition for the CC2420 driver." alt="" coords="5,5,185,32"/>
+<area shape="rect" id="node2" href="$cc2420__internal_8h.html" title="Definitions and settings for the cc2420." alt="" coords="11,80,179,121"/>
 </map>

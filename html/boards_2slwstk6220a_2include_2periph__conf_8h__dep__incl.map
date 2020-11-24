@@ -1,3 +1,5 @@
 <map id="boards/slwstk6220a/include/periph_conf.h" name="boards/slwstk6220a/include/periph_conf.h">
-<area shape="rect" id="node2" href="$slwstk6220a_2include_2board_8h.html" title="Board specific definitions for the WSTK6220 evaluation kit. " alt="" coords="11,95,149,136"/>
+<area shape="rect" id="node1" title="Configuration of CPU peripherals for the SLWSTK6220A starter kit." alt="" coords="10,5,174,47"/>
+<area shape="rect" id="node2" href="$slwstk6220a_2include_2board_8h.html" title="Board specific definitions for the SLWSTK6220A starter kit." alt="" coords="16,95,168,136"/>
+<area shape="rect" id="node3" href="$slwstk6220a_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,184,179,225"/>
 </map>

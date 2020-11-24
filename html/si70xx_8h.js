@@ -1,8 +1,8 @@
 var si70xx_8h =
 [
-    [ "SI70XX_OK", "group__drivers__si70xx.html#gga08f51f22ad2ed13a25181c2604573110aff94a792ecda64c98b250450c6b6187d", null ],
-    [ "SI70XX_ERR_NODEV", "group__drivers__si70xx.html#gga08f51f22ad2ed13a25181c2604573110a52ca5295c4a91bae14f2174295b59263", null ],
-    [ "SI70XX_ERR_I2C", "group__drivers__si70xx.html#gga08f51f22ad2ed13a25181c2604573110ac992464a9264917af1a9244952ae0b75", null ],
+    [ "SI70XX_OK", "group__drivers__si70xx.html#gga4eeeead548222804e141df8f1b205ca8aff94a792ecda64c98b250450c6b6187d", null ],
+    [ "SI70XX_ERR_NODEV", "group__drivers__si70xx.html#gga4eeeead548222804e141df8f1b205ca8a52ca5295c4a91bae14f2174295b59263", null ],
+    [ "SI70XX_ERR_I2C", "group__drivers__si70xx.html#gga4eeeead548222804e141df8f1b205ca8ac992464a9264917af1a9244952ae0b75", null ],
     [ "si70xx_get_both", "group__drivers__si70xx.html#ga31261c190e8f388406be1a565c289166", null ],
     [ "si70xx_get_id", "group__drivers__si70xx.html#gaa7aeb4778005673b6654b8d99aa222ef", null ],
     [ "si70xx_get_relative_humidity", "group__drivers__si70xx.html#gaaaba79dd3a2dd359b4ff75e44e22663b", null ],

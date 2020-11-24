@@ -1,5 +1,6 @@
 <map id="boards/usb&#45;kw41z/include/periph_conf.h" name="boards/usb&#45;kw41z/include/periph_conf.h">
-<area shape="rect" id="node2" href="$usb-kw41z_2include_2board_8h.html" title="Board specific definitions for the USB&#45;KW41Z. " alt="" coords="104,95,277,136"/>
-<area shape="rect" id="node3" href="$usb-kw41z_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC. " alt="" coords="5,184,179,225"/>
-<area shape="rect" id="node4" href="$usb-kw41z_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="203,184,376,225"/>
+<area shape="rect" id="node1" title=" " alt="" coords="112,5,303,47"/>
+<area shape="rect" id="node2" href="$usb-kw41z_2include_2board_8h.html" title="Board specific definitions for the USB&#45;KW41Z." alt="" coords="112,95,303,136"/>
+<area shape="rect" id="node3" href="$usb-kw41z_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC." alt="" coords="5,184,196,225"/>
+<area shape="rect" id="node4" href="$usb-kw41z_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="220,184,411,225"/>
 </map>

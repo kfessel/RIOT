@@ -1,3 +1,5 @@
 <map id="sys/include/clif.h" name="sys/include/clif.h">
-<area shape="rect" id="node3" href="$clif__internal_8h.html" title="Internal definitions for CoRE Link format module. " alt="" coords="120,80,219,107"/>
+<area shape="rect" id="node1" title="CoRE Link Format encoding and decoding library public definitions." alt="" coords="52,5,183,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,101,107"/>
+<area shape="rect" id="node3" href="$clif__internal_8h.html" title="Internal definitions for CoRE Link format module." alt="" coords="126,80,237,107"/>
 </map>

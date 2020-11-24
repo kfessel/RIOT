@@ -1,3 +1,4 @@
 <map id="sys/include/usb/usbus/control.h" name="sys/include/usb/usbus/control.h">
-<area shape="rect" id="node2" href="$ecm_8h.html" title="Interface and definitions for USB CDC ECM type interfaces. " alt="" coords="5,95,157,136"/>
+<area shape="rect" id="node1" title="USBUS control endpoint module." alt="" coords="5,5,169,47"/>
+<area shape="rect" id="node2" href="$ecm_8h.html" title="Interface and definitions for USB CDC ECM type interfaces." alt="" coords="5,95,169,136"/>
 </map>

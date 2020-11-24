@@ -1,4 +1,5 @@
 <map id="boards/6lowpan&#45;clicker/include/periph_conf.h" name="boards/6lowpan&#45;clicker/include/periph_conf.h">
-<area shape="rect" id="node2" href="$6lowpan-clicker_2include_2board_8h.html" title="board configuration for the MikroE 6LoWPAN Clicker " alt="" coords="6,95,161,136"/>
-<area shape="rect" id="node3" href="$6lowpan-clicker_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="5,184,161,225"/>
+<area shape="rect" id="node1" title="peripheral configuration for the MikroE 6LoWPAN Clicker" alt="" coords="6,5,178,47"/>
+<area shape="rect" id="node2" href="$6lowpan-clicker_2include_2board_8h.html" title="board configuration for the MikroE 6LoWPAN Clicker" alt="" coords="6,95,178,136"/>
+<area shape="rect" id="node3" href="$6lowpan-clicker_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins." alt="" coords="5,184,179,225"/>
 </map>

@@ -1,9 +1,10 @@
 <map id="boards/common/nrf51/include/cfg_timer_012.h" name="boards/common/nrf51/include/cfg_timer_012.h">
-<area shape="rect" id="node2" href="$boards_2airfy-beacon_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Airfy Beacon board. " alt="" coords="5,95,155,136"/>
-<area shape="rect" id="node3" href="$boards_2calliope-mini_2include_2periph__conf_8h.html" title="Peripheral configuration for the Calliope mini. " alt="" coords="179,95,328,136"/>
-<area shape="rect" id="node4" href="$boards_2microbit_2include_2periph__conf_8h.html" title="Peripheral configuration for the BBC micro:bit. " alt="" coords="353,95,509,136"/>
-<area shape="rect" id="node5" href="$boards_2nrf51dk_2include_2periph__conf_8h.html" title="Peripheral configuration for the Nordic nRF51DK. " alt="" coords="533,95,686,136"/>
-<area shape="rect" id="node6" href="$boards_2nrf51dongle_2include_2periph__conf_8h.html" title="Peripheral configuration for the Nordic nRF51 Dongle. " alt="" coords="711,95,860,136"/>
-<area shape="rect" id="node7" href="$boards_2nrf6310_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nRF51 board nrf6310. " alt="" coords="885,95,1038,136"/>
-<area shape="rect" id="node8" href="$boards_2yunjia-nrf51822_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Yunjia NRF51822 board. " alt="" coords="1062,95,1215,136"/>
+<area shape="rect" id="node1" title="Shared timer peripheral configuration mapping timers 0, 1, and 2." alt="" coords="575,5,757,47"/>
+<area shape="rect" id="node2" href="$boards_2airfy-beacon_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Airfy Beacon board." alt="" coords="5,95,169,136"/>
+<area shape="rect" id="node3" href="$boards_2calliope-mini_2include_2periph__conf_8h.html" title="Peripheral configuration for the Calliope mini." alt="" coords="193,95,357,136"/>
+<area shape="rect" id="node4" href="$boards_2microbit_2include_2periph__conf_8h.html" title="Peripheral configuration for the BBC micro:bit." alt="" coords="381,95,556,136"/>
+<area shape="rect" id="node5" href="$boards_2nrf51dk_2include_2periph__conf_8h.html" title="Peripheral configuration for the Nordic nRF51DK." alt="" coords="581,95,751,136"/>
+<area shape="rect" id="node6" href="$boards_2nrf51dongle_2include_2periph__conf_8h.html" title="Peripheral configuration for the Nordic nRF51 Dongle." alt="" coords="776,95,940,136"/>
+<area shape="rect" id="node7" href="$boards_2nrf6310_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the nRF51 board nrf6310." alt="" coords="965,95,1135,136"/>
+<area shape="rect" id="node8" href="$boards_2yunjia-nrf51822_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the Yunjia NRF51822 board." alt="" coords="1159,95,1333,136"/>
 </map>

@@ -1,5 +1,6 @@
 var samd5x_2include_2periph__cpu_8h =
 [
+    [ "sam0_aux_cfg_mapping", "structsam0__aux__cfg__mapping.html", "structsam0__aux__cfg__mapping" ],
     [ "DAC_NUMOF", "samd5x_2include_2periph__cpu_8h.html#a2d6ae6694d0a51952fb26d994de93d12", null ],
     [ "DAC_RES_BITS", "samd5x_2include_2periph__cpu_8h.html#a59201a381b7ecbc7a856d1d88724878e", null ],
     [ "PM_NUM_MODES", "samd5x_2include_2periph__cpu_8h.html#a3d1931627629f3c43bd898da0be6075b", null ],
@@ -14,8 +15,9 @@ var samd5x_2include_2periph__cpu_8h =
     [ "SAM0_GCLK_8MHZ", "samd5x_2include_2periph__cpu_8h.html#a00680b894a5a8b3129593d8f435250ac", null ],
     [ "SAM0_XOSC_FREQ_HZ", "samd5x_2include_2periph__cpu_8h.html#a121c34ee69ce4a30751903b3da728672", null ],
     [ "SPI_HWCS", "samd5x_2include_2periph__cpu_8h.html#a292c9a0a5b03329a153ad28343ff2e09", null ],
-    [ "SAM0_GCLK_MAIN", "samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a67031065696efef7697b5341140c1748", null ],
-    [ "SAM0_GCLK_32KHZ", "samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a9fe7340f432a0210661fde5a7fd357d6", null ],
-    [ "SAM0_GCLK_TIMER", "samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a2df224b532e504c664562f932fb8c9b8", null ],
-    [ "SAM0_GCLK_PERIPH", "samd5x_2include_2periph__cpu_8h.html#a5a77d65f4abba81d4456fa6ba8136e24a11e06014c73014464975350e2f17976e", null ]
+    [ "SAM0_GCLK_MAIN", "samd5x_2include_2periph__cpu_8h.html#adbaf9202177df73e6880eab6e6aab329a67031065696efef7697b5341140c1748", null ],
+    [ "SAM0_GCLK_32KHZ", "samd5x_2include_2periph__cpu_8h.html#adbaf9202177df73e6880eab6e6aab329a9fe7340f432a0210661fde5a7fd357d6", null ],
+    [ "SAM0_GCLK_TIMER", "samd5x_2include_2periph__cpu_8h.html#adbaf9202177df73e6880eab6e6aab329a2df224b532e504c664562f932fb8c9b8", null ],
+    [ "SAM0_GCLK_PERIPH", "samd5x_2include_2periph__cpu_8h.html#adbaf9202177df73e6880eab6e6aab329a11e06014c73014464975350e2f17976e", null ],
+    [ "rtc_tamper_pins", "samd5x_2include_2periph__cpu_8h.html#ab7f3a64e7ba279722cb70ecbb34731df", null ]
 ];

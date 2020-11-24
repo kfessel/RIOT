@@ -1,3 +1,4 @@
 <map id="sys/include/net/cord/config.h" name="sys/include/net/cord/config.h">
-<area shape="rect" id="node2" href="$include_2net_2cord_2common_8h.html" title="Shared CoRE RD endpoint functions. " alt="" coords="5,95,144,136"/>
+<area shape="rect" id="node1" title="(Default) configuration values for CoRE RD endpoints and lookup clients" alt="" coords="5,5,157,47"/>
+<area shape="rect" id="node2" href="$net_2cord_2common_8h.html" title="Shared CoRE RD endpoint functions." alt="" coords="5,95,157,136"/>
 </map>

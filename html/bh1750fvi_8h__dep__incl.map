@@ -1,3 +1,4 @@
 <map id="drivers/include/bh1750fvi.h" name="drivers/include/bh1750fvi.h">
-<area shape="rect" id="node2" href="$bh1750fvi__params_8h.html" title="Default configuration for BH1750FVI devices. " alt="" coords="11,80,177,121"/>
+<area shape="rect" id="node1" title="Interface definition for the Rohm BH1750FVI ambient light sensor." alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node2" href="$bh1750fvi__params_8h.html" title="Default configuration for BH1750FVI devices." alt="" coords="11,80,198,121"/>
 </map>

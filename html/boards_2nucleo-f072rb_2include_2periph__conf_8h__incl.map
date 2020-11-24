@@ -1,3 +1,6 @@
 <map id="boards/nucleo&#45;f072rb/include/periph_conf.h" name="boards/nucleo&#45;f072rb/include/periph_conf.h">
-<area shape="rect" id="node3" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C. " alt="" coords="64,95,203,121"/>
+<area shape="rect" id="node1" title="Peripheral MCU configuration for the nucleo&#45;f072rb board." alt="" coords="23,5,187,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="83,169,189,196"/>
+<area shape="rect" id="node3" href="$cpu_2stm32_2include_2clk_2f0_2cfg__clock__default_8h.html" title="Default clock configuration for STM32F0." alt="" coords="23,95,188,121"/>
+<area shape="rect" id="node4" href="$cfg__i2c1__pb8__pb9_8h.html" title="Common configuration for STM32 I2C." alt="" coords="213,95,363,121"/>
 </map>

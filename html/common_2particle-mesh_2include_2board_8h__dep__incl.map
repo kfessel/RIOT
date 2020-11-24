@@ -1,3 +1,39 @@
 <map id="boards/common/particle&#45;mesh/include/board.h" name="boards/common/particle&#45;mesh/include/board.h">
-<area shape="rect" id="node2" href="$common_2particle-mesh_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins. " alt="" coords="5,95,197,136"/>
+<area shape="rect" id="node1" title="Common board specific configuration for the Particle Mesh." alt="" coords="1975,5,2155,47"/>
+<area shape="rect" id="node2" href="$common_2particle-mesh_2include_2gpio__params_8h.html" title="Configuration of SAUL mapped GPIO pins." alt="" coords="1728,102,1943,143"/>
+<area shape="rect" id="node3" href="$particle-mesh_2include_2periph__conf__common_8h.html" title="Common peripheral configuration for the Particle Mesh." alt="" coords="1967,95,2162,151"/>
+<area shape="rect" id="node37" href="$common_2particle-mesh_2include_2pwm__params_8h.html" title="Configuration of SAUL mapped PWM channels." alt="" coords="2186,102,2405,143"/>
+<area shape="rect" id="node4" href="$boards_2arduino-mkrwan1300_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for Arduino MKRWAN1300 board." alt="" coords="5,206,215,247"/>
+<area shape="rect" id="node6" href="$boards_2esp32-heltec-lora32-v2_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for Heltec WiFi LoRa 32 V2 board." alt="" coords="239,199,424,255"/>
+<area shape="rect" id="node7" href="$boards_2esp32-mh-et-live-minikit_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for MH&#45;ET LIVE MiniKit for ESP32." alt="" coords="448,199,601,255"/>
+<area shape="rect" id="node8" href="$boards_2esp32-olimex-evb_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for Olimex ESP32&#45;EVB (ESP32&#45;GATEWAY)" alt="" coords="625,199,784,255"/>
+<area shape="rect" id="node9" href="$boards_2esp32-ttgo-t-beam_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for TTGO T&#45;Beam board." alt="" coords="809,199,969,255"/>
+<area shape="rect" id="node10" href="$boards_2esp32-wemos-lolin-d32-pro_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for Wemos LOLIN D32 Pro." alt="" coords="993,199,1155,255"/>
+<area shape="rect" id="node11" href="$boards_2esp32-wroom-32_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for generic ESP32&#45;WROOM&#45;32 boards." alt="" coords="1179,206,1364,247"/>
+<area shape="rect" id="node12" href="$boards_2esp32-wrover-kit_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for Espressif ESP&#45;WROVER&#45;KIT V3." alt="" coords="1388,199,1547,255"/>
+<area shape="rect" id="node13" href="$boards_2esp8266-esp-12x_2include_2periph__conf_8h.html" title="Board specific configuration of MCU periphery for ESP&#45;12x based boards." alt="" coords="1571,199,1724,255"/>
+<area shape="rect" id="node14" href="$boards_2esp8266-olimex-mod_2include_2periph__conf_8h.html" title="Board specific configuration of MCU periphery for Olimex MOD&#45;WIFI&#45;ESP8266&#45;DEV boards." alt="" coords="1748,206,1947,247"/>
+<area shape="rect" id="node15" href="$boards_2esp8266-sparkfun-thing_2include_2periph__conf_8h.html" title="Board specific configuration of MCU periphery for SparkFun ESP8266 Thing boards." alt="" coords="1971,199,2158,255"/>
+<area shape="rect" id="node16" href="$boards_2frdm-kw41z_2include_2periph__conf_8h.html" title=" " alt="" coords="2183,206,2381,247"/>
+<area shape="rect" id="node20" href="$boards_2iotlab-a8-m3_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the iotlab&#45;a8&#45;m3 board." alt="" coords="2405,206,2569,247"/>
+<area shape="rect" id="node22" href="$boards_2iotlab-m3_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the iotlab&#45;m3 board." alt="" coords="2594,206,2778,247"/>
+<area shape="rect" id="node24" href="$boards_2nrf52840dk_2include_2periph__conf_8h.html" title="Peripheral configuration for the nRF52840 DK." alt="" coords="2802,206,2997,247"/>
+<area shape="rect" id="node25" href="$boards_2nrf52dk_2include_2periph__conf_8h.html" title="Peripheral configuration for the nRF52 DK." alt="" coords="3021,206,3191,247"/>
+<area shape="rect" id="node26" href="$boards_2particle-argon_2include_2periph__conf_8h.html" title="Peripheral configuration for the Particle Argon." alt="" coords="3216,206,3380,247"/>
+<area shape="rect" id="node27" href="$boards_2particle-boron_2include_2periph__conf_8h.html" title="Peripheral configuration for the Particle Boron." alt="" coords="3404,206,3568,247"/>
+<area shape="rect" id="node28" href="$boards_2particle-xenon_2include_2periph__conf_8h.html" title="Peripheral configuration for the Particle Xenon." alt="" coords="3592,206,3756,247"/>
+<area shape="rect" id="node29" href="$boards_2phynode-kw41z_2include_2periph__conf_8h.html" title=" " alt="" coords="3781,206,3954,247"/>
+<area shape="rect" id="node33" href="$boards_2usb-kw41z_2include_2periph__conf_8h.html" title=" " alt="" coords="3979,206,4169,247"/>
+<area shape="rect" id="node5" href="$arduino-mkrwan1300_2include_2board_8h.html" title="Support for the Arduino MKRWAN1300 board." alt="" coords="5,303,215,344"/>
+<area shape="rect" id="node17" href="$frdm-kw41z_2include_2board_8h.html" title="Board specific definitions for the FRDM&#45;KW41Z." alt="" coords="2183,303,2381,344"/>
+<area shape="rect" id="node18" href="$frdm-kw41z_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC." alt="" coords="2071,392,2269,433"/>
+<area shape="rect" id="node19" href="$frdm-kw41z_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="2293,392,2492,433"/>
+<area shape="rect" id="node21" href="$iotlab-a8-m3_2include_2board_8h.html" title="Board specific definitions for the iotlab&#45;a8&#45;m3 board." alt="" coords="2410,303,2565,344"/>
+<area shape="rect" id="node23" href="$iotlab-m3_2include_2board_8h.html" title="Board specific definitions for the iotlab&#45;m3 board." alt="" coords="2594,303,2778,344"/>
+<area shape="rect" id="node30" href="$phynode-kw41z_2include_2board_8h.html" title="Board specific definitions for the USB&#45;KW41Z." alt="" coords="3781,303,3954,344"/>
+<area shape="rect" id="node31" href="$phynode-kw41z_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC." alt="" coords="3583,392,3757,433"/>
+<area shape="rect" id="node32" href="$phynode-kw41z_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="3781,392,3954,433"/>
+<area shape="rect" id="node34" href="$usb-kw41z_2include_2board_8h.html" title="Board specific definitions for the USB&#45;KW41Z." alt="" coords="3979,303,4169,344"/>
+<area shape="rect" id="node35" href="$usb-kw41z_2include_2adc__params_8h.html" title="Board specific configuration of direct mapped ADC." alt="" coords="3979,392,4169,433"/>
+<area shape="rect" id="node36" href="$usb-kw41z_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="4193,392,4384,433"/>
 </map>

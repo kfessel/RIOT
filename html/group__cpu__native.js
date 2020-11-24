@@ -1,8 +1,11 @@
 var group__cpu__native =
 [
+    [ "Linux User Mode GPIO Driver", "group__drivers__gpio__linux.html", "group__drivers__gpio__linux" ],
     [ "Linux User Mode SPI Driver", "group__drivers__spidev__linux.html", "group__drivers__spidev__linux" ],
     [ "Native extra API for EEPROM", "group__drivers__eeprom__native.html", "group__drivers__eeprom__native" ],
+    [ "architecture_arch.h", "native_2include_2architecture__arch_8h.html", null ],
     [ "async_read.h", "async__read_8h.html", null ],
+    [ "atomic_utils_arch.h", "native_2include_2atomic__utils__arch_8h.html", null ],
     [ "cpu_conf.h", "native_2include_2cpu__conf_8h.html", null ],
     [ "periph_conf.h", "cpu_2native_2include_2periph__conf_8h.html", null ],
     [ "periph_cpu.h", "native_2include_2periph__cpu_8h.html", null ],

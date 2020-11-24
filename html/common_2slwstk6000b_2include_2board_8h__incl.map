@@ -1,5 +1,16 @@
 <map id="boards/common/slwstk6000b/include/board.h" name="boards/common/slwstk6000b/include/board.h">
-<area shape="rect" id="node3" href="$boards_2common_2slwstk6000b_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SLWSTK6000B starter kit. " alt="" coords="199,95,299,121"/>
-<area shape="rect" id="node7" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="765,169,861,196"/>
-<area shape="rect" id="node10" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="517,95,607,121"/>
+<area shape="rect" id="node1" title="Board specific definitions for the SLWSTK6000B starter kit." alt="" coords="402,5,615,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,169,63,196"/>
+<area shape="rect" id="node3" href="$boards_2common_2slwstk6000b_2include_2periph__conf_8h.html" title="Configuration of CPU peripherals for the SLWSTK6000B starter kit." alt="" coords="129,95,238,121"/>
+<area shape="rect" id="node7" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="587,169,689,196"/>
+<area shape="rect" id="node11" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="455,169,562,196"/>
+<area shape="rect" id="node12" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition." alt="" coords="703,95,802,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="400,244,505,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="138,169,229,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="253,169,380,196"/>
+<area shape="rect" id="node8" title=" " alt="" coords="547,244,617,271"/>
+<area shape="rect" id="node9" title=" " alt="" coords="784,244,855,271"/>
+<area shape="rect" id="node10" title=" " alt="" coords="642,244,751,271"/>
+<area shape="rect" id="node13" title=" " alt="" coords="866,169,949,196"/>
+<area shape="rect" id="node14" title=" " alt="" coords="973,169,1047,196"/>
 </map>

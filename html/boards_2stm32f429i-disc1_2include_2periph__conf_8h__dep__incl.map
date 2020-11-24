@@ -1,4 +1,5 @@
 <map id="boards/stm32f429i&#45;disc1/include/periph_conf.h" name="boards/stm32f429i&#45;disc1/include/periph_conf.h">
-<area shape="rect" id="node2" href="$stm32f429i-disc1_2include_2board_8h.html" title="Board specific definitions for the STM32F429I&#45;DISC1 evaluation board. " alt="" coords="5,95,169,136"/>
-<area shape="rect" id="node3" href="$stm32f429i-disc1_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,184,169,225"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node2" href="$stm32f429i-disc1_2include_2board_8h.html" title="Board specific definitions for the STM32F429I&#45;DISC1 evaluation board." alt="" coords="5,95,188,136"/>
+<area shape="rect" id="node3" href="$stm32f429i-disc1_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,184,188,225"/>
 </map>

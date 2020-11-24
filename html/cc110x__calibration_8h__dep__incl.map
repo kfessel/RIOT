@@ -1,3 +1,4 @@
 <map id="drivers/cc110x/include/cc110x_calibration.h" name="drivers/cc110x/include/cc110x_calibration.h">
-<area shape="rect" id="node2" href="$cc110x__internal_8h.html" title="Internal functions of the CC110x transceiver driver. " alt="" coords="5,95,157,136"/>
+<area shape="rect" id="node1" title="Calibration related functions of the CC110x transceiver driver." alt="" coords="5,5,173,47"/>
+<area shape="rect" id="node2" href="$cc110x__internal_8h.html" title="Internal functions of the CC110x transceiver driver." alt="" coords="5,95,173,136"/>
 </map>

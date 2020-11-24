@@ -1,0 +1,5 @@
+<map id="cpu/stm32/include/clk/f2f4f7/cfg_clock_default_120.h" name="cpu/stm32/include/clk/f2f4f7/cfg_clock_default_120.h">
+<area shape="rect" id="node1" title="Default STM32F2/4/7 clock configuration for 120MHz boards." alt="" coords="103,5,329,47"/>
+<area shape="rect" id="node2" href="$f2f4f7_2cfg__clock__common_8h.html" title="Base STM32F4 clock configuration." alt="" coords="5,95,208,121"/>
+<area shape="rect" id="node3" href="$f2f4f7_2cfg__clock__values_8h.html" title="STM32F4 clock values definitions." alt="" coords="233,95,421,121"/>
+</map>

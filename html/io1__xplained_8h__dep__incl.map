@@ -1,3 +1,4 @@
 <map id="drivers/include/io1_xplained.h" name="drivers/include/io1_xplained.h">
-<area shape="rect" id="node2" href="$io1__xplained__params_8h.html" title="Default configuration for IO1 Xplained. " alt="" coords="5,95,148,151"/>
+<area shape="rect" id="node1" title="Device driver interface for the Atmel IO1 Xplained extension." alt="" coords="14,5,157,47"/>
+<area shape="rect" id="node2" href="$io1__xplained__params_8h.html" title="Default configuration for IO1 Xplained." alt="" coords="5,95,165,151"/>
 </map>

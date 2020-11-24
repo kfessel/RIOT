@@ -1,10 +1,10 @@
 var hts221_8h =
 [
     [ "HTS221_I2C_ADDRESS", "group__drivers__hts221.html#ga48cf15ec45227bb2ecbaa0ccfb8f949e", null ],
-    [ "HTS221_OK", "group__drivers__hts221.html#gga85c7862086c1f92e4fb4108e176d8140a20486b666dc0f31867633f0793318fc4", null ],
-    [ "HTS221_ERROR", "group__drivers__hts221.html#gga85c7862086c1f92e4fb4108e176d8140ac9b4ba2dd6aaaa255f25e0b392c942b2", null ],
-    [ "HTS221_NOBUS", "group__drivers__hts221.html#gga85c7862086c1f92e4fb4108e176d8140ae72a802e5b8ecf7d50200907f80655a8", null ],
-    [ "HTS221_NODEV", "group__drivers__hts221.html#gga85c7862086c1f92e4fb4108e176d8140af9c342e834fb2b29476d78462aa67c79", null ],
+    [ "HTS221_OK", "group__drivers__hts221.html#ggaaa91b962ffd8aca2f3c24e886a222419a20486b666dc0f31867633f0793318fc4", null ],
+    [ "HTS221_ERROR", "group__drivers__hts221.html#ggaaa91b962ffd8aca2f3c24e886a222419ac9b4ba2dd6aaaa255f25e0b392c942b2", null ],
+    [ "HTS221_NOBUS", "group__drivers__hts221.html#ggaaa91b962ffd8aca2f3c24e886a222419ae72a802e5b8ecf7d50200907f80655a8", null ],
+    [ "HTS221_NODEV", "group__drivers__hts221.html#ggaaa91b962ffd8aca2f3c24e886a222419af9c342e834fb2b29476d78462aa67c79", null ],
     [ "hts221_get_state", "group__drivers__hts221.html#gadd6cb60f30fa869c634cf114cea50ac6", null ],
     [ "hts221_init", "group__drivers__hts221.html#ga168e500036775bef04c84d3f1ccc0f7b", null ],
     [ "hts221_one_shot", "group__drivers__hts221.html#gad2e27621308a9153e2ceb4f1897ea01c", null ],

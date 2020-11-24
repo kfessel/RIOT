@@ -1,3 +1,6 @@
 <map id="sys/include/crypto/modes/ocb.h" name="sys/include/crypto/modes/ocb.h">
-<area shape="rect" id="node2" href="$ciphers_8h.html" title="Headers for the packet encryption class. " alt="" coords="5,95,120,121"/>
+<area shape="rect" id="node1" title="Offset Codebook (OCB3) AEAD mode as specified in RFC 7253." alt="" coords="100,5,240,47"/>
+<area shape="rect" id="node2" href="$ciphers_8h.html" title="Headers for the packet encryption class. They are used to encrypt single packets." alt="" coords="5,95,132,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="84,169,155,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="207,95,282,121"/>
 </map>

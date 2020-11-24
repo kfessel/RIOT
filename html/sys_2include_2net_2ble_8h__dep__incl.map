@@ -1,11 +1,13 @@
 <map id="sys/include/net/ble.h" name="sys/include/net/ble.h">
-<area shape="rect" id="node2" href="$nimble__netif_8h.html" title="GNRC netif implementation for NimBLE. " alt="" coords="112,80,271,121"/>
-<area shape="rect" id="node5" href="$nimble__scanlist_8h.html" title="List for keeping scanned BLE devices. " alt="" coords="295,80,467,121"/>
-<area shape="rect" id="node6" href="$ad_8h.html" title="Interface for the generic BLE advertising data processing module. " alt="" coords="491,87,668,114"/>
-<area shape="rect" id="node7" href="$bluetil_2addr_8h.html" title="Interface for the generic BLE address helper functions. " alt="" coords="692,80,840,121"/>
-<area shape="rect" id="node8" href="$skald_8h.html" title="Skald&#39;s basic interface. " alt="" coords="864,87,1020,114"/>
-<area shape="rect" id="node3" href="$nimble__autoconn_8h.html" title="Simple automated connection manager for NimBLE netif. " alt="" coords="5,169,185,211"/>
-<area shape="rect" id="node4" href="$nimble__netif__conn_8h.html" title="Connection allocation and maintenance for NimBLE netif. " alt="" coords="209,169,368,211"/>
-<area shape="rect" id="node9" href="$skald_2eddystone_8h.html" title="Skald&#39;s basic interface. " alt="" coords="784,169,929,211"/>
-<area shape="rect" id="node10" href="$ibeacon_8h.html" title="Skald&#39;s basic interface. " alt="" coords="953,169,1099,211"/>
+<area shape="rect" id="node1" title="General BLE values as defined by the BT standard." alt="" coords="671,5,827,32"/>
+<area shape="rect" id="node2" href="$nimble__netif_8h.html" title="GNRC netif implementation for NimBLE." alt="" coords="231,80,411,121"/>
+<area shape="rect" id="node6" href="$nimble__scanlist_8h.html" title="List for keeping scanned BLE devices." alt="" coords="435,80,625,121"/>
+<area shape="rect" id="node7" href="$ad_8h.html" title="Interface for the generic BLE advertising data processing module." alt="" coords="650,87,847,114"/>
+<area shape="rect" id="node8" href="$bluetil_2addr_8h.html" title="Interface for the generic BLE address helper functions." alt="" coords="871,80,1037,121"/>
+<area shape="rect" id="node9" href="$skald_8h.html" title="Skald&#39;s basic interface." alt="" coords="1061,87,1231,114"/>
+<area shape="rect" id="node3" href="$nimble__autoconn_8h.html" title="Simple automated connection manager for NimBLE netif." alt="" coords="5,169,207,211"/>
+<area shape="rect" id="node4" href="$nimble__netif__conn_8h.html" title="Connection allocation and maintenance for NimBLE netif." alt="" coords="231,169,411,211"/>
+<area shape="rect" id="node5" href="$nimble__statconn_8h.html" title="Simple static connection manager for NimBLE netif." alt="" coords="435,169,633,211"/>
+<area shape="rect" id="node10" href="$skald_2eddystone_8h.html" title="Skald&#39;s basic interface." alt="" coords="975,169,1133,211"/>
+<area shape="rect" id="node11" href="$ibeacon_8h.html" title="Skald&#39;s basic interface." alt="" coords="1157,169,1316,211"/>
 </map>

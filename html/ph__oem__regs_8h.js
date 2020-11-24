@@ -1,7 +1,7 @@
 var ph__oem__regs_8h =
 [
     [ "PH_OEM_DEVICE_TYPE_ID", "ph__oem__regs_8h.html#aeae903cbd47cecfecae9c3c0a50dcdc9", null ],
-    [ "ph_oem_reg_t", "ph__oem__regs_8h.html#a587f55e8f0e59baafe194cd5b485e524", null ],
+    [ "ph_oem_reg_t", "ph__oem__regs_8h.html#ae75324e4ed66c6a83010cba9bf8f1e2d", null ],
     [ "ph_oem_reg", "ph__oem__regs_8h.html#ae7fbcf4a00512be94584cbcb17ceb534", [
       [ "PH_OEM_REG_DEVICE_TYPE", "ph__oem__regs_8h.html#ae7fbcf4a00512be94584cbcb17ceb534af330dfd16d370b5299d6dd20162c3786", null ],
       [ "PH_OEM_REG_FIRMWARE_VERSION", "ph__oem__regs_8h.html#ae7fbcf4a00512be94584cbcb17ceb534a21920b2f04538ce6d7668179d2790465", null ],

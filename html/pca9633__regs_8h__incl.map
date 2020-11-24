@@ -1,0 +1,6 @@
+<map id="drivers/pca9633/include/pca9633_regs.h" name="drivers/pca9633/include/pca9633_regs.h">
+<area shape="rect" id="node1" title="Register definitions for the PCA9633 I2C PWM controller." alt="" coords="5,5,183,47"/>
+<area shape="rect" id="node2" href="$bitarithm_8h.html" title="Helper functions for bit arithmetic." alt="" coords="47,95,141,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="7,169,77,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="102,169,193,196"/>
+</map>

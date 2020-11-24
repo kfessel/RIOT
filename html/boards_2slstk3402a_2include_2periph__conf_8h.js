@@ -13,6 +13,8 @@ var boards_2slstk3402a_2include_2periph__conf_8h =
     [ "RTT_MAX_VALUE", "boards_2slstk3402a_2include_2periph__conf_8h.html#a57f384110fe2e8f4b3c4b9ba246517c6", null ],
     [ "SPI_NUMOF", "boards_2slstk3402a_2include_2periph__conf_8h.html#ab35a2b79568128efef74adf1ba1910a8", null ],
     [ "TIMER_0_ISR", "boards_2slstk3402a_2include_2periph__conf_8h.html#a4c490d334538c05373718609ca5fe2d4", null ],
+    [ "TIMER_1_ISR", "boards_2slstk3402a_2include_2periph__conf_8h.html#ab1f8037bcb60d4669f508c471f92bc17", null ],
+    [ "TIMER_2_ISR", "boards_2slstk3402a_2include_2periph__conf_8h.html#a113e8d62009935a50bf3761ca37c75f9", null ],
     [ "TIMER_NUMOF", "boards_2slstk3402a_2include_2periph__conf_8h.html#a6e2f66f5b6f5c835dd11f9766c4ed897", null ],
     [ "UART_0_ISR_RX", "boards_2slstk3402a_2include_2periph__conf_8h.html#a8e13c32456487d198aa5f98d0611c0d7", null ],
     [ "UART_1_ISR_RX", "boards_2slstk3402a_2include_2periph__conf_8h.html#a85b527285176c6a2dc6125a8ca2d3ca8", null ],

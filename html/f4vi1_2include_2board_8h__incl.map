@@ -1,4 +1,7 @@
 <map id="boards/f4vi1/include/board.h" name="boards/f4vi1/include/board.h">
-<area shape="rect" id="node3" href="$boards_2f4vi1_2include_2periph__conf_8h.html" title="periph_conf.h" alt="" coords="84,95,184,121"/>
-<area shape="rect" id="node5" href="$cfg__clock__168__16__0_8h.html" title="Configure STM32F4 clock to 168MHz using PLL. " alt="" coords="128,169,295,196"/>
+<area shape="rect" id="node1" title="Board specific definitions for the f4vi1 board." alt="" coords="10,5,165,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,63,121"/>
+<area shape="rect" id="node3" href="$boards_2f4vi1_2include_2periph__conf_8h.html" title=" " alt="" coords="87,95,197,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="29,169,135,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="159,169,245,196"/>
 </map>

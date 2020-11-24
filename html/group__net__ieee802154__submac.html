@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>IEEE802.15.4 SubMAC layer</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.min.js"></script>
+    <script src="jquery.powertip.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="jquery.scrollTo.min.js"></script>
+    <script src="doxy-jquery.js"></script>
+    <script src="dynsections.js"></script>
+    <link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+    <link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+    <!-- Bootstrap -->
+    <link href="doxygen.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="riot.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <script>
+            function displaySR(){
+            searchBox.Search();
+            var rhtml=(document.getElementById('MSearchResults').contentWindow.document.body.innerHTML).replace(/href=\"\.\.\//g,'href="');
+            document.getElementById('MSearchResultsWindow').style.display='none';
+            document.getElementById('top').append(document.getElementById('MSearchSelectWindow'));
+            document.getElementById('top').append(document.getElementById('MSearchResultsWindow'));
+            document.getElementById('doc-content').innerHTML=rhtml;
+            }
+            function modSearch(){
+            if(!searchBox.doxySearch){
+                searchBox.doxySearch=searchBox.Search
+                searchBox.Search= function(){this.doxySearch();
+                var r=document.getElementById('MSearchResultsWindow');console.log(r.style);
+                if(parseInt(r.style.left)<0)r.style.left=0;
+                var x=document.getElementById('MSearchResults');
+                if(x.scrollWidth>window.screen.width)x.style.width=window.screen.width-2+'px';
+                var f=document.getElementById('riot-searchform');
+                if(parseInt( r.style.top) < f.offsetTop+f.scrollHeight) r.style.top = f.offsetTop+f.scrollHeight+'px';}
+            }
+            }
+        </script>
+  </head>
+  <body>
+      <div id="top">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" id="brand-logo" href="http://riot-os.org"><img height="40px" src="riot-logo.svg" /></a>
+              <p class="navbar-text text-center visible-xs">Documentation</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <p class="navbar-text navbar-left"><span id="projectbrief">The friendly Operating System for the Internet of Things</span></p>
+              <ul id="riot-navlist" class="nav navbar-nav"></ul>
+              <form id="riot-searchform" class="navbar-form navbar-left navbar-right"
+                    onsubmit="try{
+                        displaySR();
+                    }finally{
+                            return false;
+                    }">
+                 <div class="form-group">
+                   <div id="MSearchBox" class="MSearchBoxActive">
+                     <div class="input-group">
+                       <div class="input-group-addon">
+                         <span id="MSearchSelect" class="glyphicon glyphicon-search" aria-hidden="true" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"></span>
+                       </div>
+                       <input class="form-control" type="text" id="MSearchField" placeholder="Search" accesskey="S" onfocus="searchBox.OnSearchFieldFocus(true)" onblur="searchBox.OnSearchFieldFocus(false)" onkeyup="searchBox.OnSearchFieldChange(event); modSearch();">
+                       <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()">
+                         <span id="search-reset" class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+                       </a>
+                     </div>
+                   </div>
+                 </div>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+<!-- Generated by Doxygen 1.8.17 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Search');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('group__net__ieee802154__submac.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle">
+<div class="title">IEEE802.15.4 SubMAC layer<div class="ingroups"><a class="el" href="group__net.html">Networking</a> &raquo; <a class="el" href="group__net__ieee802154.html">IEEE802.15.4</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>This module defines a common layer for handling the lower part of the IEEE 802.15.4 MAC layer.  
+<a href="#details">More...</a></p>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<p>This module defines a common layer for handling the lower part of the IEEE 802.15.4 MAC layer. </p>
+<dl class="section warning"><dt>Warning</dt><dd><b class="text-danger">This feature is experimental!</b><br  />
+ This API is experimental and in an early state - expect changes!</dd></dl>
+<p>This layer is responsible for:</p><ul>
+<li>Handling CSMA-CA and retransmissions.</li>
+<li>Maintaining part of the MAC Information Base, e.g IEEE 802.15.4 addresses, channel settings, CSMA-CA params, etc.</li>
+</ul>
+<dl class="section author"><dt>Author</dt><dd>José I. Alamos <a href="#" onclick="location.href='mai'+'lto:'+'jos'+'e.'+'ala'+'mo'+'s@h'+'aw'+'-ha'+'mb'+'urg'+'.d'+'e'; return false;">jose.<span style="display: none;">.nosp@m.</span>alam<span style="display: none;">.nosp@m.</span>os@ha<span style="display: none;">.nosp@m.</span>w-ha<span style="display: none;">.nosp@m.</span>mburg<span style="display: none;">.nosp@m.</span>.de</a> </dd></dl>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structieee802154__submac__cb__t.html">ieee802154_submac_cb_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">IEEE 802.15.4 SubMAC callbacks.  <a href="structieee802154__submac__cb__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structieee802154__submac.html">ieee802154_submac</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">IEEE 802.15.4 SubMAC descriptor.  <a href="structieee802154__submac.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ga7337c7ba12f5c5b9a94f8e619f2f9611"><td class="memItemLeft" align="right" valign="top"><a id="ga7337c7ba12f5c5b9a94f8e619f2f9611"></a>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#ga7337c7ba12f5c5b9a94f8e619f2f9611">IEEE802154_SUBMAC_MAX_RETRANSMISSIONS</a>&#160;&#160;&#160;(4U)</td></tr>
+<tr class="memdesc:ga7337c7ba12f5c5b9a94f8e619f2f9611"><td class="mdescLeft">&#160;</td><td class="mdescRight">maximum number of frame retransmissions <br /></td></tr>
+<tr class="separator:ga7337c7ba12f5c5b9a94f8e619f2f9611"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga323c6d6e3e8ebe05c7c04ff7cb864ac0"><td class="memItemLeft" align="right" valign="top"><a id="ga323c6d6e3e8ebe05c7c04ff7cb864ac0"></a>
+typedef struct <a class="el" href="structieee802154__submac.html">ieee802154_submac</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a></td></tr>
+<tr class="memdesc:ga323c6d6e3e8ebe05c7c04ff7cb864ac0"><td class="mdescLeft">&#160;</td><td class="mdescRight">IEEE 802.15.4 SubMAC forward declaration. <br /></td></tr>
+<tr class="separator:ga323c6d6e3e8ebe05c7c04ff7cb864ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga7df63207c71d041fa4d8b7e74d9c1024"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#ga7df63207c71d041fa4d8b7e74d9c1024">ieee802154_submac_state_t</a> { <a class="el" href="group__net__ieee802154__submac.html#gga7df63207c71d041fa4d8b7e74d9c1024a391450841981ff3cbd1bd0f7722884aa">IEEE802154_STATE_OFF</a>, 
+<a class="el" href="group__net__ieee802154__submac.html#gga7df63207c71d041fa4d8b7e74d9c1024a0c339ec8268cef0f5bc93043fcea0ccd">IEEE802154_STATE_IDLE</a>, 
+<a class="el" href="group__net__ieee802154__submac.html#gga7df63207c71d041fa4d8b7e74d9c1024a0af37ac4f9ebdcc8513e4a77977737f9">IEEE802154_STATE_LISTEN</a>
+ }</td></tr>
+<tr class="memdesc:ga7df63207c71d041fa4d8b7e74d9c1024"><td class="mdescLeft">&#160;</td><td class="mdescRight">SubMAC states.  <a href="group__net__ieee802154__submac.html#ga7df63207c71d041fa4d8b7e74d9c1024">More...</a><br /></td></tr>
+<tr class="separator:ga7df63207c71d041fa4d8b7e74d9c1024"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ga219d7af1c65226831eb9038744387a6f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="group__net__ieee802154__submac.html#ga7df63207c71d041fa4d8b7e74d9c1024">ieee802154_submac_state_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#ga219d7af1c65226831eb9038744387a6f">ieee802154_get_state</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac)</td></tr>
+<tr class="memdesc:ga219d7af1c65226831eb9038744387a6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the internal state of the SubMAC.  <a href="group__net__ieee802154__submac.html#ga219d7af1c65226831eb9038744387a6f">More...</a><br /></td></tr>
+<tr class="separator:ga219d7af1c65226831eb9038744387a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8e257d3838d8e6ce4552c7fc66e89c4d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#ga8e257d3838d8e6ce4552c7fc66e89c4d">ieee802154_set_state</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac, <a class="el" href="group__net__ieee802154__submac.html#ga7df63207c71d041fa4d8b7e74d9c1024">ieee802154_submac_state_t</a> state)</td></tr>
+<tr class="memdesc:ga8e257d3838d8e6ce4552c7fc66e89c4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the internal state of the SubMAC.  <a href="group__net__ieee802154__submac.html#ga8e257d3838d8e6ce4552c7fc66e89c4d">More...</a><br /></td></tr>
+<tr class="separator:ga8e257d3838d8e6ce4552c7fc66e89c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3b8da2bd1fbd6113498c5d5f2865d359"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#ga3b8da2bd1fbd6113498c5d5f2865d359">ieee802154_send</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac, const <a class="el" href="group__sys__iolist.html#gaa17f91ef26edec149cd806d8457aa3a0">iolist_t</a> *<a class="el" href="structiolist.html">iolist</a>)</td></tr>
+<tr class="memdesc:ga3b8da2bd1fbd6113498c5d5f2865d359"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmit an IEEE 802.15.4 PSDU.  <a href="group__net__ieee802154__submac.html#ga3b8da2bd1fbd6113498c5d5f2865d359">More...</a><br /></td></tr>
+<tr class="separator:ga3b8da2bd1fbd6113498c5d5f2865d359"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4cb8d3269c79814aae4851756aa69b4a"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#ga4cb8d3269c79814aae4851756aa69b4a">ieee802154_set_short_addr</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac, const <a class="el" href="byteorder_8h.html#a639ad79c8926cb896d5a8f12b14d49e3">network_uint16_t</a> *short_addr)</td></tr>
+<tr class="memdesc:ga4cb8d3269c79814aae4851756aa69b4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the IEEE 802.15.4 short address.  <a href="group__net__ieee802154__submac.html#ga4cb8d3269c79814aae4851756aa69b4a">More...</a><br /></td></tr>
+<tr class="separator:ga4cb8d3269c79814aae4851756aa69b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5cac7e93259753e01c80a9bd81ed493a"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#ga5cac7e93259753e01c80a9bd81ed493a">ieee802154_set_ext_addr</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac, const <a class="el" href="unioneui64__t.html">eui64_t</a> *ext_addr)</td></tr>
+<tr class="memdesc:ga5cac7e93259753e01c80a9bd81ed493a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the IEEE 802.15.4 extended address.  <a href="group__net__ieee802154__submac.html#ga5cac7e93259753e01c80a9bd81ed493a">More...</a><br /></td></tr>
+<tr class="separator:ga5cac7e93259753e01c80a9bd81ed493a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf71d9cb897897b2db60f8104de4099d0"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#gaf71d9cb897897b2db60f8104de4099d0">ieee802154_set_panid</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac, const uint16_t *panid)</td></tr>
+<tr class="memdesc:gaf71d9cb897897b2db60f8104de4099d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the IEEE 802.15.4 PAN ID.  <a href="group__net__ieee802154__submac.html#gaf71d9cb897897b2db60f8104de4099d0">More...</a><br /></td></tr>
+<tr class="separator:gaf71d9cb897897b2db60f8104de4099d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafc3c69115a8e8d797266445b892397c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#gafc3c69115a8e8d797266445b892397c2">ieee802154_set_phy_conf</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac, uint16_t channel_num, uint8_t channel_page, int8_t tx_pow)</td></tr>
+<tr class="memdesc:gafc3c69115a8e8d797266445b892397c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set IEEE 802.15.4 PHY configuration (channel, TX power)  <a href="group__net__ieee802154__submac.html#gafc3c69115a8e8d797266445b892397c2">More...</a><br /></td></tr>
+<tr class="separator:gafc3c69115a8e8d797266445b892397c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6777615c9fc50b56b6dfcd70cc5df9b4"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#ga6777615c9fc50b56b6dfcd70cc5df9b4">ieee802154_set_channel_number</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac, uint16_t channel_num)</td></tr>
+<tr class="memdesc:ga6777615c9fc50b56b6dfcd70cc5df9b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set IEEE 802.15.4 channel number.  <a href="group__net__ieee802154__submac.html#ga6777615c9fc50b56b6dfcd70cc5df9b4">More...</a><br /></td></tr>
+<tr class="separator:ga6777615c9fc50b56b6dfcd70cc5df9b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga29716a1b94a6cbfd999dca4577dae12f"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#ga29716a1b94a6cbfd999dca4577dae12f">ieee802154_set_channel_page</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac, uint16_t channel_page)</td></tr>
+<tr class="memdesc:ga29716a1b94a6cbfd999dca4577dae12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set IEEE 802.15.4 channel page.  <a href="group__net__ieee802154__submac.html#ga29716a1b94a6cbfd999dca4577dae12f">More...</a><br /></td></tr>
+<tr class="separator:ga29716a1b94a6cbfd999dca4577dae12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad371b14025ac1db5d797838e04cdb179"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#gad371b14025ac1db5d797838e04cdb179">ieee802154_set_tx_power</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac, int8_t tx_pow)</td></tr>
+<tr class="memdesc:gad371b14025ac1db5d797838e04cdb179"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set IEEE 802.15.4 transmission power.  <a href="group__net__ieee802154__submac.html#gad371b14025ac1db5d797838e04cdb179">More...</a><br /></td></tr>
+<tr class="separator:gad371b14025ac1db5d797838e04cdb179"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga189a505a953d2d9b3c01be0e946f262e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#ga189a505a953d2d9b3c01be0e946f262e">ieee802154_get_frame_length</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac)</td></tr>
+<tr class="memdesc:ga189a505a953d2d9b3c01be0e946f262e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the received frame length.  <a href="group__net__ieee802154__submac.html#ga189a505a953d2d9b3c01be0e946f262e">More...</a><br /></td></tr>
+<tr class="separator:ga189a505a953d2d9b3c01be0e946f262e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad4786ea9ea00be702783d71444adb04c"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#gad4786ea9ea00be702783d71444adb04c">ieee802154_read_frame</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac, void *buf, size_t len, <a class="el" href="structieee802154__rx__info__t.html">ieee802154_rx_info_t</a> *info)</td></tr>
+<tr class="memdesc:gad4786ea9ea00be702783d71444adb04c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read the received frame.  <a href="group__net__ieee802154__submac.html#gad4786ea9ea00be702783d71444adb04c">More...</a><br /></td></tr>
+<tr class="separator:gad4786ea9ea00be702783d71444adb04c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga51177a588137ff96e93317d6b05fafd4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#ga51177a588137ff96e93317d6b05fafd4">ieee802154_submac_init</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac, const <a class="el" href="byteorder_8h.html#a639ad79c8926cb896d5a8f12b14d49e3">network_uint16_t</a> *short_addr, const <a class="el" href="unioneui64__t.html">eui64_t</a> *ext_addr)</td></tr>
+<tr class="memdesc:ga51177a588137ff96e93317d6b05fafd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Init the IEEE 802.15.4 SubMAC.  <a href="group__net__ieee802154__submac.html#ga51177a588137ff96e93317d6b05fafd4">More...</a><br /></td></tr>
+<tr class="separator:ga51177a588137ff96e93317d6b05fafd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9f661b8d85fe050c93c1f27502caf250"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#ga9f661b8d85fe050c93c1f27502caf250">ieee802154_submac_ack_timer_set</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac, uint16_t us)</td></tr>
+<tr class="memdesc:ga9f661b8d85fe050c93c1f27502caf250"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the ACK timeout timer.  <a href="group__net__ieee802154__submac.html#ga9f661b8d85fe050c93c1f27502caf250">More...</a><br /></td></tr>
+<tr class="separator:ga9f661b8d85fe050c93c1f27502caf250"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga23612fc4f688a28bbdc9903f2394bafe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#ga23612fc4f688a28bbdc9903f2394bafe">ieee802154_submac_ack_timer_cancel</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac)</td></tr>
+<tr class="memdesc:ga23612fc4f688a28bbdc9903f2394bafe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancel the ACK timeout timer.  <a href="group__net__ieee802154__submac.html#ga23612fc4f688a28bbdc9903f2394bafe">More...</a><br /></td></tr>
+<tr class="separator:ga23612fc4f688a28bbdc9903f2394bafe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaec0015125046d1079e3e89f61c3992d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#gaec0015125046d1079e3e89f61c3992d7">ieee802154_submac_ack_timeout_fired</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac)</td></tr>
+<tr class="memdesc:gaec0015125046d1079e3e89f61c3992d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicate the SubMAC that the ACK timeout fired.  <a href="group__net__ieee802154__submac.html#gaec0015125046d1079e3e89f61c3992d7">More...</a><br /></td></tr>
+<tr class="separator:gaec0015125046d1079e3e89f61c3992d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaeadbfaefdbbc458627d7402d77da8d38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#gaeadbfaefdbbc458627d7402d77da8d38">ieee802154_submac_rx_done_cb</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac)</td></tr>
+<tr class="memdesc:gaeadbfaefdbbc458627d7402d77da8d38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicate the SubMAC that the device received a frame.  <a href="group__net__ieee802154__submac.html#gaeadbfaefdbbc458627d7402d77da8d38">More...</a><br /></td></tr>
+<tr class="separator:gaeadbfaefdbbc458627d7402d77da8d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4f3b1ea61d8416df6ed06a50ab823ff4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__net__ieee802154__submac.html#ga4f3b1ea61d8416df6ed06a50ab823ff4">ieee802154_submac_tx_done_cb</a> (<a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *submac)</td></tr>
+<tr class="memdesc:ga4f3b1ea61d8416df6ed06a50ab823ff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicate the SubMAC that the device finished the transmission procedure.  <a href="group__net__ieee802154__submac.html#ga4f3b1ea61d8416df6ed06a50ab823ff4">More...</a><br /></td></tr>
+<tr class="separator:ga4f3b1ea61d8416df6ed06a50ab823ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="ga7df63207c71d041fa4d8b7e74d9c1024"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga7df63207c71d041fa4d8b7e74d9c1024">&#9670;&nbsp;</a></span>ieee802154_submac_state_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__net__ieee802154__submac.html#ga7df63207c71d041fa4d8b7e74d9c1024">ieee802154_submac_state_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>SubMAC states. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga7df63207c71d041fa4d8b7e74d9c1024a391450841981ff3cbd1bd0f7722884aa"></a>IEEE802154_STATE_OFF&#160;</td><td class="fielddoc"><p>SubMAC and network devices are off. </p>
+<p>The corresponding network device is put in a state with the lowest energy consumption. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga7df63207c71d041fa4d8b7e74d9c1024a0c339ec8268cef0f5bc93043fcea0ccd"></a>IEEE802154_STATE_IDLE&#160;</td><td class="fielddoc"><p>SubMAC is ready to be used. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga7df63207c71d041fa4d8b7e74d9c1024a0af37ac4f9ebdcc8513e4a77977737f9"></a>IEEE802154_STATE_LISTEN&#160;</td><td class="fielddoc"><p>SubMAC is ready to be used and listening to incoming frames. </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="submac_8h_source.html#l00049">49</a> of file <a class="el" href="submac_8h_source.html">submac.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ga189a505a953d2d9b3c01be0e946f262e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga189a505a953d2d9b3c01be0e946f262e">&#9670;&nbsp;</a></span>ieee802154_get_frame_length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_get_frame_length </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the received frame length. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer to the SubMAC</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>length of the PSDU (excluding FCS length) </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="submac_8h_source.html#l00307">307</a> of file <a class="el" href="submac_8h_source.html">submac.h</a>.</p>
+
+</div>
+</div>
+<a id="ga219d7af1c65226831eb9038744387a6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga219d7af1c65226831eb9038744387a6f">&#9670;&nbsp;</a></span>ieee802154_get_state()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="group__net__ieee802154__submac.html#ga7df63207c71d041fa4d8b7e74d9c1024">ieee802154_submac_state_t</a> ieee802154_get_state </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the internal state of the SubMAC. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer to the SubMAC descriptor</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the SubMAC state </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="submac_8h_source.html#l00132">132</a> of file <a class="el" href="submac_8h_source.html">submac.h</a>.</p>
+
+</div>
+</div>
+<a id="gad4786ea9ea00be702783d71444adb04c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad4786ea9ea00be702783d71444adb04c">&#9670;&nbsp;</a></span>ieee802154_read_frame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_read_frame </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structieee802154__rx__info__t.html">ieee802154_rx_info_t</a> *&#160;</td>
+          <td class="paramname"><em>info</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Read the received frame. </p>
+<p>This functions reads the received PSDU from the device (excluding FCS)</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer to the SubMAC descriptor </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">buf</td><td>buffer to write into. If NULL, the packet is discarded </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>length of the buffer </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">info</td><td>RX information of the packet. If NULL, the information is not fetched.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the number of bytes written to <code>buf</code> </dd>
+<dd>
+negative errno on error </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="submac_8h_source.html#l00325">325</a> of file <a class="el" href="submac_8h_source.html">submac.h</a>.</p>
+
+</div>
+</div>
+<a id="ga3b8da2bd1fbd6113498c5d5f2865d359"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3b8da2bd1fbd6113498c5d5f2865d359">&#9670;&nbsp;</a></span>ieee802154_send()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ieee802154_send </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__sys__iolist.html#gaa17f91ef26edec149cd806d8457aa3a0">iolist_t</a> *&#160;</td>
+          <td class="paramname"><em>iolist</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transmit an IEEE 802.15.4 PSDU. </p>
+<p>This function performs an IEEE 802.15.4 transmission, including CSMA-CA and retransmissions (if ACK Request bit is set). When the transmission finishes an <a class="el" href="structieee802154__submac__cb__t.html#a3bd5a4480d4afbcc3439ea8fb458d920">ieee802154_submac_cb_t::tx_done</a> event is issued.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer to the SubMAC descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iolist</td><td>pointer to the PSDU frame (without FCS)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 on success </dd>
+<dd>
+negative errno on error </dd></dl>
+
+</div>
+</div>
+<a id="ga6777615c9fc50b56b6dfcd70cc5df9b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6777615c9fc50b56b6dfcd70cc5df9b4">&#9670;&nbsp;</a></span>ieee802154_set_channel_number()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_set_channel_number </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>channel_num</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set IEEE 802.15.4 channel number. </p>
+<p>This is a shortcut to <a class="el" href="group__net__ieee802154__submac.html#gafc3c69115a8e8d797266445b892397c2">ieee802154_set_phy_conf</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer the SubMAC descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel_num</td><td>channel number</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 on success </dd>
+<dd>
+-ENOTSUP if the channel number is not supported </dd>
+<dd>
+negative errno on error </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="submac_8h_source.html#l00255">255</a> of file <a class="el" href="submac_8h_source.html">submac.h</a>.</p>
+
+</div>
+</div>
+<a id="ga29716a1b94a6cbfd999dca4577dae12f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga29716a1b94a6cbfd999dca4577dae12f">&#9670;&nbsp;</a></span>ieee802154_set_channel_page()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_set_channel_page </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>channel_page</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set IEEE 802.15.4 channel page. </p>
+<p>This is a shortcut to <a class="el" href="group__net__ieee802154__submac.html#gafc3c69115a8e8d797266445b892397c2">ieee802154_set_phy_conf</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer the SubMAC descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel_page</td><td>channel page</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 on success </dd>
+<dd>
+-ENOTSUP if the channel page is not supported </dd>
+<dd>
+negative errno on error </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="submac_8h_source.html#l00274">274</a> of file <a class="el" href="submac_8h_source.html">submac.h</a>.</p>
+
+</div>
+</div>
+<a id="ga5cac7e93259753e01c80a9bd81ed493a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5cac7e93259753e01c80a9bd81ed493a">&#9670;&nbsp;</a></span>ieee802154_set_ext_addr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_set_ext_addr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="unioneui64__t.html">eui64_t</a> *&#160;</td>
+          <td class="paramname"><em>ext_addr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the IEEE 802.15.4 extended address. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer to the SubMAC descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ext_addr</td><td>IEEE 802.15.4 extended address</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 on success </dd>
+<dd>
+negative errno on error </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="submac_8h_source.html#l00194">194</a> of file <a class="el" href="submac_8h_source.html">submac.h</a>.</p>
+
+</div>
+</div>
+<a id="gaf71d9cb897897b2db60f8104de4099d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf71d9cb897897b2db60f8104de4099d0">&#9670;&nbsp;</a></span>ieee802154_set_panid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_set_panid </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint16_t *&#160;</td>
+          <td class="paramname"><em>panid</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the IEEE 802.15.4 PAN ID. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer to the SubMAC descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">panid</td><td>IEEE 802.15.4 PAN ID</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 on success </dd>
+<dd>
+negative errno on error </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="submac_8h_source.html#l00215">215</a> of file <a class="el" href="submac_8h_source.html">submac.h</a>.</p>
+
+</div>
+</div>
+<a id="gafc3c69115a8e8d797266445b892397c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gafc3c69115a8e8d797266445b892397c2">&#9670;&nbsp;</a></span>ieee802154_set_phy_conf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ieee802154_set_phy_conf </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>channel_num</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>channel_page</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>tx_pow</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set IEEE 802.15.4 PHY configuration (channel, TX power) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer to the SubMAC descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel_num</td><td>channel number </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">channel_page</td><td>channel page </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tx_pow</td><td>transmission power (in dBm)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 on success </dd>
+<dd>
+-ENOTSUP if the PHY settings are not supported </dd>
+<dd>
+negative errno on error </dd></dl>
+
+</div>
+</div>
+<a id="ga4cb8d3269c79814aae4851756aa69b4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4cb8d3269c79814aae4851756aa69b4a">&#9670;&nbsp;</a></span>ieee802154_set_short_addr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_set_short_addr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="byteorder_8h.html#a639ad79c8926cb896d5a8f12b14d49e3">network_uint16_t</a> *&#160;</td>
+          <td class="paramname"><em>short_addr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set the IEEE 802.15.4 short address. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer to the SubMAC descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">short_addr</td><td>IEEE 802.15.4 short address</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 on success </dd>
+<dd>
+negative errno on error </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="submac_8h_source.html#l00172">172</a> of file <a class="el" href="submac_8h_source.html">submac.h</a>.</p>
+
+</div>
+</div>
+<a id="ga8e257d3838d8e6ce4552c7fc66e89c4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8e257d3838d8e6ce4552c7fc66e89c4d">&#9670;&nbsp;</a></span>ieee802154_set_state()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ieee802154_set_state </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga7df63207c71d041fa4d8b7e74d9c1024">ieee802154_submac_state_t</a>&#160;</td>
+          <td class="paramname"><em>state</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the internal state of the SubMAC. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer to the SubMAC descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">state</td><td>the desired state</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 on success </dd>
+<dd>
+negative errno on error. </dd></dl>
+
+</div>
+</div>
+<a id="gad371b14025ac1db5d797838e04cdb179"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gad371b14025ac1db5d797838e04cdb179">&#9670;&nbsp;</a></span>ieee802154_set_tx_power()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int ieee802154_set_tx_power </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>tx_pow</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set IEEE 802.15.4 transmission power. </p>
+<p>This is a shortcut to <a class="el" href="group__net__ieee802154__submac.html#gafc3c69115a8e8d797266445b892397c2">ieee802154_set_phy_conf</a></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer the SubMAC descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">tx_pow</td><td>transmission power (in dBm)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 on success </dd>
+<dd>
+-ENOTSUP if the transmission power is not supported </dd>
+<dd>
+negative errno on error </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="submac_8h_source.html#l00293">293</a> of file <a class="el" href="submac_8h_source.html">submac.h</a>.</p>
+
+</div>
+</div>
+<a id="gaec0015125046d1079e3e89f61c3992d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaec0015125046d1079e3e89f61c3992d7">&#9670;&nbsp;</a></span>ieee802154_submac_ack_timeout_fired()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ieee802154_submac_ack_timeout_fired </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indicate the SubMAC that the ACK timeout fired. </p>
+<p>This function must be called when the ACK timeout timer fires.</p>
+<dl class="section note"><dt>Note</dt><dd>this function should not be called inside ISR context.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer to the SubMAC descriptor </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga23612fc4f688a28bbdc9903f2394bafe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga23612fc4f688a28bbdc9903f2394bafe">&#9670;&nbsp;</a></span>ieee802154_submac_ack_timer_cancel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ieee802154_submac_ack_timer_cancel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cancel the ACK timeout timer. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be implemented by the user of the SubMAC.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer to the SubMAC descriptor </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga9f661b8d85fe050c93c1f27502caf250"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9f661b8d85fe050c93c1f27502caf250">&#9670;&nbsp;</a></span>ieee802154_submac_ack_timer_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ieee802154_submac_ack_timer_set </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>us</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the ACK timeout timer. </p>
+<dl class="section note"><dt>Note</dt><dd>This function should be implemented by the user of the SubMAC.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer to the SubMAC descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">us</td><td>microseconds until the ACK timeout timer is fired </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga51177a588137ff96e93317d6b05fafd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga51177a588137ff96e93317d6b05fafd4">&#9670;&nbsp;</a></span>ieee802154_submac_init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ieee802154_submac_init </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="byteorder_8h.html#a639ad79c8926cb896d5a8f12b14d49e3">network_uint16_t</a> *&#160;</td>
+          <td class="paramname"><em>short_addr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="unioneui64__t.html">eui64_t</a> *&#160;</td>
+          <td class="paramname"><em>ext_addr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Init the IEEE 802.15.4 SubMAC. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer to the SubMAC descriptor </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">short_addr</td><td>pointer to the IEEE 802.15.4 short address </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ext_addr</td><td>pointer to the IEEE 802.15.4 extended address</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 on success </dd>
+<dd>
+negative errno on error </dd></dl>
+
+</div>
+</div>
+<a id="gaeadbfaefdbbc458627d7402d77da8d38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaeadbfaefdbbc458627d7402d77da8d38">&#9670;&nbsp;</a></span>ieee802154_submac_rx_done_cb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ieee802154_submac_rx_done_cb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indicate the SubMAC that the device received a frame. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer to the SubMAC descriptor </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga4f3b1ea61d8416df6ed06a50ab823ff4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga4f3b1ea61d8416df6ed06a50ab823ff4">&#9670;&nbsp;</a></span>ieee802154_submac_tx_done_cb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ieee802154_submac_tx_done_cb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__net__ieee802154__submac.html#ga323c6d6e3e8ebe05c7c04ff7cb864ac0">ieee802154_submac_t</a> *&#160;</td>
+          <td class="paramname"><em>submac</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Indicate the SubMAC that the device finished the transmission procedure. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">submac</td><td>pointer to the SubMAC descriptor </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+    <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+        <ul>
+            <li class="footer">Generated on Tue Nov 24 2020 19:47:02 by <a href="http://www.doxygen.org/index.html">
+                       <img class="footer" src="doxygen.png" alt="doxygen"></a> 1.8.17</li>
+        </ul>
+    </div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.smartmenus.min.js"></script>
+    <script src="jquery.smartmenus.bootstrap.min.js"></script>
+    <script src="riot-doxy.js"></script>
+  </body>
+</html>

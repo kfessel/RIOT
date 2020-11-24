@@ -1,3 +1,4 @@
 <map id="drivers/include/bh1900nux.h" name="drivers/include/bh1900nux.h">
-<area shape="rect" id="node2" href="$bh1900nux__params_8h.html" title="Default configuration for BH1900NUX devices. " alt="" coords="11,80,184,121"/>
+<area shape="rect" id="node1" title="Interface definition for the BH1900NUX temperature sensor." alt="" coords="5,5,212,32"/>
+<area shape="rect" id="node2" href="$bh1900nux__params_8h.html" title="Default configuration for BH1900NUX devices." alt="" coords="11,80,206,121"/>
 </map>

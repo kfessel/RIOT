@@ -1,3 +1,4 @@
 <map id="cpu/efm32/include/cpu_conf.h" name="cpu/efm32/include/cpu_conf.h">
-<area shape="rect" id="node2" href="$efm32_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling. " alt="" coords="5,95,172,136"/>
+<area shape="rect" id="node1" title="Implementation specific CPU configuration options." alt="" coords="14,5,183,47"/>
+<area shape="rect" id="node2" href="$efm32_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling." alt="" coords="5,95,192,136"/>
 </map>

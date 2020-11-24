@@ -11,7 +11,7 @@ var group__net__gnrc__netreg =
       [ "mbox", "structgnrc__netreg__entry.html#a8f4e386211db055d10b0a4f852936559", null ],
       [ "next", "structgnrc__netreg__entry.html#a4aec33c5dbb9cad6cdfdb1a9f0316c46", null ],
       [ "pid", "structgnrc__netreg__entry.html#aac4f7a1f7e2218ca91f866593362c2f3", null ],
-      [ "target", "structgnrc__netreg__entry.html#ad71b972268e4c1a3ddbe003516117be8", null ],
+      [ "target", "structgnrc__netreg__entry.html#abe7aea0c24131db2b018f648cad2f164", null ],
       [ "type", "structgnrc__netreg__entry.html#af7dc867418d83d4f1a544b807b6460c7", null ]
     ] ],
     [ "GNRC_NETREG_DEMUX_CTX_ALL", "group__net__gnrc__netreg.html#ga1a6359efa13b3bfed70af55deacde7ae", null ],
@@ -19,7 +19,7 @@ var group__net__gnrc__netreg =
     [ "GNRC_NETREG_ENTRY_INIT_MBOX", "group__net__gnrc__netreg.html#ga36edabe5719830ed784f213222462523", null ],
     [ "GNRC_NETREG_ENTRY_INIT_PID", "group__net__gnrc__netreg.html#gaed56e891d9a47cba3dcf80f927623137", null ],
     [ "gnrc_netreg_entry_cb_t", "group__net__gnrc__netreg.html#ga5a1dc197a877ff181b5da6c1c1604e14", null ],
-    [ "gnrc_netreg_entry_t", "group__net__gnrc__netreg.html#ga8dbe8b5d7eddad31671428c30d003f6c", null ],
+    [ "gnrc_netreg_entry_t", "group__net__gnrc__netreg.html#ga9f62d7f4b7c56e53983315b651a88c0f", null ],
     [ "gnrc_netreg_type_t", "group__net__gnrc__netreg.html#ga7f3ef84f4d2a3cb8e1d2b5c3cb7ec31c", [
       [ "GNRC_NETREG_TYPE_DEFAULT", "group__net__gnrc__netreg.html#gga7f3ef84f4d2a3cb8e1d2b5c3cb7ec31ca052076705778900f3a5b37d7ba306b27", null ],
       [ "GNRC_NETREG_TYPE_MBOX", "group__net__gnrc__netreg.html#gga7f3ef84f4d2a3cb8e1d2b5c3cb7ec31ca5238dfc0ad573628f7610e2bd319593c", null ],

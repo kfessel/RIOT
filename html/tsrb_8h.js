@@ -1,7 +1,7 @@
 var tsrb_8h =
 [
     [ "TSRB_INIT", "group__sys__tsrb.html#gacdfccc0e546ce7c53b1058f64a7ba6cc", null ],
-    [ "tsrb_t", "group__sys__tsrb.html#gabedbf79d8e24fa03a34da67387fe67f5", null ],
+    [ "tsrb_t", "group__sys__tsrb.html#gaa84b29b1af1ec9683aed02c4fdd3e123", null ],
     [ "tsrb_add", "group__sys__tsrb.html#ga3ed2139c5c657a62830f0633f9f72693", null ],
     [ "tsrb_add_one", "group__sys__tsrb.html#gab5bf6b621dc83f1aad693bbe8dafc530", null ],
     [ "tsrb_avail", "group__sys__tsrb.html#ga84672d08611d40b66635e495a712e8b9", null ],

@@ -1,5 +1,0 @@
-<map id="sys/include/riotboot/flashwrite.h" name="sys/include/riotboot/flashwrite.h">
-<area shape="rect" id="node2" href="$slot_8h.html" title="Slot management tools. " alt="" coords="19,95,120,121"/>
-<area shape="rect" id="node5" href="$flashpage_8h.html" title="Low&#45;level flash page peripheral driver interface. " alt="" coords="151,95,279,121"/>
-<area shape="rect" id="node3" href="$riotboot_2hdr_8h.html" title="RIOT &quot;partition&quot; header and tools. " alt="" coords="5,169,104,196"/>
-</map>

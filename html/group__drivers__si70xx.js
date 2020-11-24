@@ -9,9 +9,9 @@ var group__drivers__si70xx =
     ] ],
     [ "si70xx_t", "structsi70xx__t.html", [
       [ "params", "structsi70xx__t.html#a99734390aa169a7ca7ede1dd342d1bf6", null ],
-      [ "SI70XX_OK", "group__drivers__si70xx.html#gga08f51f22ad2ed13a25181c2604573110aff94a792ecda64c98b250450c6b6187d", null ],
-      [ "SI70XX_ERR_NODEV", "group__drivers__si70xx.html#gga08f51f22ad2ed13a25181c2604573110a52ca5295c4a91bae14f2174295b59263", null ],
-      [ "SI70XX_ERR_I2C", "group__drivers__si70xx.html#gga08f51f22ad2ed13a25181c2604573110ac992464a9264917af1a9244952ae0b75", null ]
+      [ "SI70XX_OK", "group__drivers__si70xx.html#gga4eeeead548222804e141df8f1b205ca8aff94a792ecda64c98b250450c6b6187d", null ],
+      [ "SI70XX_ERR_NODEV", "group__drivers__si70xx.html#gga4eeeead548222804e141df8f1b205ca8a52ca5295c4a91bae14f2174295b59263", null ],
+      [ "SI70XX_ERR_I2C", "group__drivers__si70xx.html#gga4eeeead548222804e141df8f1b205ca8ac992464a9264917af1a9244952ae0b75", null ]
     ] ],
     [ "si70xx_get_both", "group__drivers__si70xx.html#ga31261c190e8f388406be1a565c289166", null ],
     [ "si70xx_get_id", "group__drivers__si70xx.html#gaa7aeb4778005673b6654b8d99aa222ef", null ],

@@ -35,8 +35,10 @@ var bitarithm_8h =
     [ "BIT9", "bitarithm_8h.html#a3aa20ab5eb33383fa31b0e94f4401cdf", null ],
     [ "CLRBIT", "bitarithm_8h.html#aabb2a68d3bfb382f65c851704ff97240", null ],
     [ "SETBIT", "bitarithm_8h.html#a1c2c77c3c5532c2df0ecc1a8cfbd9c07", null ],
+    [ "bitarith_msb_32bit_no_native_clz", "bitarithm_8h.html#a56ea5f2dc2883838937bdd9ccd21aa68", null ],
     [ "bitarithm_bits_set", "bitarithm_8h.html#a52c7993a9dedfff1f3c6f4061b9811cb", null ],
     [ "bitarithm_bits_set_u32", "bitarithm_8h.html#a1d9d3611138f8859af0cc85a26078796", null ],
     [ "bitarithm_lsb", "bitarithm_8h.html#a29ff221e39c33a890123d496d9b905b8", null ],
-    [ "bitarithm_msb", "bitarithm_8h.html#ae46b870f744cf8a090b92cc0ccdffd57", null ]
+    [ "bitarithm_msb", "bitarithm_8h.html#a242e49ddf8c88cabfe6303c6b33c1779", null ],
+    [ "bitarithm_test_and_clear", "bitarithm_8h.html#a90bfe935dcde09afd2918a3768ad2b17", null ]
 ];

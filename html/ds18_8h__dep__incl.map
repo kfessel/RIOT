@@ -1,3 +1,4 @@
 <map id="drivers/include/ds18.h" name="drivers/include/ds18.h">
-<area shape="rect" id="node2" href="$ds18__params_8h.html" title="Default configuration for DS1822 and DS18B20 temperature sensors. " alt="" coords="11,80,149,121"/>
+<area shape="rect" id="node1" title="Driver for Maxim Integrated DS1822 and DS18B20 temperature sensors." alt="" coords="5,5,171,32"/>
+<area shape="rect" id="node2" href="$ds18__params_8h.html" title="Default configuration for DS1822 and DS18B20 temperature sensors." alt="" coords="11,80,165,121"/>
 </map>

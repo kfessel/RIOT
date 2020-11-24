@@ -1,5 +1,11 @@
 <map id="sys/include/net/ndp.h" name="sys/include/net/ndp.h">
-<area shape="rect" id="node3" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="5,229,92,256"/>
-<area shape="rect" id="node4" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses. " alt="" coords="73,80,181,107"/>
-<area shape="rect" id="node7" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions. " alt="" coords="129,155,237,181"/>
+<area shape="rect" id="node1" title="IPv6 neighbor discovery message type definitions." alt="" coords="37,5,197,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="63,379,134,405"/>
+<area shape="rect" id="node3" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="94,229,191,256"/>
+<area shape="rect" id="node5" href="$ipv6_2addr_8h.html" title="Definitions for IPv6 addresses." alt="" coords="205,80,325,107"/>
+<area shape="rect" id="node4" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="93,304,192,331"/>
+<area shape="rect" id="node6" title=" " alt="" coords="365,229,448,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="401,155,471,181"/>
+<area shape="rect" id="node8" href="$ipv4_2addr_8h.html" title="IPv6 address type and helper functions definitions." alt="" coords="205,155,325,181"/>
+<area shape="rect" id="node9" title=" " alt="" coords="267,229,341,256"/>
 </map>

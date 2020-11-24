@@ -1,10 +1,11 @@
 <map id="sys/include/net/ethernet.h" name="sys/include/net/ethernet.h">
-<area shape="rect" id="node2" href="$esp__eth__netdev_8h.html" title="Netdev interface for the ESP32 Ethernet MAC module. " alt="" coords="5,80,160,121"/>
-<area shape="rect" id="node3" href="$esp__wifi__netdev_8h.html" title="Network device driver for the ESP SoCs WiFi interface. " alt="" coords="184,80,339,121"/>
-<area shape="rect" id="node4" href="$atwinc15x0_8h.html" title="Netdev Driver for the Microchip ATWINC15x0 WiFi Module. " alt="" coords="363,87,549,114"/>
-<area shape="rect" id="node6" href="$dose_8h.html" title="Driver for the Differentially Operated Serial Ethernet module. " alt="" coords="573,87,723,114"/>
-<area shape="rect" id="node7" href="$pkg_2lwip_2include_2lwip_2netif_2netdev_8h.html" title="lwIP netdev adapter definitions " alt="" coords="747,80,890,121"/>
-<area shape="rect" id="node8" href="$ot_8h.html" title="pkg/openthread/include/ot.h" alt="" coords="914,87,1097,114"/>
-<area shape="rect" id="node9" href="$ecm_8h.html" title="Interface and definitions for USB CDC ECM type interfaces. " alt="" coords="1121,80,1273,121"/>
-<area shape="rect" id="node5" href="$atwinc15x0__internal_8h.html" title="Internal definitions for the ATWINC15x0 WiFi netdev driver. " alt="" coords="387,169,525,225"/>
+<area shape="rect" id="node1" title="Definitions for Ethernet." alt="" coords="615,5,806,32"/>
+<area shape="rect" id="node2" href="$esp__eth__netdev_8h.html" title="Netdev interface for the ESP32 Ethernet MAC module." alt="" coords="5,80,173,121"/>
+<area shape="rect" id="node3" href="$esp__wifi__netdev_8h.html" title="Network device driver for the ESP SoCs WiFi interface." alt="" coords="198,80,370,121"/>
+<area shape="rect" id="node4" href="$atwinc15x0_8h.html" title="Netdev Driver for the Microchip ATWINC15x0 WiFi Module." alt="" coords="394,87,603,114"/>
+<area shape="rect" id="node6" href="$dose_8h.html" title="Driver for the Differentially Operated Serial Ethernet module." alt="" coords="628,87,793,114"/>
+<area shape="rect" id="node7" href="$pkg_2lwip_2include_2lwip_2netif_2netdev_8h.html" title="lwIP netdev adapter definitions" alt="" coords="818,80,977,121"/>
+<area shape="rect" id="node8" href="$ot_8h.html" title=" " alt="" coords="1001,87,1205,114"/>
+<area shape="rect" id="node9" href="$ecm_8h.html" title="Interface and definitions for USB CDC ECM type interfaces." alt="" coords="1229,80,1393,121"/>
+<area shape="rect" id="node5" href="$atwinc15x0__internal_8h.html" title="Internal definitions for the ATWINC15x0 WiFi netdev driver." alt="" coords="423,169,575,225"/>
 </map>

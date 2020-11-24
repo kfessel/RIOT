@@ -1,5 +1,7 @@
 var boards_2f4vi1_2include_2periph__conf_8h =
 [
+    [ "CLOCK_HSE", "boards_2f4vi1_2include_2periph__conf_8h.html#a19d32ef5403d838f9398b9706618cb40", null ],
+    [ "CONFIG_BOARD_HAS_HSE", "boards_2f4vi1_2include_2periph__conf_8h.html#a055813e339f41a120f81a18fe83a07c3", null ],
     [ "TIMER_0_ISR", "boards_2f4vi1_2include_2periph__conf_8h.html#a4c490d334538c05373718609ca5fe2d4", null ],
     [ "TIMER_1_ISR", "boards_2f4vi1_2include_2periph__conf_8h.html#ab1f8037bcb60d4669f508c471f92bc17", null ],
     [ "TIMER_NUMOF", "boards_2f4vi1_2include_2periph__conf_8h.html#a6e2f66f5b6f5c835dd11f9766c4ed897", null ],

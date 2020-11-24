@@ -1,27 +1,28 @@
 <map id="sys/include/net/ipv6/hdr.h" name="sys/include/net/ipv6/hdr.h">
-<area shape="rect" id="node2" href="$echo_8h.html" title="ICMPv6 echo message definitions. " alt="" coords="5,184,144,225"/>
-<area shape="rect" id="node5" href="$error_8h.html" title="ICMPv6 error message definitions. " alt="" coords="112,281,251,322"/>
-<area shape="rect" id="node6" href="$gnrc_2ipv6_2ext_2frag_8h.html" title="GNRC fragmentation extension definitions. " alt="" coords="219,95,357,136"/>
-<area shape="rect" id="node7" href="$net_2gnrc_2ipv6_2hdr_8h.html" title="IPv6 header. " alt="" coords="381,95,520,136"/>
-<area shape="rect" id="node23" href="$nib_8h.html" title="NIB definitions. " alt="" coords="544,95,683,136"/>
-<area shape="rect" id="node24" href="$gnrc_2ndp_8h.html" title="GNRC&#45;specific neighbor discovery definitions. " alt="" coords="707,95,845,136"/>
-<area shape="rect" id="node25" href="$srh_8h.html" title="Definititions for RPL source routing extension headers. " alt="" coords="869,95,1008,136"/>
-<area shape="rect" id="node26" href="$ipv6_8h.html" title="IPv6 include gathering header. " alt="" coords="1032,102,1181,129"/>
-<area shape="rect" id="node3" href="$gnrc_2icmpv6_8h.html" title="Definitions for GNRC&#39;s ICMPv6 implementation. " alt="" coords="59,385,197,426"/>
-<area shape="rect" id="node4" href="$validation_8h.html" title="RPL control message validation functions. " alt="" coords="59,481,197,537"/>
-<area shape="rect" id="node8" href="$gnrc_2ipv6_8h.html" title="Definitions for GNRC&#39;s IPv6 implementation. " alt="" coords="531,184,669,225"/>
-<area shape="rect" id="node9" href="$rpl_8h.html" title="RPL header. " alt="" coords="301,281,440,322"/>
-<area shape="rect" id="node11" href="$tcb_8h.html" title="GNRC TCP transmission control block (TCB) " alt="" coords="855,281,993,322"/>
-<area shape="rect" id="node12" href="$gnrc_2tcp_8h.html" title="GNRC TCP API. " alt="" coords="464,385,603,426"/>
-<area shape="rect" id="node18" href="$__nib-internal_8h_source.html" title="sys/net/gnrc/network\l_layer/ipv6/nib/_nib\l&#45;internal.h" alt="" coords="1663,273,1807,329"/>
-<area shape="rect" id="node10" href="$dodag_8h.html" title="DODAG&#45;related functions for RPL. " alt="" coords="301,385,440,426"/>
-<area shape="rect" id="node13" href="$net_2gnrc_2transport__layer_2tcp_2internal_2common_8h.html" title="Internally used defines, macros and variable declarations. " alt="" coords="627,385,818,426"/>
-<area shape="rect" id="node14" href="$fsm_8h.html" title="TCP finite state maschine declarations. " alt="" coords="843,385,1005,426"/>
-<area shape="rect" id="node15" href="$option_8h.html" title="TCP option handling declarations. " alt="" coords="1030,385,1205,426"/>
-<area shape="rect" id="node16" href="$net_2gnrc_2transport__layer_2tcp_2internal_2pkt_8h.html" title="TCP packet handling declarations. " alt="" coords="1229,385,1387,426"/>
-<area shape="rect" id="node17" href="$rcvbuf_8h.html" title="Functions for allocating and freeing the receive buffer. " alt="" coords="1412,385,1588,426"/>
-<area shape="rect" id="node19" href="$__nib-arsm_8h_source.html" title="sys/net/gnrc/network\l_layer/ipv6/nib/_nib\l&#45;arsm.h" alt="" coords="1663,377,1807,433"/>
-<area shape="rect" id="node20" href="$__nib-6ln_8h.html" title="Definitions related to 6Lo node (6LN) functionality of the NIB. " alt="" coords="1565,489,1731,530"/>
-<area shape="rect" id="node21" href="$__nib-6lr_8h.html" title="Definitions related to 6Lo router (6LR) functionality of the NIB. " alt="" coords="1688,585,1851,627"/>
-<area shape="rect" id="node22" href="$__nib-router_8h_source.html" title="sys/net/gnrc/network\l_layer/ipv6/nib/_nib\l&#45;router.h" alt="" coords="1881,377,2025,433"/>
+<area shape="rect" id="node1" title="IPv6 header type and helper function definitions." alt="" coords="523,5,675,47"/>
+<area shape="rect" id="node2" href="$echo_8h.html" title="ICMPv6 echo message definitions." alt="" coords="38,184,190,225"/>
+<area shape="rect" id="node5" href="$error_8h.html" title="ICMPv6 error message definitions." alt="" coords="121,281,273,322"/>
+<area shape="rect" id="node6" href="$gnrc_2ipv6_2ext_2frag_8h.html" title="GNRC fragmentation extension definitions." alt="" coords="889,95,1041,136"/>
+<area shape="rect" id="node7" href="$net_2gnrc_2ipv6_2hdr_8h.html" title="IPv6 header." alt="" coords="347,95,499,136"/>
+<area shape="rect" id="node19" href="$__nib-arsm_8h_source.html" title=" " alt="" coords="184,377,343,433"/>
+<area shape="rect" id="node23" href="$nib_8h.html" title="NIB definitions." alt="" coords="523,95,675,136"/>
+<area shape="rect" id="node24" href="$gnrc_2ndp_8h.html" title="GNRC&#45;specific neighbor discovery definitions." alt="" coords="1065,95,1217,136"/>
+<area shape="rect" id="node25" href="$srh_8h.html" title="Definititions for RPL source routing extension headers." alt="" coords="1241,95,1393,136"/>
+<area shape="rect" id="node26" href="$ipv6_8h.html" title="IPv6 include gathering header." alt="" coords="700,102,864,129"/>
+<area shape="rect" id="node3" href="$gnrc_2icmpv6_8h.html" title="Definitions for GNRC&#39;s ICMPv6 implementation." alt="" coords="7,385,159,426"/>
+<area shape="rect" id="node4" href="$validation_8h.html" title="RPL control message validation functions." alt="" coords="5,481,161,537"/>
+<area shape="rect" id="node8" href="$gnrc_2ipv6_8h.html" title="Definitions for GNRC&#39;s IPv6 implementation." alt="" coords="587,184,739,225"/>
+<area shape="rect" id="node9" href="$rpl_8h.html" title="RPL header. Declaration of global variables and functions needed for core functionality of RPL." alt="" coords="653,281,805,322"/>
+<area shape="rect" id="node11" href="$tcb_8h.html" title="GNRC TCP transmission control block (TCB)" alt="" coords="1207,281,1359,322"/>
+<area shape="rect" id="node12" href="$gnrc_2tcp_8h.html" title="GNRC TCP API." alt="" coords="829,385,981,426"/>
+<area shape="rect" id="node18" href="$__nib-internal_8h_source.html" title=" " alt="" coords="419,273,577,329"/>
+<area shape="rect" id="node10" href="$dodag_8h.html" title="DODAG&#45;related functions for RPL." alt="" coords="653,385,805,426"/>
+<area shape="rect" id="node13" href="$gnrc__tcp__common_8h.html" title="Internally used defines, macros and variable declarations." alt="" coords="1779,377,1948,433"/>
+<area shape="rect" id="node14" href="$gnrc__tcp__fsm_8h.html" title="TCP finite state maschine declarations." alt="" coords="1005,377,1175,433"/>
+<area shape="rect" id="node15" href="$gnrc__tcp__option_8h.html" title="TCP option handling declarations." alt="" coords="1199,377,1368,433"/>
+<area shape="rect" id="node16" href="$gnrc__tcp__pkt_8h.html" title="TCP packet handling declarations." alt="" coords="1392,377,1561,433"/>
+<area shape="rect" id="node17" href="$gnrc__tcp__rcvbuf_8h.html" title="Functions for allocating and freeing the receive buffer." alt="" coords="1585,377,1755,433"/>
+<area shape="rect" id="node20" href="$__nib-6ln_8h.html" title="Definitions related to 6Lo node (6LN) functionality of the NIB." alt="" coords="294,489,481,530"/>
+<area shape="rect" id="node21" href="$__nib-6lr_8h.html" title="Definitions related to 6Lo router (6LR) functionality of the NIB." alt="" coords="296,585,479,627"/>
+<area shape="rect" id="node22" href="$__nib-router_8h_source.html" title=" " alt="" coords="419,377,577,433"/>
 </map>

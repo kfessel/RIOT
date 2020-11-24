@@ -1,4 +1,10 @@
 <map id="boards/common/silabs/include/arduino_board.h" name="boards/common/silabs/include/arduino_board.h">
-<area shape="rect" id="node2" href="$common_2silabs_2include_2arduino__pinmap_8h.html" title="SiLabs Boards configuration for the Arduino API. " alt="" coords="47,95,171,121"/>
-<area shape="rect" id="node5" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="157,169,250,196"/>
+<area shape="rect" id="node1" title="SiLabs Boards configuration for the Arduino API." alt="" coords="23,5,205,47"/>
+<area shape="rect" id="node2" href="$common_2silabs_2include_2arduino__pinmap_8h.html" title="SiLabs Boards configuration for the Arduino API." alt="" coords="45,95,183,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,76,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="51,244,156,271"/>
+<area shape="rect" id="node5" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="164,169,267,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="180,244,251,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="275,244,345,271"/>
+<area shape="rect" id="node8" title=" " alt="" coords="370,244,479,271"/>
 </map>

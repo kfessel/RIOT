@@ -1,5 +1,10 @@
 <map id="boards/common/arduino&#45;due/include/sdcard_spi_params.h" name="boards/common/arduino&#45;due/include/sdcard_spi_params.h">
-<area shape="rect" id="node2" href="$common_2arduino-due_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins. " alt="" coords="138,109,262,136"/>
-<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,184,189,211"/>
-<area shape="rect" id="node7" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="213,184,307,211"/>
+<area shape="rect" id="node1" title="SD card configuration for the Arduino SD card shields." alt="" coords="127,5,307,61"/>
+<area shape="rect" id="node2" href="$common_2arduino-due_2include_2arduino__pinmap_8h.html" title="Mapping from MCU pins to Arduino pins." alt="" coords="147,109,286,136"/>
+<area shape="rect" id="node3" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="99,184,206,211"/>
+<area shape="rect" id="node7" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="231,184,333,211"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,259,76,285"/>
+<area shape="rect" id="node5" title=" " alt="" coords="100,259,205,285"/>
+<area shape="rect" id="node6" title=" " alt="" coords="230,259,339,285"/>
+<area shape="rect" id="node8" title=" " alt="" coords="364,259,435,285"/>
 </map>

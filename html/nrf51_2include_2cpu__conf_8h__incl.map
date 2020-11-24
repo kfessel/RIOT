@@ -1,2 +1,6 @@
 <map id="cpu/nrf51/include/cpu_conf.h" name="cpu/nrf51/include/cpu_conf.h">
+<area shape="rect" id="node1" title="Implementation specific CPU configuration options." alt="" coords="164,5,325,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,95,161,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="186,95,303,121"/>
+<area shape="rect" id="node4" title=" " alt="" coords="328,95,505,121"/>
 </map>

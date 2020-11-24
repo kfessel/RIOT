@@ -1,0 +1,14 @@
+<map id="pkg/uwb&#45;core/include/dpl/dpl_tasks.h" name="pkg/uwb&#45;core/include/dpl/dpl_tasks.h">
+<area shape="rect" id="node1" title="uwb&#45;core DPL (Decawave Porting Layer) thread/task wrappers" alt="" coords="331,5,492,47"/>
+<area shape="rect" id="node2" href="$dpl__types_8h.html" title="uwb&#45;core DPL (Decawave Porting Layer) types" alt="" coords="63,95,160,121"/>
+<area shape="rect" id="node5" href="$sched_8h.html" title="Scheduler API definition." alt="" coords="375,95,447,121"/>
+<area shape="rect" id="node12" title=" " alt="" coords="472,95,548,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="128,244,199,271"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,169,73,196"/>
+<area shape="rect" id="node6" title=" " alt="" coords="413,244,487,271"/>
+<area shape="rect" id="node7" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="584,169,671,196"/>
+<area shape="rect" id="node8" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="149,169,279,196"/>
+<area shape="rect" id="node9" href="$native__sched_8h.html" title="Add definitions required on the native board." alt="" coords="303,169,423,196"/>
+<area shape="rect" id="node10" href="$clist_8h.html" title="Circular linked list." alt="" coords="498,169,559,196"/>
+<area shape="rect" id="node11" href="$list_8h.html" title="Intrusive linked list." alt="" coords="512,244,567,271"/>
+</map>

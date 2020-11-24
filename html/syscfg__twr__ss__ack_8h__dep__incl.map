@@ -1,0 +1,6 @@
+<map id="pkg/uwb&#45;core/include/syscfg/syscfg_twr_ss_ack.h" name="pkg/uwb&#45;core/include/syscfg/syscfg_twr_ss_ack.h">
+<area shape="rect" id="node1" title="Single sided ranging using a hw generated ack module configurations taken from decawave&#45;uwb&#45;core/lib/..." alt="" coords="5,5,211,47"/>
+<area shape="rect" id="node2" href="$syscfg_8h.html" title="uwb&#45;core system configurations" alt="" coords="27,95,189,136"/>
+<area shape="rect" id="node3" href="$dpl_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="27,184,189,225"/>
+<area shape="rect" id="node4" href="$os__dev_8h.html" title="Abstraction layer for RIOT adaption." alt="" coords="27,273,189,315"/>
+</map>

@@ -1,6 +1,6 @@
 var can__trx_8h =
 [
-    [ "can_trx_t", "group__drivers__can__trx.html#gad2e9cb46f5468cad6f62ce5e30408a29", null ],
+    [ "can_trx_t", "group__drivers__can__trx.html#gab557f49a8a0d48ad84459cd0565fefee", null ],
     [ "trx_driver_t", "group__drivers__can__trx.html#ga84e89e88f30b803765fefef46507718d", null ],
     [ "can_trx_mode_t", "group__drivers__can__trx.html#ga5cb1cf6e503df156a726a4ff71e7ca40", [
       [ "TRX_NORMAL_MODE", "group__drivers__can__trx.html#gga5cb1cf6e503df156a726a4ff71e7ca40a5338e9d7b117795da5e6d481685424e0", null ],

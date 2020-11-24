@@ -1,5 +1,6 @@
 <map id="cpu/esp_common/include/esp_common.h" name="cpu/esp_common/include/esp_common.h">
-<area shape="rect" id="node2" href="$syscalls__common_8h.html" title="Implementation of required system calls for ESP SoCs. " alt="" coords="110,95,281,136"/>
-<area shape="rect" id="node3" href="$esp32_2include_2syscalls_8h.html" title="Implementation of required system calls. " alt="" coords="5,191,196,218"/>
-<area shape="rect" id="node4" href="$esp8266_2include_2syscalls_8h.html" title="Implementation of required system calls. " alt="" coords="221,184,362,225"/>
+<area shape="rect" id="node1" title="Common helper macros for ESP SoCs." alt="" coords="118,5,305,47"/>
+<area shape="rect" id="node2" href="$syscalls__common_8h.html" title="Implementation of required system calls for ESP SoCs." alt="" coords="118,95,305,136"/>
+<area shape="rect" id="node3" href="$esp32_2include_2syscalls_8h.html" title="Implementation of required system calls." alt="" coords="5,191,212,218"/>
+<area shape="rect" id="node4" href="$esp8266_2include_2syscalls_8h.html" title="Implementation of required system calls." alt="" coords="237,184,391,225"/>
 </map>

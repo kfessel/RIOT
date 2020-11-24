@@ -8,6 +8,9 @@ var avr_rss2_2include_2board_8h =
     [ "CPU_ATMEGA_CLK_SCALE_INIT", "avr-rss2_2include_2board_8h.html#a787ae00d4e6ae62a5d1c61a224bddea7", null ],
     [ "DS18_PARAM_PIN", "avr-rss2_2include_2board_8h.html#a0a4cb9e50f4b5e86d5a0677615e00d8c", null ],
     [ "DS18_PARAM_PULL", "avr-rss2_2include_2board_8h.html#a4fb3b6bc65d46fb42acc582918aad384", null ],
+    [ "EUI64_PROVIDER_FUNC", "avr-rss2_2include_2board_8h.html#a50cd04ad19848f8741a1eace5b853ec0", null ],
+    [ "EUI64_PROVIDER_INDEX", "avr-rss2_2include_2board_8h.html#a338e315fe4b5d0767199ada5206c9492", null ],
+    [ "EUI64_PROVIDER_TYPE", "avr-rss2_2include_2board_8h.html#ab7c0794264ef9ce6290b9ce9dc14279d", null ],
     [ "LED0_MASK", "avr-rss2_2include_2board_8h.html#abfabde35a3e8b7ab50146a5e223bfead", null ],
     [ "LED0_MODE", "avr-rss2_2include_2board_8h.html#ac323e972e661661b57d8374d9e6a58c4", null ],
     [ "LED0_OFF", "avr-rss2_2include_2board_8h.html#aef2e39b9fd343d0e437fac0463f3e02d", null ],
@@ -28,5 +31,6 @@ var avr_rss2_2include_2board_8h =
     [ "XTIMER_DEV", "avr-rss2_2include_2board_8h.html#a5e48bb301c732e044b08f336fb851d5e", null ],
     [ "XTIMER_HZ", "avr-rss2_2include_2board_8h.html#af68fde6b7d5b362834e6a8d382c6c0d7", null ],
     [ "XTIMER_WIDTH", "avr-rss2_2include_2board_8h.html#afea1be2406d45b8fbb1dca1a318ac2dc", null ],
+    [ "_at24mac_get_eui64", "avr-rss2_2include_2board_8h.html#a8c90b9e0029084cc44e7f78bb6b25f98", null ],
     [ "board_init", "avr-rss2_2include_2board_8h.html#a916f2adc2080b4fe88034086d107a8dc", null ]
 ];

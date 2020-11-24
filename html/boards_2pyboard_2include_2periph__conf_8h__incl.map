@@ -1,3 +1,6 @@
 <map id="boards/pyboard/include/periph_conf.h" name="boards/pyboard/include/periph_conf.h">
-<area shape="rect" id="node3" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral. " alt="" coords="71,95,194,121"/>
+<area shape="rect" id="node1" title="Peripheral MCU configuration for the pyboard board." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="65,169,171,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="49,95,136,121"/>
+<area shape="rect" id="node4" href="$cfg__usb__otg__fs_8h.html" title="Common configuration for STM32 OTG FS peripheral." alt="" coords="161,95,291,121"/>
 </map>

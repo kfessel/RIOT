@@ -1,3 +1,5 @@
 <map id="cpu/native/include/periph_cpu.h" name="cpu/native/include/periph_cpu.h">
-<area shape="rect" id="node2" href="$dev__enums_8h.html" title="Device enumerations for backward compatibility with existing peripheral driver implementations. " alt="" coords="5,95,144,121"/>
+<area shape="rect" id="node1" title="CPU specific definitions for internal peripheral handling." alt="" coords="53,5,195,47"/>
+<area shape="rect" id="node2" href="$cpu_2native_2include_2periph__conf_8h.html" title="Native CPU peripheral configuration." alt="" coords="5,95,115,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="139,95,237,121"/>
 </map>

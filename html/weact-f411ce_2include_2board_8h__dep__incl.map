@@ -1,3 +1,4 @@
 <map id="boards/weact&#45;f411ce/include/board.h" name="boards/weact&#45;f411ce/include/board.h">
-<area shape="rect" id="node2" href="$weact-f411ce_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,95,161,136"/>
+<area shape="rect" id="node1" title="Support for the WeAct&#45;F411CE Board." alt="" coords="13,5,171,47"/>
+<area shape="rect" id="node2" href="$weact-f411ce_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,95,179,136"/>
 </map>

@@ -1,4 +1,11 @@
 <map id="drivers/include/ili9341.h" name="drivers/include/ili9341.h">
-<area shape="rect" id="node2" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition. " alt="" coords="239,80,329,107"/>
-<area shape="rect" id="node9" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="357,155,453,181"/>
+<area shape="rect" id="node1" title="Driver for ili941 display." alt="" coords="255,5,433,32"/>
+<area shape="rect" id="node2" href="$spi_8h.html" title="Low&#45;level SPI peripheral driver interface definition." alt="" coords="252,80,351,107"/>
+<area shape="rect" id="node9" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="376,155,483,181"/>
+<area shape="rect" id="node3" title=" " alt="" coords="24,155,107,181"/>
+<area shape="rect" id="node4" title=" " alt="" coords="131,155,205,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="230,155,301,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="83,229,154,256"/>
+<area shape="rect" id="node7" title=" " alt="" coords="298,229,403,256"/>
+<area shape="rect" id="node8" title=" " alt="" coords="452,229,561,256"/>
 </map>

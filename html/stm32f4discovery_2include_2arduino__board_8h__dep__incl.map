@@ -1,4 +1,0 @@
-<map id="boards/stm32f4discovery/include/arduino_board.h" name="boards/stm32f4discovery/include/arduino_board.h">
-<area shape="rect" id="node2" href="$arduino_8hpp.html" title="Main interface definition of the Arduino API. " alt="" coords="5,95,140,136"/>
-<area shape="rect" id="node3" href="$spiport_8hpp.html" title="Definition of the Arduino &#39;SPI&#39; interface. " alt="" coords="164,95,299,136"/>
-</map>

@@ -1,16 +1,16 @@
 var nimble__autoconn__params_8h =
 [
-    [ "NIMBLE_AUTOCONN_ADV_ITVL", "nimble__autoconn__params_8h.html#aa0755e784a7086f4fc360dbe2b619011", null ],
-    [ "NIMBLE_AUTOCONN_CONN_ITVL", "nimble__autoconn__params_8h.html#a60e45261af0a87acd008ec81dc03b0b8", null ],
+    [ "NIMBLE_AUTOCONN_ADV_ITVL_MS", "nimble__autoconn__params_8h.html#a5aa2431482fbf776d3c1cd012c897a61", null ],
+    [ "NIMBLE_AUTOCONN_CONN_ITVL_MS", "nimble__autoconn__params_8h.html#a4aede2d4ca81cb67f0a03ee777b21879", null ],
     [ "NIMBLE_AUTOCONN_CONN_LATENCY", "nimble__autoconn__params_8h.html#a78042a6a999de8f0369b984a3055ca5e", null ],
-    [ "NIMBLE_AUTOCONN_CONN_SUPER_TO", "nimble__autoconn__params_8h.html#ae31de3fac82e8cc4861c7adcfceda621", null ],
-    [ "NIMBLE_AUTOCONN_CONN_TIMEOUT", "nimble__autoconn__params_8h.html#a862f1918bb613257642f2c1c165465cd", null ],
+    [ "NIMBLE_AUTOCONN_CONN_SVTO_MS", "nimble__autoconn__params_8h.html#ad0d469625c16717c4a4cc83eddf7db59", null ],
+    [ "NIMBLE_AUTOCONN_CONN_TIMEOUT_MS", "nimble__autoconn__params_8h.html#a08f0b2faa88f018c39ac92bde5ff57d2", null ],
     [ "NIMBLE_AUTOCONN_NODE_ID", "nimble__autoconn__params_8h.html#a1bd0a41a8c4017a95d5d8203265bff75", null ],
     [ "NIMBLE_AUTOCONN_PARAMS", "nimble__autoconn__params_8h.html#a7e224213dad1c673d0d17762207044df", null ],
-    [ "NIMBLE_AUTOCONN_PERIOD_ADV", "nimble__autoconn__params_8h.html#a3c7a2c351378c691ac0a5605268a3ffc", null ],
-    [ "NIMBLE_AUTOCONN_PERIOD_JITTER", "nimble__autoconn__params_8h.html#a0a57e20496c14d2adcaa2e9355dcb420", null ],
-    [ "NIMBLE_AUTOCONN_PERIOD_SCAN", "nimble__autoconn__params_8h.html#acb39891a2160349fb26e398b32e3be56", null ],
-    [ "NIMBLE_AUTOCONN_SCAN_ITVL", "nimble__autoconn__params_8h.html#a881d554310a1cd71379b64a13706b16e", null ],
-    [ "NIMBLE_AUTOCONN_SCAN_WIN", "nimble__autoconn__params_8h.html#a483039c949f2d58ffd75a9f4590e83f5", null ],
+    [ "NIMBLE_AUTOCONN_PERIOD_ADV_MS", "nimble__autoconn__params_8h.html#a7f4615c2fc03c83355d1c6ef5fc7a2d0", null ],
+    [ "NIMBLE_AUTOCONN_PERIOD_JITTER_MS", "nimble__autoconn__params_8h.html#af53092f67c9c81007a491f4abb8f6987", null ],
+    [ "NIMBLE_AUTOCONN_PERIOD_SCAN_MS", "nimble__autoconn__params_8h.html#abcea5849c6ab43cfb63c36a394b650ad", null ],
+    [ "NIMBLE_AUTOCONN_SCAN_ITVL_MS", "nimble__autoconn__params_8h.html#af5109e31ff3f8aadf7dff4dd2dea7fe3", null ],
+    [ "NIMBLE_AUTOCONN_SCAN_WIN_MS", "nimble__autoconn__params_8h.html#a876c0944ef5d63b60c297ca240dcae83", null ],
     [ "nimble_autoconn_params", "nimble__autoconn__params_8h.html#a43eb0fd0166d2c1ba1d2270bdbca2e24", null ]
 ];

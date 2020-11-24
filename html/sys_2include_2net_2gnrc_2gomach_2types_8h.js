@@ -20,7 +20,7 @@ var sys_2include_2net_2gnrc_2gomach_2types_8h =
     [ "GNRC_GOMACH_TIMEOUT_INIT", "sys_2include_2net_2gnrc_2gomach_2types_8h.html#a2317dbbbf00c4e433b424ad0de605782", null ],
     [ "GNRC_GOMACH_TYPE_KNOWN", "sys_2include_2net_2gnrc_2gomach_2types_8h.html#af166aa63d9fb9c851928b65901f608cb", null ],
     [ "GNRC_GOMACH_TYPE_UNKNOWN", "sys_2include_2net_2gnrc_2gomach_2types_8h.html#a9bddaa8a051f4953f8a065f0b666f499", null ],
-    [ "gnrc_gomach_t", "sys_2include_2net_2gnrc_2gomach_2types_8h.html#a715c0627a049f66acb453a20cb2d8fe0", null ],
+    [ "gnrc_gomach_t", "sys_2include_2net_2gnrc_2gomach_2types_8h.html#acfd3983b0c5dc96365f0cd494f83d732", null ],
     [ "gnrc_gomach_basic_state_t", "sys_2include_2net_2gnrc_2gomach_2types_8h.html#a8fdf026f5da8fd8885a19d186bb6753e", [
       [ "GNRC_GOMACH_INIT", "sys_2include_2net_2gnrc_2gomach_2types_8h.html#a8fdf026f5da8fd8885a19d186bb6753ea33ed9a1b0dc1a5d00025b6198bc946a8", null ],
       [ "GNRC_GOMACH_LISTEN", "sys_2include_2net_2gnrc_2gomach_2types_8h.html#a8fdf026f5da8fd8885a19d186bb6753eae93f2ffa6ccbe7f5e2db63698cb5a126", null ],

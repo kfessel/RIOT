@@ -18,5 +18,6 @@ var common_2nucleo144_2include_2board_8h =
     [ "LED2_OFF", "group__boards__common__nucleo144.html#gac6468b1df4dfabcca0bb142044d6f976", null ],
     [ "LED2_ON", "group__boards__common__nucleo144.html#gab55f588eb2c5177d3f7806e60d379fba", null ],
     [ "LED2_PIN", "group__boards__common__nucleo144.html#gaf6f84078113b55354d20585131b386f7", null ],
+    [ "LED2_PORT", "group__boards__common__nucleo144.html#ga3fbb138c249c6c047524c7055dd5f1b7", null ],
     [ "LED2_TOGGLE", "group__boards__common__nucleo144.html#gacd16785845ce7004334b91a98707f8eb", null ]
 ];

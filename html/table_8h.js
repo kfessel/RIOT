@@ -8,5 +8,5 @@ var table_8h =
     [ "FIB_MAX_REGISTERED_RP", "table_8h.html#a7e93177681e0ea2b2415f688c4c297a8", null ],
     [ "FIB_TABLE_TYPE_SH", "table_8h.html#ad6a0d17b22af0f870e3747866a13babc", null ],
     [ "FIB_TABLE_TYPE_SR", "table_8h.html#ab76752a5daa5283bfc07849119103ba2", null ],
-    [ "fib_sr_entry_t", "table_8h.html#addb4021e227b2add961746bbc9903945", null ]
+    [ "fib_sr_entry_t", "table_8h.html#a060c57dcbaa47030e00abe6b347adfe9", null ]
 ];

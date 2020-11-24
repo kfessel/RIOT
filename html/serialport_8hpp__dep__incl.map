@@ -1,3 +1,4 @@
 <map id="sys/arduino/include/serialport.hpp" name="sys/arduino/include/serialport.hpp">
-<area shape="rect" id="node2" href="$arduino_8hpp.html" title="Main interface definition of the Arduino API. " alt="" coords="5,95,140,136"/>
+<area shape="rect" id="node1" title="Definition of the Arduino &#39;Serial&#39; interface." alt="" coords="5,5,153,47"/>
+<area shape="rect" id="node2" href="$arduino_8hpp.html" title="Main interface definition of the Arduino API." alt="" coords="5,95,153,136"/>
 </map>

@@ -1,2 +1,5 @@
 <map id="boards/sodaq&#45;one/include/board.h" name="boards/sodaq&#45;one/include/board.h">
+<area shape="rect" id="node1" title="Board specific definitions for the SODAQ ONE board." alt="" coords="5,5,195,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="11,95,69,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="93,95,227,121"/>
 </map>

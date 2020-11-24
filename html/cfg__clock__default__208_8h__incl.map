@@ -1,0 +1,5 @@
+<map id="cpu/stm32/include/clk/mp1/cfg_clock_default_208.h" name="cpu/stm32/include/clk/mp1/cfg_clock_default_208.h">
+<area shape="rect" id="node1" title="Default STM32MP1 clock configuration for 208MHz boards." alt="" coords="97,5,313,47"/>
+<area shape="rect" id="node2" href="$mp1_2cfg__clock__common_8h.html" title="Base STM32MP1 clock configuration." alt="" coords="5,95,197,121"/>
+<area shape="rect" id="node3" href="$mp1_2cfg__clock__values_8h.html" title="STM32MP1 clock values definitions." alt="" coords="221,95,400,121"/>
+</map>

@@ -1,3 +1,4 @@
 <map id="boards/esp32&#45;ttgo&#45;t&#45;beam/include/board.h" name="boards/esp32&#45;ttgo&#45;t&#45;beam/include/board.h">
-<area shape="rect" id="node2" href="$esp32-ttgo-t-beam_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="5,95,197,136"/>
+<area shape="rect" id="node1" title="Board specific definitions for TTGO T&#45;Beam board." alt="" coords="29,5,197,47"/>
+<area shape="rect" id="node2" href="$esp32-ttgo-t-beam_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="5,95,220,136"/>
 </map>

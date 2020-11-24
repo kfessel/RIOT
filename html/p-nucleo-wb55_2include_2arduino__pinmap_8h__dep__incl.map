@@ -1,3 +1,4 @@
 <map id="boards/p&#45;nucleo&#45;wb55/include/arduino_pinmap.h" name="boards/p&#45;nucleo&#45;wb55/include/arduino_pinmap.h">
-<area shape="rect" id="node2" href="$p-nucleo-wb55_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API. " alt="" coords="11,95,173,136"/>
+<area shape="rect" id="node1" title="Mapping from MCU pins to Arduino pins." alt="" coords="5,5,200,47"/>
+<area shape="rect" id="node2" href="$p-nucleo-wb55_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API." alt="" coords="11,95,194,136"/>
 </map>

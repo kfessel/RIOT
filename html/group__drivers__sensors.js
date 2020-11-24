@@ -7,6 +7,7 @@ var group__drivers__sensors =
     [ "ADXL345 3-Axis accelerometer", "group__drivers__adxl345.html", "group__drivers__adxl345" ],
     [ "APDS99XX proximity and ambient light sensors", "group__drivers__apds99xx.html", "group__drivers__apds99xx" ],
     [ "AT30TSE75x temperature sensor with EEPROM", "group__drivers__at30tse75x.html", "group__drivers__at30tse75x" ],
+    [ "Adafruit Seesaw Soil Moisture and Temperature Sensor", "group__drivers__seesaw__soil.html", "group__drivers__seesaw__soil" ],
     [ "Atmel IO1 Xplained Extension board", "group__drivers__io1__xplained.html", "group__drivers__io1__xplained" ],
     [ "BH1750FVI Light Sensor", "group__drivers__bh1750fvi.html", "group__drivers__bh1750fvi" ],
     [ "BH1900NUX Temperature sensor", "group__drivers__bh1900nux.html", "group__drivers__bh1900nux" ],
@@ -19,8 +20,10 @@ var group__drivers__sensors =
     [ "DHT Family of Humidity and Temperature Sensors", "group__drivers__dht.html", "group__drivers__dht" ],
     [ "DS1307 RTC", "group__drivers__ds1307.html", "group__drivers__ds1307" ],
     [ "DS18 temperature sensor driver", "group__drivers__ds18.html", "group__drivers__ds18" ],
+    [ "DS3231 Real Time Clock", "group__drivers__ds3231.html", "group__drivers__ds3231" ],
     [ "DS3234 Extremely Accurate SPI RTC", "group__drivers__ds3234.html", "group__drivers__ds3234" ],
     [ "FXOS8700 3-axis accelerometer/magnetometer", "group__drivers__fxos8700.html", "group__drivers__fxos8700" ],
+    [ "GP2Y10xx Optical Dust Sensor device driver", "group__drivers__gp2y10xx.html", "group__drivers__gp2y10xx" ],
     [ "HDC1000 Humidity and Temperature Sensor", "group__drivers__hdc1000.html", "group__drivers__hdc1000" ],
     [ "HIH6130 humidity and temperature sensor", "group__drivers__hih6130.html", "group__drivers__hih6130" ],
     [ "HMC5883L 3-axis digital compass", "group__drivers__hmc5883l.html", "group__drivers__hmc5883l" ],
@@ -51,6 +54,7 @@ var group__drivers__sensors =
     [ "PIR Motion Sensor", "group__drivers__pir.html", "group__drivers__pir" ],
     [ "Pulse counter", "group__drivers__pulse__counter.html", "group__drivers__pulse__counter" ],
     [ "QMC5883L 3-Axis Digital Magnetic Sensor", "group__drivers__qmc5883l.html", "group__drivers__qmc5883l" ],
+    [ "SCD30 CO2, temperature and humidity sensor", "group__drivers__scd30.html", "group__drivers__scd30" ],
     [ "SDP3x temperature and differential pressure sensor", "group__drivers__sdp3x.html", "group__drivers__sdp3x" ],
     [ "SDS011 Laser Dust Sensor", "group__drivers__sds011.html", "group__drivers__sds011" ],
     [ "SHT10/SHT11/SHT15 Humidity and Temperature Sensor", "group__drivers__sht1x.html", "group__drivers__sht1x" ],
@@ -72,5 +76,6 @@ var group__drivers__sensors =
     [ "VEML6070 UV sensor", "group__drivers__veml6070.html", "group__drivers__veml6070" ],
     [ "pH OEM sensor device driver", "group__drivers__ph__oem.html", "group__drivers__ph__oem" ],
     [ "srf04 ultra sonic range finder", "group__drivers__srf04.html", "group__drivers__srf04" ],
+    [ "scd30_params.h", "scd30__params_8h.html", null ],
     [ "sdp3x_params.h", "sdp3x__params_8h.html", null ]
 ];

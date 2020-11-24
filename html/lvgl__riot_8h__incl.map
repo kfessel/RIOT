@@ -1,3 +1,8 @@
 <map id="pkg/lvgl/include/lvgl_riot.h" name="pkg/lvgl/include/lvgl_riot.h">
-<area shape="rect" id="node2" href="$disp__dev_8h_source.html" title="disp_dev.h" alt="" coords="95,95,180,121"/>
+<area shape="rect" id="node1" title="Definition for the LittlevGL engine initialization." alt="" coords="71,5,225,47"/>
+<area shape="rect" id="node2" href="$screen__dev_8h_source.html" title=" " alt="" coords="95,95,201,121"/>
+<area shape="rect" id="node3" href="$disp__dev_8h_source.html" title=" " alt="" coords="103,169,193,196"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,244,88,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="113,244,183,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="207,244,278,271"/>
 </map>

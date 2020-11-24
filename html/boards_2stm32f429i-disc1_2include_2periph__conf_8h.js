@@ -1,5 +1,7 @@
 var boards_2stm32f429i_disc1_2include_2periph__conf_8h =
 [
+    [ "CONFIG_BOARD_HAS_HSE", "boards_2stm32f429i-disc1_2include_2periph__conf_8h.html#a055813e339f41a120f81a18fe83a07c3", null ],
+    [ "CONFIG_BOARD_HAS_LSE", "boards_2stm32f429i-disc1_2include_2periph__conf_8h.html#acd2b9746c0b67c8fb0de7b7f01ac92f8", null ],
     [ "DMA_0_ISR", "boards_2stm32f429i-disc1_2include_2periph__conf_8h.html#a2fdb1dc5ea2635bc32b441656260ccac", null ],
     [ "DMA_1_ISR", "boards_2stm32f429i-disc1_2include_2periph__conf_8h.html#a25fa059ae942db695d6a43a1d25b57f1", null ],
     [ "DMA_NUMOF", "boards_2stm32f429i-disc1_2include_2periph__conf_8h.html#a2f98de3b4a6e380f0fc753dda86fefac", null ],

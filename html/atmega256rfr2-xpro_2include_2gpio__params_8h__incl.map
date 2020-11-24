@@ -1,6 +1,13 @@
 <map id="boards/atmega256rfr2&#45;xpro/include/gpio_params.h" name="boards/atmega256rfr2&#45;xpro/include/gpio_params.h">
-<area shape="rect" id="node2" href="$atmega256rfr2-xpro_2include_2board_8h.html" title="Board specific definitions for the Atmega256RFR2 Xplained Pro. " alt="" coords="58,95,123,121"/>
-<area shape="rect" id="node8" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL. " alt="" coords="148,95,244,121"/>
-<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions. " alt="" coords="93,169,189,196"/>
-<area shape="rect" id="node9" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions. " alt="" coords="213,169,307,196"/>
+<area shape="rect" id="node1" title="Configuration of SAUL mapped GPIO pins." alt="" coords="93,5,300,47"/>
+<area shape="rect" id="node2" href="$atmega256rfr2-xpro_2include_2board_8h.html" title="Board specific definitions for the Atmega256RFR2 Xplained Pro." alt="" coords="105,95,176,121"/>
+<area shape="rect" id="node8" href="$periph_8h.html" title="Parameter definitions for mapping peripherals directly to SAUL." alt="" coords="209,95,315,121"/>
+<area shape="rect" id="node3" title=" " alt="" coords="5,169,63,196"/>
+<area shape="rect" id="node4" href="$gpio_8h.html" title="Low&#45;level GPIO peripheral driver interface definitions." alt="" coords="87,169,194,196"/>
+<area shape="rect" id="node5" title=" " alt="" coords="105,244,176,271"/>
+<area shape="rect" id="node6" title=" " alt="" coords="200,244,305,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="330,244,439,271"/>
+<area shape="rect" id="node9" href="$adc_8h.html" title="Low&#45;level ADC peripheral driver interface definitions." alt="" coords="219,169,321,196"/>
+<area shape="rect" id="node11" href="$pwm_8h.html" title="Low&#45;level PWM peripheral driver interface definitions." alt="" coords="345,169,456,196"/>
+<area shape="rect" id="node10" title=" " alt="" coords="464,244,535,271"/>
 </map>

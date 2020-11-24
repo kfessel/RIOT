@@ -1,5 +1,9 @@
 <map id="sys/include/net/ipv6/ext.h" name="sys/include/net/ipv6/ext.h">
-<area shape="rect" id="node3" href="$ipv6_2ext_2frag_8h.html" title="Fragmentation extension definitions. " alt="" coords="19,95,146,121"/>
-<area shape="rect" id="node6" href="$ipv6_2ext_2rh_8h.html" title="Routing extension header definitions. " alt="" coords="190,95,306,121"/>
-<area shape="rect" id="node5" href="$byteorder_8h.html" title="Functions to work with different byte orders. " alt="" coords="145,169,231,196"/>
+<area shape="rect" id="node1" title="IPv6 extension header definitions." alt="" coords="32,5,184,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="49,319,120,345"/>
+<area shape="rect" id="node3" href="$ipv6_2ext_2frag_8h.html" title="Fragmentation extension definitions." alt="" coords="37,95,180,121"/>
+<area shape="rect" id="node7" href="$ipv6_2ext_2rh_8h.html" title="Routing extension header definitions." alt="" coords="245,244,374,271"/>
+<area shape="rect" id="node4" title=" " alt="" coords="67,169,150,196"/>
+<area shape="rect" id="node5" href="$byteorder_8h.html" title="Functions to work with different byte orders." alt="" coords="174,169,272,196"/>
+<area shape="rect" id="node6" href="$unaligned_8h.html" title="Unaligned but safe memory access functions." alt="" coords="122,244,220,271"/>
 </map>

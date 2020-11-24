@@ -1,3 +1,4 @@
 <map id="drivers/include/pulse_counter.h" name="drivers/include/pulse_counter.h">
-<area shape="rect" id="node2" href="$pulse__counter__params_8h.html" title="Default configuration for PULSE_COUNTER devices. " alt="" coords="5,95,157,151"/>
+<area shape="rect" id="node1" title="Driver for the pulse counter." alt="" coords="11,5,168,47"/>
+<area shape="rect" id="node2" href="$pulse__counter__params_8h.html" title="Default configuration for PULSE_COUNTER devices." alt="" coords="5,95,173,151"/>
 </map>

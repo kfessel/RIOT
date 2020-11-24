@@ -11,7 +11,7 @@ var group__drivers__nrf5x__nrfmin =
     [ "nrfmin_pkt_t", "unionnrfmin__pkt__t.html", [
       [ "hdr", "unionnrfmin__pkt__t.html#a6d4c10a13f97e4db35b3cb6b04c34f81", null ],
       [ "payload", "unionnrfmin__pkt__t.html#a54b394087049b5a86b10dd7db041df86", null ],
-      [ "pkt", "unionnrfmin__pkt__t.html#a5a74fc56c5dc105ccc52c32b7523061e", null ],
+      [ "pkt", "unionnrfmin__pkt__t.html#a327d894369020a7f07cbbc6136a7ee90", null ],
       [ "raw", "unionnrfmin__pkt__t.html#a74b078359d4ebf189d26fb2a9bb8b2e0", null ]
     ] ],
     [ "NRFMIN_ADDR_BCAST", "group__drivers__nrf5x__nrfmin.html#gaf7c2251e1d6b0bcbdafed0f3c2918b63", null ],

@@ -18,7 +18,7 @@ var group__drivers__candev =
       [ "set", "structcandev__driver.html#a8a803ccb6d1596938eafa7fb40678fec", null ],
       [ "set_filter", "structcandev__driver.html#a0459697793fefefad13906cd028041d4", null ]
     ] ],
-    [ "candev_driver_t", "group__drivers__candev.html#gad485669b5d90cfdec3ddda78eda06a25", null ],
+    [ "candev_driver_t", "group__drivers__candev.html#ga3faabf955782a81d0194ad211f655084", null ],
     [ "candev_event_cb_t", "group__drivers__candev.html#ga4a350818414f8f46539955cc7c38c51e", null ],
     [ "candev_t", "group__drivers__candev.html#gabd7879dd8db04809ca794f5e5ae83f4a", null ],
     [ "candev_event_t", "group__drivers__candev.html#gaa6988ac26d11c95f4c96dce4e2276e58", [

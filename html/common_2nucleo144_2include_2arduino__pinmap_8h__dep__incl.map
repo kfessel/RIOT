@@ -1,5 +1,6 @@
 <map id="boards/common/nucleo144/include/arduino_pinmap.h" name="boards/common/nucleo144/include/arduino_pinmap.h">
-<area shape="rect" id="node2" href="$common_2nucleo144_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API. " alt="" coords="5,95,184,136"/>
-<area shape="rect" id="node3" href="$common_2nucleo144_2include_2board_8h.html" title="Common pin definitions and board configuration options. " alt="" coords="208,95,387,136"/>
-<area shape="rect" id="node4" href="$common_2nucleo144_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs. " alt="" coords="208,184,387,225"/>
+<area shape="rect" id="node1" title="Mapping from MCU pins to Arduino pins." alt="" coords="116,5,315,47"/>
+<area shape="rect" id="node2" href="$common_2nucleo144_2include_2arduino__board_8h.html" title="Board specific configuration for the Arduino API." alt="" coords="5,95,204,136"/>
+<area shape="rect" id="node3" href="$common_2nucleo144_2include_2board_8h.html" title="Common pin definitions and board configuration options." alt="" coords="228,95,427,136"/>
+<area shape="rect" id="node4" href="$common_2nucleo144_2include_2gpio__params_8h.html" title="Board specific configuration of direct mapped GPIOs." alt="" coords="228,184,427,225"/>
 </map>

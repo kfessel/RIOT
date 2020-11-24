@@ -12,7 +12,6 @@ var pktbuf_8h =
     [ "gnrc_pktbuf_release", "group__net__gnrc__pktbuf.html#gaed632f849e2ae54b8ec22990967ca38a", null ],
     [ "gnrc_pktbuf_release_error", "group__net__gnrc__pktbuf.html#ga39c4489933328ddabcf87d5940df9807", null ],
     [ "gnrc_pktbuf_remove_snip", "group__net__gnrc__pktbuf.html#gafbb055c2d0ef263bf0ed38b392761719", null ],
-    [ "gnrc_pktbuf_replace_snip", "group__net__gnrc__pktbuf.html#ga2bd457bcdcaac91fbe6b7ab5723ce68f", null ],
     [ "gnrc_pktbuf_reverse_snips", "group__net__gnrc__pktbuf.html#ga7f104a81ca707558dc5192e39ad7b5cd", null ],
     [ "gnrc_pktbuf_start_write", "group__net__gnrc__pktbuf.html#ga640418467294ae3d408c109ab27bd617", null ],
     [ "gnrc_pktbuf_stats", "group__net__gnrc__pktbuf.html#gaf4e7cccaa0d94f9ccaefdceab382d396", null ]

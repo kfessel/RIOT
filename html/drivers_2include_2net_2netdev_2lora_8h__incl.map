@@ -1,6 +1,12 @@
 <map id="drivers/include/net/netdev/lora.h" name="drivers/include/net/netdev/lora.h">
-<area shape="rect" id="node3" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface. " alt="" coords="79,95,173,121"/>
-<area shape="rect" id="node4" href="$errno_8h.html" title="errno.h" alt="" coords="95,169,157,196"/>
-<area shape="rect" id="node5" href="$iolist_8h.html" title="iolist scatter / gather IO " alt="" coords="181,169,241,196"/>
-<area shape="rect" id="node7" href="$netopt_8h.html" title="Definition of global configuration options. " alt="" coords="266,169,357,196"/>
+<area shape="rect" id="node1" title="Definitions for netdev common LoRa code." alt="" coords="263,5,406,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="241,393,311,420"/>
+<area shape="rect" id="node3" href="$drivers_2include_2net_2netdev_8h.html" title="Definitions low&#45;level network driver interface." alt="" coords="233,95,335,121"/>
+<area shape="rect" id="node4" href="$errno_8h.html" title=" " alt="" coords="97,169,165,196"/>
+<area shape="rect" id="node5" href="$iolist_8h.html" title="iolist scatter / gather IO" alt="" coords="5,169,72,196"/>
+<area shape="rect" id="node9" href="$netopt_8h.html" title="Definition of global configuration options." alt="" coords="189,169,291,196"/>
+<area shape="rect" id="node10" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="211,319,341,345"/>
+<area shape="rect" id="node6" href="$unistd_8h_source.html" title=" " alt="" coords="25,244,100,271"/>
+<area shape="rect" id="node7" title=" " alt="" coords="51,393,125,420"/>
+<area shape="rect" id="node8" href="$cpu_2atmega__common_2avr__libc__extra_2include_2sys_2types_8h_source.html" title=" " alt="" coords="40,319,136,345"/>
 </map>

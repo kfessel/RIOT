@@ -1,4 +1,20 @@
 <map id="core/include/cond.h" name="core/include/cond.h">
-<area shape="rect" id="node4" href="$list_8h.html" title="Intrusive linked list. " alt="" coords="247,155,297,181"/>
-<area shape="rect" id="node5" href="$mutex_8h.html" title="Mutex for thread synchronization. " alt="" coords="155,80,224,107"/>
+<area shape="rect" id="node1" title="Condition variable for thread synchronization." alt="" coords="566,5,714,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="43,304,125,331"/>
+<area shape="rect" id="node3" title=" " alt="" coords="644,528,719,555"/>
+<area shape="rect" id="node4" href="$list_8h.html" title="Intrusive linked list." alt="" coords="722,453,777,480"/>
+<area shape="rect" id="node5" href="$mutex_8h.html" title="Mutex for thread synchronization." alt="" coords="391,80,467,107"/>
+<area shape="rect" id="node6" title=" " alt="" coords="77,528,147,555"/>
+<area shape="rect" id="node7" href="$irq_8h.html" title="IRQ driver interface." alt="" coords="115,155,165,181"/>
+<area shape="rect" id="node9" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="170,453,299,480"/>
+<area shape="rect" id="node10" href="$core_2include_2thread_8h.html" title="Threading API." alt="" coords="391,155,467,181"/>
+<area shape="rect" id="node8" title=" " alt="" coords="200,229,291,256"/>
+<area shape="rect" id="node11" href="$clist_8h.html" title="Circular linked list." alt="" coords="651,379,712,405"/>
+<area shape="rect" id="node12" href="$cib_8h.html" title="Circular integer buffer interface." alt="" coords="403,229,456,256"/>
+<area shape="rect" id="node15" href="$msg_8h.html" title="Messaging API for inter process communication." alt="" coords="315,229,378,256"/>
+<area shape="rect" id="node16" href="$sched_8h.html" title="Scheduler API definition." alt="" coords="457,304,529,331"/>
+<area shape="rect" id="node13" href="$assert_8h.html" title="POSIX.1&#45;2008 compliant version of the assert macro." alt="" coords="305,304,380,331"/>
+<area shape="rect" id="node14" href="$panic_8h.html" title="Crash handling header." alt="" coords="200,379,269,405"/>
+<area shape="rect" id="node17" href="$inttypes_8h.html" title="Adds include for missing inttype definitions." alt="" coords="345,379,431,405"/>
+<area shape="rect" id="node18" href="$native__sched_8h.html" title="Add definitions required on the native board." alt="" coords="456,379,576,405"/>
 </map>

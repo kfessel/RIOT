@@ -1,3 +1,7 @@
 <map id="boards/common/esp32/include/periph_conf_common.h" name="boards/common/esp32/include/periph_conf_common.h">
-<area shape="rect" id="node3" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration. " alt="" coords="125,109,243,136"/>
+<area shape="rect" id="node1" title="Common declarations of ESP32 periphery for all ESP32 boards." alt="" coords="43,5,214,61"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,109,111,136"/>
+<area shape="rect" id="node3" href="$kernel__defines_8h.html" title="Common macros and compiler attributes/pragmas configuration." alt="" coords="135,109,264,136"/>
+<area shape="rect" id="node4" title=" " alt="" coords="113,184,187,211"/>
+<area shape="rect" id="node5" title=" " alt="" coords="212,184,283,211"/>
 </map>

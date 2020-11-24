@@ -3,7 +3,6 @@ var dir_24d671cfcbc5d5238a6bd565a49d198f =
     [ "macros", "dir_9c93495d88a462242608e7ce13b41221.html", "dir_9c93495d88a462242608e7ce13b41221" ],
     [ "assert.h", "assert_8h.html", "assert_8h" ],
     [ "bitarithm.h", "bitarithm_8h.html", "bitarithm_8h" ],
-    [ "byteorder.h", "byteorder_8h.html", "byteorder_8h" ],
     [ "cib.h", "cib_8h.html", "cib_8h" ],
     [ "clist.h", "clist_8h.html", "clist_8h" ],
     [ "cond.h", "cond_8h.html", "cond_8h" ],

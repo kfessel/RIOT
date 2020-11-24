@@ -1,4 +1,7 @@
 <map id="boards/atmega328p/include/board.h" name="boards/atmega328p/include/board.h">
-<area shape="rect" id="node3" href="$boards_2atmega328p_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the ATmega328p standalone &quot;board&quot;. " alt="" coords="97,95,197,121"/>
-<area shape="rect" id="node4" href="$periph__conf__atmega__common_8h.html" title="Common configuration of MCU periphery for ATmega boards. " alt="" coords="77,169,216,211"/>
+<area shape="rect" id="node1" title="Board specific definitions for the standalone ATmega328p &quot;board&quot;." alt="" coords="5,5,208,47"/>
+<area shape="rect" id="node2" title=" " alt="" coords="25,95,82,121"/>
+<area shape="rect" id="node3" href="$boards_2atmega328p_2include_2periph__conf_8h.html" title="Peripheral MCU configuration for the ATmega328p standalone &quot;board&quot;." alt="" coords="107,95,216,121"/>
+<area shape="rect" id="node4" href="$periph__conf__atmega__common_8h.html" title="Common configuration of MCU periphery for ATmega boards." alt="" coords="84,169,239,211"/>
+<area shape="rect" id="node5" title=" " alt="" coords="109,259,214,285"/>
 </map>

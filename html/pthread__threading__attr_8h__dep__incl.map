@@ -1,3 +1,4 @@
 <map id="sys/posix/pthread/include/pthread_threading_attr.h" name="sys/posix/pthread/include/pthread_threading_attr.h">
-<area shape="rect" id="node2" href="$pthread_8h.html" title="POSIX conforming multi&#45;threading features. " alt="" coords="5,95,176,136"/>
+<area shape="rect" id="node1" title="Thread creation features (attributes)." alt="" coords="5,5,193,47"/>
+<area shape="rect" id="node2" href="$pthread_8h.html" title="POSIX conforming multi&#45;threading features." alt="" coords="5,95,193,136"/>
 </map>

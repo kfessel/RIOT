@@ -15,10 +15,10 @@ var group__drivers__dht =
       [ "last_read_us", "structdht__t.html#a38c9a8ef616c98d1d0acea9d314e1522", null ],
       [ "last_val", "structdht__t.html#a73ef5e1e49e060b8925d8811d7dbf0dd", null ],
       [ "params", "structdht__t.html#a2f6e1cf589185db160706d5462798e4e", null ],
-      [ "DHT_OK", "group__drivers__dht.html#gga4f79453548dc20926be4b5a000ecbd66af0aac01554980b35438a8196579e27c0", null ],
-      [ "DHT_NOCSUM", "group__drivers__dht.html#gga4f79453548dc20926be4b5a000ecbd66a0d232fdd7aaf8e953226677f46ae0421", null ],
-      [ "DHT_TIMEOUT", "group__drivers__dht.html#gga4f79453548dc20926be4b5a000ecbd66a311ca2c7237bcbf075aabde69c10a55f", null ],
-      [ "DHT_NODEV", "group__drivers__dht.html#gga4f79453548dc20926be4b5a000ecbd66a8c0bfab77e3bb222a51dab1d124da490", null ]
+      [ "DHT_OK", "group__drivers__dht.html#gga1812ab31015cef0a41c6d4f3ae07f13daf0aac01554980b35438a8196579e27c0", null ],
+      [ "DHT_NOCSUM", "group__drivers__dht.html#gga1812ab31015cef0a41c6d4f3ae07f13da0d232fdd7aaf8e953226677f46ae0421", null ],
+      [ "DHT_TIMEOUT", "group__drivers__dht.html#gga1812ab31015cef0a41c6d4f3ae07f13da311ca2c7237bcbf075aabde69c10a55f", null ],
+      [ "DHT_NODEV", "group__drivers__dht.html#gga1812ab31015cef0a41c6d4f3ae07f13da8c0bfab77e3bb222a51dab1d124da490", null ]
     ] ],
     [ "dht_type_t", "group__drivers__dht.html#ga3eca4506c322ec0fd26b784e1ef4d92a", [
       [ "DHT11", "group__drivers__dht.html#gga3eca4506c322ec0fd26b784e1ef4d92aac787700a72e9e1ab11c5135833176f87", null ],

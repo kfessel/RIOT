@@ -35,5 +35,5 @@ var group__drivers__kw41zrf =
     [ "kw41zrf_cb_t", "group__drivers__kw41zrf.html#gae827e5c56e2b0f1d1fe878f878c93839", null ],
     [ "kw41zrf_init", "group__drivers__kw41zrf.html#ga817a27aea2ab391018259018364baeed", null ],
     [ "kw41zrf_reset", "group__drivers__kw41zrf.html#ga439433c82a3f01956b328317f476a50c", null ],
-    [ "kw41zrf_setup", "group__drivers__kw41zrf.html#ga20e1afc90cb8b1324615179f3112ab4a", null ]
+    [ "kw41zrf_setup", "group__drivers__kw41zrf.html#ga8f2d5d7b2f77525846aaeff8b65dcada", null ]
 ];

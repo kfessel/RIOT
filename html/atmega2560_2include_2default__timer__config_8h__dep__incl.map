@@ -1,3 +1,4 @@
 <map id="cpu/atmega2560/include/default_timer_config.h" name="cpu/atmega2560/include/default_timer_config.h">
-<area shape="rect" id="node2" href="$atmega2560_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling. " alt="" coords="5,95,168,136"/>
+<area shape="rect" id="node1" title="Default timer configuration." alt="" coords="5,5,188,47"/>
+<area shape="rect" id="node2" href="$atmega2560_2include_2periph__cpu_8h.html" title="CPU specific definitions for internal peripheral handling." alt="" coords="5,95,188,136"/>
 </map>

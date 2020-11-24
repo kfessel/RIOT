@@ -1,5 +1,6 @@
 var group__drivers__at86rf2xx =
 [
+    [ "at86rf2xx_aes.h", "at86rf2xx__aes_8h.html", null ],
     [ "at86rf2xx_internal.h", "at86rf2xx__internal_8h.html", null ],
     [ "at86rf2xx_netdev.h", "at86rf2xx__netdev_8h.html", null ],
     [ "at86rf2xx_params.h", "at86rf2xx__params_8h.html", null ],
@@ -21,7 +22,7 @@ var group__drivers__at86rf2xx =
       [ "pending_tx", "structat86rf2xx__t.html#a5fb72e21ea1e13d15544300445540673", null ],
       [ "state", "structat86rf2xx__t.html#aa5c980110602a4c8ddd7e179b23fc157", null ],
       [ "tx_frame_len", "structat86rf2xx__t.html#a6da5b5681afa111d6334470550bb16bb", null ],
-      [ "tx_retries", "structat86rf2xx__t.html#a43b6e0603848cbfe1a48e359c9dbc0f8", null ]
+      [ "tx_retries", "structat86rf2xx__t.html#a29ec190d62c9a8ecafe100085034e227", null ]
     ] ],
     [ "AT86RF2XX_DEFAULT_TXPOWER", "group__drivers__at86rf2xx.html#ga57056cba345e04f72cd800919f2cb866", null ],
     [ "AT86RF2XX_HAVE_RETRIES", "group__drivers__at86rf2xx.html#ga382fb6eb59fed9d3a3ec43c3b4f8b5b9", null ],
@@ -54,10 +55,9 @@ var group__drivers__at86rf2xx =
     [ "AT86RF2XX_STATE_SLEEP", "group__drivers__at86rf2xx.html#ga8fa39c460648d4c2fd2ac08a1bcb73c2", null ],
     [ "AT86RF2XX_STATE_TRX_OFF", "group__drivers__at86rf2xx.html#ga87fa5ccd00353d67ea9721bc69a0760c", null ],
     [ "AT86RF2XX_STATE_TX_ARET_ON", "group__drivers__at86rf2xx.html#gaab36fd453fae34c75bd67b07a8f4f493", null ],
-    [ "MAX_RX_SENSITIVITY", "group__drivers__at86rf2xx.html#gaee62af6f33ccff419694564837c6ab7c", null ],
     [ "MIN_RX_SENSITIVITY", "group__drivers__at86rf2xx.html#gae2aa16478225369ca09cefd8a1a53bdc", null ],
     [ "RSSI_BASE_VAL", "group__drivers__at86rf2xx.html#ga272a6f3cfa720c483c3cbb6d2bf80417", null ],
-    [ "at86rf2xx_params_t", "group__drivers__at86rf2xx.html#gaf468161eb1a37b3ecbe4a2c26007c28e", null ],
+    [ "at86rf2xx_params_t", "group__drivers__at86rf2xx.html#gaa160a09bf961b72bb00c8f4257a6a792", null ],
     [ "at86rf2xx_cca", "group__drivers__at86rf2xx.html#ga364e97177b18080766779340271a6b18", null ],
     [ "at86rf2xx_get_addr_long", "group__drivers__at86rf2xx.html#ga3bdca1a2090554004ba377a53a498b4e", null ],
     [ "at86rf2xx_get_addr_short", "group__drivers__at86rf2xx.html#gaba8e99b536f55fd39f14274085679234", null ],
@@ -70,7 +70,7 @@ var group__drivers__at86rf2xx =
     [ "at86rf2xx_get_pan", "group__drivers__at86rf2xx.html#ga7bc0d88b48eafcd0626daf405a7f87b0", null ],
     [ "at86rf2xx_get_phy_mode", "group__drivers__at86rf2xx.html#ga8113fd7420a1e72296bacc284edcacbf", null ],
     [ "at86rf2xx_get_rate", "group__drivers__at86rf2xx.html#ga7099b1f41506f92fb8c044ec866325e7", null ],
-    [ "at86rf2xx_get_rxsensitivity", "group__drivers__at86rf2xx.html#ga92809e2ca4038432ad5bf7a4297b112b", null ],
+    [ "at86rf2xx_get_rxsensitivity", "group__drivers__at86rf2xx.html#ga8dd4189498e935e15242d218a5a15476", null ],
     [ "at86rf2xx_get_txpower", "group__drivers__at86rf2xx.html#gaa24ff0812c9e7335b3a8532a6b0a5197", null ],
     [ "at86rf2xx_reset", "group__drivers__at86rf2xx.html#ga010d71c25fe8f7b56d8eb44ebe1c309f", null ],
     [ "at86rf2xx_send", "group__drivers__at86rf2xx.html#ga028aa9fd3733643ddb9a071b464ffb39", null ],
@@ -86,11 +86,11 @@ var group__drivers__at86rf2xx =
     [ "at86rf2xx_set_page", "group__drivers__at86rf2xx.html#gaeb2b8f2e30cf0ddfcf8a2e0a8e8163ca", null ],
     [ "at86rf2xx_set_pan", "group__drivers__at86rf2xx.html#ga19d681c2df589036d92f296b3ab37854", null ],
     [ "at86rf2xx_set_rate", "group__drivers__at86rf2xx.html#ga0035d11b9021ce0e062c65af8f2258b7", null ],
-    [ "at86rf2xx_set_rxsensitivity", "group__drivers__at86rf2xx.html#gaca49cf87eb41c3f62d56ea2c7aff490f", null ],
+    [ "at86rf2xx_set_rxsensitivity", "group__drivers__at86rf2xx.html#gaf8853cea295d6783e43c37393de13302", null ],
     [ "at86rf2xx_set_state", "group__drivers__at86rf2xx.html#ga8329661c60d56b4552451c481efdb88c", null ],
     [ "at86rf2xx_set_txpower", "group__drivers__at86rf2xx.html#gae73f80d4c6fb9a7dc1e2a6741fc3c889", null ],
-    [ "at86rf2xx_setup", "group__drivers__at86rf2xx.html#ga155995c2c8bf020640e2e5389345dd44", null ],
-    [ "at86rf2xx_tx_exec", "group__drivers__at86rf2xx.html#ga70e28599616cf8ee6336a5eee2561e9c", null ],
+    [ "at86rf2xx_setup", "group__drivers__at86rf2xx.html#ga83dce40c4820812ba86cf5934d2bb1a8", null ],
+    [ "at86rf2xx_tx_exec", "group__drivers__at86rf2xx.html#ga4340b9a347122377f108f1c22ed13fb9", null ],
     [ "at86rf2xx_tx_load", "group__drivers__at86rf2xx.html#ga3c2ca922ff8f35ce4a0b31d8c1cee8e2", null ],
     [ "at86rf2xx_tx_prepare", "group__drivers__at86rf2xx.html#ga17c47a113c11512188bc1a43d71c5e5c", null ]
 ];
