@@ -447,9 +447,9 @@ ztimer_now_t _ztimer_now_extend(ztimer_clock_t *clock);
  *
  * @param[in]   clock          ztimer clock to operate on
  *
- * @return  Current count on @p clock
+ * @return  Current 32bits of count on @p clock
  */
-static inline ztimer_now_t ztimer_now(ztimer_clock_t *clock)
+static inline uint32_t ztimer_now(ztimer_clock_t *clock)
 {
 #if MODULE_ZTIMER_NOW64
     if (1) {
@@ -458,7 +458,7 @@ static inline ztimer_now_t ztimer_now(ztimer_clock_t *clock)
 #else
     if (0) {
 #endif
-        return _ztimer_now_extend(clock);
+        return (uint32_t) _ztimer_now_extend(clock);
     }
     else {
         return clock->ops->now(clock);
