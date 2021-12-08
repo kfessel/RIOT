@@ -465,6 +465,20 @@ static inline uint32_t ztimer_now(ztimer_clock_t *clock)
     }
 }
 
+#if MODULE_ZTIMER_NOW64 || DOXYGEN
+/**
+ * @brief   Get the current time from a clock
+ *
+ * @param[in]   clock          ztimer clock to operate on
+ *
+ * @return  Current count on @p clock
+ */
+static inline ztimer_now_t ztimer_now64(ztimer_clock_t *clock)
+{
+        return _ztimer_now_extend(clock);
+}
+#endif
+
 /**
  * @brief Suspend the calling thread until the time (@p last_wakeup + @p period)
  *
