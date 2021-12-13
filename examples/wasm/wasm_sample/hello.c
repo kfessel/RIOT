@@ -10,6 +10,12 @@ extern int printf( const char * ,...);
 
 WASM_EXPORT int main(int argc, char **argv)
 {
-    printf("Hello RIOT %i\n" , 2001);
+    printf("\tThis is the hello.wasm example\n");
+    printf("\tcalled with runtime parameters: ");
+    for(int i=0; i<argc; i++) {
+        printf("%s ", argv[i]);
+    }
+    printf("\n");
+    printf("\tBye!\n");
     return 2468;
 }

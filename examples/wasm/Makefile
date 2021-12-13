@@ -16,7 +16,7 @@ export WAMR_CONFIG := $(abspath config.cmake)
 WPEDANTIC := 0
 WERROR := 0
 
-BLOBS += main.wasm hello.wasm
+BLOBS += hello.wasm
 
 # Comment this out to disable code in RIOT that does safety checking
 # which is not needed in a production environment but helps in the
@@ -26,8 +26,8 @@ DEVELHELP ?= 1
 # Change this to 0 show compiler invocation lines by default:
 QUIET ?= 1
 
-#######################################################
-# Load the rest of the usual RIOT make infrastructure #
-#######################################################
+hello.wasm: wasm_sample/hello.c
+	make -C wasm_sample hello.wasm
+	mv wasm_sample/hello.wasm .
 
 include $(RIOTBASE)/Makefile.include
