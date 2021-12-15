@@ -38,8 +38,10 @@
 #define EVENT_TIMEOUT_H
 
 #include "event.h"
-#if IS_USED(MODULE_EVENT_TIMEOUT_ZTIMER) || IS_USED(MODULE_ZTIMER_USEC)
+#if IS_USED(MODULE_EVENT_TIMEOUT_ZTIMER)
 #include "ztimer.h"
+#elif IS_USED(MODULE_ZTIMER64_USEC) && !IS_USED(MODULE_XTIMER)
+#include "ztimer64.h"
 #else
 #include "xtimer.h"
 #endif
@@ -55,8 +57,10 @@ typedef struct {
 #if IS_USED(MODULE_EVENT_TIMEOUT_ZTIMER)
     ztimer_clock_t *clock;  /**< ztimer clock to use */
 #endif
-#if IS_USED(MODULE_EVENT_TIMEOUT_ZTIMER) || IS_USED(MODULE_ZTIMER_USEC)
+#if IS_USED(MODULE_EVENT_TIMEOUT_ZTIMER)
     ztimer_t timer;         /**< ztimer object used for timeout */
+#elif IS_USED(MODULE_ZTIMER64_USEC) && !IS_USED(MODULE_XTIMER)
+    ztimer64_t timer;       /**< ztimer64 object used for timeout */
 #else
     xtimer_t timer;         /**< ztimer object used for timeout */
 #endif

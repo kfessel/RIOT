@@ -542,7 +542,8 @@ ifneq (,$(filter event_timeout,$(USEMODULE)))
   ifneq (,$(filter event_timeout_ztimer,$(USEMODULE)))
     USEMODULE += ztimer_usec
   else
-    ifeq (,$(filter ztimer_usec,$(USEMODULE)))
+    # if ztimer64_usec is used then xtimer_compat can be used
+    ifeq (,$(filter ztimer64_usec,$(USEMODULE)))
       USEMODULE += xtimer
     endif
   endif
@@ -802,7 +803,8 @@ ifneq (,$(filter xtimer,$(USEMODULE)))
       # will use *ztimer_usec as low-level timer*
     endif
   else
-  # ztimer_xtimer_compat is used, all of *xtimer's API will be mapped on ztimer.*
+    # ztimer_xtimer_compat is used, all of *xtimer's API will be mapped on ztimer.*
+    USEMODULE += ztimer64_usec
   endif
 endif
 

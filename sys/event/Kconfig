@@ -63,7 +63,7 @@ config EVENT_TIMEOUT_ON_ZTIMER
 
 config EVENT_TIMEOUT_ON_XTIMER
     bool "Use xtimer as backend"
-    select MODULE_XTIMER if !ZTIMER_USEC
+    select MODULE_XTIMER if !ZTIMER64_USEC
 
 endchoice # EVENT_TIMEOUT_IMPLEMENTATION
 

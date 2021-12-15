@@ -10,7 +10,7 @@
 
 #include "kernel_defines.h"
 #include "event/timeout.h"
-#if IS_USED(MODULE_ZTIMER_USEC)
+#if IS_USED(MODULE_ZTIMER64_USEC) && !IS_USED(MODULE_XTIMER)
 #include "ztimer/xtimer_compat.h"
 #else
 #include "xtimer.h"
