@@ -1,0 +1,26 @@
+/**
+ * @defgroup    sys_sched_round_robin sched_round_robin: Round Robin Scheduler
+ * @ingroup     sys
+ *
+ * @brief       round robin scheduler based on highlevel timer module
+ *
+ * module name: sched_round_robin
+ *
+ * This module provides round robin scheduling for all
+ * runable threads within each not masked priority.
+ * Priority 0 (highest but hardware (irq)) is masked by default
+ * not to be round robin scheduled.
+ *
+ * This implementation tries to find a balance between
+ * low resources (static memory: a timer and an uint8),
+ * fairness in terms of CPU time share and simplicity.
+ * But it does round robin the runqueue when the timer ticks
+ * even if the thread just got the CPU.
+ *
+ * This module might be used if threads are not divisible
+ * into priorities and cooperation can not be ensured.
+ *
+ * @par Usage:
+ * - add `USEMODULE += sched_round_robin` to Makefile
+ *
+ */

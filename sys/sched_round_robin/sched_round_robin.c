@@ -6,7 +6,7 @@
  * directory for more details.
  */
 /**
- * @ingroup     sys
+ * @addtogroup     sys_sched_round_robin
  * @{
  *
  * @file

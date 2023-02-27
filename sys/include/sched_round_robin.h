@@ -7,19 +7,7 @@
  */
 
 /**
- * @defgroup    sched_round_robin Round Robin Scheduler
- * @ingroup     sys
- * @brief       This module module provides round robin scheduling for all
- *              runable threads within each not masked priority.
- *              Priority 0 is masked by default.
- *              This implementation tries to find a balance between
- *              low resources (static memory: a timer and an uint8),
- *              fairness in terms of CPU time share and simplicity.
- *              But it does round robin the runqueue when the timer ticks
- *              even if the thread just got the CPU.
- *
- *              This module might be used if threads are not divisible
- *              into priorities and cooperation can not be ensured.
+ * @addtogroup     sys_sched_round_robin
  *
  * @{
  *
