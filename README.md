@@ -53,7 +53,7 @@ indirect business models around the free open-source software platform
 provided by RIOT, e.g. it is possible to link closed-source code with the
 LGPL code.
 
-[Ariel OS](https://github.com/ariel-os/ariel-os) is an offspring of RIOT written in Rust following RIOT's targets and vision.
+[Ariel OS](https://github.com/ariel-os/ariel-os) is an offspring of RIOT written in Rust following RIOT's targets and [vision](https://doc.riot-os.org/vision.html).
 
 ## Features
 
