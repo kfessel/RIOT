@@ -77,10 +77,10 @@ RIOT provides features including, but not limited to:
     - RPL (storing mode, P2P mode)
     - CoAP
     - MQTT via paho-mqtt and MQTT-SN
+    - LwM2M
     - Bluetooth (BLE) via [NimBLE](https://github.com/apache/mynewt-nimble)
     - LoRaWAN
     - UWB
-    - LwM2M 
     - CAN
     - CNN-Lite
     - LwIP
