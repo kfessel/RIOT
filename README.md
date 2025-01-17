@@ -74,6 +74,7 @@ RIOT provides features including, but not limited to:
     - IPv4 via lwIP
     - 6LoWPAN (RFC4944, RFC6282, RFC6775 and RFC7668 )
     - UDP
+    - TCP
     - RPL (storing mode, P2P mode)
     - CoAP
     - MQTT via paho-mqtt and MQTT-SN
