@@ -71,20 +71,24 @@ RIOT provides features including, but not limited to:
 
  * Network Features and Protocols
     - IPv6
-    - 6LoWPAN (RFC4944, RFC6282, and RFC6775)
+    - IPv4 via lwIP
+    - 6LoWPAN (RFC4944, RFC6282, RFC6775 and RFC7668 )
     - UDP
     - RPL (storing mode, P2P mode)
     - CoAP
-    - MQTT
+    - MQTT via paho-mqtt and MQTT-SN
     - Bluetooth (BLE) via [NimBLE](https://github.com/apache/mynewt-nimble)
     - LoRaWAN
     - UWB
     - CNN-Lite
     - LwIP
+    - IEEE 802.15.4
+    - Ethernet (also via USB)
+    - SLIP (or ethos networking via Serial)
     - Dose (single pair ethernet like networking on serial interface UART)
 
  * System Features
-    - a preemptive, tickless scheduler with priorities
+    - a preemptive, tickless scheduler with priorities, optional periodic round robin within priorities
     - flexible memory management
     - high resolution, long-term timers
     - MTD abstraction layer for memory devices
@@ -96,11 +100,13 @@ RIOT provides features including, but not limited to:
     - DTLS, EDHOC
 
  * Device Drivers
-    - SPI, I2C, UART, USB
+    - SPI, I2C, UART, USB, CAN
+    - RTC, PWM, Timer
+    - ADC, DAC
     - Various sensors: Environmental sensors, IMUs, magnetometers, particulate matter sensors
     - Various actuators: Servos, motors, dimmers, switches, RGB LEDs
     - Displays and touchscreens
-    - GNSS modules
+    - GNSS
 
 ## Getting RIOT
 
