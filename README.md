@@ -80,6 +80,8 @@ RIOT provides features including, but not limited to:
     - Bluetooth (BLE) via [NimBLE](https://github.com/apache/mynewt-nimble)
     - LoRaWAN
     - UWB
+    - LwM2M 
+    - CAN
     - CNN-Lite
     - LwIP
     - IEEE 802.15.4
