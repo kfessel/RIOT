@@ -7,6 +7,8 @@
 # General Public License v2.1. See the file LICENSE in the top level
 # directory for more details.
 
+SCRIPTREALDIR=$(realpath $(dirname "${0}"))
+
 : "${RIOTBASE:=$(cd $(dirname $0)/../../../; pwd)}"
 cd $RIOTBASE
 
@@ -14,7 +16,7 @@ cd $RIOTBASE
 . "${RIOTTOOLS}"/ci/changed_files.sh
 
 # customizable
-CHECKROOT=$(dirname "${0}")
+CHECKROOT="${SCRIPTREALDIR}"
 LICENSEDIR="${CHECKROOT}/patterns"
 OUTPUT="${CHECKROOT}/out"
 UNKNOWN="${OUTPUT}/unknown"
@@ -27,6 +29,8 @@ TAB_CHAR="$(printf '\t')"
 ROOT=$(git rev-parse --show-toplevel)
 LICENSES=$(ls "${LICENSEDIR}")
 EXIT_CODE=0
+
+echo "${LICENSES}" | tr ' ' '\n' 
 
 : ${ERROR_EXIT_CODE:=1}
 
@@ -41,7 +45,8 @@ done
 declare -A PATTERNS
 for LICENSE in ${LICENSES}; do
     echo -n '' > "${OUTPUT}/${LICENSE}"
-    PATTERNS[${LICENSE}]="$(grep -v '^$' "${LICENSEDIR}/${LICENSE}" | paste -sd'|')"
+    PATTERNS[${LICENSE}]="$(grep -v '^$' "${LICENSEDIR}/${LICENSE}" | paste -sd' ' | sed -e 's/[[:space:]][[:space:]]*/ /g')"
+    echo "pattern for ${LICENSE}: ${PATTERNS[${LICENSE}]}"
 done
 
 FILES=$(FILEREGEX='\.([sSch]|cpp)$' changed_files)
@@ -49,9 +54,9 @@ FILES=$(FILEREGEX='\.([sSch]|cpp)$' changed_files)
 # categorize files
 for FILE in ${FILES}; do
     FAIL=1
-    head -100 "${ROOT}/${FILE}" | sed -e 's/[\/\*'"${TAB_CHAR}"']/ /g' -e 's/$/ /' | tr -d '\r\n' | sed -e 's/  */ /g' > "${TMP}"
+    head -100 "${ROOT}/${FILE}" | sed -e 's/[\/\*'"${TAB_CHAR}"']/ /g' | paste -sd' ' | sed -e 's/[[:space:]][[:space:]]*/ /g' > "${TMP}"
     for LICENSE in ${LICENSES}; do
-        if grep -qP "${PATTERNS[${LICENSE}]}" "${TMP}"; then
+        if grep -qE "${PATTERNS[${LICENSE}]}" "${TMP}"; then
             echo "${FILE}" >> "${OUTPUT}/${LICENSE}"
             FAIL=0
             break
